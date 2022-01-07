@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.theregister.com/2021/09/30/ai_model_rain_deepminnd/
+
+== AGENT
+
+DeepMind, the University of Exeter in England and the Met Office
+
+== GOAL
+
+To build an AI model capable of predicting whether it will rain in the near future
+
+== DATA
+
+A sequence of map examples, each one capturing weather data over five minute intervals during the training stage.
+Data was provided by the Met Office.
+
+== METHODS
+
+Used a generative adversarial network to produce a sequence of maps indicating where it's going to rain.
+Method was unsupervised.
+
+== RESULTS
+
+Could generate the next series of maps to predict rainfall in five minute intervals up to 90 minutes given four previous examples.
+
+== ISSUES
+
+It's performance was judged by 50 expert meteorologists to rank the predictive maps compared to maps produced by traditional methods.
+This could introduce confirmation bias on judging the quality of the results if the meteorologists believed the system could be better than
+traditional methods.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I thought it was interesting because it took a complicated sounding issue and gave it a simple solution by using Machine Learning to avoid
+having to do complicated calculations using thermodynamics, and therefore using less computational power achieve the same result.
+It was an interesting new method of predicting the weather.

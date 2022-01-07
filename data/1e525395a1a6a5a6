@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.upi.com/Science_News/2021/09/24/machine-learning-crop-genes/7511632488535/
+
+== AGENT
+
+Nature Communications
+
+== GOAL
+
+Use machine learning to identify genes of importance in agriculture and medicine
+
+== DATA
+
+Research transcriptome and phenotype datasets, gene expression datasets
+
+== METHODS
+
+Gradient boosting, XGBoost, cross validation, regression
+
+== RESULTS
+
+Where able to reduce genetic noise, improving ability to identify genes relevant to crop traits.
+
+== ISSUES
+
+No issues with paper or press report
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Interesting to see machine learning being used for agriculture again, using insight that can be found from this study might help continue increasing agriculture efficiency. The press report did a great job at condensing a very dense paper into an easy to understand article.

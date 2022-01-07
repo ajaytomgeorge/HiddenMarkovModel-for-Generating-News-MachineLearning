@@ -1,0 +1,35 @@
+ == SOURCE
+
+https://www.wired.com/story/clearview-ai-new-tools-identify-you-photos/
+
+== AGENT
+  
+Clearview
+
+== GOAL
+
+Identification of any american through images to aid police surveillance which includes new ways for police to find a person, including “deblur” and “mask removal” tools
+
+== DATA
+
+Images from social media
+
+== METHODS
+
+Facial recognition
+
+== RESULTS
+
+Documents from Clearview have claimed 98.6% or 100% accuracy while using their standard 99.6% confidence interval 
+
+== ISSUES
+
+The company is eroding personal privacy. Also, the “deblur” and “mask removal” tools can be highly biased and could lead to a person being wrongly identified
+
+== SCORE
+ 
+6. Although the technology is impressive, it is one of the use cases that has so many risks attached that I wouldn't endorse the use of such an application. Also, the way they are collecting the data is highly unethical
+
+== COMMENTS
+
+I don’t think the method is new. The innovation comes in the data collection which, again, I don’t think is ethical. They said they have scrapped over 10 billion photographs from the internet. I would say this would be one of the most complete data sets in terms of facial recognition besides those belonging to social media and Apple.

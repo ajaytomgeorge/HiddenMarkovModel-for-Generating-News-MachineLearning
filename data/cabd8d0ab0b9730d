@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.forbes.com/sites/cognitiveworld/2021/10/09/creating-curating-and-optimizing-with-data-science-and-machine-learning-at-the-new-york-times/
+
+== AGENT
+
+The New York Times
+
+== GOAL
+
+Use the vast array of data present in the New York Times to help the company in different sectors like the news room, marketing and business operations.
+
+== DATA
+
+Business data as well as previous stories and previous editorials.
+
+== METHODS
+
+Supervised algorithms, Data science, AI, recommendation algorithms.
+
+== RESULTS
+
+Implementing AI and ML algorithms proves difficult and the New York Times deal with this variability daily. They have to change their tactics with different news cycles and thus they have to be retrained with the new stories.
+
+== ISSUES
+
+The news and journalism industry has so much variability that causes the need of many different algorithms which can be costly.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this story was interesting and very new as I have never understood how a company like the New York Times uses ai and machine learning to run their company. I thought the fact that they use machine learning and ai for news is quite strange as the unpredictability of the real world would make a problem and become an outlier in a data set but this was an extremely interesting report on ML and AI.

@@ -1,0 +1,30 @@
+==== SOURCE
+
+http://news.mit.edu/2019/human-reasoning-ai-driverless-car-navigation-0523
+
+==== AGENT
+
+Alexander Amini, an MIT graduate student,  Daniela Rus, director of the Computer Science and Artificial Intelligence Laboratory (CSAIL) 
+and the Andrew and Erna Viterbi Professor of Electrical Engineering and Computer Science MIT.
+
+==== GOAL
+
+To create a machine learning model that would bring more human-like reasoning to autonomous vehicle navigation, MIT researchers have created a system that enables 
+driverless cars to check a simple map and use visual data to follow routes in new, complex environments.
+
+==== DATA
+
+human operator controlled an automated Toyota Prius — equipped with several cameras and a basic GPS navigation system — to collect data from local 
+suburban streets including various road structures and obstacles.
+
+==== METHODS
+he system uses a machine learning model called a convolutional neural network (CNN), commonly used for image recognition. During training, the system watches and 
+learns how to steer from a human driver. The CNN correlates steering wheel rotations to road curvatures it observes through cameras and an inputted map. 
+Eventually, it learns the most likely steering command for various driving situations, such as straight roads, four-way or T-shaped intersections, forks, and rotaries.
+
+==== RESULTS
+
+When deployed autonomously, the system successfully navigated the car along a preplanned path in a different forested area, designated for autonomous vehicle tests.
+
+==== COMMENTS
+

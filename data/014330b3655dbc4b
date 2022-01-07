@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2021/08/210820135346.htm
+
+== AGENT
+
+TU,Dresden
+
+== GOAL
+
+Developing a bio-compatible implantable AI platform that classifies in real time healthy 
+and pathological patterns in biological signals such as heartbeats. 
+
+== DATA
+
+Data is a set of pathological signals like heartbeat of healthy and unhealthy people called as Diagnostic patient data
+
+== METHODS
+
+Recurrent networks
+
+== RESULTS
+
+It detects pathological changes even without medical supervision
+
+== ISSUES
+
+None
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The method is very interesting, and the best part is that the model is general purpose based and can be used across many health monitoring data
+However, the challenge would still be implanting an AI interface in humans

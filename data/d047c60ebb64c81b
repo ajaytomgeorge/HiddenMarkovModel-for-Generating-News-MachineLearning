@@ -1,0 +1,18 @@
+== SOURCE
+https://amplitude.com/blog/introducing-nova-automl-a-new-architecture-for-predictive-insights
+== AGENT
+Amplitute
+== GOAL
+Generate predicitive insights for how users interact with a digital product.
+== DATA
+Customer event and user property data
+== METHODS
+Isotonic regression, behavioural offset
+== RESULTS
+The results are unique and private to each customer, but their services are employed by many companies like Ford, Walmart and Atlassian
+== ISSUES
+They go over many possible issues I would have in the blog post and account for every one. For example, small data sets could of been an issue but they correct for this by using proballistic weighting. 
+== SCORE
+3
+== COMMENTS
+While it seems that their product is impressive enough to be used by many top companies, the process and the results of this machine learning they are using are hard to find. I can not find much to be impressed about since much of their process is behind closed doors and I would of like to have found more about this product they are offering.

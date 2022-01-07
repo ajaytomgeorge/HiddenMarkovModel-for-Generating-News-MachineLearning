@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.cnbc.com/2021/03/04/facebook-trains-ai-to-see-using-1-billion-public-instagram-photos-.html
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+To build an artificial intelligence program that can “see” what it is looking at.
+
+== DATA
+
+The used over 1 billion public images from Instagram.
+
+== METHODS
+
+Learned how to identify objects in photos by analyzing random, unlabeled and uncurated Instagram images. 
+AKA using the technique self-supervised learning.
+
+== RESULTS
+
+The program achieved a “classification accuracy score” of 84.2% when it attempted a test provided by ImageNet.
+
+== ISSUES
+
+I was thinking there could be privacy issues however facebook has stated that 
+instagram users agree to let their information to be used for experimental research when they agree to the data policy.
+Facebook have a bad history with data like the Cambridge analytical scandal, so they could make more unethical decisions.  
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I did think it was interesting that facebook are trying to build an AI to 'see' however, its hard to trust a company like Facebook especially when it 
+comes to using other peoples data. I do think that their project will only get more accurate over time as they have an unlimited amount of data to constantly train their models with. 
+The article was quite interesting but was a bit too small and didnt fit in a lot of information.

@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.sciencedaily.com/releases/2019/09/190917133052.htm
+
+==== AGENT
+
+University of California - Irvine
+
+==== GOAL
+
+Machine learning used to help tell which wildfires will burn out of control
+
+==== DATA
+
+climate data and crucial details about atmospheric conditions and the types of vegetation present around the starting point of a fire
+
+==== METHODS
+
+"decision tree" algorithm. The algorithm "learns" with each new data point and can quickly figure out the critical thresholds for identifying large fire
+
+==== RESULTS
+
+The researchers could predict the final size of a blaze 50 percent of the time
+
+==== COMMENTS
+
+This could be a very important use of machine learning and in the future help save wildlife and people lives if a fire is caught in time.

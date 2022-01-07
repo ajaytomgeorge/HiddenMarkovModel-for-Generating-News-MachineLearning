@@ -1,0 +1,19 @@
+== SOURCE
+https://www.nature.com/articles/s41467-020-19137-6
+== AGENT
+Wilmar International Limited
+Yihai Kerry Arawana Oils
+== GOAL
+identifies oil adulteration and edible oil mixtures
+== DATA
+Oil samples of the ten oil types that make up the database for modeling were obtained from production plants in Yihai Kerry. These oil samples were processed in the laboratory with additional segregation in place so that samples can be traced down to a single origin.
+== METHODS
+Deep learning models
+== RESULTS
+The identities inferred by the unsupervised GMM model achieved a precision and sensitivity rates of 99.9%, assuming that some of the oil types were divided into smaller subclusters
+== ISSUES
+
+== SCORE
+4
+== COMMENTS
+the way they simulate oil mixture is new to me.

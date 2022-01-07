@@ -1,0 +1,32 @@
+﻿==== SOURCE
+
+https://www.prnewswire.com/news-releases/brandwatch-image-insights-the-image-analytics-platform-to-track-every-logo-300481174.html
+
+==== AGENT
+
+Brandwatch
+
+==== GOAL
+
+Monitor logo including logos which are hard to track.
+
+==== DATA
+
+Images dataset is built up by client updates (3.2 billion images shared online each day).
+
+
+==== METHODS
+
+They Use Deep Learning Network, which is an algorithm of machine learning, to learn the patterns in images and train CNN (Convolutional Neural Network).
+The procedural can be described as following phases:
+1. Image Classification: itself is a supervised learning method by using CNN to group images into different categories (e.g., colored image, w/b image, etc.) and each category has its subcategories (e.g., subcategory of colored can be shops and sport). Properties (images) can be shared among categories (e.g., the same image of a sport can also belong to a simple).
+2.Data Labeling: using data labeling tools such as VGG Image Annotator (VIA), Computer Vision Annotation Tool (CVAT) so that the algorithm can learn to generate predictions by itself. The main task here is to identify the object, text or patterns in each image (e.g., check whether the logo is in the right rotation, the language type of logo, if the logo contains words, etc.).  At this stage apply NLP pipelines in order to tag images automatically. 
+
+==== RESULTS
+
+3 times more accurate, also collects 10 times more coverage than the other competitor. It is the first technology of its kind.
+
+==== COMMENTS
+
+Accuracy of detecting colored logos is not as good as b/w logos.
+

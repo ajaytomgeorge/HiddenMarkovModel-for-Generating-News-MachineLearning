@@ -1,0 +1,29 @@
+==== Source 
+
+https://www.the-scientist.com/news-opinion/machine-learning-very-easy-to-abuse-66035 
+
+==== Agent 
+
+Microbiologist, Nick Loman of the University of Birmingham 
+
+==== Goal 
+
+An interview with Nick Loman about the advantages and disadvantages of AI in biology 
+
+==== Data 
+
+They’re data was based on Nick’s own knowledge on the matter  
+
+==== Methods  
+
+Nick basically explained how machine learning could be used with biology, more specifically, he mentioned how machine learning could be used in outbreak situations and with the surveillance of antimicrobial resistance and explained what microbiology needs to learn in order to more effectively integrate machine learning. 
+
+==== Results 
+
+Nick explained that machine learning works well in the surveillance of antimicrobial resistance, however, how well it works depends on the lab that’s measuring the results as different labs could be measuring results slightly differently. For outbreaks, Nick said that they use Nanopore Sequencing as it can be deployed into filed situations and resource limited situations 
+
+==== Comments 
+
+I think it was interesting to find out that they use Machine Learning in Biology, more specifically, when it comes to dealing with outbreaks. I had never heard of Nanopore Sequencing until reading this article and they fact that its output is an electrical signal is also interesting. Would have been nice for the news article to tell me other different types of machine learning techniques like Nanopore Sequencing. 
+
+ 

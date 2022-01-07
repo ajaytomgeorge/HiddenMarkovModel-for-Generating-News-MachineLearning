@@ -1,0 +1,60 @@
+==== SOURCE
+
+https://www.economist.com/open-future/2019/10/01/how-to-respond-to-climate-change-if-you-are-an-algorithm
+
+==== AGENT
+
+OpenAI GPT2
+
+==== GOAL
+
+To win an essay-writing competition on climate change. = Economist's Open Future
+essay competition
+
+==== DATA
+
+GPT2 is a pre-trained general model for language generation. There are small
+(124M), medium (355M) and large (774M) datasets. The article doesn't state which
+one was used.
+
+https://github.com/openai/gpt-2
+
+==== METHODS
+
+They fed the GPT2 model with the essay question and 58-word description. The
+model generated six 400-word texts, they (humans) took the larger parts of 3 of
+them and placed them one after another with no editing.
+
+==== RESULTS
+
+They entered the essay into the competition, and it was judged by 6 judges who
+had no idea it was written by an AI. 4 of the judges gave it a "No" and 2 gave
+it a maybe. Most judges said that the essay didn't make any points and didn't
+offer a clear solution, and that it was not well structured. One judge did say
+the writing was "quite good"
+
+So the AI didn't achieve the goal of winning the competition, but it didn't seem
+to raise any suspicions among the judges.
+
+==== COMMENTS
+
+I think this was quite an interesting experiment, and somewhat sneaky of the
+Economist. The GPT2 model does seem to generate text that seems natural if you
+read a few lines of it, but after reading a few paragraphs, you get the sense
+that it is rambling and seems to lack direction. The writing it produces doesn't
+seem to have any goal, such as teaching something to the reader or convincing
+them of a point.
+
+In my own opinion, the scariest thing about GPT2 is the way it can sound very
+intelligent, but if you read what it's actually saying, it can be ambiguous and
+make well-written nonsense such as:
+
+"It has long been known that the rate of carbon emissions growth is rapidly
+declining, in part due to improvements in technology, including those to harness
+the earth’s abundant carbon resources."
+
+Carbon emissions are not rapidly declining, although maybe they're growing but
+the growth rate is in decline, either way it's ambiguous. Also, "carbon
+resourses" aren't a thing. Carbon is not a resource. Carbon is a by-product.
+It's somewhat disappointing that the judges didn't notice or point out these
+inaccuracies.

@@ -1,0 +1,45 @@
+﻿==== SOURCE
+
+
+
+https://www.healthdatamanagement.com/news/machine-learning-can-differentiate-types-of-pancreatic-cancer-tumors
+
+==== AGENT
+
+
+
+Researchers from School of Medicine, Technical University of Munich, Germany
+
+==== GOAL
+
+They developed a neural network to determine the subtypes of pancreatic cancer for 
+better individualized treatment.
+
+==== DATA
+
+
+
+They used MRI scans from 55 pancreatic cancer patients, having a 70/30 train/test 
+split.
+
+==== METHODS
+
+
+They trained a neural network on the MRI scans, distinguishing between two subtypes 
+of pancreatic cancer.
+
+==== RESULTS
+
+
+
+The article reports that the neural network achieved high sensitivity and 
+specificity and a follow-up of the patients the neural network has been tested on 
+shows good survival rates.
+
+==== COMMENTS
+
+
+
+The article does not go into any technical detail of the neural network and the 
+results are presented vaguely, i.e. no specific numbers are given. It presents the 
+paper in a neutral way.

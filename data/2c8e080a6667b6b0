@@ -1,0 +1,21 @@
+== SOURCE
+https://www.tweaktown.com/news/81748/ea-uses-machine-learning-to-test-out-live-games-like-battlefield-2042/index.html
+== AGENT
+Tweak-town
+EA
+== GOAL
+Use Machine Learning to test out new games 
+== DATA
+Electronic Arts' experimental SEED division is currently using machine learning to help streamline game testing and simulator human behavior. EA's games are getting bigger and bigger. Battlefield 2042, for example, is always-online and features 128-player multiplayer. It's the biggest project DICE has ever done. To make the game a reality, EA and DICE have used machine learning and AI to help initiate deep testing that goes beyond human capabilities. Instead of taking a brute force approach of just throwing people at the problem, we use machine learning to build tools that help our tester's with tedious tasks, which means an overall improvement of quality-of-life for our developers, where they can focus on more important and fundamental testing.
+Also, with neural networks learning how to play the games by themselves we can mimic human-like behaviors that go beyond current automated testing approaches, of scripted bots, where the game learns and plays like a human. This means we find bugs faster, in ways that humans do, before they get out in the wild to millions of players.
+
+== METHODS
+Neural Networks and Artificial Intelligence 
+== RESULTS
+ML being used to test out games by simulating humans 
+== ISSUES
+- 
+== SCORE
+8/10
+== COMMENTS
+

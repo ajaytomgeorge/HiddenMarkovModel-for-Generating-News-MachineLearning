@@ -1,0 +1,28 @@
+==== SOURCE
+https://futurefive.com.au/story/turnitin-looks-to-ai-to-detect-student-cheaters
+
+==== AGENT
+Turnitin
+
+==== DATA
+As part of the study, 24 experienced markers used Turnitin’s Authorship Investigate tool
+to evaluate 20 student assignments, which included 14 genuine assignments and six that
+were purchased from cheating sites.
+
+==== GOAL
+TurnitIn's goal is to try and improve their system of detecting assingments that have been cheated on using machine
+learning.
+
+==== METHODS
+The AI and ML systems were able to analyse sentence complexity, sentence length, and other stylometrics,
+as well as document information such as date created and last modified and used these information points to train a
+neural network to be able to predict bettwe whether or not a uploaded piece of work was done through cheating or not.
+
+==== RESULTS
+While Turnitin’s AI and ML detections weren’t perfect (it detected 59% of all cheating cases),
+it’s a step in the right direction for more intelligent cheating detections.
+Without AI and ML, markers were only able to detect 48% of cheating instances.
+
+==== COMMENTS
+I think this is an interesting use of AI as it affects me directly as a student that uses the Turnitin service.
+The story is short and concise and outlines all the main points making it easy to understand the goal of Turnitin.

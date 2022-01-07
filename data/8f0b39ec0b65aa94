@@ -1,0 +1,27 @@
+== SOURCE
+https://becominghuman.ai/how-big-data-and-ai-has-changed-the-music-industry-c28ad1573d7f
+
+== AGENT
+Spotify
+
+== GOAL
+Using data to be better than their competitors.
+
+== DATA
+Which songs you’ve played on repeat, added to the playlist.
+How they got it: Accumulation of data.
+
+== METHODS
+Unsupervised learning, Algorithms
+
+== RESULTS
+Spotify compares your music preferences to other users, finds those with similar tastes, and recommends songs they like to you.
+
+== ISSUES
+None, they are just trying to have happier customers.
+
+== SCORE
+7
+
+== COMMENTS
+It is interesting how algorithms can reecommend new songs based on someone previous liked songs.

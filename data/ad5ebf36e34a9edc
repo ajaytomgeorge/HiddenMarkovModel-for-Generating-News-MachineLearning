@@ -1,0 +1,37 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-estimate-risk-cardiovascular-death-0912
+
+==== AGENT
+
+MIT’s Computer Science and Artificial Intelligence Laboratory
+
+==== GOAL
+
+To deterimne a persons cardiovascular death risk based on their ECG signal.
+
+==== DATA
+
+ECG data was taken from patients who had previously experienced acute coronary syndrome. 
+The different ECG data was catagorised into risk quartiles depending on the severity of 
+their cardiac condition and the likelyhood of recurring episodes.
+
+==== METHODS
+
+The program was trained to recognise a healthy electrocardiogram versus and unhelthy one
+using this information by reading just the first 15 minutes of a persons 
+electrocardiogram the system could catagorise their risk.
+
+==== RESULTS
+
+This system showed a lot of promise in the fact that assessed ECG readings and placed 
+the patients into catagories very finilar to how an actual doctor judged the risk of 
+the patient. The obvious application is in thefield of medicine however it could help 
+assess patients more efficiently and at a greater scale which would cut the cost of such 
+an assessment making it cheaper and therefore more accesssable to the general public. 
+
+==== COMMENTS
+
+In my opinion this technology will have a fairly insignificant overall effect however 
+its underlying components could be applied to many other graph analysis problems such 
+as analysis of tectonic activity.

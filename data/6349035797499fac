@@ -1,0 +1,13 @@
+==== SOURCE
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3761781/
+==== AGENT
+University of Vienna
+==== GOAL
+The goal of this study was illustrate the potential for AI in sports with this example being on weight training
+==== DATA
+The data was collected by cable force sensors attatched to different weight machines which allowed the measurement of displacemet and force determinants
+==== METHODS
+When analyzing the data, supercised learning seen as appropriate with the inclusion of the measured time series and the experts evaluations of the 
+executions.
+==== RESULTS
+The developed techniques showed good results and performance outcome, raising promise for their practical application in integrated feedback systems.

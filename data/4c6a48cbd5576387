@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://towardsdatascience.com/recommender-systems-in-practice-cef9033bb23a
+
+==== AGENT
+
+Netflix.
+
+==== GOAL
+
+Improve movie/tv-series recommendations for its users.
+
+==== DATA
+
+Based on the users historial data of watched content.
+
+==== METHODS
+
+Implement collaborative filtering which makes recommendations based on historic users' preference for items i.e. clicked, watch, purchased, liked, rated etc. 
+
+==== RESULTS
+
+They were able to provide more accurate content recommendations for its users.
+
+==== COMMENTS
+
+Alike Spotify, useful if a user wants to watch content of a similar genre.

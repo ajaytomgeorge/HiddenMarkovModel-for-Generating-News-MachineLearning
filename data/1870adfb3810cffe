@@ -1,0 +1,36 @@
+==== SOURCE
+http://news.mit.edu/2019/detecting-pain-levels-brain-signals-0912
+
+==== AGENT
+
+Reseachers From MIT
+
+==== GOAL
+
+Develop a system that measures patients pain level.
+
+==== DATA
+
+Where did they get their data? What did it look like?
+They got there data from particiapants during surgery while conscious who hooked up to this system on their forheads.
+The data measured on a scale from 0-10 where 3/10 indicating a low level pain and 7/10 indicating a higher pain.
+
+==== METHODS
+
+What did they actually do?
+
+Developed new machine learning techniques to make the system more accurate for clinincal use.They placed sensors on the patients head and different wavelength 
+of IR light is shine into the skull. oxygenated and deoxygenated hamoglobin absorbs the signals differently. whehn the light reflected back they can detect the
+level of hamoglobin levels present.When a patient is hurt there will be a sharp rise in the oxygenated hamoglobin levels and a decrease in deoxygenated hamoglobin level.
+
+
+==== RESULTS
+
+It was a success for this system. They had a personlized model and traditional model - (classifies if paient is in pain based on average resonse of entire population) this in evaluating if patients are in pain or not in pain.
+When they took a random dataset of the pain scores the personalized model outperformed the traditional model reaching a reasonable 87% accuracy. 
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+It is a good technique to measure the pain but it is requires lot of sensors to be placed on the patients head and this is usless during a surgery as the patient wont 
+be conscious at all.

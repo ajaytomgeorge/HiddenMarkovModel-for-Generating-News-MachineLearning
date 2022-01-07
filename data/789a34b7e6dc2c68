@@ -1,0 +1,42 @@
+== SOURCE
+
+> Facebook's DeepFace Software Can Match Faces With 97.25% Accuracy
+https://www.forbes.com/sites/amitchowdhry/2014/03/18/facebooks-deepface-software-can-match-faces-with-97-25-accuracy/
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+Detect whether two faces in unfamiliar photos are of the same person for use in Facebook's "tagging" feature to suggest friends to tag in photos
+
+== DATA
+
+Dataset of 4,000,000 images of faces of 4,000 people
+
+== METHODS
+
+3D model for rotating faces in images, so that the face is "looking" at the camera
+9 layer neural network to detect similarities between the two faces
+
+== RESULTS
+
+DeepFace showed human level accuracy in recognising similar faces in images
+DeepFace reaches an accuracy of 97.35% ± 0.25% where human beings have 97.53%
+- Sometimes better than humans
+
+== ISSUES
+
+Facebook's generally shady behaviour in tracking users across websites may allow Facebook to track users in images across these websites and link them back to Facebook itself.
+- i.e. A photo of me in example.com would be discovered by Facebook, and would be used by Facebook to market to me.
+> Facebook suspended tag suggestions in 2011 after a probe by the EU
+
+== SCORE
+
+5
+
+== COMMENTS
+
+Interesting methods to extract faces from images and position them in a standardised way, regardless of the image and orientation of face in the image
+Massive increase in accuracy, at the time FBI methods only worked 80-85%

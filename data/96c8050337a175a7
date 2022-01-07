@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/artificial-intelligence-tool-can-help-detect-melanoma-0402
+
+== AGENT
+
+MIT
+
+== GOAL
+
+An A.I. tool that can help detect melanoma.
+
+== DATA
+
+20,388 images from 133 patients with visual classifications from dermatologists.
+
+== METHODS
+
+The researchers used deep convolutional neural networks (DCNNs) and applied them to analyzing SLPs by way of common photography mediums. They trained the DCNNs based on classifications provided by dermatologists working alongside them. All the images were taken using ordinary cameras and smartphones to ensure they were easily available to consumers.
+
+== RESULTS
+
+The system gained over 90% sensitivity to distinguish the lesions. by using a combination of computer vision and neural networks, they were able to achieve near expert accuracy by way of simple, readily available cameras.
+
+== ISSUES
+
+I don't see any issues relating to this research as their sample data was large and varied, the mediums through which the data was gathered were conscious decisions to allow for a consumer ready tool. They also worked alongside expert dermatologists to ensure the accuracy of the decisions were high.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+As I have a love for computer vision and neural networks, this project is very attuned to me. It also has a lot of applications in the consumer market which not a lot of A.I. do. Lastly, it also may save countless lives.

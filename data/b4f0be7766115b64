@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.forbes.com/sites/janakirammsv/2019/06/26/managing-machine-learning-models-the-uber-way/#72b396524ae4
+
+==== AGENT
+
+Uber.
+
+==== GOAL
+
+Improve overall customer experience through briding supply-demand gap, route optimisation etc. 
+
+==== DATA
+
+Based on their rich dataset from cabs, drivers and users.
+
+==== METHODS
+
+Using their built in-house ML platform 'Michaelangelo' which consists of open source systems and components. This platform allows Uber to train, evaulate and deploy models that will help them forecast a wide range of business metrics. 
+
+==== RESULTS
+
+They have successfully improved experience for their 75 million users through reducing ETA of driver by predicting demand, optimising routes by avoiding common traffic congestion locations and by introducing Uber Pool to reduce fares for riders travelling to the same location. 
+
+==== COMMENTS
+
+Great investment to improve customer service and attract more users.

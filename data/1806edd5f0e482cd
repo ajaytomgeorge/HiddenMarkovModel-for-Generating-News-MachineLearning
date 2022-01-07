@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-019-03298-6
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+Test the progress of AI algorithms in StarCraft against real players.
+
+== DATA
+
+Initially the bot only played against itself, then it was released in public matchmaking to play against real players (who may not be playing optimal strategies etc.)
+
+== METHODS
+
+Reinforcement Learning
+
+== RESULTS
+
+The results was that the AI got to the rank of Grandmaster (top 0.15% of players) in Europe. It was not able to beat the best players in the world like other AI have in chess and go.
+Another problem was that once it was on public servers, players began to notice that the accounts the AI was using all had identical login times and they had the same number of games played, meaning that they weren't anonymous. This was also addressed later on.
+
+== ISSUES
+
+A big problem was that the AI was winning purely because its' reaction time was faster than possible for a human and not because it was able to come up with superior strategies. The reaction time was increased to human levels later on when it began playing on public servers.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I thought it was extremely interesting as StarCraft is not a turn based game, it's played in real time and has far more legal moves to make than chess for example. 

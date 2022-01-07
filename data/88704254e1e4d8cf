@@ -1,0 +1,18 @@
+== SOURCE
+https://techxplore.com/news/2021-10-high-speed-drones-unknown-ai.html
+== AGENT
+Researchers at the University of Zurich
+== GOAL
+Develop a new approach to autonomously fly quadrotor drones through unknown, complex environments at high speeds (this system could be useful in emergencies, on construction sites or for security applications).
+== DATA
+The drone's neural network learned to fly by watching a sort of "simulated expert" - an algorithm that flew a computer-generated drone through a simulated environment full of complex obstacles. At all times, the algorithm had complete information on the state of the quadrotor and readings from its sensors, and could rely on enough time and computational power to always find the best trajectory.
+== METHODS
+A "simulated expert" could not be used outside of simulation, but its data were used to teach a supervised Neural Network how to predict the best trajectory based only on the information from the sensors. This is a considerable advantage over existing systems, which first use sensor data to create a map of the environment and then plan trajectories within the map—two steps that require time and computation and make it impossible to fly at high-speeds.
+== RESULTS
+The team have successfully trained an autonomous quadrotor to fly through previously unseen environments such as forests, buildings, ruins and trains, keeping speeds of up to 40 km/h and without crashing into trees, walls or other obstacles.
+== ISSUES
+A performance cap at the moment seems to still be the sensors themselves, so faster sensors that can provide more information about the environment in a smaller amount of time will have to be developed to allow drones to fly safely even at speeds above 40 km/h.
+== SCORE
+9
+== COMMENTS
+The applications are not limited to quadrotors. The researchers explain that the same approach could be useful for improving the performance of autonomous cars, or could even open the door to a new way of training AI systems for operations in domains where collecting data is difficult or impossible, for example on other planets.

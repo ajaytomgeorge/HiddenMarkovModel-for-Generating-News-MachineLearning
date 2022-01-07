@@ -1,0 +1,45 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211003/Machine-learning-predicts-hospital-onset-COVID-19-infections-using-patient-contact-networks.aspx
+
+== AGENT
+
+Imperial College London
+
+== GOAL
+
+To predict hospital-onset COVID-19 infections using dynamic networks of patient contacts
+
+== DATA
+
+Contact networks from hospital data collected routinely together with clinical attributes 
+and background contextual hospital data of the patient.
+
+== METHODS
+
+They trained the framework on 50,000 patients admitted to a NHS Trust hospital and validated it 
+on 40,057 inpatients from a hospital site in Geneva as well as 43,375 inpatients from the same
+NHS Trust but from a different time period. It seems that it was a supervised learning method where
+the framework had to predict a positive or negative test given information about the patient and who
+they were in contact with as well as if they had contracted covid soon after. 
+
+== RESULTS
+
+The framework achieved high predictive performance on the training and validation sets. The results
+suggest that contact networks could be a predictor of viral spred
+
+== ISSUES
+
+None that were evident in the article 
+
+== SCORE
+
+4
+
+== COMMENTS
+
+While the purpose of the study was to more or less show that a patient's contact network could be a good
+indicator of infection, the lack of representative data really prevents it from being of any real use. Also,
+using ML to predict viral infection seems forced. We already know that being in contact with those who are 
+infected will more likely cause us to be infected as well. Also it is a fact that being in large groups of 
+people during a viral pandemic will statistically raise chances of being infected. Why do we need ML in this area?

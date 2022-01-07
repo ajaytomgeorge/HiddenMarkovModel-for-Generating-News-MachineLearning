@@ -1,0 +1,23 @@
+==== SOURCE
+
+https://www.researchgate.net/publication/328694360_Deep_Learning_Algorithms_for_Detecting_Fake_News_in_Online_Text
+==== AGENT
+
+Conference: 13th IEEE International Conference on Computer Engineering and Systems
+
+
+==== GOAL
+
+Detect fake news 
+==== DATA
+
+Data gathered from sources that is then checked.
+==== METHOD
+
+Comb through the news to detect whether it is fake news or not
+==== RESULTS
+
+The outcome was succesful
+==== COMMENTS
+
+None

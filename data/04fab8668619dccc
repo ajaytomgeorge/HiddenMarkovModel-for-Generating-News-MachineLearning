@@ -1,0 +1,45 @@
+== SOURCE
+
+https://www.theguardian.com/technology/2020/oct/01/hold-for-me-google-launches-ai-secretary-that-waits-on-hold-for-phone-users
+
+== AGENT
+
+Google
+
+== GOAL
+
+To classify non-recorded audio in order to notify a user when there call is received by a human after being placed on hold.
+
+== DATA
+
+Conversation data collected by google utilising it's automated speech recognition technology.
+
+== METHODS
+
+Duplex is a recurrent neural network using reinforcement learning.
+
+== RESULTS
+
+So far it seems to be successful, the rollout will tell us more.
+
+== ISSUES
+
+This could clog up call centers even more as those manning the lines would have to wait for those with the AI to come back to their
+phones to proceed.
+
+There was some dispute in the beginning as to whether or not it would be necessary for the automated voice
+to declare that it was not human. There could be a danger in similar technology becoming so accurate that it could correctly
+mimic a persons voice to fabricate evidence or otherwise manipulate people who thought they were speaking to the person. 
+Though this is not an issue with this specific iteration as it is a generalised voice and not specific to the user.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+https://medium.com/buzz-words/google-duplex-how-it-works-implications-388f8a7a4f8b#:~:text=Google%20Duplex%20uses%20a%20recurrent,a%20problem%20with%20a%20solution.&text=Using%20what%20it%20has%20learned,able%20to%20solve%20new%20problem.
+more info on how google duplex works.
+
+I gave it a score of 7 for cool factor, because who likes to wait on hold? Also, convincing conversations from an AI is huge though that is more 
+on google duplex's end than hold for me.

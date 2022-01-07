@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://www.ibm.com/industries/healthcare
+
+==== AGENT
+
+IBM		
+
+==== GOAL
+
+The goal is to diagnose the illness and suggest the respective treatments.
+
+==== DATA
+
+The dataset includes the various symptoms from the user and their past medical records.
+
+==== METHODS
+
+IBM Watson is a system based on cognitive computing.
+Cognitive computing is a technique which is a mixture of different techniques such as machine learning, natural language processing, reasoning etc.
+It analyzes the symptoms, the user's medical history and queries proposed by the user and suggests the treatement accordingly.
+
+==== RESULTS
+
+Watson has been deployed in several hospitals and medical centers in recent years.
+
+==== COMMENTS
+
+It can only process the symptoms as it is stated by the user and it cannot diagnose the internal illness.

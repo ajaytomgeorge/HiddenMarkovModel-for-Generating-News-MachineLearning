@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.wired.com/story/soon-google-searches-combine-text-images/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Combine Text and Images in the Google Search
+
+== DATA
+
+Using the data from the google searches and the appropriate images related to it
+
+== METHODS
+
+Multitask Unified Model of Google
+
+== RESULTS
+
+They have managed to create an algorithm which is capable of searching the web based on the images or the object pointed by one's camera.
+
+== ISSUES
+
+The condition of the object might be a problem in returning the results as the algorithm matches every pixel in the images.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It is an interesting idea. Given how accurate the results are it is a great feat to achieve. I might have added more datasets from different regions of the world as the same product or thing might have some variations in other countries and have different names as well.

@@ -1,0 +1,51 @@
+==== SOURCE
+
+https://www.technologyreview.com/s/541276/deep-learning-machine-teaches-itself-chess-in-72-hours-plays-at-international-master/
+
+==== AGENT
+
+Who did the machine learning?
+
+Chess Robot called Giraffe by Matthew Lai at Imperial College London
+
+==== GOAL
+
+What were they trying to do?
+
+Make a robot teach itself to play chess by evaluating positions much more like
+humans and in an entirely different way to conventional chess engines.
+
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Lai trains his network with a carefully generated set of data taken from real chess games. 
+This data set must have the correct distribution of positions
+
+==== METHODS
+
+What did they actually do?
+
+Lai used a bootstrapping technique in which Giraffe played chess against itself
+with the goal of improving its own evaluation of a future position.
+
+==== RESULTS
+
+How did it go for them?
+
+Lai tested his machine on a standard database called the Strategic Test Suite, which 
+consists of 1,500 positions that are chosen to test an engine’s ability to recognize
+different strategic ideas. The maximum score on this test is 15,000. Initially the machine
+had a score of 6,000 and after its training for 72 hours it peaked at a score of 9,600 which
+matches the best chess engines in the world.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+This is a very interesting article as it shows how far machine learning has come in chess since 
+IBMs Deep Blue 20 years ago. Instead of just looking at all the possible combinations of 
+moves ahead and choosing the best one, Lai's Giraffe machine plays against itself and teaches 
+itself which moves result in strong and weak positions and plays the game more similarly to how 
+a human would think but with the same success rate as chess machines. 

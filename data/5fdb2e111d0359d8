@@ -1,0 +1,39 @@
+== SOURCE
+
+https://deepmind.com/blog/article/safety-first-ai-autonomous-data-centre-cooling-and-industrial-control
+https://deepmind.com/blog/article/deepmind-ai-reduces-google-data-centre-cooling-bill-40
+https://research.google/pubs/pub42542/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Use machine learning to improve cooling capability and reduce cooling bill in data centres. 
+
+== DATA
+
+A combination of historical data that had already been collected by thousands of sensors within the data centre - data such as temperatures, power, pump speeds, setpoints, etc. and live data from the data centres available at all times.
+
+== METHODS
+
+The neural network utilizes 5 hidden layers, 50 nodes per hidden layer and 0.001 as the regularizationparameter. The training dataset contains 19 normalized input variables and one normalized output variable (the DC PUE), each spanning 184,435 time samples at 5 minute resolution (approximately 2 years ofoperational data). 70% of the dataset is used for training with the remaining 30% used for cross­validationand testing. The chronological order of the dataset is randomly shuffled before splitting to avoid biasing thetraining and testing sets on newer or older data.
+
+== RESULTS
+
+Having an accurate and robust PUE model offers many benefits for DC operators and owners. For example, the comparison of actual vs. predicted DC performance for any given set of conditions can be used forautomatic performance alerting, real­time plant efficiency targets and troubleshooting.
+Claimed to have reduced cooling bill by 40%. 
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Really cool way to help reduce emissions. Major implications as data centres become bigger and bigger demanding more cooling. Large effect on emissions footprint of Google and any customer of Google products such as Cloud.

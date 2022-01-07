@@ -1,0 +1,35 @@
+﻿==== SOURCE
+
+https://www.wired.com/story/amazon-alexa-2018-machine-learning/
+written by Brian Barrett
+
+==== AGENT
+
+The machine learning was performed by 'Alexa', amazons personal voice automated assistant.
+
+==== GOAL
+
+The goal for Alexa is to use machine learning to better itself to improve the overall experience of the user by:
+decreasing its error rate with the user's inputted words.
+learn what the user's like/dislike.
+learn from its mistakes by listening to the next inputted command from the user, 
+i.e. By asking Alexa to play the name of a radio station it does not know, the user can then ask to play ratio channel 21 it will then know that the named radio channel and channel 21 are the same.	
+ 
+
+==== DATA
+
+Alexa gets data from its users and reliable sources on the internet. 
+
+==== METHODS
+
+Alexa gets a command from the user which it then sends to Alexa voice services (AVS). this is a service run by amazon which converts the voiced audio input from the user into text. the command is then preformed
+and depending on the command the service will send back its results to the command, being a recording of Alexa saying the time or setting Alexa to play the requested song from the music services. 
+
+==== RESULTS
+
+The results were that amazon created a virtual home assistant that became the number one seller compared to its competitors, google and apple.
+
+==== COMMENTS
+
+Since amazon first released Alexa to the public, machine learning has helped Alexa improve year after year providing users with better experiences. This in turn will help 
+led to more sales and more trust in the company’s abilities with AI devices.  

@@ -1,0 +1,81 @@
+== SOURCE
+
+> Artificial intelligence model detects asymptomatic Covid-19 infections through cellphone-recorded coughs
+https://news.mit.edu/2020/covid-19-cough-cellphone-detection-1029
+
+== AGENT
+
+MIT researchers
+
+== GOAL
+
+Detect asymptomatic COVID-19 infections through cellphone-recorded coughs
+
+== DATA
+
+They established a website where people can record a series of coughs, through any web-enabled device
+Along with the cough recording, participants also fill out a survey:
+- COVID symptoms they are experiencing
+- Whether or not they have COVID-19
+- Whether they were diagnosed through
+	- An official test
+	- By a doctor’s assessment
+	- Self-diagnosis
+- Optional:
+	- Gender
+	- Geographical location
+	- Native language
+
+To date:
+- ~70,000 recordings, each containing several forced coughs
+	- Amounting to ~200,000 coughs
+	- 2,500 of these recordings were from people that were COVID positive
+
+### Dataset
+All 2,500 COVID associated recordings
+2,500 randomly-selected non-COVID associated recordings
+
+#### Training/Test Data
+Dataset split into:
+- 4000 recordings for training
+- 1000 recordings for testing 
+
+== METHODS
+
+3 Neural Networks based on a previous project to detect Alzheimer’s.
+
+1. ResNet50
+	- Residual Network, a type of Deep Convolutional Neural Network with 50 layers, where connections can skip layers. i.e. a neuron in Hidden Layer 3 can connect directly to Hidden Layer 6, skipping HL 4, 5
+		- This speeds up training and allows more exploration of the feature space
+	- To discriminate sounds associated with different degrees of vocal cord strength.
+
+2. Type of NN not given.
+	- In the Alzheimer’s project:
+		-  "to distinguish emotional states evident in speech, because Alzheimer’s patients have been shown to display certain sentiments such as frustration, or having a flat affect, more frequently than they express happiness or calm"
+	-  No specific information given for the COVID project
+
+3. Type of NN not given
+	- trained on the database of coughs in order to discern changes in lung and respiratory performance
+
+Researchers combined all three models, and overlaid an algorithm to detect muscular degradation.
+- Essentially an audio mask generating noise
+	- Separates weak coughs from stronger coughs, which can be heard over the noise.
+
+== RESULTS
+
+98.5% of coughs from people confirmed with COVID-19 were identified correctly, and of those, it accurately detected all of the asymptomatic coughs.
+
+== ISSUES
+
+I do not see any ethical issues and am not familiar with the NN architecture to comment on technical problems
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I found this very interesting, as the researchers found a link between two very different illnesses and used that similarity to quickly and easily tweak a NN from diagnosing Alzheimer's to diagnosing asymptomatic COVID-19
+The use of three NNs is also interesting, rather than using one much larger NN.
+
+Clearly the idea behind the COVID-19 NN is not a new idea, as it was very heavily based on the Alzheimer's NN, but the dataset used was created purely for this project, and seems to be unique

@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://survivingmesothelioma.com/machine-learning-tool/
+
+==== AGENT
+
+A program called MesoNet, developed by various resreachers. 
+
+==== GOAL
+
+The goal was to accurately predict the overall survival of mesothelioma patients from whole-slide digitized images, without any pathologist-provided locally annotated regions.
+
+==== DATA
+
+To train and test MesoNet, they used a dataset of 2,981 slides from 2,981 pleural mesothelioma patients from multiple French institutions (MESOPATH/MESOBANK25) and randomly 
+divided it into a Train set (2,300 slides) and an entirely separate Test set (681 slides).
+
+==== METHODS
+
+First they detected the part of the image that contains matter. This segmentation is performed using a U-Net neural-network approach.
+They divided the part of the slides for which matter is detected into smaller images, called ‘tiles’, of fixed size (224 × 224 pixels).
+They used a netwrok that was already pre-trained for any image recognition task to obtain 2,048 relevant features from each tile.
+They then used a convolutional one-dimensional (1D) layer to create a score for each tile. This convolutional layer performed a weighted sum between all 2,048 features of the tile to obtain this score.
+The last step consisted of a Multi-layer perceptron with two fully connected layers of 200 and 100 neurons with sigmoid activation. This is the core of the predictive algorithm.
+==== RESULTS
+
+The machine learning tool did not just accurately predict mesothelioma survival. It also revealed the basis for those predictions. 
+It turns out that mesothelioma survival may have more to do with things like cellular diversity, inflammation, and vacuolization that doctors thought.
+
+==== COMMENTS
+
+https://www.nature.com/articles/s41591-019-0583-3 (link to paper).
+Machine Learning in this case could help save lives. 

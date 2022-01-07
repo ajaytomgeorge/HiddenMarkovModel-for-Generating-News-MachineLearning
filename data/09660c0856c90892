@@ -1,0 +1,38 @@
+== SOURCE
+
+https://techxplore.com/news/2021-09-horror-rom-com-ai-based-solely.html
+
+== AGENT
+
+A research team at the USC Viterbi School of Engineering
+
+== GOAL
+
+They were making an AI that could guess the genre of a movie from its soundtrack.
+
+== DATA
+
+They used soundtracks from different movies, along with what genre each movie was. They used 110 different films released between 2014 and 2019. They applied a deep learning network to extract the auditory information aswell as the visual information and used this to analyse the musical features.
+
+== METHODS
+
+Multiple instance learning, simple MI, instance majority voting, neural network approaches, 
+
+== RESULTS
+
+The cue-level feature representations outperform instance-level feature representations across all models. Models trained using VGGish features are usually better than their counterparts trained using MIR features. When taking brightness of the films into consideration, more of the predicted genres were incorrect as the model had to learn that sometimes, the visuals of the movie did not match the soundtrack.
+
+The full results can be found here:
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249957
+
+== ISSUES
+
+There were no issues, but since horror movies tend to have soundtracks with very eery or dissonant tones, then the AI might be inclined to believe that all films with such music are horror, even though that may not be the case and vice versa. The AI also had some problems when the visuals of the film did not match the soundtrack, having to choose the genre based on both.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This was a cool way of using AI and relating music to AI as well as seeing how central music is to film and how the tone is set. It was an interesting way of using multiple instance learning and existing data on movie soundtracks and their genres.

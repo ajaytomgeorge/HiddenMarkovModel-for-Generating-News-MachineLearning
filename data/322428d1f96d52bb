@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://phys.org/news/2019-10-team-deep-sun-ultraviolet-emission.html
+
+==== AGENT
+
+A NASA Frontier Development Lab 
+
+==== GOAL
+
+To show that by using deep learning, it is possible to virtually monitor the Sun's extreme ultraviolet (EUV) irradiance
+
+==== DATA
+
+data consisted of coronal images from NASA's SDO
+
+==== METHODS
+
+inferring what ultraviolet radiation levels that a sensor would have detected based on what the other instruments on SDO are observing at any given time
+
+==== RESULTS
+
+They demonstrated that it is possible to use imaging observations of the Sun to create a proxy measurement of EUV spectral irradiance with an accuracy that surpasses physics based models
+
+==== COMMENTS
+
+Interesting piece on space weather and the application of a combination of data science and machine learning. Perhaps one day we will use NN algorithims to predict the weather on mars or the sun

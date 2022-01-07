@@ -1,0 +1,27 @@
+==== SOURCE
+
+Wang, Yilun, and Michal Kosinski. “Deep Neural Networks Are More Accurate than Humans at Detecting Sexual Orientation from Facial Images.” OSF, 23 Oct. 2018. Web.n
+
+==== AGENT
+
+Researchers at Stanford University
+
+==== GOAL
+
+to test whether a deep neural network can be trained to discern individuals' sexual orientations from their photographs
+
+==== DATA
+
+32,326 facial images from an internet dating website, the authors selected photographs of nearly 8000 men and nearly 7000 women
+
+==== METHODS
+
+Facial features were extracted from the images using a widely employed DNN, called VGG-Face and data points on the face of hetero and gay subjects were averaged and compared in order to correctly predict the sexual orientation of the person in a picture.
+
+==== RESULTS
+
+Results proved that the algorithim could successfully predict the sexual orientation and proved to be more accurate than a human at predicting sexual orientations 
+
+==== COMMENTS
+
+the comparison of a trained algorithim and an untrained human eye, therefore its really not a fair contest between the two.

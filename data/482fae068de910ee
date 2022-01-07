@@ -1,0 +1,50 @@
+==== SOURCE
+
+https://www.therobotreport.com/machine-learning-soft-exosuits-work/
+
+==== AGENT
+
+Who did the machine learning? 
+
+Researchers from the Wyss Institute for Biologically Inspired Engineering and the 
+Harvard John A. Paulson School of Engineering and Applied and Sciences
+
+==== GOAL
+
+What were they trying to do?
+
+Use machine learning to personalize the controls of soft exosuits and minimise the amount of 
+energy a human uses during walking. 
+
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+They got their data from real time measurements of human physiological signals such as the
+breathing rate.
+
+==== METHODS
+
+What did they actually do?
+
+The researchers used a technique called “human-in-the-loop optimization.” This uses the real-time 
+measurements of human physiological signal to adjust the control parameters. As the algorithm honed 
+in on the best parameters, it directed the exosuit on when and where to deliver assistive force.
+
+
+==== RESULTS
+
+How did it go for them?
+
+The researchers experimented by having 8 males to walk on a treadmill wearing soft exosuits 
+for 20 minutes and then a computer developed a force profile for each walker. The exosuit and 
+algorithm reduced metabolic cost by 17.4% compared to walking without the exosuit. 
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+This is an incredible device as it is the beginning of actaul wearable exosuits as they are not 
+bug chunky machines and they only provided assistance when it is needed as the computer is constantly
+obeserving human physiological signals. 

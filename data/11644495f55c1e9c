@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.rte.ie/brainstorm/2020/0811/1158560-gpt3-artificial-intelligence-machine-learning/
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+A language model that takes given text and attempts to predict what could come next.
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+
+== METHODS
+
+Semi-supervised
+
+== RESULTS
+
+The text generated is much more plausible to a human reader than previous similar attempts.
+
+== ISSUES
+
+One issue could be with copyright and intellectual property. As this technology becomes more effective whether, for example, using a poet's corpus to generate new poetry is a breach of that intellectual property is a question I have, but am unsure about. It feels wrong but I can't give any reasons I can justify.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Obviously the potential of a technology such as this is extremely exciting. However, GPT-3's is extremely expensive in terms of computing power. If this is the limit of what is accessible to the laymman in 10-20 years as moore's law brings that power to the layman then it would be fairly disappointing.
+

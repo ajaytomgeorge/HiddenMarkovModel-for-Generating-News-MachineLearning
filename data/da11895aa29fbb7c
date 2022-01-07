@@ -1,0 +1,38 @@
+== SOURCE
+
+https://techxplore.com/news/2021-09-ai-medical-images.html
+
+== AGENT
+
+Ruizhi Liao, MIT's Computer Science and Artificial Intelligence Laboratory.
+
+== GOAL
+
+Training machines to do what radiologists do.
+
+== DATA
+
+They used x-ray images of patients along with doctor’s rating of the severity of the case, putting it in the form of a collection of numbers. 
+
+== METHODS
+
+Supervised and unsupervised learning was used. Mutual information maximisation, Stochastic Optimization of MI, Local MI Maximization.
+
+== RESULTS
+
+The algorithm was able to extract useful features from the images provided and was able to classify the images. 
+
+The full results can be found here:
+https://arxiv.org/pdf/2103.04537.pdf
+
+== ISSUES
+
+There were no issues. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It wasn’t very interesting; it is very useful though. It used existing data in an interesting way.

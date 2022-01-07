@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+Tech Xplore (2019). Using machine learning to reconstruct deteriorated Van Gogh drawings. Available at: https://techxplore.com/news/2019-09-machine-reconstruct-deteriorated-van-gogh.html
+
+==== AGENT
+
+Researchers at the Delft University of Technology.
+
+==== GOAL
+
+To reconstruct deteriorated Van Gogh paintings in a pixel-wise level.
+
+==== DATA
+
+The original drawings and reproductions from the Van Gogh Museum Collection. The reason why they used reproductions as examples in their study is that the content and colour faded less.
+
+==== METHODS
+
+They combined techniques of multi-resolution image analysis and deep CNNs, which is the most promising approach in which they have considered. It has been trained through a dataset containing reproductions of different quality, made at different times, to analyse colours used and their discolouration over time.
+
+==== RESULTS
+
+After a series of experiments, it achieved the results of the predictive reconstruction of degraded images and artworks. It could also be used to other deteriorating artworks on paper or to those manuscripts from similar period to Van Gogh's.
+
+==== COMMENTS
+
+The study currently is worked by visual information; however, it also refers to other variables that may have influence on reconstruction function, such information as those related to chemistry, specifically, different degradation rates of inks.

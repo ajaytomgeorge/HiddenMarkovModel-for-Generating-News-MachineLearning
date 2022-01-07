@@ -1,0 +1,42 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/10/201028124520.htm
+
+== AGENT
+
+SPIE--International Society for Optics and Photonics
+
+== GOAL
+
+Develop deep learning algorithm that can detect the early stages of alzheimer's
+
+== DATA
+
+fMRI Data from a public database
+
+== METHODS
+
+fMRI data is four dimensional three spatial layers and one temporal presented a challenge as CNN's are predominantly used on 2D image classification. To overcome this challenge the researchers developed an architecture that can handle fMRI data with minmal steps.
+
+"The first two layers of the network focus on extracting features from the data solely based on temporal changes, without regard for 3D structural properties. "
+
+"Then the three subsequent layers extract spatial features at different scales from the previously extracted time features"
+
+This yielded a set of "spatiotemporal" characteristics that the final layers use to classify the fMRI  data from a healthy subject or a person experiencing mild early signs of cognitive impairment.
+
+== RESULTS
+
+Researchers engaged in this project stated the results were promising
+
+== ISSUES
+
+There are ample ethical and legal issues when using machine learning in healthcare. for exaple say somebody was misdiagnosed with AD and later in life experienced worsened symptoms.Usually the misdiagnosing doctor can be held legally responsible but if it were an AI that misdiagoned who would be responsible then ?
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I did find this to be an interesting study as using machine learning in healthcare is a bit of a grey area in terms of ethical and legal responsibilities of healthcare practisioners. The use of AI in healthcare also raises another ethical issue and that is do people feel comfortable being medically treated and diagnosed by computers ?. unlike say banking where most people spare no thought to the fact it is now almost 100% handled by computers and artificial intelligence but when it comes to ones healthcare most people would prefer to deal with humans rather than machines.
+

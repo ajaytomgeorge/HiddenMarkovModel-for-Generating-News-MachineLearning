@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.bbc.com/news/science-environment-57929095
+
+== AGENT
+
+scientists
+
+== GOAL
+
+predict the structure of the 20.000 proteins and position in the human body
+
+== DATA
+
+instructions contained in our genomes - the DNA contained in the nuclei of the human cell 
+
+== METHODS
+
+Unsupervised
+
+== RESULTS
+
+It predicted predicted the structure of 350.000 proteins of humans and other living organisms. Also predicted the structural position for 58% of the amino acids in the human proteome and could predict the position of 35.7% with a very high level of confidence
+
+== ISSUES
+
+None
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is a AI use in the medical space and most of the AI stuff in medizine is quit impressive. Especially with the genomes as data set it impressed me a lot. It reported only the upside for the pharmaceutical industry but didn't look at the potential harm you could do with such a knowledge.  
+

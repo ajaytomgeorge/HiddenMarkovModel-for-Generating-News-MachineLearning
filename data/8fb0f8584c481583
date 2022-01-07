@@ -1,0 +1,34 @@
+== SOURCE
+
+https://kambria.io/blog/how-facebook-uses-artificial-intelligence/#:~:text=In%20addition%20to%20the%20already,and%20shuts%20them%20down%20instantly.
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+To indentify bad content including (nudity, graphic violence, terrorism, hate speech, spam, fake account and suicide prevention) and removes it 
+
+== DATA
+
+unlabed training data 
+
+== METHODS
+
+Self-supervision, A mix of supervised and unsupervised 
+
+== RESULTS
+
+Can detect hate speech that is written
+
+== ISSUES
+
+Cannot detect bad contect in images and video well, It can detect some but is quite limited in what it can do 
+
+== SCORE
+7
+
+== COMMENTS
+
+Interesting that the approach is neiter supervised or unsupervised, It is in between with a self supervised method 

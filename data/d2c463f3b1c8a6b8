@@ -1,0 +1,62 @@
+== SOURCE
+
+https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+
+== AGENT
+
+Northpointe, Inc.
+
+== GOAL
+
+To predict future criminals.
+
+== DATA
+
+During holding by the police after an arrest and before court procedures
+a survey of the held person is conducted by an officer.  This survey includes questions 
+within the following categories: personal information, current charges, criminal history,
+non-compliance, family criminality, peers, resistance/stability, social environment, 
+education, work, leisure/recreation, social isolation, criminal personality, anger and
+criminal attributes.  Each category consists of about 5 to 10 questions, where each question
+is multiple choice and is either answered yes or no, or on a scale of varying degree.
+
+== METHODS
+
+Northpointe uses logistic regression to output a score between 
+1 and 10, 1 being the least likely to reoffended and 10 being the most likely.
+
+== RESULTS
+
+The results of the use of this software to determine the likelihood of future criminals is
+in my best critical opinion an assumptive approximation of the nature of defendants, which
+can and does get better results at predicting repeat criminals (63%) than guessing.  But it
+fails to acknowledge the specific circumstances of individuals which can be clear indicators
+of an individual’s future progress.
+
+== ISSUES
+
+The score produced by their model does not necessarily reveal whether a person is dangerous 
+or if they should go to prison but is used in such a way regardless.
+Also, somebody who has committed a serious crime and who should be clearly considered hight
+risk has the potential of achieving a low score if he/she has a job, no past conviction, etc.
+Where on the other hand if another person commits a relatively minor offence may be considered
+high risk due to his/her economic status, whether they are homeless, have family who have
+committed crimes, etc.
+
+== SCORE
+
+1
+
+== COMMENTS
+
+It is an interesting story, but I'm not a fan of it contents because I believe the court of law should only sentence those found guilty
+on the bases of provable evidence and not on the output of a statistical black box which cannot be
+questioned which is what is most definitely happening in this case.  On a deeper level, such sentencing
+undermines the whole value system which the legal system is predicated on, the values of the sovereign individual.
+
+I found this read interesting as it revealed the level of banality of injustice and the lack of care in upholding
+sovereign individual values.  Ultimately, I think this rases a lot of philosophical question such as:
+should the developers of such software trust the users (in this case the courts) to use the software
+as it was intended (in this case it wasn't supposed to be used as a sentencing mechanism) or should they
+act as overseers and enforce proper usage, if not by design by other means.
+

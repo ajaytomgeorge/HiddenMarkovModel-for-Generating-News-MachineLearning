@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.wired.co.uk/article/beer-brewed-by-ai-intelligentx
+
+== AGENT
+
+IntelligentX
+
+== GOAL
+
+Create bears based data fed into AI algorithm
+
+== DATA
+
+Data based on customers feedback through a Facebook Messenger bot
+
+== METHODS
+
+RL. AI rewarded based on hard-coded biases that instruct system to please customers
+
+== RESULTS
+
+Company can spot trends and thus inform the brewing process
+
+== ISSUES
+
+False information being inputted into system. Needs large amount of
+training feedback to accurately represent consumer tastes.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Simple concept, but could have large effect on brewing industry. Solely
+based on customer interaction with messenger chatbot, so may need secondary 
+data source. Plenty of media coverage, varying detail by each media outlet.
+Based subsrciption service. 

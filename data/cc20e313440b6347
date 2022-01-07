@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+https://www.theregister.com/2021/09/23/greece_al_covid/
+
+== AGENT
+
+Greece Authorities and other scientists
+
+== GOAL
+
+The algorithm has two goals. The first goal is to test passengers who are likely to test positive by exploiting patterns learnt from previous data about the outcome of tests for SARS-CoV-2. The second is to explore patterns not reflected in previous data, by testing passengers about which the algorithm knows little.
+
+
+== DATA
+
+Data consists of the passenger locator forms provided by the customers before entering the Greece border and also the data from past tests of incoming passengers to predict which ‘types’ of passenger might be more likely to test positive in the future.
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+
+At a given port of entry on a given day, the algorithm delivers targeted recommendations to border agents about which passengers to test, while respecting the budget and resource constraints imposed by supply chains, staffing, laboratory capacity and delivery logistics for biological samples. The automated system doubled the efficiency of testing — the number of cases detected per test — allowing border agents to test and quarantine the right passengers where many of whom were asymptomatic, while letting others through to their final destination.
+
+== ISSUES
+
+As some of the data is provided by the customer itself, it raises concerns regarding the accuracy of data.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+As Greece could not test all the passengers arriving in the country, this algorithm is very helpful to filter out the passengers to be tested for SARS-CoV-2 without the need of closing the borders which would lead to economic loss as Greece depends largely on tourism.

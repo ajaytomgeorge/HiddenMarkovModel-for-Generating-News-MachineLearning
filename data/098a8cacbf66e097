@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-51645566
+
+== AGENT
+
+Tesla
+
+== GOAL
+
+Semi Autonomous cars
+
+== DATA
+
+Sensory data from real world scenarious captured by a fleet of 1M vehicles.
+
+== METHODS
+
+Neural Network with 48 networks that take 70,000 GPU hours to train.
+
+== RESULTS
+
+The results have been three cars and three deaths.
+
+== ISSUES
+
+Issues in random factors. In this case there was a broken barrier undetected by the system.
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It was an interesting idea but was released to the public too early with little safety measures.

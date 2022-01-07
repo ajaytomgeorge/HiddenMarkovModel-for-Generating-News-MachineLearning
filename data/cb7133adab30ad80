@@ -1,0 +1,28 @@
+﻿==== SOURCE
+
+Capper, D. et al. (2018). DNA methylation-based classification of central nervous system tumours. Available at: https://www.nature.com/articles/nature26000
+
+==== AGENT
+
+David Capper from Department of Neuropathology of University Hospital Heidelberg, and colleagues.
+
+==== GOAL
+
+To classify brains tumours on DNA methylation-based patterns.
+
+==== DATA
+
+Patient material and clinical data were from the National Centre for Tumour Diseases (NCT) in Heidelberg. DNA is extracted from those which tumour cell content are over 70%.
+
+==== METHODS
+
+It used supervised machine learning, which trained computer through sample images of tumours classified by physicians to recognize if methylation patterns exist in those samples. Meanwhile, it involved unsupervised machine learning, which uses classification information to develop its recognising system to assign different types of tumours.
+
+==== RESULTS
+
+According to the test cases, machine learning-based classification was same as the pathologists' for over 60 percent. For 15.5 percent of these cases, computer assigned them into more specific subclass than pathologists did. 12.6 percent and 11.5 percent of these cases, respectively, were unmatched to pathologists' diagnosis and unable to recognize by machine.
+
+==== COMMENTS
+
+Compared to visual assessment, machine-learning methods may have a result in cancer diagnosis and improvement of its accuracy. Even though the machine cannot diagnose all cases, those of it has classified, the machine was more precise or could put those into a more specific subcategories than the professionals.
+

@@ -1,0 +1,40 @@
+== SOURCE
+
+https://news.mit.edu/2021/secure-ai-labs-health-care-1007
+
+== AGENT
+
+Secure AI Labs (SAIL) is addressing those problems with a technology that lets AI algorithms run on encrypted datasets that never leave the data owner’s system. Secure AI Labs is expanding access to encrypted health care data to advance AI-driven innovation in the field.	
+
+== GOAL
+
+Enabling AI-driven health advances without sacrificing patient privacy
+
+== DATA
+
+Secure AI Labs (SAIL) is addressing those problems with a technology that lets AI algorithms run on encrypted datasets that never leave the data owner’s system. Health care organizations can control how their datasets are used, while researchers can protect the confidentiality of their models and search queries. Neither party needs to see the data or the model to collaborate. SAIL’s platform can also combine data from multiple sources, creating rich insights that fuel more effective algorithms. To work with large amounts of data around specific diseases, SAIL has increasingly sought to partner with patient associations and consortia of health care groups, including an international health care consulting company and the Kidney Cancer Association. The partnerships also align SAIL with patients, the group they’re most trying to help.
+
+== METHODS
+
+The article did not disclose it clearly, unfortunately.
+
+== RESULTS
+
+Overall, the founders are happy to see SAIL solving problems they faced in their labs for researchers around the world and taking it further to work with larger and complex health care data by partnering with various health care groups.
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem, ethical issues, honesty in reporting the results, etc. 
+I think that, initially, it is hard for larger health care groups to work with smaller reasearch teams as the datasets may have various cruical identities. As Kellis, who worked with Kim since 2017 on this project, and is also a member of the Broad Institute of MIT and Harvard also feels it in the samw way, he states that, "Smaller research teams would struggle to get access to the same data his lab was working with".
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Updating the approach of data sharing between hospital’s staff and researchers using AI is definitely a good use case of Machine Learning. According to me this could be a ground-breaking way of sharing and exploring the health care data, also this approach can be helpful in other industries (government agencies, market research etc) as well. 
+I could have done it in a similar way, that is, creating a smaller team initially and take the team to 
+The SAIL team is in the initial phase and done the project as a Proof of concept. It is a demonstration of a certain method, that it is feasibly to work with the large and complex healthcare data. For this, the team is in the contact of various health care groups, including an international health care consulting company and the Kidney Cancer Association. The partnerships also align SAIL with patients, the group they’re most trying to help.
+Yes, this method is indeed new to my knowledge. It is an interesting new way of using existing data and methods.
+

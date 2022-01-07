@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.the-scientist.com/notebook/deep-learning-algorithms-identify-structures-in-living-cells-65778
+
+== AGENT
+
+Allen Institute for Cell Science.
+
+== GOAL
+
+Help visualize changes in the spatial organization of cells as they move from
+one state to another.
+
+== DATA
+
+Images the Institute carried.
+
+== METHODS
+
+Deep Learning 
+
+== RESULTS
+
+"Shockingly Impressive"
+
+== ISSUES
+
+The sample set the algorithm is learning from is very small. Despite what the
+researchers say a large sample set is always good to have.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Not a field I would follow personally but its a good example of a computer
+being able to understand something based on visual data that a human wouldn't at first glance.

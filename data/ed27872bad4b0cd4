@@ -1,0 +1,39 @@
+
+== SOURCE
+
+https://cio.economictimes.indiatimes.com/news/next-gen-technologies/how-uber-manages-anomalies-in-its-machine-learning-models/86744585
+
+== AGENT
+
+Uber
+
+== GOAL
+
+Manage anomalies in their machine learning models 
+
+== DATA
+
+The used historical data and recent data in order to compare and determine anomalies.
+
+== METHODS
+
+They adopted a recency bias in their ML models 
+
+== RESULTS
+
+Adopting a recency bias showed that data that looked like anomalies, actually were not anomalies at all.
+Uber are also using standard deviation for anomaly detection, so depending on how far away data is from the median tells them if something is an anomaly or not. Then using historical averages this median moves over time in order to avoid false anomalies. Then if something is very different from this forcasted deviation then it can be looked at as an anomaly. 
+
+== ISSUES
+
+Only issue I can think of is that they may still end up with false anomalies and they if their forcasts are wrong in some way so Uber may beed to implement a way of handling use cases like that
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I found this article interesting becuase it show that ML model can have some issues and it shows how a big company like Uber handles these issues by using previous data to predict future data.
+
+

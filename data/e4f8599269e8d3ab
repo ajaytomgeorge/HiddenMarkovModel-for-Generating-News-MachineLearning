@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-48825761
+
+== AGENT
+
+Ben Hamm, an employee at Amazon
+
+== GOAL
+
+To punish his cat Metric for killing small animals by locking it out of the house
+
+== DATA
+
+over 23,000 photos, hand sorted to determine whether the cat was in view, whether it was coming or going and if it was carrying prey.
+
+== METHODS
+
+Supervised learning on the test set. The algorithm was then connected to a camera and controlled a cat flap, which would lock for 15 minutes if it determined that the cat was carrying prey.
+
+== RESULTS
+
+Over a period of 5 weeks, the cat was unfairly locked out once, and was able to gain entry once out of the seven times it had caught something.
+
+== ISSUES
+
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This is just a fun one I wanted to include.

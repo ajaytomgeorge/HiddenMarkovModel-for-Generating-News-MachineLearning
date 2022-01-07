@@ -1,0 +1,31 @@
+==== SOURCE
+
+https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it
+
+==== AGENT
+
+reCAPTCHA
+
+==== GOAL
+
+Create accurate word detection/ Improve street object detection
+
+==== DATA
+
+By having people prove that they aren't a robot by putting in data that would distinguish them from bots, such
+as word recognition in unusual scenarios.
+
+==== METHODS
+
+Got users of websites to enter two words that are difficult to interpret when creating an account on websites.
+
+==== RESULTS
+
+Optical character detection is very accurate now with this training and now object detection is being utilized
+so it has proven successful as it is still being used for another form of training.
+
+==== COMMENTS
+
+The story goes into detail on how people trained AIs to recognise characters and now objects, but it feels like a 
+hit piece on the methods used rather than noting the convieniences that it brings. Such as better object detection
+for self driving cars

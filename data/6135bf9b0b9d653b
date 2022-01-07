@@ -1,0 +1,38 @@
+== SOURCE
+
+https://arc.cct.ie/cgi/viewcontent.cgi?article=1004&context=ict
+
+== AGENT
+
+CCT College Dublin 
+Gofaas group(Andrea Lopez, Adelo Vieira, Zafar Ahsan, Farooq Sabib, Shirley Marinho.
+
+== GOAL
+
+Fake News and Misinformation Detection using Supervised Machine Learning Model.
+
+
+== DATA
+
+The dataset is collected from various source like Kaggle Fake News Dataset 1,Kaggle Fake News Dataset 2,Victory University, Gofaas (511 news articles).
+
+
+== METHODS
+
+Supervised  Machine Learning, Naive Bayes, Support vector machine, Random forest, Gradient Boosting.
+
+== RESULTS
+
+Detecting whether the news articles are True or False.
+
+== ISSUES
+
+To label the fake news, detecting what category label belongs to, unable to find whether the dataset is pre-processed and also it is very slow process for discovering, processing and analysis.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+As we know there is always been a negative impact on society, political group, individuals due to super spreading of fake news, this project helps to detect fake news on social media and also ML helps us to scale up the fake news.

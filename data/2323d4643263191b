@@ -1,0 +1,27 @@
+==== SOURCE
+
+Information came from https://www.sciencedaily.com/releases/2019/10/191002165235.htm.
+
+==== AGENT
+
+Biomedical engineers at Duke University.
+
+==== GOAL
+
+The biomedical engineers aimed to model the interactions betwwen complex variables in engineered bacteria that would be too cumbersome without a ML approach.
+
+==== DATA
+
+The team used 100,000 data sets to train the Neural Network. 
+
+==== METHODS
+
+Deep neural networks were used to make predictions "orders of magnitude faster" than previous models that didn't use a ML approach. To minimise the impact of ML making an incorrect prediction, four separate neural networks were trained with a hint of randomness, so that no neural network learned the same way.
+
+==== RESULTS
+
+The team were able to find patterns and interactions between the variables that they would not have found otherwise. The team were also able to determine which variable interactions lead to the desired output in the bacterial growths. 
+
+==== COMMENTS
+
+The article does not go into technical detail of the approaches used, rather giving a general overview of the methods used by the researches. 

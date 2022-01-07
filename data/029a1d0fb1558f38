@@ -1,0 +1,18 @@
+== SOURCE
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005
+== AGENT
+Massachusetts Institute of Technology
+== GOAL
+Create a robotic arm which could locate and retrieve an item with a RFID tag even if it is under a pile of objects.
+== DATA
+They used the signals reflected by the RFID tag on the object to generate a spherical area around the object and a camera attached to the robotic arm.
+== METHODS
+They used the camera on the robot to narrow down the search area to places where the object could be and then used a reinforcement learning alogrithm to optimize the robot's trajectory towards the object. The alogrithm was rewarded when it limited the amount of objects it had to move to locate the object and the distance it had to travel to pick up the object. The robot would then verify the object it picked up was the correct one.
+== RESULTS
+The robot was able to retrieve objects 96% of the time when they were fully hidden underneath a pile.
+== ISSUES
+The current robot is not mobile so it can not move outside of its range of movement. The variety of objects that may be in a pile is massive and the tests they did may not refelect real world results. The robot also does not know if it is dangerous to pick up certain objects as far as I am aware.
+== SCORE
+6
+== COMMENTS
+The success rate of the robot does impress me, but I am worried about the completeness of the tests. if the success rate is reflective of real world results then it could have very real uses in the real world. Right now, the researchers have mentioned they want this robot to be able to assist in everyday tasks but I feel the robot would need a much larger range of movement before it could be available for general use.

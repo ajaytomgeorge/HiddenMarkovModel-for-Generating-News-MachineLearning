@@ -1,0 +1,65 @@
+== SOURCE
+
+https://arxiv.org/pdf/2004.06627v1.pdf
+
+== AGENT
+
+Univeristy of Liege, Thibaut Théate
+
+== GOAL
+
+Financial technology companies strive to take advantage of their technology 
+in order to innovate and improve activities in finance. The objective of the
+research paper is to develop Deep Reinforcement Learning solutions for 
+algorithmic trading, more specifically, in the stock markets. 
+
+== DATA
+
+The team gathered eight years of real-life stock market data from 30 
+different companies/instruments from diverse sectors, regions and 
+liquidities to prevent bias and present the agent with multiple patterns. 
+The training set consisted of data from 01/01/2012 to 31/12/2017 and the 
+test set's dates ranged from 01/01/2018 to 31/12/2019.
+
+== METHODS
+
+In this situation, the reinforcement learning environment is the entire 
+complex trading world. The agent must observe multiple factors, such as 
+current market prices, volume of shares being exchanged, exchange rates and
+even news information gathered from multiple sources (e.g. newspapers, 
+social media). At any point, the agent has three options: buy, sell or hold,
+and its objective is to increase profit with minimal risk (this is the 
+reward/punishment system in this environment).
+
+== RESULTS
+
+The algorithm's trading strategy achieved promising results, but the 
+research team did state in the conclusion that believed that they need to 
+test the model with more stock market data, and perhaps switch to a 
+different market, for example, foreign exchange. They also wish to test the 
+AI's performance during an extraordinary event, such as the 2008 financial 
+crisis.
+
+
+== ISSUES
+
+An issue with this type of model, which was also hightlighted by the
+research team, that in an extreme scenario, it is unpredictable to imagine
+the consequences a trader could suffer if they followed this mode of
+prediction technology. It may seem irresponsible to trust the global 
+economy's in the hands of AI if this form of algorithmic trading becomes
+universal.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I do think this use of machine learning will be commonly used in financial
+institutions all over the world, and there will be a race for companies to
+build (or purchase) the most successful method and solutions. It will also
+be interesting to see if these companies will rely heavily on an AI's
+prediction, or they will combine these trading forecasts with human
+intuition.
+

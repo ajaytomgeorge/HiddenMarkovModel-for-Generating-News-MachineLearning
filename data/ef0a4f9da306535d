@@ -1,0 +1,40 @@
+== SOURCE
+
+https://arxiv.org/pdf/2109.15102.pdf
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+Develop a new method to render 3D face models with unprededented levels of realism and diversity to overcome the difficulty of bias-free, slow and expensive data.
+
+== DATA
+
+Data provided is fully synthetic. This implies the data is bias-free, quick to generate and much less expensive than gathering real-life pictures or Data as a Service (DaaS).
+
+== METHODS
+
+Researchers propose solving typical issues (existing methods are formulated as image-to-image translation, ignoring the 3D properties of a scene) a novel Volumetric Spherical Gaussian representation for lighting.
+Each voxel is assigned a set of spherical Gaussian parameters that control its light source’s emission direction and sharpness. This way, strong directional lighting can be handled without any issues. With the lack of ground truth for HDR lighting, the research team has designed their raytracing-based differentiable renderer that leverages their lighting representation.
+This can be used to formulate an energy-preserving image formation process. The renderer is used to ensure that predictions are physically correct without sacrificing accuracy.
+
+== RESULTS
+
+The researcher group generates new face images by procedurally combining the parametric face model with high-quality artist-created assets. The synthesis process includes using textures, hair, and clothing to create an endless variety of different people from one base image.
+Generated faces are 3D face models with a comprehensive library of handcrafted assets for rendering training images in unprecedented realism and diversity.
+
+== ISSUES
+
+As with any face-related AI technology, the ethical issues arise when it come to privacy and legality. There is already a problem related to deepfakes.
+This is an unexplored method on a new, massive scale to render human faces and differs from other algorithms which are fed real-life data and are 2D only, so some issues may not be applicable.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This is probably the most interesting article I've read on ML. This has several implications and will probably result in massive improvements in face generation AI as well as 
+Unlike algorithms like thispersondoesnotexist.com, the data is fully 3D-tendered, uses synthetic data and is bias-free and does not mimic real-life information. 

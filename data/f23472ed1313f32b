@@ -1,0 +1,38 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9099302
+
+== AGENT
+
+
+Furqan Rustam, Aijaz Ahmad Reshi,  Arif Mehmood, Saleem Ullah, Byung-Won On, 
+Waqar Aslam, Gyu Sang Choi.
+
+
+== GOAL
+
+Forecasting the status of Covid-19 situation using Supervised Machine Learning Models.
+
+== DATA
+
+Data is extracted by Github repository(csse_covid_19_time_serie) provided by the Center for Systems Science and Engineering, Johns Hopkins University.
+
+== METHODS
+
+Linear Regression, LASSO Regression, Support Vector Machine, Exponential Smoothing.
+== RESULTS
+
+The system in this article predicts future death-rate, new cases identified, recovery-rate. Experimenting with four models, Exponential Smoothing mode performs better than rest models. 
+
+== ISSUES
+
+It is challenging to make decision boundaries that helps in classification of given data points.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This study is very useful in current pandemic situation that really helps government to plan strategies that can curb positivity rate.
+I would have considered the location of the covid patients and identify the areas that are hot-spot for the covid spread.

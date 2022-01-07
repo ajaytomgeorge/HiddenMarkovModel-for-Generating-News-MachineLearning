@@ -1,0 +1,35 @@
+== SOURCE
+
+https://indianexpress.com/article/explained/youtube-video-recommendations-cristos-goodrow-7512821/
+
+== AGENT
+
+Youtube
+
+== GOAL
+
+To recommend revalvent videos to the user
+
+== DATA
+
+User date like watch time, likes/dislikes and subscriptions.
+
+== METHODS
+
+unknown
+
+== RESULTS
+
+Youtube does a good job recommending videos that are similar to videos you have watched previously
+
+== ISSUES
+
+Main issue with this machine learning is the collection and storing of lots of user data. 
+
+== SCORE
+
+5
+
+== COMMENTS
+
+Good general overview of how the alogrithm works but doesn't go deep in to technicalities

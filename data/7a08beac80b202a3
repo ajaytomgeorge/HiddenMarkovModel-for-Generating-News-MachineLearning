@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005
+
+== AGENT
+
+Researchers at MIT
+
+== GOAL
+
+A robot that finds lost items.
+
+== DATA
+
+It fuses signals from the antenna with visual input from the camera to locate and retrieve an item, even if the item is buried under a pile and completely out of view.
+
+== METHODS
+
+Reinforcement learning algorithm
+
+== RESULTS
+
+RFusion had a 96 percent success rate when retrieving objects that were fully hidden under a pile.
+
+== ISSUES
+
+NIL
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The word 'ROBOT' always fascinates me. This invention is interesting because sometimes, if you only rely on RF measurements, there is going to be an outlier, and if you rely only on vision, there is sometimes going to be a mistake from the camera. But if you combine them, they are going to correct each other. That is what made the system so robust. A system like this could even be incorporated into future smart homes to assist people with any number of household tasks.

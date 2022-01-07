@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.nytimes.com/2021/09/09/technology/codex-artificial-intelligence-coding.html
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+An AI that can write code
+
+== DATA
+
+The training dataset was collected in May 2020 from 54 million public software repositories hosted on GitHub, containing 179 GB of unique Python files under 1 MB.
+They filtered out files which were likely auto-generated, had average line, length greater than 100, had maximum line length greaterthan 1000, or contained a small percentage of alphanumeric characters.
+The total dataset of code was 159GB in size.
+
+== METHODS
+
+The AI (Codex) was trained through unsupervised methods. After some brief testing, it then went under a supervised fine-tuning where they constructed "a set of training problems from correctly implemented standalone functions" which increased performance.
+
+== RESULTS
+
+While the AI is able to produce successful scripts from nothing and a sentence explaining what the user is looking for, it was only correct 37% of the time.
+These programs were also small in size.
+
+== ISSUES
+
+I have not seen anything wrong with the methods they have used. However, we are not told if the code scraped from GitHub and passed the filters actually ran correctly or was optimal.
+This may have led to incorrect learning and impacted the AIs performance.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+As a computer scientist, this feels like a very interesting yet minor threat to my career. Someone knowledgable in AI said that this will not become something that overtakes professional programmers but become a tool.
+Why? Because it quickly produces a foundation of code which the human programmer can error-check and correct which is then utilised in a much larger program which was hand written.

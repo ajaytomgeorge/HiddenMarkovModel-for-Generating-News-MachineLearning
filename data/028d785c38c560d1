@@ -1,0 +1,27 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-estimate-risk-cardiovascular-death-0912
+
+==== AGENT
+
+MIT’s Computer Science and Artificial Intelligence Laboratory 
+
+==== GOAL
+
+Estimate a patients risk of cardiovascular death from a ECG signal
+
+==== DATA
+
+Data was taken from patients ECG signals.
+
+==== METHODS
+
+The signals were seperated into seperate beats and labeled by the team whether the signal was from a patient that died or a patient that survived
+
+==== RESULTS
+
+New patients have been given risk scores by the system to identify high risk patients who were at risk of dying in the next year
+
+==== COMMENTS
+
+Seems like a good way to find current or upcoming heart conditions that could cause death in a year but wouldnt make allowances for medical anomalys.

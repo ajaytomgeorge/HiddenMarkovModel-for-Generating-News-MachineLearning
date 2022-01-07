@@ -1,0 +1,36 @@
+== SOURCE
+https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/
+https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist
+
+== AGENT
+Microsoft Chatboy 'Tay'.
+
+== GOAL
+Simply a project in "conversational understanding". According to Microsoft, Tay was an AI that would learn from
+Twitter users iteractions with it, leading to the ability to hold casual conversations.
+
+== DATA
+Tay based its tweets off of other users' tweets. Unstructured data as it produced a response but on what it had learned
+for previous interactions.
+
+== METHODS
+Tay was designed to speak, or rather tweet, like 19-year-old American girl, and to learn from interacting with other users of Twitter.
+It would adapt to the opinions and language of other users.
+
+== RESULTS
+From a purely machine learning standpoint, Tay performed as it was supposed to. It responded to, and learned from interactions with
+other users, and clearly adapted in the time that it was active. However, overall it was a failure based the hate-filled content 
+it began tweeting, purely because of the clintele it had interacted with. Twitter trolls had Tay tweeting racist, misogynistic, and 
+generally horiffic tweets in a matter of hours. Resulting in the AI's tweets being deleted, and Tay being taken offline.
+
+== ISSUES
+Due to Tay's design, it essentially inherited racist, homophobic, etc. traits from the users it interacted with. Microsoft had failed to give
+Tay the ability to interpret appropriate, and inappropriate responses. So when a user asked it an inappropriate question, it responded with an
+inappropriate answer.
+
+== SCORE
+4
+== COMMENTS
+Tay operated exaxtly as it was  designed to, but rather that was the problem. A cool concept, and one that would have worked in a much more
+hate-filled, less tolerant society. It's an interesting point that an AI could exhibit such strong human opinions such as racism, even if it didn't
+understand the social protocol.

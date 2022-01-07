@@ -1,0 +1,27 @@
+==Source
+https://www.news-medical.net/news/20211002/Researchers-publish-new-datasets-to-better-train-machine-learning-models-for-drug-discovery.aspx
+
+==Agent
+CCDC - Cambridge Crystallographic Data Centre
+
+==Goal
+Train machine learning (ML) models to predict stable polymorphs to use in new drug candidates.
+
+==Data
+scientists all over the world have contributed published, 
+experimental crystal structures to the CSD, which now has over 1.1 million structures.
+
+==Methods
+Knowledge based predictive model, Supervised learning.
+
+==Results
+Researchers use crystal structure databases to make knowledge-based predictions about whether a potential new drug is comprised of a good, 
+stable form that manufacturers can make, store, and deliver in a therapeutic manner.
+
+==Score
+9
+
+==Comments
+It's an interesting new way of using existing data and methods.
+
+

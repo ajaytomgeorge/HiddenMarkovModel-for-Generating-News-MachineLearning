@@ -1,0 +1,44 @@
+== SOURCE
+
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005
+
+== AGENT
+
+MIT
+
+== GOAL
+
+To train a robot to recognise and find items when they are lost/hidden
+
+== DATA
+
+If the robot was given all the camera data and RF measurements to the reinforcement learning algorithm, it would have overwhelmed the system. 
+Instead they used a method a GPS uses to consolidate data from satellites, they summarized the RF measurements and limited the visual data to the area right in front of the robot.
+
+== METHODS
+
+The researchers used reinforcement learning to train a neural network that can optimize the robot’s trajectory to the object.
+In reinforcement learning, the algorithm is trained through trial and error with a reward system.
+
+The system, RFusion, is a robotic arm with a camera and radio frequency (RF) antenna attached to its gripper.
+It fuses signals from the antenna with visual input from the camera to locate and retrieve an item.
+
+The robotic arm automatically zeroes-in on the object’s exact location, moves the items on top of it, grasps the object,
+and verifies that it picked up the right thing
+
+== RESULTS
+
+Their approach worked well, the robot had a 96 percent success rate when retrieving objects that were fully hidden under a pile.
+
+== ISSUES
+
+I had no issues with the news article, it was inspiring and I had no real issues with the idea.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I thought this news article was pretty cool, it leads way to the posibility of robots being very advanced.
+In this case it uses high level technology and science to find objects a human couldn't find using their own abilities.

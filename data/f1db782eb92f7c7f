@@ -1,0 +1,32 @@
+== SOURCE
+https://www.quantamagazine.org/computer-scientists-break-travelingsalesperson-record-20201008/
+== AGENT
+Nathan Klein, Anna Karlin and Shayan Oveis Gharan
+== GOAL
+They were trying to create a better approximation for the solution to the
+travelling salesman problem.
+== DATA
+To create the algorithm, Oveis Gharan, Saberi and Singh defined a random
+process that picks a tree connecting all the cities so that the probability
+that a given edge is in the tree equals that edge’s fraction in the best
+fractional route. After this process spits out a specific tree, they plug
+it into Christofides’ scheme for matching cities with odd numbers of edges,
+to convert it to a round trip.
+== METHODS
+Their algorithm uses a random process to generate a tree in which cities
+with an odd number of connections tend to have nearby partners. Then it
+moved onto step 2 of Christofides’ method. Christofides’ method falls under
+optimisation.
+== RESULTS
+While not optimal, the round trip produced by this altercation of
+Christofides’ algorithms is better than the original.
+== ISSUES
+There’s no issue with the work but the results weren’t amazing. The
+algorithm is only slightly better than Christofides’ algorithm.
+== SCORE
+7
+== COMMENTS
+The Travelling Salesman Problem is a very interesting problem in
+optimisation ( one of the core underlying problems in machine learning)
+however, I don’t know if we can call this altercation of Christofides’
+algorithm a breakthrough. The results yielded minute improvements.

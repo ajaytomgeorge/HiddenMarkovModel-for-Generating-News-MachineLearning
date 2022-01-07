@@ -1,0 +1,36 @@
+== SOURCE
+
+https://go.qomplx.com/rs/449-EVP-026/images/os-starcraft-build-order-selection-part-1.pdf
+
+== AGENT
+
+QOMPLX
+
+== GOAL
+
+To advance there reinforcement learning technology and techniques by practicing on the competive game Starcraft.
+
+== DATA
+
+Popular in game build orders from public game data.
+
+== METHODS
+
+Reinforcement learning, Adversarial Multi-Armed Bandit(MAB) algorithm.
+
+== RESULTS
+
+The MAB framework was demonstrated to be superior to a few other common/popular solutions.
+
+== ISSUES
+
+The algorithm had a tough time in some matchups picking between the best and second best build order
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It was really interesting to see that videogames are the next most complicated game for machine
+learning to be able to play effectively especially as starcraft is such a complex game.

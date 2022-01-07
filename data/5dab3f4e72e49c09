@@ -1,0 +1,67 @@
+== SOURCE
+
+
+
+https://techxplore.com/news/2019-10-neural-network-reconstructs-human-thoughts.html
+
+
+
+== AGENT
+
+
+Moscow Institute of Physics and Technology
+
+
+
+== GOAL
+
+
+
+Reconstruct human thoughts from brain waves in real time
+
+
+
+== DATA
+
+
+
+Electroencephalogram (EEG) recordings where the subject was asked to look at a set of images
+
+
+
+== METHODS
+
+
+
+By analyzing brain activity, the system reconstructed the images seen by the person using a Brain-Computer 
+Interface (BCI) operation algorithm.
+
+
+
+== RESULTS
+
+
+
+The system generated images that could be easily categorized in 90 percent of cases.
+
+
+
+== ISSUES
+
+
+
+A person's mood, comfort or other stimuli may affect the EEG scan.
+
+== SCORE
+
+
+
+9
+
+
+
+== COMMENTS
+
+
+
+Very interesting research that could help people across a wide range of disabilities.

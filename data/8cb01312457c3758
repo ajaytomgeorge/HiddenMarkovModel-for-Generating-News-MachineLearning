@@ -1,0 +1,27 @@
+==== SOURCE
+
+OpenAI. (2019). Better Language Models and Their Implications. [online] Available at: https://openai.com/blog/better-language-models/#sample1 [Accessed 11 Oct. 2019].
+
+==== AGENT
+
+OpenAI
+
+==== GOAL
+
+They were trying to develop a language comprehension AI to predict the next word in a text, given all previous words.
+
+==== DATA
+
+The data used to train this AI was substantial. The AI was provided with text from all outbound webpage links from reddit with greater than 3 karma. 
+
+==== METHODS
+
+The AI is a generative pre-trained transformer. This transformer was supplied with a massive dataset of webpages. It was trained using this dataset to predict the next word in a text given all previous words.
+
+==== RESULTS
+
+It worked incredibly well, so well in fact that the AI is capable of writing somewhat realistic articles by repeatedly predicting the next word.
+
+==== COMMENTS
+
+It's a pretty cool AI and an indicator of how AI could be misused. Since the AI is currently able to produce realistic articles, it could be used to flood the internet with fake news stories. The article however was somewhat lacking in the explanation of the AI however but this could be supplemented with the released paper if necessary. It got the nickname The Unicorn AI as it produced a fake article about unicorns in the Andes.

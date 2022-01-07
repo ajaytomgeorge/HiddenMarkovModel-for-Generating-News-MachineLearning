@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.bbc.com/news/science-environment-45346506
+
+== AGENT
+
+Phoebe M. R. DeVries, Fernanda Viégas, Martin Wattenberg & Brendan J. Meade
+
+== GOAL
+
+To forecast locations of aftershocks after an earthquake, and thus improve earthquake warning systems
+
+== DATA
+
+Trained on a set of more than 131,000 mainshock–aftershock pairs, then tested on an independent test dataset of more than 30,000 mainshock–aftershock pairs.
+
+== METHODS
+
+To build and train the neural networks, the team used the Python toolkit Keras, which provides a high-level application programming interface to access the Theano and TensorFlow deep-learning libraries. The networks were trained using Theano, an adaptive learning rate (Adadelta) optimization method22, and a binary cross-entropy cost function.
+
+== RESULTS
+
+The neural network could predict the locations of aftershocks more accurately (area under curve of 0.849) than can classic Coulomb failure stress change (area under curve of 0.583)
+
+== ISSUES
+
+
+
+== SCORE
+
+6
+
+== COMMENTS
+

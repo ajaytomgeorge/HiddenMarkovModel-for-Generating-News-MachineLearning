@@ -1,0 +1,37 @@
+== SOURCE
+
+https://theconversation.com/machine-learning-plus-insights-from-genetic-research-shows-the-workings-of-cells-and-may-help-develop-new-drugs-for-covid-19-and-other-diseases-164992
+
+== AGENT
+
+Shang Gao
+Doctoral student in Bioinformatics, University of Illinois at Chicago
+Jalees Rehman
+Professor of Medicine, Pharmacology and Biomedical Engineering, University of Illinois at Chicago
+
+== GOAL
+develop a technique that allows biomedical researchers to figure out the functions of the proteins that turn genes on and off in cells, called transcription factors. This knowledge could make it easier to develop drugs for a wide range of diseases.
+
+== DATA
+
+Biological data of patients 
+
+== METHODS
+
+Bayesian Inference
+
+== RESULTS
+
+Bayesian inference transcription factor activity model (BITFAM) is based on a fundamental biological principle that the differences in scRNA-seq profiles of individual cells reflect distinct underlying transcription factor activity states
+
+== ISSUES
+
+NIL
+
+== SCORE 
+
+9
+
+== COMMENTS
+
+This project will help biomedical researchers to develop drugs for various kinds of diseases 

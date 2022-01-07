@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.sciencetimes.com/articles/27784/20201020/new-deep-learning-system-emulates-movement-macaque-monkeys.htm
+
+== AGENT
+
+University of Minnesota
+
+== GOAL
+
+develope a system that can estimate teh poses of macaque monkeys
+
+== DATA
+
+62 machine vision cameras surronding a monkey enclosure. These images were then used to create a 3-D data augmentational reconstruction of the images
+
+== METHODS
+
+robust view-invariant deep neural network
+
+== RESULTS
+
+They outperformed some of the commercially available marker based motion capture systems
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+
+== SCORE
+
+2
+
+== COMMENTS
+
+They claim studying the behavior of monkeys helps them understand the behavior of humans. I dont see it. If we want to understand humans why dont we just study humans. Put cameras all over the place like china, and study away. 

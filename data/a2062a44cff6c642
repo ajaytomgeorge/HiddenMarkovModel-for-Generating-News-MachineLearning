@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://techcrunch.com/2019/10/02/molecule-one-uses-machine-learning-to-make-synthesizing-new-drugs-a-snap/
+
+==== AGENT
+
+A startup company known as molecule.one
+
+==== GOAL
+
+Pharmaceutical companies who have the "what" with regards to manufacturing a particular molecule that will treat an illness, do not have the "how". The old process of this was to hire professionals to develop a system capable of producing the molecule. Molecule.one is developing a machine learning solution that takes the company's discovery and outputs data of possible reactions that may allow the company to realise the "how" in producing this molecule. (i.e. from structures A, B and C how to we get Z, the desired treatment molecule).
+ 
+==== DATA
+
+Data was attained by using hundreds of historical chemistry papers, journals and revered documents. Data involved the heavy use of chemical equations.
+
+==== METHODS
+
+The algorithm which essentiall finds pathways to the desired molecule works incredibly well. The only difficult problem they've encountered is the availability of modern information with regards to these drugs. As most pharma companies keep their databases private for obvious reasons, they've outlined a cloud based, sign-up type relationship with these companies who wish to use this technology as a means of discovery acceleration will allow for true and modern pragmatic results.
+
+==== RESULTS
+
+They discovered novel molecules that were not yet known to chemists. The startup is succeeding and according to the CEO on its way to thriving in the rough and tumble pharmaceutical market.
+
+==== COMMENTS
+
+I think this technology is great, but the general outline of giving the notorious "Big Pharma" (which is allegedly associated with all kinds of insidious behaviour, including lobbying for market interests in politics and being an oligopoly) a bigger stick to swing may exacerbate healthcare and such, as a whole. Alternatively if somehow, technology like this did advance and became publicly known, it may cause dilemmas involving inexperienced amateur or clandescent chemists. 

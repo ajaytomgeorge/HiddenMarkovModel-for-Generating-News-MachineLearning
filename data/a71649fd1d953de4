@@ -1,0 +1,22 @@
+==== SOURCE
+bibliographic citation or URL with pointer to source of this information
+https://www.the-scientist.com/news-opinion/ai-accurately-detects-lung-cancer-in-scans-65914
+==== AGENT
+Who did the machine learning? (E.g., Google Brain, Prof Jane Baz’s group
+at University of North Hoople, etc.)
+A collaboration of software engineers and clinical researchers
+==== GOAL
+What were they trying to do?
+to develop an AI that detects lung cancer in Scans.
+==== DATA
+Where did they get their data? What did it look like?
+lung cancer screening for smokers. 
+==== METHODS
+What did they actually do?
+they produced an artificial intelligence program that uses images to predict with 94 percent accuracy which people will develop lung cancer.
+==== RESULTS
+How did it go for them?
+the algorithm was as accurate as radiologists in screening for cancer based on more than one computed tomography (CT) scan from the same person, and outperformed the doctors when it had access to just one scan from an individual.
+==== COMMENTS
+Your own personal comments and thoughts etc.
+Include things about the deficiency of the story as written if you’re feeling snarky

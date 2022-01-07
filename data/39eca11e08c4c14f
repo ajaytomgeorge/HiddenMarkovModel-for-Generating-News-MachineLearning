@@ -1,0 +1,41 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+The two universities involved in this project were MIT and the University of California at San Diego (UCSD).The authors and researchers for this paper were the 
+following: 
+Testart and David Clark, an MIT senior research scientist, alongside MIT postdoc Philipp Richter 
+and data scientist Alistair King as well as research scientist Alberto Dainotti of UCSD.
+
+==== GOAL
+
+Use machine learning to hunt down cybercriminals
+
+==== DATA
+
+The data used was gotten from the Center for Applied Internet Data Analysis (CAIDA).
+The data came inn the form of IP addresses.
+
+==== METHODS
+The Machine Learning system was used to flag networks that displayed certain charactheristics that are identifiers of cybercriminals, 
+the following charactheristics were used as the identifiers:
+	
+	-Volatile changes in activity: Hijackers’ address blocks seem to disappear much faster than those of legitimate networks. 
+	 The average duration of a flagged network’s prefix was under 50 days, compared to almost two years for legitimate networks.
+	-Multiple address blocks: Serial hijackers tend to advertise many more blocks of IP addresses, also known as “network prefixes.”
+	-IP addresses in multiple countries: Most networks don’t have foreign IP addresses. In contrast, for the networks that serial 
+	 hijackers advertised that they had, they were much more likely to be registered in different countries and continents.
+
+==== RESULTS
+
+The project was successful as they had proven that by using several years worth of data network mailing lists along with historical BGP data
+it was possible to observe particular qualities of malicious cyber activity, which was then used to train a machine learning model to automatically
+identify such behaviours.
+
+==== COMMENTS
+
+This project is definitely a great use of machine learning to fight a ever-growing problem in todays world. From what the researchers from this project 
+have said about the current low level of security to identify cyber attacks, it would be in everyones best interest that this machine elarning model 
+be developed further and implemented as a security detection against malicious cyber behaviour. 

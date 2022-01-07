@@ -1,0 +1,31 @@
+==Source
+https://www.news-medical.net/news/20210930/Direct-to-consumer-machine-learning-model-incorrectly-classifies-rare-aggressive-skin-cancers.aspx
+
+==Agent
+EADV-European Dermato-Venereology Society.
+
+==Goal
+Creating a model to detect Skin Cancer.
+
+==Data
+They created a dataset of 116 images of these rare cancers and of the benign lesions seborrheic keratosis and hemangiomas
+and assessed these images with two machine-learning models.
+
+==Methods
+Supervised Learning
+
+==Results
+Model incorrectly classifies rare, aggressive skin cancers
+
+==Issues
+The high false-positive rate of Model 1 has potentially negative consequences on a personal and societal level. 
+
+==Score
+4
+
+==Comments
+interesting new way of using existing data and methods, but they had failed to analyze and do not make 
+systematic analysis of all the skin's surface.
+
+
+

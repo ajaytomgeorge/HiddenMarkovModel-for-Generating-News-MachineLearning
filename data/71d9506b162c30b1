@@ -1,0 +1,38 @@
+
+== SOURCE
+
+https://www.irishtimes.com/news/science/harnessing-machine-learning-to-help-patients-with-als-1.4673787
+
+== AGENT
+
+Anna Markella Antoniadi - PHD candidate - FutureNeuro centre 
+
+== GOAL
+
+Using Machine learning to find less linear links between patient data and their needs, to potentially help clinicians when they are planning care for the patient. Anna's focus is on patients with ALS or motor neurone disease
+
+== DATA
+
+Data gathered by Prof Orla Hardiman and her team about ALS patients with their consent
+
+== METHODS
+
+Using the gathered data, they creaded models that can be used as part of a clinical decision support system
+
+== RESULTS
+
+The models that they made can be used to flag up with a nurse or doctor, a pattern of patient or caregiver characteristics that may suggest that the caregiver or patient is at risk of great psychological stress or lower quality of life. This would then help them to build a personalised care plan to support the patient and caregiver
+
+== ISSUES
+
+No major issues since this is just a small project at the moment. It would be good to see how it scales with more data
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I really like this use for machine learning as it has the potential to directly improve peoples lives. My one issue with the article is that is lacks in the details for how they used the data and generated the models but other than that, this project is very interesting
+
+

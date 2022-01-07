@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theverge.com/2018/8/28/17787610/openai-dota-2-bots-ai-lost-international-reinforcement-learning
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+Teach an AI to play a popular video game DOTA 2.
+
+== DATA
+
+Reinforcement learning, playing games against itself with the goal of winning
+
+== METHODS
+
+Reinforcement Learning
+
+== RESULTS
+
+The AIs have graduated through progressively harder versions of the game, starting with 1v1 bouts, then 5v5 matches with restrictions. However, they have yet to tackle the game’s full complexity, and have been playing with certain in-game mechanics turned off.
+
+== ISSUES
+
+It's difficult to teach the AI some subtle in-game mechanics, such as cutting off supply lines etc. The AI had a hard time recovering from a disadvantagious position because it would "Rather win win by 1 point with 90% certainty, than win by 50 points with a 51% certainty.”. This made it unlikely to go for high-risk high-reward plays that are important when playing in a losing position.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Reading over the project on OpenAI's site, the information on the Verge article seems accurate, just very summarised. I think this project is cool because it's a massive step forward from alphaGo or alphaZero, with DOTA containing strategic elements that are much more subtle and undefined than chess or go. This project prepares AI for real-world applications.

@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.wired.com/story/virtual-obstacle-courses-help-real-robots-walk/
+
+== AGENT
+
+ETH Zurich
+
+== GOAL
+
+The researchers were trying to improve manuverability for quadraped
+robotics by simulating a large group of them on rough terrain and 
+using a NN to improve how they move. 
+
+== DATA
+
+They simulated 4,000 quadraped robots.
+
+== METHODS
+
+The robots were trained on a reinforcement model.
+
+== RESULTS
+
+The team was successful in improving the mobility of the real world
+robots.
+
+== ISSUES
+
+No issues with experimentation
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The article was very interesting and both the methodology of the 
+experiment and reporting by WIRED was good.  Reinforcement learning
+is not new but the team used it in a simulation so they could
+run the experiment simultaniously over many instances concurrently.

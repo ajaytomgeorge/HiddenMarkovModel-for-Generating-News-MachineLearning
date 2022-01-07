@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.silicon.co.uk/networks/ducati-motogp-iot-206798
+
+== AGENT
+
+Ducati and Accenture
+
+== GOAL
+
+Create more efficient, safe, and effective motorcycles
+
+== DATA
+
+4,000 sectors of race track and 30 scenarios along with engine parameters, speed, revs, 
+tires and brake temperatures
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+"Simulating and monitoring a motorbike’s performance under a vast array of track and weather conditions,
+they’ve been able to apply machine learning integrated with IoT sensor data, to help minimize the time, 
+expense and effort of traditional on-track testing"
+
+== ISSUES
+
+None
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Very interested if this technology will be applied to other bikes besides racing. It could potentially lower 
+the risk of general use motorcycles.

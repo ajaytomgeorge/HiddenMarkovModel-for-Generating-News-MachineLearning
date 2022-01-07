@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.nature.com/articles/s41545-021-00108-3
+
+== AGENT
+
+The Environment Agency of England.
+
+== GOAL
+
+Detect sewage pollutions more accurately.
+
+== DATA
+
+Public database of environmental enforcement and compliance http://echo.epa.gov
+
+== METHODS
+
+Supervised learning of flow patterns
+
+== RESULTS
+
+Common overflow times were determined.
+
+== ISSUES
+
+N/A
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Very cool story using machine learning for a public service.

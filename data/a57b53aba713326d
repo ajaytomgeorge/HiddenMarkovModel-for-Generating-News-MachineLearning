@@ -1,0 +1,36 @@
+
+== SOURCE
+
+https://techxplore.com/news/2021-10-high-speed-drones-unknown-ai.html
+
+== AGENT
+
+Tech Explore
+
+== GOAL
+
+Flying high speed drones into the unknown with AI
+
+== DATA
+
+The drone's neural network learned to fly by watching a sort of "simulated expert" -- an algorithm that flew a computer-generated drone through a simulated environment full of complex obstacles. Such a "simulated expert" could not be used outside of simulation, but its data were used to teach the neural network how to predict the best trajectory based only on the data from the sensors.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+ develop a new approach to autonomously fly quadrotors through unknown, complex environments at high speeds using only on-board sensing and computation. The new approach could be useful in emergencies, on construction sites or for security applications.
+
+== ISSUES
+
+The researchers explain that the same approach could be useful for improving the performance of autonomous cars,or could even open the door to a new way of training AI systems for operations in domains where collecting data is difficult or impossible, for example on other planets.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+article looks reasonable. According to the researchers, the next steps will be to make the drone improve from experience, as well as to develop faster sensors that can provide more information about the environment in a smaller amount of time -- thus allowing drones to fly safely even at speeds above 40 km/h.

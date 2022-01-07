@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.nbcnews.com/storyline/the-big-questions/how-machine-learning-revolutionizing-diagnosis-rare-diseases-n700901
+
+== AGENT
+
+scientists like Abdul-Rahman, Chief of Medical Genetics at the University of Mississippi
+
+== GOAL
+
+They making potential diagnoses for rare genetic diseases to help physicians by there work
+
+== DATA
+
+they use data which they get from its use and the original data set is the symptoms of the diseases
+
+== METHODS
+
+supervised ML and face recognition
+
+== RESULTS
+
+At the example it helped the physician to order further test to prove the suggestion. Overall is the project still running and does not have a final result
+
+== ISSUES
+
+The algorithm recommends a disease everytime even tough there could be none.
+There was no test phase to prove the algorithm.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is an interesting new helpful algorithm that can support the physicans to minimize the suffering of people with rare deseases and get them their medication earlier. 
+Also the required experience with the app is an problem but the idea is good and it needs simply more data and testing to conquer the problems.
+The reporting seemed reasonable and solid

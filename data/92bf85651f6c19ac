@@ -1,0 +1,36 @@
+
+== SOURCE
+
+https://techxplore.com/news/2021-09-artificial-intelligence-highway-departments-roosting.html
+
+== AGENT
+
+Tech Explore
+
+== GOAL
+
+Artificial intelligence can help highway departments find bats roosting under bridges.
+
+== DATA
+
+They collected a pool of digital photographs of bridges with and without signs that bats may be present. Using these images, they let the model learn the features and traits that identified the presence of bats
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+They developed a prototype web application that allows users to interactively upload images of stains on structures and receive classification results from the model.
+
+== ISSUES
+
+The Visual inspection is the main method that transportation departments use to assess whether bats are present, but it's hard for humans to distinguish bat indicators without comprehensive training.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+article looks reasonable.

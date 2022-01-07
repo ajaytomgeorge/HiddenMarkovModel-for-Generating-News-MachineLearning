@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+ Hamsa Bastani, Kimon Drakopoulos, Vishal Gupta
+
+== GOAL
+
+Optimizing the testing of incoming travellers for COVID-19 involves predicting those who are most likely to test positive. A machine-learning algorithm for targeted testing has been implemented at the Greek border.
+
+== DATA
+They have used the data of test reports of incoming travellers to Greece.
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+
+The algorithm, which is built on a method called reinforcement learning, markedly increased the efficiency of testing for the coronavirus SARS-CoV-2, and contributed to Greece’s ability to keep its borders open safely. The work also provides a clear warning about the shortcomings of the comparatively blunt policy tools that most other countries continue to use.
+
+==ISSUES
+
+NIL
+
+==SCORE 
+
+8
+
+==COMMENTS
+
+It is interesting and it is a efficient algorithm as the authority can track the spread of covid-19 virus and can open the borders safely
+
+

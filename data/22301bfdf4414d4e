@@ -1,0 +1,45 @@
+== SOURCE
+
+https://www.wired.com/story/this-ai-helps-detect-wildlife-health-issues-in-real-time/
+
+== AGENT
+
+UC Davis
+
+== GOAL
+
+Help Detect Wildlife Health Issues in Real Time
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+Data for each case includes a unique identifying number, species, sex, age class, location found, circumstances of admission, initial examination findings and diagnosis (if determined).
+This data is fetched from an open online database designed for wildlife rehabilitation organizations to compile, analyse and archive standardized patient data called the Wildlife Neighbors Database Project.
+
+The data used from this database is extracted between 1 January, 2013 and 31 December, 2018.
+From the database, a total of 3081 cases were randomly chosen (each of which had one of twelve previously decided classifications based on data recorded for ‘reasons for admission’, ‘initial physical examination’, and ‘preliminary diagnosis’).
+
+20% of these (600) were randomly chosen as a test dataset for model validation. The remaining dataset was used for cross-validation.
+== METHODS
+
+What methods (algorithms, etc) did they use? Supervised? Unsupervised? RL?
+The AI was trained through a supervised learning algorithm. A ‘bag of words’ approach was used to extract predictive feature data and generate a list of vocabulary words from text entered in the ‘reasons for admission’, ‘initial physical examination’, and ‘preliminary diagnosis’ fields.
+Anomalies in admissions for each species and for each species/clinical classification combination were identified in the dataset using estimates of the rolling mean and rolling standard deviation derived through time-series analyses.
+For validation of the WMME Alert System, UC Davis performed timeseries analyses to compare trends in data generated through the system to an independent data source.
+
+== RESULTS
+
+Proof of concept for using pre-diagnostic clinical data assimilated from a network of wildlife rehabilitation organizations to contribute to early and enhanced detection of wildlife morbidity and mortality events.
+It serves as a valuable tool for assisting with early detection of and alerting to emerging diseases of wildlife as well as threats to domestic animal and human health (e.g. harmful algal blooms).
+
+== ISSUES
+
+I honestly see no issue with this research. It was minimally altered and externally verified.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This was well written and easy to understand. 

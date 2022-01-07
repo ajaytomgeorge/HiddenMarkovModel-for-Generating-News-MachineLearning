@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.the-scientist.com/features/ai-uses-images-and-omics-to-decode-cancer-65732
+
+==== AGENT
+
+Center for Genomics and Personalized Medicine at Stanford University
+
+==== GOAL
+
+Train a machine learning algorithm to detect lung cancers
+
+==== DATA
+
+The model was trained using more than 42,000 chest CT screening images taken from nearly 15,000 patients
+
+==== METHODS
+
+The researchers fed images into the machine learning algorithm, along with pathologist diagnosis, training it to distinguish lung cancer from normal tissue and two different types of lung cancer from each other. Then they fed in survival data for those slides, letting the system learn how that information correlated with the images. The researchers then offered the computer not just the slides, but also tumor transcriptomes. This helped the algorithm predict survival rates better than images or transcriptomes alone.
+
+==== RESULTS
+
+The model predicted patient survival rates with more than 80 percent accuracy. However, more trials need to be done before these tools can go to the clinics. 
+
+
+==== COMMENTS
+
+

@@ -1,0 +1,18 @@
+== SOURCE
+https://www.news-medical.net/news/20201028/Deep-learning-models-help-hunt-for-COVID-19-drugs.aspx
+== AGENT
+Michigan State University
+== GOAL
+The aim of the researchers was to increase our understanding of SARS-CoV-2's main protease. The main protease is a protein that is critical to the virus's ability to reproduce. Because the protease is so dissimilar to those found in humans it is an attractive target for a potential vaccine. By ranking the binding affinities of SARS-CoV-2's main protease's inhibitor structures it could reveal which candidates are worth pursuing in clinical trials, thus saving drug developers time and money in the development of a vaccine. 
+== DATA
+Two different public databases were used in the training of MathDL. PDBbind is a collection of binding affinity data for protein-ligand complexes in the Protein Data Bank. It contains data for over 17000 protein-ligand complexes and is free to use for the public. ChEMBL is another curated database of bioactive molecules that was used as well as other SARS-CoV main protease inhibitors from other research.
+== METHODS
+The research used MathDL models which were designed to predict druggable properties of 3D molecules in previous research. A convolutional neural network integrated with algebraic topological representations is used to predict various druggable properties such as toxicity and binding affinities.
+== RESULTS
+The research identified several attractive sites to form Hydrogen bonds on the protease such as Gly143 and Glu166. The research also identified a further 71 targeted covalent bonding inhibitors. Guowei Wei who led the study says that although that other forms of treatments that target the spike protein will likely be the first to be approved, protein inhibitors that have been discovered will be another tool to fight the virus.
+== ISSUES
+There does not appear to be any issues with the work done other than the fact that it only provides a basis for drug developers to work from. There is still a lengthy trial process involved in developing drugs and a lot of work is already being done in other types of treatments for Covid-19.
+== SCORE
+6
+== COMMENTS
+Unfortunately, the article and even the original paper itself doesn't go into a lot of detail about the model used in the research. Nonetheless it is still interesting and incredibly valuable research that essentially presents drug developers with the best candidates to pursue by intelligently filtering the available data. All the data was already publicly available in curated databases and existing research into SARS-CoV from 2003.

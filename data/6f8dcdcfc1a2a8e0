@@ -1,0 +1,37 @@
+﻿==== SOURCE
+
+Araújo, F. H. D., Santana, A. M., & de A. Santos Neto, P. (2016). Using machine learning to support healthcare professionals in making preauthorisation decisions. International Journal of Medical Informatics, 94, 1–7. https://doi.org/10.1016/j.ijmedinf.2016.06.007
+
+==== AGENT
+
+Flávio H.D. Araújo (Campus Senador Helvídio Nunes de Barros, Federal University of Piauí, Picos, Piauí, Brazil)
+André M. Santana (Department of Computing, Federal University of Piauí, Teresina, Piauí, Brazil
+Pedro de A. Santos Neto (Department of Computing, Federal University of Piauí, Teresina, Piauí, Brazil)
+
+==== GOAL
+
+In the present investigation, a system for supporting healthcare services pre-authorization was created to help healthcare professionals in decision making, whereby a potential choice was produced by learning the HIP database. Subsequently, this procedure is a significant tool for helping healthcare professionals.
+
+==== DATA
+
+Professors utilized pre-processing methods to prepare data from a non-profit health insurance provider (HIP) that contained real records that were collected from 2007 to 2013 to improve the quality of the data in a health insurance provider (HIP) database. These data were then combined with machine learning to get familiar with the human services pre-authorisation process. 
+In this examination, professors utilized dental data, however the first form of this method was performed utilizing medical data. This DB had 164 attributes; for ethical and legal reasons, all of the data that identified individuals, such as IDs, SSNs, dates of birth, addresses and phone numbers, were removed from the DB. Furthermore, an artificial key was generated for the DB to identify all of the anonymous individual was produced for the DB to recognize the majority of the unknown people. The number of attributes were decreased from 164 to 15 and were made 12 new traits from existing discrete data dependent on beneficiary’s history.
+
+==== METHODS
+
+After all of the data preparation stages completed, the classification algorithms were used to learn the behaviour of the authorization reviewers based on the final database.
+The following supervised learning algorithms were used in this study: the RandomTree, the Naive Bayes, the Support Vector Machine (SVM) and the Nearest Neighbour (NN) algorithm. The performance of each of the classifiers was evaluated to achieve the best performance in learning the preauthorisation process.
+
+At last, the classifiers with the best execution were determined and combined using ensembles. 
+
+The algorithms utilized were tested using the WEKA tool with 10-fold cross-validation as the evaluation strategy. In this evaluation method, the original dataset is arbitrarily divided into 10 data subsets with a similar size. One subset is chosen from the 10 subsets to validate the model, and the nine outstanding subsets are utilized for training. This procedure is repeated multiple times, and every one of the 10 subsets is utilized once for validation. Finally, the mean of the 10 generated results is determined to deliver a single estimate. The statistical measures for the evaluation of the algorithms used were Precision (P), Recall (R), Accuracy (A), F-Measure (FM), Area Under the ROC bend (AUC) and Kappa record (K).
+
+==== RESULTS
+
+The statistical measures for the evaluation of the algorithms used were Precision (P), Recall (R), Accuracy (A), F-Measure (FM), Area Under the ROC curve (AUC) and Kappa index (K).
+The utilization of the ensemble improved almost the majority of the evaluated metrics, except for the AUC metric, over utilizing the best individual classifier (NN) using the recreated informational index and the characteristics of the final dataset. Thus, using this classifier ensemble in a real HIP situation would accurately classify around 96% of the requests. 
+Unfortunately, these data indicated inconsistencies and mistakes in filling out the forms, facts that transformed them into questionable information and could disturb the learning procedure. In the event that it were conceivable to utilize such data, there would be great odds of accomplishing significantly higher precision levels
+
+==== COMMENTS
+
+Health systems all over the world are facing considerable pressure to reduce costs while having to sustain or even improve the quality of health service delivery. In this investigation, professors utilized data that are basic to HIP environments. There is a typical arrangement of data accessible to all administrators, however every single one of them additionally has explicit data that could surely be utilized in the learning procedure. This is the reason it will consistently be important to carry out past studies before implementing a too in a new HIP. Preliminary studies are additionally essential to extend this work to other health areas, since there are various contexts in each situation, with a lot bigger quantities of procedures and various degrees of unbalance.

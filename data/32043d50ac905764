@@ -1,0 +1,51 @@
+==== SOURCE
+
+https://spectrum.ieee.org/tech-talk/telecom/internet/mit-and-caida-researchers-want-to-use-machine-learning-to-plug-one-of-the-internets-biggest-holes
+https://www.techrepublic.com/article/how-mit-researchers-use-machine-learning-to-detect-ip-hijackings-before-it-occurs/
+
+==== AGENT
+
+MIT's Computer Science and Artificial Intelligence Lab (CSAIL) and the
+University of California San Diego (UCSD) Extremely-randomized trees
+(extra-trees) classifier.
+
+==== GOAL
+
+To prevent "BGP hijacking" by spotting suspicious-looking AS's (Autonomous
+Systems), known as "Serial Hijackers" which advertise false routes to IP ranges
+causing traffic to be mis-routed to their malicious networks.
+
+==== DATA
+
+There's not a lot of data out there about who these suspicious AS's are, or what
+characteristics they have, so this system uses a consensus model. There are
+several clues, such as not being online for as long as a legitimate AS, as well
+as having smaller IP blocks.
+
+They also used information gathered from network operator mailing lists and
+historical BGP data from the global routing table.
+
+==== METHODS
+
+Each "tree" in the random forest represents a vote of confidence. If many
+participants use the system, each one is a "weak" learner in the ensemble, and
+contributes their opinion, and ultimately the decision is made based on the
+opinion of the ensemble as a whole.
+
+==== RESULTS
+
+This system has not been deployed yet. They need to account for edge cases,
+especially cases where a legitimate AS goes offline. The article does say that
+the classifier flagged 934 out of 19,103 autonomous systems it tested as
+potential serial hijackers, however it doesn't provide any indication of how
+correct this result was.
+
+==== COMMENTS
+
+These kinds of hijackings have a high blast-radius, and usually by the time they
+are discovered it's too late. Normally each occurrence is handled by humans on a
+case-by-case. A system like this is of course welcome, and a good practical
+application of machine learning, however this should not be a permanent solution
+as the attackers will adapt. What's really needed is an upgrade to the BGP
+algorithm. It seems like there's no de-facto method of verifying the routes
+built into the protocol, but I digress. False positives are also a big concern.

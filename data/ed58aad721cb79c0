@@ -1,0 +1,36 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9102013
+
+== AGENT
+
+Ronnachai Jirapongpan, Naragain Phumchusri.
+
+== GOAL
+
+Prediction of the Profitability of Pairs Trading Strategy Using Machine Learning.
+
+== DATA
+
+The historical data used in the study are provided by the Metatrader server from January 2008 to December 2018. At first, visually screen the currency exchange historical chart of several exchange rates and eliminate the incomplete exchange rate such as spike candlestick, large gap, and inconsistency price.
+
+== METHODS
+
+Artificial Neural network and XGBoost.
+
+== RESULTS
+
+The performance of ANN and XGBoost is not much different. In-sample average accuracy is good, the out-of-sample is differing in both algorithms. 
+Artificial Neural networks can provide accuracy of Eighty percentage on USDCAD vs GBPUSD.
+
+== ISSUES
+
+Machine learning models are capable to classify the profitable signal from price behavior but may lack consistency.
+
+== SCORE
+
+6
+
+== COMMENTS
+ 
+The purpose here is to generate the precise signal from the pairs of assets to maximize the return. Here data used is for the duration of one year. So, more datasets will provide more accuracy using the Machine learning method. Pairs trading strategy is the old method and was developed in 1980.

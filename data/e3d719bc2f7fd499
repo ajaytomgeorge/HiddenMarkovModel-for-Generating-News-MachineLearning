@@ -1,0 +1,20 @@
+== SOURCE
+https://artificialintelligence-news.com/2020/07/23/deep-learning-predict-critical-covid-19-cases/
+== AGENT
+Researchers from Tencent, along with other Chinese scientists
+== GOAL
+Using deep learning to predict critical COVID-19 cases.
+== DATA
+The use of classified patients data received over 3000 patients data, with permission
+== METHODS
+Constructed a three-layer feedforward neural network using the selected features for survival modeling. The output of the network is a single node, 
+which predicts the risk score of developing critical illness. The deep learning network can learn from patients with covid and how well they recovered.
+The likes of age, cancer history, x-ray abnormality, dyspnea are all taking into account.
+== RESULTS
+There is now an online tool for better risk monitoring for covid 19 patients. Their deep learning network had a very high accuracy for critical patients.
+== ISSUES
+No issues found, from my reading
+== SCORE
+5
+== COMMENTS
+It was interesting with alot of information on both covid related things, and their system

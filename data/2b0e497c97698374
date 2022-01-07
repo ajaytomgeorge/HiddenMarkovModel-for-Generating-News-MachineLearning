@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.msn.com/en-in/money/news/an-ai-that-spots-covid-19/ar-AAPkq7T
+
+== AGENT
+
+Great Learning’s AI & Machine learning PG Programme
+
+== GOAL
+
+Identify Covid-19 in x-rays 
+
+== DATA
+
+Open source data 
+
+== METHODS
+
+Deep convolutional neural network.
+
+== RESULTS
+
+Detects covid with around 95% accuracy
+
+== ISSUES
+
+The work was done using the only 60 x-rays of covid patients in the public domain. More data is needed.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think it's really interesting that they were able to get seemingly good results from such little data, but I'm also a little skeptical. I'd like to see this done on a larger scale. So much machine learning seems to be doable by individuals or small groups, with the only barrier being access to data. As machine learning becomes more and more mainstream I'd like to see more data in all sorts of fields becoming publically available, allowing people to do work like this.
+

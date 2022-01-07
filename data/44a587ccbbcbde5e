@@ -1,0 +1,39 @@
+﻿==== SOURCE
+
+https://www.techrepublic.com/article/how-mit-researchers-use-machine-learning-to-detect-ip-hijackings-before-it-occurs/
+
+
+==== AGENT
+
+It was a joint project of MIT graduate student and lead author Cecilia Testart, and MIT and senior research scientist David Clark, alongside MIT postdoc Philipp Richter, data scientist Alistair King, and research scientist Alberto Dainotti of UCSD's Center for Applied internet Data Analysis(CAIDA).  
+
+
+==== GOAL
+
+Serial hijackers routinely steal IP addresses to pilfer data and launch attacks. Extra-trees classifiers could sniff out these hackers sooner. The goal was to predict incidents in advance by tracing them back to the actual hijackers. 
+
+
+==== DATA
+
+To zero in on serial IP hijackings, the team grabbed information from network operator mailing lists and from historical BGP data taken every five minutes from the global routing table.
+
+
+==== METHODS
+
+Specifically, the machine learning system tagged networks with three key traits in terms of the blocks of IP addresses they use:
+
+1. Volatile changes in activity: The blocks of addresses used by hijackers appear to vanish faster than do those used by legitimate networks. On average, addresses used by hijackers disappeared after 50 days, compared with two years for legitimate addresses.
+
+2. Multiple address blocks. Serial IP hijackers often advertise more blocks of IP addresses, or network prefixes. The median number was 41 compared with 23 for legitimate networks.
+
+3. IP addresses in multiple countries. Most networks don't have foreign IP addresses, while serial hijackers are more likely to register addresses in other countries and continents.
+
+
+==== RESULTS
+
+By analyzing that information, they were able to detect specific traits of hijackers and then train their system to automatically identify those traits. One challenge was that some IP hijackings can be the result of human error rather than a malicious attack. As a result, the team had to manually identity false positives, which accounted for around 20% of the results from the system. To cut down on the manual work, the team said it hopes that future versions of the system will be able to take on this type of activity without as much human intervention.
+
+
+==== COMMENTS
+
+This project could nicely complement the existing best solutions to prevent such abuse that include filtering, anti-spoofing, coordination via contact databases, and sharing routing policies so that other networks can validate it.    

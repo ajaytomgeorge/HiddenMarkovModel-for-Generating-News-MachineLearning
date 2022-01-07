@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.dailydot.com/unclick/deepfake-transforms-impressionist-into-20-celebrities/
+
+==== AGENT
+
+Deepfake creator Sham00k.
+
+==== GOAL
+
+The goal was to create a video transforming an impressionist into different celebrities by using Deepfake methods to change their face.
+
+==== DATA
+
+The dataset consisted of 1,200 hours of video and 300,000 images of 20 celebrities. The project took close to one terabyte of data to create.
+
+==== METHODS
+
+DeepFaceLab open-source software was used to create the video.
+
+==== RESULTS
+
+The result was a 2 and a half minute long video of impressionist Jim Meskimen going through 20 impressions while his face changes for each impression to realistically  match the celebrity.
+
+==== COMMENTS
+
+The video poses questions for both the tech industry and governments about how legal or ethical Deepfakes are as they get more and more realistic.

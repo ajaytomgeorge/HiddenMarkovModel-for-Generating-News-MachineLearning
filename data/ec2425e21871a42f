@@ -1,0 +1,38 @@
+== SOURCE
+
+https://towardsdatascience.com/match-prediction-in-league-of-legends-using-vanilla-deep-neural-network-7cadc6fce7dd
+
+== AGENT
+
+SEOUK JUN KIM
+
+== GOAL
+
+Develop a prediction model for professional league of legends games
+
+== DATA
+
+Used the RiotAPI  to collect 1045 matches with 80 percent as training set, 10 percent as dev set, 10 percent test set
+
+== METHODS
+
+Vanilla deep neural  with four hidden layers along with batch training
+
+== RESULTS
+
+Training accuracy: 0.7255
+Validation accuracy: 0.6905
+Test accuracy: 0.7033
+with performance of the neural network depending on the parameters/hyper-parameters
+
+== ISSUES
+
+Collection of data is difficult with rate limits on the RiotAPI, information may also be inaccurate if players ingame choose to swap positions etc.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It definitely has potential to be expanded upon in a multitude of ways. It is also interesting to think about the implications for game balance or professional metas based off of ML analysis

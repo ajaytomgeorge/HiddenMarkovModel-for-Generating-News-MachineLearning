@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://ieeexplore.ieee.org/document/8316380
+
+==== AGENT
+
+Avar Pentel, School of Digital Technologies, Tallinn University, Tallinn, Estonia.
+
+==== GOAL
+
+High precision handedness detection.
+
+==== DATA
+
+They used a questionnaire shared through social media. It looked like key logging data.
+
+==== METHODS
+
+They used 7 different machine learning algorithms to analyze the collected data.
+
+==== RESULTS
+
+It went very well as they were able to determine the handedness of a person from very little data.
+
+==== COMMENTS
+
+Determining if someone is left handed is a useful biometric to narrow down searches for known criminals on line if the handedness of the suspect is known. This could also be used as yet another biometric for advertisers to categorize target groups. 

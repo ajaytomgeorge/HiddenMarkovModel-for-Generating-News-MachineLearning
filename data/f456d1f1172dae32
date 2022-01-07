@@ -1,0 +1,37 @@
+== SOURCE
+
+https://netflixtechblog.com/artwork-personalization-c589f074ad76
+
+== AGENT
+
+Netflix
+
+== GOAL
+
+Use machine learning to to get the right titles in front of each of their members at the right time 
+
+== DATA
+
+Under their online exploration scheme, they obtained a training dataset that records, for each (member, title, image) tuple, whether that selection resulted in a play of the title or not.
+
+== METHODS
+
+Supervised learning models or contextual bandit counterparts with Thompson Sampling, LinUCB, or Bayesian methods that intelligently balance making the best prediction with data exploration.
+
+== RESULTS
+
+They’ve taken the first steps in personalizing the selection of artwork for their recommendations and across the service. This has resulted in a meaningful improvement in how members discover new content and they’ve rolled it out to all their customers
+
+== ISSUES
+
+We also carefully determine the label for each observation by looking at the quality of engagement to avoid learning a model that recommends “clickbait” images: ones that entice a member to start playing but ultimately result in low-quality engagement.
+Possible issue- How to include variety outside the viewers perceived comfort zones/familiarities.	
+
+== SCORE
+
+5
+
+== COMMENTS
+
+Useful time saving application of machine learning. Accurate reports in the press and any user of Netflix will appreciate the personalised experience. 
+Interesting new approach to advertising content to users.

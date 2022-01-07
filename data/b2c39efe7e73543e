@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/09/11/ai-researchers-from-amazon-nec-stanford-unveil-the-first-deep-videos-text-replacement-method-strive/
+
+== AGENT
+
+NEC Laboratories Palo Alto Research Center Amazon Stanford University
+
+== GOAL
+
+Create The First Deep Videos Text-Replacement Method
+
+== DATA
+
+RoboText,SynthText, RealWorld videos
+
+== METHODS
+
+supervised
+
+== RESULTS
+
+the researchers were able to show results on synthetic and challenging real videos with realistic text transfer
+
+== ISSUES
+
+
+
+== SCORE
+
+4
+
+== COMMENTS
+
+This could save a lot of time with video editing and translations

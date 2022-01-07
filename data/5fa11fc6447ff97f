@@ -1,0 +1,37 @@
+== SOURCE
+https://support.apple.com/en-ca/HT208108
+
+== AGENT
+iPhone X facial recognition.
+
+== GOAL
+Unlocks iPhone if it recognises the users face via its front camera.
+
+== DATA
+Takes an image of the users' face and stores it in the iPhone's system. Unstructured 
+data, as it would identify parts of a person's face and deduce whether it is the user or not.
+
+== METHODS
+When first used, the iPhone's camera records the user's face, and creates a 3-D representation 
+of the it. The system adapts to the user wearing make-up, glasses, scarfs or other partial 
+facial coverings, to still allow the user to be recognised.
+
+== RESULTS
+Overall, the model worked very well, it is still being run on all newer iPhone models, albeit with 
+updated features and performance. However, it is not 'bulletproof' by any means. Apple themselves quote 
+the probability of a random person unlocking the iPhone via face recognition at 1 in 1,000,000. This is 
+not exactly 'iron clad' or minimalistic.
+
+== ISSUES
+As mentioned, there is still a chance of someone managing to beat this AI facial recognition, purely by just
+looking at the phone. Also, the probability reduces substantially when considering family members, or even an identical
+twin, given the likeness they may share to the user, resulting in the iPhone falsely recognising this person
+as the user.
+
+== SCORE
+8
+
+== COMMENTS
+The fact that facial recognition is still running on all newer iPhone models since the iPhone X says a lot about 
+the success of the feature, and its popularity with Apple's customers. 100% success is a pipe dream with this sort 
+of technology, but Apple definitely were not far off it here.

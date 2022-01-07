@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.biorxiv.org/content/10.1101/2021.03.08.434495v1.full
+
+== AGENT
+
+Who did this machine-learning-related work (e.g., Netflix)
+
+== GOAL
+
+To determine the capacity of machine learning models to build unified, interpretable, and explainable models of crop behaviour, and highlight the powerful role of data in the future of food.
+
+== DATA
+
+By linking satellite data to a freely available ‘big’ dataset, the Australian National Variety Trials (NVTs), they developed a framework to train and test accurate ML models and extract meaningful and testable hypotheses from ML models.
+
+== METHODS
+
+The used unsupervised machine learning
+
+== RESULTS
+
+Machine learning provided clear and accurate predictive models across a broad array of challenges.
+
+== ISSUES
+
+Lack of data avaiable to make predictions with high accuracy
+
+== SCORE
+
+3
+
+== COMMENTS
+

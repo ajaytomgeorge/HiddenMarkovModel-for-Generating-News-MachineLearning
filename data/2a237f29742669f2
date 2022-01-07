@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://arxiv.org/abs/1705.07962
+ arXiv:1705.07962v2
+
+==== AGENT
+
+Ulzard
+Cornell University
+Tony Beltramelli
+
+==== GOAL
+
+He was attempting to create a Neural Network that when shown a GUI
+for an app could generate a Layout code from that screenshot.
+
+==== DATA
+
+Screenshots of GUI for ios that they wrote original code for. This way they
+could check if the results were accurate.
+
+==== METHODS
+
+They used a trained deep Neural Network that had been thought the language used for
+this research. They then used screenshots from web applications/GUI for ios as their input
+and the NN would generate source code and output its own version of that GUI.
+
+==== RESULTS
+
+They claimed to be able to achieve results with 77% accuracy. However it is still under
+research and no application discussed yet.
+
+==== COMMENTS
+
+This technology could have applications in the area of education. For eample if we knew
+how this code learned new languages/interpreted the screenshots it could potentially aid
+universities or schools when trying to teach computer science to their students.

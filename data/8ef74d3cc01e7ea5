@@ -1,0 +1,38 @@
+== SOURCE
+
+https://phys.org/news/2021-07-machine-learning-mutations-similar-genome-sequences.html
+
+== AGENT
+
+Nature Biotechnology
+
+== GOAL
+
+To find mutations in similar genome sequences of cancer samples, To spot cancerous mutations in non-unique parts of the genome.
+
+== DATA
+
+The researchers developed a list of genome regions known to be similar to other regions and then using them to teach a machine learning algorithm how to recognize them.
+
+== METHODS
+
+Developing a list of genome regions known to be similar to other regions and then using them to teach a machine-learning algorithm how to recognize them. Researchers then used the algorithm to spot mutations in different tissues—2,658 samples from the Pan-Cancer Analysis of Whole Genome dataset.
+Due to the use of a dataset to determine how the results this is a method of unsupervised learning through classification
+
+== RESULTS
+
+The researchers uncovered mutations in 1,744 coding sequences along with thousands of other mutations in non-coding sequences. They also found that their algorithm had a false discovery rate of approximately 7% and a validation rate of more than 80%.
+
+== ISSUES
+
+Overall I did not find any issues in this report and how the article was reported.
+
+== SCORE
+
+
+8
+
+== COMMENTS
+
+Overall I found this algorithm and method of using a supervised based machine learning algorithm do discover cancerous mutations to be extremely interesting and it was a great way to use existing data which although has been tested was mostly structured to finding the more common mutations and this article builds upon the previous method excellently.
+If I was to undertake this project I would not make any changes as I believe this is a very useful method and proved its success through its high validation rate of 80%.

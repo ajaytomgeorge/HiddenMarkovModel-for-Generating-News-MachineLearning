@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Greek National covid Experts
+
+== GOAL
+
+Use an algorithm to find which passengers are more like to have covid and to use tests on them to save money and save covid test
+== DATA
+
+Their country and region of origin, age and sex — are available digitally, on the passenger locator form that all travellers complete 24 hours before arrival in Greece. 
+
+== METHODS
+
+reinforcement learning the algorithm learns from large batches of test results rather then one on one. 
+
+== RESULTS
+
+The automated system doubled the efficiency of testing for case per test. This allowed for border to stay open while quarantining passengers many of which were asymptomatic.
+
+== ISSUES
+
+Data protection, difficult for algorithm to be efficient with lack of data available.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found this very cool and an efficient way to save valuable resources rather then waste them testing everybody use Machine Learning to calculate the higher risk travellers and only test them saving money and time.

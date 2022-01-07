@@ -1,0 +1,31 @@
+﻿==== SOURCE
+
+https://news.mit.edu/2019/using-machine-learning-estimate-risk-cardiovascular-death-0912
+
+==== AGENT
+
+MIT's Computer Science and Artificial Intelligence Laboratory(CSAIL).
+
+==== GOAL
+
+Using machine learning to estimate risk of cardiovascular death
+
+==== DATA
+
+To get the model up and running, the team first separated each patient's signal into a collection of adjacent heart beats. They then assigned a label of whether or not the patient died of cardiovascular death - to each set of adjacent heartbeats. The researchers trained the model to classify each pair of adjacent heartbeats to its patient outcome: Heartbeats from patients who died were labeled “risky”, while heartbeats from patients who survived were labeled “normal.” 
+
+==== METHODS
+
+The system focuses on patients who have survived an acute coronary syndrome (ACS), which refers to a range of conditions where there’s a reduction or blockage of blood to the heart. Using just the first 15 minutes of a patient's raw electrocardiogram (ECG) signal, the tool produces a score that places patients into different risk categories.
+Given a new patient, the team created a risk score by averaging the patient prediction from each set of adjacent heartbeats.
+Within the first 15 minutes of a patient experiencing an ACS, there was enough information to estimate whether or not they would suffer from cardiovascular death within 30, 60, 90, or 365 days. 
+
+==== RESULTS
+
+RiskCardio’s high-risk patients, the patients that were in the top quartile of high-risk, were nearly seven times more likely to die of cardiovascular death when compared to the low-risk group in the bottom quartile. By comparison, patients identified as high risk by the most common existing risk metrics were only three times more likely to suffer an adverse event compared to their low-risk counterparts. 
+
+==== COMMENTS
+
+Just like other models that aim to tackle health issues with the use of AI, this too, is quite risky as we are potentially dealing with the life of a person in our hands.
+The model just uses one parameter unlike its conterparts which use a combination of multiple factors, granted that it is better than the other models, maybe the accuracy of "RiskCardio" could be increased if a combination of multiple factors is considered.
+The team could make the dataset more inclusive as it is a very niche datset currently.

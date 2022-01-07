@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/09/200930144426.htm
+
+== AGENT
+
+University of Central Florida
+
+== GOAL
+
+To produce an AI that can sucessfully classify Covid-19 detected in CT scans
+
+== DATA
+
+https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)  This is only a portion of the data.
+
+== METHODS
+
+Supervised classification of images and 3d data.
+
+== RESULTS
+
+90% accuracy in detecting pneumonia
+84% accuracy in detecting postive covid cases
+93% accuracy in classifying negative covid cases
+
+== ISSUES
+
+While this is interesting, it is still relatively inaccurate when considering that predicting covid positive will be wrong
+for approximately 3 out of every 20 people. And 7 out of 100 could be misclassified as covid-negative. A useful tool to assist
+in diagnoses but should not be standalone.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Pretty cool that it can detect the difference between Influenza and Covid based on a CT scan of lung damage. Despite the issues mentioned above,
+it could be a good screening tool to expedite treatment. The fact that CT scans can be used to detect covid in asymptomatic people
+also makes this very interesting.

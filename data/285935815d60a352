@@ -1,0 +1,37 @@
+== SOURCE
+
+https://privacyinternational.org/examples/4181/us-department-homeland-security-fears-face-masks-break-facial-recognition
+
+== AGENT
+
+US Department of Homeland Security 
+
+== GOAL
+
+Face recognition with face masks 
+
+== DATA
+
+Images of people faces taken without face masks
+
+== METHODS
+
+Supervised Learning
+
+== RESULTS
+
+Faces were recognised without a face mask but with a face mask the face is either not recognised the face or incorrectly recognised
+
+== ISSUES
+
+In normal circumstances there is the ethical issue of the department storing peoples data as this allows their face to be recognised.
+Issue now face masks cover half the face and the face cannot be detected
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The use of face masks with the current situation causes the AI to either not recognise the face or incorrectly recognise the face. This is a very interesting problem
+for the department of homeland security

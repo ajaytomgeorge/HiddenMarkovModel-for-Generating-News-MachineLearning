@@ -1,0 +1,36 @@
+== SOURCE
+
+https://iopscience.iop.org/article/10.1088/1742-6596/1000/1/012028
+
+== AGENT
+
+V V Ramalingam, A Pandian, Lavanya Jayakumar.
+
+== GOAL
+
+Facial Emotion Recognition System using Machine Learning. The idea is to describe the emotion of humans by using facial expressions.
+
+== DATA
+
+MMI Frown Interpretation Database is suggested to accompany more than 1500 samples of both static picture and picture progression of frowns in frontal and in profile view exhibiting multiple expositions of expression, single and various frown muscle simulation. Training data has been collected from Extended Cohn Kanade (CK+) and MMI databases.
+
+== METHODS
+
+Particle Swarm Optimization (PSO) Algorithm, micro Genetic Algorithm (mGA). It uses both supervised and unsupervised data.
+
+== RESULTS
+
+The output will display the emotions from the provided input image and they are Happiness, Sadness, Surprise, Animal frown exposition. It will show the error message to input a human image if the user inputs an animal image instead. The results of this output will be helpful in multiple areas. Patient status detection, driver exhaustion monitoring, and an intelligent teaching system are just a few examples. And these outputs are achieved by following sequential steps, Skin Color Segmentation, Face Detection, Eyes Detection, Lip Detection, Apply Beizer Curve on Lip, Apply Beizer Curve on Eye, and Comparison with the database.
+
+== ISSUES
+
+The entire structure is made for happiness, sadness, and surprise emotions. If the user inputs the anger facial image, the system won't recognize it.
+If the person's emotion is not recognized, the source code determines the moderate height for every emotion and provides the result. Hence, the result will not be accurate as expected. If the provided input human face as scars then it will be tough to identify the emotions by comparing with the data.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Facial emotion recognition is interesting since it will be used in the real world. If the person while driving gets into any medical emergency situation then the message can be alerted to the respective authorities. This system can be used for monitoring the patient's conditions in the hospital, this will alert doctors about changes in the patient's health. The idea in this model is old, but this can be made more beneficial by making use of more data to compare with the provided input image.

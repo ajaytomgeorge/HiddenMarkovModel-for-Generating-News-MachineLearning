@@ -1,0 +1,27 @@
+== SOURCE
+https://www.theverge.com/2019/2/1/18205610/google-captcha-ai-robot-human-difficult-artificial-intelligence
+== AGENT
+Google
+== GOAL
+Use machine learning to pass Turing tests in the forms of CAPTCHAs
+== DATA
+CAPTCHA data from human interaction on Google sites was used to teach a machine to beat Google's own CAPTCHAs
+== METHODS
+Support Vector Machines
+== RESULTS
+Google were able to use machine learning combined with user data collected from their reCAPTCHA service to train and pass their CAPTCHA checks.
+They did so with an accuracy of 99.8%, while human users had a success rate of only 33%. 
+Over the years, this has led to an increase in difficulty in CAPTCHAS to try and stay ahead of the machines.
+Machines are capable of solving image based, text based and even audio based CAPTCHAs.
+== ISSUES
+The main issue with this work is that it lead to annoying people with harder CAPTCHAs.
+Unfortunately this is a necessary evil for the internet that we must put up with. 
+The article does somewhat sensationalise the issue, but I expected no less from the Verge.
+== SCORE
+6
+== COMMENTS
+This article highlights how fast machines are learning to pass our so-called Turing tests used to authenticate human interactions on websites.
+In particular, it shows that the machines have become more efficient at solving these CAPTCHAs than the average person.
+It raises interesting questions, concerns, and insights about the future/progression of CAPTCHAs and how they've evolved over time.
+For example, CAPTCHA games which rely on simple games that can be universally understood by all people across cultural and linguistic boundaries are particularly interesting in concept, but also highlight a significant challenge in CAPTCHA design.
+To create something abstract and with as little instruction given to a user to make it hard for a machine to interpret, but needs to be understandable to as many people as possible for it to be useful for authentication.

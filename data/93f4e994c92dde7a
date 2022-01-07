@@ -1,0 +1,41 @@
+
+== SOURCE
+
+https://www.infoq.com/news/2021/09/georgia-tech-brain-interface/?topicPageSponsorship=8e4bb459-3843-4916-b7a8-0fbd274b1496
+
+== AGENT
+
+InfoQ
+
+== GOAL
+
+Create wireless Brain-Machine interface for reading human brain signals.
+
+== DATA
+
+By processing the EEG data using neural network.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The goal is to enable disabled users to control devices using only brain signals. Achieving the best signal-to-noise ratio (SNR).
+
+== ISSUES
+
+the drawback of requiring brain surgery, leading many scientists to pursue non-invasive techniques such as EEG.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Article looks reasonable.
+
+
+
+
+

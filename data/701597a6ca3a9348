@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.theregister.com/2021/10/08/ai_game_abuse/
+
+== AGENT
+
+Latitude
+
+== GOAL
+
+Realise the dangers in unmoderated data scraping
+
+== DATA
+
+The AI scraped stories from a platform called Choose Your Story and mimicked writing styles from the stories.
+
+== METHODS
+
+The AI was trained through unsupervised learning methods. It utilsed OpenAI’s GPT-2 and GPT-3 models for training.
+
+== RESULTS
+
+While the AI was able to successfully mimick the writing style and produce an actual story, it also led to NSFW moments and characters to be introduced.
+
+== ISSUES
+
+While the methods used and how it learnt were fine, there was no look to what data was actually scraped. Thus, the stories had unethical NSFW moments.
+There were no immediate alterations by the developers in retraining the AI, but they started to ban the users who (not always knowingly) clicked their way to these stories.
+This was a shift of blame which many disputed against as they paid money for this service and were, by all means, innocent.
+As the code was open source, the report was not tunnel visioned on only the bad but gave an honest overview on what the AI was scraping.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I actually found this article very interesting. It reminded me of the tank-recognition AI story mentioned in a previous lecture. It showed that even in modern times that programmers
+can use problematic datasets when not scrutinised properly.

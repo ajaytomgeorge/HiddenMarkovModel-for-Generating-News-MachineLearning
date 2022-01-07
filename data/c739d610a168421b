@@ -1,0 +1,35 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/7754251
+
+== AGENT
+
+N. D. Londhe.
+
+== GOAL
+
+Machine learning paradigms for speech recognition of an Indian dialect.
+
+== DATA
+
+Dataset of maximum 50 isolated words of 15 speakers. It is implemented on self-recorded speech data in various geographical locations of Chhattisgarh state of India consisting of 7500 utterances of 50 common but acoustically challenging words for 15 speakers.
+
+== METHODS
+
+Artificial Neural Network (ANN), Support Vector Machine (SVM), and Hidden Markov Model (HMM).
+
+== RESULTS
+
+For both speaker-dependent and speaker-independent speech, recognition SVM gives more accuracy percentage than HMM and ANN. When trained with a single speaker's data set, the system fails to recognize words said by an unknown speaker in several training and testing sessions.
+
+== ISSUES
+
+The efficiency of the system reduces by increasing the dictionary size. This demonstrates that recognition accuracy varies depending on the speakers used to train the algorithm.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The speech recognition system idea for an Indian Language is very interesting. Since languages and accents will differ from each state of the country. Here, I feel the data they considered for training the speech data is less. Because the speaker will speak many words and this may not be in the data dictionary. Therefore for a speech recognition system, the use of many data sets will provide good results.

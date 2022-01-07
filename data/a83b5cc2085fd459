@@ -1,0 +1,12 @@
+==== SOURCE
+https://phys.org/news/2019-10-scientists-machine-learning-algorithms-automate.html
+==== AGENT
+Salk Institute
+==== GOAL
+Use machine learning to automate plant studies
+==== DATA
+3D laser scanning was used to capture the structure of 54 tomato and tobacco plants
+==== METHODS
+These were then used to train the algorithm how to phenotype the plants. This was focused on three phenotype measurements that scientists often use, separating stems from leaves, counting leaves and their size. 
+==== RESULTS
+This method had a 97.8% accuracy at identifying stems and leaves. The researchers will plan to continue to improve their software and will release it as open source for other researchers to use. 

@@ -1,0 +1,54 @@
+﻿==== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036556
+Citations included in the article:
+Albert MV, Kording K, Herrmann M, Jayaraman A (2012) Fall Classification by Machine Learning Using Mobile Phones. PLoS ONE 7(5): e36556.
+
+==== AGENT
+
+This research was worked on by Mark V. Albert, Konrad Kording, Megan Herrmann and Arun Jayaraman.
+
+==== GOAL
+
+The goal of this research was to prevent falls in elderly people as it's a very common source of injury, distress 
+and mortality events. The purpose of the research was to find and demonstrate the best techniques to reliably 
+detect falls and to also automatically classify each type of fall, with the end goal of decreasing these falling 
+scenarios.
+
+==== DATA
+
+15 Subjects were asked to simulate 4 different types of falls: Left and Right Lateral, Forward trips and Backward slips
+while wearing mobile phones with built-in accelerometers.
+9 of the subjects also carried the phones for 10 days to also help with the simulation and learning to collect more data.
+Many different activities were done during the testing to also better classify different falls and to check for and remove any false positives.
+
+==== METHODS
+
+Most of the methods are explained above in the DATA section. In the accelerometers and phones, there was a recorded value 
+for the x, y and z-axis which helped determine lateral movement along with forward and backwards movement. The z-axis along with 
+the speed of the subject would be recorded and with this calculations could be made taking into account the subjects 
+y-axis to check if they fell and then the direction they went in using the x and z-axis. This would allow for the classification of 
+the type of fall occured.
+This data was then recorded and used to find better ways to prevent falls and how to recover from falls if an elderly 
+person was to fall.
+To properly detect falls, they also recorded daily activities and checked for any false positives to better teach the 
+learning model.
+
+==== RESULTS
+
+The learning model managed to classify real falls from just daily activities with an accuracy of 98% for the pooled subjects, 
+but dropped by 1% down to 97% accurate when used subject-wide crossvalidation was used which is very impressive. 
+With their study they estimate that in a an average week there would be 2-3 non-falls that would be misclassified and recorded.
+There are also some graphs and visual data shown in the article showing these numbers as well.
+
+==== COMMENTS
+
+I think this is a very interesting field of research. But I fail to understand how this would help people recover from 
+a fall. I can see how it may help prevent a fall, but the application seems to only detect trips in the forward direction. 
+Many people can trip in any direction, or slip forward or laterally. Not just backwards.
+I can see people tripping sideways and it being classified as a lateral fall instead of a lateral trip.
+I can see it being useful as a sort of emergency tool though, maybe used by elderly people when they trip and fall it could 
+notify any local emergency services of their location and issue along with sending the type of fall so emergency services 
+know what kind of emergency it is.
+So overall I think this is definitely something that could benefit many people and could be used to teach people 
+of the most common ways people fall. But there are also some shortcomings with its classification and usefulness right now.

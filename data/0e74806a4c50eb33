@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek
+
+==== AGENT
+
+OpenAI
+
+==== GOAL
+
+Using current machine learning techniques to create an AI agent to play hide and seek.
+
+==== DATA
+
+“seekers” get points whenever the “hiders” are in their field of view. The “hiders” get a little time at the start to set up a hiding place and get points when they’ve successfully hidden themselves; both sides can move objects around the playing field (like blocks, walls, and ramps
+
+==== METHODS
+
+Reinforcement learning, where AI systems get “rewards” for desired behavior and are set loose to learn, over millions of games, the best way to maximize their rewards.
+
+==== RESULTS
+
+"hiders" built defensive shelters and the seekers used ramps to get over them. Then the "hiders"  locked the ramps so they couldn't be used but the seekers then surfed on boxs to get over the shelters. In the end there were numerous creative ways of winning which the AI used.
+
+==== COMMENTS
+
+The behaviour is extraordinary but also scary as it is very similar to what a human would do in the same scenario.

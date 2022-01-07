@@ -1,0 +1,28 @@
+#2
+
+== SOURCE
+https://intellias.com/e2e-predictive-maintenance-software/
+
+== AGENT
+Intellias
+
+== GOAL
+To schedule the maintenance of the vehicles using Machine Learning based notification maintenance software
+
+== DATA 
+Vehicle data, which also includes performance of individual parts
+
+== METHODS
+Vehicle predictive Machine Learning algorithm
+
+== RESULTS
+It has been seen that the algorithm achieved notable improvements for notification system for drivers about car maintenance.
+
+== ISSUES
+Main issue was of handling the large amount of data.
+
+== SCORE
+8
+
+==COMMENTS
+In automobile industry, using machine learning for machines’ performance prediction is a great start for the upcoming era of ML and AI. This will allow us to create many possibilities from using machine learning to simple predictions to using it where the humans cannot be very accurate.

@@ -1,0 +1,30 @@
+==== SOURCE
+
+https://venturebeat.com/2019/06/27/how-google-maps-uses-machine-learning-to-predict-bus-traffic-delays-in-real-time/
+
+==== AGENT
+
+Google
+
+==== GOAL
+
+Predict live bus delay.
+
+==== DATA
+
+The real-time data on bus locations is collected from some transit agencies.
+The dataset includes travel distance, traffic events and combination of time.
+
+==== METHODS
+
+At initial stage Google collects bus location data form public transportation agencies and uses it for training, then maps it to transport speeds on the route.
+After that the model simulates the distance and time when a bus slows down and pulls over at a stop. The final output is the sum of the per-unit forecasts, and each unit¡¯s prediction is independent.
+Also, a training model learns a hierarchy of representations of different streets, area and cities. Then sum the embeddings of a model location at various scales.
+ 
+==== RESULTS
+
+It provides bus routine and real time information over hundreds of major cities today.
+
+==== COMMENTS
+
+It is still not available for the majority of cities in the world. And it requires a huge amount data for training.

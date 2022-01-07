@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.aviationtoday.com/2020/06/29/how-searidge-uses-artificial-intelligence-to-revolutionize-airports-air-traffic-management/
+
+== AGENT
+
+Searidge
+
+== GOAL
+
+Increase landing capacity during low visibility conditions at Heathrow Airport
+
+== DATA
+
+18 4k cameras were set up on the airport and used to feed data into a collection for interpretation, along with data captured from 50000 aircraft movements
+
+== METHODS
+
+Supervised Deep Learning
+
+== RESULTS
+
+improvements in identifying approaching aircraft in low visibility conditions
+
+== ISSUES
+
+It will require a very large safety record before it can be implemented in the aviation sector before its implementation can expand
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is very promising while teething problems will exist and the cost of failure can be extreme, in the long run Machine learning traffic control would most likely perform better than a human can

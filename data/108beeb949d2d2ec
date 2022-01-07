@@ -1,0 +1,41 @@
+==== SOURCE
+
+The “Rapid Target Detection in High Resolution Remote Sensing Images Using YOLO Model” article’s source can be found at:
+https://pdfs.semanticscholar.org/e8ef/30ce5c06986210e7b64c6be0c5ff213f236d.pdf
+
+
+==== AGENT
+
+The document was written by:
+Wu Zhihuan, Chen Xiangning,, Gao Yongming, Li Yuntao. From the Space Engineering University, Beijing, China -wuzhihuan@hotmail.com & 63883 Troops, Luoyang, China -wuzhihuan@hotmail.com.
+
+
+==== GOAL
+
+The main objective of this paper is to tests YOLO object detection algorithm into a high resolution remote sensed data set. Comparing it with the successful performance of Deep Convolutional Neural Networks (DCNN) that has reached the state of the art in computer vision due to its ability of feature extraction. The aim is identify airports and airplanes utilizing the YOLO algorithm, reduce the computational 
+
+==== DATA
+
+The data was obtained from NWPU VHR-10 dataset, which is a 10 class public dataset that can be obtained in as well as their proprietary airport/plane dataset obtained from Google Earth and Vaihingen later manually annotated utilizing imgLabel that returns a standard PASCAL_VOC format dataset.
+1.5.1	Label the Data
+The images are animated utilizing imgLabel to obtain standard PASCAL_VOC format
+
+==== METHODS
+
+To perform the tests a Sugon W560-G20 Server with E5-2650 v3 CPU, 32GB memory, and Quora k2000 GPU was utilizied. The model was implemented in Keras with Tensorflow back end. The libraries required are: Tifffle, OpenCV, Shapely, Matplotlib and ImgLabel.
+The following methodology is required to implement the experiment:
+1.	Dataset Construction
+2.	Model Construction
+3.	Model Training
+4.	Model Prediction
+1.7	Results
+The YOLO algorithm increased the detection speed rate at 0.1, and had a miss detection rate of 11.5% in airports and 7.34% in airplanes. As shown in one of the pictures of the article YOLO does not perform properly in a location with a high density of objects to detect. 
+
+
+==== RESULTS
+
+The YOLO algorithm increased the detection speed rate at 0.1, and had a miss detection rate of 11.5% in airports and 7.34% in airplanes. As shown in one of the pictures of the article YOLO does not perform properly in a location with a high density of objects to detect. 
+
+==== COMMENTS
+
+The document is very useful to understand basis of Machine Learning, shows the purpose in a very clear manner. The mathematical concepts are not very detailed, and some careless mistakes are found. Over all the document is a good base to start getting involved into object detection and methodologies that help understand the creation of datasets.

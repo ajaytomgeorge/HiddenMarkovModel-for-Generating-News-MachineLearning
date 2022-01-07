@@ -1,0 +1,19 @@
+== SOURCE
+https://techxplore.com/news/2021-09-machine-technique-local-equilibria-symmetric.html
+== AGENT
+Technical University of Munich == GOAL
+A machine learning technique that can learn local equilibria in symmetric auction games 
+== DATA
+Over the past few decades, computer scientists have been exploring the potential of applying game theory and artificial intelligence (AI) tools to chess, the abstract strategy board game go, or other games. Auction theory is an application of game theory that specifically describes how different bidders may act in auction markets.
+In game theory, the Bayesian Nash equilibrium (BNE) occurs when no player (or bidder) can improve their chosen strategy after they considered their opponent's choices. The BNE is considered a stable outcome of a game or auction and can serve as a prediction for the outcome, yet it is far harder to calculate for auctions compared to finite complete-information games such as rock-paper-scissors. This is because opponents' values and bids are continuous. Researchers at Technical University of Munich have recently developed a new machine learning technique that can be used to learn local equilibria in symmetric auction games. This technique, introduced in a paper published in Nature Machine Intelligence, works by representing strategies as neural networks and then applying policy iteration based on gradient dynamics while a bidder is playing against himself.
+
+== METHODS
+Game Theory
+== RESULTS
+A machine learning technique that can learn local equilibria in symmetric auction games
+== ISSUES
+None 
+== SCORE
+9/10
+== COMMENTS
+

@@ -1,0 +1,20 @@
+== SOURCE
+https://www.polygon.com/22675796/fifa-22-hypermotion-motion-capture-new-realism
+== AGENT
+EA Sports 
+== GOAL
+How HYPERMOTION a ML algorithm that was worked on for 3 years was implemented in FIFA that animation in real-time.
+== DATA
+As Sam Rivera explained it to me, the success of FIFA 22's new animation technology will be seen in what wasn't recorded during a groundbreaking motion-capture session  --  involving 22 players all playing a start-to-finish game of soccer  --  earlier this year.
+"We started working on an algorithm about three years ago," explained Rivera, FIFA 22's lead gameplay producer at EA Vancouver. "What that algorithm is doing is learning from all the data for that motion capture shoot  --  how the players approach the ball, how many steps do they do to get to the ball, is it three long steps and one short step; what is the proper angle, with the proper cadence, to properly hit that ball?"
+Then, Rivera says, "it creates that solution, it creates the animation in real time. That is very, very cutting-edge technology. This is basically the beginning of machine learning taking over animation." 
+== METHODS
+Hyper Motion
+== RESULTS
+How ML can be implemented to further improve game capture to animation.
+== ISSUES
+Even though it is a cutting-edge tech for motion capture. This might not be implemented in all the games as since some are completely computer rendered
+ == SCORE
+8/10
+== COMMENTS
+

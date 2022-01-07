@@ -1,0 +1,18 @@
+== SOURCE
+https://www.fastcompany.com/90244767/see-the-shockingly-realistic-images-made-by-googles-new-ai
+== AGENT
+Andrew Brock PhD student at Edinburgh Centre for Robotics 
+== GOAL
+The goal of BigGAN is to improve image synthesis using Generative Adversarial Networks. The previous best results of image generation using GANs achieved an inception score of 52.5 with real data having a score of 233. The researchers set out to close this gap in fidelity and variety between generated and real images. One of the intended approaches was to examine the effects of scaling up the dataset.
+== DATA
+Two different datasets were used in the training of BigGAN. ImageNet is an image dataset that is organised by "synsets" which are sets of images that are described by a single word or phrase. There are approximately 100,000 sysnsets with an average of 500 images per set. TheImageNet dataset is used at resolutions of 128x128, 256x256 and 512x512. BigGAN was also trained on Google's JFT-300M dataset of over 300 million images.
+== METHODS
+GANs by their nature are unsupervised as they are comprised of a generative and discriminative neural network where the discriminative network attempts to determine if an image is generated or real. The goal of the generative network is to "fool" the discriminative network. The researchers used Google's Tensor Processing Units to power their experiments and found that increasing the batch size and the number of parameters the GAN yielded much better results in terms of the inception score. They also explored the benefits of what Brock called the "truncation trick" where reducing the variety led to much higher fidelity images.
+== RESULTS
+The results of scaling up the dataset and applying the truncation trick were a massive improvement in the inception score of generated images  with the new record for 128x128 pixel images being set at 166.5 which is more than double the previous record. In terms of scaling, increasing the batch size times eight yielded an improvement of 46% with doubling the number of parameters gaining another 21%. BigGAN seemingly excels at generating textures that are almost perfectly realistic, but it struggles with other details like giving a spider the correct number of legs.
+== ISSUES
+An issue raised by the author of the article is that each of the Google TPUs uses about 200W of power per hour of computation and for each 512x512 pixel image experiment 512 TPUs are used for 24-48 hours at a time. This means that one experiment can use as much energy as the average American household does in almost 6 months. So the disadvantage of the scaling up of these experiments is the environmental cost of its emissions.
+== SCORE
+7
+== COMMENTS
+I found the improvements of BigGAN over other GANs to be interesting. The scaling of the data and the truncation trick seem like really simple concepts and raise interesting questions about how similar neural networks are to human brains, it feels like a common sense instruction you would give to anyone that's trying to learn how to draw a dog, look at lots of pictures of dogs and try to focus on drawing it one pose before you try lots of different poses.

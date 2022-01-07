@@ -1,0 +1,31 @@
+==== SOURCE
+
+https://www.the-scientist.com/features/ai-uses-images-and-omics-to-decode-cancer-65732?_ga=2.22230259.991932670.1570996046-208445870.1570880630
+
+==== AGENT
+
+Center for Genomics and Personalized Medicine at Stanford University
+
+==== GOAL
+
+To create accurate predictions of cancer type / progression.
+
+==== DATA
+
+Data included images of 2,186 lung tissue slides, disease classification, and patient suvival times.
+Through feature engineering, nearly 10,000 features were extracted from the images eg. cell shape, size etc.
+
+==== METHODS
+
+The method used was a type of supervised learning. The algorithm is called Random Forest, which is a type of regression.
+The model used the images and -Omes (eg. genomes, proteomes) as inputs, and outputed the survival rate.
+
+==== RESULTS
+
+This algorithm was more than 75 percent accurate in distinguishing between healthy tissue and the two cancer types,
+and it could predict who fell into the high or low survival group with greater accuracy than models based solely on the cancer’s stage.
+
+==== COMMENTS
+
+This is a good way of finding a new use for already existing data, by using supervised learning.
+It's simple but effective.

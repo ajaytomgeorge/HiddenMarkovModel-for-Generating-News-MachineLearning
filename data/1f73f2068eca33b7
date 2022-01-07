@@ -1,0 +1,36 @@
+== SOURCE
+
+https://towardsdatascience.com/weather-forecasting-with-machine-learning-using-python-55e90c346647
+
+== AGENT
+
+Piero Paialunga
+
+== GOAL
+
+Forecast weather 
+
+== DATA
+
+Global Land Temperature by Major City.
+
+== METHODS
+
+ARIMA model, SARIMAX model 
+
+== RESULTS
+
+Successful prediction and forecasting of temperature
+
+== ISSUES
+
+None
+
+== SCORE
+
+6
+
+== COMMENTS 
+
+
+The time required to adopt the these models is very less when compared to RNN or CNN where it takes considerable amount of time to train them.

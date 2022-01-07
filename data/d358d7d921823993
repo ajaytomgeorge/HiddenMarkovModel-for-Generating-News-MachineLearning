@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://research.mozilla.org/machine-learning/
+
+
+==== AGENT
+
+Mozilla
+
+==== GOAL
+
+Machine to convert speech to text.
+
+==== DATA
+
+Crowdsourcing audio of speech to teach their machine.
+https://thenextweb.com/tech/2019/08/27/how-mozilla-is-crowdsourcing-speech-to-diversify-voice-recognition/
+
+==== METHODS
+
+Various different open source libraries and algorithms, as well as TensorFlow is used to acheieve a Speech-to-text machine. According to their github, they base their technique on Baidu's research paper (https://arxiv.org/abs/1412.5567), which is itself a 'well-optimized RNN training system'. http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf
+
+==== RESULTS
+
+There is a github project available for the public to use. The project is currently in alpha stage. It's hard to say how well it's currently going.
+
+==== COMMENTS
+
+Mozilla claims that using machine learning for speech recognition provides more accuracy, and is a simpler process than engineering a typical speech recognition system. 

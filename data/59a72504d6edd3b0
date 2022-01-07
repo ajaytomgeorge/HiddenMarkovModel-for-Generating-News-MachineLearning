@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://deepmind.com/blog/article/capture-the-flag-science
+
+==== AGENT
+
+Deepmind, owned by Alphabet.
+
+==== GOAL
+
+AI to play Quake 3 Arena Capute the Flag
+
+==== DATA
+
+Data was obtained through games played against itself.
+
+==== METHODS
+
+Reinforcment learning. They trained a population of agents to play the game, as Capture the flag is team-based. Each agent within that population had its own reward signal.
+
+==== RESULTS
+
+AI Agents using 267ms response times had a win rate of 79% against 'Strong Human Tournament' players.
+
+==== COMMENTS
+
+The AI would start to exhibit human-like strategies such as Base Defence, Opponenet Base camping and Teammate following. These behaviours were displayed in the course of its training, but some behaviours would stop as the AI learned more. Which is certainly interesting.

@@ -1,0 +1,18 @@
+== SOURCE
+https://www.the-scientist.com/news-opinion/artificial-intelligence-discovers-potent-antibiotic--67156
+== AGENT
+Researchers
+== GOAL
+Find new potent antibiotics.
+== DATA
+ZINC15 database
+== METHODS
+A.I. tool based on the structure of brain. Deep Learning
+== RESULTS
+Identified a molecule capable of wiping out a number of antibiotic-resistant strains of bacteria.
+== ISSUES
+Testing such drugs on humans could be have unwanted side effects.
+== SCORE
+7
+== COMMENTS
+Machine Learning for health!

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://ocula.com/magazine/art-news/google-reconstructs-lost-klimt-paintings-with-ai/
+
+== AGENT
+
+Google Arts & Culture
+
+== GOAL
+
+Recolour lost works from painter Gustav Klimt.
+
+== DATA
+
+They had images of Klimt’s surviving coloured artworks, as well as thousands of images of other art to learn things like object boundaries and textures.
+
+== METHODS
+
+Supervised.
+
+== RESULTS
+
+The paintings were given colour.
+
+== ISSUES
+
+People may see issues with recreating a dead artist's work.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think it’s very interesting that a machine learning algorithm can learn to recolour artwork in such an accurate way.

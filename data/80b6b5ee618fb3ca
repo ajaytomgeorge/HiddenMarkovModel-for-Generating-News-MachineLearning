@@ -1,0 +1,45 @@
+== SOURCE
+
+https://techxplore.com/news/2021-10-monte-carlo-tree-algorithms-lord.html
+
+== AGENT
+
+Warsaw University of Technology
+
+== GOAL
+
+Play the Lord of the Rings (LotR) classic card game.
+
+== DATA
+
+Evaluated the technique they developed in a series of tests, carried out on a game simulator.
+
+== METHODS
+
+Monte Carlo tree search (MCTS), Reinforcement Learning
+
+== RESULTS
+
+Achieved a significantly higher win rate than a rule-based expert player.
+
+== ISSUES
+
+The main problem is that MCTS merges game logic with the AI algorithm, 
+so you have to know the legal moves when you are building a game tree.
+Debugging for game trees with significant branching factor is a nightmare. 
+There were many cases in which the program ran smoothly, but the win rate was zero, 
+and had to examine the whole tree manually.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I think it is pretty awful because I realize that someday when I am playing a video game,
+I never know the opposite players are whether people or not. 
+If my opponents are computers, I absolutely lose the game no matter what ways I do.
+The trained computer is qualified to defeat the human in the specified area cause it knows all paths to win beforehand.
+If let me do this thing, I will remain a method that people can defeat it.
+They use simulator, a independent game environment, to train their model correctly by tens of thousands of Trial and error,
+which is general but effective.

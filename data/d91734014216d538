@@ -1,0 +1,32 @@
+== SOURCE
+
+https://venturebeat.com/2021/03/11/intel-and-deci-collaborate-to-speed-up-machine-learning-workloads-on-processors/
+
+== AGENT
+
+Intel and Deci
+
+== GOAL
+
+Speed up Machine learning on their processor chips.
+
+== DATA
+
+Previous chips used by Intel and all the data that came from them.
+
+== METHODS
+
+data preprocessing and loading, selecting model architectures and hyperparameters
+== RESULTS
+
+Deci achieves runtime acceleration. Deci’s accelerator redesigns models to create new models with several computation routes, all optimised for a given inference device.
+== ISSUES
+
+Machine learning deployments have historically been constrained by the size and speed of algorithms and the need for costly hardware.
+== SCORE
+
+7
+
+== COMMENTS
+
+This story was interesting and super cool as I love how powerful machine learning is and how it can have such an amazing impact on how work is done and how machine learning makes stuff works faster and how companies benefit from this.

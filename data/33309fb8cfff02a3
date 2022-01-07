@@ -1,0 +1,52 @@
+﻿== SOURCE
+
+
+https://www.theguardian.com/technology/2019/sep/08/the-five-technology-to-help-disabled-people-blindness-paralysis-research-ai
+
+
+== AGENT
+
+
+CloudMinds
+
+
+== GOAL
+
+
+Help blind people navigate streets, recognise objects and negotiate traffic lights and crossings.
+
+
+== DATA
+
+
+The data is gathered through cameras that map the environs and send the data to the cloud.
+
+
+== METHODS
+
+
+Reinforcement Learning. The real time data is processed and information output is made through speech.
+
+
+== RESULTS
+
+
+No results on the report.
+
+
+== ISSUES
+
+
+I believe it’s too risky to count entirely on a device to replace human discernment to guide you through the streets.
+
+
+== SCORE
+
+
+3
+
+
+== COMMENTS
+
+
+The report was too brief and lacking details. The purpose of the project is spectacular but errors/delay on the data or processing can be fatal.

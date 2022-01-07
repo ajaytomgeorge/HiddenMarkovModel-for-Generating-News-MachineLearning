@@ -1,0 +1,28 @@
+==== SOURCE
+
+Wired - https://www.wired.com/story/facebook-ai-research-fashion-style/
+
+==== AGENT
+
+Facebook AI Research
+
+==== GOAL
+
+Create a machine learning system that can suggest slight style changes to a user to improve an outfit.
+
+==== DATA
+
+Thousands of images from the fashion centered social media 'Chictopia', which features photos of real people wearing current trends.
+The database also contained versions of the photos that were manipulated to make them look "worse" by swapping a clothing piece with one from another photo.
+
+==== METHODS
+
+The model learns which is more influential (closer to more popular photos) and which needs to be edited to be closer to the fashionable space, it can only make small changes, to ensure individual style is still maintained.
+
+==== RESULTS
+
+The tool is still in its research faze and thus has yet to reach the public.
+
+==== COMMENTS
+
+Unless they implement the weather app into this tool I can see it telling me to take off my jacket despite the freezing cold, in which case I will ignore it but go about my day knowing my app didn't like my outfit. Heartbreaking.

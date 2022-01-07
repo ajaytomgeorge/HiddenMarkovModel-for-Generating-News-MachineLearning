@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/algorithm-spots-covid-19-cases-from-eye-images-preprint-67950
+
+== AGENT
+
+Scientists at Fudan University in Shanghai, China
+
+== GOAL
+
+Using eye image scans to identify COVID-19 cases
+
+== DATA
+
+The system used thousands of images of the eyes of people with and without COVID-19. The system tries to identify the symptoms of conjunctivitis, a side effect of coronavirus
+
+== METHODS
+
+A neural network tool extracted and quantified the features from different regions of the eye and an algorithm recognized the ocular characteristics of each disease.
+
+== RESULTS
+
+A data set was created from 104 people who had COVID-19, 131 who had other pulmonary conditions, 68 who had eye diseases, and 136 healthy individuals. The system performed its tests on a small sample of this group. Out of 24 people with confirmed coronavirus infections, the tool correctly diagnosed 23, the algorithm accurately identified 30 out of 30 uninfected individuals.
+
+== ISSUES
+
+Researchers and doctors point out that only 5% of COVID-19 patients suffer from the side-affect conjunctivitis, the condition which this system is using to identify the disease. Barry O’Sullivan of University College Cork also pointed out that the proposal to use this system on the public without their knowledge or consent, for example through CCTV, would be out of the question in most European countries.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+If this system were to work to its full potential, it could identify coronavirus cases in less than a second. However, the test has only been performed on less than 400 people, so it is in very early development currently.

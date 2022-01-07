@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.weforum.org/agenda/2020/05/we-designed-an-experimental-ai-tool-to-predict-which-covid-19-patients-are-going-to-get-the-sickest
+
+== AGENT
+
+two researchers at New York University
+
+== GOAL
+
+AI model that predicts which patients will get the sickest from COVID-19
+
+== DATA
+
+Between January and February, team of doctors collected and shared information from 53 COVID-19 patients at two hospitals in Wenzhou, Zhejiang, China. Data on symptoms like fever, cough and diarrhea, lab values like blood cell counts, kidney function, inflammatory markers and vital signs and also X-rays were collected.
+
+== METHODS
+
+Predective Analytics
+
+== RESULTS
+
+For the 53 people in the study, the algorithms predicted with an accuracy of 70-80% the people who became extremely sick.
+
+== ISSUES
+
+This model was trained during the initial outbreak of the virus (only predicted the results for 53 people). Work in progress as the model's accuracy increases with more data.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Although the model was trained with limited data, it helped the clinicians treat early signs that could lead to severe cases of COVID-19. The model could predict the severity of being affected by the virus considering many body conditoins that could otherwise be overlooked by the doctors. Documented research could not be found.

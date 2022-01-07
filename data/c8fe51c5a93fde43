@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.cio.com/article/3586802/5-famous-analytics-and-ai-disasters.html
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+Chatbot
+
+== DATA
+
+Twitter interactions, material pre-written by some comedians
+
+== METHODS
+
+Natural Language Processing
+
+== RESULTS
+
+A disaster. Within 16 hours, the chatbot posted more than 95000 tweets, and those tweets rapidly turned overtly racist, misogynist, and anti-Semitic
+
+== ISSUES
+
+Reported to be a coordinated attack by a subset of people who exploited a vulnerability in Tay - the AI chatbot. The datasets were taken from Twitter and was mixed up with some material prewritten by comedians.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+It was 2016 and Microsoft was trying to introduce a friendly AI chatbot for entertainment purposes in the U.S. Although it was a great idea, the implementation was not as expected. As a result, the chatbot had to be shutdown until they were 'confident' enough. The article seems legit as it provides link to an official Microsoft blogpost written by Peter Lee, the then Corpoarate VP, Microsoft Healthcare.

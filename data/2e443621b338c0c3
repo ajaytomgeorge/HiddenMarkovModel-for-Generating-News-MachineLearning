@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.genengnews.com/news/deep-learning-ai-accurately-predicts-and-diagnoses-alzheimers-disease/
+
+== AGENT
+
+Boston University School of Medicine
+
+== GOAL
+
+Development and validation of an interpretable deep learning framework for Alzheimer’s disease classification.
+
+== DATA
+
+The model was trained using clinically diagnosed Alzheimer’s disease and cognitively normal subjects from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset (n = 417) and validated on three independent cohorts: the Australian Imaging, Biomarker and Lifestyle Flagship Study of Ageing (AIBL) (n = 382), the Framingham Heart Study (n = 102), and the National Alzheimer’s Coordinating Center (NACC) (n = 582).
+
+== METHODS
+
+An Fully Convolutional Network (FCN) was designed to input a registered volumetric MRI scan and output the Alzheimer’s disease class probability at every location. During the training process, the model was saved when it achieved the lowest error. After FCN training, single volumetric MRI scans were forwarded to obtain complete arrays of disease probabilities, referred to as disease probability maps. Once trained, the process of obtaining disease probability maps from test cases took 1 second
+
+== RESULTS
+
+Performance of the model that used the multimodal inputs was consistent across datasets, with a mean area under curve values of 0.996, 0.974, 0.876, and 0.954 for the ADNI study, AIBL, Framingham Heart Study, and NACC datasets, respectively.
+
+An international team of expert neurologists was then asked to perform the task of detecting Alzheimer’s disease on the same set of cases. In this head-to-head comparison, the algorithm model performed slightly better than the average neurologist.
+
+The research team was optimistic about the results of this study and noted that it has broad implications for expanding the use of neuroimaging data such as MRI scans to accurately detect the risk of Alzheimer’s disease at the point of care.
+
+== ISSUES
+
+I don't see any real issues with the work.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Alzheimer's is quite a common disease with no cure. However, treatment in the early stages can really help to delay the development of symptoms. The current methods of diagnosis could be drastically improved and the development of this machine learning model is a step in that direction. It's really cool to think that this might have a large impact on people's lives for the better.

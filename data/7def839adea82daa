@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.bernardmarr.com/default.asp?contentID=1373#:~:text=One%20of%20the%20ways%20Twitter,relevant%20tweets%20for%20every%20individual.&text=Artificial%20intelligence%20tools%20are%20also,improve%20the%20overall%20user%20experience.
+
+== AGENT
+
+Twitter
+
+== GOAL
+
+To improve tweet recommendations
+
+== DATA
+
+Twitter uses data from its users which includes tweets with pictures, without pictures, how many likes and how many retweets a tweet has
+
+== METHODS
+
+Twitter uses a Ranking Algorithm which passes information such as if the tweet contains a picture etc, into a deep neural system which decides the likelyhood a user will like what is being recommended to them on their feed
+
+== RESULTS
+
+twitters new process of recommending tweets increased its daily active users by 14% in Q1 of 2017
+
+== ISSUES
+
+No issues
+
+== SCORE
+
+5
+
+== COMMENTS
+
+This is not really the most interesting application of Machine Learning as I feel this does not really do anything that improves an aspect of our lives but rather, increases our consumption of social media.

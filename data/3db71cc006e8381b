@@ -1,0 +1,39 @@
+
+== SOURCE
+
+https://www.unite.ai/mit-measuring-media-bias-in-major-news-outlets-with-machine-learning/
+
+== AGENT
+
+Samantha D'Alonzo and Max Tegmark at MIT's department of physics
+
+== GOAL
+
+Show a way towards automated systems that might be able to auto-classigy the political character of a publication to give readers a deeper insight into the ethical stance of an outlet on topics that they feel passionate about
+
+== DATA
+
+They focued on the topics "undocumented immigrand , illegal Immigrant, fetus, unborn baby, demonstrators, anarchists", in 100 of the larges news outlets
+
+The source data from the study was obtained from the open souce Newspaper3K database. It comprised of 3,078,624 articles obtained from 100 media news sources. 
+
+== METHODS
+
+This project used Natural Language Procesing to extract and classify instances of 'charged' language 
+
+== RESULTS
+
+Created a navigable bias landscape of the publications 
+
+== ISSUES
+
+The only issues that I can see with this would be if Samantha and Max were scewing results a little to confroms to their own beliefs or if certain key words caused some articales to be placed in the wrong part of the bias landscape
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I definitely think this project is an interesting one. Allowing users to see how articles or news agents are biased in different ways is definitly a good idea, the question I have is how do you use this now? These results may just be used for people to stick with news outlets that support their already existing beliefs which probably isn't the best idea. At the same time this could be used to measure how close to neutral news outlets can become over time which would give readers the ability to see which news agents are trying to deliver the most honest news. 
+

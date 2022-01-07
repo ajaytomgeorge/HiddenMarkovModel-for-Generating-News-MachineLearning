@@ -1,0 +1,36 @@
+== SOURCE
+
+https://bioengineer.org/super-resolution-microscopy-and-machine-learning-shed-new-light-on-fossil-pollen-grains/
+
+== AGENT
+
+University of California Irvine 
+
+== GOAL
+
+To minimise the effort of identifying ancient plants from pollen grains in the fossil record
+
+== DATA
+
+Used Airyscan (efficient and non-destructive type of light microscopy) to produce images of fossil pollen grains. Images of pollen from living plants used for comparison.
+
+== METHODS
+
+Model was trained on sets of images, learning to match pollen from living plants to fossilised ancestors.
+
+== RESULTS
+
+Their best model identified samples with 90% accuracy
+
+== ISSUES
+
+Probably really difficult to produce sample data. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+(for context, I’m a botanist so this is pretty exciting to me). Applying machine learning to palaeobotany is long overdue. Extracting this kind of data from the fossil record can be very time-consuming, but it has a lot of practical uses. Pollen identification in particular is really useful for tracking plant migrations, looking for evolutionary changes in plants, or looking at insect-plant interactions. It can even help build a picture of Earth’s climate in the past, and how it influenced plant flowering periods, useful for predicting how plants will respond to modern climate change. It’s also sometimes used by beekeepers and in forensic science. A model that could accurately and efficiently identify pollen has a lot of practical uses.
+I’d also like to this this technology applied to something like fern spores or micro-organisms, for the same purposes.

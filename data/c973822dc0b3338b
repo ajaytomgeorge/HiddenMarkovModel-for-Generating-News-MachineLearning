@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://www.computerworld.com/article/3439061/apple-is-building-a-machine-learning-system-to-rule-them-ali.html
+
+==== AGENT
+
+Apple
+
+==== GOAL
+
+The goal was to make improvements to siri. Siri would be able to understand the tone of your voice, through this it 
+would better clssify the question you are asking, thus giving a better response.
+
+==== DATA
+
+The article doesn't explicitly say, however one can assume it is the same data they used to train siri in the first 
+place.
+
+==== METHODS
+Siri is trained using speech recognition and language processing. The article doesn't say what thechniques were used to
+build on the already existing system.
+
+==== RESULTS
+
+The results have yet to be seen as it will only be showcased this week. There is no release date for when consumers
+will get the use of the product.
+
+==== COMMENTS
+
+The article gave very little detail about the actual algorithm. As much as this is a breakthrough for siri and it's 
+competitors, they still haven't addressed a basic problem. Siri is basically a lambda function. You use it once and 
+it's forgotten. Yuo can ask a question and then refer back to that question. Threating each question unique and having 
+it's own lambda function for it saves a lot on resources, but it also makes me never use such features. I'm usually 
+faster doing it with my own hands.

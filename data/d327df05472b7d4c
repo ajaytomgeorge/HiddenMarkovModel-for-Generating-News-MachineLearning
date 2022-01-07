@@ -1,0 +1,55 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/abstract/document/8776942
+
+== AGENT
+
+Anuruddha Thennakoon; Chee Bhagyani; Sasitha Premadasa; Shalitha Mihiranga; Nuwan Kuruwitaarachchi
+
+== GOAL
+
+Credit card fraud events take place frequently and then result in huge financial losses [1]. The number of online transactions has grown in large quantities and online credit card transactions holds a huge share of these transactions. Therefore, banks and financial institutions offer credit card fraud detection applications much value and demand. Fraudulent transactions can occur in various ways and can be put into different categories. This paper focuses on four main fraud occasions in real-world transactions. Each fraud is addressed using a series of machine learning models and the best method is selected via an evaluation. This evaluation provides a comprehensive guide to selecting an optimal algorithm with respect to the type of the frauds and we illustrate the evaluation with an appropriate performance measure. Another major key area that we address in our project is real-time credit card fraud detection.
+
+== DATA
+
+The dataset was created combining two data sources; the fraud transactions log file and all transactions log file. The fraud transactions log file holds all the online credit card fraud occurrences while all transactions log file holds all transactions stored by the corresponding bank within a specified time period. When evaluating the combined dataset, the shape of the data was much skewed due to the imbalanced numbers of legitimate transactions and fraudulent occurrences.
+
+Collected raw data were first divided into 4 data sets according to its fraud pattern. This process was done with the information gained by the bank. The four datasets are,
+
+Transactions with Risky Merchant Category Code (MCC).
+
+Transactions larger than $100.
+
+Transactions with risky ISO Response code.
+
+Transactions with unknown web addresses.
+
+Those 4 datasets were used in two different ways.
+
+By transforming raw data into a numerical form. (Type A)
+
+By preparing raw data categorically without making any transformation. (Type B)
+
+Type A was applied to datasets 1, 2, 3 and type B was applied to data set number 4. In data preparation the data are cleaned, transformed, integrated and reduced. First 3 sets of data were subjected to all above-mentioned steps to prepare them numerically. To prepare the data categorically all the steps except for data transformation were applied.
+
+== METHODS
+
+This study analyses four different fraud patterns. Quite a few numbers of techniques were used in the data analysis. Four machine learning algorithms were prioritized in this analysis with the help of the literature. They are Support Vector Machine, Naive Bayes, K-Nearest Neighbor and Logistic Regression. Those selected supervised learning classifiers were applied to the resampled data. When selecting machine learning models which can capture each fraud, the accuracy and performance of each model were taken into consideration. Optimal models were selected by filtering them out comparatively against an appropriate performance matrix.
+
+== RESULTS
+
+Real-time detection of credit card fraud can be stated as one of the main contributions of this project. The real-time fraud detection system consists of three main units; API MODULE, FRAUD DETECTION MODELS and DATA WAREHOUSE. All the components are involved in fraud detection simultaneously. Fraudulent transactions are being classified into four fraud types (Frauds occur due to Risky MCC, ISO-Response Code, Unknown web address, Transaction above 100$) using three supervised learning classifiers. API module is responsible for transferring real time transactions between the Fraud detection model, GUI, and Data warehouse. A Data Warehouse has been used for storing live transactions, the predicted results and other important data of the machine learning models. The user can interact with the fraud detection system with GUIs where it shows the real time transactions, alerts regarding frauds and historical data regarding frauds in a graphical representation. When a transaction is recognized as fraudulent by the fraud detection model, a message will be sent to the API module. Then the API module will notify the end user by sending a notification and the feedback given by the end user will be stored.
+
+== ISSUES
+
+There were no issues with this work. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Credit card fraud detection has been a keen area of research for the researchers for years and will be an intriguing area of research in the coming future. Studying about the use of machine learning methods to minimise the risks of the same is definitely interesting. 
+The reporting in the press was reasonable.
+It was an interesting new way of using existing data and methods.

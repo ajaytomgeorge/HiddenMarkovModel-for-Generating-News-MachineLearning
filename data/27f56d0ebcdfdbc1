@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://expertsystem.com/chatbot/
+
+==== AGENT
+
+Facebook, Google, Amazon....
+
+==== GOAL
+
+1.Simulate a customer service representative in an interactive way.
+2.Resolve simple requires in an effective way.
+3.Create self-service solutions.
+
+==== DATA
+
+Interactions between customers and support staffs from customers chats, emails, messaging apps. 
+
+==== METHODS
+
+M.L is used on dataset of human-to-human conversation.  
+1.Reshape data into single rows of observations and add to the classifier (message-response), then set some restrictions, remove URLs, image, etc.
+2.Add grammar into the M.L, tokenizing, stemming, and lemmatizing of the chats by using NTLK.
+3.Generate word vectors (such as LOL, LMAO), train a model in this phase by using TensorFlow. 
+4.Deploy TensorFlow model on the server.
+ 
+The steps below show how chatbot works:
+a. It analyzes the user requests to identify what user wants and to extract relevant entities (messages).
+b. Chatbot provides the most appropriate response upon user requires.
+
+==== RESULTS
+
+Able to simulate conversations with customers in their corresponding native language through apps, webs or emails.
+
+==== COMMENTS
+
+It is still not able to solve complex problems. Therefore, it is mostly used for auto-reply, checking list, booking/canceling appointments, etc.
+The chatbots are still not able to pass the Turing test.

@@ -1,0 +1,54 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211002/Researchers-publish-new-datasets-to-better-train-machine-learning-models-for-drug-discovery.aspx
+
+== AGENT
+
+Researchers at GlaxoSmithKline and the Cambridge Crystallographic Data
+Centre carried out this work
+
+== GOAL
+
+Their goal was to use advanced machine learning methods to predict 
+stable polymorphs to use in new drugs
+
+== DATA
+
+Using CCDC software they select a portion of the most admissible entries 
+that is large enough to give conidence, the GSK will eventually going to have
+highly relevant elements to other compounds in their comercial portfolio.
+So this makes it possible for the model building software to use. 
+
+== METHODS
+
+It was said that if the CSD software picked around two thousand structures
+from the 1.1 million in the CSD, you would be able to pick around 40 or 50
+highly relevant structures, but this data would be insufficient to build a
+good model with that alone.
+
+So they said that by including the GSK and CSD sets its better on both sides
+as all the highly relevant industrial structures and the relevant CSD structures
+together to build a better performing and higher quality model.
+
+== RESULTS
+
+It was said that the more data they had the more confident predictions they
+obtained and that data that were directly relevant to the problem lead to more 
+precise and accurate predictions.
+
+== ISSUES
+
+It was said that the different packaging methods meant that one polymorph might
+be more suited for the therapeutic delivery and another from the same compound might 
+not.
+
+== SCORE
+
+3
+
+== COMMENTS
+
+I thought this article was okay, there was nothing really interesting going on and 
+it seemd like there was nothing really clear about the situation.It doesn't do a 
+giving results and methods of how the researcher are going about their work and the 
+title seems a lot like clickbait.

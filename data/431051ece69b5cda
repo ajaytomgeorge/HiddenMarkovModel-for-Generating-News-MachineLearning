@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.slrlounge.com/google-raisr-image-resolution-enhancement-straight-out-of-csi/
+
+==== AGENT
+
+Google
+
+==== GOAL
+
+Increase the resolution of low-quality images.
+
+==== DATA
+
+Dataset is formed of pairs of images, one high resolution, one low resolution.
+
+==== METHODS
+
+GANs comprised of two networks, pitting one against the other. By using GANs to find maps that are applied to each pixel on the low-resolution image. The result is a smaller file but one of commensurate quality to the high-resolution image.
+
+==== RESULTS
+
+RAISR produces results that are comparable to or better than other super-resolution methods, and 10 to 100 times faster, it can be run on mobile device.
+
+==== COMMENTS
+
+It cannot recover images with many details.
+

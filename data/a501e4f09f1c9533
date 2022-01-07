@@ -1,0 +1,20 @@
+== SOURCE
+https://blogs.scientificamerican.com/observations/how-alexa-learns/
+== AGENT
+Amazon
+== GOAL
+better customer experiences
+== DATA
+customer interactions
+customer feedback
+== METHODS
+semi-supervised–training
+That’s to use labeled data to train a powerful but impractically slow neural network, then use that network to label training data for a leaner, more efficient real-time network.
+== RESULTS
+personalized query responses
+== ISSUES
+violation of customer privacy
+== SCORE
+5
+== COMMENTS
+Recommendation systems and machine learning are widely used by online service providers to persuade customers to buy more than they need. These applications of ML should be more carfully monitored.

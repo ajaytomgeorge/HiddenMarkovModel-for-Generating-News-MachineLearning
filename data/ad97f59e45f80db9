@@ -1,0 +1,39 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/8613773
+
+== AGENT
+
+Zhiqiong Wang, Mo Li, Huaxia Wang, Hanyu Jiang, Yudong Yao
+
+
+== GOAL
+
+Identifying breast cancers in mammograms using Extreme Machine Learning based on future fusion convolutional neural network deep features.
+ 
+
+== DATA
+
+Breast image dataset is  collected by experimenting on 400 cases of female mammograms in north-eastern part of china. Out of 400 images 200 have malignancy and rest 200 are benignancy
+
+
+== METHODS
+
+Self-Adaptive Mass Region Detection Algorithm, Adaptive mean filter algorithm, convolutional neural network, Unsupervised Learning, US-ELM clustering.
+
+
+== RESULTS
+
+Identifying the breast cancers, their growth and helps oncologist to suggest the treatment for the patients.  
+
+== ISSUES
+
+Computer-aided diagnosis is not effective and unsatisfactory.
+ 
+== SCORE
+
+8
+
+== COMMENTS
+
+This article helps us to differentiate between malignancy and benignancy using mammogram scan reports  and provide immediate results to the patients about the stages of cancer without any manual intervention of oncologist.

@@ -1,0 +1,20 @@
+== SOURCE
+https://venturebeat.com/2019/09/03/heuritech-raises-4-4-million-for-ai-to-discover-whats-hot-in-fashion-and-beauty/
+== AGENT
+Heuritech
+== GOAL
+To use the past dynamics of a trend to forecast future fashion trends.
+== DATA
+Images on social media, (specifically Instagram and weibo); which were from accounts which had demonstrated an interest in fashion, and illustrated different elements of the fashion market.
+== METHODS
+A proprietary image recognition technology was developed to analyze fashion images on social media. It detects and categorizes more than 2,000 components, from shapes and attributes to fabrics, prints, and colors.
+== RESULTS
+Heuritech’s data science analysis allow leading brands worldwide to forecast more accurately throughout the product’s lifecycle, from trends, to demand and stock planning. Heuritech impacts brand sales, stock, and sell-through.
+== ISSUES
+This software filled a niche in the market and is an excellent example of what machine learning can achieve
+== SCORE
+9
+== COMMENTS
+This model functioned excellently. I found the science behind it really interesting. It appears that the further back in time and the more data is acquired and learned about a trend, the better it can be predicted.
+
+

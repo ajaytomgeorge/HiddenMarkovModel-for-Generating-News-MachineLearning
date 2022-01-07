@@ -1,0 +1,31 @@
+=== SOURCE
+
+www.newatlas.com
+https://newatlas.com/fake-news-machine-learning-mit/56652/
+
+=== AGENT
+
+Rich Haridy
+
+=== GOAL
+
+develop a new machine learning system designed to evaluate individual articles and entire news sources to evaluate acuarrcy of news sources
+
+=== DATA
+
+The data is taken from a source called Media Bias/Fact Check (MBFC), An independent, non-partisan resource. On topn of this the progarm also took articals from other new sources to test agaisnt 
+
+=== METHODS
+
+The first part of the algorithim would scan articles from MBFC it would learn what a biasd news articals would have in common and judge how accurate they were
+the second part would then look at other articals from various news source and determine whether or not they contained any bias.
+it would examine individual articles using 141 different values to classify accuracy and bias. These include linguistic features such as hyperbolic or subjective language, and lexicon classifiers that signify bias or complexity.
+
+=== RESULTS
+
+It would need only 150 articals to determine from a given source in order to detect a rliable acuarrcy and bias. 
+It would the categoris it based on accuarcy and political bias. The algorithim has 65 percent accurate in detecting factual accuracy and 70 percent accurate at detecting political bias
+
+=== COMMENTS
+
+The algorithim is still in development but seems to be promising for future development

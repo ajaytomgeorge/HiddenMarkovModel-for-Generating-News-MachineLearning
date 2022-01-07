@@ -1,0 +1,33 @@
+== SOURCE
+
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+
+== AGENT
+
+MIT
+
+== GOAL
+
+A new system that is able to automatically decipher a lost language, without needing advanced knowledge of its relation to other languages.
+
+== DATA
+
+Extracted pairs of Linear B scripts(words) and Greek pronunciations from a compiled list of Linear B lexicon. The linear B scripts are kept as it is, and all diacritics are removed in the Greek data. Available as .cog files
+
+== METHODS
+
+character-based sequence-to-sequence (seq2seq) model, Universal character embedding, Minimum-cost flow, neural model (biredictional-LSTM)
+
+== RESULTS
+
+Achieved a 5.5% absolute improvement when applied to the decipherment of Ugaritic, correctly translated 67.3% of cognates in deciphering Linear B, a syllabic language related to ancient Greek.
+
+== ISSUES
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This field is still being actively researched to better understand the origins of many of the languages we use today and relate them with other unknnown or lost languages. This learning can enhance the machine's capability to understand the context of languages.

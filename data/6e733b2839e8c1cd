@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.bernardmarr.com/default.asp?contentID=1369
+
+== AGENT
+
+IBM Chef Watson
+
+== GOAL
+
+Provide recipes to home chefs from user inputted ingredients
+
+== DATA
+
+Chef Watson was fed 30000 recipes from Bon Appetit’s archives and also has the ability to learn the science of complementary flavour compounds
+
+== METHODS
+
+Chef Watsons’ algorithm refines its recommendations over the course of its life through user input
+
+== RESULTS
+
+There is no right/wrong result for this system. 
+
+== ISSUES
+
+This system is fairly impractical, unnecessary and requires a decent amount of human input such as ingredients, type of desired dish (soup, burger, etc), and also category of dish (Chinese, European, easy)
+
+== SCORE
+
+2
+
+== COMMENTS
+
+IBMs Chef Watson is an interesting premise and could lead to the worlds first fully AI chefs, however at the current stage it’s impractical and not much better than a cookbook.

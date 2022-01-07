@@ -1,0 +1,31 @@
+==== SOURCE
+
+https://www.theverge.com/2018/6/22/17487764/adobe-photoshopped-fakes-edit-spotted-using-machine-learning-ai
+
+==== AGENT
+
+Adobe
+
+==== GOAL
+
+To automate digital forensics and automatically spot edited pictures.
+
+==== DATA
+
+NIST Nimble 2016, CASIA, COVER and Columbia datasets however it does not say how many images were in these
+datasets. 
+
+==== METHODS
+
+The system learned to spot common patterns that indicated tampering such as radom variations in colour and brightness, 
+these are called digital artifacts.
+
+==== RESULTS
+
+According to the article " It scored higher in some tests than similar systems built by other teams, but not dramatically so" 
+
+==== COMMENTS
+
+The article is very click-bait-y as the headline reads "Adobe is using machine learning to make it easier to spot Photoshopped images"
+but down the bottom of the article it says that the software can not be used for spotting deepfakes only images that have items removed,
+copied or added.

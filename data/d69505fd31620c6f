@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.news-medical.net/news/20210925/Machine-learning-pinpoints-genes-that-enable-plants-to-grow-more-with-less-fertilizer.aspx
+
+== AGENT
+
+Nature Communications.
+
+== GOAL
+
+Locate genes that cause plants to grow more with less fertiliser.
+
+== DATA
+
+Genomic data from plants and animals.
+
+== METHODS
+
+Evolutionary algorithms
+
+== RESULTS
+
+They discovered that genes that remained constant across different species due to evolution were key factors
+in determining the optimal use of nitrogen for growth. They also discovered disease outcomes in animals through studying mouse models.
+
+== ISSUES
+
+I dont see any glaring issues, I would have liked the algorithm to be specified a bit further.
+
+== SCORE
+
+7
+== COMMENTS
+
+It is a very intersting application of machine learning with very illuminating consequential effects.
+I believe there will be a lot more discoveries to be made in this niche area.

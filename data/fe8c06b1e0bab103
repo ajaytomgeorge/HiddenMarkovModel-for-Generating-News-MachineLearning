@@ -1,0 +1,27 @@
+=== SOURCE
+
+Playing Atari with Deep Reinforcement Learning https://arxiv.org/pdf/1312.5602.pdf
+
+=== AGENT
+
+Volodymyr Mnih Et al.
+
+=== GOAL
+
+Train a deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The resulting model is then used to play atari games. The ultimate goal being to play any atari game on visual input alone. 
+
+=== DATA
+
+210 x 160 resolution RGB video at 60Hz of atari games. No game specific information. 
+
+=== METHODS
+
+The algoritm used is Deep Q-learning with Experience Replay. It learned from nothing but the video input, the reward and terminal signals, and the set of possible actions
+
+=== RESULTS
+
+This method was applied to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. The model outperforms all previous approaches on six of the games and surpasses a human expert on three of them.
+
+=== COMMENTS
+
+This method utilised complicated algorithms to achieve a model that learns to play atari games exactly as a human would, this elevates it far above playing games through evolutionary algorithms for example. 

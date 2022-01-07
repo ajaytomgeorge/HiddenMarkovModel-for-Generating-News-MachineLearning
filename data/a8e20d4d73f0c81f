@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.zdnet.com/article/machine-learning-goes-beyond-theory-to-beat-human-poker-champs/
+
+==== AGENT
+
+Two researchers at Carnegie Mellon University and Facebook.
+
+==== GOAL
+
+Beat human poker champs with machine learning.
+
+==== DATA
+
+Theory isn't computable for this form of the card game, so they designed some elegant search strategies for their computer program, "Pluribus," to beat the best human players in 10,000 hands of poker.
+
+==== METHODS
+
+Rather than computing optimal solutions across players, the Pluribus program searches for good enough solutions that turn out to perform surprisingly well. With Pluribus, the authors take on a new level of complexity that comes with multiple opponents; in this case, five humans against the Pluribus machine. The "Nash Equilibrium," named for famed US mathematician John Nash, says that optimal playing strategies can be found for each player based on the assumption every opponent in a game is equally playing their best strategy. Approximating that equilibrium is the best computers can do within practical time limits. It's worked well for a number of approaches, and, in particular, in two-player heads up poker. Pluribus uses a familiar approach to Libratus and DeepStack in its training of the machine, something called "counterfactual regret minimization," or CFR. In the context of rounds of poker, where actions include a call, a raise, or fold, CFR computes at each moment of action which would have been better to play, by having the computer play against itself and analyze as it proceeds how good or bad outcomes were. Training the machine amounts to constructing a "blueprint" of what moves are high-value given any current state of the game. The machine keeps refining this blueprint as it proceeds through branching rounds of moves in game after game. As the authors write, "Regardless of which hand Pluribus is holding, it will first calculate how it would act with every possible hand, being careful to balance its strategy across all the hands to remain unpredictable to the opponent."
+
+==== RESULTS
+
+The authors don't disclose how many out of the 10,000 hands Pluribus won against humans. But in a follow-up email with ZDNet, Noam Brown explained that the important point is the machine's average winnings. Pluribus "won convincingly over the long haul," is how Brown described it. "Another way to think of the bot's performance is in terms of what it would have won if it were playing against these human pros for money," Brown continued. "Playing thousands of hands against some of the world's best human professionals -- each of whom has won at least $1 million playing poker -- the bot came out ahead, earning the equivalent of about $1,000 per hour."
+
+==== COMMENTS
+
+Feel as if it will make a change to how poker is played online considering that this technology is becoming more readily available and people having open source libraries will change the playing field as it will have many people using machine learning in these online games when it wont be a level playing field.

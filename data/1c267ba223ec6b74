@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.psu.edu/story/670811/2021/09/29/research/us-soybean-corn-yields-could-be-increased-through-use-machine
+
+== AGENT
+
+College of Agricultural Sciences
+
+== GOAL
+
+Use machine learning to increase crop yields.
+
+== DATA
+
+Crop yield and management information from variety trials conducted in 28 states. Information was arranged based on soil type and management practices including irrigation, tillage method, seeding rate, row spacing and cultivar maturity.
+
+== METHODS
+
+Reinforcement Learning
+
+== RESULTS
+
+In the case of soybean, a May 1 sowing resulted in a 14% increase in yield compared to a June 1 sowing in the single-background cropping system. The result was consistent when yield differences due to sowing date were averaged across 128 background cropping system choices.
+
+== ISSUES
+
+There are limitations in the results, primarily due to the lack of information on rates of seed treatments, products applied to leaves and different management practices reported across different states.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The article was brief but got the information across. It could have gone into more detail on the algorithms used etc. 

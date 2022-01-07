@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://www.researchgate.net/publication/323212215_A_study_of_deep_learning_networks_on_mobile_traffic_forecasting
+
+==== AGENT
+
+Chih-Wei Huang, Chiu-Ti Chiang, and Qiuhui Li 
+ National Central University, Taiwan. 
+
+==== GOAL
+
+The goal is to achieve mobile traffic forecasting.
+
+==== DATA
+
+In this work, a multi-source dataset released by Telecom Italia in 2015 is used. The dataset is one of the most comprehensive collections from an operator.
+The input data is the A call detail record (CDR).
+
+
+==== METHODS
+
+Multitask Learning:In general, MTL learns several related tasks at the same time with the aim of sharing information between tasks.
+The network is composed of multitask regression stage and feature extraction stage.
+
+Recurrent Neural Network:To predict future network trafﬁc in a grid, historical data have to be properly considered.
+The RNN model is suitable for sequence processing by using memory in cells.
+Long short-term memory (LSTM) cells capable of learning long-term dependencies are adopted in the model.
+LSTM based RNN has been demonstrated effectively on language translation and speech recognition.
+
+Convolutional Neural Network: CNN is also considered to capture geographic-based features of mobile Internet usage.
+Convolution operation over the grid map keeps spatial domain information among neighbor grids. 
+
+==== RESULTS
+
+The evaluated deep learning structures with Multi Task Learning enhance the prediction accuracy by applying CNN and RNN to capture spatial and temporal features effectively.
+
+==== COMMENTS

@@ -1,0 +1,54 @@
+==== SOURCE
+
+https://becominghuman.ai/how-netflix-uses-ai-and-machine-learning-a087614630fe
+
+==== AGENT
+
+Who did the machine learning? 
+
+Netflix engineers
+
+==== GOAL
+
+What were they trying to do?
+
+Netflix were aiming to use machine learning for the pupose of personalization of movie 
+recommendations, auto-generation and personalization of thumbnails / artwork,
+location scouting for movie production, movie editing and streaming quality.
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Netflix retrieved their data from the analysis of the behavior of its users. 
+They put together a 360 profile of each user which contains thousands of attributes.
+This is used to group people with similar interests and use data from one user to
+predict the behaviour of another.
+
+==== METHODS
+
+What did they actually do?
+
+Netflix uses the watching history of other users with the same interests to suggest
+what you may be interested in to keep users constantly engaged. They also conducted 
+research into how much an attractive thumbnail influences a user by observing a sample 
+of users in 2014. 
+
+
+==== RESULTS
+
+How did it go for them?
+
+They discovered that artwork was the biggest influencer for a user’s decision about 
+what to watch, and it also was primarily 82 percent of their focus while browsing Netflix.
+It was also discovered that a user spent 1.8 seconds on average considering a movie and they 
+were surprised at how little time they had to capture a users attention.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+Netflix cleverly uses machine learning when it comes to tailoring an experience 
+towards each user which gives it the edge over its opposition which just suggests 
+popular movies at that point in time. The facts of how quickly a person spends on deciding on what
+tile to watch was very intriguing and demonstrates the importance of machine learning for Netflix.

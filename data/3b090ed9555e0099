@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://venturebeat.com/2019/09/18/researchers-use-machine-learning-to-predict-large-wildfires/
+
+==== AGENT
+
+University of California, Irvine
+
+==== GOAL
+
+What were they trying to do?
+
+==== DATA
+
+Researchers trained the AI with air moisture data over the span of the average weather report using 
+data from more than 1,100 fire events in Alaska between 2001 and 2017 from the Alaska Large Fire Database.
+
+==== METHODS
+
+The researchers used satelite data from 2001-2017 of wild fires in Alaska. From this they were able to examine
+the topography, vegetation and meteorology. The researchers could train the software to recognise locations that 
+were likely to have wildfires.
+
+==== RESULTS
+
+The model is then able to predict approximately 40% of ignitions that lead to large wildfires that account for 75% 
+of burned area during that time period.
+
+==== COMMENTS
+
+The news article puts across that this technology will assist in predicting future and ever increasing amount of 
+wildfires caused by extreme climate change.

@@ -1,0 +1,59 @@
+﻿==== SOURCE
+
+
+http://news.mit.edu/2019/faster-video-recognition-smartphone-era-1011
+
+
+
+
+
+
+==== AGENT
+
+
+Kim Martineau | MIT Quest for Intelligence
+
+
+
+
+
+==== GOAL
+
+
+
+Faster video recognition for the smartphone era
+
+
+
+
+==== DATA
+
+The 20BN-SOMETHING-SOMETHING dataset is a large collection of densely-labeled video clips that show humans performing pre-defined basic actions with everyday objects. The dataset was created by a large number of crowd workers. It allows machine learning models to develop fine-grained understanding of basic actions that occur in the physical world
+
+
+
+
+==== METHODS
+
+Top video-recognition models currently use three-dimensional convolutions to encode the passage of time in a sequence of images, which creates bigger, more computationally-intensive models. To reduce the calculations involved, Han and his colleagues designed an operation they call a temporal shift module which shifts the feature maps of a selected video frame to its neighboring frames. By mingling spatial representations of the past, present, and future, the model gets a sense of time passing without explicitly representing it.
+
+
+
+
+
+
+
+==== RESULTS
+
+
+a model that outperformed its peers at recognizing actions in the Something-Something video dataset. An online version of the shift module is also nimble enough to read movements in real-time. In a recent demo, Lin, a PhD student in EECS, showed how a single-board computer rigged to a video camera could instantly classify hand gestures with the amount of energy to power a bike light. 
+
+
+
+
+
+
+
+==== COMMENTS
+
+The algorithm will be a revolution in video recognition in small devices 

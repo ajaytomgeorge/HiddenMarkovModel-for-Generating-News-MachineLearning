@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.researchgate.net/publication/331790153_Supervised_Deep_Learning_in_Fingerprint_Recognition
+
+== AGENT
+
+Arif Wani, Farooq Ahmad Baht, Saduf Afzal
+
+== GOAL
+
+To use machine learning to confirm indentity using fingerprints.
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+
+They used thousands of fingerprints from Panjagutta, Hyderabad police station
+
+== METHODS
+
+Supervised deep learning, RF Algorithm	
+
+== RESULTS
+
+The classification results on 3 datasets with the criteria for Precision, Recall, Accuracy evaluation and ROC analysis of algorithms show that the RandomForest (RF) algorithm has the best accuracy (≥96.75%) on all 3 databases, Support Vector Machine(SVM) has the best results (≥95.5%) 2/3 databases
+
+== ISSUES
+
+A question I would have liked answers was how they compared two different fingerprints from the same person? Perhaps they take multiple prints with the same finger and then use them to test, perhaps not but I would have liked for them to clarify this.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Yes I thought this was interesting and I am glad to see the interest and use of machine learning in so many different areas.  I am not in a position to say if I would have done it differently or not since I am only learning machine learning.  The reporting in the press seemed reasonable although I don't believe they know too much about it.  I believe they are mostly regurgitating what they read.  These methods are not new, they have been used for years now, even some of the algorithms such as RF algorithm.
+

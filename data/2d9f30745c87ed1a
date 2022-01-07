@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2018/personalized-deep-learning-equips-robots-autism-therapy-0627
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Create a deep learning network that would enable a robot to analyse behaviour in ASD children and engage with them accordingly
+
+== DATA
+
+Individual robots were trained on personalised datasets of facial expressions, behaviours and physical attributes of an individual child, correlated with assessments from 5 human experts. Further tested on additional data
+
+== METHODS
+
+Personalised, supervised deep learning
+
+== RESULTS
+
+60% correlation between the robot’s perception and expert assessments.
+
+== ISSUES
+
+Questionable ethics. 60% accuracy isn’t great, not much better than correlation between human expert assessments, which are very subjective.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+5/9 for coolness, because the behavioural analysis aspect is interesting, but the application here is abhorrent. The therapy alluded to in the article is ABA therapy, generally regarded by the autistic community as cruel and abusive.  Here’s some info on ABA Therapy and why it's harmful. Getting machines to do it is even worse.

@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://cloud.google.com/blog/topics/customers/usaa-and-google-cloud-work-together-to-speed-auto-claims
+
+==== AGENT
+
+United Services Automobile Association
+
+==== GOAL
+
+Speed up the insurance claim process using machine learning on photos of the scene/damage
+
+==== DATA
+
+Photos of scences and damaged vehicles sent to the google cloud
+
+==== METHODS
+
+Models were created to analyze the damaged areas of the vehicle and search for the price of repair for the damaged parts while the estimators make adjustments
+
+==== RESULTS
+
+System has been accurate with estimating the damge on various vehicles.
+
+==== COMMENTS
+ 
+Not clear on what data was used to train and what was being used to test the system

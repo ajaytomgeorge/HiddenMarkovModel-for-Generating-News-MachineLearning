@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.wired.com/story/true-story-bogus-photos-people-fake-news/
+
+== AGENT
+
+A Photographer named Jonas Bendiksen.
+
+== GOAL
+
+To recreate human subjects to pose in his photography series where he used Artificial Intelligence Software.
+
+== DATA
+
+He used the images(data) of his twitter followers and used them to create a life like human pose in his photos.
+
+== METHODS
+
+He used the profile pictures of his followers in twitter and used them by modifying it, i.e, Reinforcement Learning.
+
+== RESULTS
+
+Bendiksen  had created the people in the images with software and his work was so flawless that o one noticed until he purposefully admitted or provoked the social media to find the error in the methods.
+
+== ISSUES
+
+Privacy issue as one can't use others pictures without their knowledge. Also creating a fake profile to trigger his own exposure is kind of a bad thing to do. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It was new to me. Creating a 3D subject for the photo which we take using the normal profile pictures is a crazy idea and at the same time need precision and a concept to make it look uneditable. Everything went smooth and no one would have noticed if he had kept his mouth shut about it.

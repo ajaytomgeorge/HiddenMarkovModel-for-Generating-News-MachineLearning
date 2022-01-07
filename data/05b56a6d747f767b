@@ -1,0 +1,38 @@
+== SOURCE
+https://www.ea.com/seed/news/graphical-glitch-detection-convolutional-neural-networks
+== AGENT
+
+EA Seed.
+
+== GOAL
+
+To find graphical glitches in video games with use of AI. 
+
+== DATA
+
+Using various EA games such as battlefield 4 in order to train the AI to see streched pixels. 
+
+== METHODS
+
+Object Classification: Identify that the image contains an object from a class of know objects. 
+Object Detection: Identify the approximate location of all the objects in the image.
+Semantic Segmentation: Identify the shape of the object in the image by highlighting the individual pixels for each object. 
+
+== RESULTS
+
+The AI became extremly good at spotting things such as :
+Placeholder texture
+Stretched texture
+ Missing texture
+
+== ISSUES
+
+The major issuses in this article were that the thesis done only began exploring this issue. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I belive that if this sort of technology would become more effienct that it would allow for game testing to be done a lot quicker and it would allow for a higher quality of game. 

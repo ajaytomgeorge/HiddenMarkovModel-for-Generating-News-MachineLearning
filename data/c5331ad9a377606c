@@ -1,0 +1,27 @@
+== SOURCE
+https://www.fedscoop.com/ai-research-army-ground-vehicles-reinforcement-learning/
+
+== AGENT
+The U.S Army
+
+== GOAL
+To put artificial intelligence in the driver’s seat of its ground vehicles
+
+== DATA
+A “gradient” method, where agents can maximize for many objectives ranging from object avoidance, speed or human safety.
+
+== METHODS
+Reinforcement Learning
+
+== RESULTS
+Training data will, byte-for-byte, become more valuable and useful.
+
+== ISSUES
+Trying to save lives by automation instead of risking human lives seems like a good idea at first, but if two armies starts fighting with just automation,
+doesn't that make war pointless in a sense? 
+
+== SCORE
+6
+
+== COMMENTS
+It's cool that armies are trying to save lives.

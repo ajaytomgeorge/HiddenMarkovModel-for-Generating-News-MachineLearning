@@ -1,0 +1,31 @@
+﻿==== SOURCE
+
+https://www.entrepreneur.com/article/281040
+
+==== AGENT
+
+AI-Squared (A collaboration between MIT and PatternX)
+
+==== GOAL
+
+To use Artificial Intelligence to detect Cyber Attacks.
+
+==== DATA
+
+The system trained on huge amounts of data that was collected from users.
+
+==== METHODS
+
+The researchers used supervised learning to train the model. It works by parsing huge amounts of data, searching for odd activity using a recurrent neural network in combination with machine learning techniques. It is used to find anomalies in the systems which it is monitoring.
+Once identified, the platform notifies a human analyst, presenting its findings. The human analyst then confirms whether the user activity is an attack or a genuine visitor, which is relayed back to the AI. The AI turns these decisions into a model for use the next day for checking further cases.
+
+==== RESULTS
+
+The platform is capable of detecting 85% of cyberattacks. 
+In the three months that it havs been active it has been able to detect 3.6 million log lines of potentially harmful code and has thwarted 85% of attacks. 
+The platform is predicted to achieve an accuracy of 90%. 
+
+==== COMMENTS
+
+The model uses supervised learning to train itself, so there could be a possibility that if some malicious person hacks into the system, they can serve the model with wrong inputs and hamper the model completely.
+There is no explanation for how the model collected the data for the training phase. So there could be some privacy concerns amongst the users from whom the model has collected the data.

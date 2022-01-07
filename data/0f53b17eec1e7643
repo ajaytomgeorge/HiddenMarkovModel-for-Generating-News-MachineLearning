@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://www.telegraph.co.uk/news/2019/09/27/ai-facial-recognition-used-first-time-job-interviews-uk-find/
+https://www.hirevue.com/blog/train-validate-re-train-how-we-build-hirevue-assessments-models
+
+==== AGENT
+
+A video interview software company called Hirevue.
+
+==== GOAL
+
+To select the best candidates for a job position by analysing use of language and facial expressions of candidates in video interviews using machine learning.
+
+==== DATA
+
+The dataset consisted of 25,000 pieces of facial and linguistic information in the form of text, audio and video, compiled from previous interviews of those who have gone on to prove to be good at the job.
+
+==== METHODS
+
+THe general method they followed was to build the model, test for biases, retrain the model and implement the model.
+
+==== RESULTS
+
+They're software was already used for 100,000 interviews in the UK.
+One firm had a 15 per cent uplift in sales.
+
+==== COMMENTS
+
+The dataset could have biases built in which could result in the software showing a bias to candidates.

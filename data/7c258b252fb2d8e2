@@ -1,0 +1,32 @@
+﻿==== SOURCE
+
+University of California - Santa Cruz. "'Face recognition' for galaxies: Artificial intelligence brings new tools to astronomy: A 'deep learning' algorithm trained on images from cosmological simulations has been surprisingly successful at classifying real galaxies in Hubble images." ScienceDaily. ScienceDaily, 23 April 2018. <www.sciencedaily.com/releases/2018/04/180423125115.htm>.
+
+==== AGENT
+
+Joel Primack, Santa Cruz Institute for Particle Physics (SCIPP) at UC Santa Cruz
+
+==== GOAL
+
+To use computer simulations of galaxy formation to train a deep learning algorithm, which would then analyze images of galaxies from the Hubble Space Telescope to predict the age of galaxies and understand how they form and evolve.
+    
+==== DATA
+
+The researchers ran computer simulations to generate mock images of simulated galaxies as they would look in the Hubble Space Telescope. And then used those images to train the Deep Learning algorithm to identify the phases in the evolution of galaxies. For the testing data, the team used images of galaxies obtained through the CANDELS project (Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey), the largest project in the history of the Hubble Space Telescope. 
+
+==== METHODS
+
+The algorithm was given mock images of the galaxies that were generated via a simulation and it was trained to recognize the flow of gases within the centre of the galaxies. Young stars emmited blue lights whereas the older, cooler stars emitted red wavelengths of light. 
+The researchers used state-of-the-art galaxy simulations (the VELA simulations) developed by Primack and an international team of collaborators, including Daniel Ceverino (University of Heidelberg), who ran the simulations, and Avishai Dekel (Hebrew University), who led analysis and interpretation of them and developed new physical concepts based on them.
+Then, the model was presented with images from the CANDELS dataset to classify and identify all the processes within the galaxies and to predict the evolution cycle of them.  
+
+
+==== RESULTS
+
+The algorithm was able to accurately predict the evolution cycle of the galaxies in the images that were presented to it. The deep-learning model was developed a pattern of its own based on the physical processes happening in the galaxies and was able to give good classification percentages. It was exceptionally good and exceeded the expectations of all the researhcers. The algorithm could recognize patterns so complex that humans couldn't even percieve them.
+
+==== COMMENTS
+
+The idea to train on the basis of simulations seems a bit off, because simulations have their own limitations and no simulation can ever capture the events that occur at a cosmic scale. The researchers need to run the model multiple times and test is rigorously to make sure that this accuracy isn't just a fluke.
+The simulations used as training data were not complete as they didn't include feedback from active nuclei in the galaxies, this process could seriously affect the prediction strategy of the algorithm. So the researchers need to consider this too.
+This was just a proof of concept study and the researches need to do a lot of testing on this approach, perhaps by using the newer and larger datasets from other telescopes.

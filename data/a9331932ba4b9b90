@@ -1,0 +1,36 @@
+== SOURCE
+
+https://news.mit.edu/2021/using-machine-learning-predict-high-impact-research-0517
+
+== AGENT
+
+MIT researcher
+
+== GOAL
+
+Predict the impact of publications
+
+== DATA
+
+online information about publications.
+
+== METHODS
+
+Used a knowledge graph that contains the connections between nodes representing papers, authors, institutions, and other types of data. The learning type isn't said.
+
+== RESULTS
+
+Compared to citation number alone, DELPHI identifies over twice the number of highly impactful papers, including 60 percent of "hidden gems," or papers that would be missed by a citation threshold
+
+== ISSUES
+
+None
+
+== SCORE
+
+6
+
+== COMMENTS
+
+An interesting new method to use existing data to notice impactful research earlier and with that boost research at the most important parts of it. On the method they used could have been more explanations and a bit more in depth information. This showed how existing data can be used to boost the innovation of new stuff.
+

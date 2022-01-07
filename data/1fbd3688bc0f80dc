@@ -1,0 +1,18 @@
+== SOURCE
+https://www.scientificamerican.com/article/spot-the-fake-artificial-intelligence-can-produce-lifelike-photographs/
+== AGENT
+Google/Facebook/Nvidia
+== GOAL
+create convincing pictures of people and spot these pictures
+== DATA
+millions of example images
+== METHODS
+generative adversarial networks
+== RESULTS
+people can be cheated with fake pictures and videos
+== ISSUES
+deepfake threatens the reputation of celebrities
+== SCORE
+9
+== COMMENTS
+deepfake provides everyone the ability to create fake pictures and videos for fun. 

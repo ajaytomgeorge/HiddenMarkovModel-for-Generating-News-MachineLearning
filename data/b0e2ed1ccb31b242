@@ -1,0 +1,27 @@
+== SOURCE
+https://ieeexplore.ieee.org/document/9343823
+
+== AGENT
+Tao Jiang, Jian Ping Li, Amin Ul Haq, Abdus Saboor, Amjad Ali
+
+== GOAL
+A Novel Stacking Approach for Accurate Detection of Fake News
+
+== DATA
+ISOT fake news dataset and KDnugget dataset. ISOT dataset was entirely collected from real-world sources
+
+
+== METHODS
+Evaluating the performance of five machine learning models and three deep learning models on two fake and real news datasets of different size with hold out cross validation.
+
+== RESULTS
+At first they removed the stopwords and urls from our dataset. Then, we used tokenization methods like TF, TF-IDF and embedding to obtain the text representation. After that, we trained individual models including five machine learning models such as LR, DT, KNN, RF and SVM and three deep learning models like LSTM,GRU, CNN on these text representation features.
+
+== ISSUES
+However, these proposed methods have some limitations in terms of accuracy.
+
+== SCORE
+6
+
+== COMMENTS
+They have evaluated five machine learning models and three deep learning models on two fake news datasets of different size in terms of accuracy, precision, recall, F1-score. 

@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+
+Developed by Ze Yang, Can Xu, Wei Wu, Zhoujun Li - State Key Lab of Software Development Environment, Beihang University, Beijing, China;
+Microsoft Corporation, Beijing, China
+They called the model "DeepCom", short for "deep commenter".
+
+==== GOAL
+
+To use machine learning to create a bot that reads news articles and comments on them. 
+
+==== DATA
+
+DeepCom is trained on two datasets: a Chinese dataset made by crawling Tencent News, a popular Chinese websites of news and opinion articles, 
+and an English dataset built by crawling news articles and comments from Yahoo News.
+
+==== METHODS
+
+They used two networks, a reading network and a generation network. 
+Aim to create a new comment based on probability distribution on actual comments on an article, and given a new article generate a new comment following this formula D={(Ti,Bi,Ci)}Ni=1, 
+where the i-th triple(Ti,Bi,Ci) consists of a newstitle Ti, a news body Bi, and a comment Ci. Their goal was to estimate a probability distribution P(C|T,B) from D.
+
+==== RESULTS
+
+On most automatic metrics, DeepCom outperforms baseline methods, and the improvement is statistically significant. 
+In human evaluation, the values of Fleiss’ kappa over all models are more than 0.6, indicating substantial agreement among the annotators.
+
+==== COMMENTS
+
+The original publication of this paper cited a use for this technology to boost engagement on
+articles, as it would encourage real people to comment on the article too.
+They left this statement out of the newer version, replacing it by acknowledging the risks involved
+with an AI that pretends to be human commenting on news stories.
+https://arxiv.org/pdf/1909.11974v1.pdf (link to paper).

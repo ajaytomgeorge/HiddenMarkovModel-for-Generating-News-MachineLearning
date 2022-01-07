@@ -1,0 +1,109 @@
+==== SOURCE
+
+Blog:
+https://towardsdatascience.com/predicting-lyme-disease-the-fastest-growing-infectious-disease-in-the-u-s-4874ee1f5738
+
+==== AGENT
+
+Tristan Bonds, independent researcher
+
+==== GOAL
+
+To build a machine learning classification model to predict which US counties have the highest incidence of Lyme 
+disease; incorporating climate and region data to predict the prevalence of the Black-legged tick, a carrier of 
+the bacteria Borrelia burgorferialone which is responsible for the disease.
+
+The main goal for this research was to
+- Increase public awareness to prevent people from being infected in the first place
+- Provide the Model as a health care resource to increase early diagnosis
+
+Several models were tested in this research; K-Nearest Neighbours (KNN), Gaussian Naive Bayes, Logistic Regression.
+Support Vector Machines and Random Forest (SVM)
+
+==== DATA
+
+Data was independently compiled parsing 78,000 csv files and restricting the data set from 2010-2017.
+The reasoning behind restricting the data was that there was a spike in the 2009 data that could not be 
+accounted for and that recent data is more representative of current trends.
+
+Data Sources Include:
+- Centre for Disease Control data
+- National Oceanic and Atmospheric Administration clinic data
+- County population estimate data from the Census Bureau
+
+Descriptive features of the data set included 35 columns but deal mainly with;
+Temperature, Location, Wind Conditions, Soil Temperature, Geographical Location and Date
+
+60% of data was used for training
+20% for validation
+20% as test data
+
+https://github.com/tcbonds/lyme-disease-classifier
+
+==== METHODS
+
+The majority of counties have a low level Lyme disease, which created an imbalance with the classes. To try and
+overcome this issue various sampling techniques were employed.
+
+- Random undersampling - Undersample the majority class, in this instance counties with a low level of Lyme disease.
+- Random oversampling  - Oversample the minority class, in this instance counties with a high level of Lyme disease.
+- SMOTE                - Synthetic Minority Over-sampling Technique; creates randomly generated points for countries 
+                         with a low level of Lyme disease.
+- ADASYN               - Adaptive Synthetic Sampling Approach; similar to SMOTE however it creates more synthetic data 
+                         for low level samples that are harder to learn and less synthetic data for low level samples
+                         that are easier to learn.  
+
+5 different models were employed in this study and compared with each other using 5-fold cross validation was used to 
+test how well each model performed;
+
+- K-Nearest Neighbours       - Utilizes the distance between training examples to create classes within the feature
+                               space.
+- Gaussian Naive Bayes       - Probabilistic classifier that uses Bayes theorem and independence assumptions for 
+                               descriptive features.
+- Logistic Regression        - Uses regression to separate classes.
+- Support Vector Machines    - Attempts to create hyperplane which has the largest distance from the nearest training 
+                               data of all classes.
+- Random Forest              - Uses random sampling decision trees for regression and classification.
+
+True Positive Rate VS False Positive Rate ROC curve plot was used a measure to show cost versus benefit of the model 
+at each threshold.
+
+
+==== RESULTS
+
+The random forest model was deemed to be the most effective in predicting the likelihood of US counties that would
+have a high incidence of Lyme disease.
+
+The results were produced in a confusion matrix reproduced below, which allows us to analyse the performance of
+the random forest model;
+
+       predicted
+    _______________
+   |       |       |
+a  |  2742 |  518  |  low
+c  |   TN  |   FP  |
+t  |_______|_______|
+u  |       |       |
+a  |   28  |  526  |  high 
+l  |   FN  |   TP  |
+   |_______|_______|
+
+      low    high
+
+TN = True Negative
+TP = True Positive
+FN = False Negative
+FP = False Negative 
+
+The model had a high recall value of 0.949 for high incidence counties.
+
+Also, for high incidence counties the model correctly predicted 50.3% of counties which had a true positive for 
+Lyme disease.
+
+==== COMMENTS
+
+This paper was interesting for the variety of different models used, though more detail could have been given on
+their performance. It would also be interesting to see how a Neural Network model and other models would have performed.
+
+Also the focus on data preparation in the first half of the article gave a lot of insight into potential issues
+that arise from class imbalance in a training model and useful methods to counteract these issues.

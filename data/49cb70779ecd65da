@@ -1,0 +1,35 @@
+== SOURCE
+
+https://connexun.com/news-api
+
+== AGENT
+
+Team connexun
+
+== GOAL
+
+To power its mobile app by artificial intelligent engine, to deliver real time news and information to digital cosmopolitans. 
+
+== DATA
+
+A artificial intelligence engine, has been trained by using a database with over a million articles in different languages, applying state of the art models of Natural Language Processing (NLP). 
+
+== METHODS
+
+It uses supervised and unsupervised machine learning algorithms powered by Deep Learning.
+
+== RESULTS
+
+This technology includes machine learning classification, interlanguage clustering, news topics ranking, extraction-based summarization and other features to help filter news for different types of users and for different types of applications. 
+
+== ISSUES
+
+It has a multiclass and multilingual classifier. It also generates extractive short summaries of news in various languages. This is much more than a simple news filtering tool. However high-quality datasets, prebuilt would power the next innovation. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is trained to automatically crawl and aggregate news from open web sources with a set of skills to understand contents and define the relevant articles to the final recipient.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Predict new drug combinations to fight Covid-19
+
+== DATA
+
+They lacked any real data and instead had base their data on Drug to Target interactions and Drug to drug Synergy as well as datasets of biological targets related to Covid-19.
+
+== METHODS
+
+They designed a two pronged neural network that would both learn drug-target interaction as well as drug-drug synergy to create new combinations. The drug-target predictions modeled the interaction between a drug and biological targets, the neural network then learns to understand the drug's antiviral activity based on this interaction, determining the virus yield in infected tissue cultures. Thus, predicting the synergy of this drug cocktail.
+
+== RESULTS
+
+They were abled to find two new drug combinations using this method: remdesivir and reserpine. Remdesivir was approved by the FDA as a suitable treatment for the virus. This model can also be used to combat variants of Covid-19.
+
+== ISSUES
+
+The main issue with this research is the lack of data. While they were able to combat this using the methods mentioned, their researched could've progressed much quicker assuming they could've found a potentially viable large dataset.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This was very interesting because it shows how quickly Artificial Intelligence can solve problems that are affecting millions of people and how it can also save lives.

@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w 
+
+== AGENT
+
+Greek Government/Border Control
+
+== GOAL
+
+To maximise the efficacy of their border covid testing
+
+== DATA
+
+They used large batches of test results discontinuously
+
+== METHODS 
+
+The algorithm was build using Reinforcement Learning, and it works by balancing two goals, the first being to test passengers who are likely to test positive using patterns learnt from previous data; while the second is to explore patterns not yet reflected in previous data by testing passengers which the algorithm knows little about. 
+
+== RESULTS 
+
+The automated system doubled the efficiency of testing, as in the number of cases detected per test. 
+
+== ISSUES
+
+Due to compliance with European GDPR, they had to limit the data available to the algorithm. While this probably limited the algorithm somewhat, it's definitely not a bad thing overall.
+
+== SCORE 
+
+7
+
+== COMMENTS
+
+I thought this was an interesting and practical use of Machine Learning, albeit a dubious one in terms of privacy. However, as it was extremely effective, it was definitely a success and a great idea, and it's very curious why more countries didn't adopt this method (unless they did it silently).
+

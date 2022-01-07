@@ -1,0 +1,54 @@
+==== SOURCE
+
+https://geoawesomeness.com/google-maps-machine-learning-parking/
+
+==== AGENT
+
+Who did the machine learning? 
+
+Google Maps
+
+==== GOAL
+
+What were they trying to do?
+
+Use machine learning to incorperate the length of time it takes to find a parking 
+space at a destination into a persons estimated time of arrival. 
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Researchers at Google studied the historical parking data and collected infromation from over 100K people 
+by asking questions such as "How long did it take you to find parking?"
+They also used anonymous information from users who had chosen to share their location data to create
+training models. For example, if a person keeps circling or walking around 
+after reaching the intended destination, it could mean finding a parking spot there is difficult.
+
+
+==== METHODS
+
+What did they actually do?
+
+They used standard logistic regression model on the gathered information for machine learning to 
+leverage the features based on the dispersion of parking locations and predict how difficult 
+finding an empty spot would be at any given time in a particular place. 
+
+
+==== RESULTS
+
+How did it go for them?
+
+Google has now released this feature on android in over 50 cities worldwide, 25 of which are in the
+USA. This is working very successfully and provides a useful piece of information to people travelling 
+in big cities.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+This is a misleading feature for Google Maps as when you first read the title you think they will be 
+predicting parking spots that are available and can direct you to one but it is only using machine
+learning to estimate how long it will take to find a parking spot at a particular time in a city, with a 
+bit of local knowledge you would know this information anyways so it really is just a feature for the sake
+of adding in an extra feature.

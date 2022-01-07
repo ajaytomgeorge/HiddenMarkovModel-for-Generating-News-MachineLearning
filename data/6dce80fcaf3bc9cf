@@ -1,0 +1,35 @@
+== SOURCE
+
+https://openaccess.thecvf.com/content_ICCV_2019/html/Yang_Where_Is_My_Mirror_ICCV_2019_paper.html
+
+== AGENT
+
+Xin Yang, Haiyang Mei, Ke Xu, Xiaopeng Wei, Baocai Yin, Rynson W.H. Lau; Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2019, pp. 8809-8818
+
+== GOAL
+
+They tried to segment mirrors from an input image
+
+== DATA
+
+Mirror Segmentation Dataset, they made it themself out of pictures of mirrors
+
+== METHODS
+
+Deep Learning methods, contextual Contrasted Feature Extraction Method 
+
+== RESULTS
+
+They managed to segment mirrors from an input image
+
+== ISSUES
+
+The method isn’t accurate and depends hardly on training dataset  .
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Mirrors are everywhere in our daily lives. Existing computer vision systems do not consider mirrors, and hence may get confused by the reflected content inside a mirror, resulting in a severe performance degradation. However, separating the real content outside a mirror from the reflected content inside it is non-trivial. The key challenge is that mirrors typically reflect contents similar to their surroundings, making it very difficult to differentiate the two. In this paper, presented a novel method to segment mirrors from an input image show that it outperforms the carefully chosen baselines from the state-of-the-art detection and segmentation methods.

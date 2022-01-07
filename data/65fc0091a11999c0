@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.unite.ai/mit-measuring-media-bias-in-major-news-outlets-with-machine-learning/
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Identify bias wording in US news outlets. Research into automatically classifing politics in a publication, allowing readers to get a deeper insight into the ethical stance of the outlet.
+
+== DATA
+
+3078624 news articles from 100 media news sources, 83 of which where newspapers, obtained from Newspaper3K database
+
+== METHODS
+
+Natural Language Processing
+
+== RESULTS
+
+Left-Right media bias and establishment stance can be automatically discovered.
+
+== ISSUES
+
+Insight and nuance may have been lost after the data was pre-processed. Direct quotes and punctuation removed. This may result in a change of context. Identifiable redundant language was removed. Variations of "essentially" identical phrases where standardized. Specific call to action may have been lost due to this. News and its readership can end up in echo chambers where contrasting politics are not seen.
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+An interesting point of research and a great use of NLP, classification problems always intrigue me as it could be used to automate the mundane. I would have tried to explore how the readership analytics of the news sources could influence the language used by the source. The reporting of the press article was reasonable to the paper, abstracting away much of the technical language used in the paper. The press have reported that this study seems to be the largest of its type. The use of Open Source data was useful, however the pre-processed data might have looked quite different. 
+

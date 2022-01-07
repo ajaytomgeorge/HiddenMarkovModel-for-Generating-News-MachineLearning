@@ -1,0 +1,83 @@
+
+== SOURCE
+
+
+https://thenextweb.com/neural/2020/10/27/microsoft-unveils-free-app-to-create-ai-models-without-writing-any-code/
+Official blog on this - https://blogs.microsoft.com/ai/lobe-machine-learning/
+Official Site - https://lobe.ai/tour/
+
+
+== AGENT
+
+
+MICROSOFT
+
+
+== GOAL
+
+
+Created by Big Tech MICROSOFT, must have been some cool stuff!!
+Don't get preoccupied by this thought, first read and then decide how super cool it is.
+
+An ML image classification model(app named LOBE) which anyone (especailly non-technical people) can train by simply clicking photos and labelling them. 
+It gives normal people power to train the model. Seems so powerful!!
+
+
+== DATA
+
+
+You can create dataset!! Wait, what??
+Dataset is created by the user using the app. Real world image data can be feeded by anyone using it and then it will learn from that data. Because training is automatic, people can start by simply importing images of the things they want Lobe to recognize.
+
+
+
+== METHODS
+
+
+Don't worry about methods, it will take care for itself.
+
+It automatically  selects  RIGHT MACHINE LEARNING architecture and starts training without any setup or configuration. It uses open-source machine learning architectures and TRANSFER LEARNING to train custom machine learning models on the user's own machine. All the data is kept private, with no internet connection or logins required.
+
+
+== RESULTS
+
+
+You won't believe its usefulness unless I give you some proof. Lobe has implemented this image classfication model at multiple places for example it helped beekeepers to build early warning system to alert hive owners to potentially catastrophic threats.
+
+Now you must be thinking, How it helped beekeepers?
+
+Let me tell you that invaders like wasps, mites or Asian Giant Hornets can kill hive in a couple of hours. What they did was, they kept motion-sensor activated camera at the entrance of the hive and using ML model to remotely identify when invaders like wasps or mites were coming in. Knowing that some invaders is entering hive has helped beekeepers in rescuing whole colonies.
+
+I'll give you another impact of its help.
+
+It has helped  Nature Conservancy  to support its Mapping Ocean Wealth project, which seeks to map how and where tourism, fishing and other activities are potentially affecting important ocean resources — with the goal of helping officials in five Caribbean nations make more informed conservation and economic decisions.
+
+"Lobe fills a sweet spot for customers looking for a simple and quick way to get started with machine learning using their PCs or Macs without requiring any dependency on the cloud" - Microsoft
+So, in short it allows people to create end-to-end machine learning solutions at home or in the workplace, such as creating an alert when a resident raccoon gets their garbage or flagging when an employee in a dangerous situation isn’t wearing a helmet.
+
+
+== ISSUES
+
+
+Completely upto the mark  as it also gives users to rectify model's mistake and the model learns back again.
+Putting it in simple words- click photos, upload, train, test  ---> if model makes mistake then help it in improving by correcting label.
+
+
+== SCORE
+
+
+8(Eight)
+Definitely Super cool but giving it 8 as there is always some scope of improvement
+
+
+== COMMENTS
+
+
+Reporting in the Press is somewhat unreliable nowadays especially because sometimes they have sometimes published wrong facts. So better to confirm it with official site. And I'm glad that I DIDN'T FIND ANY DIFFERENCE on the two sources.
+
+This Lobe gives non-technical people a tool like never before in which they can train their models by simply clicking photos and replicate at the industry level.
+Microsoft never disappoints with its new stuffs- ofcourse Microsoft LUMIA is an exception. But  this is really cool.
+The main thing which makes it super likeable is that it empowers anyone to develop and apply deep learning and AI models.
+MS has presented existing AI techology in a simple yet different and powerful way which can transform this world a lot.
+
+

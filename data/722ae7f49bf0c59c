@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://survivingmesothelioma.com/machine-learning-tool/
+
+==== AGENT
+
+Pierre Courtiol, Charles Maussion, Françoise Galateau-Sallé, Gilles Wainrib, Thomas Clozel at Owkin
+
+==== GOAL
+
+Classify mesothelioma so as to improve the prediction of patient outcome
+
+==== DATA
+
+Their data was obtained from The Cancer Genome Atlas
+
+==== METHODS
+
+They have developed a new approach—based on deep convolutional neural networks—called MesoNet to accurately predict the overall survival of mesothelioma patients from whole-slide digitized images, without any pathologist-provided locally annotated regions.
+
+==== RESULTS
+
+They validated MesoNet on both an internal validation cohort from the French MESOBANK and an independent cohort from The Cancer Genome Atlas (TCGA). They also demonstrated that the model was more accurate in predicting patient survival than using current pathology practices. Furthermore, unlike classical black-box deep learning methods, MesoNet identified regions contributing to patient outcome prediction. They found that these regions are mainly located in the stroma and are histological features associated with inflammation, cellular diversity and vacuolization. These findings suggest that deep learning models can identify new features predictive of patient survival and potentially lead to new biomarker discoveries.
+
+==== COMMENTS
+
+

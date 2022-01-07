@@ -1,0 +1,18 @@
+== SOURCE
+https://onezero.medium.com/actual-self-driving-taxis-are-hitting-city-streets-db41095d8a02
+== AGENT
+Waymo
+== GOAL
+Autonomous cars onto city streets.
+== DATA
+Waymo Open Dataset
+== METHODS
+Computer Vision
+== RESULTS
+Improving self driving technology, car that can drive autonomously around 50-mile area.
+== ISSUES
+Human drivers being replaced by autonomous vehicles.
+== SCORE
+8
+== COMMENTS
+There is always a question who such vehicle should hit on zebra crossing, grandma or baby, maybe both or neither.

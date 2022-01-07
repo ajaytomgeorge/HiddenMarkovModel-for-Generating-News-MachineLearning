@@ -1,0 +1,43 @@
+== SOURCE
+
+https://thenextweb.com/news/google-ai-algorithm-restores-gustav-klimt-paintings-destroyed-in-world-war-two
+
+== AGENT
+
+Google Arts & Culture in partnership with Belvedere
+
+== GOAL
+
+To create an accurate coloured representation of the lost Klimt paintings from other artwork and using clues recorded in history, and black and white photographs of the paintings. 
+
+== DATA
+
+The machine learning system was trained on 80 of Klimt's other works to allow it to learn his usual colour schemes, moods etc.
+It was also taught using 91749 artworks from Google Arts & Culture. 
+
+== METHODS
+
+In this project, the Pix2Pix algorithm is used, the core of which is a Conditional Generative Adversarial Network. This didn't work and was replaced. 
+After, they usef used is novel model similar to DeOldify ("a U-net with a pre-trained ResNet-34 with self-attention, spectral normalization, and a 3-channel RGB input with color hints").
+
+It was progressively trained with a custom feature loss, that used a pre-trained Generative Adversarial Network critic.
+
+The black & white images had small touches of colour added at the beginning based on what was known from research and then fed to the AI for it to use as a starting point.
+
+== RESULTS
+
+This method resulted in the re-coloured images of the three lost paintings. It is impossible to tell exactly how close the end results are but thee are some of the best approximations anyone has.
+
+== ISSUES
+
+These are hard to verify, as the original paintings are lost and unrecoverable. At best, we can hope for a close interpretation of the images.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The press cover of this didn't include many details about the actual proces involved. They talked about the decision-making process but not much about the technology itself. 
+
+I particularly like this example of machine learning in use because it combines machine learning with a humna touch, and shows that much more can be accomplished by combining the strengths of people and the strengths of computers.

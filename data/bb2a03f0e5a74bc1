@@ -1,0 +1,37 @@
+
+== SOURCE
+
+https://www.zmescience.com/science/news-science/machine-learning-archaeology-30092021/
+
+== AGENT
+
+Penn State researchers
+
+== GOAL
+
+They were trying to use a ML algorithm to find undiscovered archaeology
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+
+== METHODS
+
+They built a deep learning algorithm to recognize shell rings, shell mounds and other landscape objects. They manually went over the maps and located the known rings, using these to train the algorithm, rotating some maps 45 degrees for better training.
+
+== RESULTS
+
+Once the algorithm was trained, the team were able to use it to discover hundreds of new structures
+
+== ISSUES
+
+It may take a while to train this algorithm to detect new structures and theres a possibility that it may not recognise structures that are slightly different to the ones used to train the alogrithm
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought that this article was very interesting. Its cool to see that these ML algorithms can be used to identify things that our naked eye cannot. The article also contained some decent information on how they trained their algorithm and how it was used which cannot be said for some similar articles
+

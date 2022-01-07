@@ -1,0 +1,58 @@
+==== SOURCE
+
+https://www.vice.com/en_au/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+https://arxiv.org/pdf/1909.11974.pdf
+https://github.com/xing-hu/EMSE-DeepCom
+
+==== AGENT
+
+"DeepCom" by Beihang University and Microsoft China.
+
+==== GOAL
+
+To write an AI which reads online news articles then posts comments in the
+comments section. I don't know why, and the writer of the article doesn't seem
+to either, hence the "for some reason".
+
+The system is based on how humans "consume" their news: Read the headline, take
+away a few key points then write a comment.
+
+==== DATA
+
+The input data consisted of 152, 355 Yahoo! news articles from a wide variety of
+categories such as sports, finance, entertainment, etc, and 191, 502 Tencent
+news articles (Chinese).
+
+==== METHODS
+
+This system uses two ANNs: A reading network, which reads the article and a
+generation network which generates the comment.
+
+The reading network reads the title and the body separately, then fuses them
+into one internal representation. The output from the reading network are
+"Salient spans" from the article; these are points the ANN perceives to be the
+important points.
+
+These are then fed into the comment generation network along with the article's
+title to generate the comment.
+
+==== RESULTS
+
+This seems to be a purely academic exercise, so I'll judge it in those terms. In
+the paper they provide some examples of comments produced by DeepCom and two
+similar systems: Att-TC and IR-TC and claim that comments from DeepCom are more
+relevant to the news articles, and they seem to be correct based on these two
+cherry-picked examples.
+
+I'm not sure what the ultimate goal of this research is though. If they wanted
+to produce a nice paper, they've succeeded.
+
+==== COMMENTS
+
+An interesting project, and they've released the source code and explained
+everything very well in the paper, so kudos to this team for doing that.
+
+I don't really see the point of this project, other than satisfying curiosity.
+If anything, this project is likely to end up doing more harm than good, as
+they've released the source code so it should be pretty easy for somebody to
+craft a spam bot.

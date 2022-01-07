@@ -1,0 +1,36 @@
+Article 5 - Axa large-loss prediction
+
+==== SOURCE
+
+https://cloud.google.com/blog/products/gcp/using-machine-learning-for-insurance-pricing-optimization
+
+==== AGENT
+
+AXA Research and Developement team in Japan.
+
+==== GOAL
+
+The goal was to use machine learning in a POC to optimize pricing to predict the insurance 
+claims known as a large-loss, where the company would lose over 10,000 from a trffic 
+accident.
+
+==== DATA
+
+AXA takes in details such as the age, region and premium amount of a driver and age of the 
+vehicle. AXA also used data in Google Compute Engine to train the model.
+
+==== METHODS
+
+They used a model called the tensor flow to enter the data into a signle vector with 70 dimensions
+and put this into a deep learning model. The hyperparameters are tuned so that the end result has 
+an accuracy rate of 78%.
+
+==== RESULTS
+
+This feature was a success and is currently in use by AXA Insurance worldwide. This feature allows AXA 
+adjusters to know which clients are at most risk of Large-Loss.
+
+==== COMMENTS
+
+This is a great feature that almost eliminates the problem of large-loss and other insurance companies 
+should implement neural networks for this feature.

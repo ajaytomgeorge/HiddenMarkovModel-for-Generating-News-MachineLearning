@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.independent.co.uk/life-style/gadgets-and-tech/artificial-intelligence-mars-craters-nasa-b1341139.html
+
+== AGENT
+
+Nasa
+
+== GOAL
+
+To detect creaters on mars
+
+== DATA
+
+6830 images from Nasa's Mars Reconaissance Orbiter
+
+== METHODS
+
+Supervised Learning
+
+== RESULTS
+
+The AI once trained was capable of detecting craters 480 times faster than a human.
+
+== ISSUES
+
+Requires significant computaional power, 750 copies of the classifier were being run simultaneously.
+This is part of an ongoing issue where training and utilizing machine learning networks are having
+significant contributions to carbon emissions.
+
+"AI can't do the kind of skilled analysis a scientist can, but tools like this new algorithm can be thair assistants" 
+- Kiri Wagstaff, JPL Computer Scientist -- Danger of it being used to replace skilled analysis which may work a significant proportion 
+of the time, but is likely to miss things a human would not. 
+
+== SCORE
+
+3
+
+== COMMENTS
+
+

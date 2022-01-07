@@ -1,0 +1,23 @@
+==== SOURCE
+
+https://www.wired.com/story/amazon-alexa-2018-machine-learning/	
+
+==== AGENT
+
+Amazon’s Alexa team
+
+==== GOAL
+
+Create a more conversational virtual assistant which helps users without introducing new frustrations.
+
+==== DATA
+
+There data came from users.
+
+==== METHODS
+
+They used a machine learning method called active learning in which the system identifies areas it needs help from a human expert. They also managed to have the system understand string requests without needing to use the keyword again.
+
+==== RESULTS
+
+The result was a more conversational relationship between users and the system in which the system understands requests better.

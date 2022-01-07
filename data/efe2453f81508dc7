@@ -1,0 +1,28 @@
+==== SOURCE
+
+Forbes - https://www.forbes.com/sites/bernardmarr/2019/08/23/the-amazing-ways-youtube-uses-artificial-intelligence-and-machine-learning/#4b8b3d275852
+
+==== AGENT
+
+YouTube Machine Learning
+
+==== GOAL
+
+Create a bot that can detect offensive content and demonitise or remove it
+
+==== DATA
+
+The millions of videos uploaded onto Youtube, namely videos previosuly found to be offensive.
+
+==== METHODS
+
+They designed an algorithm that would scan different videos that were given offensive level ratings and discovered keywords and visuals that would trigger a demonitisation or removal, this would then be confirmed by the programmer. It also looked at the feedback from viewers who reported a video for a misleading title, inappropriate or other objectionable content.
+
+==== RESULTS
+
+Before using artificial intelligence, only 8% of videos containing "violent extremism" (banned on the platform) were flagged and removed before ten views had occurred; but after machine learning was used, more than half of the videos removed had fewer than ten views. 
+A majority of removed videos are now being flaged by the AI as opposed to by humans.
+
+==== COMMENTS
+
+What the article fails to mention is that not all videos taken down by the bot were deserving of it orin violation of any rules. The algorithm is far from perfect and often gardes common words as being offensive, such as the word gay, and is quite difficult to 'untrain' in this aspect.

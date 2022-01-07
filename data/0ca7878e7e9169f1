@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.independent.co.uk/life-style/gadgets-and-tech/instagram-suspicious-adults-messaging-children-b1817822.html
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+To stop suspicious adults messaging kids in Instagram
+
+== DATA
+
+They have used instagram users data who are above 18 years old, who are trying to DM kids whom they are not following
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+Direct messaging option will not be available for the user and also prompts will also be sent to teenagers encouraging them to be cautious with adults and will highlight them to have a private account
+
+
+== ISSUES
+
+They have not clearly reported either the results or algorithm
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It is interesting and essential algorithm as it helps to prevent teenagers from suspicious adults

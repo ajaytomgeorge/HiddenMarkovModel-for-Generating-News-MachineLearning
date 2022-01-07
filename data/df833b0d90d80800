@@ -1,0 +1,47 @@
+
+== SOURCE
+
+https://www.independent.co.uk/life-style/gadgets-and-tech/apple-employees-privacy-child-abuse-b1901907.html
+
+https://www.apple.com/child-safety/pdf/CSAM_Detection_Technical_Summary.pdf
+
+https://www.livemint.com/technology/tech-news/apple-to-deploy-machine-learning-tools-to-flag-child-abuse-content-11628238495602.html
+
+== AGENT
+
+Apple
+
+== GOAL
+
+It plans to set a feature on its devices which would scan through the users photos and messages to check for any signs of child abuse.
+
+== DATA
+
+The data is a database of CSAM(Child Sexual Abuse Material) image hashes provided by the NCMEC(National Centre of Missing and Exploited Children)and other child-safety organizations.
+
+== METHODS
+
+They used a hashing technology NeuralHash, which analyses an image and converts it into a unique number. Once the user receives/sends the photo/message, the matching process is performed against the CSAM hashes. Private set intersection technology is used to determine whether there is a match without publishing the results. 
+
+Self-supervised learning is used to generate the descriptor used for hashing process.	
+
+== RESULTS
+
+A rather novel and better approach has been taken to reduce abuse via social media, which ultimately leads to a decrease in crimes in the society.
+
+== ISSUES
+
+This functionality raises serious privacy concerns, particularly in terms of how the technology is used. While Apple claims that the function is intended such that the company does not have access to the user's messages, several privacy activists have voiced concerns about the idea, mostly due to Apple's long history with privacy policies.
+
+This type of machine learning technology could produce false positives, causing unnecessary problems for innocent parties. If such technology falls into the hands of the government, it may be used to detect images containing other forms of content.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+To some extent, this is a useful concept because it would tremendously aid in minimising the amount of child abuse via media, which is unfortunately one of the most common crimes committed nowadays.
+Apple has a track record when it comes to user privacy and security. If they were able to overcome those challenges, this would have been a fantastic breakthrough that would have had a significant impact on society.
+One of the advantages is that there are no strings attached, since they have even released the details of the methodology by which they are implementing this, allowing others to benefit from the documentation.
+

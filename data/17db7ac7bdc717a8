@@ -1,0 +1,32 @@
+==== SOURCE
+
+The article’s source can be found at: 
+https://www.researchgate.net/profile/Theodore_Trafalis/publication/221532842_Support_Vector_Machine_for_Regression_and_Applications_to_Financial_Forecasting/links/573f4f0c08ae298602e8f1e8.pdf
+
+
+==== AGENT
+
+The document was written by:
+Theodore B. Trafalis* and Huseyin Ince
+School of Industrial Engineering, University of Oklahoma
+
+
+==== GOAL
+
+The main porpoise of this paper is to compare techniques utilized for financial forecasting such as Support Vector Machine (SVM), Backpropagation and Radial Basis Function (RBF).
+
+==== DATA
+
+The Data for this paper is being retrieved from Yahoo’s financial website and is sampled from May 7, 1998 to September 28, 1998. The test data is sampled from September 29, 1998 to October 19, 1998
+
+==== METHODS
+
+The mathematical formulation of the support vector machine is derived and then the selection of the kernels for the application is discussed. Methodologies can be used to determine a good kernel such as bootstrapping and cross-validation. After the formulations have been performed an application to the financial forecasting is done utilizing the information retrieved from Yahoo’s webpage. Assumptions are performed in order to initialize and tune the algorithm that will fit the regression to the measured data..
+
+==== RESULTS
+
+The results of the research showed that small neural networks can perform accurate predictions of financial models by identifying the correct variables and utilizing regression to model the unknow dynamics of the systems and forecast based on the estimated dynamics.
+
+==== COMMENTS
+
+The article is very mathematical and explains clearly the derivation of the support vector machine, however does not explain in depth the methodology utilized to model the dynamics of the financial systems.

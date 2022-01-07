@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.latimes.com/opinion/story/2021-10-07/op-ed-ai-flaws-could-make-your-next-car-racist
+
+== AGENT
+
+Tesla
+
+== GOAL
+
+They were trying to develop software to allow for self-driving cars
+
+== DATA
+
+Currently they are gaining their data from the thousands of Tesla vehicles driving around daily.
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+
+The article details how there seems to be a flaw in the self-driving software that causes Tesla cars to react erratically when faced with emergency vehicles. This is presumed to be a result of the software not having experience in situations with flashing lights and vehicles parked on a shoulder.
+
+== ISSUES
+
+Tesla is reportedly using "synthetic" training data to help their software learn how to deal with these under-seen situations, however the algorithms used to formulate this synthetic training data was designed to realistically depict white skin and the glint in long straight hair. This could lead to deficiencies in the software trained on this data meaning they could find it harder to identify PoC and thus could be more likely to hit them as they were crossing a street or similar.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found this very interesting, as it was an insight into the machine learning methods and possible failings that I hadn't realised could be an issue, both with regards to emergency vehicles being edge cases that the self-driving algorithm could have problems with and the method used to try and overcome this issue possible causing further issues in a different direction. It is hard to know how accurate the article is in its predictions but it's an interesting thought that deserves further investigation.

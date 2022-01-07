@@ -1,0 +1,18 @@
+== SOURCE
+https://www.wired.com/story/national-guards-fire-mapping-drones-get-ai-upgrade/
+== AGENT
+CrowdAI and Pentagon
+== GOAL
+In recent years military drones have been used to capture images for National Guard analysts to manually mark the boundaries of active fires using Google Earth. This process can produce accurate maps in 3 to 6 hours which is still enough time for a fire's boundaries to advance several miles. The goal of the wildfire auto-mapper is to use machine learning to quickly produce live maps of wildfires so that firefighting personnel on the ground have up to the latest information they need to combat the fires. 
+== DATA
+The data used to train the model is a collection of infrared frames from previous fires captured by drones and annotated by humans to demonstrate how the images should be geotagged. The dataset contains roughly 400,000 annotated frames with about a quarter of those containing an active fire. The videos are all captured in infrared because the fires would rarely be visible in RGB. The annotation was carried out with consultation from CAL FIRE.
+== METHODS
+The main model used by CrowdAI is inspired by the U-Net architecture which is convolutional neural network designed for medical image segmentation tasks and falls under supervised learning. Latency was a careful consideration when designing the model as it needed to output maps with as close to real time information as possible. Some of the improvements on the basic architecture include adding the model’s previous predictions into the current frame's prediction which slowed it down but significantly improved the performance. Experimenting with reducing the input resolution to save on latency proved to cause to much loss in performance but pruning the model’s depth and thickness helped with latency. A series of data augmentations were applied to the training set including scaling the frame, rotating, flipping and adding noise to the image. Each image had a 10% chance of being augmented and this technique improved model performance even further. The dice similarity coefficient was used to measure the agreement between the models prediction and the ground truth.
+== RESULTS
+The final model which was a pruned U-Net using the technique of feeding the models previous predictions into the current frame was able to process 20 frames per second with and F1 score of 92. The basic U-Net achieve and accuracy score of 94 but can only process 5 frames per second. The result is an up to data map made available to analysts within 30 minutes compared to the original 6 hours. The ultimate goal is to have the maps available to ground personnel on mobile devices in near real time.
+== ISSUES
+One of the biggest issues facing the future of the project is the security involved in the transmission of drone data. At the moment the transfer of drone data is done my manually transporting hard drives which considerably slows down the speed of data if the models don't have immediate access to the data. The article also raises ethical concerns about private tech companies working with the military on AI projects.
+== SCORE
+8
+== COMMENTS
+The article is very light on technical details with no references to actual published paper but the project itself is incredibly interesting. The data gathered from drone footage is seemingly a new type of data for machine learning applications and the balancing of optimisation and performance of the U-Net architecture is really impressive, especially the use of the model's previous predictions to inform the latest frame.

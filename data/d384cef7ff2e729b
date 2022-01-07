@@ -1,0 +1,38 @@
+== SOURCE
+
+https://pubs.acs.org/doi/10.1021/acscatal.9b04321
+
+== AGENT
+
+Stanislav Mazurenko, Zbynek Prokop, and Jiri Damborsky
+
+== GOAL
+
+Predict protein patterns and improve enzyme stability, solubility and function
+
+== DATA
+
+Databases of protein sequences and structures and databases of protein stability and solubility.
+There are many high quality databases used such as the UniProtKB database of protein sequences. 
+
+== METHODS
+
+Mostly supervised learning but some semi-supervised learning
+
+== RESULTS
+
+Many impressive algorithms and techniques have been developed but there is still a lot of research
+yet to be done. There is a lack of homogeneous and consistent data sets of high quality for training
+and validation
+
+== ISSUES
+
+More data required as machine learning has only recently been used in this field of research.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Was cool to see machine learning application in biology and not just computing.

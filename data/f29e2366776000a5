@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.irishtimes.com/news/science/harnessing-machine-learning-to-help-patients-with-als-1.4673787
+
+== AGENT
+
+Researchers at Trinity College
+
+== GOAL
+
+Apply machine learning techniques to analyse healthcare records and improve quality of care
+
+== DATA
+
+Anonymous data from ALS patients with their consent. It was gathered from groups around Europe
+
+== METHODS
+
+The description indicates regression machine learning.
+
+== RESULTS
+
+Their results will alert a doctor if the quality of life of the patient could be better.
+
+== ISSUES
+
+I dont see many issues with this. I feel that medical care is unique for each patient so the weighting of the data might offer poor suggestions for some patients.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Very interesting article, it seems like a great idea especially in the long run. Hopefully it will speed up the care process for patients and allow a better form of treatment for them. Article is well written. I cannot fault it. It seems to be standard techniques for machine learning. With some time and more data hopefully it will see a larger roll out. I also like that the data collection is done both anonymously and consentually.

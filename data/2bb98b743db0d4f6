@@ -1,0 +1,43 @@
+## Format
+```
+== SOURCE
+
+https://www.azolifesciences.com/news/20210928/Study-employs-machine-learning-to-predict-outcomes-in-agriculture.aspx
+
+== AGENT
+
+Gloria Coruzzi, Study Senior Author and Carroll & Milton Petrie Professor
+
+== GOAL
+
+To predict the outcomes in agriculture
+
+== DATA
+
+Used large amount of genomic data present 
+
+== METHODS
+
+Suprevised ML 
+
+== RESULTS
+
+Can foretell the changes in nutrition, growth preformance
+
+== ISSUES
+
+precise prediction of these complex outcomes in medicine and agriculture from genome-scale 
+information stays a major challenge.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Its a really important aspect to get know of your crop for a better yield for quality production
+```
+
+
+
+

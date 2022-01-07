@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.businessinsider.com/google-deepmind-alphago-beat-go-world-champion-lee-sedol-2016-3?r=US&IR=T/
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+Creating the best AI Go player
+
+== DATA
+
+The AI used matches between professionals and between itself to train itself.
+
+== METHODS
+
+It uses a Monte Carlo tree search to find the best move on the board. AI first uses a reinforcement learning method to be taught how to play well and what are the best moves.
+
+== RESULTS
+
+In 2015, AlphaGo was the first AI to win against a professional Go player without a handicap.
+
+== ISSUES
+
+During its training, it was shown that AlphaGo had some particular weaknesses which were patched along the way.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The article was interesting, explaining the first three games of the tournament. However, it didn't cover the last two games and AlphaGo weakness during the forth game.
+A lot is explained about people's reaction but not about the two players that faced each other
+The event was unique and it was to show the power of nowaday AI. It used a neural network as a way to beat Go players which was never used before. As successful as it is, it shows that this new method has a big potential for the future of the AI field.

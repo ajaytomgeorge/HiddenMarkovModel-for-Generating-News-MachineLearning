@@ -1,0 +1,36 @@
+== SOURCE
+
+https://techcrunch.com/2021/09/22/cellino-is-using-ai-and-machine-learning-to-scale-production-of-stem-cell-therapies/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAJ6wjDlUqLEsd-X3Px39WaGQG9xoOc-ins51QQDN-N20x631Cq9H14OYTZvWu5catXBcwqLXp9QUDDQgXQ1JJOuQDSEcCbtprS0KES-PqkuorFJek2QTBnTYHNIEmxAmNNVYrlois1jlCVDCz40tBDE9sjD7iCyBgV4SqzwBRlYm
+
+== AGENT
+
+Cellino
+
+== GOAL
+
+To use machine learning to idnetify high and low quality cells
+
+== DATA
+
+They have a dataset about different properties of cells like shape, size and desnity of a cell
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The algorithm indentifes low quality cells and removes them
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This article was very interesting to me. It didn't go into lots of detail of the biology and I understood the overall idea of what was going on, If the article went to deep into the biology end of things I would have been lost.

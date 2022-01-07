@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=303051
+
+== AGENT
+
+National Science Foundation
+
+== GOAL
+
+Use machine learning to predict earthquakes
+
+== DATA
+
+Christchurch quake was that it was one of the most well-documented earthquakes in history, this data was then used to build an algorithm.
+
+== METHODS
+
+The reasearches used supervised learning to train the algorithm
+
+== RESULTS
+
+The researchers developed a machine learning model that predicted the amount of lateral movement that occurred when the Christchurch earthquake caused soil to lose its strength and shift relative to its surroundings.
+
+== ISSUES
+
+None
+
+== SCORE
+
+7
+
+== COMMENTS
+
+One of the most useful and lifesaving projects I've come across. Really hope the algorithm advances and the predition becomes more accurate.
+The aritcle only covered a small bit of imformation, would've liked to see more tests of the algorithm in different countries with different soil types.
+The article didnt not talk much about the methods used to train the data but from what I read I assume they used the supervised method.
+

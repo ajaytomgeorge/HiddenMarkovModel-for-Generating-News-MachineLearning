@@ -1,0 +1,36 @@
+== SOURCE
+
+https://paperswithcode.com/paper/dziribert-a-pre-trained-language-model-for
+
+== AGENT
+
+Amine Abdaoui, Mohamed Berrimi, Mourad Oussalah, Abdelouahab Moussaoui
+
+== GOAL
+Create a Pre-trained transformers for the Algerian dialect which has several specificities that make the
+use of Arabic or multilingual models inappropriate
+
+== DATA
+
+One Million Algerian tweets,  model DziriBERT
+
+== METHODS
+
+Masked Language Modeling (MLM), Next Sentence Prediction (NSP)
+
+== RESULTS
+Results show that pre-training a dedicated model on a small dataset (150 MB) can outperform existing models
+that have been trained on much more data (hundreds of GB)
+
+== ISSUES
+
+There aren't any novel approaches in the methods used. It is mostly a basic architecture.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+It is a good attempt in the realm of inclusion as currently most Pre-trained transformers are oriented
+towards major languages. But it could have been made better by anaylsing new architectures for better performance

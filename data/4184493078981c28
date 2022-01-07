@@ -1,0 +1,27 @@
+
+== SOURCE
+https://www.dailystar.co.uk/news/world-news/groundbreaking-ai-tech-predicted-ebola-21115539
+
+== AGENT
+Nature Communications by David W. Redding, Peter M. Atkinson, Andrew A. Cunningham, Gianni Lo Iacono, Lina M. Moses, James L. N. Wood & Kate E. Jones.
+
+== GOAL
+The analysis of existing data to pinpoint which countries will be at risk of an ebola outbreak in the future and provide potential solutions.
+
+== DATA
+The model has gathered data on animals which can carry ebola, where contact is most likely to occur with humans and climate change driving humans into animal habitats and vice-versa. By calculating where past interactions have occured, will predict where the disease may spread.
+
+== METHODS
+Machine learning
+
+== RESULTS
+The model has successfully predicted the outbreak currently happening in the Democratic Republic of the Congo. It has been run for  the present day for comparisons to outbreaks already seen and has shown the Congo and West Africa are at high risk, with the countries of Nigeria, Ghana and Kenya as being vulnerable.
+
+== ISSUES
+The big issue with this is that it is predicting something that can already be deduced form past outbreaks and offers no real solution to the problem only suggesting that it may happen. 
+
+== SCORE
+2
+
+== COMMENTS
+In my opinion it is kind of uneccessary as it is telling us essentially something we already know. News article does not go into detail about what algorithms are being used.

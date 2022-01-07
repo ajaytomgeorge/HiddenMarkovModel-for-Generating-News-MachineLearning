@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.theregister.com/2021/08/25/github_copilot_study/
+
+== AGENT
+
+GitHub and OpenAI
+
+== GOAL
+
+To create blocks of code that do what is specified in English in a comment above the block
+
+== DATA
+
+The data was public code available on GitHub
+
+== METHODS
+
+Unsupervised learning. Powered by new AI System named Codex which is based on the GPT-3 model, the third generation of the Generative Pre-trained Transformer,
+a model capable of generating sequences of text from single prompts.
+
+== RESULTS
+
+Program is able to produce blocks of code with surprisingly reasonable accuracy, but it's open to security issues such as SQL injection and other issues such as
+declaring floats for conversion to string with too few bytes allocated.
+
+== ISSUES
+
+For the moment, the output code isn't very reliable and is therefore useless when considered for practical purposes.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought it was an interesting application of machine learning, but it should be kept as a for-fun
+program rather than something that's used in actual programming for the forseeable future, as it introduces
+way too much chaos to programming, something which should be precise and secure.
+The reporting in the press was reasonable.
+The method was new, but built upon an existing method.

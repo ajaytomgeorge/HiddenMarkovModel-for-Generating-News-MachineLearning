@@ -1,0 +1,43 @@
+==== SOURCE
+http://news.mit.edu/2019/model-predicts-alzheimers-decline-0802
+
+==== AGENT
+
+MIT Reseachers
+
+==== GOAL
+
+A new model that can help predict if patients are at risk for Alzheimer’s disease for the next 2 years.
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+The researchers leveraged the world’s largest Alzheimer’s disease clinical trial dataset called Alzheimer's Disease Neuroimaging Initiative (ADNI).
+The dataset contains data from around 1,700 participants with and without Alzheimer’s recorded during semiannual doctors visits over 10 years.
+Data includes the AD Assessment Scale-cognition sub-scale (ADAS-Cog13) scores whch are the widely used cognitive metrics.
+
+==== METHODS
+
+What did they actually do?
+
+They first trained a population model on an entire dataset that included clinically significant cognitive test scores and other biometric data
+from Alzheimer’s patients. Also healthy patients collected between doctors visits. From the data the modle learns certain patterns that can help predict
+how patient will score on the cognitive tests taken on doctors vists. For new patients a new personalized model updates score prediction based on new recorded data.
+
+
+==== RESULTS
+
+How did it go for them?
+
+Experiments indicate accurate predictions can be made looking ahead 6, 12, 18 and 24 months. Clinicians could thus use the model to help select at-risk participants for clinical trials 
+who are likely to demonstrate rapid cognitive decline.In evaluating the model on new patients from a held-out portion of participants the researchers found the model's predictions werent
+as accurate as they could be.So they personalized the population for new paient. After about 4 visits to doctor the personalized model significantly reduced the rate of error in prediction.
+It also outperformed the traditional machine learning approaches used for clinical data.
+
+
+==== COMMENTS
+
+This was a really interesting study in the medical field. It clearly shows how important machine learnnig is and its neural networks.
+
+==============================================================

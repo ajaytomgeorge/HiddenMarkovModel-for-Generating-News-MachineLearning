@@ -1,0 +1,36 @@
+==== SOURCE
+
+http://news.mit.edu/2019/model-predicts-alzheimers-decline-0802
+
+==== AGENT
+
+Who did the machine learning? (E.g., Google Brain, Prof Jane Baz’s group
+at University of North Hoople, etc.)
+
+==== GOAL
+
+Create a machine learning model that would predict he cognitive decline of patients
+at risk for Alzheimer’s disease by forecasting their cognition test scores up to 
+two years in the future, which could help zero in on the right patients to 
+select for clinical trials.
+
+==== DATA
+
+The dataset contains data from around 1,700 participants, with and without 
+Alzheimer’s, recorded during semiannual doctor’s visits over 10 years.
+
+==== METHODS
+Data was use to train a population model powered by a “nonparametric” probability framework, 
+called Gaussian Processes (GPs), which has flexible parameters to fit various probability distributions and to process uncertainties in data. 
+This technique measures similarities between variables, such as patient data points, to predict a value for an unseen data point — such as
+a cognitive score. The output also contains an estimate for how certain it is about the prediction. The model works robustly even when analyzing 
+datasets with missing values or lots of noise from different data-collecting 
+formats.
+
+==== RESULTS
+
+The machine learning model has been very successful and so the researchers are hoping to partner with pharmaceutical 
+firms to implement the model into real-world Alzheimer’s clinical trials.
+
+==== COMMENTS
+

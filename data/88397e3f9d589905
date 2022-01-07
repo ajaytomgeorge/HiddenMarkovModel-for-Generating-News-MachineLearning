@@ -1,0 +1,19 @@
+== SOURCE
+https://www.nextgov.com/analytics-data/2019/10/military-algorithm-can-predict-illness-48-hours-symptoms-show/160851/
+== AGENT
+Defense Threat Reduction Agency (DTRA), US Military
+== GOAL
+They were attempting to use an algorithm which would predict when U.S serviceman would get sick, and how long it would take them to recover.
+== DATA
+The data was provided by a Health IT company Royal Phillips, which had a collection of globally sourced data. It contained 165 distinct biomarkers across 41000 cases.
+== METHODS
+Two data models were used one containing lab results and the other containing vitals obtained through non-invasive means. Machine Learning was then used to develop the algorithm RATE (Rapid Analysis of Threat Exposure). 
+== RESULTS
+The company says can “predict infection 48 hours before clinical suspicion” with better than 85% accuracy.
+== ISSUES
+The program has another two to three years of testing in operational environments before it even gets to the state of being useful or operational to the military. It does not say in the article whether the data used to develop the algorithm was obtained with the patients’ knowledge or consent.
+== SCORE
+7
+== COMMENTS
+It was the first time I had heard of predicting illness accurately and how it might be useful. This could be used, in times to come, to allow employers to assess how long an employee will be absent, how much cover they will need to obtain etc. However it is a very distant possibility and currently the main issue facing the creators would be improving the accuracy of the model. 
+

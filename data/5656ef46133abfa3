@@ -1,0 +1,43 @@
+
+== SOURCE
+
+https://www.nature.com/articles/s41467-021-26023-2
+
+== AGENT
+
+Yiqiu Shen, Farah E. Shamout, Jamie R. Oliver, Jan Witowski, Kawshik Kannan, Jungkyu Park, Nan Wu, Connor Huddleston, Stacey Wolfson, Alexandra Millet, Robin Ehrenpreis,
+Divya Awal, Cathy Tyma, Naziya Samreen, Yiming Gao, Chloe Chhor, Stacey Gandhi, Cindy Lee, Sheila Kumari-Subaiya, Cindy Leonard, Reyhan Mohammed, Christopher Moczulski, 
+Jaime Altabet, James Babb, Alana Lewin, Beatriu Reig, Linda Moy, Laura Heacock & Krzysztof J. Geras
+
+== GOAL
+
+Trying to create an AI system that can detect breast cancer in ultrasound pictures with radiologist-level accuracy.
+
+== DATA
+
+The AI system was developed and evaluated using the NYU Breast Ultrasound Dataset41 consisting of 5,442,907 images within 288,767 breast US exams 
+collected from 143,203 patients examined between 2012 and 2019 at NYU Langone Health in New York, USA.The dataset included 28,914 exams associated 
+with a pathology report, and among those,the biopsy or surgery yielded benign and malignant results for 26,843 and 5593 breasts, respectively.
+
+== METHODS
+
+Patients in the dataset were randomly divided into a training set (60%) that was used for model training, a validation set (10%) that was used for hyperparameter tuning, and an internal test
+set (30%) that was used for model evaluation.
+
+== RESULTS
+
+With the help of the AI, radiologists decrease their false positive rates by 37.3% and reduce requested biopsies by 27.8%, while maintaining the same level of sensitivity. 
+This highlights the potential of AI in improving the accuracy, consistency, and efficiency of breast ultrasound diagnosis.
+
+== ISSUES
+
+The issues with this approach is the relatively high level of sophistication involved and expenses that are required to achieve the output successfully.  
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Using AI for medical research and improvement of already present treatment methods are very much appreciable. This will increase the effeciency of detection and prevention of such diseases in the future.
+

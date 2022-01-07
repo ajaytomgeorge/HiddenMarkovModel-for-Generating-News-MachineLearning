@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-58748934
+
+== AGENT
+
+Scientists at Google-owned London AI lab DeepMind and the University of Exeter and the Met Office
+
+== GOAL
+
+better short-term predictions of the weather
+
+== DATA
+
+It used radar maps from the years 2016-2018 and tested on the 2019 radar data
+
+== METHODS
+
+supervised 
+
+== RESULTS
+
+It had on the test data of the year 2019 an accuracy of 89%
+
+== ISSUES
+
+None
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It is a big thing because scientists are struggling with predicting the weather correctly. Also with more extrem weather phenomena because of climate change, it is getting more substantial for the lives of the people. The project was also well executed and with a good strategy. The partnering with the Met office also provided hugh data set to learn from and helped to make steps to better understanding the weather.
+

@@ -1,0 +1,39 @@
+== SOURCE
+
+https://medium.com/pinterest-engineering/the-future-of-machine-learning-at-pinterest-88e6d4bf1968
+
+https://uk.pcmag.com/migrated-65630-software-services/8627/how-to-use-pinterest-for-beginners
+
+
+== AGENT
+
+Pinterest
+
+== GOAL
+
+Making highly personalized and powerful product recommendations for the users. Also creating a system that contains more than 400 million relationships between products.
+
+== DATA
+
+Tracks what users like or “pin” to their boards. Gives recommendations based on previous likes or interests. Uses this data to compare similar products too.
+
+== METHODS
+
+Pinterest uses a neural network called PinSage, developed in part using the TensorFlow and PyTorch deep-learning frameworks on Amazon Web Services (AWS). The deep-learning model places each image, according to theme, within one giant “graph” of other images.
+
+== RESULTS
+
+A highly successful app with millions of downloads. Pinterest recommends new pins or categories to its users based on their likes and interests. This allows the users to explore more into their interests.
+
+== ISSUES
+
+Some people might have issues with Pinterest recommending stuff that thye haven’t searched for on Pinterest. For instance, pintrest can take data from the users phone search history. Users agree to this on signing up but not many would read the fine print.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think Pinterest is a very useful app that can help people find creative ideas or see how certain clothes or designs turn out. There are pins for everything from haircuts to designing a back garden. People can find new interests on the app and explore their current interests. For pinterest, personalization is key, the more it knows about you the more useful the app is.
+

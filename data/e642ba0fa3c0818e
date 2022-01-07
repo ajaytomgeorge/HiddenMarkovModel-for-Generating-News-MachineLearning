@@ -1,0 +1,28 @@
+ML IN THE NEWS
+ARTICLE 1 - ALPHAFOLD
+== SOURCE
+https://www.nature.com/articles/s41586-021-03819-2
+
+== AGENT
+Google's Sister Company Deep mind
+
+== GOAL
+Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence
+
+== DATA
+The protein structure used for training were gotten from the Protein Data Bank
+
+== METHODS
+Supervised learning
+
+== RESULTS
+AlphaFold can predict highly accurate protein structures. It was entered into the CASP14 assessment, and it was vastly more accurate than its competitors.
+
+== ISSUES
+An issue I see is the neural network is owned by google and it is a company so it will work to make it profitable.
+
+== SCORE
+8
+
+== COMMENTS
+The project is very interesting. I had never heard of it before and its good to see a project that uses machine learning (deep learning) to solve a biotechnology problem.

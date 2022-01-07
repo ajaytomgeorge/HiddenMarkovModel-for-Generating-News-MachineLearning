@@ -1,0 +1,38 @@
+==== SOURCE
+
+Japanese-to-English Translations of Tense, Aspect, and Modality Using Machine-Learning Methods and Comparison with Machine-Translation Systems on Market
+Language Resources and Evaluation, Vol. 40, No. 3/4, Asian Language Processing: State-of-the-Art Resources and Processing 
+(Dec., 2006), pp. 233-242
+
+==== AGENT
+
+Masaki Murata, Qing Ma, Kiyotaka Uchimoto, Toshiyuki Kanamaru, Hitoshi Isahara
+
+==== GOAL
+
+Using machine learning to accurately translate japanese to english with accurate translations
+of tense, aspect and modality and get better results than the commonly used machine translation
+
+==== DATA
+
+Three data sets:
+-Set containing 1-gram to 10-gram strings at the ends of input japanese sentences and all the morphemes from each
+of the sentences. (422338 features)
+-Set containing 1-gram to 10-gram strings at the ends of input japanese sentences. (195841 features)
+-Set of all the morphemes from all the sentences (226497 features)
+
+==== METHODS
+
+Using four different methods, k-nearest neighborhood, decision list, maximum entropy and support vector machine 
+to develope translators
+
+==== RESULTS
+
+The system at its lowest had an accuracy of 94.3% and was compared against a gold standard set of translations that was
+translated by 3 individual seperate translators
+
+==== COMMENTS
+
+The translator produced from this was of a better quality than the standard machine translators that were commercially availble.
+The ML system was able to translate and learn from past experiences on the complicated translations that would not fit direct translation
+but would need some level of understanding. It leads me to wonder if the google translating functions work by ML or by rule based direct translation

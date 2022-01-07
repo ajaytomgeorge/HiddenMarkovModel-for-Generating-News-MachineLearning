@@ -1,0 +1,24 @@
+==== SOURCE
+
+https://www.ncbi.nlm.nih.gov/pubmed/?term=Artificial+intelligence+in+medicine+and+cardiac+imaging%3A+harnessing+big+data+and+advanced+computing+to+provide+personalized+medical+diagnosis+and+treatment
+==== AGENT
+
+University of Maryland School of Medicine, Baltimore, MD, USA
+
+==== GOAL
+
+Diagnose cardiad problems using images and create a specialised treatment for them
+==== DATA
+
+Data was gathered by using previous images and their diagnoses
+
+==== METHODS
+
+Computer models were trained to observe patterns in the images and what the outcome was
+
+==== RESULTS
+
+The outcome was succesful
+==== COMMENTS
+
+None

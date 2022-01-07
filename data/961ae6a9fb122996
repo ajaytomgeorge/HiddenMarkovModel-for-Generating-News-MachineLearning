@@ -1,0 +1,35 @@
+== SOURCE
+
+https://theintercept.com/2018/12/03/air-travel-surveillance-homeland-security/
+
+== AGENT
+
+DataRobot
+
+== GOAL
+
+develop predictive models to enhance identification of high risk passengers
+
+== DATA
+
+data gleaned from ticket records and demographics i.e. origin airport, name, birthday, gender, and citizenship
+
+== METHODS
+
+supervised learning that will automatically augment Watch List data with confirmed ‘positive’ high risk passengers
+
+== RESULTS
+
+N/A
+
+== ISSUES
+
+likely false positives with significant consequences along with a likely bias towards specific regions increasing the chance of a false positive for specific groups of people
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This ML project is unlikely to do anything other than confirm biases due to its limited likely biased data and vague task. it has the potential to produce something useful as it is a military contract which should give the researchers a lot to work with

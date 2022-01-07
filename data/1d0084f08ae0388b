@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.wired.com/story/deepfake-voices-help-trans-gamers/
+
+== AGENT
+
+Modulate
+
+== GOAL
+
+Creation of a speech to speech voice changer.
+
+== DATA
+
+I believe Modulate manually inputted a large number of voices, varying in different criteria, all saying the same keywords.
+
+This is mentioned in their Ethics page:
+"We utilize large public datasets which already have been studied for representativeness, though in some cases we are required to gather our own reference speech. When this is the case, we make a point to source voice actors from a wide range of different groups."
+
+== METHODS
+
+As this is a private product, it is unknown how exactly it is created but it can be speculated by what they say online.
+The company is open to creating new voices at a user's request and expense, they do this by "'blending' existing voices from within [their] library - mixing attributes of different voices until [they] find a balance which matches the vision [the user] had in mind - as well as augmenting the voices with additional effects which would normally be impossible without [their] machine learning techniques."
+I believe that the voices that they have developed were created through supervised learning methods as they are matching the desired voice to other input-output pairs they have already developed.
+
+== RESULTS
+
+A successful speech to speech voice changer which is already being taken in by companies such as Holotech Studios. They use Modulate to transform a user into a digital avatar in livestreams or video calls
+
+== ISSUES
+
+The variety of languages, dialects and accents will make it difficult for the AI in the beginning. The company is also aware of this and are working towards solving the issue.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I find this very interesting and will likely be used in the future of movies and other forms of media.

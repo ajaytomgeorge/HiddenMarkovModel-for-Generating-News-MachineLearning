@@ -1,0 +1,39 @@
+
+== SOURCE
+
+https://www.sciencedaily.com/releases/2021/08/210825113641.htm
+
+== AGENT
+University of south california research
+
+== GOAL
+
+Software that can reliably detect a premature baby's face in an incubator and remotely monitor its heart and breathing rates
+
+== DATA
+
+Infants were filmed with high-resolution cameras at close range and vital physiological data extracted using advanced signal 
+processing techniques that can detect subtle colour changes from heartbeats and body movements not visible to the human eye
+
+== METHODS
+Neural network
+
+
+== RESULTS
+A computer vision system that can automatically detect a tiny baby's face in a hospital bed and remotely monitor its vital signs from a 
+digital camera with the same accuracy as an electrocardiogram machine.Vital sign readings matched those of an electrocardiogram (ECG)
+and in some cases appeared to outperform the conventional electrodes, endorsing the value of non-contact monitoring of pre-term babies
+in intensive care.The study is part of an ongoing UniSA project to replace contact-based electrical sensors with non-contact video cameras, 
+avoiding skin tearing and potential infections that adhesive pads can cause to babies' fragile skin.
+
+== ISSUES
+In the NICU setting it is very challenging to record clear videos of premature babies. There are many obstructions, 
+and the lighting can also vary, so getting accurate results can be difficult
+
+== SCORE
+6
+
+
+== COMMENTS
+This is an interesting technique as it is contactless but the accuracy is questionable . 
+

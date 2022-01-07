@@ -1,0 +1,37 @@
+== SOURCE
+
+https://finance.yahoo.com/news/nft-art-world-where-machine-115042848.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmllLw&guce_referrer_sig=AQAAADIsPu_o2-gYOMSaS7BHhDYRnrxyV27SPV5Ifgr3fHChyEB67uaSH2jFH2DPEjOFgxXfO1Blbf4iqQeMCVynrAsIe1iRWb4NVtek_hAMrSKFU-P17Os4GkK4vkDN3fAIOZuxRx041VcQV_EOvhiNxwGoe3PDVIRVZW6pgoKFzyKx
+
+== AGENT
+
+Fetch.ai
+
+== GOAL
+
+For AI to create digital art
+
+== DATA
+
+The algorithm learned in the form of user submitted random patterns.
+These patterns were submitted by users who took part in the event and created random images
+
+== METHODS
+
+The algorithm was an unsupervised system that took the data to create the NFTs
+
+== RESULTS
+
+The data was used to create unique images that were made by the AI algorithm 
+
+== ISSUES
+
+One issue I see with this is there being an unnecessary increase in how much people will sell the NFTs for
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found it interesting that the AI was able to create unique images everytime from the supplyed images of
+random sketches. This method of having AI create art is new and is still being worked on by Fetch.ai

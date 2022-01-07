@@ -1,0 +1,65 @@
+== SOURCE
+
+https://mindy-support.com/news-post/how-machine-learning-in-automotive-makes-self-driving-cars-a-reality/
+
+== AGENT
+
+Mindy Support
+
+== GOAL
+
+Automotive Artificial Intelligence is rapidly displacing human drivers by enabling self-driving cars that use sensors to gather data about their surroundings.
+
+== DATA
+
+Data mostly come from GPS system and other navigation application like Google map.
+
+== METHODS
+
+To empower self-driving cars to make decisions, machine learning algorithms are trained based on real-life datasets.
+
+Supervised vs unsupervised learning
+
+Machine learning has two learning models: supervised and unsupervised. With unsupervised learning, a machine learning algorithm receives unlabeled data and no instructions on how to process it, so it has to figure out what to do on its own.
+
+With the supervised model, an algorithm is fed instructions on how to interpret the input data. This is the preferred approach to learning for self-driving cars. It allows the algorithm to evaluate training data based on a fully labelled dataset, making supervised learning more useful where classification is concerned.
+
+Machine learning algorithms used by self-driving carsSIFT (scale-invariant feature transform) for feature extraction
+
+SIFT algorithms detect objects and interpret images. For example, for a triangular sign, the three points of the sign are entered as features. A car can then easily identify the sign using those points.
+
+AdaBoost for data classification
+
+This algorithm collects data and classifies it to boost the learning process and performance of vehicles. It groups different low-performing classifiers to get a single high-performing classifier for better decision-making.
+
+TextonBoost for object recognition
+
+The TextonBoost algorithm does a similar job to AdaBoost, only it receives data from shape, context, and appearance to increase learning with textons (micro-structures in images). It aggregates visual data with common features.
+
+Histogram of oriented gradients (HOG)
+
+HOG facilitates the analysis of an object¡¯s location, called a cell, to find out how the object changes or moves.
+
+YOLO (You Only Look Once)
+
+This algorithm detects and groups objects like humans, trees, and vehicles. It assigns specific features to each class of object that it groups to help the car easily identify them. YOLO is best for identifying and grouping objects.
+
+
+
+== RESULTS
+
+Machine learning algorithms make it possible for self-driving cars to exist. They allow a car to collect data on its surroundings from cameras and other sensors, interpret it, and decide what actions to take. Machine learning even allows cars to learn how to perform these tasks as good as (or even better than) humans.
+
+This leads to the reasonable conclusion that machine learning algorithms and autonomous vehicles are the future of transportation.
+
+== ISSUES
+
+Make a self-driving car see the situation of roads.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+At Mindy Support, I agree. Over the years, they will find out automotive AI solutions.

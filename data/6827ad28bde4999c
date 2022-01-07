@@ -1,0 +1,30 @@
+==== SOURCE
+
+https://towardsdatascience.com/yolov2-to-detect-your-own-objects-soccer-ball-using-darkflow-a4f98d5ce5bf
+
+==== AGENT
+
+Park Chansung
+
+==== GOAL
+
+Detect the ball from images of football matches.
+
+==== DATA
+
+The data was gathered from the Internet using image search. They were snapshots of televised football matches.
+
+==== METHODS
+
+They found a pre-trained model on coco or voc dataset, they changed configurations to fit their situation then built and trained the model.
+
+==== RESULTS
+
+How did it go for them?
+It worked OK as long as the ball was large enough on the screen.
+
+==== COMMENTS
+
+Ball detection is quite a hard task to accomplish. With this particular task the data was not really in the right format as there are many different angles in the recording of football matches. Also players can obstruct the ball.
+
+

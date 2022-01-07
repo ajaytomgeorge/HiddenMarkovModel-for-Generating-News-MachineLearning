@@ -1,0 +1,51 @@
+SOURCE: https://gallery.azure.ai/Experiment/Regression-Demand-estimation-4
+
+AGENT: AzureML Team for Microsoft 
+
+GOAL:
+		This experiment demonstrates demand estimation using regression with UCI bike rental data.
+
+DATA:
+		Bike Rental UCI dataset is used.
+		This dataset is based on real data from the Capital Bikeshare company, 
+		which operates a bike rental network in Washington DC in the United States.
+		
+		The dataset contains 17,379 rows and 17 columns, 
+		each row representing the number of bike rentals within a specific hour of a day in the years 2011 or 2012. 
+		Weather conditions (such as temperature, humidity, and wind speed) were included in this raw feature set, 
+		and the dates were categorized as holiday vs. weekday etc.
+		
+		The input data was split in such a way that the training data contained records for the year 2011 and and the testing data contained records for 2012.
+		
+METHODS:
+		The four training datasets that they constructed were all based on the same raw input data, 
+		  eg: set A = weather + holiday + weekday + weekend features for the predicted day
+		Each of these feature sets captures different aspects of the problem, 
+		  eg: feature set B captures very recent demand for the bikes.
+		The four training datasets were built by combining the feature set 
+		  eg: training set 1: feature set A only
+		  
+		
+		Overall, the experiment had five major steps:
+
+			Step 1: Get data
+			Step 2: Data pre-processing: include data cleaning, data integration, data transformation, data reduction, and data discretization and quantization.
+			Step 3: Feature engineering:  
+						Find the right data, integrate all relevant features, and reduce the data size if necessary.
+						identify the features that characterize the patterns in the data and if they don't exist, construct them.
+			Step 4: Train the model: Boosted Decision Tree Regression module was used to analysis data.
+			Step 5: Test, evaluate, and compare the model:  Score Model and Evaluate Model modules are used to evaluate the data.
+			
+				Score Model: 
+				    scores a trained classification or regression model against a test dataset. 
+					that is, the module generates predictions using the trained model.
+				Evaluate Model: 
+					takes the scored dataset and uses it to generate some evaluation metrics. You can then visualize the evaluation metrics.
+		
+
+
+RESULTS:
+		From this experiment, they are able to build regression model based on the given data, and find the best result of combination of features.
+
+COMMENTS:
+		good.

@@ -1,0 +1,36 @@
+End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography
+
+SOURCE
+
+https://www.the-scientist.com/news-opinion/ai-accurately-detects-lung-cancer-in-scans-65914  
+
+AGENT
+
+Diego Ardila, Atilla P. Kiraly, Sujeeth Bharadwaj, Bokyung Choi, Joshua J. Reicher, Lily Peng, Daniel Tse, Mozziyar Etemadi, Wenxing Ye, Greg Corrado, David P. Naidich, Shravya Shetty
+
+GOAL
+
+A deep learning algorithm that uses a patient’s current and prior computed tomography volumes to predict the risk of lung cancer
+
+DATA
+
+Data obtained from
+1 Google AI, Mountain View, CA, USA. 
+2 Stanford Health Care and Palo Alto Veterans Affairs, Palo Alto, CA, USA. 
+3 Northwestern Medicine, Chicago, IL, USA. 
+4 New York University-Langone Medical Center, Center for Biological Imaging, New York City, NY, USA.
+
+METHODS
+
+For each patient, this model uses a primary LDCT(low-dose computed tomography)  volume and, if available, a prior LDCT volume as input. 
+The model then analyzes suspicious and volumetric ROIs as well as the whole-LDCT volume and outputs an overall malignancy prediction for the case, a risk bucket score (LUMAS) and localization for predicted cancerous nodules
+
+RESULTS
+
+In conclusion, these results represent a step toward automated image evaluation via lung cancer risk malignancy estimation through deep learning. 
+
+
+COMMENTS
+
+This approach to lung cancer screening highlights small nodules, leaving malignancy risk evaluation and clinical decision making to the clinician. So less risk and more authenticity and reliablility of the resuts. 
+This research could supplement future approaches to lung cancer screening as well as support assisted- or second-read workflows.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.technologyreview.com/2021/04/08/1022176/boston-dynamics-cassie-robot-walk-reinforcement-learning-ai/
+
+== AGENT
+
+University of California, Berkeley
+
+== GOAL
+
+Teach a humanoid robot named Cassie to walk by itself
+
+== DATA
+
+Two levels of virtual environment. In the first, a simulated version of Cassie learned to walk by drawing on a large existing database of robot movements. This simulation was then transferred to a second virtual environment that mirrors real-world physics with a high degree of accuracy — but at a cost in running speed. Only once Cassie seemed to walk well there was the learned walking model loaded into the actual robot.
+
+== METHODS
+
+RL
+
+== RESULTS
+
+Cassie was able to walk using the model learned in simulation without any extra fine-tuning. It could walk across rough and slippery terrain, carry unexpected loads, and recover from being pushed. During testing, Cassie also damaged two motors in its right leg but was able to adjust its movements to compensate.
+
+== ISSUES
+
+Transferring the ability to walk from inside simulations to the real world was hard, but the team took it into account and overcame it reasonably successfully as one of the major challenges they faced. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I actually came across this story while researching for the robot dog (Spot) that Boston Dynamics has already managed to commercialize. It was surprising to learn that not much machine learning was involved in the creation of Spot, as most of it was very carefully hand-designed classic control laws. I was not until I read about Cassie that it became clear that training a robot to walk with machine learning is even more difficult than one would imagine. 

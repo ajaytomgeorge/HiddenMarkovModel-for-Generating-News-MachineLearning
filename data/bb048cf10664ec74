@@ -1,0 +1,34 @@
+
+== SOURCE
+http://www.ijmlc.org/
+
+== AGENT
+Public Access
+
+== GOAL
+An Online Integrated Fingerprint Image System, a 3-tier integrated online fingerprint system was developed to manage and process fingerprint images in real-time. This system allows users all over the world to access the public NIST-14 fingerprint dataset and collaborate with other researchers to conduct the research task
+
+
+== DATA
+To study the mechanisms for developing an online system with advanced web based tools at the front-end that can perform functions to visualize the images, transform (translation, rotation, and zoom), adjust colors, apply filters on images, apply pattern recognition, analyze and interact with the images, in real-time. This system must also be able to extract features and differentiate normal and abnormal areas of the image, while at the same time allowing users to retrieve, view, highlight, and mark the images
+developing a framework to utilize the latest artificial intelligence technology on identifying features and partial fingerprint classification
+
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The system can significantly help researchers to visualize the fingerprints and understand the different fingerprint image problems might face for further research. Not only many images have bad quality, but also the fingerprint have cut, blank lines, and white spots, etc. In addition, it allows researchers in different institutes to work on the same fingerprint.
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+
+== SCORE
+7
+
+== COMMENTS
+It was an interesting model and its an new way of representing an existing data
+ 

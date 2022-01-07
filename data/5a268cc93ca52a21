@@ -1,0 +1,43 @@
+==== SOURCE
+
+International Journal of Applied Information Systems - 
+https://pdfs.semanticscholar.org/188f/3bde688d5a47ce86bc0a8eca03aeb1bb9dfc.pdf
+
+==== AGENT
+
+Srishti Rawal VIT University Chennai, India
+Bhuvan Rawal BITS Pilani, Goa, India
+Aakhila Shaheen BITS Pilani Hyderabad, India
+Shubham Malik VIT University Chennai, India
+
+==== GOAL
+
+The paper looks to identify phishing strategies used by fraudsters and use 
+machine learning techniques to automatically classify emails as phished or ham.
+
+==== DATA
+
+The dataset was self made where 9 features were extracted from both the
+ham and phished emails. One feature include whether there was presence
+of javascript in an email, if the <script> tag was present these were 
+considered to be a phished email, the same was considered for the <form> tag.
+Another was the presence of 'action' words such as PayPal or bank, here the 
+sender pretends to be apart of an organization, these were binary features.
+
+==== METHODS
+
+The features described in the data section above are fed into SVM, Naive Bayes, 
+Random Forest, Logistic Regression and Voted Perception classification models.
+They used 10-fold cross validation which splits up the data 10 times randomly 
+into training and test sets and averages are taken for the correctly predicted.
+
+==== RESULTS
+
+The accuracy results the SVM, Random Forest, Logistic and Naive Bayes were all
+greater than 99%.
+
+==== COMMENTS
+
+This dataset may not represent a real life scenario as fraudsters are constantly
+increasing their phishing strategies. Adding a variety of emails for both ham 
+and phished the system would be closer to a real life scenario.

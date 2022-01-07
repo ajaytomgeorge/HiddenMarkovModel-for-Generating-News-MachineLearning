@@ -1,0 +1,37 @@
+
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/ai-assisted-cough-tracking-could-help-detect-the-next-pandemic--68233
+
+== AGENT
+Not yet went live. Scientist - John Brew - Florida department of health. (Now CEO of Hyfe) 
+
+== GOAL
+
+An application that uses artificial intelligence to detect and track users’ coughs, a hallmark of many respiratory conditions including COVID-19. 
+
+== DATA
+
+Data collected by installing an app in smart phone.
+
+== METHODS
+
+Supervised learning model.
+
+== RESULTS
+With the help of AI-assisted cough tracking,team envisions a world in which users who have been coughing at a higher rate than normal for, say, 
+two weeks would receive a text notifying them of their symptoms with directions to a public clinic that can test them for tuberculosis.
+
+== ISSUES
+Cough could be due to many reasons need not be a pandemic always.The app also raises question about privacy of recording audio eventhough the 
+scientists claim only audio of cough will be recorded.
+
+== SCORE
+6
+
+
+== COMMENTS
+The application sounds interesting especially in this era where people tend to ignore minor symptoms and only approach hospitals when it gets worse.
+. But it could have been better if multiple human actions could be tracked on a single application.
+
+

@@ -1,0 +1,21 @@
+==== SOURCE
+https://www.the-scientist.com/critic-at-large/opinion--ai-beats-animal-testing-at-finding-toxic-chemicals-65795
+
+=== AGENT
+Center for Alternatives to Animal Testing (CAAT) at Johns Hopkins University
+
+==== DATA
+A database of over 800,000 toxilogical studies on more than 10,000 chemicals registered under
+the European REACH legislation for industrial chemicals
+
+==== GOAL
+To gain the research of animal testing by using machine learning without actually testing on animals
+
+==== METHOD
+The software takes the chemicals and uses the research based on them to predict what the results of the research
+will be for chemicals that are testsed using a machine learning system.
+
+==== RESULTS
+Some chemicals were already drastically tested and were causing animal fatality, using the data meant that the same
+results could be achieved without actually putting the chemical top test. It was found that 69 substances were tested
+more than 45 times in the same eye test, the use of AI reduced this to 0.

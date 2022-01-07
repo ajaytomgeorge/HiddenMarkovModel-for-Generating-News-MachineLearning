@@ -1,0 +1,40 @@
+== SOURCE
+
+https://scienmag.com/nus-researchers-harness-ai-to-identify-cancer-cells-by-their-acidity/
+
+== AGENT
+
+Researchers at the National University of Singapore.
+
+== GOAL
+
+Use machine learning to correctly test for cancerous cells.
+
+== DATA
+
+The images used for the research were taken by the researchers. Using cell samples, they stained and imaged the samples to build up their own dataset.
+
+The data was split using a 10-fold-cross-validation for model testing.
+
+== METHODS
+
+A pH-sensitive dye is applied to the single cells, which are then put through "Otsu's binaraization", an unsupervised binarization based on the ratio of RGB colours, using K-means clustering.
+A 
+
+== RESULTS
+
+These cancer tests can be completed in under 35 minutes, with single cells able to be classified with an accuracy over 95%.
+
+== ISSUES
+
+The researchers have their data available upon request but do not have any public code so recreating the study would be difficult.
+
+== SCORE
+
+10
+
+== COMMENTS
+
+Personally I think the press could have included more information on the machine learning aspect of this research. They descri`bed the process of testing the cells, and skipped over the machine learning element. 
+They mention 'the AI' they use but treat it like a black box with no details on the method, training, testing, or data sets.
+The novel attempt to solve a massive issue in the health industry is very promising.

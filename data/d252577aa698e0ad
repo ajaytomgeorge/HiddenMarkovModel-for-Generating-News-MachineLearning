@@ -1,0 +1,38 @@
+== SOURCE
+
+https://healthitanalytics.com/news/covid-19-severity-determined-by-machine-learning-predictive-analytics
+
+== AGENT
+
+National COVID Cohort Collaboration (N3C)
+
+
+== GOAL
+
+Using machine learning to predict the severity and provide better care for patients suffering from COVID 19.
+
+== DATA
+
+Patients were stratified using the World Health Organizations COVID-19 severity scale and demographic data and characteristics. Differences between the groups were tracked and evaluated using multivariable logistic regressions.
+
+== METHODS
+
+Using 64 inputs available on the first hospital day, this study predicted a severe clinical course using random forest and XGBoost models (area under the receiver operating curve = 0.87 for both) that were stable over time. The factor most strongly associated with clinical severity was pH; this result was consistent across machine learning methods
+This is a good example of dupervised learning to assess the data and compare it to other data consistent across machine learning methods.
+
+== RESULTS
+
+The machine learning models were able to accurately predict the clinical severity using the commonly collected clinical data from the first 24 hours of a patients hospitalization.
+
+== ISSUES
+
+I do not see many issues with this work however they do not specify in the reporting of the results any testing that occured outside of the first 24 hours in after hospitalization.
+== SCORE
+
+8
+
+== COMMENTS
+
+I found this article interesting as it is something very important in todays society due to the covid pandemic, If I was to change any of the work done in this report however I would also include any data that was collected after 24 hours of hospitalization and how the severity of the symptoms related to time.
+I think that the reporting of this was fair however it did not provide and numerical results into how effective this machine learning algorithm became.
+This is interesting new data as due to the severity of Covid 19 it is very difficult to predict how the symptoms will affect patients.

@@ -1,0 +1,128 @@
+==== SOURCE
+
+https://www.the-scientist.com/news-opinion/ai-decodes-speech-and-hearing-based-on-brain-activity-66213
+
+==== AGENT
+
+University of California, San Francisco (UCSF) Funded by Facebook
+
+==== GOAL
+
+The goal of the project was to use a machine learning algorithm to determine 
+what question a subject had been asked based on brain activity monitored by electrodes in 
+the subjects brain
+
+==== DATA
+
+They used electrodes which were temporarily implanted in subjects brains while they were
+awaiting surgery for epilepsy. These electrodes provided data of the subjects brain activity
+as they were asked to answer a set of preset questions.
+
+==== METHODS
+
+The brain activity was fed into a nueral network which would try to denote which question had been asked.
+This was done using a supervised training algorithm/
+
+==== RESULTS
+
+The AI managed to predict the correct question with 76% accuracy
+
+==== COMMENTS
+
+If it wasn't funded by Facebook I'd probably look the other way but can we talk about how
+Facebook is funding mind reading research? That's fucking terrifying
+
+==== SOURCE
+
+https://www.the-scientist.com/notebook/deep-learning-algorithms-identify-structures-in-living-cells-65778
+
+==== AGENT
+
+Allen Institute for Cell Science in Seattle
+
+==== GOAL
+
+They wanted to develop a method to identify a living cell’s components in images taken using brightfield microscopy
+
+==== DATA
+
+A large collection of images of cells taken with both brightfeil microscopy and florecent microscopy
+
+==== METHODS
+
+They fed these pictures through a deep learning algorithm.
+
+==== RESULTS
+
+The Nueral Network was able to build a 3d model the cells given from a collection of brightfield images of the cell.
+
+==== COMMENTS
+
+This could be very useful for microbiology. It could avoid damaging cells while trying to examine them.
+
+==== SOURCE
+
+https://www.the-scientist.com/image-of-the-day/image-of-the-day--butterflynet-66280
+
+==== AGENT
+
+Jennifer Hoyal Cuthill's group with joint positions at 
+the University of Cambridge, University of Essex, and Tokyo Institute of Technology
+
+==== GOAL
+
+The scientists set out to test a model known as Müllerian mimicry, 
+which proposes that species sometimes mimic each other to glean mutual benefits; 
+for instance, a predator might mistake an edible butterfly for a toxic one if the insects look similar, 
+which softens the effect of predation on both species.
+
+==== DATA
+
+They trained the system on 2,400 photographs of Heliconius butterflies
+
+==== METHODS
+
+They used a predictive AI to isolate how butterflies in coevolution share features by feeding it pictures of butterflies 
+and finding related features.
+
+==== RESULTS
+
+They managed to show how butterflies both evolve thier own features as well as copying features from other species 
+and forming their own features from them.
+
+==== COMMENTS
+
+This is a pretty cool example of how machine learning can be used in the world of biology.
+
+==== SOURCE
+
+https://www.the-scientist.com/critic-at-large/opinion--ai-beats-animal-testing-at-finding-toxic-chemicals-65795
+
+==== AGENT
+
+The Center for Alternatives to Animal Testing (CAAT) at Johns Hopkins University
+
+==== GOAL
+
+The goal of the project was to use a nueral network to detect the toxicity of a chemical based on its structure
+
+==== DATA
+
+The data used was at first over 800,000 toxicological studies on over 10,000 chemical structures. It was
+later expanded to have over 10,000,000 chemical structures.
+
+==== METHODS
+
+Using big data, they fed all of the information through a transfer learning method of machine learning. This is a method
+where the algorithm applies information from one task or item set to another.
+
+==== RESULTS
+
+The results of the experiment had the machine learning algorithm predicting the toxicity of the chemical give
+correctly 87% of the time, this is far better than the 70% achieved with animal testing. It cannot however 
+detect whether a chemical may cause cancer or may affect an embryo as the biological precesses involved are too complex.
+
+==== COMMENTS
+
+This is pretty great as an example of ways the power of machine learning can be used to improve the state of the world,
+this is great but, and i stress, FACEBOOK MIND READING IS A BAD THING.

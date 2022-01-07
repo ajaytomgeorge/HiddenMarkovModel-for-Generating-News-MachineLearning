@@ -1,0 +1,32 @@
+==== SOURCE
+
+Computer Music Journal, Vol. 34, No. 3 (Fall 2010), pp. 56-66
+
+==== AGENT
+
+Jon Gillick, Kevin Tang, Robert M. Keller
+
+==== GOAL
+
+To create a machine-learning algorithm that will create unique jazz solo pieces
+
+==== DATA
+
+Chords and notes in a positive sample data set of music the algorithm was to replicate.
+
+==== METHODS
+
+Snipets of solos were extracted and then using Markov chaining were used to string snippets
+together.
+To increase the variety in recombination of melodic ideas, they clustered similar abstract 
+melodies together using the k-means clustering algorithm 
+
+==== RESULTS
+
+Jazz solo pieces were made of varying styles by taking different data sets from different artists
+
+==== COMMENTS
+
+Its interesting to see how music as varied as jazz can be replicated so easily by machine-learning algorithms
+I'd be interested in hearing a jazz night and having some sort of Turing Test to see if people can decide if a
+performance is played by a real human or machine-based

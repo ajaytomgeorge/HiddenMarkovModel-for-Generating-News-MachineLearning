@@ -1,0 +1,32 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Writing in nature
+
+== GOAL
+
+Optimise the testing of incoming travellers for COVID-19.
+
+== DATA
+
+Past data from past tests of incoming passengers.
+
+== METHODS
+
+Reinforced learnings
+
+== RESULTS
+
+The automated system doubled the efficiency of testing- the number of cases detected per test - allowing border agents to test and quarantine the right passengers, many of whom were asymptomatic, while letting others through to their final destination.
+
+== ISSUES
+
+The ML algorithm must learn discontinuously, from large batches of testing results, rather than one-by-one from individual results. And the feedback from batch results is delayed, forcing the algorithm to operate uninformed while waiting for results. Solving these challenges required substantial tweaking of the algorithms that are typically designed for easier, more data-rich online settings. 
+== SCORE
+8
+== COMMENTS
+
+Its an interesting story however this can also cause discrimination to certain people as well as causing people to be bogged down with a test when they don’t need one. Its very interesting however how big algorithms in machine learning can help countries to sort and save money they don’t need to waste.

@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+https://arxiv.org/pdf/1909.11974v1.pdf
+
+==== AGENT
+
+Beihang University / Microsoft China
+
+==== GOAL
+
+To create a bot that will read and comment on online news articles, in order to encourage user engagement.
+
+==== DATA
+
+Two datasets were used - one Chinese and one English. They were created by crawling news articles and comments from Yahoo! News.
+In particular the title and different key points were of interest.
+
+==== METHODS
+
+The system is made of two neural networks: a reading network that 'comprehends' articles and picks important points,
+and a generation network that writes comments based on the points and the title of the article.
+Both models are Recurrent Neural Networks (RNN) ie. outputs are also used in training.
+
+
+==== RESULTS
+
+Experimental results on two public data sets indicate that the proposed model can significantly outperform baseline methods,
+in terms of both automatic evaluation and human evaluation
+
+==== COMMENTS
+
+Most people consider bot accounts and fake content to be problematic, though admittedly this is a creative use of ML

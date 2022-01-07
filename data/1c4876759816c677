@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.forbes.com/sites/forbestechcouncil/2021/10/01/what-machine-learning-can-bring-to-cybersecurity/?sh=2b956a041203
+
+== AGENT
+
+Gurucul.
+
+== GOAL
+
+Recognise potential cybersecurity threats.
+
+== DATA
+
+Customer data, such as sales experiences. The data was obtained from IT operations.
+
+== METHODS
+
+Supervised algorithms were used.
+
+== RESULTS
+
+False positive risks are less likely.
+
+== ISSUES
+
+I can’t see any potential issues with this work.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+I think the concept is interesting as cybersecurity is very important in this age, but the article itself didn’t say much about the specific machine learning algorithm, it spoke more generally.

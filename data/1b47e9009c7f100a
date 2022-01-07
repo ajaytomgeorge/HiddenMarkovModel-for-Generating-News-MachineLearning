@@ -1,0 +1,36 @@
+==== SOURCE
+
+https://interestingengineering.com/researchers-map-out-22-billion-acres-of-land-where-new-trees-can-be-planted
+
+==== AGENT
+
+Crowther lab team: Jean-Francois Bastin, Devin Routh,  Constantin M. Zohner, Thomas W. Crowther
+Also credited: Yelena Finegold, Claude Garcia, Danilo Mollicone, Marcelo Rezende
+
+==== GOAL
+
+To identify areas of land suitable for re-forestation given a data set of environmental conditions on a global scale.
+
+==== DATA
+
+The World Database on Protected Areas (UNESCO, 2011)
+
+
+==== METHODS
+
+In their report, they claim methods are available upon request. I'm not sure if they'll get back to me in time for this submission...
+They do mention in the report: "... a random forest machine-learning approach  to examine the dominant environmental drivers of tree cover and generated a predictive model that enables us to interpolate potential tree cover across terrestrial ecosystems. "
+The report also strips away areas used for urban and agricultural use aswell as already existing forest cover in their Final presented results.
+
+==== RESULTS
+
+The Website article links to the report by the Crowther team and others, which features graphs of 'predicted vs.observed tree cover'
+and two world maps of 'Global potential tree cover sans existing tree cover and agricultural and urban areas(citing two separate sources for africultural and urban areas, they produced a map for each corresponding source)'
+
+As for juicy statistics: "In total, 4.4 billion ha of canopy cover can be supported on land under existing climate conditions". This figure is then broken down by country, and then goes into the Statistics of how much countries have committed to restoring.
+
+==== COMMENTS
+
+Machine learning is only mentioned in passing in the article leading me to believe its being used as more a buzzwword than actually lending creedence to the work done by the people at the Crowther Lab, looking into the report the article references Machine learning was primarily used in identifying viable areas for forestation based on environmental conditions taken from the UNESCO world database. 
+
+The report also cites an article about "Global gridded soil information based on machine learning. (doi:10.1371/journal.pone.0169748pmid:28207752)" as supplementary material, which is neat.

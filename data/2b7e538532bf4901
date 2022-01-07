@@ -1,0 +1,58 @@
+==== SOURCE
+
+https://techxplore.com/news/2017-04-google-brain-posse-neural-network.html
+https://ai.googleblog.com/2019/05/introducing-translatotron-end-to-end.html
+
+==== AGENT
+
+Google Translatotron
+
+==== GOAL
+
+To create an AI to translate speech from one language (eg. Spanish) into another
+language (eg. English), without the intermediate steps of speech to text and
+text to speech. Removing text from the equation  should eliminate many
+translation errors which are specific to text, as well as allowing other
+information to be conveyed in the translation such as cadence and tone, giving a
+more natural and complete translation.
+
+This method of translation is knows as "End-to-end Speech Translation" as
+distinct to "Cascade" which is what is currently used in Google translate.
+
+==== DATA
+
+The input data appears to be manual, as they need two humans to provide the
+speech samples in both languages. It says in the article that "The team trained
+its system on hundreds of hours of Spanish audio with corresponding English
+text".
+
+https://google-research.github.io/lingvo-lab/translatotron/
+
+==== METHODS
+
+An "encoder-decoder deep neural network" is used. This consists of an "ST
+encoder", which has a pre-trained ASR encoder containing 5 bi-directional LSTMs
+and 3 trainable LSTMs, an ST decoder with a pre-trained MT decoder containing 8
+trainable LSTMs.
+
+==== RESULTS
+
+They got some pretty amazing results, especially the translations that speak in
+the originator's voice. While they do sound artificial, they are comprehensible,
+and sound better than the usual, monotonic Google translator voice.
+
+==== COMMENTS
+
+This is an ambitious project. I can't imagine Google, even with their vast
+resources, having a library of recordings of phrases uttered in many languages.
+Creating such a data set would take a long time and probably cost a lot of
+money.
+
+It seems like for this project to be a success it needs many examples. Currently
+the translations it gives are less accurate than the translations from the
+cascade systems used in Google Translate, so they're not going to switch to it
+until it's at least as good, but may be they could invent some kind of hybrid
+system which gives the best of both worlds.
+
+I like this project in general, especially the original voice translations. This
+could finally give us the "Universal Translator" from Star Trek!

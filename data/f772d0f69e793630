@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.realclearscience.com/articles/2021/09/30/machine_learning_identifies_the_most_important_predictors_of_infidelity_796700.html
+
+== AGENT
+
+The Journal of Sex Research
+
+== GOAL
+
+to identify the most salient individual and relational predictors of dyadic and solitary sexual desire from a large number of predictor variables.
+
+== DATA
+
+cross-sectional study conducted in 2014 by online survey consisting of 891 participants.
+
+== METHODS
+
+random forest (a type of highly non-linear decision tree), Shapley value technique.
+
+== RESULTS
+
+The models predicted around 40% of variance in dyadic and solitary desire with women's desire being more predictable than men's overall. 
+
+== ISSUES
+
+Online participants may be unreliable as their main incentive to admit to infidelity is a chance to win $40 Amazon gift card.
+
+== SCORE
+
+3
+
+== COMMENTS
+
+Not quite as interesting as it seems, results could be just as easily guessed.

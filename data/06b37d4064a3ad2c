@@ -1,0 +1,95 @@
+==== SOURCE
+https://www.forbes.com/sites/forbescommunicationscouncil/2019/10/10/rise-of-machine-learning-lessons-from-google-and-facebook/%2342f0cf6b3e3f
+
+==== AGENT
+Google and Facebook
+
+==== GOAL
+Googles and Facebooks aim is to automate the processes behind charging advertisers for prime locations on sites and managing campaigns/general advertising on both platforms. Both companies went with a different implementation. More specifically Googles aim is to make the setting up a of marketing campaigns redundant, just left Google handle getting your product out to the right consumers and Facebooks aim to improve marketing campaigns to the point that human input is no longer required, that’s the basics.
+Data
+Both Google and Facebook have collected their Users data from the moment they start to use the platform. With over 1 billion searches and over 1 million gigabytes of consumer information daily respectively both companies have access to a wide range of data.
+
+==== METHODS
+Google works with companies like Kenshoo, Marin and Acquisio. These companies have created “bidding algorithms” which dynamically change the price advertisers are willing to pay for different keywords. 
+Dynamic search ads (DSA) is Googles method to reduce the need to set up advertising campaigns. The idea is that Google would scrape each advertisers sight and build ads from them. 
+Another method Google is using is responsive search ads (RSA). The goal of RSA is to test as many variables as possible within ads and to use ML to understand and extra effective combinations.
+The Power 5 is Facebooks move into ML for advertising. The idea is that ML will place adverting in the most effective manor possible. The five core components are: auto advanced matching, account simplification, campaign budget optimization, automatic placements, dynamic ads.
+
+==== RESULTS
+Due to the number of variables that are adjustable with Googles approach there is a real risk that the delay in processing information could lose advertisers value during peak times such as Black Friday when search results spike by serval hundred percent. The response time for ML compared to competing human looking at the trend could cost you.
+Facebooks approach is slightly more stable in that they prioritise those using recommended “best practices” which allows their ML to process and improve campaigns in the future.
+
+==== COMMENTS
+Using ML to optimize advertising seems mundane on the surface but given that there are little to no controls over how this marketing can be implemented there is a danger that companies that control these systems then decided what products you can see, even going as far as to hide alternative products (mostly by making it extremely inconvenient to find them).
+
+==== SOURCE
+https://www.the-scientist.com/notebook/artificially-intelligent-tools-capture-animal-movement-65759
+
+==== AGENT
+Talmo Pereira – PhD student and colleagues at Princeton University
+
+==== GOAL
+Studying how the courtship song and dance of fruit flies is represented in their brains.
+
+==== DATA
+A neural network goes through training video footage where fly body parts locations are labelled.
+
+==== METHODS
+Video footage was labelled frame by frame and then used to train a neural network to recognise these parts and their locations. The footage is then reviewed by researchers. They also applied the same NN to the movement of a mouse in 2019.
+
+==== RESULTS 
+The NN LEAP can now track and label 32 points on a fly’s body with 95% accuracy with the uses of about 100 frames of footage. It has cut work that once took months down to weeks, if even.
+
+==== COMMENTS
+The applications for machine learning in image recognition are practically limitless. Whether these innovations are used to help us better understand the world around us through scientific research or help Boston Dynamics Atlas gains the ability to recognise any individual from 200 meters away its really going to be an interesting time.
+
+==== SOURCE
+https://www.the-scientist.com/notebook/deep-learning-algorithms-identify-structures-in-living-cells-65778
+
+==== AGENT
+Greg Johnson – Allen Institute for Cell Science
+
+==== GOAL
+To develop a tool to help visualize change in the spatial organisation of cells as they move from one state to another.
+
+==== DATA
+Fluorescent microscopy and brightfield microscopy. Individually these provide a way see the structure of the cell. Fluorescent microscopy does damage the cell and break it down if repeated used and brightfield microscopy only shows shades of grey.
+
+==== METHODS
+A computer algorithm that combined the benefits of both fluorescent microscopy and brightfield microscopy. They trained convolutional neural networks to identify the similarities in fluorescent and brightfield microscopy images of several cellular components. 
+
+==== RESULTS
+Once this is done the two images are blended to create one cohesive 3D rendering of the cell. Different parts of the cell are highlighted in different colours so they can be identified easily. The technique does not work on all cellular structures because they do not appear in the images taken by some forms of microscopy. The team behind the research did comment on the accuracy of the render despite its limitations.
+
+==== COMMENTS
+While limited, this is just the beginning of neural networks being implemented in biology. With further research, time and investment it could be possible to create a 3D rendering of the human body in real time.
+
+==== SOURCE
+https://www.technologyreview.com/s/541276/deep-learning-machine-teaches-itself-chess-in-72-hours-plays-at-international-master/
+
+==== AGENT
+Matthew Lai at Imperial College London
+
+==== GOAL
+To simplify the computation of machines playing chess and to fundamentally change the process by which that computation is done (changing from brute force)
+
+==== DATA
+Different states of a chess board. Fine-tuned with the best selection of moves available in each situation.
+
+==== METHODS
+The network consists of four layers that examine each position on the board in three different ways.
+1. Examine the Global state of the game. 
+	a. Number of pieces
+	b. Castling rights
+	c. Which side is to move
+	d. Etc
+2. Piece-centric features (location of each piece)
+3. Mapping of each pieces attack and defence grid
+
+The engine is then run on a data set called Strategic Test Suite which is used to test chess engines ideas of different concepts.
+
+==== RESULTS
+The results from the Strategic Test Suite are scored out of 15000. After just 72 hours Lai’ engine scored 9700, the same as the best brute force chess engine in the world. Lai says this probabilistic approach predicts the best move 46 percent of the time and places the best move in its top three ranking, 70 percent of the time. So the computer doesn’t have to bother with the other moves
+
+==== CCOMMENTS
+After reading the article I was really impressed with the capabilities of Lai’ chess engine. That was until I learned that this process is about 10 times slower than the traditional method of brute forcing every possibility. Even so, this represents a fundamental change in how chess engines can operate. Instead of searching through every single possibility they can now be trained to evaluate the board state much more like a human and then plan its mores accordingly.

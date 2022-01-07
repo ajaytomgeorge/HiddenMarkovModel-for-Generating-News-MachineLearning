@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://www.designnews.com/materials-assembly/researchers-use-ai-discover-new-polymers/67744341261255
+
+https://www.sciencedaily.com/releases/2019/07/190719102133.htm
+
+https://www.nature.com/articles/s41524-019-0203-2#Sec12
+
+http://quantum-machine.org/datasets/
+
+==== AGENT
+
+Researchers from the Data Science Center for Creative Design and Manufacturing at the Institute of Statistical Mathematics, Research Organization of Information and Systems, in Japan.
+
+==== GOAL
+
+Searching for shortcuts and ways to cut the time it takes for traditional new high-performance material discovery and thus discovering new polymer materials which are more conductive as polymers traditionally are not conductive.
+
+==== DATA
+
+Received data from the PoLyInfo database which is the largest database of polymers in the world. The data-set used was still small however due to the database having a limited amount of data on the heat-transfer properties of polymers.
+
+==== METHODS
+
+The researchers used a machine learning method called transfer learning to minimise the impact of having limited data on thermal conductivity. They created a forward prediction model that described various polymeric properties. The pretrained models they had were then fine tuned onto the target property. They then inverted the trained forward models which created a model conditioned by a desired property requirement. The ML method could then make materials that have the desired properties. 
+
+==== RESULTS
+
+They identified three thermal-conductive polymers which were selected for synthesis and processing. After Tests they found these new polymers have thermal-conductivity which is 80 percent higher than other polyimides.
+
+==== COMMENTS
+
+The outcome of this paper seems to have vast implications on the discovery of new useful materials. The Machine Learning method also only acted on a very small dataset and produced these results. With more data the potential for greater discoveries is huge.

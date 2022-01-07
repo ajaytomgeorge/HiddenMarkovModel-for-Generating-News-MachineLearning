@@ -1,0 +1,40 @@
+== SOURCE
+https://news.syr.edu/blog/2021/07/28/forensic-scientists-design-the-first-machine-learning-approach-to-forensic-dna-analysis/
+
+== AGENT
+
+Syracuse University
+
+== GOAL
+
+To design the first Machine learning approach to Forensic DNA Analysis.
+
+== DATA
+
+Their MLA enables rapid and automated deconvolution (separation) of DNA mixtures with increased accuracy compared to current methods, potentially. The software will require minimal computing and financial resources and provide increasingly informative, high confidence conclusions.
+
+== METHODS
+
+Their method combines the strengths of current computational and expert analysis approaches with those in data mining and artificial intelligence.
+
+== RESULTS
+
+The results of this algorithm are yet unclear as the university has not yet been giving subsequent funding in order to complete their algorithm for commercial use.
+Once this funding is recieved however, it is hoped that the algorithm would be used throughout the law enforcement and criminal justice communities.
+
+== ISSUES
+
+I believe that this article is reported quite well however it does not give a very insightful indication as to the technical difficulty of this algorithm and does not draw any complete results due to the algorithm being unreleased.
+
+== SCORE
+
+A single digit, 1-9, alone on a single line, which is your personal
+
+8
+
+== COMMENTS
+
+Although Unfinished I believe this article was very interesting as it is very new data and it could introduce AI to forensic DNA analysis.
+If i was to undertake this project I do not believe i would use any different methods as I believe their method of analising and seperating the DNA mixtures through supervised learning is very tested and known to be a good solution.
+This is a very inderesting and exciting way to change the forensic analysis field as to my knowledge there has not been a sufficient machine learning algorithm in this field.
+Although the algorithm is as of yet unfinished i believe that this method is very interesting and will likely follow its success once it is released for commercial use.

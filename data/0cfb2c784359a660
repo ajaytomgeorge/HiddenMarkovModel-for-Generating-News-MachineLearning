@@ -1,0 +1,27 @@
+
+==== SOURCE
+
+https://www.the-scientist.com/features/ai-uses-images-and-omics-to-decode-cancer-65732?_ga=2.13901055.991932670.1570996046-208445870.1570880630
+
+==== AGENT
+
+Mark Schiffman along with Global Good and some other collaborators
+
+==== GOAL
+
+They were trying to see if they could acrrautely identify features of cerival cancer.
+
+==== DATA
+
+they used cervix images collected over 7 years in costa rica from more than 9000 women.they also used 18 years worth of follow up information on precancer or cancer diagnose. 
+
+==== METHODS
+
+they used a convolutional neural network to analyze the images. they only used 70 percent of the dataset to train and tested with the other 30. this was probaly supervised learning
+
+==== RESULTS
+
+they were able to distinguish between healthy, precancer and cancer with a 91% accuracy whereas a human inspection was only at 69%.
+
+==== COMMENTS
+the advancements they made where great and cause more groups to started working on simliar stuff.

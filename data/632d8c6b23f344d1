@@ -1,0 +1,37 @@
+
+== SOURCE
+
+https://www.braintumourresearch.org/media/news/news-item/2020/10/29/artificial-intelligence-can-help-to-improve-prognosis-and-treatment-for-glioblastoma
+
+
+== AGENT
+
+Brain Tumour Research 
+
+== GOAL
+
+scan the brain of brain tumor patient to help improve prognosis and treatment
+
+== DATA
+
+The data are images that are acquired as part of routine care
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+It can process a scan in less than 10 second
+
+== ISSUES
+
+It is not totally completed yet, but the ultimate goal is to accurately predict patient’s outcome
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It would be a great tool to help people with brain tumor

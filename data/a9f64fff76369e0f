@@ -1,0 +1,27 @@
+====SOURCE 
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason 
+
+====AGENT 
+
+Microsoft 
+
+====GOAL 
+
+Build a program which would comment on articles and argue with real humans in the comment section. 
+
+====DATA 
+
+The data was achieved from other articles online and people’s responses to these articles in the comment section. 
+
+====METHOD 
+
+Two neural networks were used one was used to pick out key points in the article being read and the other to create comments from the key points picked out from the article. 
+
+====RESULTS 
+
+Microsoft created a bot to argue with people in the comment section of articles. 
+
+====COMMENTS 
+
+It is an unnecessary program, but it shows how we can use machine learning to mimic human behavior accurately. 

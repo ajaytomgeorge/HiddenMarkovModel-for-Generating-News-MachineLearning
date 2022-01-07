@@ -1,0 +1,29 @@
+SOURCE:https://gallery.azure.ai/Experiment/Sample-5-Train-Test-Evaluate-for-Binary-Classification-Adult-Dataset-6
+
+AGENT: 
+		 AzureML Team for Microsoft 
+
+GOAL:
+		To train a binary classifier on the Adult dataset, to predict whether an individual’s income is greater or less than $50,000.
+
+DATA:
+		Drag the Adult Census Income Binary Classification dataset. the data comtains person's income informations eg, person's age hours per week ect. 
+
+METHODS:
+		Add a Clean Missing Data module, and use the default settings, to replace missing values with zeros. Connect the dataset module output to the input port.
+		Add a Project Columns module, and connect the output of Clean Missing Data module to the input port.
+		Use the column selector to exclude these columns: workclass, occupation, and native-country. 
+		Add a Split module to create the testing and test sets. 
+		Add a Two-Class Boosted Decision Tree module to initialize a boosted decision tree classifier.
+		Add a Train Model module and connect the classifier (step 5) and the training set (left output port of the Split module) 
+		to the left and right input ports respectively. 
+		Add a Score Model module and connect the trained model and the test set (right port of the Split module).This module will make the predictions. 
+		Add an Evaluate Model module and connect the scored dataset to the left input port.
+
+
+RESULTS:
+		They find that the Two-Class Boosted Decision Tree is fairly accurate in predicting income for the Adult Census Income dataset.
+
+COMMENTS:
+Machine learning is very useful in predicting things, and it usually gives a fairly accuracy prediction.
+

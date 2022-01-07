@@ -1,0 +1,31 @@
+== SOURCE
+
+https://www.irishtimes.com/news/science/harnessing-machine-learning-to-help-patients-with-als-1.4673787
+
+== AGENT
+
+Anna Markella Antoniadi
+== GOAL
+
+Find the quality of life for people with ALS.
+
+== DATA
+
+Information that was able to be provided from consenting caregivers and patients, to explore what factors could be likely to affect their quality of life.
+
+== METHODS
+
+Reinforced learning, data pooling.
+
+== RESULTS
+
+The timing of when the disease symptoms started and whether they have issues with breathing when lying down – that could reduce their quality of life. Also for primary caregivers, how they view their role and purpose seemed to be linked to their quality of life.
+
+== ISSUES
+
+The data set can be distressing to source as some of the people with ALS can    be saddened by their condition also what causes people to have a poorer quality of life can be quite variable and hard to predict.
+== SCORE
+8
+== COMMENTS
+
+Its a very powerful story as it shows how the application of machine learning can make the world a better place. It caused me to see machine learning as a new way to make the world a better place for everyone.

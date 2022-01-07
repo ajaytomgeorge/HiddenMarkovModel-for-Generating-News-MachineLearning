@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://www.remi.ai/post/bringing-a-i-to-the-vine
+
+==== AGENT
+
+Remi.ai is a machine learning AI startup located in Sydney Australia.
+
+==== GOAL
+
+The goal was to use machine learning to help a customer to understand grape health, size and count. The customer
+owned a vineyard for the production of wine and the machine learning model was going to help accurately forecast
+harvest yields.
+
+==== DATA
+
+The data used was photos of bunches of grapes that were of various ages and also grapes that had certain types
+of diseases and damage to them.
+
+==== METHODS
+
+The system was a deep learning algorithm and datasets that was used to automatically monitor the grapes of the
+vineyard over the one thousand hectares. The system had the ability to identify the size of the grapes too an
+accuracy of 0.3 millimetres and the system was also able to estimate the numbers of grape in each bunch.
+
+==== RESULTS
+
+A pilot of the system was rolled out to the vineyards in the Hunter Valley wine region in New South Wales Australia.
+
+
+==== COMMENTS
+
+This system is a great example of how AI can be successfully applied to agri foods sector, where monotonous tasks can
+be handed over to machines and productivity and wast can be controlled more effectively.

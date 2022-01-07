@@ -1,0 +1,18 @@
+== SOURCE
+https://www.rte.ie/brainstorm/2020/0811/1158560-gpt3-artificial-intelligence-machine-learning/
+== AGENT
+Open AI
+== GOAL
+The goal of generative pre-training is to create a language model powered by a neural network that can answer questions, complete bodies of text, summarise large pieces of text, write stories, poetry and music all in a way that is indistinguishable from a human. 
+== DATA
+GPT-3 was trained with a massive data set. The majority of the data was from Common Crawl which uses bots to copy content from websites. The goal of Common Crawl is to have copy of the entire internet that is available to everyone. GPT-3 also uses text from books as well as the entirety of Wikipedia. Wikipedia only makes up 0.6 percent of the 499 billion tokens used to train GPT-3. 
+== METHODS
+GPT-3 is an example of unsupervised learning. Unsupervised learning makes it easier to scale up to a large dataset for training as the data does not need to be managed. In order to put together a piece of text it uses everything before it as context to choose each word one at a time. 
+== RESULTS
+The results are a system that when properly prompted can write poetry, music, code and potentially books that are indistinguishable from something written by a human. Some great examples are the system writing a new chapter of the Hitch Hiker's Guide to the Galaxy or writing a poem that's critical of Elon Musk. There are other examples of GPT-3 writing JSX code based on description of UI elements as the input prompt or generating an SQL statement based a natural language version of the same statement. GPT-3 can be experimented with my anyone using AI Dungeon, a classic text-based adventure game powered by GPT-3. 
+== ISSUES
+One of the issues facing GPT-3 is that it is reliant on the input prompt, this creates a situation where unless you tell it otherwise is will take everything literally. If you ask it to write a song about a particular breed of dog but you've made the breed up with a gibberish name then you going to get back a song that might not make a lot on sense. This problem can be avoided by writing robust and sensical prompts or by warning it as a part of the prompt. GPT is limited by how much data it was given to train with so future versions could be bottlenecked by the availability of new data to train with.
+== SCORE
+8
+== COMMENTS
+The article in general was good and it didn't misrepresent what GPT-3 actually is as it is written by Computer Science Lecturer at NUIG, it gives a good surface level description of the project with some good examples but doesn't delve too deeply into the methods and the maths other than saying that it read "most" of the internet. A good point is raised that sometimes meaning can be injected into the result by the reader. The methods used are not all that new as GPT-3 builds on its predecessor GPT-2 but with over 100 times the parameters. The process used to train the language model is not the most interesting to have been done in the field, but the results are impressive.

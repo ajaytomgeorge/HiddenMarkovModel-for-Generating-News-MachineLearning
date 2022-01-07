@@ -1,0 +1,27 @@
+ARTICLE 2  -  Deep generative models of radar
+== SOURCE
+https://www.nature.com/articles/s41586-021-03854-z
+
+== AGENT
+Google's Sister Company Deep mind
+
+== GOAL
+Precipitation nowcasting, the high-resolution forecasting of precipitation up to two hours ahead
+
+== DATA
+Collection of radar composites from the Met Office RadarNet4 network
+
+== METHODS
+Supervised learning
+
+== RESULTS
+DGMR can predict rain within 1 or 2 hours
+
+== ISSUES
+The article I read was written by nature which collaborated with Deepmind to work on the article so some data might be falsified and made to seem better than it is
+
+== SCORE
+4
+
+== COMMENTS
+It is a nice idea and might be good when the public can get to use it to know the weather for short term situations

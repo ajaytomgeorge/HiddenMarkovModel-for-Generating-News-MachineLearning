@@ -1,0 +1,27 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+CSAIL & Center for Applied Internet Data Analysis
+
+==== GOAL
+
+To identify networks involved in IP hijacking
+
+==== DATA
+
+Data was retrieved from network operator mailing lists and historical BGP data taken every 5 minutes from the global routing table.
+
+==== METHODS
+
+Trained a classifier to automatically identify qualities of malicious behavior, such as volatile changes in activity, multiple address blocks and IP addresses in multiple countries.
+
+==== RESULTS
+
+False positives accounted for 20% of all networks identified as malicious.
+
+==== COMMENTS
+
+The article plays down how ineffective the classifier is.

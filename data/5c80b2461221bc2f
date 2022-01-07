@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211003/Machine-learning-predicts-hospital-onset-COVID-19-infections-using-patient-contact-networks.aspx
+
+== AGENT
+
+Who did this machine-learning-related work (e.g., Netflix)
+
+== GOAL
+
+predict hospital-onset COVID-19 infections
+
+== DATA
+
+Used data from over 50,000 patients from April 2020 to April 2021. It collected data from patients ‘in hospital
+
+== METHODS
+
+The research team combined machine learning with network analysis and developed a HOCI prediction framework with the help of routine electronic health data.
+
+== RESULTS
+
+Dynamic patient contact networks could be a strong predictor of transmission of respiratory viral infections in hospitals.
+
+== ISSUES
+
+Personal data being leaked 
+
+== SCORE
+
+7
+== COMMENTS
+
+Think this is very cool idea considering how much of the past two years have been consumed by covid in the last two years I feel this could be very beneficial to us. The data could help hospitals plan for surges in covid related hospitalises. 

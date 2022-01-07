@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://www.searchenginejournal.com/google-to-use-machine-learning-to-manage-ad-frequency-when-cookies-are-missing/329619/
+
+==== AGENT
+
+Google
+
+==== GOAL
+
+Their goal is to use machine learning to manage ad frequency when third-party cookies are unavailable,
+this will ultimately improve user privacy, but retain effective advertising for publishers and 
+marketers
+
+==== DATA
+
+The data that Google are analysing is essentially all first-party data from users, and also traffic
+patterns 
+
+==== METHODS
+
+Using these traffic patterns where third-party cookies are available, and observing them across Google Ad
+Manager publishers, Google then create models to predict future traffic patterns when the aforementioned
+cookies aren’t present. This makes it possible for Google to estimate how likely it is for users to visit
+publishers who are serving the same ads through Google Ad Manager. If there is no third-party cookies present,
+Google can then refine the frequency that those ads will be shown to users
+
+==== RESULTS
+
+Google has claimed that by implementing this system, users will have more privacy than before, providing more
+privacy than other solutions such as fingerprinting.
+
+==== COMMENTS
+
+This seems like a good solution to repetitive advertisment when users have cookies blocked, blocking cookies
+doesnt prevent seeing ads, but does prevent companies from advertising effectivly. By implementing this, there
+is no negative affect to the users and yields great benifits for marketers. Users then reap the benifits of
+greater privacy.

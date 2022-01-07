@@ -1,0 +1,27 @@
+==== SOURCE
+
+All information came from https://www.chemistryworld.com/news/machine-learning-predicts-electron-densities-with-dft-accuracy/4010448.article.
+
+==== AGENT
+
+Clémence Corminboeuf, Michele Ceriotti and colleagues at the Swiss Federal Institute of Technology lead the project.
+
+==== GOAL
+
+The team's goal was to develop a machine learning model that can predict the electron density from only atomic coordiantes.
+
+==== DATA
+
+The machine learning model relied heavily on a vast training set of small molecule dimers. The dimers had their electron density represented by basis sets (similar to normal computational chemistry calculations).
+
+==== METHODS
+
+A machine learning model was trained on density functional computed electron densities of small dimers. The model was then tested on its ability to predict electron densities of chemically difference & far larger systems. 
+
+==== RESULTS
+
+The model predicted the electron density of a system within 1.4%. This prediction was achieved far quicker than standard models.
+
+==== COMMENTS
+
+The article's target reader would need extensive knowledge of chemistry to understand the theory referred to, but a knowledge of machine learning would allow the reader to understand the models used & the implication of the results. 

@@ -1,0 +1,68 @@
+==== SOURCE
+
+[1] Vahe Tshitoyan, John Dagdelen, Leigh Weston, Alexander Dunn1, Ziqin Rong, Olga Kononova, Kristin A. Persson, 
+Gerbrand Ceder and Anubhav Jain. Unsupervised word embeddings capture latent knowledge from materials 
+science literature. (2019), https://perssongroup.lbl.gov/papers/dagdelen-2019-word-embeddings.pdf
+
+News Source:
+https://theconversation.com/how-an-ai-trained-to-read-scientific-papers-could-predict-future-discoveries-122353
+
+==== AGENT
+
+Toyota Research Institute through the Accelerated Material Design and Discovery Program.
+
+==== GOAL
+
+Use Natural Language Processing (NLP) to find embedded knowledge within scientific papers. NLP is the ability for
+programs to parse and analyse large amount of natural language data. The scientific papers were focused mainly on
+materials research.
+
+
+==== DATA
+
+Data was taken from the abstracts from more than 3.3 million scientific abstracts published between 1922 and 2018 
+relating to Materials based research, Physics and Chemistry. Abstracts as a condensed and relatively uncomplicated 
+from of writing (When compared to the main body of text within scientific papers) reduces the amount of noise during 
+training.
+
+Web-scrapping technologies were used along with API's for Elsevier's Scopus and Science Direct to extract the abstracts.
+
+A full list of the DOI's for each paper can be found in the below link;
+https://github.com/materialsintelligence/mat2vec/blob/master/mat2vec/training/data/dois.txt
+
+Additional parsing was done to remove unnecessary header information or abstracts not in English.
+
+
+==== METHODS
+
+The machine learning library Word2vec was used in this project.
+
+Word2Vec utilizes the co-occurrence of words throughout the text body. When the data is trained upon vectors are 
+produced which should have a closer cosine distance for similar words like 'Iron' and 'Steel' than the distance for 
+'Iron' and 'Organic'.
+
+While no chemical interpretation were provided to the model, knowledge was nevertheless captured due to the relative 
+distances between words within the scientific abstracts. In this sense the machine learning algorithm was able to capture
+latent or unknown knowledge embedded in the domain.
+
+The study also attempted retroactively predict popular thermoelectric compounds that had already been discovered 
+using only abstracts from prior publications. For example, CuGaTe_2 would have been predicted as being in the top
+5 compounds four years prior to its initial discovery in a publication from 2012.
+
+
+==== RESULTS
+
+This research found that Latent knowledge exists within past publications and that an unsupervised model was capable
+of suggesting new materials to use based on the parsing and analysis of prior publications.
+
+It was found that on average materials from the top 50 word embedded based predictions were 8 times more likely to be
+researched in the next 5 years when compared with randomly chosen materials that had not previously been researched.
+
+The researchers highlight the importance of quality over quantity in this project when it comes to the machine learning
+approach that was undertook as domain specificity of the selected journals determined the usefulness of the outcome.
+
+
+==== COMMENTS
+
+While outside the scope of the original research it would be interesting to see if the Word2Vec library could be used
+on language studies such as etymology using a similar vector based distance relationship on words.

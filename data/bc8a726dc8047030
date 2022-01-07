@@ -1,0 +1,20 @@
+== SOURCE
+https://www.reutersagency.com/en/reuters-community/reuters-news-tracer-filtering-through-the-noise-of-social-media/
+== AGENT
+Reuters
+== GOAL
+Provide news sources for reporters and editors to monitor social media and try to find news clues from them. The algorithm distinguishes what is news and what is general conversation.
+== DATA
+Tracer will analyze all the information collected on Twitter that may be regarded as news. First, it can find out who sent it first; second, who reposted it first; third, credibility. We know that news on social media is not All are reliable. The robot will pass the cross-comparison to indicate how likely it is to be true. According to the verification result, the reliability is marked from 0% to 100%.And is the information released by the first witnesses directly captured through social media sites. If it is judged to be true, it will be released directly. Therefore, some news, like the earthquake in Japan, was 4 minutes earlier than the first published media. Because it was published by someone who had experienced it, it began to cross-validate and the verification was true, so it was published, and it will also bring a piece of this article. What is the credibility of the news, 70% or 50%, and the source of the data will be released for you to identify
+== RESULTS
+1. Automatically verify the authenticity of news. According to the introduction, it will also use algorithms to ask questions that reporters may usually ask to verify the authenticity of news.
+2. Using algorithms and machine learning to remove advertisements, junk, rumors, and general conversations, extract the main points, and determine how true it is based on different data sources. At the same time, it can remove noise and stack the same categories together. As a data group, it also displays future updates.
+3. This tool is monitored in real time to verify news on Twitter and social media.
+4.there is a large database in the background, you can search for relevant news according to your needs
+== ISSUES
+How was this social monitoring tool conceived?
+== SCORE
+8
+== COMMENTS
+Since we started keeping analytical records about a year ago, Reuters News Tracer has beaten global news outlets in breaking over 50 major news stories. This has given our Reuters journalists anywhere from an 8- to 60-minute head start.
+So it¡¯s done very well and we can see that as a tip service for news organizations, and for us particularly, obviously, it¡¯s been very helpful. It lets us start getting on a story much more quickly.

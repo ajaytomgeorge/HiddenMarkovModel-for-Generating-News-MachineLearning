@@ -1,0 +1,40 @@
+== SOURCE
+
+https://fortune.com/2020/10/13/waymo-autonomous-trucks-self-driving/
+
+== AGENT
+
+Waymo (Google Subsidary)
+
+== GOAL
+
+Autonomous trucks
+
+== DATA
+
+Data was collected by real world experience driving about the national road network. Waymo stated that this was their biggest difficulty as training self driving vehicles would require enormous amounts of data that would essentialy need to be collected 'by-hand' 
+
+== METHODS
+
+Waymo try improve upon driving visibility of a normal human operator by placing lidar sensors on the sides of the trucks to remove 100% of blind-spots.
+
+Waymo are also training the network to account for 'edge-cases' while most motorway/highway driving is quite fluid Waymo are trying to ensure that the A.I knows what to do when there are anomolies such as heavy traffic or animals and people on the road.
+
+== RESULTS
+
+Waymo declined to awnser on the performance of their self driving trucks or how many hours or miles they have logged on the road.
+
+Waymo did however state that a human is still required to sit behind the wheel of the truck.
+
+== ISSUES
+
+Self driving vehicles or semi-self driving vehicles are becomming more and more prevelant in todays society. With more and more of these vehicles on the road under the laws of averages an incident involving one of these vehicles is bound to happen. The question some people are still trying to awnser is who is at fault of the incident, the AI manufacturer or the driver?
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The fact that Waymo refused to comment on the performance of the vehicle or how many miles it had done sould also raise a couple of red flags about openness or transparity as an AI self driving car making a mistake could prove much more costly than say an image classification program.
+

@@ -1,0 +1,36 @@
+== SOURCE
+
+https://techxplore.com/news/2021-10-high-speed-drones-unknown-ai.html
+
+== AGENT
+
+University of Zurich
+
+== GOAL
+
+To autonomously fly quadrotors through unknown, complex environments at high speeds using only on-board sensing and computation
+
+== DATA
+
+Dataset of images. The data was simulation of environments such as forests, buildings, ruins and trains on which the model was trained. 
+
+== METHODS
+
+Deep Learning(simulation algorithm)
+
+== RESULTS
+
+Neural network learnt how to predict the best trajectory based only on the data from the sensors. The drones are now being used to fly through unkown territories in cases of emergencies.
+
+== ISSUES
+
+None
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Simulation algorithm used is a great start, but ofter the simulation might not train the model to cope with the real time data that the 
+sensors of the drones might be exposed to.Could be very risky if the technology gets into the wrong hands. Drone strikes are the imminent threat.

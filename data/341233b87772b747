@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.news-medical.net/news/20210930/Direct-to-consumer-machine-learning-model-incorrectly-classifies-rare-aggressive-skin-cancers.aspx
+
+== AGENT
+
+Not Stated
+
+== GOAL
+
+Diagnose skin cancers.
+
+== DATA
+
+Dataset of 116 images of Merkel cell carcinoma (MCC) and amelanotic melanoma.
+
+== METHODS
+
+Not Stated
+
+== RESULTS
+
+Directly sold to the public via the App store and advertised as being able to diagnose 95% of skin cancers (Model 1). The second model was available for research purposes only and used as a reference (Model 2)
+The results showed that Model 1 incorrectly classified 17.9% of MCCs and 22.9% of amelanotic melanomas as low-risk. In turn, 62.2% of benign lesions were classified as high risk. For detecting malignancy, Model 1's sensitivity was 79.4% [95% confidence interval (CI) 69.3-89.4%] and specificity was 37.7% [95% CI 24.7-50.8]. For Model 2, MCC was not included in the top 5 diagnoses for any of the 28 MCC images analyzed, raising the possibility that the model had not been trained that this disease class exists.
+
+== ISSUES
+
+The app is not very accurate at all, possibly causing a great risk by mis-diagnosing dangerous cancers as low-risk. 
+
+== SCORE
+
+2
+
+== COMMENTS
+
+While the subject matter is interesting, The article lacks a lot of information, such as the agents or methods used in the neural network. It's to the point where I couldn't find any more information on the project.
+In my opinion the only thing this article is good for is spreading awareness not to trust AI cancer identification apps. 

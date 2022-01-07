@@ -1,0 +1,33 @@
+==== SOURCE
+
+http://artsites.ucsc.edu/faculty/cope/Emily-howell.htm
+
+==== AGENT
+
+David Cope, University of California, Santa Cruz
+
+==== GOAL
+
+To create an algorithm that can be encouraged or discouraged to make music to the individuals liking.
+It was named Emily Howell
+
+==== DATA
+
+Experiments in Musical Intelligence (Emmy) is used as the database. Emmy can give the next proceeding note
+or several notes based on a style of a given performer.
+
+==== METHODS
+
+Cope used a reinforced learning algorithm to develope music based on input music predicting the next set of 
+notes.
+
+==== RESULTS
+
+Emily Howells youtube channel currently has 11 seperate music pieces online and 1.49K subscribers with one music 
+piece currently sitting at 30K views as of Oct. 2019 
+
+==== COMMENTS
+
+Some of the music pieces are actually quite good and would easily pass off as a human composer.
+It leads me to think that there could be a lot more predictability in music than I once thought.
+A future in music is increasingly under threat.

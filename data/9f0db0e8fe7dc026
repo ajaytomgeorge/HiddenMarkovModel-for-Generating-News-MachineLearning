@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.forbes.com/sites/amitchowdhry/2014/03/18/facebooks-deepface-software-can-match-faces-with-97-25-accuracy/
+
+==== AGENT
+
+Facebook DeepFace
+
+==== GOAL
+
+Identify people from a picture.
+
+==== DATA
+
+They used images from Facebook users.
+
+==== METHODS
+
+They used 4 million images of up to 4000 people to train
+
+==== RESULTS
+
+Facebook is able to detect wether a person in two images are the same or not irrespective
+of the camera angle and lighting with 97.25% accuracy.
+
+==== COMMENTS
+
+Facebook has been able to correctly identify people in my facebook account. It works really well.

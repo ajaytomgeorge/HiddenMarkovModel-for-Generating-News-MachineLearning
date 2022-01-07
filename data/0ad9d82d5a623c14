@@ -1,0 +1,36 @@
+== SOURCE
+
+https://news.fit.edu/academics-research/machine-learning-may-help-understand-neurodegenerative-diseases/
+
+== AGENT
+
+Diego Guarín, assistant professor in the biomedical engineering program at Florida Tech.
+
+== GOAL
+
+Using facial recognition and analysis and machine learning algorithms to evaluate the effects of different neurodegenerative and motor disorders in speech production and facial movements.
+
+== DATA
+
+Dataset of faces, videos of orofacial gestures.
+
+== METHODS
+
+The patients are going to perform certain exercises in front of the camera, such as opening their mouth and saying some sentences,” he said. “The computer is going to track how the patient moves their mouth and face, and then we’re going to have an idea of if that movement belongs to a healthy individual in their age group or if that movement belongs to a person with a specific disease.
+
+== RESULTS
+
+Techniques were able to recognize the diseases of individuals based of photos and video recorded in laboratory and clinical settings.
+
+== ISSUES
+
+Too short
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Interesting new technique that uses facial photos instead of scans of the brain to detect neurological diseases.
+New field

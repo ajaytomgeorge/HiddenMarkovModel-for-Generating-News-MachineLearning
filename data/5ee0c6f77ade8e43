@@ -1,0 +1,43 @@
+== SOURCE
+
+https://news.mit.edu/2021/using-ai-and-old-reports-understand-new-medical-images-0927
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Getting a quick and accurate reading of an X-ray or some other medical images.
+Nowadays radiologists are in high demand to visually check the X-ray and give a reading,
+they are trying to automate this process.
+
+== DATA
+
+Rather than working from entire images and radiology reports, they break the reports down to individual sentences and the portions of those images that the sentences pertain to. 
+This estimates the severity of the disease more accurately than if you view the whole image and whole report. 
+The model is examining smaller pieces of data, it can learn more readily and has more samples to train on.
+
+== METHODS
+
+The team is using deep leanring, neural networks and also utilizing a concept from information theory called mutual information.
+A statistical measure of the interdependence of two different variables, in order to boost the effectiveness of their approach.
+
+== RESULTS
+
+The model could have very broad applicability. It could be used for any kind of imagery and associated text, inside or outside the medical realm.
+The ideas have not been applied yet to a physical byproduct yet. Here is a link to the paper that was published on it, https://arxiv.org/pdf/2103.04537.pdf.
+
+== ISSUES
+
+There are no issues I found from the news, seems to be a well established study and paper.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought the concept was interesting and the news article to be well rounded on information about.
+A pilot program has started to see if their ML model can be used to help doctors make decisions in criticial moments,
+which is interesting and I'll look into.

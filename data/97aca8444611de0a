@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://towardsdatascience.com/how-google-uses-reinforcement-learning-to-train-ai-agents-in-the-most-popular-sport-in-the-world-3394558a388d
+
+==== AGENT
+
+Google Brain team.
+
+==== GOAL
+
+The Team tried using Reinforced learning in order to teach a team of robots to play football by simply playing and learning from mistakes and becoming better that way.
+
+==== DATA
+
+The football engine models a game as a combination of states and observations. Where a state is the complete set of data from the environment after any action. 
+
+==== METHODS
+
+They created a simulation which will have two teams compete with one another dynamically by reading the actions of its own players and those of the opposite teams players and using predictions based on past events in order to play the game.
+
+==== RESULTS
+
+The results of this experiment showed how a computer can keep track of many dynamic moving parts and respond effectively to these components based on learning from its own actions and adjusting correctly to every successful action.
+
+==== COMMENTS
+
+I feel like this kind of technology could be very useful in creating simulations for game plans in professional football. Strategies could be implemented on one team and the computer will learn from this and create successful counters to them.

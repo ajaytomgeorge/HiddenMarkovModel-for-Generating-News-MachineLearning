@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-018-1122-7
+
+==== AGENT
+
+IBM Watson Oncology.
+
+==== GOAL
+
+The goal is to use data and machine learning to make medication and medical treatments more personalised and not just to
+rely on generic treatments that the health services are currently offering.
+
+==== DATA
+
+The data used in personalised medical treatment are the patients genetic information, their family history and their medical
+history.
+
+==== METHODS
+
+Personalised medical treatment uses deep learning which is a specialised machine learning approach based on the multiple-
+layered structures of artificial neurons. These neurons are able to process information and learn by adjusting the weights
+at each neuron allowing for an accurate prediction to be made. These deep networks are capable of learning from large amounts
+of data and are then able to apply this learning to new unseen data. Deep learning systems are able to integrate data from an
+individual patient and allow better predictions and recommendations for treatment options to patients based on individual
+characteristics.
+
+
+==== RESULTS
+
+Deep learning systems are very well suited for the large amounts of healthcare data and out perform the more traditional
+statistical models that had previously existed.
+
+
+==== COMMENTS
+
+The area of health care personalisation is a fine challenge for todays deep learning systems.

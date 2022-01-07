@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://www.the-scientist.com/news-opinion/machine-learning-optimizes-images-for-stimulating-monkey-neurons-65828?fbclid=IwAR2QCju3IxC9g2j61vPTClhzbFdOF2SG2UaqNegiQku65kW8E74nXdOd-tY
+
+==== AGENT
+
+ Carlos Ponce of Washington University School of Medicine in St. Louis
+
+==== GOAL
+
+The goal of the project was to use neural networks generate abstract images designed to activate particular cells in monkey neurons, lending insight into their function.
+==== DATA
+
+They retrieved their data from showing monkeys images and guaging how much that stimulus activated neurons. They used an evolutionary machine learning process that would alter the image the monkey saw in order to get the maximum output from the neuron. The results showed that the neurons were most active when an image was presented to monkeys.
+
+==== METHODS
+
+To carry out the experiment GANs (generative adversarial networks) were used. The GANs were used to create realistic and abstract images to show to the monkeys to find the 'best fit'. To record the monkeys' responses, the team implanted microelectrode arrays into the brains of six monkeys. They showed the monkeys 40 preselected images. They then took 10 of these images and ran them througha genetic algorithm which altered the images based on the neuron responses.
+
+==== RESULTS
+
+The resulting images that best stimulated the monkeys' neurons were comprised of shapes and colours ressembling monkeys or faces on animal handlers.
+
+==== COMMENTS
+
+I found the article to be rather insightful and eye-opening to the use cases of neural networks in other industries and that it is not only for use in computer science.

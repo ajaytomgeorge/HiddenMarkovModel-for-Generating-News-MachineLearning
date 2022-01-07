@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://poseidon01.ssrn.com/delivery.php?ID=710087064097089101075123010065086122015017095012001064108083017002086012024121084093101099062003019016045100094116097097011031007087059020059072074066025006115083065001078078027087126071020067102116118078095073015127099000091091031006009074031126000105&EXT=pdf
+
+==== AGENT
+
+Durham Constabulary and the University of Cambridge
+
+==== GOAL
+
+Create an neural network that can predict if a criminal is likely to reoffend.
+
+==== DATA
+
+Data comes from around 104,000 custody events over a five year period
+
+==== METHODS
+
+The idea of the neural network is to seperate offenders into three categories based on their predicted risk of reoffending. The algorithm deployed by Durham was constructed using random forests. It used 34 different predictors to arrive at a forecast, most of which focus on the prior offender's history of criminal behaviour. The random forest is constructed from 509 seperate seperate classifications and regression decision trees, which are then combined into the full forecasting model. Each tree is a model itself, and produces a forecast which is then used as one vote out of 509 total votes. The votes are counted, and the overall forecast for the full model becomes the outcome which receives the most votes.
+
+==== RESULTS
+
+It has managed to predict tht a man who had a criminal history of violence would be a high risk of him offending again and it turns out he was later arrested and convicted for murder. However, due to the many problems with trying to predict how someone will react in the future, there have been many critiques over using this in the police force and has not seen widespread usage.
+
+==== COMMENTS
+

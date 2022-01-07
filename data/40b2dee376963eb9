@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-54538228
+
+== AGENT
+
+IBM Research, and Pfizer
+
+== GOAL
+
+Reliably predict earlier in life whether patients will develop Alzheimer's disease, specifically to study linguistic performance as an early biomarker of AD
+
+== DATA
+
+703 samples from 270 participants out of which a dataset consisting of a single sample from 80 participants was held out for testing. Half of the participants in the test set developed AD symptoms before 85 years old, while the other half did not. All samples in the test set were collected during the cognitively normal period (before MCI). The mean time to diagnosis of mild AD was 7.59 years.
+
+== METHODS
+
+Supervised learning on the test set, using natural language processing to analyse written responses to "the cookie-theft picture-description task" (patients are shown a drawing and asked to describe it, these desriptions are then analysed for signs of cognitive impairment).
+
+== RESULTS
+
+The AI system was able to predict the onset of Alzheimer's disease with 70% accuracy 7 years in advance of clinical diagnosis.
+
+== ISSUES
+
+
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The article says that "It could predict onset seven years earlier than human doctors with 70% accuracy". This strikes me as a little hyperbolic and misleading, as it actually predicted onset 7 years before clinical diagnosis, rather than 7 years earlier than a similar prediction of onset by human doctors.

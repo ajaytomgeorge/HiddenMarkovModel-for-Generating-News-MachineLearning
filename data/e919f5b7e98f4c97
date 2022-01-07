@@ -1,0 +1,21 @@
+==== SOURCE
+https://analyticsindiamag.com/5-latest-research-papers-on-ml-you-must-read-in-2019/
+
+==== AGENT
+Walchand Institute of Technology, Solapur.
+
+==== GOALS
+To predict the results of Indian cricket games using supervised learning. 
+
+==== DATA
+Historic Cricket game data. 
+
+==== METHODS
+They used the relative strength between the 2 competing teams as features for the model. 
+They model the strength of each team by modeling their players' batting and bowling performances. 
+
+==== RESULTS
+The model was incorporated into an online service that displays the winning percentage for each team. 
+
+==== COMMENTS
+No comments

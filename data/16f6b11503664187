@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.wired.com/story/this-ai-helps-detect-wildlife-health-issues-in-real-time/
+
+== AGENT
+
+Researchers at UC Davis
+
+== GOAL
+
+Their goal was to detect wildlife health issues in real time (Neurological disease for example)
+
+== DATA
+
+The researchers used five years of data and more than 200,000 records to establish baselines for how frequently these conditions normally occur. 
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+It creates alerts and is works pretty well but the article does not gives numbers
+
+== ISSUES
+
+Maybe some alerts are not real and need to ne checked ? 
+
+
+== SCORE
+
+I would say 5, this is really useful but it is just an alert and does not answer really the problem.
+
+== COMMENTS
+
+This article explains well the topic but is not really technical and does not gives useful numbers. 

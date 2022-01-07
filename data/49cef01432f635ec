@@ -1,0 +1,65 @@
+== SOURCE
+
+
+
+https://techxplore.com/news/2020-07-machine-satisfaction-romantic-relationships.html
+
+
+
+== AGENT
+
+
+Joel, Paul Eastwick from University of California
+
+
+
+== GOAL
+
+
+
+Using machine learning to predict the satisfaction in romantic relationships.
+
+
+
+== DATA
+
+
+Joel, Paul and 84 other scholars from around the world collected data from more than 11,000 couples and 
+43 distinct self-reported data sets on romantic couples.
+
+
+
+== METHODS
+
+
+
+Random Forest algorithm. Supervised.
+
+
+
+== RESULTS
+
+
+Relationship-specific predictors like perceived partner commitment, appreciation and sexual satisfaction account 
+for nearly half of variance in relationship quality. Individual characteristics which describe a partner rather 
+than a relationship explains 21% of variance in relationship quality.
+
+
+
+== ISSUES
+
+
+Individuals may lie about their relationship and how they feel about it.
+
+== SCORE
+
+
+7
+
+
+
+== COMMENTS
+
+
+
+Interesting topic, as the dating scene turns more and more online this kind of research could be used in that area.

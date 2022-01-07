@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.zmescience.com/science/news-science/machine-learning-archaeology-30092021/
+
+== AGENT
+
+Penn State
+
+== GOAL
+
+Find undiscovered shell ring and shell mounds.
+
+== DATA
+
+Public Lidar data and synthetic data
+
+== METHODS
+
+Developed a deep learning process to recognize the structure of a shell ring, shell mounds and other landscape objects that could suggest archeological remains. They manually combed the maps and set points for known rings, using these rings to train the algorithm and also rotating the maps by 45 degrees to improve the training.
+
+== RESULTS
+
+They discovered hundreds of new structures that are to be explored by archaeologists to determine if the deep learning process was indeed correct.
+
+== ISSUES
+
+The main issue with this research is that the datasets are very small and rely on a mixture of augmenting said data but also using synthetic data. This could pose an accuracy issue as they are relying on completely synthetic data to be accurate as well as ensuring the augmented data does not stray too far from the rules we know for these shell rings and mounds.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this was very interesting as their model was able to process complex lidar scans and produce algorithms that could define shell rings. The resulting data from the research has also given us locations to which we never would've assumed there to be any of the rings or mounds.

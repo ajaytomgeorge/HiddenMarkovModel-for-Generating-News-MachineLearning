@@ -1,0 +1,21 @@
+==== SOURCE
+https://www.nature.com/articles/s41563-019-0338-z
+bibliographic citation or URL with pointer to source of this information
+
+==== AGENT
+Sean Ekins, Ana C. Puhl, Kimberley M. Zorn, Thomas R. Lane, Daniel P. Russo, Jennifer J. Klein, Anthony J. Hickey & Alex M. Clark, a group of researchers. 
+
+==== GOAL
+The goal of the research is to use a variety of machine learning methods such as naïve Bayesian, support vector machines and deep neural networks are demonstrating their use for drug and treatment development.
+
+==== DATA
+The datasets are from chEMBL.
+
+==== METHODS
+The methods are countless, and one of the most recent one is using the Bayesian algorithms to identify compounds active in vitro and in vivo against Chagas diseases and the Ebola virus. The Bayesian algorithms have also been used in ADME properties to predict aqueous solubility, mouse liver microsomal stability, Caco-2 cell permeability, cytotoxicity and the famous CRISPR-Cas9 which was aimed to target cancer DNA cells in the gene.
+
+==== RESULTS
+Machine-learning is a very prospective tool in the medical area, and it can learn from almost any data type. It could be widely used in many areas. 
+
+==== COMMENTS
+In recent years, I have heard about the CRISPR-Cas9 and the advancement in this DNA targeting method to treat/prevent cancer. Although, this research is still in progress, I know that in a university in China, they have already started real trials on patients and the results are astonishing so far. I think machine-learning will really change the way people live and the morality rate for humans in general.

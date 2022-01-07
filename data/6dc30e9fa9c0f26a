@@ -1,0 +1,18 @@
+== SOURCE
+https://www.geekwire.com/2021/carbon-robotics-raises-27m-ai-powered-weed-destroying-machine-used-farmers/
+== AGENT
+Carbon Robotics
+== GOAL
+Its technology gives farmers a way to eliminate weeds without pesticides; to improve soil quality; to grow more organic produce; and to address both the ongoing labour shortage and increasing wages.
+== DATA
+Hi-res cameras feed imagery in real time to an onboard supercomputer that runs computer vision models to identify crops and weed.
+== METHODS
+There is no information available on the algorithms they used but I would speculate they used a supervised algorithm.
+== RESULTS
+They've successfully created a robot that can eliminate 100000 weeds per hour and can operate 24/7.
+== ISSUES
+I can't think of any ethical or technical issues with this project because it will decrease on pesticide use and help provide food for the growing population.
+== SCORE
+8
+== COMMENTS
+I found this project very interesting, I think more of this research is vital for the providing food for the growing population without the use of pesticides and other environmentally harmful chemicals.

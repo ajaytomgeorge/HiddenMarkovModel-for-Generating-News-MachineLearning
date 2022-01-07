@@ -1,0 +1,38 @@
+== SOURCE
+
+https://news.mit.edu/2021/training-robots-manipulate-soft-deformable-objects-0609
+
+== AGENT
+
+Researchers at MIT, the MIT-IBM Watson AI Lab, and University of California at San Diego.
+
+== GOAL
+
+They want to train robots to manipulate real-world objects and materials that bend and deform without reverting to their original shape.
+
+== DATA
+
+They used a new simulation environment called “PlasticineLab” that, by building knowledge into the simulator, will allow robots to train to manipulate real-world objects and materials that can change shape. 
+
+== METHODS
+
+Reinforcement learning, moving least squares material point method, gradient based methods.
+
+== RESULTS
+
+PlasticineLab was created and, which is a differentiable physics benchmark for soft-body manipulation. 
+
+The full results can be found here:
+https://arxiv.org/pdf/2104.03311.pdf
+
+== ISSUES
+
+There were no problems with the work. It is just a simulator of the real world and its materials for the robots to train with using the malleable materials that it finds difficult.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is interesting because when robots become more common in everyday life, they will be able to perform tasks using these objects that are hard for the robots to use. It will allow them to do tasks such as cooking and cleaning without difficulty.

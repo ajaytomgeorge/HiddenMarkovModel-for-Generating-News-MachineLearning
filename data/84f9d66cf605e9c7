@@ -1,0 +1,35 @@
+== SOURCE
+
+https://venturebeat.com/2017/07/12/pandora-uses-machine-learning-to-make-sense-of-80-billion-thumb-votes/
+
+== AGENT
+
+Pandora Intelligence
+
+== GOAL
+
+Find Music Recommendations
+
+== DATA
+
+80 Billion thumbs up and down from 76 million users 
+
+== METHODS
+
+Supervised learning 
+
+== RESULTS
+
+AI is used to filter that data but not to make the final recommendations
+
+== ISSUES
+
+As used in colaberation with humans it is not a full solution, Cannot work at 100% on its own 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Show the colaberation between humans and AI, The AI us used to de-clutter the data and then experts fine tune the recommendations

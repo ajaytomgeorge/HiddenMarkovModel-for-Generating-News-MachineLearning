@@ -1,0 +1,20 @@
+== SOURCE
+news: https://www.sohu.com/a/425821238_161795
+paper: https://www.nature.com/articles/s41467-020-18685-1
+== AGENT
+computer science and technology researchers and radiologists. According to the article, they are from Department of automation, Beijing National Research Center for information science and technology, Tsinghua University, Beijing, China, Department of Radiology, Union Hospital, Tongji Medical College, Huazhong University of science and technologyand Hubei Province Key Laboratory of Molecular Imaging.
+== GOAL
+They want to create an artificial intelligence (AI) system for rapid COVID-19 detection and performed extensive statistical analysis of CTs of COVID-19 based on the AI system
+== DATA
+They construct a clinically representative large-scale dataset with 11,356 CT scans from three centers in China and four publicly available databases£¨LIDC-IDRI, Tianchi -Alibaba, MosMedData, CC-CCII).
+== METHODS
+Deep learning: Deep convolution neural network
+Dimension reduction algorithm: t-SNE
+== RESULTS
+Their experimental results show that their system has more accurate judgment than professional medical staff in distinguishing influenza A from influenza B, common influenza and covid-19, and is only slightly inferior to doctors in judging whether it is pneumonia. The most important thing is that the efficiency of the machine is much higher than that of the doctor. Usually, the time taken by medical staff to analyze CT is about 6.5 minutes, while their system only takes 2.73 seconds.
+== ISSUES
+
+== SCORE
+9
+== COMMENTS
+Firstly, I think their research should be true and reliable, because in addition to publishing the paper, they also published the data set and the source code of the whole system. Besides, I think this is a very meaningful system, and their team has also adopted new technology to avoid the problems of low accuracy caused by using lesion segmentation and the inability to extract 3D features due to low system memory. The high efficiency of this system can provide effective preliminary judgment of covid-19 in the area of insufficient medical treatment.In addition, as artificial intelligence, it may reduce some subjective wrong judgment of human doctors and reduce the probability of misdiagnosis.

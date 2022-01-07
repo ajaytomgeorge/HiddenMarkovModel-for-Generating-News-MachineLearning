@@ -1,0 +1,36 @@
+
+== SOURCE
+
+https://paperswithcode.com/paper/keypoint-communities
+
+== AGENT
+
+Duncan Zauss, Sven Kreiss, Alexandre Alahi
+
+== GOAL
+
+A fast bottom-up method that detects over 100 keypoints in humans and objects, e.g. cars.  also referred to as human/object pose estimation.
+
+== DATA
+
+For human pose estimation, we conduct experiments on the COCO WholeBody dataset. This dataset contains extra annotations on the 64,000 training and 5,000 validation images of COCO for face, hands and feet. 
+For car pose estimation, we use the ApolloCar3D dataset. It provides car annotations with 66 keypoints and we assigned them 108 connections. The dataset consists of 4283 training and 200 validation images with 52942 and 2674 annotated instances respectively.
+
+== METHODS
+
+They used the graph centrality measure to derive training weights for keypoints and their connections. They extended OpenPifPaf with an option to weigh the training of keypoint and connection types and also trained models with ShuffleNetV2 backbones that were pre-trained without weighing the MS COCO keypoint task. 
+
+== RESULTS
+
+To train complicated poses with fine and coarse-grained features, a general and principled approach was presented. The trials show that the system can recognise complex facial expressions and hand gestures, as well as generate state-of-the-art results on common human and vehicle poses.
+
+== ISSUES
+
+Although they claim that this method works with the NVIDIA GTX 1080 Ti, it would have been preferable if the proposed method could also function with previous graphics cards, even if it provides a lower output accuracy.
+
+== SCORE
+
+6
+== COMMENTS
+
+Because this model functions at cutting-edge prediction speeds and detects poses from great distances, it is an upgraded version of the prior presented methods. This model aids in deciphering the many poses or "intentions" of an object, for example, by incorporating fine-grained hand keypoints, the interaction between humans and objects can be detected. In the transportation domain, fine-grained keypoints on the hand region aid in deciphering pedestrian intentions.

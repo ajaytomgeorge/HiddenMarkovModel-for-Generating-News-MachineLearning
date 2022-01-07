@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-017-00626-6
+https://astronomy.com/news/2016/08/how-does-mars-rover-curiositys-new-ai-system-work
+https://www.jpl.nasa.gov/news/news.php?feature=6879
+
+== AGENT
+
+NASA
+
+== GOAL
+
+To allow the mars rover Curiosity to select desired rocks and soil targets for analysis
+
+== DATA
+
+not specifed
+
+== METHODS
+
+NASA use a AI system called AEGIS which uses an algorithm called ROCKSTER to look for enclosed boundary contours in objects
+
+== RESULTS
+
+The AI system has an accuracy of 93%
+
+== ISSUES
+
+No issues
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This was a very interesting application of Machine Learning. Having an autonomous robot such as Curiosity to find rocks and soil allows use to make advances in our knowledge of other Planets from the comfort of Earth.  

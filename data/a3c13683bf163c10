@@ -1,0 +1,54 @@
+==== SOURCE
+
+https://labs.pinterest.com/user/themes/pin_labs/assets/paper/pinsage.pdf
+
+==== AGENT
+
+Pinterest, Stanford University
+
+==== GOAL
+
+They were trying to develop a method for graph-structured neural network, 
+that could be scaled to the "web-scale" and could operate with "billions of items 
+and millions of users"
+
+==== DATA
+
+In total, the full datasets for training and evaluation
+are approximately 18TB in size with the full output embeddings
+being 4TB. Data was gathered from already existing recomendation system. 
+Data was represented as pair of pins from historical user engagement. 
+
+==== METHODS
+
+The key computational workhorse of their approach is the notion
+of localized graph convolutions. To generate the embedding for
+a node (i.e., an item), they applied multiple convolutional modules
+that aggregate feature information (e.g., visual, textual features)
+from the node’s local graph neighborhood. Each module
+learns how to aggregate information from a small graph neighborhood, and by stacking multiple such modules, such approach can
+gain information about the local network topology. Importantly,
+parameters of these localized convolutional modules are shared
+across all nodes, making the parameter complexity of our approach
+independent of the input graph size
+All this based on GCN 
+
+==== RESULTS
+
+As result they got "PinSage" is a highly-scalable GCN algorithm capable of learning embeddings for nodes in web-scale graphs containing billions
+of objects. In addition to new techniques that ensure scalability, they
+introduced the use of importance pooling and curriculum training
+that drastically improved embedding performance. They deployed
+PinSage at Pinterest and comprehensively evaluated the quality
+of the learned embeddings on a number of recommendation tasks,
+with offline metrics, user studies and A/B tests all demonstrating
+a substantial improvement in recommendation performance.
+
+
+==== COMMENTS
+
+They work demonstrates the impact that graph convolutional methods
+can have in a production recommender system, and they believe
+that PinSage can be further extended in the future to tackle other
+graph representation learning problems at large scale, including
+knowledge graph reasoning and graph clustering.

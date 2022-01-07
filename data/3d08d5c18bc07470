@@ -1,0 +1,36 @@
+== SOURCE
+
+https://news.mit.edu/2021/artificial-intelligence-tool-can-help-detect-melanoma-0402
+
+== AGENT
+
+Megan Lewis | Institute for Medical Engineering and Science
+
+== GOAL
+
+Using deep convolutional neural networks, researchers devise a system that quickly analyzes wide-field images of patients’ skin in order to more efficiently detect cancer.
+
+== DATA
+
+the researchers trained the system using 20,388 wide-field images from 133 patients at the Hospital Gregorio Marañón in Madrid, as well as publicly available images. The images were taken with a variety of ordinary cameras that are readily available to consumers
+
+== METHODS
+
+Deep convolutional neural network
+
+== RESULTS
+
+The system achieved more than 90.3 percent sensitivity in distinguishing SPLs from nonsuspicious lesions, skin, and complex backgrounds, by avoiding the need for cumbersome and time-consuming individual lesion imaging
+
+== ISSUES
+
+They would used more amount of data to train and test the model, to get the exact accuracy of the model built
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This work exemplifies the vision of HST/IMES devotee (in which tradition Catalyst was founded) of leveraging science to advance human health
+

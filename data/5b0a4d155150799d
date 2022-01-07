@@ -1,0 +1,30 @@
+==== SOURCE
+
+https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments
+
+==== AGENT
+
+Deep Mind
+
+==== GOAL
+
+To teach an AI how to model movement of animals and humans by Reinforcement Learning.
+
+==== DATA
+
+Videos of the specific animal walking and trial and error with the learning.
+
+==== METHODS
+
+Use Reinforcement Learning by providing some benefit or motive to the AI in trying to 
+learn complex movement patterns such as jumping, crouching to pass obstacles. Then it is simply
+trial and error till they manage to achieve the pre defined goals.
+
+==== RESULTS
+
+Although not yet complete, the research is promising with AI learning to perform some motor 
+functions although it is quite unrefined as of now. 
+
+==== COMMENTS
+
+Could have more use in making video games or pperhaps for robots in future.

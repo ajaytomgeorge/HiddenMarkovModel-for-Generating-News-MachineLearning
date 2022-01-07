@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.bernardmarr.com/default.asp?contentID=1090
+
+==== AGENT
+
+Google's DeepMind and London's Morrfields Eye hospital
+
+==== GOAL
+
+The goal of this machine learning is to training itself to read scans and spot early signs which may indicate the onset of degenerative eye conditions.
+
+==== DATA
+
+DeepMind has been given access to one million images from historical eye scans, along with associated (anonymised) patient data. It is training itself to read the scans and spot early signs which may indicate the onset of degenerative eye conditions.
+
+==== METHODS
+
+Londons Moorfields Eye Hospital gave Deepmind access to one million image of historical eye scans, along with associated(anonymised) patient data. The information was then used to train itself to read the scans and spot early signs which may indicate the onset of degenerative eye conditions. 
+
+==== RESULTS
+
+DeepMind Health would move to Google Health so that the app can grow and support more doctors to deliver faster, better care to patients.
+ DeepMind has also been implemented across numerous healthcare projects, such as a collaboration with UCL’s radiotherapy department to reduce the amount of time it takes to plan treatments. The group has said that by unleashing machine learning on the process of mapping a patient’s head and neck area, the time taken to create treatment plans for these complicated procedures could be reduced from four hours to around one hour.
+
+==== COMMENTS
+
+In my opinion I found the article was short but contained all the information to describe what google was using google's deepmind for. It covered all the relevant information to understand what deep mind was being training on.

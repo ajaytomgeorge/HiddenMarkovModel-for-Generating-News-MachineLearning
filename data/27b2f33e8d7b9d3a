@@ -1,0 +1,26 @@
+==Source
+https://www.news-medical.net/news/20211003/Machine-learning-predicts-hospital-onset-COVID-19-infections-using-patient-contact-networks.aspx
+
+==Agent
+medRxiv
+
+==Goal
+A real-time framework using patient contact networks to predict hospital-onset COVID-19 infections using Machine Learning.
+
+==Data
+The research team trained and tested the HOCI framework using over 50,000 patients admitted to a UK National Health Service (NHS).
+
+==Methods
+Predictive Model, Supervised Learning
+
+==Results
+The results showed that dynamic patient contact networks could be a strong predictor of transmission of respiratory viral infections 
+in hospitals. Thus, the integration of these networks in clinical care could improve individualized prevention of severe acute respiratory 
+syndrome coronavirus 2 (SARS-CoV-2) infection as well as early diagnosis.
+
+==Score
+8
+
+==Comments
+With no end in sight to the COVID-19 pandemic, this new predictive framework and contact risk factors offer a 
+valuable tool to assist identification of potential HOCI cases across various epidemic and endemic periods.

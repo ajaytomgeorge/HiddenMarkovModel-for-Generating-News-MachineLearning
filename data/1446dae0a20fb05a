@@ -1,0 +1,38 @@
+== SOURCE
+
+https://techxplore.com/news/2021-09-ai-weather-smart-farms.html
+
+== AGENT
+
+James Cook University
+
+== GOAL
+
+Predicting rainfall and other weather factors to decide if artificial irrigation should be used or not.
+
+== DATA
+
+Climate models were used as they had produced multiple forecasts on rainfall. The data was gotten from 10 different locations that spanned across 6 major climate zones in Australia.
+
+== METHODS
+
+Supervised learning. Deep learning models were used.
+
+== RESULTS
+
+Hybrid climate learning model built its rainfall predictions based on the climate model’s forecasts. The hybrid climate learning model predicted rainfall is more like the real rainfall than the climate model and deep learning models tested, for average yearly results in all the locations analysed.
+
+The full results can be found here:
+https://ieeexplore.ieee.org/document/9272620
+
+== ISSUES
+
+There were no issues, although predicting the weather is a difficult task no matter how much data is provided.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+This project is not very interesting, but it will be very useful for farmers. However, it wouldn’t benefit many people outside of farmers since the data used is based on whether the crops need water and the soil moisture. It doesn’t necessarily predict the weather more accurately. It uses existing data to decide on whether to irrigate the crops or to wait for the rain.

@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://www.technologyreview.com/s/613262/machine-learning-is-making-pesto-even-more-delicious/
+
+==== AGENT
+
+The developers for this project were researchers at MIT, in collaboration with an IT company called Cognizant.
+
+==== GOAL
+
+Their aim was to develop a machine learning algorithm that will identify the growing conditions that would optimise the compounds responsible for basil's flavour;
+hence enhancing its taste.
+
+==== DATA
+
+The dataset was formed from the compounds that they found affect the flavour of basil.
+
+==== METHODS
+
+The researchers used gas chromatography and mass spectrometry to look for certain compounds that affect the taste of basil.
+The results from this research were then fed into the algorithm.
+From this, the algorithm determines the best temperature, light, humidity, and other environmental factors to use.
+
+==== RESULTS
+
+They found that exposing plants to light 24 hours a day result in the best taste.
+They also plan to further develop this technology and use it to improve the disease-fighting capabilities of plants and for climate change research.
+
+==== COMMENTS
+
+I think that the project itself is an unexpected but beneficial use of machine learning.
+The article could be more detailed in terms of explaining the algorithm itself, as well as providing more insight to the outcome of the development.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/
+
+== AGENT
+
+Google
+
+== GOAL
+
+ AI architecture that will handle many tasks at once, learn new tasks quickly and reflect a better understanding of the world
+ 
+== DATA
+
+Many different ones, like social media usage data, weather, usage, logistics etc.
+
+== METHODS
+
+GShard and Switch Transformer
+
+== RESULTS
+
+Pathways will enable a single AI system to generalize across thousands or millions of tasks, to understand different types of data, and to do so with remarkable efficiency – advancing us from the era of single-purpose models that merely recognize patterns to one in which more general-purpose intelligent systems reflect a deeper understanding of our world and can adapt to new needs.
+
+== ISSUES
+
+Issue with the article is that it doesnt cover enough shortcomings, issues that such architecture would bring.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+A new AI architecture that would could handle more abstract forms of data, helping find useful patterns that have eluded human scientists in complex systems such as climate dynamics has it's uses.

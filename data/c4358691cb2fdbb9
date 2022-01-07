@@ -1,0 +1,35 @@
+== SOURCE
+
+https://developer.nvidia.com/blog/accelerating-ai-modules-for-ros-and-ros-2-on-jetson/
+
+== AGENT
+
+NVIDIA
+
+== GOAL
+
+Accelerating AI Modules for ROS and ROS 2 on NVIDIA Jetson Platform
+
+== DATA
+
+COCO dataset, robot pose data, metadata
+
+== METHODS
+
+ROS 2 Foxy Fitzroy, ROS 2 Eloquent Elusor, and ROS Noetic with AI frameworks such as PyTorch, NVIDIA TensorRT, and the DeepStream SDK
+
+== RESULTS
+
+Its ease of use, system support, and its comprehensive support for accelerating AI workloads.
+
+== ISSUES
+
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Extensive, detailed, complex. All you want from a AI module article

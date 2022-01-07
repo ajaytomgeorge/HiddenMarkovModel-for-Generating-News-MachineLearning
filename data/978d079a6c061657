@@ -1,0 +1,36 @@
+== SOURCE
+
+https://findface.pro/
+
+== AGENT
+
+NTECHLAB
+
+== GOAL
+
+Facial recognition system
+
+== DATA
+
+The system is fed a live video feed and any identified faces are compared to the VK.com (Russias own version of Facebook) database of known faces to recognise the person
+
+== METHODS
+
+The algorithm outlines where faces are located in the video, determines the turn/tilt of the head, extracts facial features (beard, glasses, aging signs) and compares these to its database to identify the person.
+
+== RESULTS
+
+The algorithm correctly recognises faces in a live video, however I was unable to verify whether the identification of induvial people is correct
+
+== ISSUES
+
+There are obvious ethical issues surrounding privacy. This technology has been implemented in Russia and has caused big controversy worldwide
+
+== SCORE
+
+5
+
+== COMMENTS
+
+From a technical side the system is very impressive and accomplishes the goal of face recognition better than most other options on the market. However, the ethical issues or the system cannot be ignored.
+

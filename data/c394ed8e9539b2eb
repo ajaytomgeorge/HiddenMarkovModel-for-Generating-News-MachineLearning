@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.sciencesetavenir.fr/high-tech/web/facebook-perfectionne-ses-traductions_148697
+
+
+== AGENT
+
+Facebook’s engineer team
+
+== GOAL
+
+Make translation more accurate by translating directly from one language to another without English as an intermediate
+
+== DATA
+
+The training set consists in 7,5 billion pair of sentences found on the internet
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+Not mentioned
+
+== ISSUES
+
+Not completed and not available for random facebook user yet
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is a great progress in automatic translation, as using English as an intermediate make the translation less accurate

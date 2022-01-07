@@ -1,0 +1,32 @@
+== SOURCE
+https://www.bbc.com/news/science-environment-56194855
+== AGENT
+Uber
+== GOAL
+Create an algorithm using reinforcement learning to earn high scores in two games (Montezuma's revenge and Pitfall) from the 1980's, which have been problematic for typical reinforcement learning algorithms.
+== DATA
+Reinforcement learning applied to inputs to the games and using the outputted score to influence future attempts.
+== METHODS
+A new class of algorithms developed by the team at Uber called Go-Explore for reinforcement learning, in which one archives previously explored states and randomly encourages the machine to return to promising states already visited state to explore them further.
+== RESULTS
+In Montezuma's revenge, the algorithms could reach final scores around 400,000 points which is an order of magnitude above of what the average expert player could reach.
+In Pitfall, the algorithm averages around 21,000 points, which is well above the average human player for this game.
+This new class of algorithms is claimed to have great potential in processing real world data for robotic systems.
+== ISSUES
+The new approach devised by the research team at Uber AI has no obvious issues that I can see. 
+However, I do have some concerns regarding the reporting of these results.
+The article only reports the claims made by the people from Uber AI's team that worked on the paper. 
+Their claims concerning application to robotic systems have been called into question by other academics working in the field, particularly regarding human interaction with robots which are notoriously difficult scenarios to predict.
+This article offers a one-sided perspective, which is often an issue with popular press reporting on advanced scientific research. 
+Media outlets have a tendency to sensationalise and over-hype the scientific material they are reporting.
+== SCORE
+8
+== COMMENTS
+This new class of algorithms is a new take on traditional reinforcement learning algorithms.
+Traditional reinforcement learning algorithms use a concept known as intrinsic motivation, which in the context of the above-mentioned games, rewards the machine for discovering new areas. 
+An issue called "detachment" is a known problem for the intrinsic motivation approach. 
+This occurs when a machine is exploring and forgets about previously discovered areas that are promising but have not been fully explored yet.
+The new Go-Explore algorithms keep track of previously explored areas and explore these spaces further, which in the context of these games is part of what lead to significant improvements in performance these retro games which have stumped traditional reinforcement algorithms.
+A second issue known as "derailment" comes from the fact that traditional algorithms explore new spaces using random actions which could occur at any point in time, which could cause the machine to deviate from an area that actually needs exploring. 
+Go-Explore solves this issue by splitting the process of exploration and revisiting old areas into two separate approaches. 
+This combination of techniques allowed them to teach a machine to master two games which previously eluded researchers in this area of the reinforcement learning community. 

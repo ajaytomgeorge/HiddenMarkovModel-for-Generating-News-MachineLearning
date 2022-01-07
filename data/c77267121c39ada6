@@ -1,0 +1,45 @@
+﻿==== SOURCE
+
+
+
+https://learningenglish.voanews.com/a/facial-recognition-now-used-to-identify-and-follow-animals/5088665.html
+
+==== AGENT
+
+
+
+Researchers at University of Oxford, UK
+
+==== GOAL
+
+They developed a facial recognition neural network to recognize chimpanzees in the 
+wild, allowing them to track them over several generations.
+
+==== DATA
+
+
+
+They used more than 10 million images of animals.
+
+==== METHODS
+
+
+They trained a facial recognition model (presumably pre-trained) on the data. The 
+model distinguished between individual chimpanzees and predicts their sex.
+
+==== RESULTS
+
+
+
+The neural network has an accuracy of 92% for identifying chimpanzees and an 
+accuracy of 96% for identifying their sex. The predictions are done within a few 
+seconds. The researchers compared this to humans, whose accuracy in identifying 
+chimpanzees was about 42% and who needed about 55 minutes for their predictions.
+
+==== COMMENTS
+
+
+
+The article does not go into any technical detail of the neural network. It 
+describes that facial recognition technology is used more and more to track 
+animals such as pigs and cows.

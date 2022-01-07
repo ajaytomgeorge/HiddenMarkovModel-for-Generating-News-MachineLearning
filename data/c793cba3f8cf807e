@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005
+
+== AGENT
+
+Researchers at MIT
+
+== GOAL
+
+Train a robot arm to locate and retrieve items, even when they are buried under a pile
+
+== DATA
+
+Visual data from a camera and radio frequency (RF) information from an antenna 
+
+== METHODS
+
+RL
+
+== RESULTS
+
+Quite successful - RFusion had a 96 percent success rate when retrieving objects that were fully hidden under a pile.
+
+== ISSUES
+
+If the technology was to be used in an industrial/domestic setting, as suggested in the article, it would need to undergo measures that ensure the safety of humans around it.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The wide range of potential applications for this robot arm makes it an exciting achievement. 

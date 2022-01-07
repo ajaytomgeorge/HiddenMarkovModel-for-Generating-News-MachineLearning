@@ -1,0 +1,42 @@
+﻿==== SOURCE
+
+https://phys.org/news/2019-10-scientists-machine-learning-algorithms-automate.html
+
+==== AGENT
+
+The team at Salk's Integrative Biology Laboratory performed this research.
+
+==== GOAL
+
+The aim was to track the traits, or phenotypes, of hundreds or thousands of plants much more quickly, with 
+automated camera systems.
+
+
+==== DATA
+
+A plant's environment helps dictate its structure, which is related to its health. Scientists trying to understand plant growth, engineer more resilient plants or boost crop production often want to measure
+detailed characteristics of a plant's leaves and shoots. To do this phenotyping in a high-throughput way,
+many researchers use camera systems that take images of each plant from various angles and assemble a
+three-dimensional model.
+
+
+==== METHODS
+
+Saket Navlakha, an associate professor in Salk's Integrative Biology Laboratory and Pioneer Fund Developmental Chair, along with UC San Diego graduate student Illia Ziamtsov, used a 3-D laser scanner to scan 54 
+tomato and tobacco plants grown in a variety of conditions. Then, they inputted the resulting 3-D point
+clouds into machine-learning algorithms that let them teach the program how to phenotype the plants.
+The technique involved the researchers first indicating manually where leaves and shoots on the plants were.
+Then, the software began to automatically recognize these features.
+
+The researchers focused on teaching the program to make three phenotype measurements that scientists often use—separating stems from leaves, counting leaves and their size, and outlining the branching patterns of
+a plant. 
+
+
+==== RESULTS
+
+They found they were successful: for example, the method had a 97.8 percent accuracy at identifying stems 
+and leaves.
+
+==== COMMENTS
+
+Navlakha and Ziamtsov want to continue fine-tuning the approach; differentiating two close-together leaves can still be challenging, for instance. And the current version of the software may not work on all types of plants. They hope to generalize the software to work on plants from vines to trees, and also to analyze roots.

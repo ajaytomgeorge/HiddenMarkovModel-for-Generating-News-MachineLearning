@@ -1,0 +1,43 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-54538228
+
+== AGENT
+
+The UK's Alzheimer's Society, IBM Research and Pfizer 
+
+== GOAL
+
+This society is trying to use machine learning to accelerate the process of diagnosis of dementia.
+
+== DATA
+
+The data came from The Framingham Heart Study, an US research project that follows 5000 people.
+The IA works on audio samples of the persones describing a picture.
+
+== METHODS
+
+The IA uses natural language processes (NLP).
+
+== RESULTS
+
+The tests show that the IA is able to predict the apparition of Alzheimer symptoms within the 7 years 
+following the test with an accuracy of 70%.
+
+== ISSUES
+
+Since Alzheimer has no known treatment yet, this experiment is conducted with great ethical care.
+Some people can indeed prefer not to know in advance they will be touched by this disease since 
+there is nothing that can be done about it.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The picture presented to the people taking the test is always the same. The IA looks for grammatical
+mistakes and different sentence structure. If the tool is proven working, it will not give a definitive
+diagnosis but will be an help for doctors. 
+
+

@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://www.sciencedaily.com/releases/2019/10/191002165235.htm
+
+==== AGENT
+
+Biomedical engineers at Duke University 
+
+==== GOAL
+
+The goal of the project was to model the interactions between complex variables in engineered bacteria using machine learning
+
+==== DATA
+
+They used one hundred thousand data simulations to train the neural network with 13 variables such as growth rate and cellular movement.
+
+==== METHODS
+
+By using the one hundred thousand data simulations to train the neural network the similarities between the bacteria which would result is certain patterns.
+and from those be able to predict what the result would be for any future inputted bacteria sample. such as if it was going to be a two or triple ring bacteria.
+
+
+==== RESULTS
+
+The project was a success, machine learning decreased the run time of the calculations required by a factor off three hundred thousand times more efficient.
+this brought the calculations from several hundred years down to just several months.
+
+==== COMMENTS
+
+From reading this case of machine learning it shows me that the potential for predicting the likelihood of someone developing multiple cells (cancer) or 
+other harmful bacteria is becoming closer to reality. Using machine learning people may be able to receive an indication on whether or not 
+they will become ill soon, which would mean the illness could either be caught early or even prevented.

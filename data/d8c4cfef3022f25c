@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.space.com/artificial-intelligence-identifies-new-craters-on-mars
+
+== AGENT
+
+NASA
+
+== GOAL
+
+To help identify new craters on Mars that formed within the last decade
+
+== DATA
+
+Over 112,000 images of the Martian surface taken by the Context Camera on NASA's Mars Reconnaissance Orbiter
+
+== METHODS
+
+- The program was fed over 120,000 and was designed to scan the photos for changes to Martian surface features that indicated new craters.
+- Supervised learning as the program was given images and told to look for changes
+- Program given 6,830 images of identified crates to teach it what a crater looks like
+
+== RESULTS
+
+New cluster of craters identified on Mars that formeed within the last decade
+
+== ISSUES
+
+- AI can't do skilled analysis that a scientist can
+- The photos taken by the Context Camera on the Mars Reconnaissance Orbiter are low resolution and cover 100s of KMs at a time which could cause problems
+
+== SCORE
+
+7
+
+== COMMENTS
+
+- I found this article interesting
+- I think using AI to help scientists identify new craters on Mars is a good idea and wouldn't do it using any other methods
+- I thought the reporting was good and they showed pictures and mentioned thigs said by some of the scientists
+- I think it was an interesting way of using existing photos of the Martian surface to help and find differences faster in new photos and study them

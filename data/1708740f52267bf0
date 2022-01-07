@@ -1,0 +1,28 @@
+==== SOURCE
+
+Information came from https://techcrunch.com/2019/10/04/alteryx-acquires-machine-learning-startup-feature-labs/.
+
+==== AGENT
+
+A company called "Feature Labs", a startup based on research at MIT.
+
+==== GOAL
+
+Feature Labs' goal is to "help both data scientists and business analysts easily gain insight and understand the factors driving their business matches the Alteryx DNA."
+
+
+==== DATA
+
+The article does not make it clear what data Feature Labs work with.
+
+==== METHODS
+
+The article fails to mention the methodology used by Feature Labs. However, it is stated that Feature Labs automates "feature engineering". i.e. Feature Labs uses domain knowledge to extract new variables from raw data that make ML algorithms work.
+
+==== RESULTS
+
+It is revealed that open-source librares developed by Feature Labs have been downloaded more than 350,000 times.
+
+==== COMMENTS
+
+The article is much more focused on the acquisition of a company rather than the work/research the company does in ML and related fields.

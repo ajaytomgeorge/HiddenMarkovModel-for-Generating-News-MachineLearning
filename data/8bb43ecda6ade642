@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.datamation.com/big-data/aws-releases-amazon-quicksight-q-generate-bi-visualizations-questions/
+
+== AGENT
+
+Amazon
+
+== GOAL
+
+To generate BI visualizations from questions
+
+== DATA
+
+User questions and answers
+
+== METHODS
+
+supervised
+
+== RESULTS
+
+The alogrithm is able to generate visual answers to questions along with other features like trying to predict the users question.
+
+== ISSUES
+
+My main issue with this is the amount of data that is stored about a user. Big companies are probably getting to powerfull with the data they have
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Good article and was informative

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.irishnews.com/magazine/science/2020/10/29/news/ai-can-tell-from-brain-scans-who-will-suffer-worst-from-brain-tumour-study-2112949/
+
+== AGENT
+
+Imperial College London
+
+== GOAL
+
+The goal of this study was to see if the size of the temporalis muscle, at its thickest point, in the brains of glioblastoma patients has an affect on the survival rate of patients with tumours.
+
+== DATA
+
+152 brain scans belonging to 45 patients who were diagnosed with glioblastoma between January 2015 and May 2018
+
+== METHODS
+
+In this article they do not specify which type of machine learning was used. They do however mention scanning patients and recording the size of the temporalis muscle at its thickest part. The size of the cross section was then compared to the how well patients responded to treatment and also whether the tumour would prove fatal for the patient in the end. Since the scientists here were given a chunk of data and asked to find conclusions or clusters within that data I would say it was a form of unsupervised learning that was used.
+
+== RESULTS
+
+From the study they were able to conclude that patients with a higher cross sectional area were at a much lower risk of dying and disease progression compared to those with a lower cross section area. The reduction in the risk of death was actually quite high, standing at 60 percent. The reduction in risk of disease progression was even higher at 75 percent. 
+
+== ISSUES
+
+To me, as an outsider looking in, the dataset seems rather small. A total of 45 patients took part in this study. I wonder if they were all from the same hospital and if maybe a confound could arise from the doctor who treated them or at what sage in their life they were diagnosed. I also wonder if the patients cross section was compared in size to other patients of the same age and sex as them in the study who also had cancer or if it was compared accross a national or global average size if such thing exists. If the average size was taken from the study alone there could be multiple ways a confound could arise. The patients who had to have chemo on the same side of the brain as the muscle could have experienced a reduction in the size of the muscle as a result of their treatment, meaning the placement of the tumour would be more important than the size of the muscle. I have no medical training so this is all speculation from reading the article alone. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought the article and the study were both interseting. I would have liked more information from the article itself as I am interested in the details of the study. They do not mention the type of Machine Learning used as well which I think would have benefitted the article. The study will hopefully have a positive impact on patients lives which is brilliant. The only thing I would like to see is a larger dataset being studied from multiple hospitals, maybe that is the next step for them.

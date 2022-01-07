@@ -1,0 +1,39 @@
+## Format
+```
+== SOURCE
+
+https://news.mit.edu/2021/using-ai-and-old-reports-understand-new-medical-images-0927
+
+== AGENT
+
+Steve Nadis
+
+== GOAL
+
+Using AI and old reports to understand new medical images
+
+== DATA
+
+Used the old X-ray reports of patients to develop and train model
+
+== METHODS
+
+K-NN, Unsupervidsed ML
+
+== RESULTS
+
+Can classify and help read X-Ray reports without the presence of speacialist
+
+== ISSUES
+
+Getting relevant data, training the model in such a way that it classifies it in a right category 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This can be done by RCNN or Faster RCNN as well according to me for a better output and training of model
+```
+

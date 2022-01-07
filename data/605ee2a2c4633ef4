@@ -1,0 +1,47 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-019-03228-6
+
+== AGENT
+
+Optum of Eden Prairie
+
+== GOAL
+
+To help US hospitals allocate health care to patients.
+
+== DATA
+
+The data they received was from a large hospital.  The specific data was not mentioned but contained
+sensitive medical history and records of patiants.
+
+== METHODS
+
+The system would of been a supervised logistic regression model.
+
+== RESULTS
+
+Black people had to be sicker than white people before being referred for additional help.
+Only 17% of patients that the algorithm assigned to receive extra care were black.
+The researchers calculate that the proportion would be 46.5% if the algorithm were unbiased.
+
+== ISSUES
+
+There was a bias in the model which resulted in black people being allocated less help than
+white people.  The researchers found that the algorithm assigned risk scores to patients on
+the basis of total health-care costs accrued in one year and say that this assumption might
+have seemed reasonable because higher health-care costs are generally associated with greater
+health needs.  This seemed to be the case as the average black person was also substantially
+sicker than the average white person, with a greater prevalence of conditions such as diabetes,
+anaemia, kidney failure and high blood pressure.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+It artical was somewhat interesting as it did shed some light on the fact that dias models can
+be improved by at least 84% which is a large amount.  Though the artchal did not specifically go
+into much detail about the technology such a specific data.  The press did a mediocar job, as I thought
+they only really suplied superficial information.  But what they did mention they didnt get wrong.

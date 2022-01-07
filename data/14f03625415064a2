@@ -1,0 +1,19 @@
+== SOURCE
+https://www.wired.com/wiredinsider/2019/12/deep-learning-disney-sorts-universe-content/
+== AGENT
+Disney
+== GOAL
+Automatically tag the content with descriptive metadata to make the archiving process more efficient.
+== DATA
+The metadata information about the stories, scenes and characters in Disney’s shows and movies.
+== METHODS
+With assistance of AWS (Amazon Web Services), the team are building machine-learning and deep-learning tools
+== RESULTS
+The machine-learning algorithms, and the metadata they deliver, can power more advanced AI to drive further implicit personalization (based on data relationships and behavior) over time, providing and a multitude of different uses.
+== ISSUES
+Tagging everything manually initially presented a problem, which was resolved by creating advanced machine learning algorithms.
+== SCORE
+9
+== COMMENTS
+These applications have a multitude of uses, and were developed to a very high standard. It seems to have many diverse applications in sales, marketing and archiving and preservation.
+

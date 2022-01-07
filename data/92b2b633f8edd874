@@ -1,0 +1,40 @@
+== SOURCE
+
+How Google Maps uses DeepMind’s AI tools to predict your arrival time - The Verge
+
+How Google Maps is using AI and Machine Learning to understand post-COVID traffic - AI meets ML | The Economic Times (indiatimes.com)
+
+== AGENT
+
+Google
+
+== GOAL
+
+Learning how to predict traffic and time for travel.
+
+== DATA
+
+Data includes live traffic information collected anonymously from Android devices, historical traffic data, information like speed limits and construction sites from local governments, and also factors like the quality, size, and direction of any given road.
+
+== METHODS
+
+Uses Graph Neural Network
+
+== RESULTS
+
+Each day, says Google, more than 1 billion kilometers of road are driven with the app’s help. Created a very efficient application.
+
+== ISSUES
+
+Takes data from android phones anonymously to help predict traffic and travel times so has ethical issues about google probably knowing where you spend most of your time, i.e where you live and work.
+
+== SCORE
+
+7
+
+== COMMENTS
+I think it is a very useful app. It is generally very accurate with time and distance. The app is smart enough that it knows that good, straight roads are better than windy bad roads and recommends accordingly.
+
+
+
+

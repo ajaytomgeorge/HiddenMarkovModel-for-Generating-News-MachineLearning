@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.theregister.com/2021/09/23/greece_al_covid/
+
+== AGENT
+
+Researchers from USC and the University of Pennsylvania
+
+== GOAL
+
+Use ML to pick visitors for COVID-19 checks as they were unable to test every tourist and unable to turn them away
+
+== DATA
+
+Incoming travelers filled out a questionnaire detailing the country and region they were coming from as well as their age and gender. Based on these
+characteristics, the algorithm selected whether they should be tested for COVID-19 upon arrival. It would then take in the test results as feedback and learn from them.
+
+== METHODS
+
+Used multi-armed bandit algorithms, reinforcement learning
+
+== RESULTS
+
+The code identified 1.85 times as many asymptomatic, infected travelers as random testing methods "with up to 2-4 times as many during peak travel"
+It also identified 1.25-1.45 times as many asymptomatic, infected travelers as testing policies that only utilize epidemiological metrics.
+
+== ISSUES
+
+An ethical concern is that there's a high chance of the algorithm being racist, much like "random" checks at airports.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this was interesting, especially because it was a good example of what reinforcement learning is, where the algorithm was both attempting to learn about 
+and solve a problem at the same time. The reporting in the press was reasonable. The method wasn't new but it was an interesting way of solving a problem using
+machine learning.

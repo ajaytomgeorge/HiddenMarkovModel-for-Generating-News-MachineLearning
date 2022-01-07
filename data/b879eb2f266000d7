@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.analyticsinsight.net/freenome-using-molecular-biology-and-machine-learning-to-detect-cancer/
+
+== AGENT
+
+Freenome
+
+== GOAL
+
+Early cancer detection
+
+== DATA
+
+"thousands" of cancer-positive and cancer-negative blood samples
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+Blood tests that could have insights for early cancer detection which leads to prevention
+
+== ISSUES
+
+No data on the diversity of samples or the amount of samples
+
+== SCORE
+
+5
+
+== COMMENTS
+
+A very good concept in theory but not much details were given on the specifics of the ML
+methods or data. This could mean that they are very close to discovery and don't want to give away secrets,
+or there is no headway being made. 

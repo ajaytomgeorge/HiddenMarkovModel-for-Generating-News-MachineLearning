@@ -1,0 +1,217 @@
+== SOURCE
+
+https://www.jpl.nasa.gov/news/news.php?feature=7756
+
+== AGENT
+
+NASA
+
+== GOAL
+
+To increase the number of fresh impact craters found on Mars.
+
+== DATA
+
+Engineers trained the model on 6,830 images that were taken on Context Camera that is aboard the Mars Reconnaissance Orbiter spacecraft. 
+
+== METHODS
+
+NASA engineers used supervised learning techniques to train their classifier to detect fresh impact craters on Mars. 
+
+== RESULTS
+
+The classifier is currently being run on a large database of over 120,000 images to identify potential impact craters. The classifier found a suspected cluster of impact craters on Mars. The suspected cluster was then verified by skilled scientists. The classifier is not currently fully autonomous.     
+
+== ISSUES
+
+The classifier can identify potential impact clusters but cannot verify them. A skilled scientist must verify the craters that the classifier has marked as potential impact craters. I believe the classifier would also need to be trained on a much larger and more diverse image set of impact craters. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+In my opinion the new machine learning model for detecting fresh impact craters on mars has the potential to do great work in the future. Currently it takes scientists on average 40 minutes to analyse an image for impact craters. This classifier can analyse an image in 5 seconds. This is a much more efficient use of resources that would save scientists a lot of time. The classifier can currently work with scientists to speed up the discovery of new craters on mars and help deepen our understanding of the planet.  
+
+== SOURCE
+
+https://www.preventionweb.net/news/view/74274
+
+== AGENT
+
+DeepSense & Dalhousie University Researchers
+
+== GOAL
+
+To support safe and accurate decision making for the Halifax Harbour in Nova Scotia, Canada by predicting wind speed and wave height. Sensor buoys in ports are a critical piece of infrastructure when it comes to making critical decisions when manoeuvring ships in ports. E.g. Docking or berthing a ship to a pier or quay. However these sensors are often a single point of failure when it comes to making critical decisions within a port. This machine learning model aims to predict the wind speed and wave height in the event of sensor failures to allow the safe manoeuvring of ships within ports. 
+
+== DATA
+
+The researchers used data collected over the past 7 years from the Smart Atlantic herring Buoy and Environment and Climate Change Canada Buoy which are located in the port of Halifax and 13km from the port respectively. The data consisted of wind speeds and wave heights. 
+
+== METHODS
+
+Researchers tested 3 machine learning models, the random forest model, support vector machines and a neural network model. They took a supervised learning approach whereby they trained the model on 80% of the training set while the other 20% was used to test the model after training was complete.  
+
+== RESULTS
+
+The researchers found that the random forest model preformed best. On average it had an error of 0.17 metres for wave heights and 1.11 metres per second for wind speed. 
+
+== ISSUES
+
+The big issue I see with regards to predicting wind speed and wave height are extreme weather events and random sudden bursts of waves and gusts of wind that could occur. It is very difficult to predict these events and in that case this system could fail. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I thought that this was an interesting research project as it solved a real problem for Halifax port workers. The model allowed port workers to make more informed decisions when working within the port. E.g. a pilot boarding a moving ship as its coming into port. It was also interesting in the fact that some ports buy more sensors in the case of a failure which is costly. This approach saves money and is pretty accurate.
+
+
+== SOURCE
+
+https://news.mit.edu/2020/anticipating-heart-failure-machine-learning-1001
+
+== AGENT
+
+MIT's Computer Science and Artificial Intelligence Lab
+ 
+== GOAL
+
+The researchers aimed to  augment doctors’ workflow by providing additional information that can be used to inform their diagnoses as well as enable retrospective analyses. They wanted to simplify the process for doctors to distinguish between different severity levels of pulmonary edema which is excess fluid in the lungs. 
+
+== DATA
+
+The model they developed was trained on over 300,000 x-ray images and also on the corresponding text reports about the x-rays that were written by radiologists. 
+
+== METHODS
+
+Researched took a supervised learning approach. 
+
+== RESULTS
+
+The result was presented by identifying the level of severity of pulmonary edema found on a x-ray image. The levels were 0 - healthy, 1 - bad, 2 - very bad, 3 - very very bad. The model correctly distinguished the level of severity over 50% of the time. It correctly diagnosed level 3 90% of the time. 
+
+== ISSUES
+
+I think one issue would be that the training set consisted of reports written by radiologists. Every radiologist has their own way of writing a report of the x-ray. I think there could be a lot of ambiguity here and the model could have difficulty deciphering whether or not radiologists were concluding to the same point in different ways. I believe this could lead to discrepancies in the results. I also think for more accurate results the model may need to be altered and a larger more diverse dataset used. The technique developed by google known as inceptions could also improve the accuracy of the model. 
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I think a system like this has great potential in the future. 
+
+== SOURCE
+
+https://phys.org/news/2020-10-machine-learning-algorithm-infer-thermodynamic-arrow.html
+
+== AGENT
+
+Researchers at University of Maryland
+
+== GOAL
+
+Researchers were trying to determine the direction of the arrow of time. 
+
+== DATA
+
+They used a set of simulated movies of physical processes with corresponding labels indicating backwards and forwards arrows of time. 
+
+== METHODS
+
+They used supervised learning. They trained a neural network to detect the direction of the arrow of time based on a set of simulated movies of physical processes. The movies had corresponding labels indicating whether or not the movie was going forwards or backwards.
+
+== RESULTS
+
+Their algorithm was able to identify the direction of the arrow of time. The researchers found that their algorithm showed that the direction times arrow can be inferred without the need to describe the exact physical process that is taking place. 
+
+== ISSUES
+
+I think one issue is that the researchers did not have a broad enough dataset to fully justify their results. 
+
+== SCORE
+
+4
+
+== COMMENTS
+
+I think that the researchers use of the techniques known as inceptions was very interesting. This technique allowed them to see what exactly goes on inside their neural network and identify the most forward and backward trajectories. 
+
+== SOURCE
+
+https://news.ncsu.edu/2020/10/ai-predicts-exhibit-engagement/
+
+== AGENT
+
+North Carolina State University’s Center for Educational Informatics
+
+== GOAL
+
+The researchers were trying to predict how long museum visitors will engage with exhibits. 
+
+== DATA
+
+The researchers monitored 85 visitors to a museum. The exhibit was on environmental science. The researchers recorded data on the participants facial expressions, posture and where they looked on the exhibit screen. They also recorded what areas of the screen the participants touched. 
+
+== METHODS
+
+The researchers experimented with 5 different machine learning models. They tried different combinations of data and models to determine the most accurate prediction. 
+ 
+== RESULTS
+
+They found that the random forest algorithm worked best. This model even gave significant results using just posture and facial expression data. 
+
+== ISSUES
+
+I think there are a lot of issues with this work. First, the researchers recorded the information on participants. Humans are known to not be completely attentive and could easily have missed significant data. The experiment was also carried out on an environmental exhibit and not any other exhibits. The data is based on only one exhibit and 85 participants. This is not enough data and not a varied and broad enough spread to accurately construct a model to predict how long visitors will engage with exhibits. 
+
+== SCORE
+
+1
+
+== COMMENTS
+
+I believe computer algorithms should have been used to record facial expression and pose estimation. This would result in a more well-rounded result as each human is different and could interpret a facial expression in a different way including people from different cultures. A computer model would also be able to put participants into categories in a more mathematical manner compare to humans. I believe this experiment should be carried out on all continents with a large number of participants from different cultures, social backgrounds and age groups to get a better understanding of visitor engagement at museum exhibits.   
+
+== SOURCE
+
+https://en.wikipedia.org/wiki/GPT-3
+
+== AGENT
+
+OpenAi
+
+== GOAL
+
+To build the most powerful natural language processor in the world. 
+
+== DATA
+
+The model was trained on over 40TB of text data. The data came from multiple sources such as Wikipedia, a dataset called books1 and books2, common crawl and webtext2.  
+
+== METHODS
+
+The model was trained using unsupervised learning techniques. 
+
+== RESULTS
+
+GTP-3 can generate news articles that human evaluators find it difficult to distinguish from articles written by humans. The model also performs well when it comes to translating text, question-answering, unscrambling words and preforming 3-digit arithmetic. 
+ 
+== ISSUES
+
+I think that if access to this system is not closely monitored it could be very dangerous to society. A model this powerful in the wrong hands could generate mass misinformation campaigns and distrust within society.  
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I think that the model is very interesting. OpenAi are helping to push machine learning forward and further the industry. This model has the capacity of 175 billion machine learning parameters which is the largest in the world. I think it will be exciting to see what can be built with this model in the future.
+

@@ -1,0 +1,42 @@
+== SOURCE
+
+https://opengovasia.com/ai-predicts-film-genre-based-on-soundtrack/
+
+== AGENT
+
+USC Viterbi School of Engineering
+
+== GOAL
+
+Using machine learning to predict the genre of a movie based on soundtrack alone. 
+
+== DATA
+
+In their study, the team examined a dataset of 110 popular films released between 2014 and 2019. 
+They used genre classification listed on the online database of information related to films to label each film as action, comedy, drama, horror, romance, or science-fiction, 
+with many of the films spanning more than one of these genres.
+
+== METHODS
+
+They then applied a deep learning network that extracted the auditory information, like timbre, harmony, melody, rhythm, and tone from the music and score of each film. 
+This network used machine learning to analyse these musical features and proved capable of accurately classifying the genre of each film based on these features alone.
+The team also interpreted these models to determine which musical features were most indicative of differences between genres.
+The models didn’t give specifics as to which types of notes or instruments were associated with each genre, but they were able to establish that tonal and timbral features were most important in predicting the film’s genre.
+The researchers examined the auditory information from each film using a technology known as audio fingerprinting. 
+
+== RESULTS
+
+The AI was succesfully able to determine which genre the film was based just on the music alone. 
+
+== ISSUES
+
+There wasn't any issues discussed in the article. 
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I think being able to see how music can change the mood is very cool and maybe this could allow for further examination into various genres.
+It may allow for media companies to take another look at the soundtracks and allow for more creativity. 

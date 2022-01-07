@@ -1,0 +1,38 @@
+== SOURCE
+https://techxplore.com/news/2020-10-artificial-intelligence-students-outcomes-based.html
+
+== AGENT
+
+Ivan Smirnov,
+Leading Research Fellow of the Laboratory of Computational Social Sciences at the Institute of Education of HSE University
+
+== GOAL
+
+A computer model that can distinguish high academic achievers from lower ones based on their social media posts
+
+== DATA
+Posts from publicly viewable VK pages were used as a training sample:
+The prediction model uses a mathematical textual analysis that registers users' vocabulary 
+(its range and the semantic fields from which concepts are taken),
+characters and symbols, post length, and word length.
+Every word has its own rating (a kind of IQ).
+
+== METHODS
+
+Linear regression model
+
+== RESULTS
+
+Smirnov calculated the coefficients for all 2.5 million words of the vector model and made them available for further study.
+Even words that are rarely found in a training dataset can predict academic performance.
+
+== ISSUES
+
+Breach of privacy perhaps
+
+== SCORE
+
+6
+
+== COMMENTS
+Impressive, I didn't think it was possible to do someething this complex with regression models.

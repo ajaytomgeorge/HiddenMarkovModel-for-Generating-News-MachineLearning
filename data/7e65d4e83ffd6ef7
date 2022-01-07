@@ -1,0 +1,42 @@
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/facial-expressions-decoded-in-mice-67370
+
+== AGENT
+
+Nadine Gogolla, International Max-Planck Research School for Molecular Life Sciences, Munich, Germany.
+
+== GOAL
+
+Use machine learning to catalogue a range of emotion-specific facial expressions in mice.
+
+== DATA
+
+Mice were exposed to a diverse set of sensory stimuli such as tail shocks, sweet sucrose, bitter quinine andlithium chloride injections, which induce visceral malaise,
+as well as freezing and escape behaviours.
+The mice's heads were locked in position while their reactions to the senosry stimuli were video monitored. 
+A dataset of their facial movement for each emotion event was created.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+Six specific facial expressions associated with six specific emotions were catalogued.
+Pain from tail shock, disgust from bitter quinine, pleasure from sweet sucrose, malaise from lithium chloride, fear from freezing, flight from escaping
+
+== ISSUES
+
+Animal experimentation. Holding mouse head in place while shocking tail or injecting lithium chloride.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I believe this study was intersting. I think machine learning has the potential to further understand animal communication.
+This facial expression recognition in mice brings us closer to understanding and identifying animal emotions.
+This shows a potential in expanding the facial expression catalogue in many more animals and even learning their verbal expressions.
+Could ML learn how to speak with dolphins?:o

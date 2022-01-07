@@ -1,0 +1,35 @@
+== SOURCE
+
+https://insideevs.com/news/345907/tesla-cars-learning-self-driving/
+
+== AGENT
+
+Tesla
+
+== GOAL
+
+To teach a car to drive by itself.
+
+== DATA
+
+The data used by Tesla is in fact, in the most part, collected by the Tesla cars themselves. The cars all capture footage of good human drivers while they are on the roads and they use this collection of data to learn how to make a wide range of decisions themselves. At the time of this report there were around 400000 cars with the Autopilot hardware driving and capturing a collective 12.5 million miles of footage per day.
+
+== METHODS
+
+So far Tesla have only reported using supervised learning, however it is not unlikely that they are using a combination of both supervised learning and reinforcement learning.
+
+== RESULTS
+
+The results of this machine learning system are still evolving and the fleet of cars collecting data is ever increasing. There is no report in this article about any failures or success with regards Tesla however they do say that Google's Waymo and Intels Mobileye both have run tests with self driving cars on a much smaller dataset of about 75000 miles of driving footage in total, and they both have seen very positive results. This would lead us to believe that Tesla, with a much larger dataset, would also have very positive results as their system continues to evolve.
+
+== ISSUES
+
+I have no issues with this article. It seems to show quite clearly that Tesla's self driving cars are on the way to huge widespread success. I do have some comments though.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+My only remark regards what I have read here is that the article says that Tesla's self driving cars collect data daily from good drivers out on the roads. However as we all know not every driver is good, some are barely competent, so I would have liked to know how Tesla distinguishes a good from a bad driver so that footage of bad drivers doesn't become a part of the training set. 

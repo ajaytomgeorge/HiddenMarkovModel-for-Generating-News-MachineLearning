@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-54538228
+
+== AGENT
+
+The UK's Alzheimer's Society
+
+== GOAL
+
+To detect the onset of Alzheimer's disease with a 70% accuracy.
+
+== DATA
+
+The data used came from The Framingham Heart Study, a US research project into 5,000 people and their families that has been ongoing since 1948.
+
+
+== METHODS
+
+The AI model, developed by IBM Research and pharmaceutical giant Pfizer, uses natural language processing to analyse short excerpts of speech taken from the Cookie Theft cognitive test. 
+
+== RESULTS
+
+The key finding is that seven years in advance of clinical diagnosis, the model can say with 70% accuracy that people will go on to develop Alzheimer's.
+
+== ISSUES
+
+Though the study was excellent and the way that the system was modelled was exceptionally good the mortality rate impacts the size of the data directly as the people might die before
+developing the symptoms for Alzheimer's disease of any other causes.
+
+== SCORE
+
+8.5
+
+== COMMENTS
+
+It was interesting and a great concept of predicting the disease way before than it could have been diagnosed by a human.I am unsure about number of records in the dataset as
+it was not mentioned in the article but i would try to increase the number of samples taken due to the mortality rate in old age.As it may occurs that the data coud not be taken
+for old people dying of any other causes before they begin to feel the symptoms of alzheimers'disease. The accuracy of 70 percent is good though.

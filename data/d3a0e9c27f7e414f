@@ -1,0 +1,27 @@
+== SOURCE
+https://towardsdatascience.com/pix2pix-869c17900998
+https://arxiv.org/abs/1611.07004
+== AGENT
+Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros
+== GOAL
+A general purpose solution to image-to-image translation problems.
+== DATA
+They used a variety of datasets to train and test their network. Some of
+which are called “Cityscapes”, “Sketch” and “CVUSA” in the “Code & Data”
+section of the latter link in the Source section of this review.
+== METHODS
+This uses a Conditional-GAN framework. The conditioning image, x is applied
+to the input to the generator and as input to the discriminator. The
+learning is supervised.
+== RESULTS
+It is very hard to evaluate the performance of such a project, however,
+they did use
+== ISSUES
+I don’t see any issues with the work. The outputs look amazing and there
+isn’t a clear way to evaluate the work even if I were to try do so.
+== SCORE
+8
+== COMMENTS
+This was really interesting to me. I tried the pix2pix sandbox and it
+looked very realistic. This could be used to generate images for more
+serious things such as maps.

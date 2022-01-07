@@ -1,0 +1,29 @@
+#4
+
+== SOURCE
+https://towardsdatascience.com/using-yelp-data-to-predict-restaurant-closure-8aafa4f72ad6
+
+== AGENT
+Michail Alifierakis, PhD candidate at Princeton University
+
+== GOAL
+To make a model that evaluates whether a restaurant is likely to succees or fail within the next four years.
+
+== DATA
+Yelp’s business rating prediction dataset
+
+== METHODS
+Linear logistic regression model
+
+== RESULTS
+The results from the model are promising and it defines whether a restaurant will remain open or not. It has been seen that if the restaurant is a part of chain then it closes less frequently.
+
+== ISSUES
+The health inspection data was not present and information about the surrounding venues.
+
+== SCORE
+8
+
+==COMMENTS
+It is very interesting that using ML is not limited to any particular field. It is a good improvement in the food industry to predict the performance and take the necessary measures. This will help in feedbacks to improve service to users as well as restaurants’ owners.
+

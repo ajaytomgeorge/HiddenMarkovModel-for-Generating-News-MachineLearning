@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.inaturalist.org/pages/computer_vision_demo
+
+== AGENT
+
+iNaturalist
+
+== GOAL
+
+To map and share observations of biodiversity across the globe
+
+== DATA
+
+Uses large database of the "research grade" observations built by its users.
+
+== METHODS
+
+Unsupervised neural network
+
+== RESULTS
+
+iNaturalist has captured 3.8 million observations from over 350,000 contributors, spanning more than 100,000 species
+
+== ISSUES
+
+Low quality observations, problems with misidentifications because of poorly informed AI.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Interesting use of AI, uses modern neural networks to spread awareness for biodiversity.
+Reporting from press has died down since 2018. Method not fully disclosed to public.
+As low quality observations cause problems, I would only allow use in certain conditons,
+eg lighting, good camera quality

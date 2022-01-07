@@ -1,0 +1,64 @@
+== SOURCE
+
+> Google teaches “AIs” to invent their own crypto and avoid eavesdropping
+https://arstechnica.com/information-technology/2016/10/google-ai-neural-network-cryptography/
+paper: https://arxiv.org/pdf/1610.06918v1.pdf
+
+== AGENT
+
+Google Brain
+
+== GOAL
+
+Demonstrate that the neural networks can learn how to perform forms of encryption and decryption, and also how to apply these operations selectively in order to meet confidentiality goals.
+
+== DATA
+
+They constructed a dataset consisting of tuples of four values, <A, B, C, D>.
+
+== METHODS
+
+General Adversarial Network
+
+Three "actors" (AIs)
+- Alice
+	- Had to send an secure message to Bob
+- Bob
+	- Had to decrypt Alice's message
+- Eve
+	- Eavesdrop on the message and try to decrypt it
+
+Alice and Bob start with a shared secret key, an advantage over Eve
+
+The AIs were not told how to encrypt, decrypt or what cryptography techniques to use
+
+Loss Function:
+- Eve
+	- Distance function, measured in correct and incorrect bits between Alice's plaintext and Eve's guess
+- Alice
+	- Loss if Eve's guess is better than random guessing
+- Bob
+	- loss if Bob's guess is too far away from Alice's plaintext
+
+== RESULTS
+
+Mixed
+- Some runs Bob was not able to decrypt Alice's message
+- There were occasions where Eve performed better than random guesswork
+	- When this occurred Alice & Bob improved their cryptography until Eve had no chance
+
+NN can be used to secure communications without informing the NN how to secure it
+
+== ISSUES
+
+Work was not conclusive, an exhaustive analysis of the encryption methods used by Alice and Bob was not performed. Only some methods of cryptography were used, e.g. stenography was not used.
+Eve's NN might not have been able to crack public key encryption, but perhaps her NN might be suited to also look at traffic analysis
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Interesting use of ML, but its use against proven techniques such as RSA, DSA is not elaborated on.
+Maybe if the AIs were given some knowledge of proven techniques in training, they could have improved upon them

@@ -1,0 +1,42 @@
+== SOURCE
+
+https://www.genengnews.com/news/artificial-intelligence-system-improves-breast-cancer-detection/
+
+== AGENT
+
+Researchers from NYU and NYU Abu Dhabi (NYUAD) 
+
+== GOAL
+
+To improve breast cancer detection, but the primary goal of the AI system was to reduce the frequency of false-positive findings
+
+== DATA
+
+The AI system was developed and evaluated using the NYU Breast Ultrasound Dataset41 consisting of 5,442,907 images within 288,767 breast exams (including both screening and diagnostic exams).
+These were collected from 143,203 patients examined between 2012 and 2019 at NYU Langone Health in New York.
+
+== METHODS
+
+They adopted the weakly supervised learning paradigm to train models at scale without the need for image-level or pixel-level labels. 
+This paradigm enables the model to generate interpretable saliency maps that highlight informative regions in each image. 
+
+== RESULTS
+
+The system achieved higher accuracy than the ten radiologists on average. 
+However, a hybrid model that aggregated the predictions of the AI system and radiologists achieved the best results in accurately detecting cancer in patients.
+They also showed that the collaboration between AI and radiologists can significantly improve their specificity and obviate 27.8% of requested biopsies. 
+
+== ISSUES
+
+I cant see any issues with this.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I think this is great that people are starting to find ways to use AI to help battle against big diseases such as cancer. 
+I like the way that they were collecting data as far back as 2012 to use for this project and like that the dataset is so big so the outcome can be 
+as accurate as it can. I thought the article was very informative and very interesting and it even gave us the link for the published findings which
+I found very helpful!   

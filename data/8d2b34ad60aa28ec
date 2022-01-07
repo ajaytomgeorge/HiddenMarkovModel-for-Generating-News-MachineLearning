@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.rte.ie/news/technology/2017/1025/915154-how-artificial-intelligence-can-reduce-marathon-times/
+
+== AGENT
+
+Professor Barry Smyth from the Insight Centre for Data Analytics
+
+== GOAL
+
+To be able to predict a challenging but achievable possible personal best time for a marathon runner, based on their recent run(s)
+
+== DATA
+
+
+
+== METHODS
+
+Used Case Based Reasoning to estimate how much someone could improve based on times and pacing profiles of runners similar to the runner in question
+
+== RESULTS
+
+Smyth estimated that, for those who ran the London marathon, those who ran it in 150 minutes could improve their time by about five minutes. Among men who completed it in four hours, a 22 minutes improvement was possible, with 17 minutes being the new personal best for women running at the same pace.
+
+== ISSUES
+
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The article is vague about the data set, merely saying that Smyth "has been collecting and analysing race data from millions of marathon runners around the world for some time." 

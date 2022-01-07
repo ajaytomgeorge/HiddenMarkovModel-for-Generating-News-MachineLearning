@@ -1,0 +1,23 @@
+==== SOURCE
+
+https://www.nature.com/articles/s41586-019-1335-8
+==== AGENT
+
+Lawrence Berkeley National Laboratory 
+
+==== GOAL
+
+GO through scientific papers to find data that was missed by humans using word2vec 
+==== DATA
+
+They used data from 3.3 million abstracts and extracted a vocabulary of 500000 words.
+==== METHOD
+
+The 500000 words were fed into word2vec which analyzed the relationship between the words
+==== RESULTS
+
+The researchers tried this on older papers and realised that they could have discovered ideas earleir if this method was used
+
+==== COMMENTS
+
+This would be a great use of machine learnign to help humanity progress further quickly

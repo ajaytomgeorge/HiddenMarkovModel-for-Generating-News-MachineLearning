@@ -1,0 +1,37 @@
+== SOURCE
+
+https://towardsdatascience.com/beating-the-fantasy-premier-league-game-with-python-and-data-science-cf62961281be
+
+== AGENT
+
+Dilyan Kovachev
+
+== GOAL
+
+Use machine learning to improve their fantasy premier league performance. The final goal of the project was to write a Python Algorithm, which uses the data from an analysis to make “smart” picks and build the most optimal Fantasy League squad given the limited budget of 100MM
+
+== DATA
+
+Looked at indivdual team & player stats.
+
+== METHODS
+
+Unsupervised. Custom algorithm built around the data available. 
+
+== RESULTS
+
+The final results showed that the team scored a total of 944 points vs. only 812 pts for an average Joe team (similar to a handpicked team with no extensive analysis used in determing the team), which is a significant 132pt difference! 
+This deep dive into the player data allowed them to realize that they were allowing team favoritism and a tendency to buy a lot of the overpriced players to hurt their overall Fantasy League performance
+
+== ISSUES
+
+Technically having to choose a desired formation for the model removes the possibilty of comparing different formations and how the model would differ on those formations. Price changes in players on the market means the budget is a changeable variable that means adjusting the model down the line will have an added layer of complexity.
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Interesting way of using simple if-else logic to remove human bias. I would have included further comparison versus the top performing fantasy premier league teams throughout the season. 

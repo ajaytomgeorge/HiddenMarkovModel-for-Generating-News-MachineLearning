@@ -1,0 +1,50 @@
+== SOURCE
+
+https://www.lemonde.fr/les-cles-de-demain/article/2019/05/24/l-ia-permet-de-piloter-des-systemes-de-videosurveillance-a-grande-echelle_5466483_4758288.html
+
+== AGENT
+
+IBM
+
+== GOAL
+
+They are trying to create an AI able to analyse in real time the images of
+video monitoring in the airport. The final goal is to allow a better and 
+faster reaction in crisis situations, as abandoned luggages or dubious behaviour.
+
+== DATA
+
+The data used come from the videos already recorded in several airports.
+
+== METHODS
+
+Not mentioned, probably supervised
+
+== RESULTS
+
+For now, the AI is able to recognize a person or an object on distances of 10,
+15 or 100 meters. However it is for now impossible to determine whether something
+is dubious or not.
+
+== ISSUES
+
+The biggest technical issue is the lack of processable images. For example, to 
+train the AI to recognize an abandoned bag, the database need to contains a 
+huge number of pictures representing this situation. However, a bag that is a few
+meters away from his owner is not necessarily abandoned.
+Moreover, to be applied to airports and train station, the AI has to be able to 
+manage the lightning variation depending of the time of the day and the period
+of the year.
+Finally, this technology is controversial as it will allow its owner to track 
+the people very easily.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+The article gives not a lot of technical informations but was quite
+honest about the limits that this technology encounters.
+
+

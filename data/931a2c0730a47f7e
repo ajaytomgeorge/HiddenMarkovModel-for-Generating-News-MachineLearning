@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.eurekalert.org/news-releases/929293
+
+== AGENT
+
+Yi “Edwin” Sun, researcher at the Beckman Institute Biophotonics Imaging Laboratory 
+
+== GOAL
+
+Enhance cancer image-based diagnostics by making them more accurate, faster and cost-effective.
+
+== DATA
+
+It uses historical data (images of cancerous cells) from the OCT machine to train their neural network.
+
+== METHODS
+
+The laboratory uses a supervised learning method which learns from historical data. With the image from the OCT system, the neural network uses segmentation and classification to analyze the image’s property.
+
+== RESULTS
+
+It matched with the OCT results with a deeper-level than the PS-OCT method.
+
+== ISSUES
+
+While a success was made, it is still in the development phase. More years of data is needed to go for clinical trials.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is interesting to see how deep learning can enhance diagnostics in the medical field with better precision while being cost efficient.
+The article was correctly done which explained the main words to describe the topic as simply as possible. 
+The approach of using deep learning in the medical field isn't new but it shows again the power of it with diagnostics.
+It shows also that a lot more improvement can be done in many more fields if using deep learning methods.
+

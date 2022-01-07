@@ -1,0 +1,25 @@
+== SOURCE
+https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientificdiscovery
+== AGENT
+Google AlphaFold
+== GOAL
+They were trying to solve the protein folding problem to win the CASP
+competition
+== DATA
+They were given data on protein structures in crystals by the EMBL-EBI
+research centre for training their model.
+== METHODS
+They used deep neural networks to first predict the distances between pairs
+of amino acids and also to predict angles between chemical bonds that
+connect those amino acids. They also used a separate neural network that
+used the distances in aggregate to estimate how close the proposed
+structure is to the right answer. This is a means of supervised learning.
+== RESULTS
+They won the competition with 92.4% accuracy
+== ISSUES
+I can’t spot anything I would’ve done differently. AlphaFold is phenomenal.
+== SCORE
+9
+== COMMENTS
+This was interesting because they managed to solve a massive problem in
+biology with extreme accuracy. Incredible work.

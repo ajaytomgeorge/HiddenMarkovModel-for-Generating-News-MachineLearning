@@ -1,0 +1,44 @@
+﻿==== SOURCE
+
+
+
+https://www.medicalnewstoday.com/articles/326635.php
+
+==== AGENT
+
+
+
+Dr. Baker at University of Strathclyde, Glasgow, UK
+
+
+
+==== GOAL
+
+They developed a neural network to detect brain tumors using a blood test.
+
+==== DATA
+
+
+
+They collected their own data using attenuated total reflection-Fourier transform 
+infrared spectroscopy on blood samples, thus being able to get a biochemical 
+"fingerprint" of brain cancer.
+
+==== METHODS
+
+
+They used the "fingerprint" they detected from the data to train the neural network.
+
+==== RESULTS
+
+
+
+The article reports that the neural network has a sensitivity of 83.3% and a 
+specificity of 87%.
+
+==== COMMENTS
+
+
+
+The article presents the results of the paper as a possible cost effective way to 
+help diagnose brain tumors in the future. It does not go into technical detail.

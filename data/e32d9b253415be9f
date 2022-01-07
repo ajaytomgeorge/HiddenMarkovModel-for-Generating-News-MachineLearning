@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.frontiersin.org/articles/10.3389/fncom.2019.00009/full
+
+==== AGENT
+
+Perinatal Institute, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, United States and the Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH, United States.
+
+==== GOAL
+
+Enhance the diagnosis of autism with optimized Machine learning models. 
+
+==== DATA
+
+They extracted six personal characteristics from 851 subjects in the autism brain imaging data exchange database.
+
+==== METHODS
+
+They used age, sex, handedness, and three individual measures of IQ to determine if a person is likely to have autism.
+
+==== RESULTS
+
+It went ok. However they could have benefited from more characteristics.
+
+==== COMMENTS
+
+The use of machine learning to detect autism based on some commonly shared human characteristics can open up a whole new world of diagnosis capabilities. If this approach becomes more mainstream then the diagnosis of other conditions by the use of technology would make medical science more accessible to developing countries.

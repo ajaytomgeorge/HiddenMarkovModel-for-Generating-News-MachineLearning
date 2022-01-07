@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+Ken Kingery (2019). Machine learning predicts behaviour of biological circuits. Available at: https://techxplore.com/news/2019-10-machine-behavior-biological-circuits.html
+
+==== AGENT
+
+Biomedical engineers at Duke University.
+
+==== GOAL
+
+To predict behaviours of biological circuits.
+
+==== DATA
+
+They provided 100,000 data sets and each of those is with 13 bacterial variables such as the rate of growth, diffusion, protein degradation and cellular movement, etc.
+
+==== METHODS
+
+Since they only focused on the final results for some applications, they referred to a deep neural network machine learning model, which takes model variables as input, assigns weights at first, then output predictions. this method worked faster than the original one due to skipping intermediate steps.
+
+==== RESULTS
+
+This system was 3000 times faster than the existing computational model and could find patterns and interactions between complex variables in bacteria that otherwise would not have been uncover.
+
+==== COMMENTS
+
+When the machine came up with a certain output, it is hard to find and understand why and what caused it to put such prediction if skipping all intermediate steps. while this model provides a faster run time, the development takes much longer for a cumbersome subject.

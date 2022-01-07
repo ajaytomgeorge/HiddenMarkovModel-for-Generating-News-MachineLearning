@@ -1,0 +1,33 @@
+﻿==== SOURCE
+
+https://news.mit.edu/2017/new-ai-tool-improves-cognitive-testing-0310
+
+
+==== AGENT
+
+This project is a collaborative effort of Professor Randall Davis, an expert in knowledge-based systems and human-computer interaction at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), and Dana Penney, the director of neuropsychology in neurology at Lahey Hospital and Medical Center.
+
+
+==== GOAL
+
+The aim was to improves a classic tool for diagnosis of Alzheimer, the Clock Drawing Test (CDT), perhaps offering an opportunity for pharmaceutical companies to develop medications that target the earlier stages of the disease.
+
+
+==== DATA
+
+Davis and Penney worked with a team, including then-graduate student William Souillard-Mandar ’12, MEng ’15, to improve the test by using a digitizing pen that captures time-stamped pen coordinates, allowing them to analyze both the product — the drawing — and the process used by the subject to draw it. Over a 10-year study, Penney and her colleagues administered this novel version of the test to some 4,000 subjects; they then used machine learning techniques to create prediction models that resulted in substantially more accurate detection of impairment than the methods routinely used by clinicians.
+
+
+==== METHODS
+
+The analysis was split into two phases: understanding what the individual drew, for instance that a set of pen points represents a clock’s minute hand, and, based on that understanding, deriving clinician-interpretable metrics that assess cognitive function together with an overall test outcome. It was that second phase where they have worked to make their models interpretable, so a clinician can easily understand how the algorithm reached its decision.
+
+
+==== RESULTS
+
+The new test saves time, boosts accuracy, and it is easy to use and inexpensive. “The earlier you can detect an illness, the earlier you can treat and make lifestyle changes that can help,” said Davis. “There are drugs that can slow down the progress of the disease. So the earlier you start the more effective the drugs might be.
+
+
+==== COMMENTS
+
+The use of machine learning techniques in the healthcare industry has always been my area of interest and this piece of excellence from Davis and Penney escalates my passion in this domain even more.  

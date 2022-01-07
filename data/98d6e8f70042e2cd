@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/10/07/mit-researchers-open-sourced-maddness-an-ai-algorithm-that-speeds-up-machine-learning-using-approximate-matrix-multiplication-amm/
+
+== AGENT
+
+Researchers at MIT
+
+== GOAL
+
+To quickly and efficiently approximate Matrix Multiplication to increase the speed of machine learning.
+
+== DATA
+
+This project usess the CIFAR-10 and CIFAR-100 datasets.
+
+== METHODS
+
+The project proposes a collection of efficient hashing functions rather than the standard multiply-add operations typically used in Approximate Matrix Multiplications. 
+
+== RESULTS
+
+The MADDNESS algorithm was compared to six different AMM algorithms, and proved to be approximately 10 times faster than the other algorithms, though it does have an accuracy tradeoff. 
+
+== ISSUES
+
+There is some less created by using this method, but the researchers proved it had an upper bound that was offset by the speed increase.
+
+== SCORE
+
+9
+
+== COMMENTS
+The code and raw numerical results are all publicly available, which is highly commendable. 
+This research also shows sigficant improvements over any other type of AMM available at the moment, which is a big step forward to reduce computation required for typical matrix multiplication. This could have a large impact on machine learning model runtimes.

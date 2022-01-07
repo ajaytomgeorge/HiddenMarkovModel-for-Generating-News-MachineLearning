@@ -1,0 +1,97 @@
+1. 
+== Source: https://towardsdatascience.com/netflix-recommender-system-a-big-data-case-study-19cfa6d56ff5
+== Agent: Netflix
+== Goal: Implementing a better recommendation system
+== Data: They used a set of several billion ratings from users
+== Method: 107 algorithms were used to make a single recommendation to a user. These algorithms included Matrix factorization, Singular Value Decomposition and Restricted Boltzman Machines.
+== Result: The personalization of users Netflix accounts have saved                                         Netflix more than $1Billion per year. 75% of content people watch is provided by the recommendation system.
+== Issues: no issues arose as the new method was crowdsourced 
+== Score: 5 – ok 
+== Comments: the way in which Netflix created its recommendation system was interesting, they held a competition in 2006 offering $1milion to whoever could improve upon their own cinematch system by 10%.
+
+
+
+2. 
+== Source: https://arxiv.org/pdf/1703.02596.pdf
+== Agent: Asos
+== Goal: To determine each Customers lifetime value(CLTV) by improving on their previous CTLV system.
+== Data: Uses Customers location, purchase and returns history from past 2 years. Also uses users web and app session logs.
+== Method: Using a Training feedforward neural network in a supervised setting. A Customer embedding model is used. The model uses two weighted matrices that learn distributed representations of customers.
+== Results: The feed forward neural network approach was an improvement on their previous method of only using handcrafted features but the cost of implementing the system deterred Asos thus Asos are sticking with their old approach.
+== Issues: A machine learning approach was too costly for the improvements on the previous system.
+== Score: 3 – not very cool
+== Comments: there was nothing interesting or new in how Asos collected or used its data. They successfully designed a machine learning method to benefit the company but was never implemented for financial reasons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. 
+== Source : https://medium.com/tech-quizlet/spaced-repetition-for-all-cognitive-science-meets-big-data-in-a-procrastinating-world-59e4d2c8ede1
+== Agent: Quizlet
+== Goal: using machine learning to improve human learning
+== Data: Quizlet uses data from their 50 million active users and 300 million study sets.
+== Method: A trained machine learning model using logistic regression. It attempts to minimize the error between predictions it generates and the observed results. These predictions are interpreted as recall probability.
+== Results: Quizlet used the AUROC method evaluate their approach. Where a value of 1 would indicate perfect predictions and 0.5 would indicate random guessing. Their AUROC result was 0.815
+== Issues: Quizlets model was trained on old question types which only includes written questions, so it is unable to identify that multiple choice questions are easier to answer than written questions.
+== Score: 4 – medium coolness
+== Comments: the idea of developing a machine learning system could understand the human learning process and unlock more potential from people is an interesting concept but Quizlets method works specifically for its formulated questions, additionally Quizlets method doesn’t account for other styles of questioning.
+
+
+
+
+
+
+4. 
+== Source: https://arxiv.org/pdf/1711.10433.pdf
+== Agent: Google
+== Goal: Fast High-Fidelity Speech Synthesis
+== Data: Raw 16-bit audio
+== Method: Probability density distillation – it uses a trained WaveNet model as a teacher for a feedforward inverse autoregressive flow model.
+== Results: As a result their proposed model was quicker than the original WaveNet by multiple orders of speed magnitude. The algorithm was also transferred to different languages and multiple speakers. This system was deployed in production at Google and is currently used to serve Google assistant queries in real time to millions of users.
+== Issues: Using the Probability density distillation method alone wasn’t sufficient to generate high quality audio streams, so power loss and perceptual loss functions were used to ensure that the student wouldn’t go to a state of whispering and bad pronunciation would be penalized. 
+== Score: 7 – pretty cool
+== Comments: Google have created a brand new, interesting  machine learning method called Probability density distillation. It fuses parts of the wavenet model with inverse autoregressive flows. The idea of this process is that the student will attempt to match the probabilities of its samples based of the distribution the teacher has learned. This method is different from Generative Adversarial Networks as the student never attempts to fool the teacher, instead the student is always working with the teacher to match each other’s probabilities.
+
+
+
+
+5. 
+== Source: https://engineeringblog.yelp.com/2015/10/how-we-use-deep-learning-to-classify-business-photos-at-yelp.html
+== Agent: Yelp
+== Goal: Use deep learning to classify business photos
+== Data: tens of millions of photos uploaded by users on Yelp
+== Method: Yelp classifies the data through photo captions, photo attributes and crowd sourcing. Deep convolutional neural networks recognize the classes. This consists of convolutional, rectified linear unit, pooling and normalization layers. 
+== Results: Yelps photo classification service was tested on 2,500 photos and the current classifier had a precision of 94%. This service has since been expanded beyond one classifier 
+== Issues: None
+== Score: 2 – not that interesting
+== Comments: not a very interesting idea nor is it very ambitious.
+
+
+
+6. 
+== Source: https://www.datavisor.com/technology/
+== Agent: DataVisor
+== Goal: Using machine learning for fraud detection
+== Data: Uses millions of user accounts to check for legitimacy
+== Method: DataVisor uses am unsupervised machine learning engine that combines clustering techniques with graph analysis to discover correlated fraudulent suspicious patterns from unlabelled data.
+== Result: Now DataVisor successfully protects more than three billion accounts worldwide.
+== Issues: Traditional businesses have had fraud prevention policies in place, but such policies were not designed for the digital world. As online fraud is ever-evolving, it was hard to implement a proactive detection system.
+== Score: 5 – ok 
+== Comments: cool idea but is hard to apply a model to a methodology that is continuously evolving. Ambitious but not very practical
+

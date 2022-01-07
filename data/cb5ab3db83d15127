@@ -1,0 +1,18 @@
+== SOURCE
+https://www.wired.com/2012/06/google-x-neural-network/
+== AGENT
+Google
+== GOAL
+To build a large neural net, giving it massive computing power using Google’s server resources, and feeding it a massive data set of images. This neural network was to learn how to recognize objects, given unlabelled data.
+== DATA
+10 million unlabelled screen grabs from YouTube.
+== METHODS
+Unsupervised learning. Deep Learning.
+== RESULTS
+The system achieved 81.7 percent accuracy in detecting human faces, 76.7 percent accuracy when identifying human body parts and 74.8 percent accuracy when identifying cats.
+== ISSUES
+Obviously the system’s ability to identify objects depends on how often that particular object appeared in the training data. This explains why the system was so willing to identify cats and humans; Youtube is filled with examples of these. However, it was much less capable of identifying other objects, with an accuracy of about 15.8% in identifying 20’000 object categories. This is still however, a huge increase over the next best system for unsupervised recognition of patterns.
+== SCORE
+7
+== COMMENTS
+I thought this was a very interesting project. Without providing any labels, the system was to figure out patterns from random images. This was the first example of building high-level features using unsupervised machine learning. Of course, a model could much been more easily trained had the images been labelled “is human face” or “is not human face”, but that defeats the purpose and what is interesting about this project.

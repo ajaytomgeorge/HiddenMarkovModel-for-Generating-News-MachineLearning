@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/10/201029105038.htm
+
+== AGENT
+
+Los Alamos National Laboratory
+
+== GOAL
+Develop a natural-gas leak-detection tool that uses sensors and machine learning to locate leak points at oil and gas fields, promising new automatic, affordable sampling across vast natural gas infrastructure.
+
+== DATA
+
+The code is trained using Los Alamos National Laboratory's high resolution plume dispersion models and the training is finessed on-site by controlled releases.
+
+== METHODS
+
+They used a neural network that detects, locates and quantifies a natural gas leak based on real-time methane and ethane (in natural gas) and atmospheric wind measurements. This would be considered supervised learning.
+
+== RESULTS
+
+Test results using blind releases at an oil and gas well-pad facility at Colorado State University in Fort Collins, Colorado, demonstrated that the ALFaLDS locates the engineered methane leaks precisely and quantifies their size.
+ALFaLDS's success in locating and quantifying fugitive methane leaks at natural gas facilities could lead to a 90 percent reduction in methane emissions if implemented by the industry
+
+== ISSUES
+
+The report referenced an academic paper that was peer reviewed. The device was trained and tested using different data sets from different locations with promising results. 
+
+== SCORE
+6
+
+== COMMENTS
+
+I think this is a simple device that could save lives. It is easily installed and shows good results. 

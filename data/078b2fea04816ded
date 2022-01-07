@@ -1,0 +1,41 @@
+==== SOURCE
+
+- [1.1] https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+- [1.2] https://www.quora.com/How-big-is-the-Spotify-Machine-Learning-team
+- [1.3] https://en.wikipedia.org/wiki/The_Echo_Nest
+
+
+==== AGENT
+
+The Echo Nest, a music intelligence platform, bought by Spotify on March 6, 2014 was in charge of some of Spotify’s recommendation features, such as their “Discover Weekly” feature.
+
+==== GOAL
+
+Their goal was to design a recommendation feature that is deeply personal to the user, and that always recommends the right song.
+
+==== DATA
+
+Spotifys data comes from multiple sources and looks different from each source. Their three main sources are:
+    1. Your behaviour on Spotify. Mainly what tracks you have liked. (Collaborative Filtering [CF])
+    2. Metadata such as the title, artist, genre. (Natural Language Processing [NLP])
+    3. The raw audio data of the songs you have listened to. (Audio Models [AM]).
+
+
+==== METHODS
+
+Spotify uses 3 methods to interpret their 3 kinds of data. 
+
+Collaborative Filtering is the process of taking the users liked songs and recommending the same songs to other similar users. This powers their recommendation model by essentially saying, if user_0 likes songs A - D, and user_1 likes songs B - E, then it's highly likely that user_0 also likes song E, and user_1 will more than likely like song A. 
+
+Natural Language Processing tracks words said about artists, genres and songs by crawling into the internet to find them. "Each artist and song had thousands of top terms that changed on the daily. Each term had an associated weight, which correlated to its relative importance — roughly, the probability that someone will describe the music or artist with that term."[1.1, Sophia Ciocca] These scores are so-called cultural vectors and much like Collabrative Filetering, these vectors are mapped into a multi-dimensional space and then compared. This shows similarities between the songs.
+
+Raw audio models add more and neccessary information to the system about songs that maybe only have 50 listens, which means there's not a lot of user data on that particular song. In this case, raw audio models take this seemingly abstract data and run it through what is called a Convolutional Neural Network (CNN). Spotify themselves use 4 convolutional layers, and 3 dense layers. "The audio frames go through these convolutional layers, and after passing through the last one, you can see a “global temporal pooling” layer, which pools across the entire time axis, effectively computing statistics of the learned features across the time of the song." [1.1, Sophia Ciocca]. The machine ultimately produces a time-frequency understanding of the above data. This shows certain key characteristics of the data such as the key, tempo, loudness, time-signature and mode (sort of like the key of the key signature). All of these characteristics then are used to recommend other songs of similar musical characteristics. 
+
+==== RESULTS
+
+The essential and desired result was a song recommendation engine that provided a good experience for a lot of users. Sophia Ciocca who was referenced previously loves the Discover Weekly feature but some posts in the spotify community forum say that it never suits their own taste. "Started a radio based on the artist Colin Hay. Spotify seems to think this means I like music by random guys named Colin. Surely this must be a mistake? Please fix this because it sucks."[Comment taken from Spotify’s community fseorum]. Whether this is true or not, Spotify seems to have a slight cold start problem resulting in initial data not actually representing the musical taste of the user.
+
+==== COMMENTS
+
+I love talking about music and the idea that Artificial Intelligence could completely take over the need of searching for your next favourite song. I feel that Sophia Ciocca's story missed explaining the real function of the 3 dense layers in the CNN. She also missed explaining that the audio samples themselves were time-frequency transformed and put through a spectrogram (probably filtered as well). It seems to me from the diagram, that the spectrogram image was inputted into the CNN. That ambiguity makes me wonder if the CNN is working on the raw audio, or filtered, pre-processed audio.
+

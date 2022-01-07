@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.eurekalert.org/news-releases/927062
+
+== AGENT
+
+Childern's National Hospital
+
+== GOAL
+
+Detect the risk of genetic syndromes in childern with diverse backgrounds
+
+== DATA
+
+2800 Facial photos of childern from 3 public databases, including the Atlas of Human Malformations in Diverse Populations and Face2Gene. Photos from Childern's National Hospital, Demographic data from medical records.
+
+== METHODS
+
+Deep Learning, Image standardisation, facial morphology detection, genetic syndrome risk estimation. Softmax
+
+== RESULTS
+
+Detection average accuracy of 88%.
+
+== ISSUES
+
+Dispite positive results, I believe that the small sample size could be limiting the accuracy of detection.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+An interesting use of Machine Learning, with a lot of potencial to help healthcare. Hopefully after this work is used, more data will be gathered to further accuracy and maybe use the techniques for similar detection tasks.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.irishtimes.com/news/health/ai-system-found-to-detect-breast-cancer-better-than-experts-1.4128713
+
+== AGENT
+
+Google Health
+
+== GOAL
+
+Identify cancer in breast screening mammograms with fewer false positives, and fewer false negatives, than radiologists
+
+== DATA
+
+Mammograms from more than 76,000 women in the UK and more than 15,000 women in the US. It was then tested on a separate data selection of more than 25,000 women in the UK and over 3,000 women in the US.
+
+== METHODS
+
+This article does not specify what type of Machine Learning was used, however, given that it was trained on a large set of data with a known output it is likely that it was a form of supervised learning that was used. The AI system was shown only the most recent mammograom images with no extra information in both the training and testing phases. 
+
+== RESULTS
+
+The results of this study were very interesting in that it reduced false negatives by 2.7 percent in the UK, where it is required that at least two radiologists analyse the images, compared to a 9.4 percent reduction in false neagatives in the US where only one radiologist is required to analyse the images. 
+
+== ISSUES
+
+It is hard to find issues with this study. From my perspective it seems like it would have avoided previous mistakes made by AI systems learning to read mammograms that actually just ended up learning the difference in the quality of the images from two separate hospitals. In this study they have taken a large dataset for both training and testing from various hospitals across two countries which you would hope would help them avoid falling into the same trap. The article does say that the research is still in it's early stages so there are possibly some creases to iron out. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I like the article and the study carried out here. I think it is interesting to see that if this AI system has been trained successfully and without confounds, then it speaks volumes about the importance of a secound opinion when analysing a mammogram. I would like to read more about this in the future.

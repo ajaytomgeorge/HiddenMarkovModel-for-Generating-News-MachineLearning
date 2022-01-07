@@ -1,0 +1,40 @@
+== SOURCE
+
+https://paperswithcode.com/paper/local-motion-phases-for-learning-multi
+
+== AGENT
+
+SEBASTIAN STARKE, YIWEI ZHAO, TAKU KOMURA, KAZI ZAMAN
+
+== GOAL
+
+Novel data-driven framework to learn fast and dynamic interactions that involve multiple contacts.
+
+== DATA
+
+A large database of one-on-one basketball plays
+
+== METHODS
+
+Quadruped Motion Learning, Generative adversarial networks (GANs), Memory-augmented Neural Network (MANN)
+
+== RESULTS
+
+Introduced a novel feature called the local motion phase, which
+together with their mixture-of-experts architecture can learn fast
+and dynamic movements during basketball play
+
+== ISSUES
+
+Currently they are considering only one to one plays, these has limited effect in realistic scenario as 
+basketball invovles comples relations between multiple players.
+They also haven't elaborated much about their dataset
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It was really interesting to bring a dimension of the game into the picture as it wouldn't be a normally easy.
+The developed framework has so much scope of expanding into multiple interaction games.

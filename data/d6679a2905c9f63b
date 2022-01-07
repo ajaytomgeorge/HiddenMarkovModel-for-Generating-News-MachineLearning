@@ -1,0 +1,42 @@
+==== SOURCE
+
+https://towardsdatascience.com/sentiment-analysis-with-deep-learning-62d4d0166ef6
+
+==== AGENT
+
+Artem Oppermann
+What were they trying to do?
+
+==== GOAL
+The goal is to perform Sentiment Analysis by implementing the Deep Learning model that can recognize and classify human emotions in Netflix reviews.
+
+==== DATA
+
+The model will take a whole review as an input (word after word) and provide percentage ratings for checking whether the review conveys a positive or negative sentiment.
+The dataset contains 5000 negative and 5000 positive reviews.
+
+
+==== METHODS
+
+Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture used in the field of deep learning.
+A common LSTM unit is composed of a cell, an input gate, an output gate and a forget gate. The cell remembers values over arbitrary
+time intervals and the three gates regulate the flow of information into and out of the cell.
+This model also involves in preprocessing of input before being processed in the model, this involves Uniform Spelling of Words, Removing Special Characters, Word-To-Index, Word Embeddings.
+
+The key to LSTMs is the cell state c(t),a cell state is an additional way to store memory, besides just only using the hidden state h(t).
+However, C(t) makes it possible that LSTMs can work with much longer sequences. 
+
+Forget Gate: After getting the hidden state h(t-1 ) of the previous input x(t-1), Forget gate helps us to make decisions about what must be removed from h(t-1) state and thus keeping only relevant stuff.
+Input Gate: In the input gate, we decide to add new stuff from the present input x(t) to our present cell state C(t).
+Output Gate: The output gate as the name suggests, decides what to output from the current cell state C(t) to the next C(t+1).
+For the language model example, since it just saw a subject, it might want to output information relevant to a verb, in case that’s what is coming next.
+For example, it might output whether the subject is singular or plural so that we know what form a verb should be conjugated into if that’s what follows next.
+
+
+==== RESULTS
+
+This model reports the positivity and negativity percentage for all the reveiews in the dataset with a good accuracy by performing Sentiment Analysis.
+
+==== COMMENTS
+
+

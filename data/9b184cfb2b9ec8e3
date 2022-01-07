@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://emerj.com/ai-sector-overviews/machine-learning-medical-diagnostics-4-current-applications/
+
+==== AGENT
+
+Chatbot by Babylon Health
+
+==== GOAL
+
+To reduce the risk of a patient being misdiagnosed due to lack of information or otherwise
+
+==== DATA
+
+The chatbot gets its data from a database of diseases available to it and matches the users symptoms. 
+
+==== METHODS
+
+The chatbot compares the symptoms that the users input via speech and then the chat bot checks the symptoms against the diseases database that it has. Depending on the condition that the chatbot responds with it also responds with a course of action.
+
+==== RESULTS
+
+Due to the chatbot in a hospital that it was being tested in saw a decrease in the amount of patients. 10% of the users in the trial registered for the app.
+
+==== COMMENTS
+
+In my opinion it is a good app as many people would check there symptoms first and see what they should do instead of heading to the hospital. This reduces the wait times in hospitals and allows the people that need to see the doctors to see them faster. 

@@ -1,0 +1,64 @@
+﻿==== SOURCE
+
+
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+
+
+==== AGENT
+
+
+
+Engineers at Beihang University and Microsoft China
+
+
+
+==== GOAL
+
+
+They developed a bot that comments on online news articles, called "DeepCom".
+
+
+The intention is to drive traffic to the comments section of articles and engage 
+humans in debates.
+
+==== DATA
+
+
+
+They got their data from a Chinese dataset of articles from the Chinese website 
+"Tencent News" and an English dataset of "Yahoo News" articles.
+
+
+
+==== METHODS
+
+
+
+They trained one neural network to "read" articles and get the most important 
+points from it. Another neural network was trained to then generate the comment 
+based on the output of the first network.
+
+
+==== RESULTS
+
+
+
+The article does not mention results, but rather the risks involved with making a 
+commenter bot and that while it is mentioned that there are risks in the paper this 
+article is based on, the authors of the paper don't say how these risks can be 
+mitigated.
+
+
+==== COMMENTS
+
+
+
+The article is quite critical of bots that comment on articles or in social media, 
+referring to the high number of fake accounts on social media and how these try 
+spreading political propaganda.
+The author of the article also criticises that potential biases of the bot are not 
+addressed in the paper. 
+The article does not go into technical detail of the neural networks or the results 
+achieved.

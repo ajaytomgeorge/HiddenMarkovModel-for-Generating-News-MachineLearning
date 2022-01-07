@@ -1,0 +1,34 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ==== SOURCE\
+https://www.the-scientist.com/features/ai-uses-images-and-omics-to-decode-cancer-65732\
+\
+==== AGENT\
+Stanford university graduates\
+\
+==== DATA\
+histology images were fed into a machine learning algorithm, along with pathologist-determined diagnoses,\
+training it to distinguish lung cancer from normal tissue, and two different types of lung cancer from each other.\
+Then he fed in survival data for those slides, letting the system learn how that information correlated with the images.\
+Finally, he added in new slides that the model hadn\'92t seen before, and asked the all-important longevity question.\
+\
+==== GOAL\
+Provide more accurate predictions into the treatment of cancer.\
+\
+==== METHODS\
+The machine learning entity would be fed with images and then learn to output information in relation to the image.\
+The machine would output data concering the diagnosis, the prognosis, tumor evolution and best drug treatments\
+\
+==== RESULTS\
+The implementation was a success as prior to using ML in the treatment of cancer all cancer patients would be lumped\
+together and treated the same way regardless of the finer details of their cancer.\
+The computer learned to predict the presence of six forms mutations from the pathology slides\
+with accuracy ranging from 73 to 86 percent.\
+\
+==== COMMENTS\
+}

@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.nyu.edu/about/news-publications/news/2021/july/machine-learning-for-cardiovascular-disease-improves-when-social.html
+
+== AGENT
+
+Researchers at New York University's School of Global Public Health and Tandon School of Engineering.
+
+== GOAL
+
+The goal was to measure the effectiveness of different machine learning models used to predict cardiovascular disease and determine what factors included in the inputs resulted in the most accurate results.
+
+== DATA
+
+The researchers compiled a comprehensive list of all relvant articles on machine learning integratign social determinants of health in cardiovascular disease prediction models published in English. These were taken from 5 databases: PubMed, Embase, Web of Science, IEEE Xplore, and ACM Digital Library.
+
+== METHODS
+
+A comparison of studies using different machine learning methods. The researchers used search terms relating to all commonly used supervised machine learning methods.
+The algorithms in the studies included: Neural Net, Random Forest, Support Vector Machine,Decision Tree, Ensemble, Regularization, Bayesian Network, Naive Bayes and others.
+
+== RESULTS
+
+Most studies that compared performance of algorithms with or without social determinants of health, i.e. "the conditions in which people are born, grow, live, work and age", found that including social determinants consistently resulted in increased performance.
+
+== ISSUES
+
+The studies were primariliry in North America, Europe, and China. This limited the diversity of the data and only allowed for certain variations in the social determinants of health, which change significantly per region. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It was great to see this study being done as it allows for the advancement of machine learning assisting in diagnosis, with the best knowledge of how to ensure higher accuracy in correct diagnoses.
+The press covered this well, ensuring that importnat takeaways were quoted from the authors to avoid misinterpretation and explained some of the results in a more layman-friendly way.

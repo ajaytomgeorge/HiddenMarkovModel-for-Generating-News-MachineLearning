@@ -1,0 +1,24 @@
+==== SOURCE 
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+Microsoft
+
+==== GOAL
+To read news articles online, and compose & post comments about the article. 
+
+==== DATA
+The model was trained on collection of news articles and the corresponding comments. 
+
+==== METHODS
+The system is comprised of 2 Neural Network, one reads the news article to identify the key points, and the other
+generates the comments based on the outputs of the first article.
+
+==== RESULTS
+The model emulates comments quite well, when given a news article about Fifa rankings, it produced the following
+comments: "If it�s heavily based on the 2018 WC, hence England leaping up the rankings, how are Brazil at 3?",
+"England above Spain, Portugal and Germany. Interesting."
+
+==== COMMENTS
+This is the first article I've seen mention a neural network being used as an input for a second neural net. 

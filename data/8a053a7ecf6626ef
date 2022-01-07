@@ -1,0 +1,28 @@
+﻿==== SOURCE
+
+ ==== https://www.nature.com/articles/s41467-019-10994-4
+
+
+==== AGENT ====
+
+ Funded by Facebook and carried out by Prof. David Moses' team at the University of California.
+
+
+
+==== GOAL ==== To decode questions and answers in speech dialogue using cortical activity in real time.
+
+
+==== DATA
+
+ ==== The machine was trained on a small set of questions and answers. Arrays of electrodes were implanted to the brains of three people which allowed for the activity of the brain to be measured. Acoustic and phonemic speech content may be decoded from activity in the superior temporal gyrus. Activity in the ventral sensorimotor cortex may also be used to decode speech based on the larynx pitching for speech.
+
+
+==== METHODS ==== During an Electrocochleography test, the participants listened to a set of questions and then produced a verbal response. This data was the input to train the speech detection and decoding models. after the training, tasks were preformed by the participants in which each trial consisted of listening to a question, and responded to the question with their own choice. 
+
+==== RESULTS
+
+ ==== The computer model was able to decode the questions heard by a participant 76% of the time, and the answers that the patient gave to the question 61% of the time. 
+
+==== COMMENTS
+
+ ==== Very interesting article, maybe telepathy is not too far from being a possibility! Clearly sample size is very small but is understandable due to the invasive manor of the data extraction. Hopefully new freedom to the lives of those with communication difficulties is soon to be discovered. 

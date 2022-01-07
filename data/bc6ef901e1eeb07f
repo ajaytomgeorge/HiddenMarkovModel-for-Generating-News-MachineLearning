@@ -1,0 +1,37 @@
+==== SOURCE
+
+http://theconversation.com/sharkspotter-combines-ai-and-drone-technology-to-spot-sharks-and-aid-swimmers-on-australian-beaches-92667
+
+==== AGENT
+
+The project is a collaboration between the University of Technology Sydney and The Ripper Group.
+
+==== GOAL
+
+Their aim was to use real-time aerial imagery and apply machine learning techniques to it to detect sharks and other potential threats.
+
+==== DATA
+
+The datasets used were videos taken by a drone flying above different Australian beaches.
+These videos were collected by The Ripper Group.
+Each video was also manually annotated to specify the location of sharks and other objects.
+
+==== METHODS
+
+A deep learning algorithm was implemented.
+It was trained using the videos and annotations to locate and classify objects.
+When it receives streaming imagery from the drone camera, it attempts to identify all objects in the scene.
+When valid objects are detected, they are sorted into one of the 16 categories including shark, whale, dolphin, rays, different types of boats, surfers, and swimmers.
+
+==== RESULTS
+
+The algorithm has been proven to have more than 90 percent accuracy, significantly improving aerial detection.
+It has already been used across a dozen popular beaches in New South Wales and Queensland, and has been received positively by end-users and communities alike.
+In January 2018, it was used to rescue two young swimmers caught in a rip.
+
+==== COMMENTS
+
+In my opinion, the way that machine learning was implemented in this project was effective, in particular the use of deep learning.
+However I believe that the training dataset could have been expanded, because currently it is limited to Australian beaches.
+Hence there could be threats in other beaches that do not appear in the Australian dataset.
+I also appreciate how the article followed up on the success of the project by providing examples of instances when it was used.

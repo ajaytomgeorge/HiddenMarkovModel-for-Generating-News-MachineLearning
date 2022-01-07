@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://www.healthcatalyst.com/clinical-applications-of-machine-learning-in-healthcare
+
+==== AGENT
+
+HealthCatalyst
+
+==== GOAL
+
+They are trying to help heath systems save lives by using machine learning. They are hoping to do this 
+through catalyst.ai™, which is a model built into every Health Catalys application, healthcare.ai™, a
+free open source software, and its healths care analytics platform.They plan on doing this by making 
+machine learning routine, actionable, and pervasive in the health care industry.
+
+==== DATA
+
+Their own health Catalyst Data operating system. The data gets put into the system by doctors when meeting 
+with patients. They take note of things such as height,gender, weight and age.
+
+==== METHODS
+
+Applied machine learning algorithms to their data set to try and find out who is more likely to catch a disease.
+They do this by analysing the data collected from patients with that disease already diagnosed by doctors.
+
+==== RESULTS
+
+Still in development stage but it is very promising in spotting signs of cold/flu at the moment.
+
+==== COMMENTS
+
+I think this is a very interesting field of machine learning. It will have many possibly life saving applications in
+the future. The fact that it is open source code means anyone with their own ideas can try to build on the existing algorithms
+to help improve it.

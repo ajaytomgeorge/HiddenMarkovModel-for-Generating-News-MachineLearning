@@ -1,0 +1,27 @@
+
+== SOURCE
+https://www.bbc.com/news/technology-54538228
+
+== AGENT
+IBM Research & Pfizer
+
+== GOAL
+Predict early Alzheimer signs from Cookie Drawing Test
+
+== DATA
+The samples used by IBM came from The Framingham Heart Study, a US research project into 5,000 people and their families that has been ongoing since 1948.
+
+== METHODS
+Supervised
+
+== RESULTS
+Slightly positive results. Better than not knowing but not hugely successful
+
+== ISSUES
+All research carried out by IBM and Pfizer employees, thus could be biased in order to secure funding
+
+== SCORE
+4. Not very cool as not very conclusive. 
+
+== COMMENTS
+Not very conclusive, in their own words their study shows "subtle early sings of progression" of Alzheimer, so not very conclusive

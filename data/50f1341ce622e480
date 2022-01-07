@@ -1,0 +1,42 @@
+== SOURCE
+
+https://www.nature.com/articles/s41591-021-01273-1
+
+== AGENT
+
+Mingmin Zhao, Kreshnik Hoti, Hao Wang, Aniruddh Raghu & Dina Katabi 
+
+== GOAL
+
+The aim is to present a contactless and unobtrusive artificial intelligence (AI) framework that can detect and monitor 
+MSA errors by analyzing the wireless signals in the patient’s home, without the need for physical contact. 
+
+== DATA
+
+A total of 107 healthy individuals (18–72 years of age) were recruited for this study. The individuals 
+performed 1,203 positive examples of MSA events with insulin pens and inhaler devices at 40 different 
+locations (offices, lounges, seminar rooms, kitchens, halls, etc).
+
+== METHODS
+
+The system works by transmitting low-power RF signals (1,000 times weaker than Wi-Fi) and receiving reflections from nearby people. 
+Because up to 60% of the human body is water, it reflects the radio signals and modulates them with the person’s movements, capturing important information about the person’s MSA technique.
+
+== RESULTS
+
+This approach can automatically detect when patients use their inhalers (area under the curve (AUC) = 0.992) or insulin pens (AUC = 0.967), 
+and assess whether patients follow the appropriate steps for using these devices (AUC = 0.952). The work shows the potential
+of leveraging AI-based solutions to improve medication safety with minimal overhead for patients and health professionals.
+
+== ISSUES
+
+The reflections that are received from the system cannot be trusted to give the desired results everytime and thus chances of mishaps are more frequent in such an approach.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+During these pandemic times, such an innovative approach will help the human society adapt better and cop with the situations more easier.
+

@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/09/29/university-of-oxford-researchers-release-pass-dataset-with-1-4m-images-free-from-humans-for-self-supervised-machine-learning/
+
+== AGENT
+
+University of Oxford
+
+== GOAL
+
+Develop PASS dataset, containing 1.4M+ images
+
+== DATA
+
+The dataset includes over 100 million random Flickr images that exclude humans and other identifiable information, such as licence plates, signatures, handwriting or NSFW images.
+
+
+== METHODS
+
+PASS is self-supervised Machine Learning. 
+
+== RESULTS
+
+In extensive evaluation of SSL methods when performance differences were analyzed between PASS and ImageNet, it was found by researchers that PASS has three significant differences with ImageNet: lack of human, class-level curation and search and community optimization.
+Additionally, the research found that self-supervised approaches such as MoCo, SwAV and DINO train very well on the PASS dataset. They also found that excluding images with humans during pretraining does not cause an effect on downstream task performances. The performance of models trained on the PASS dataset has better results than ImageNet in 8/13 frozen encoder evaluation benchmarks.
+
+== ISSUES
+
+Unlike many datasets, PASS collected images under Creative Common licence (CC-BY). It also doesn't contain identifiable information. This is a major implication in morality, but also future results.
+The ethical implications are promising, as the dataset performed just as well as ImageNet with downstread task performances. It also performed better on most frozen encoder evaluation benchmarks.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is good to see that the research community takes ethics, privacy and licening in consideration when developing datasets and the AI field.

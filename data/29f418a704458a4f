@@ -1,0 +1,42 @@
+==== SOURCE
+http://news.mit.edu/2019/faster-video-recognition-smartphone-era-1011
+
+==== AGENT
+
+Song Han, an assistant professor at MIT’s Department of Electrical Engineering and Computer Science and group of colleagues.
+
+==== GOAL
+
+To make a much more effecient models for training video recognition models. 
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Youtube uploads nearly 30,000 hours of videos every hour. This can be anything from patterns, pixels in the video and
+can build a model to train on these.
+
+==== METHODS
+
+What did they actually do?
+
+Approximately training a video-recognition model can take up to 50 times more data and eight times more processing power than training an image-classification model. 
+This ia a problem as the there is a high demand for processing power to train deep learning models continues to rise exponentially.They introduced more effiecient 
+models where you were able to shrink the video recognition models to speed up runtime and performance. Their methods were able to shrink models to 1/6 by reducing the 
+size of paramaters of 150 million to 25 million paramaters.Neural networks look for patterns in the pixels and build an increasingly abstract representation of what they see. 
+With enough examples neural networks learn to recognize people,objects and how they relate.
+
+==== RESULTS
+
+How did it go for them?
+They succceded in their quest.Top video recognition models use 3D convolutions to encode the passage of time in a sequence of images which creates more computationally-intensive models. 
+To reduce this Han and his colleagues designed an operation they call a temporal shift module which shifts feature maps of a selected video frame to its neighboring frames.This outputed
+a model which out performoed its peers at recognizing actions.But this model normally requires 2 days to train on a machine with 1 processor.
+So han went to U.S. Department of Energy’s Summit supercomputer in which the model was trained in around 14 minutes.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+This was really intresting way of creating a  unique way of vidoe recognition models. It was a good factor to take into consideration the energy and run time required to train
+a model Han developed by reducing the size of paramaters being pasased in.

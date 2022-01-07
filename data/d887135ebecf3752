@@ -1,0 +1,38 @@
+== SOURCE
+
+https://techxplore.com/news/2020-10-artificial-intelligence-thousands-wwii.html
+
+== AGENT
+
+AU Engineering, Aarhus University with Tampere University and the Finnish Environment Institute
+
+== GOAL
+
+Demonstrate the advantages of using modern neural networks to analyze WWII photographs
+
+== DATA
+
+Finnish Wartime Photograph archive containing 160,000 photographs
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The machine could automatically detect people and objects in a variety of scenes and even distinguish 
+photographers on the basis of characteristics in the image—all much faster than any manual reviewing process.
+The AI model achieved a classification accuracy of 41.1 per cent. (20.1—69.7 per cent).
+
+== ISSUES
+
+Could be more accurate, many photos harder to distinguish.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I find this very interesting. It is a good approach to archives around the world.
+I can understand many photographs being hard to distinguish and difficult to preprocess.

@@ -1,0 +1,150 @@
+== SOURCE
+
+https://techxplore.com/news/2020-10-machine-uncovers-potential-tb-drugs.html
+
+==AGENT
+
+MIT
+
+==GOAL
+
+To identify potential new TB drugs.
+
+==DATA
+
+72 small molecules and their interactions with more than 400 protein kinases from ZINC database
+
+==METHODS
+
+Gaussian Model, assign uncertainty values to data. Supervised Learning.
+
+==RESULTS
+
+90% of predictions by model were found to inhibit bacterial growth of Mycobacterium tuberculosis. 
+
+==ISSUES
+
+When using the same dataset on supervised learning algorithm, did not yield any useful results.
+
+==SCORE
+
+7
+
+==COMMENTS
+
+I think it's pretty cool would like to hear results of inhibitors on patients.
+
+== SOURCE
+
+https://techxplore.com/news/2020-10-gesture-recognition-technology-micro-size.html
+
+==AGENT
+
+Aalto University & HitSeed
+
+==GOAL
+
+Create smart gloves that can guide employees by hand through tasks.
+
+==DATA
+
+Sensor data from Hitseed smart textiles.
+
+==METHODS
+
+
+Deep learning, gesture based algorithms in an embedded system in the gloves and glasses. Convolutional Neural Network.
+Information transferred across bluetooth low energy network.
+
+==RESULTS
+
+Sensor data that can be used for motion improvements in physiotherapy, detecting machines running based on vibration or sound spectrum.
+
+==ISSUES
+
+N/A
+
+==SCORE
+
+8
+
+==COMMENTS
+
+Set of potential applications is very far-reaching. I'm glad they recieved EUR 100,000 seed funding from EU Horizon 2020 ATTRACT project.
+
+== SOURCE
+
+https://techxplore.com/news/2020-10-artificial-intelligence-illusory-perceptions.html
+
+== AGENT
+
+University of Valencia, Pompeu Fabra University
+
+== GOAL
+
+Analyze the phenomenon of visual illusions in convolutional networks compared to their effect on the vision of human beings.
+
+== DATA
+
+
+
+== METHODS
+
+Trained CNN for simple tasks such as removing noise or blur. Tested on sounds or images that include some kind of illusion.
+
+== RESULTS
+
+Networks are also susceptible to perceiving reality in a biased way, caused by visual illusions of brightness and color.
+Visual illusions that occur in the CNN do not necessarily have to coincide with the biological illusory perceptions.
+There can be different illusions seen by NN that are foreign to the human brain.
+
+== ISSUES
+
+Very little detail in the neural network istself. Very little detail in the illusions.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Pretty cool article, not enough detail.
+
+== SOURCE
+
+https://techxplore.com/news/2020-10-ai-gap-nonverbal-people.html
+
+== AGENT
+
+University of Cambridge
+
+== GOAL
+
+Reduce communication gap for non-verbal people with motor disabilities who rely on computers to converse.
+
+== DATA
+
+Users Location, Time of Day, Users speaking partner identified with front mounted camera.
+
+== METHODS
+
+Information Retrieval Algorithms using time of day, location. Speaking partner identified with computer vision algortithm.
+Context tags added to the words the user types to form a query.
+
+== RESULTS
+
+Developed a context-aware method that reduces the communication gap by eliminating between 50%-96% of keystrokes
+the person has to type to communicate by allowing a user to quickly retrieve sentences they have typed in the past.
+
+== ISSUES
+
+Says that analysis helped researchers to understand the best method for retrieving sentences and the impact of a range of
+sentences but doesn't say how
+
+== SCORE
+
+9
+
+== COMMENTS
+Think this will be very useful for many people without any extra effort from users. I would have liked if it talked a bit
+more about the analysis phase of words and the impact of this.

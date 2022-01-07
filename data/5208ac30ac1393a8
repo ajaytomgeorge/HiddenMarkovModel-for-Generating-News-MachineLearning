@@ -1,0 +1,29 @@
+==Source
+https://www.news-medical.net/news/20211007/Machine-learning-algorithms-accelerate-the-protein-engineering-process.aspx
+
+==Agent
+Carl R. Woese Institute for Genomic Biology, University of Illinois at Urbana-Champaign
+
+==Goal
+Accelerating the protein engineering process.
+
+==Data
+Combining all the proteins in the database with the specific evolutionary history of the target protein to 
+improve the prediction efficiency.
+
+==Methods
+Predective Model, Supervised Learning
+
+==Results
+ECNet was used to engineer TEM-1 β-lactamase -; an enzyme that confers resistance to β-lactam antibiotics 
+and identify variants that had improved fitness
+
+==Score
+9
+
+==Comments
+It's interesting new data, but further study is still left to improve and train the model.
+
+
+
+

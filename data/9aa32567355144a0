@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://blog.usejournal.com/faceapp-how-neural-networks-can-do-wonders-c2b83b00da7b
+
+==== AGENT
+
+Wireless Lab
+
+==== GOAL
+
+Use GAN (Generative Adversarial Network) to beautify portrait photos and keep post-processed photo realistic.
+
+==== DATA
+
+MNIST database (Modified National Institute of Standards and Technology database) consists a training set of 60,000 examples and a test set of 10,000 examples. The database has a huge number of images of different faces and it also extracts features from a user face.
+
+==== METHODS
+
+Using TensorFlow to find facial features of a user once they have uploaded a photo, and then add new features to the image.
+GANs comprised of two networks, pitting one against the other. One net attempts to generate realistic images, at meantime the other net provides a feedback that the generated images are flawed. Eventually, the generative network produces a realistic image (99.99999% realistic).
+
+==== RESULTS
+
+A user applies changes which can render their faces to look enhanced, and remain distinctive features which make users identify themselves.
+
+==== COMMENTS
+
+Owing to the resolution of an image, dataset is limited to 1080p. So, if you want to render any resolution above 1080p, the face in the image can be blurry.

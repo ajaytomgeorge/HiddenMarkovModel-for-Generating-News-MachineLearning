@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://becominghuman.ai/how-netflix-uses-ai-and-machine-learning-a087614630fe
+
+==== AGENT
+
+Netflix
+
+==== GOAL
+
+To create user recommendations in order to increase user viewership / retention.
+Create personalised thumbnails.
+
+==== DATA
+
+Data is gathered for each user. Data includes:
+# of movies watched, # of minutes of each show watched
+% of completion for every video/series
+# of upvotes, which movies were favorited, etc
+% of overall watch content that is attributable any specific show (and therefore level of affinity that user has to a specific show or related cast members)
+any seasonal or weekly trends related to a user’s level of engagement, etc.
+
+==== METHODS
+
+Unsupervised learning to create recommender system. Model is trained using user's watch history is order to gauge user's interest.
+Users with similar interests are grouped.
+Netlix creates meta-data for individual frames in the show, using lighting, # faces, symmetry etc.
+These images are classified, eg. horror, romance.
+Based on model trained on user's profile, suitable thumnails are created for different users.
+
+==== RESULTS
+
+Netflix's dynamically created thumnails are shown to increase user interest.
+
+==== COMMENTS
+
+Netflix recommenders are generally quite effective, though from experience most people end up endlessly scrolling anyway.

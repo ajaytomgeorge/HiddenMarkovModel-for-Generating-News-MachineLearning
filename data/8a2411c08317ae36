@@ -1,0 +1,31 @@
+
+== SOURCE
+https://machinelearning.apple.com/
+
+== AGENT
+Apple devices
+
+== GOAL
+Recognizing People in Photos Through Private On-Device Machine Learning. An algorithm foundational to this goal recognizes people from their visual appearance.
+
+== DATA
+Recognizing people in libraries consists of two interwoven phases. One phase involves constructing a gallery of known individuals progressively as the library evolves. The second phase consists of assigning a new person observation to either a known individual in the gallery or declaring the observation as an unknown individual. The algorithms in both of these phases operate on feature vectors, also called embeddings, that represent a person observation.
+
+ 
+
+
+== METHODS
+Supervised
+
+== RESULTS
+on-device machine learning it can correctly recognize people with extreme poses, accessories, or even occluded faces and use the combination of face and upper body to match people whose faces are not visible at all. This significantly improves the Photos experience by identifying the people who matter most to us in situations where it was previously impossible.
+
+== ISSUES
+memory footprint and power consumption 
+
+== SCORE
+8
+
+== COMMENTS
+This is the best article of all because it recognize our face and sort it out and it’s not only used in phone but it will be useful for many part of life.
+

@@ -1,0 +1,42 @@
+==== SOURCE
+
+https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+==== AGENT
+
+Spotify
+
+==== GOAL
+
+Create weekly playlists for its users based on what the users have been listening to recently.
+
+==== DATA
+
+They gather their data from users of their service based on how much they stream songs on the service.
+
+==== METHODS
+
+They use 3 methods to generate the most accurate recommendations for the users:
+1. Collaborative filtering
+	By assigning a song to have data based on users that have listened to it and other songs that they 
+	have listened to. By finding the most played songs by similar users Spotify can recommend them if 
+	this user has not listened to it themselves.
+	
+2. Natural language processing
+	Spotify looks all over the web for numerous mentions of songs and adjectives associated with songs 
+	in their library and stores the data based on these findings under the songs. It then uses a 
+	weight filter to determine if two songs are similar and reccomentds based on that.
+	
+3. Audio models
+	By using convolutional neural networks, Spotify is able to generate an understanding for new songs 
+	released as to the nature of them. Be it tempo, acoustic nature, danceability etc. and compares it 
+	to other songs listened to by the numerous users of the platform.
+
+==== RESULTS
+
+Every week each user gets a new selection of 30 songs picked to suit their taste in music.
+
+==== COMMENTS
+
+I think this article explains the numerous methods of Spotify's machine learning algorithm clearly and
+in an interesting way that makes for an enjoyable read.

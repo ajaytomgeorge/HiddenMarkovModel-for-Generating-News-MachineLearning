@@ -1,0 +1,36 @@
+== SOURCE
+
+https://arxiv.org/pdf/1909.11573.pdf
+
+== AGENT
+
+Thanh Thi Nguyen, Quoc Viet Hung Nguyen, Cuong M. Nguyen, Dung Nguyen, Duc Thanh Nguyen,
+Saeid Nahavandi, Fellow, IEEE
+
+== GOAL
+
+Application of deep learning in Deep Fakes Creation and Detection
+
+== DATA
+
+Facial Images of Different People
+
+== METHODS
+
+Enocoder, Decoder, Auto-Encoders, Classification
+
+== RESULTS
+
+Successful face swap of two individuals
+
+== ISSUES
+
+Requires more data for accurate results
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Fun to play around with bunch of people's faces  (of course with their consent)

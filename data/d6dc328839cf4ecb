@@ -1,0 +1,50 @@
+== SOURCE
+
+https://www.usenix.org/system/files/sec20-quiring.pdf
+
+== AGENT
+
+USENIX
+
+== GOAL
+
+To develop defenses against image scaling attacks.
+
+== DATA
+
+http://scaling-attacks.net/ The data used was a series of images manipulated in such a way
+that when downscaled they represent something completely different.
+
+== METHODS
+
+They analyzed various different scaling algorithms to discover what was causing the typical attacks
+and then explored various defenses. The particularly important factors seemed to be The scaling ratio
+and kernel width.
+
+Multiple defenses were observed for non-adaptive attacks.
+1) Robust scaling (Observing all pixels of a source image at least once before downscaling)
+2) Image Reconstruction, this removes the relevant pixels from the data, thereby preventing the attack but damaging the data
+
+
+
+
+== RESULTS
+
+Confirms that attacks were successful in the major scaling algorithms including OpenCV, TensorFlow and Pillow,  though an exception 
+is made with pillows bilinear scaling in which the success rate is 87%. Concluding while it is difficult to prevent attacks algorithmically
+in practice this manipulation will leave clear visual traces that undermine the attack.
+
+Area scaling seems to be the most effective against adaptive attacks
+
+== ISSUES
+
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+When rescaling images for training, Pillow seems to be a good library to prevent non-adaptive attacks
+and area scaling seems to be the most effective against adaptive attacks.

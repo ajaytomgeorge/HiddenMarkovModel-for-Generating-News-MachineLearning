@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Greek government.
+
+== GOAL
+
+Use machine learning to more efficiently predict which passengers are most likely to test positive for COVID-19.
+
+== DATA
+
+Before they arrive in the country, travellers were asked to fill out a form including information such as their country of origin and demographic. Using this form and recent testing data, researchers were able to predict whether the passenger had high risk of testing positive.
+
+== METHODS
+
+Reinforcement learning.
+
+== RESULTS
+
+They were able to increase the efficiency of testing travellers.
+
+== ISSUES
+
+Passengers may have an issue with filling out a form of personal information.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Not only do I find the work itself quite interesting, but I also think it’s worth noting that it’s taken so long for machine learning to be used to help with the pandemic on such a wide scale.

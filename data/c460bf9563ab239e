@@ -1,0 +1,39 @@
+==== SOURCE
+https://cs224d.stanford.edu/reports/ZhouWang.pdf
+
+==== AGENT
+
+Liuyu Zhou,   Huafei Wang
+Stanford University
+
+
+==== GOAL
+
+The goal is to perform authorship identification with deep learning.
+
+==== DATA
+
+The dataset is obtained from theCenter for Machine Learning and Intelligent Systems hosted by the Unviersity of California, Irvine.
+The dataset contains 5000 news articles for 50 different journalism authors (100 texts per author).
+
+
+==== METHODS
+
+GloVe is an unsupervised learning algorithm for obtaining vector representations for words.
+In this project, GloVe pre-trained word vectors are used to encode the training articles and find the most representative vector that can represent the author.
+Then the test articles are encoded usingthe same GloVe word vectors to obtain the most representative vector that can represent the article.
+
+Recurrent Neural Network (RNN) is also implemented to tackle this task.  GloVe pre-trained wordvectors are used to encode each word in the article.
+Sentence level approach for RNN, The mean vector of each sentence is calculated and fed into the RNN model at each step.
+This approach also captures the word / sentence sequence infor-mation since the RNN process is recurrent. 
+Because that the average number of sentencesof all articles is around 15-20, this model does not suffer from the gradient valishing problem. 
+The highest F1 score obtained is around 0.6.
+
+
+
+==== RESULTS
+
+In conclusion, this model in addition to capturing context information, also captures word / sentence sequence information and has the best performance with a 0.6F1score.
+
+==== COMMENTS
+

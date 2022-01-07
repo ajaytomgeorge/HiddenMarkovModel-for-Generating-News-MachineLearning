@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.microsoft.com/features/microsoft-hackathon-leads-to-ai-and-sustainability-collaboration-to-rid-plastic-from-rivers-and-the-ocean/
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+Using AI to combat plastic pollution in the oceans. Building a model to identify collected waste and distinguish it from natural materials such as sticks and leaves.
+
+== DATA
+
+A dataset of 30,000 images collected by "Plastic Free Oceans" was used. Bounding boxes were created for the images, distinguishing what was plastic and what was not.
+
+== METHODS
+
+There is not much information on the specific methods used to process the dataset, other than that a machine learning model was used.
+
+== RESULTS
+
+Initially the non-profit, The Ocean Cleanup, labelled images manually in a process that was extremely time-consuming. The Ocean Cleanup now has the resources from this machine learning model which greatly accelerates their technical progress and puts them in a position to scale up drastically.
+
+== ISSUES
+
+I don't see any real issues with the work.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This project was a good use of Microsoft's massive resources. There was not much information in the article about the accuracy of the model.

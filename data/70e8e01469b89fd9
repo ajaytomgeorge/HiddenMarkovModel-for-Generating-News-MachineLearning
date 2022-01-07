@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.rte.ie/news/health/2020/0101/1103895-mammograms-ai-study/
+https://www.nature.com/articles/s41586-019-1799-6
+
+== AGENT
+
+Google Health, in collaboration with DeepMind, Cancer Research UK Imperial Centre, Northwestern University, and Royal Surrey County Hospital
+
+== GOAL
+
+Develop an AI system which can identify cancer in breast screening mammograms with fewer false positives, and fewer false negatives than radiologists alone.
+
+== DATA
+
+Trained on anonymised mammograms from over 76,000 women in the UK and over 15,000 women in the US. Then tested on a seperate data set of more than 25,000 women in the UK and over 3,000 women in the US.
+
+== METHODS
+
+Supervised learning on training set. The system consists of three independent deep learning models, each of which produces a
+cancer risk score between 0 and 1 for the entire mammography case. The final prediction of the
+system was the mean of the predictions from the three independent models.
+
+== RESULTS
+
+On the UK data set, the AI system produced a 1.2% reduction in false positives, and 2.7% reduction of false negatives. On the US set, it produced a 5.7% reduction in false positives and 9.4% reduction of false negatives.
+
+== ISSUES
+
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The RTÉ report was very bare and lacking in specific information, particularly with regard to the method.

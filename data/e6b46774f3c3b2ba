@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.theregister.com/2021/09/30/fda_prostate_cancer/
+
+== AGENT
+
+Paige, a startup spun out of the Memorial Sloan Kettering Cancer Center (MSKCC)
+
+== GOAL
+
+Create an algorithm to predict prostate cancer
+
+== DATA
+
+Digital slide archive of New York's MSKCC
+
+== METHODS
+
+Supervised learning, categorizes a prostate bioopsy whole-slide image as either "suspicious" or "not suspicious" for prostatic adenocarcinoma
+
+== RESULTS
+
+Showed a sensitivity of 97.2% and positive predictive value of 97.9%, and a specificity of 99.3% and negative predictive value of 99.2% in identifying
+core biopsies with cancer in a data set derived from an independent institution. Has also gained FDA approval for use in assisting doctors in making accurate diagnoses
+
+== ISSUES
+
+Probably not reliable enough to rely on solely, but since it's being used to assist doctors, that isn't really an issue.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This was very interesting, because it's an example of machine learning being used to help with medical issues in a very modern or futuristic manner
+The reporting in the press was mostly reasonable but they could have involved more information to do with the training of the Paige Prostate algorithm

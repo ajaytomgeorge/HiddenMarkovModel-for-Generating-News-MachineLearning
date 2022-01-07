@@ -1,0 +1,40 @@
+Google Maps
+
+SOURCE
+
+https://web.archive.org/web/20140222173908/http://www.theconnectivist.com/2013/07/how-google-tracks-traffic/
+https://mashable.com/2012/08/22/google-maps-facts/?europe=true#_
+https://www.semanticscholar.org/paper/Dijkstra's-algorithm-and-Google-maps-Lanning-Harrell/965fc107e6343aadd816c471f2a0d1e08adb39e9
+
+AGENT
+
+Google LLC
+
+GOAL
+
+To provide GPS, Traffic Predictions, Real time location tracker and journey planning using machine learning methods.
+ 
+DATA
+
+The traffic data comes from a variety of sources, including government departments of transportation and private data providers.
+Local highway authorities (road sensors), car, and taxi fleets.
+Crowd-sourced, anonymized traffic data from people using Google maps apps on certain smartphones.
+
+METHODS
+
+
+Google collects enough data to be able to predict the kind of traffic users can expect on any road at any time of the day. 
+So for example, Google would know that traffic would be at a peak in the morning and evening, but not on holidays.
+Using the historical data it has compiled over the years and traffic data from mobile devices using the Google Maps application and various machine learning algorithms, the company is able to create models for traffic predictions for different periods. 
+For example, the modelling techniques would be able to predict that certain roads would experience more traffic during rains than other times of the year. 
+Google also takes traffic reports from transportation departments, road sensors, and private data providers to keep its information up to date.
+Also to plan a journey, a shortest path source algorithm known as Dijkstra's algorithm is used.
+
+RESULTS
+
+Google Maps is one of the most popular apps in the world, with over a billion users.
+But the accuracy of location data is unmatched only because of its users, since the billion Google Maps users on the road act as sensors for the app, which make the service as precise as possible. 
+
+
+COMMENTS
+My view is that, although the application is a success, you can opt out of it by turning off Location Services for Google Maps in Privacy on your iPhone or turning off Google Location History under Location in the Google Settings option which makes the apps useless.

@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.bernardmarr.com/default.asp?contentID=1269
+
+== AGENT
+
+Infervision 
+
+== GOAL
+
+Using AI And Deep Learning To Diagnose Cancer
+
+== DATA
+
+Real-life data from previous scan images to increase the model’s accuracy at identifying signs of cancerous growth in lung scans.
+
+== METHODS
+
+CNN machine learning model, which has already been trained with over 100,000 chest CT scans 
+
+== RESULTS
+
+“It usually takes a physician 10 to 30 minutes to read a CT scan, while Infervision AI only takes 5 seconds. Human eyes can easily miss lesions less than 3mm, but AI can accurately detect them and assists physicians for the optimal diagnosis of each patient.
+Assisted with over 100,000 image diagnostic cases. It is breaking the record of AI image screening in the medical AI industry.
+
+== ISSUES
+
+Ethically is it ok to put the health of a human in the hands of a computer algorithm?
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Expand it to all forms of cancer, not just lung. Can its understanding of tumours be transferred into predicting success of treatments?

@@ -1,0 +1,27 @@
+==== SOURCE
+
+Medium. (2019). How YouTube Recommends Videos. [online] Available at: https://towardsdatascience.com/how-youtube-recommends-videos-b6e003a5ab2f [Accessed 13 Oct. 2019].
+
+==== AGENT
+
+YouTube (Google)
+
+==== GOAL
+
+Recommend videos to users that correspond to the users perceived taste.
+
+==== DATA
+
+The data is taken from the users watch history and the context(the most recent watched video etc.)
+
+==== METHODS
+
+There are two systems being used to generate the recommendations shown to the user. The candidate generation network generates a list of candidate recommendations (based on the users watch history, user demographics etc.) that would be considered broadly be applicable to the user. The ranking system then uses a richer set of features to rank the candidate recommendations. The highest ranked recommendations are then shown to the user. These networks are trained using the users watch history and what videos they were likely to click on.
+
+==== RESULTS
+
+Well, YouTube recommendations are known to be quite relevant to the user and the article seems to indicate that the system used doesn't mis-predict watch time often and that wider and deeper networks reduce mis-prediction even further.
+
+==== COMMENTS
+
+Overall a high quality article that explains the function of the system and how it works in relatively simple terms. And, if you wish to know more there's always the paper that is linked to in the article.

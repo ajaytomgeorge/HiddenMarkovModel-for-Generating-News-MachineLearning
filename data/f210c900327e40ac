@@ -1,0 +1,483 @@
+
+------------------------------------------------------------------------------------------------------THESIS 1------------------------------------------------------------
+
+----> SOURCE
+
+	https://pqdtopen.proquest.com/doc/305004067.html?FMT=ABS
+
+
+----> AGENT
+
+		Raina Rajat,Ph.D(2009), Stanford University
+		Andrew.Y.Ng(Principal Advisor),Deptt. of Computer Science, Stanford University
+
+
+----> GOAL
+
+	Introduction of a new machine learning framework called self-taught learning for using unlabeled data in supervised classification tasks. This framework does not 
+	require that the unlabeled data follow the class labels of the supervised task, or arise from the same generative distribution. They were trying to demonstrate
+ 	that self-taught learning can be applied successfully to a variety of hard machine learning problems such as audio & video classifications and discrete inputs.
+
+ 					
+----> DATA
+
+	Supervised learning has been widely applied to text document categorization, for example in spam filtering applications (where the task is to predict whether an 		email is spam, given the text contained in the email). In these text problems, the input x is typically represented as a bag-of-words vector, which is a n-length 		vector for a text vocabulary of n words, such that the j - th element of the bag-of-words vector for a document is 1 if the j'-th word in the vocabulary occurs in 		that document, and 0 otherwise. (The case where we maintain word counts, instead of just a binary 0 or 1 value, is similar.)
+
+	Distributional similarity has been applied widely in text and natural language processing applications, including for clustering similar words (Lin, 1998), 			disambiguation problems,and others. Methods based on distributional similarity appear to be applicable to self-taught learning problems for text, but to
+	the best of our knowledge, there are no generalizations of this method that work on domains such as images or audio as well.
+
+	In mapping a natural language sentence to its semantic meaning, linguists often find it useful to compute intermediate, latent representations, such as part-of-		speech tags on words, the semantic sense of ambiguous words, or the parse tree for the whole sentence. Some methods for learning these latent representations use 		unlabeled data, by assuming models for these latent representations and then using probabilistic techniques (such as the EM algorithm) to iteratively refine these 		models. To take one example, such a method can be used for automatically learning a context-free grammar for a language, given access to unlabeled sentences.
+
+
+----> METHODS
+
+	1. The centerpiece of our work is a self-taught learning algorithm based on an optimization problem called "sparse coding":
+
+	    	This algorithm uses unlabeled data to learn a new representation for complex, highdimensional inputs, and then applies supervised learning over the 		 		representation. The representation captures higher-level aspects of the input, and significantly improves classification performance on many test domains, 		 	including computer vision,audio recognition and text classification.
+
+	2. Efficient sparse coding algorithms for a translation-invariant version of the model,that can be applied to audio and image data.
+
+	3. Generalize the model to a much broader class of inputs (the exponential family of distributions),and apply the model to text classification and a robotic 		   	   perception  task.Taken together, these experiments demonstrate that machine learning can be applied to much harder problems than previously possible.
+
+	4. Self-taught learning for audio classification:
+
+			> The sparse coding algorithm discussed can be directly applied to audio classification.
+
+			> Shift-invariant Sparse Coding: In shift-invariant sparse coding (SISC), each basis basis vector is allowed to appear at all possible shifts 				within the signal.
+						minimize^ £ . ||a#> - ^ h * aff + / ? £ \ . \\af\\x
+							s.t. M&j|| < 1, V j e l , . . . , s
+
+	5. Self-taught learning for Discrete inputs:
+
+	> We generalize the Gaussian probabilistic model behind sparse coding in a principled way to include most standard distributions. We draw on the widely studied 
+	  idea of the "exponential family" of distributions. This class of distributions includes the Gaussian, Bernoulli and Poisson distribution, among others,while 
+	  still providing guarantees useful for efficient learning and inference.
+
+	> Exponential Family Sparse Coding: To apply sparse coding to discrete inputs, we modify the Gaussian sparse coding model to allow any distribution from the
+					     exponential family:
+						minimize^ a £\ - log h(xM) - a^TBTT(x^) + ^(BaW) + (3 £ \ ||a« ||i
+								s.t. \\bj\\ < 1, Vj e l,...,s
+					where we define the basis matrix B such that its j - th column is the basis vector bj,implying that rj = V • bjtij = Ba.
+ 					We call this the "exponential family sparse coding" problem. As for Gaussian sparse coding, the value of (3 controls the number of 
+					nonzero activations at the optimal solution.
+
+	> We compare the IRLS-FS algorithm against state-of-the-art algorithms for optimizing the activations, focusing on the case of binary sparse coding: 
+	  (i.e., x G {0, l } n , with the Bernoulli distribution used as the particular exponential family distribution.
+
+	> We also applied the exponential family sparse coding algorithm to a very different self-taught learning problem: object recognition from 3D range data.
+
+
+----> RESULTS
+
+		Report shows results for various domains:
+
+1. Sparse coding features, possibly in combination with raw features, significantly outperform the raw features alone as well as PCA features on most of the domains.
+
+2. On the 101-way Caltech 101 image classification task with 15 training images per class, sparse coding features achieve a test accuracy of 46.6%. In comparison,the first 
+   published supervised learning algorithm for this dataset achieved only 16% test accuracy even with computer vision specific features (instead of raw pixel intensities).
+
+3. Sparse coding is able touse basis vectors ("strokes") learned on digits to significantly improve performance on handwritten characters—it allows the supervised learning
+   algorithm to "see" the characters as comprising strokes, rather than as comprising pixels.
+
+5. The test results obtained for musical genre classification with two different training set sizes.The SISC features achieve the highest classification accuracy. We note 
+   that MFCCs comprise a carefully engineered feature set that has been specifically designed to capture the discriminative features of audio.In contrast,the SISC features
+   were discovered fully automatically using unlabeled data, but still lead to comparable or superior performance.
+
+
+
+----> COMMENTS
+
+	All the results concluded are performed mostly on unlabeled data under the unsupervised learning algorithm, which distract us from the fact that if we run these 		algorithms on labeled data, then it might be a different scenario to see.
+
+
+-----------------------------------------------------------------------------------------------THESIS 2--------------------------------------------------------------------
+
+----> SOURCE
+
+	https://pqdtopen.proquest.com/doc/2187117215.html?FMT=ABS
+
+----> AGENT
+
+	> Learning to Play Cooperative Games via Reinforcement Learning
+		by Wei Ermo,Ph.D., George Mason University, 2018
+
+	>Advisor: Dr. Sean Luke, Deptt. of Computer Science,George Mason University
+
+----> GOAL
+
+	Aims to make coordination better for agents in cooperative games by improving on reinforcement learning algorithms in several ways. Begin by 
+	examining certain pathologies that can lead to the failure of reinforcement learning in cooperative games, and in particular the pathology of
+ 	relative over generalization.
+
+----> DATA
+	
+	1. RL with Parameterized Action Spaces: Study a specific problem in the RoboCup 2D simulation league to further motivate the exploration of the relative 
+						overgeneralization pathology. In the RoboCup 2D simulation league, we need to deal with parameterized action spaces, which 
+						require us to deal with both a discrete action space and a continuous action space using a function approximator.
+
+	2. Reinforcement Learning and Game Theory: In RL, an agent is interacting with environment through its perception and actions. At each time step, the agent will 
+						   perceive the environment and output an action.
+
+	3. The LMRL2 Algorithm: LMRL2 is a modified version of Q-learning which maintains per-action temperatures which are slowly decreased throughout the learning 
+				process. An action's temperature affects two things. First, it aects the degree of randomness of action selection: with high temperatures,
+				action selection is largely random, and with low temperatures, action selection is greedily based on the actions with the highest Q-values.
+				To do this, LMRL2 applies a temperature-based Boltzmann Selection common in other algorithms in the literature.However, when the average 
+				temperature drops below a certain minimum temperature, and LMRL2's action selection will suddenly become purely greedy. This min. temp. was
+ 				originally added to avoid floating point over rows common in Boltzmann Selection;but we have found that it also is beneficial for nearly 
+				all games.
+
+----> METHODS
+
+	1. We tested against twelve games, either from the literature or of our own devising. This collection was meant to test a diverse array of situations, including: 
+	   stochastic and repeated games, recurrent and episodic games, deterministic and stochastic rewards, deterministic and stochastic state transition functions, 
+	   deceptive problems, miscoordination, and relative over generalization.
+
+	2. Policy Gradient Method: When the state space of a control problem involves a continuous value, traditional RL with tabular representation of the value function 
+				   will not work. Thus, people use function approximator to approximate the value function.Policy Gradient methods are closely related with
+				   Policy Iteration.
+
+	3. Relative Overgeneralization: Relative overgeneralization occurs when a suboptimal Nash Equilibrium in the joint space of actions is preferred over an optimal 
+					Nash Equilibrium because each agents' action in the suboptimal equilibrium is a better choice when matched with arbitrary actions 
+					from the collaborating agents.
+
+					This situation can easily arise in cooperative, repeated games with discrete actions. Here is an example of relative 
+					overgeneralization in a repeated game.
+
+							
+
+
+----> RESULTS
+
+	1. LMRL2 fell in the top statistical significance tier for "complete" eight times,two times more than the next-best method (Distributed Q-Learning).
+
+	2. LMRL2 fell in the top statistical significance tier for "correct" eleven times, three times more than the next-best method (Swing between Optimistic/Neutral).
+
+	3. LMRL2 was uniquely statistically significantly best in RO 1 and Climb-FS.
+
+	4. SOoN was uniquely statistically significantly best in Climb-PS.
+
+	5. The Gradient 2 game proved very challenging to all methods. Yet WoLF-PHC, which often failed in other games, was statistically significantly best at Gradient 2 
+	   in "complete". LMRL2 underperformed WoLF-PHC on Gradient 2 in "complete", but outperformed it (and all others) in "correct".
+
+	6. Changing aplha improved LMRL2 twice, and once statistically significantly, but not by much.
+	
+
+----> COMMENTS
+
+	The performance of the trained agent fluctuates once it reaches the optimal stage,to reduce this effect is a work that is worth exploring.
+
+
+--------------------------------------------------------------------------------------------THESIS 3---------------------------------------------------------------------
+
+----> SOURCE
+
+	https://pqdtopen.proquest.com/doc/2054014362.html?FMT=ABS	
+
+----> AGENT
+
+	> An Evaluation of Unsupervised Machine Learning Algorithms for Detecting Fraud and Abuse in the U.S. Medicare Insurance Program
+			by da Rosa, Raquel C., M.S., Florida Atlantic University, 2018
+	
+	> Khoshgoftaar, Taghi M, Project Advisor, Deptt. of Computer Science,Florida Atlantic University
+ 
+
+----> GOAL
+
+	The population of people ages 65 and older has increased since the 1960s and current estimates indicate it will double by 2060. Medicare is a federal health 
+	insurance program for people 65 or older in the United States.In this study, an empirical evaluation of several unsupervised machine learning approaches is 
+	performed which indicates reasonable fraud detection results. They employ two unsupervised machine learning algorithms, Isolation Forest and Unsupervised Random 
+	Forest, which have not been previously used for the detection of fraud and abuse on Medicare data.Additionally, They also implement three other machine learning 
+	methods previously applied on Medicare data which include: Local Outlier Factor, Autoencoder, and k-Nearest Neighbor.
+
+
+----> DATA
+
+	1. Two datasets are used in this study. The first dataset is the Medicare Provider Utilization and Payment Data: Physician and Other Supplier (2012-2015),also 	   	   	   known as Medicare Part B, is provided by the Center for Medicare and Medicaid Services (CMS).CMS usually releases new data every year, where each new dataset 	   	   consists of a year of claims that are made available to the public two years after the end of that year.This study combines four years of data, from 2012 to 	   	   2015.The 2015 data is the latest provided by CMS at the time of this study and it was released in 2017. The Medicare dataset is not labeled and does not specify 
+	   which claim is a fraudulent claim.
+
+	
+	2. PERFORMANCE METRICS: The models used in this study are evaluated using the Area Under the ROC (Receiver Operating Characteristics) curve (AUC).
+
+				                             > ROC (Receiver Operating Characteristics):
+				A ROC curve, is commonly used to visualize the performance of a binary classifier.The ROC curve is generated by plotting the true positive 					rate (TPR), also called sensitivity, against the false positive rate (FPR), which is 1- specificity, at different threshold settings. The 					higher the area under the curve is, the better is the classifier's ability to distinguish between positive and negative class.
+
+
+							    >  AUC (Area Under the Curve):
+				The area under the ROC curve (AUC) is a concise measure of ROC curve performance.AUC can sort models by overall performance overcoming the 					dificulties encountered when comparing the differences between ROC curves, especially in cases were the curves intersect, therefore, the 					AUC is favored in models assessment. One of its properties is that the AUC of a classifier is equivalent to the probability that the 						classifier will rank a randomly chosen positive instance higher than a randomly chosen negative instance.
+
+
+
+
+----> METHODS
+
+
+								1. Outlier Detection:
+				Outliers are also called anomalies, abnormalities, discordants, exceptions, aberrations,contaminants, or deviants. Outlier detection 						relates to the task of looking for patterns in data that do not conform to expected behavior. Outlier detection has been studied within 					many research areas and application domains such as credit card fraud and intrusion detection on cyber-security.Outlier detection is a 						significant task as anomalies in data can indicate unusual or harmful activities for dierent application domains. For instance, an 						abnormal traffic pattern in a computer network could imply that a hacked computer is providing sensitive data to an unauthorized 						destination. An anomalous MRI image may show the presence of malignant tumors.Outliers in credit card transaction data could be a sign of 					credit card fraud or identity theft. An anomalous reading from a spacecraft sensor could imply a fault in some component.
+
+
+								2. Supervised and Unsupervised Learning:
+				Two common techniques used in machine learning are supervised and unsupervised learning, where supervised learning requires the training 					data to be labeled and unsupervised learning use unlabeled data. As an example of supervised learning,Bauder and Khoshgoftaar used 						physician specialties as labels and created a model to predict whether a physician is behaving within the norm of his or her medical 						specialty.Unsupervised learning can identify hidden patterns and group data to provide useful information.There are a variety of 						applications where unsupervised learning can be used such as when a user needs to explore the data by splitting it into groups or clusters. 				In this study, unsupervised learning models will be used in an effort to detect outliers in Medicare data. These outlier detection methods 					include the following: Isolation Forest,Local Outlier Factor,Unsupervised Random Forest, Autoencoders, and k-Nearest Neighbors.
+
+	
+----> RESULTS
+
+
+	1. ISOLATION FOREST: In this case study, we seek to analyze the impact of using IF to detect fraud on Medicare data. For the IF model, we used 100 trees.It shows 			     	     the results of this experiment and displays the outlier detection ROC curve for the IF model.
+
+ 			     It was observed in this experiment that out of the fraudulent physicians, 71% were correctly classified as fraudulent by the IF model,but 
+			     only 44% of the non-fraudulent physicians were correctly identified as non-fraudulent. Therefore,too many points are seen as possible 
+			     outliers by this model. The resulting AUC value of 0.55430 is low across all decision thresholds.IF performance showing learner sensitivity 			     	     and specificity at the best decision threshold.
+
+
+	2. LOCAL OUTLIER FACTOR: The performance of LOF was tested in this study to detect fraud on Medicare data.We ran the LOF model have times, with parameter k having 				 	 the values of 10, 20, 40,80,and 100.It shows the results of these experiments and presents the outlier detection ROC curve for the LOF 				 	 model.LOF was the best performer among all models tested.
+
+				 Our study shows that LOF had better performance than IF in every configuration tested, in terms of AUC value. The best AUC of 0.62985 was 				 	 obtained using k=40.It shows the best sensitivity, specificity, and AUC results for each of the LOF models. The LOF configuration with 				 	 k=20 was able to correctly classify as fraudulent 66% of the fraudulent physicians. The model with k=10 classified 77% of the non-				 		 fraudulent physicians correctly.
+
+
+	3. UNSUPERVISED RANDOM FOREST: The URF model was also tested in this experiment with the goal to observe its impact on the detection of fraud in Medicare data. For 				       this experiment, we run URF with 100 trees.It shows the result for this experiment and displays the outlier detection ROC curve for 				       		the URF model.
+					
+				       The use of Random Forest as an unsupervised model is very limited.Our experiment shows URF as a good performer,ranking third in our 				       	       experiment,after LOF and KNN1. URF was able to correctly classify as fraudulent 53% of the fraudulent physicians and it classified 				       	       65% of the non-fraudulent physicians correctly. The AUC value and the best sensitivity and specificity are provided.
+
+
+	4. AUTOENCODERS: The performance of AE was evaluated in this study regarding its ability to detect fraud on Medicare data. We applied six configurations of the AE 			 	 model, three using Rectifier with dropout, containing 50,100,and 200 nodes,and three with Hyperbolic Tangent (Tanh) with dropout,also containing 			 	 50,100,and 200 nodes.It shows the results of the experiments and presents the outlier detection ROC curve for the AE models.
+
+			 Our study shows that the AE's ability to replicate its input in the output does not work well on detecting outliers. In general, AE misses actual 			 	 outliers, it was able to correctly classify 46% of fraudulent physicians. It worked slightly better at classifying 65% of the non-fraudulent 			 		 physicians correctly.The best models were AE with Tanh having the best AUC value at the sensitivity and specifies city provided with AUC value of 			 	 0.55507.
+
+
+	5.  K-NEAREST NEIGHBORS: KNN was the last model tested to detect fraud on Medicare data. For this study,we run the KNN model using k=1 and k=5.It shows the results 				 of these experiments and displays the outlier detection ROC curve for the KNN model.
+
+				 Our study shows that KNN with k=1 (KNN1) is the second best performing model after LOF, both had similar AUC value. The KNN1 model was 				 	 able to correctly classify 50% of the fraudulent physicians and classified 68% of the non-fraudulent physicians correctly. The AUC, 				 		 sensitivity, and specificity are shown.
+	
+
+				 Contrary to KNN1, KNN with k=5 (KNN5) is the worst model tested in terms of AUC value. The KNN5 model was able to correctly classify as 				 	 fraudulent 60% of the fraudulent physicians, which was a better result than KNN1, although it classified only 44% of the non-fraudulent 				 	 physicians correctly. Introducing more neighbors may have contributed to the poor performance of the model. The AUC value with
+				 sensitivity and specificity provided in Table 4.5 was 0.51862.	
+							⁬‎
+
+----> COMMENTS
+
+	Unsupervised machine learning models were tested in this study. It is recommended to apply similar experiments using supervised models in an effort to compare the 		performance of supervised and unsupervised models.
+
+
+-------------------------------------------------------------------------------------------------------------THESIS 4-----------------------------------------------
+
+----> SOURCE
+
+	https://pqdtopen.proquest.com/doc/1854862196.html?FMT=ABS
+
+
+----> AGENT
+
+	1. Decision tree-based machine learning algorithm for in-node vehicle classification
+		by Trivedi, Ankit P., M.S., California State University, 2016
+
+	2. Mozumdar, Mohammad, Advisor, Deptt. of Electrical Engineering,California State University
+
+
+----> GOAL
+
+	This paper proposes an in-node microprocessor-based vehicle classification approach to analyze and determine the types of vehicles passing over a 3-axis 			magnetometer sensor. The approach for vehicle classification utilizes J48 classification algorithm implemented in Weka (a machine learning software suite). 
+	J48 is Quinlan's C4.5 algorithm, an extension of decision tree machine learning based on an ID3 algorithm.
+
+----> DATA
+
+	Machine learning algorithms are used by Y. He et al. where the features are processed in a Filter-Filter Wrapper model. The model produces the differentiated 			features between the possible classifiers. Next, clustering SVM is then used to create the classification algorithm. The paper states that particle swarm 			optimization is also used to optimize the parameters of the SVM algorithm. According to the paper, the 10-fold cross-validation results of 460 training samples 		produces a 99% overall classification rate. However, real world testing resulted in results ranging from 91-100%. Even though the real-world results are lower; 		these are rates which are much higher than the previous non-machine learning methods. The improved SVM method described by J. Lan et al.,without the optimization 		used by Y. He et al.,yields results around the range of 89-93%. An intelligent neural network classifier is proposed by W. Zhang et al. for vehicle classification. 	Overall, this method produced classification rates of 93% with individual classifications ranging from 89-100%. The study determined that most of the 			aforementioned machine learning algorithms would be very power intensive due to computational requirements. Algorithms utilizing SVM or neural networks would 			require a significant amount of computational time that could otherwise be spent in a microprocessor’s low power mode or sleep. In addition, features such as FFT, 		area calculation, and PVA would need to use mathematic functions that would take a significant amount of time to compute. The proposed method attempts to create a 		sensor network system that could be extremely power efficient all the while using machine-learning algorithms to generate a high classification rate model using 		the bare minimal amount of processing needed but also free from external supplementary computational devices such as a PC. The proposed method utilizes several 		easy to extract features at a 75Hz sampling rate. The classification rate was greater than 72.02%, by using simple feature extraction along with the machine-			learning decision tree generating algorithm J48.
+
+
+
+----> METHODS
+
+	2. MAGNEOMETER SENSOR: Magnetometers are a sensor which can measure the strength and/or direction of a magnetic field. The magnetic field is defined by both the 			       	       field vector,strength as well as direction. Magnetometers that measure just the strength or direction are called scalar magnetometers, while 			       those that measure both are called vector magnetometers.For vehicle detection application, usually, it needs both the direction and strength 			       of the magnetic distortion created by the vehicle. As a result, it is common to use the 3-axis magnetometer sensor (HMC5883L).These 			       		       magnetometers are capable of measuring the magnetic field in three different axes X, Y, and Z with various customizable accuracies and 					       ranges depending on the sensor. For example, a 3-axes magnetometer has 12-Bit ADC coupled with low noise ARM Senor Achieves 2 milli-gauss 			       	       Field resolution in ±8s Gauss Field.
+
+
+	3. Normalizing Raw Data: To determine when a vehicle passes over the AMR sensor, first the background magnetic field for where the sensor is placed, has to be 				 		 determined which is the baseline.Once the baseline is determined, the values are subtracted from each raw axis data to effectively zero 				 	 out the background magnetic noise floor. This offset level is different from each sensor system. Thus, providing a normalized dataset 				 		 would provide an advantage of using a single classification algorithm for multiple sensors.
+					Using the zeroed data on each of the 3-axes, “magnitude” is computed by Equation.
+									𝑚𝑎𝑔 = |𝑥| + |𝑧|
+
+	
+	4. Data Truncation: Once a vehicle passes the threshold the detection flag gets triggered, and the sensor starts collecting the detection window samples for the 			    	    vehicle. This detection window contains about 400 samples of vehicle data for each of the 3 axes which are transmitted wirelessly to the access
+			    point, where this data is recorded into Excel sheet using MATLAB for further processing.
+
+
+	5. Features Extraction: The fourth stage provides the truncated signals, which are the most optimized information about the vehicle magnetic signature.
+				Consider n number of vehicle types, each containing m number of data samples and s can be either of the three magnetic field axes
+ 				(x, y or z). Then, the signal’s mathematical representation can be as follows:
+							𝑉𝑛𝑠 = {𝑑𝑛𝑠1, 𝑑𝑛𝑠2, … , 𝑑𝑛𝑠𝑚}
+				in which, dnsi is the ith sample in the m number of data for the n-th vehicle type.
+
+	
+ 				Then, the corresponding feature vector for this window is represented as follows:
+								𝐹𝑛𝑠 = {𝑓𝑛𝑠1, 𝑓𝑛𝑠2, … , 𝑓𝑛𝑠𝑚 }
+				in which, fnsj is the jth features in the feature vector calculated for n-th vehicle type.
+
+
+	6. Machine Learning: Most of the MLVC systems deal with complex models, which comprises a various number of features. Thus,it is common to use machine learning 			     	     algorithms which have given an accurate result in most of the studies. There are various types of machine learning classification algorithms 			     	     which can be applied to the MLVC system.
+
+
+	7. Vehicle Classification: In the last stage of the architecture, it is essential to evaluate the mathematical model which is built in the previous stage using 				   	   machine learning algorithm.The classification results can be all represented in a confusion matrix 𝐶𝑀vel_𝑛𝑢𝑚×𝑎𝑐𝑡_vel in which the vel_𝑛𝑢𝑚 				   is the number of vehicles to be classified. Every element 𝐶𝑀𝑖𝑗 is the number of instances from class i that was actually classified as 				   	   class j. Corresponding to the confusion matrix, evaluation metrics is defined as follows:
+
+						> True positive (TP): The number of positive instances which are classified as positive.
+						> True Negative (TN): The number of negative instances which are classified as negative.
+						> False Positive (FP): The number of negative instances which are classified as positive.
+						> False Negative (FN): The number of positive instances which are classified as negative.
+
+
+----> RESULTS
+
+	1. The decision tree model was implemented using the J48 algorithm in sensor node along with following four features max_z, mean_y, peak2rms_x, and peak2rms_y. 	   	   Total of 168 runs were made in the actual real world scenario for the selected feature set with both cars going over the sensors. Out of 168 vehicles, 121 were 	   	   classified correctly. Of these, 79 out of 96 Sedans were classified correctly and 45 out of 72 SUV were classified correctly.
+
+	2. It was essential to test any of the 4 classification algorithms provided by Weka,to determine whether the classification rates using 10-fold cross-validation 	   	   match the rates found on real world test road. The results are displayed. It is also important to note that both the method implements the same 4 feature set. 	   	   The classification accuracy obtained by the Weka cross-validation method was 74.58%, whereas the accuracy of 72.02% in the real world scenario are nearly about 	   	   the same.
+
+	3. The resulting decision tree with the best overall classification rate. The resulting output decision tree generated from the J48 algorithm is based on the 	   	   	   information gain splits. Again, the highest numerical information gain determines which feature and what threshold value gets decided to be at a certain node. 	   	   The algorithm initially works its way down the left-hand side of the tree until a single classifier is left, then reverses back up the nodes until there are 	   	   nodes with multiple classes remaining. The process is repeated until each branch has no more than one classifier.
+
+	   This tree is the best to implement due to its simplicity and the fact that its size is small.With the addition of more features, the processing needed to 	   	   	   calculate for the features and also the potential size increase of the tree would result in more computational time. However, even by integrating the additional 	   features, if the size of the tree is still roughly the same, then the addition of more features for better results made sense.
+
+----> COMMENTS
+
+	Investigate new features and also tune the vehicle classification algorithm and use an advanced magnetometer sensor with a sampling rate of about 256Hz..
+
+
+ 
+--------------------------------------------------------------------------------------THESIS 5---------------------------------------------------------------------------
+
+----> SOURCE
+
+	https://pqdtopen.proquest.com/doc/2154863590.html?FMT=ABS
+
+
+----> AGENT
+
+	1. Automatic Snooker-Playing Robot with Speech Recognition Using Deep Learning
+		by Bhagat, Kunj H., M.S., California State University,2018
+
+	2. Demircan, Emel, Advisor, Mechanical & Aerospace Engineering, California State University
+
+
+----> GOAL
+
+	In this study, we introduce speech recognition capabilities along with computer vision to allow a robot to play snooker completely by itself. The color of the 	 		ball to be pocketed is provided as an audio input using an audio device such as a microphone. The system is able to recognize the color from the input using a 	 		trained deep learning network.
+ 
+
+----> DATA
+	
+	1.Robot Motion Planning and Actuation:  Robot motion planning is a procedural technique to break down a desired continuous-task movement to obtain a smooth 					       			optimized motion of the robot while taking motion constraints into concern. A simple robot motion planning problem requires 						the robot to start the motion at a static point and perform the manipulation in its configuration space. To understand and 							program the manipulation of our JACO robot, we referred to the manufacturer Kinova’s manual and its software development 							kit (SDK). The available SDK also provided the API, which helps the user to modify the code to manipulate and control the 							robotic arm in a desired manner.
+
+	2.Speech Recognition Using Neural Networks: Like many other neural networks, neural-network based speech recognizers typically consists of multi-layered 								    hierarchies. In this type of recognizers, the initial layer is made up of a group of HMMs, which are responsible for 						    	    recognizing the speech command. The second layer utilizes the output of previous layer as input and extracts special 						    	    features during recognition. The third layer in the system uses the output from preceding layer and spots the 						    		    patterns in the speech recorded. Finally, the fourth layer recognizes the correct spoken word and
+						    the model returns the word label as output.
+
+	3. Deep Learning using Neural Networks:	The term “deep” in Deep Learning relates to the number of layers through which data is processed. Deep learning is a 								special class of Machine Learning techniques that uses a set of several layers of non-linear functions for feature 								extraction and prediction. Each successive layer takes input from the output of the preceding layer. Essentially, Deep 								Learning networks learn from a hierarchy of instances. Each layer learns to yield more abstract and representation
+						from the input data. In an image classification problem for text recognition, for example, a matrix containing the pixels 							of the image is fed as raw input; the first layer in the network abstracts edges from those pixels; the second layer 								manipulates arrangement of the edges; the third layer detects straight and curved lines in each letter in the text; the 							fourth layer recognizes the content of the text. Like with many other Deep Learning applications, our model is based on
+						neural networks (NNs). A neural network is a processing system that contains performance characteristics which are 								analogous to biological neural networks. A neural network has a large number of processing components called nodes or 								neurons. Each node is connected to other.
+
+	4. Physics Behind Snooker: 	The collision between snooker balls is governed by the physics.The collision between two snooker balls is almost elastic, where the 					kinetic energy of the whole system is conserved before and after the collision. So, for the sake of convenience, one can assume the
+					collisions between snooker balls to be completely elastic. Just like many other collisions, momentum is conserved during the 							impact. It is also assumed that there is no friction acting between the ball and the table. Also, all the snooker balls are 							regarded to have the same mass.
+
+
+
+----> METHODS
+
+								Speech Recognition:
+
+	This phase describes how we trained the Deep Learning model that detects the presence of speech commands in an input audio. Our model uses the Speech Commands 			Dataset to train a neural network to recognize a given set of commands.
+
+	> Specifying Words for Recognition: Command words which the system was desired to recognize were specified (color of the ball to be pocketed). All other words not 					    	    among commands were labelled as unknown. The reason for labelling these words is that these words must approximate the
+					    distribution of all other words. Each word (often referred to as a class in machine-learning terminology) had more than 1700 					    	    audio examples which helped us to achieve significant training accuracy. Each word was recorded as an audio example in 					    		    different scenarios such as different accent, varying speech tones or inconsistent audio pitch.
+
+						commands={"black","blue","red","green","violet","pink"};
+
+	> Computing Speech Spectrograms: To formulate the data for effective training of a CNN network, speech waveforms were converted to log-bark auditory spectrograms. 					 	 Spectrograms for all the training, validation, and test sets were computed using the auditory spectrogram function. To minimize 					 	 the number of spikes present in the dataset, a logarithm of the spectrograms was taken with a small offset epsilon. Computed 					 		 spectrograms were then plotted along with the waveforms of a few training audio examples. Labels of the corresponding sample were 					 	 marked on top of the waveform. DL neural networks take less training time when the fed inputs are considerably smoother in
+					 distribution and normalized. To ensure smooth distribution of the data, a histogram of the pixel values of the audio training data 					 was visualized.
+
+
+	> Consideration of Background Noise: Background noise samples were mixed with speech samples to improve the robustness of the model. This enabled our model to 					     		     identify any unwanted background noise during training, validation, or testing. Distribution of different classes during 					     		     training and validation. The sole purpose of plotting these distributions is to visualize the evenness of the distributed 					     		     samples for each class.
+
+
+	> Defining DL Neural Network Architecture: The first stage in speech recognition module is the convolution neural network which interprets the audio input in a 						   	   computable format. A convolutional neural network architecture is constituted by an array of layers, and each layer is 						   	   defined as required. The recorded audio waveforms are converted to time-frequency domain and fed into the layers of CNN. 						   Max pooling layers are used to lower the sampling frequency; this reduction is significant in reducing the number of 						   	   parameters in the fully connected layer. A small dropout is added to the inputs to the layers with highest number of 							   parameters; this is done to prevent the network from memorizing some specific features from the training datasets. In
+						   fact, these layers are the convolutional layers with the highest number of filters.
+
+
+	> Evaluating the Trained Model: The model achieved 97.84% accuracy during the training process with a small amount of training and validation errors (1.4356% and 						3.2432% respectively). A computer with a GPU is used to make the training process faster.Validation accuracy and data loss for the 						mode while training for 4,875 iteration. Following the training process, a confusion matrix is plotted to evaluate and obtain a 						better idea of our classification model and to know the factors that prevent accurate predictions.A confusion matrix provides a 						summary of recognized results on a classification problem. This matrix confirms the accuracy of the model.
+
+----> RESULTS
+
+	The goal of this research was to integrate the decision-making capability in manipulative robots to perform a task in dynamic environments. This integration is 		greatly significant because the robot can accomplish a task with methods that mimic human. In this study, we used a Deep Learning algorithm for real-time speech 		recognition. The model obtained 97.84 percent validation accuracy for the training dataset. The real-time plot depicting the accuracy of the model. We also used 		Machine Learning algorithms, CNN and k-NN, for real-time image classification. 100% accuracy was achieved for colored-ball image classification algorithm for k=5. 	 	The performance of image classification model for different values of k. The accuracy of both the models mentioned here confirms the efficiency of the models when 		they are implemented individually. Both models were then executed one after the other, first speech recognition then image classification. We termed this combined 		model as integrated model. To evaluate the performance of the integrated model, we performed the experiment repeatedly to collect 2,000 test samples and its 			performance were reported.
+
+	The model classified the color-ball 1,972 times correctly during the experiment and the model’s accuracy was reported as 98.60%. The performance for the integrated 	model in terms of accuracy and loss. Consequently, we tested the model’s effective accuracy by testing the robot’s ability to pocket the desired ball. Effective 		accuracy of the model would be considered only for successfully-completed trials. We manually define and report a successfully-completed trial as a trial for which 	a spoken-color ball is classified correctly, the robot hits the desired ball perfectly and pockets it properly. Trials, for which any one of these requirements was 	unmet, were regarded as a failed. In addition, if the shot selection algorithm failed to generate a feasible shot, the trail was observed as a failure. During the 		testing,the robot was able to complete 1154 successful trials over 1200 trials. These successfullycompleted trials, as per our definition, constituted 96.17% 			effective accuracy of the developed model. The execution time was recorded from the moment speech input was provided through to the moment the target was 			accurately pocketed. We disregarded the execution time for the test samples that failed to perform the task correctly. The average execution time reported was 7.46
+	seconds. We also examined the 46 failed trials to improve the model and inaccurate end-effector position caused failure of 12 trials.
+
+----> COMMENTS
+
+	I personally think that, they should have emphasised on developing robots that can execute activities in real-time applications with lesser processing times, such 		as automatic target detection (ATD).
+
+
+----------------------------------------------------------------------------------THESIS 6--------------------------------------------------------------------------------
+
+
+----> SOURCE
+
+	https://pqdtopen.proquest.com/doc/2267870940.html?FMT=ABS
+
+
+----> AGENT
+
+	1. A gradient boosting machine algorithm to predict age of glioblastoma incidence with copy number variation data
+			by Lu, Yige, M.S., University of California,2019
+
+	2. Brody, James P, Advisor, Deptt. of Biomedical,University of California
+
+----> GOAL
+
+	In this thesis, we tested whether germline genetic information could predict who will develop GBM and when will they develop it. We first extracted copy number 		variation (CNV) data from germline DNA in the peripheral blood samples of 8826 patients in the The Cancer Genome Atlas (TCGA) database. We compared that to 8338 		patients in the database who did not develop GBM. We used several machine learning algorithms: deep learning, gradient boosting machine and random forest methods 		to test whether the germ line genetic data could predict who would develop GBM.
+
+
+
+----> DATA
+
+	1.	Glioblastoma is more common among males than females. Overall, males have a 60% increased risk of glioblastoma multiforme compared with females.This result 		is similar to our dataset (male : 299, female : 189, ratio 1.58). The average glioblastoma survival time is about one year [10]. The survival time improved
+		significantly from 2005-2008 compared to 2000-2003.This finding is different from the previous analysis of SEER data, which shows that survival 				had not improved since the 1980s. This result is mainly due to a new method of treatment: temozolomide. A report from 2015 shows that the median overall 			survival in the temozolomide alone group (n = 84) is 15.6 months (95% CI, 13.3-19.1 months), which is consistent with research conducted in 2012 that 				showed similar improvement. Despite new treatment strategies, the median after diagnosis in the SEER (Surveillance, Epidemiology, and End Results) 				population remains well under one year.
+
+
+	2.	 Machine learning techniques have been successfully applied in various fields of biomedicine, including genomics, proteomics and systems biology. In the 			 mid-20th century, Ledley first applied mathematical modeling to the medical field and used computers as ameans of diagnosis. The focus of machine learning 		 is to utilize the knowledge we do know to discover unknown. By studying cancer through machine learning, you can learn from existing cancer case studies, 			 so that the computer develops certain decision-making abilities and then intelligently judges and evaluates unknown cancer cases, which can be more 				 accurate than each doctor’s limited experience. With the continuous development of artificial intelligence and machine learning, more and more research 		 	 work is being done on medical intelligent diagnosis.
+
+
+
+----> METHODS 
+
+	1. Data collection:	Firstly, we selected chromosomes and their end positions from  datasets. The masked copy number variation (CNV) dataset contains all 						available copy-number segmentation information for TCGA samples of 10995 cases. In this case, we selected the end position of chromosomes 					that have additions or deletions (in total 23). The second (TCGAbioclin- Biospecimen) dataset contains one row for each TCGA sample (also 					known as biospecimen) of 23979 samples obtained from 11365 unique cases. In this dataset, most cases provided two samples: one primary 						tumor sample and one blood normal sample.As for this study, we mainly focused the sample for blood derived normal. In these two datasets, 					their sample barcodes are the same (e.g."TCGA-12-1089-01A"), which indicated that the sample is from the same patient and extracted in the 					same way.
+
+
+	2. Data cleaning:	After collecting two datasets, we selected general information (project names, gender, age, daysto-death) and genetic factors among 						patients (the end position of chromosome, the chromosome for the copy number segment and the mean of segment) from Google Bigquery. Next, 					we imported the data into statistical language R. By using the Bigrquery package in R, a new dataset was obtained with 205428 observations 					and 8 variables. Then we used Tidyverse package to clean and rearrange the data. There are three principle rules for a tidy dataset:
+						> Each variable must have its own column.
+						> Each observation must have its own row.
+						> Each value must have its own cell.
+
+
+	3. H2o.ai and K-fold cross-validation:	After doing all these preparations, we were able to analysis the new dataset with machinelearning method in h2o.ai. The 							h2o.ai is an open source for AI programming. By using the h2o package in R, we could import our dataset into online h2o 							platform and run the machinelearning models.
+
+						The K-fold cross-validation, on the other hand, is an alternative method to make full use of a data set. The original 								dataset is randomly partitioned into 4 subsets with identical-sized data. Of the k=4 subsamples, a single subset is 								retained as the validation data for testing the model and the remaining 3 subsets are used as training data. We
+						repeated this procedure 4 times to get the average cost function for the model. This procedure is similar to random 								subsampling. In our study, we set k=5 for training. The accuracy of the crossvalidation is the overall classification 								rates, which is the average accuracy of each experiment.
+
+
+	4. Simple random sampling:	To better evaluate regression model, we used a simple random sampling method to generate randomized data of the age of glioblastoma 					patients. This is called a control dataset, we expect that we cannot predict the age in the control dataset, since it was randomly 						assigned and does not have relevant genetic information.
+
+
+----> RESULT 
+
+	1. The fitted result and randomized result were compared. For all of the models, the gradient boosting algorithm achieved best results, indicating that our model 		   could make a prediction of the age of glioblastoma patients.
+
+	>	The model trained by the actual age has the lowest RMSE, indicating that the difference between the predicted age and the real age is relatively small. 			The correlation coefficients for the model trained by the actual age has the largest value compared to the 4 control tests. We used t-test to compare our 			model and control groups (p-value = 0.004). The scatter plot of the prediction age and the real age is also plotted. The five p-values of our simple 				regression models across different groups are calculated. The x-axis is the actual age of the patients and the y-axis is the predicted age of patients. 			These results suggest that the time when the patients are diagnosed with glioblastoma is influenced by genetics. We can see that compared with randomized 			fitting, the fitting result of gradient boosting machine is much better, especially at the range of 55 to 60.
+
+	>	As for the gradient boosting machine model, when the number of trees arrived at around 30, the log loss function reached the minimum value. As for the DRF 			model, when the log loss function reached its minimum value, the number of trees would be 20. As for the deep learning model, we could set the epochs as 			120 to minimize the log loss function.
+
+	>	The gradient boosting machine has the highest AUC (0.82), while the AUC of the DRF model reaches at 0.80, and the Deep learning model behaves worst
+		(AUC=0.71). All of the results tell us that the majority of glioblastoma patients have acquired cancer due to the inherited factor.
+
+
+	>	For female patients, the classification result is more accurate than male groups (AUC = 0.92 vs AUC = 0.80). This might due to the reason of the different 			chromosome variances across males and females. 
+ 		In the male groups, the three most important copy number variations located in the X, 2 and 10 chromosomes, while for the females, the most important copy 			number located in the 2,3 and 8 chromosomes.
+
+
+----> COMMENTS
+
+	1. I focused two major problems: one is a regression problem and the other is a classification problem.
+
+	2. Gradient boosting machine method gets a good fitting result compared to the random sampling. However, this result could only predict a small range of ages and 	   	   is not medically useful. This is possibly due to the limited scale of data. With more collected CNV data in the future, the predicted precision will be more 	   	   accurate.

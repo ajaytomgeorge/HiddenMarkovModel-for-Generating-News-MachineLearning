@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theguardian.com/society/2020/feb/20/antibiotic-that-kills-drug-resistant-bacteria-discovered-through-ai
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Powerful antibiotic discovered using machine learning for first time
+
+== DATA
+
+Data consisted of atomic and molecular features of nearly 2,500 drugs and natural compounds from de novo. Obtained 6,111 molecules from Drug Repurposing Hub. Tested against E. coli
+
+== METHODS
+
+Binary classification model(maybe Logistic Regression, SVM), Deep Neural Network D-MPNN, Chemprop
+
+== RESULTS
+
+51 of the 99 predicted molecules displayed growth inhibition against E. coli
+
+== ISSUES
+
+the discovery of new antibiotics is becoming increasingly difficult. Natural product discovery is now plagued by the dereplication problem, wherein the same molecules are being repeatedly discovered. Choosing molecules for antibiotics is a risky procedure and requires a lot of trials before it can be mass produced. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Although it is fairly risky to let ML models choose compounds for antibiotics, it would help microbiologists narrow down the potential ones from a very huge collection of compounds (beleived to be ranging from hundreds of thousands to a few million molecules). Of course, the selected compounds have to pass a sequence of tests (eg. toxicity) that can now be performed with greater attention and in less time.

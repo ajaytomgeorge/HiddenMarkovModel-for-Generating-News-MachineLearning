@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.nature.com/articles/s41467-021-26022-3
+
+== AGENT
+
+Department of Electrical and Electronic Engineering, Imperial College London, London, SW7 2AZ, UK
+
+Nicolas Perez-Nieves, Vincent C. H. Leung, Pier Luigi Dragotti & Dan F. M. Goodman
+
+== GOAL
+
+Tweaking the electrical properties of individual cells in simulations of brain networks, the networks learned faster than simulations with identical cells
+
+== DATA
+
+Researchers tasked AI neural networks with learning and identifying hand gestures.
+
+== METHODS
+
+Just research on human brain.
+
+== RESULTS
+
+The results show that by allowing the network to combine slow and fast information, it was better able to solve tasks in more complicated, real-world settings. When they changed the amount of variability in the simulated networks, they found that the ones that performed best matched the amount of variability seen in the brain, suggesting that the brain may have evolved to have just the right amount of variability for optimal learning.
+
+== ISSUES
+
+NIL
+
+== SCORE
+
+9
+
+== COMMENTS
+How cool is it to study your own brain? I love such topics and I found this research quiet interesting .The experiment with hand gestures are also well executed.

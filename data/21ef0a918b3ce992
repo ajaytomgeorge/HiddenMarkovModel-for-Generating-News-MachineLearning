@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.foxnews.com/tech/rubiks-cube-solved-algorithm-fraction-second
+
+== AGENT
+
+University of California - Irvine
+
+== GOAL
+
+Solve a Rubik's Cube with a deep learning algorithm - DeepCubeA
+
+== DATA
+
+Goal state scrambled to random positions with all states in between used to train
+
+== METHODS
+
+Deep learning was accomplished through unsupervised learning in isolation. A* was used to minimize the amount of moves to reach goal state.
+
+== RESULTS
+
+The DeepCubeA algorithm reaches the goal state in the least possible amount of moves 60.3% of the time and can solve 100% of test configurations. It usually takes around 20 moves to solve.
+
+== ISSUES
+
+I don't believe there to be any issues in the research or reporting of this algorithm. The researchers are honest about how small this algorithm is in the grand scheme of AI systems, but believe that it is an important step nevertheless.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found the usage of A* to be interesting in pressing the algorithm to finish the problem under a time limit.

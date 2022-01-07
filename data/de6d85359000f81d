@@ -1,0 +1,34 @@
+==== SOURCE
+
+The article’s source can be found at: 
+https://journals.sagepub.com/doi/pdf/10.1177/1475921718768747?casa_token=toMbS-GUMhoAAAAA:z7J0TT_OrN_1Tff2ET0RbA79qxN1xo2VuXjEgjJpVfNql-NsMxuwDCdr-OC669KI7R2SFbPHewuZ
+
+
+==== AGENT
+
+The document was written by:
+Hyunjun Kim, Eunjong Ahn, Myoungsu Shin and Sung-Han Sim
+
+
+==== GOAL
+
+The main objective of this paper is to detect and classify cracks in pavement.
+
+==== DATA
+
+The data can be accessed on the web page http://shm.unist.ac.kr/files/Image_Pool.zip provided by the article. It consists of 527 actual cracks and 2659 non-cracks. The data segmentation and dataset creation of this task is very time consuming if the cracks want to be segmented in a very clear matter, due that the morphology of this objects is complex
+
+==== METHODS
+
+To perform this task a computer with a GPU NVIDIA GTX 1080, an Intel Core i7-7700 processor clocked at 3.60 GHz and 16GB of RAM was utilized for the training and classification task.
+The methodology of this paper compares two methodologies to classify cracks methodology called SURF from computer vision that utilizes grey scale images and its binary information to identify the objects in the images. It is compared with a Convolutional Neural Network that is trained utilizing binding boxes identified data set to classify real cracks from non-real cracks. 
+Three classification models where utilized, a support vector machine trained with geometric patterns and statistical properties, a CNN only trained with intact surfaces and real cracks and a CNN trained with real cracks and non-real cracks.
+
+
+==== RESULTS
+
+The accuracy of the support vector machine model was a 84% accurate, while the trained CNN with only real cracks and intact surfaces gave an accuracy of 47% due to the identification of non-real cracks, finally the CNN trained with both the real cracks and the non-real was very accurate with a rate of 98%. Showing a very promising research of automation in crack detection utilizing visual sensors.
+
+==== COMMENTS
+
+The article shows a high level of knowledge in computer vision for concrete failure identification. Is important to consider that the replication of this research can be very time consuming when constructing the dataset due to the morphology of the cracks. It is a very interesting topic to research due that is an area highly required for construction inspection and infrastructure maintenance. The results seem real but the theoretical explanation is not very detailed and clear, is a research focused on applied machine Learning

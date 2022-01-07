@@ -1,0 +1,11 @@
+==== SOURCE
+https://www.sciencedaily.com/releases/2019/09/190912100936.htm
+==== AGENT
+Charité - Universitätsmedizin Berlin
+==== GOAL
+To improve the diagnostics of head and neck cancers. 
+==== DATA
+The researchers used DNA methylation data from several hundred head and neck and lung cancers in order to train a deep neural network to distinguish between the two types of cancer.
+==== METHODS
+==== RESULTS
+Researchers have now over in a 99% accuracy in diagnosis 

@@ -1,0 +1,36 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9091758
+
+== AGENT
+
+Gaurav Meena, Deepanjali Sharma and Mehul Mahrishi.
+
+== GOAL
+
+Traffic Prediction for Intelligent Transportation System using Machine Learning.
+
+== DATA
+
+Real-time traffic data and historical data were collected from various sensor sources, including inductive loops, radars, cameras, mobile Global Positioning System, crowdsourcing, social media.
+
+== METHODS
+
+Intelligent Transportation System (ITSs), Deep learning, Decision Tree Algorithm (DT) and Random forest algorithm and Support Vector Machine (SVM) algorithm.
+
+== RESULTS
+
+The accuracy of the Traffic prediction result is more in the Random forest algorithm compared to the Decision Tree Algorithm and Support Vector Machine (SVM) algorithm.
+
+== ISSUES
+
+The proposed algorithm also offers higher precision than existing algorithms and also improves complexity issues across the entire data set.
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Since the accuracy rate is ninety percentage, the proposed module has to be more accurate for traffic prediction. The method used is not new since already many traffic prediction machine learning projects are existing in the real world. 

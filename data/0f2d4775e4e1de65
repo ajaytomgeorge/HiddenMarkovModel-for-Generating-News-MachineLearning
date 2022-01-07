@@ -1,0 +1,38 @@
+== SOURCE
+
+https://arxiv.org/abs/1212.0142
+
+== AGENT
+
+Pierre Sermanet, Koray Kavukcuoglu, Soumith Chintala, Yann LeCun
+
+== GOAL
+
+The goal is to report state-of-the-art and competitive results on all major pedestrian datasets with a convolutional network model.
+
+== DATA
+
+The ConvNet is trained on the INRIA pedestrian dataset Pedestrians are extracted into windows of 126 pixels in height and 78 pixels in width. The context ratio is 1.4, i.e. pedestrians are 90 pixels high and the remaining 36 pixels correspond to the background.
+The other datasets used for this approach are the ETH, Caltech and TudBrussels datasets, the LatSvm-V2, INRIA and Daimler datasets. 
+
+== METHODS
+
+A sparse coding algorithm and unsupervised learning is used for this model.
+
+== RESULTS
+
+A new feature learning model was introduced with an application to pedestrian detection. The model learns all the features at all levels in the heirarchy.  The resulting model also provides state of the art or competitive results on most measures of all publicly available datasets.
+
+== ISSUES
+
+None to my knowledge.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This was an interesting experiment as it not only is an upgrade to the previous models, it can also consistently yield state-of-the-art results. 
+With previous models, while low-level features could be designed with good success, the mid-level features that combine with the low level features were difficult to develop without a learning procedure. This was when CovNet was used with supervised learning. 
+This model, using some "twists" could produce consistent competitive results with high accuracy and speed.

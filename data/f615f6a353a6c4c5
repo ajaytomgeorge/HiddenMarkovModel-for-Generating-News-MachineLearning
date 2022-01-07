@@ -1,0 +1,34 @@
+== SOURCE
+https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/
+== AGENT
+Latitude
+== GOAL
+Create an interactive text based adventure game to fit a user's requested genre and style using Machine Learning and Natural Language Processing
+== DATA
+Trained using old (1970's) text based adventure games (such as the "Zork" series) and then further learning occurred from user input as data.
+== METHODS
+Combination of Natural Language Processing and Deep Learning using OpenAI's GPT-3 Model
+== RESULTS
+The project as a whole was a success. They were able to generate unique adventures for users over many combinations of genres and settings. 
+In some cases, people have been using AI dungeon as a companion tool to write short stories, poetry and "erotic adventures".
+However, as seen in other similar projects such as Twitter bots that also take in live data from their environment (e.g. social media), unscrupulous users have used AI dungeon to create scenes of explicit or excessively violent natures, which affected media generated for other users using it for more innocent purposes. 
+In particular, AI dungeon began generating scenes of a sexual nature involving children, which led to Latitude stepping in with human moderation of input data used for further learning.
+This can be seen as an example of the GIGO principle (Garbage In, Garbage Out) when using user input data for machine learning.
+== ISSUES
+As mentioned above, users creating content that can be deemed NSFW (not safe for work) or in some cases NSFL (not safe for life) content impacted other users experiences using the system as this data was used for learning purposes, which highlights a darker side to human-AI collaboration.
+This project also raises ethical concerns of using of human intervention to look at user-generated data. Some users raised concerns and feelings of betrayal as Latitude was manually accessing and reading users "private fictional literacy content".
+Latitude implemented a new moderation system that was deemed "oversensitive" by the community, as users couldn't refer to things such as "an 8-year-old laptop" without being flagged by this new system.
+== SCORE
+7
+== COMMENTS
+I feel this is an interesting use of ML combined with other AI models to interact with a user base to create stories, adventures through human-AI interaction.
+The article is focused on the ethical concerns and impacts of the project, so it doesn't go into great technical detail of the project. 
+In particular, it highlights the need for moderation when using use-generated data via social media for further learning. 
+As has been seen before in social media bots, unscrupulous users can "corrupt" the machine to generate content that could be viewed as illegal in the eyes of the law, or as obscene by unsuspecting users.
+Machines have no context for legal issues or social taboos in relation to their generated media, so human supervision is required to moderate the training data from which the machine is learning.
+Another aspect of this project that is interesting is that people were able to use AI dungeon as a collaborative tool in creating stories, poetry and other artistic ventures. 
+In some cases, users had used AI dungeon to explore facets of their own human psyche and artistic expression involving a range of subject matters and styles.
+
+
+
+

@@ -1,0 +1,12 @@
+==== SOURCE
+https://ieeexplore.ieee.org/document/1512240
+==== AGENT
+DCU
+==== GOAL
+Event detection in field sports video using audio-visual features and a support vector Machine
+==== DATA
+video corpus consisting of a variety of field sport genres including rugby, hockey, soccer and Gaelic football
+==== METHODS
+The training corpus consisted of 210 events—70 events from soccer, 70 from rugby, and 70 from Gaelic football. For each individual event, the corresponding SFVs, coupled with the ground truth, were used to train the SVM, such that a generic field sport event model was generated, inferred from the key feature patterns.
+==== RESULTS
+Compared to a manually annotated ground truth, it has been shown that both high event retrieval and content rejection statistics are achievable.

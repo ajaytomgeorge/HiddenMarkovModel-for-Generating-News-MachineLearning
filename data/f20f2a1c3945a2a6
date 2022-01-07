@@ -1,0 +1,36 @@
+== SOURCE
+
+https://ocula.com/magazine/art-news/google-reconstructs-lost-klimt-paintings-with-ai/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Reconstruct Lost Gustav Klimt paintings with only black and white photos as reference.
+
+== DATA
+
+Drawing on a vast data set of Klimt's works, archival data, and scholarly research.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+They were able to colour it even in the places where they had no knowledge. Machine Learning was able to make good assumptions about Klimt's use of colour.
+
+== ISSUES
+
+None
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I thought it was interesting as it used machine learning to restore lost pieces of art that would otherwise be lost to time (as they were destroyed by the Nazis).
+The reporting was to the point and accurate, but could have gone into a little more detail. 

@@ -1,0 +1,32 @@
+==== SOURCE
+https://www.the-scientist.com/notebook/artificial-intelligence-could-help-monitor-bee-health-65776
+==== AGENT
+high school student Jade Greenberg and  Jacci Cenci a solutions architect at NVIDIA
+
+==== GOAL
+
+New beehive to monitor for varroa mite infestation.
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Greenberg’s team captured images in the California beehive every 10 seconds and then used NVIDIA’s machine learning to detect the presence of varroa mites on bees.
+They were individual frames from vidoes of beehives.
+
+==== METHODS
+
+What did they actually do?
+
+Initial method was to take 300 bees, put them in a jar, sprinkle powdered sugar on them, shake the jar, and count how many mites fall off of the bees.
+But instead they took pictures of beehive every 10 sec and used NVIDA'S machine learning to detect for the presence of mites.
+They used individual frames from videos of healthy beehive and from different beehive where the mites are present. Fed into a model to train a computer algorithm.
+
+==== RESULTS
+
+How did it go for them?
+It is still under prototype stage. As she decides to add features to measure physical properties such as ventilation and heat distribution.She was a finalist
+at Intel International Science and Engineering Fair so her idea for saving beehives from mites is well recognized.
+
+==== COMMENTS
+This is a smart idea for the future as it is still under research. Beekeepers job is minimized as the machine learning takes over the observation of the mites present in
+the beehive. We can see that AI and machine learning is the future of our society as it is very powerful and takes minimal effort.

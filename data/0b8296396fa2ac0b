@@ -1,0 +1,34 @@
+﻿==== SOURCE
+
+https://news.mit.edu/2018/machine-learning-financial-credit-card-fraud-0920
+
+
+==== AGENT
+
+A team of MIT researchers.
+
+
+==== GOAL
+
+Fraud-detecting technologies used by a consumer’s bank often flag the sale as suspicious incorrectly. MIT researchers have employed a new machine-learning technique to drastically reduce these false positives, saving banks money and easing customer frustration.
+
+
+==== DATA
+
+The researchers used the transaction data from a large bank (the name of the bank is not disclosed).
+
+
+==== METHODS
+
+The MIT researchers have developed an “automated feature engineering” approach that  extracts more than 200 detailed features for each individual transaction — say, if a user was present during purchases, and the average amount spent on certain days at certain vendors. By doing so, it can better pinpoint when a specific card holder’s spending habits deviate from the norm.
+
+
+
+==== RESULTS
+
+Tested on a dataset of 1.8 million transactions from a large bank, the model reduced false positive predictions by 54 percent over traditional models, which the researchers estimate could have saved the bank 190,000 euros(around $220,000) in lost revenue.
+
+
+==== COMMENTS
+
+We can say there’s a direct connection between feature engineering and [reducing] false positives. That’s the most impactful thing to improve accuracy of these machine-learning models.

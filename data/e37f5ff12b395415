@@ -1,0 +1,26 @@
+== SOURCE
+https://www.infoworld.com/article/3535230/how-ai-helped-domino-s-improve-pizza-delivery.html
+
+== AGENT
+Dominos
+
+== GOAL
+Improve Pizza delivery and customer experience.
+
+== DATA
+For a standard Dominos store, the number of employees, managers, and customers present at that moment.
+
+== METHODS
+Unsupervised Learning, Models
+
+== RESULTS
+Dominos is seeing happier customers and more tips for its drivers.
+
+== ISSUES
+None as they are just trying to improve their business.
+
+== SCORE
+5
+
+== COMMENTS
+It's interesting how they find new ways to use their data.

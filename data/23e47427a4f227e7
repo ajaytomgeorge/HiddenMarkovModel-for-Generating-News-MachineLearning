@@ -1,0 +1,65 @@
+﻿==== SOURCE
+
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+
+
+
+
+==== AGENT
+
+
+Adam Conner-Simons | MIT CSAIL
+
+
+
+
+
+==== GOAL
+
+
+
+Hunt down cybercriminals using machine learning
+
+
+
+==== DATA
+
+
+ data from several years’ worth of network operator mailing lists, as well as historical BGP data,  were taken every five minutes from the global routing table. 
+
+
+
+
+==== METHODS
+
+
+From the dataset, they observed particular qualities of malicious actors and then trained a machine-learning model to automatically identify such behaviors.
+The system flagged networks that had several key characteristics, particularly with respect to the nature of the specific blocks of IP addresses they use:
+Volatile changes in activity: Hijackers’ address blocks seem to disappear much faster than those of legitimate networks. The average duration of a flagged network’s prefix was under 50 days, compared to almost two years for legitimate networks.
+Multiple address blocks: Serial hijackers tend to advertise many more blocks of IP addresses, also known as “network prefixes.”
+IP addresses in multiple countries: Most networks don’t have foreign IP addresses. In contrast, for the networks that serial hijackers advertised that they had, they were much more likely to be registered in different countries and continents.
+
+
+
+
+
+
+
+
+
+==== RESULTS
+
+
+Resulted in preventing abuse such as filtering, antispoofing, coordination via contact databases, and sharing routing policies so that other networks can validate it
+
+
+
+
+
+
+
+==== COMMENTS
+
+Machine learning used to learn network behavior history to understand fraud members and attackers 

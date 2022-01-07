@@ -1,0 +1,35 @@
+==== SOURCE
+https://www.the-scientist.com/infographics/infographic--how-artificial-intelligence-analyzes-cancer-65797
+
+==== AGENT
+
+Snyder director of the Center for Genomics and Personalized Medicine at Stanford University and graduate student Kun-Hsing Y
+
+==== GOAL
+
+AI uses Image and Omics to Decode Cancer
+
+==== DATA
+
+Historical images where fed in as inputs into the model as it outouts diagnosis.
+
+==== METHODS
+
+What did they actually do?
+
+Yu fed in histroical photos along with pathologist-determined diagnoses to train to distinguish lung cancer from normal tissue. He then fed survival data 
+so the system can learn how these information corelated with the images. With these data they were able to predict how long a patient would live who has cancer.
+Snyder and Yu thought they could do more, Snyder’s lab works on omics,so they decided to offer the computer not just the slides but also tumor transcriptomes. 
+With the additional data the model predicted patient survival even better than images alone with more than 80% accuracy. The ultimate goals of these algorithm
+is to help doctors select treatment and forecast survival.
+
+==== RESULTS
+
+How did it go for them?
+
+They got 80% accuracy with adding tumor transcriptomes along with images slides which was impressive. The pathologist makes predictions from assessing tumors stage, size and extent
+and still they dont agree that this doent always be able to predict patients survival. So in a way this ML technique developed can be very crucial in predicting the survival of patients.
+
+==== COMMENTS
+
+This is an example where humans evaluation of visual tissue micrograph can not always be correct. This is where ML comes in very useful in predicting the survival rate with 80% accuracy.

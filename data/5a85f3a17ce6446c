@@ -1,0 +1,25 @@
+== SOURCE
+https://www.sciencedaily.com/releases/2020/10/201028124520.htm
+
+== AGENT
+Texas Tech University
+
+== GOAL
+Differentiate among the fMRI(Functional magnetic resonance imaging) signals of healthy people, people with mild cognitive impairment, and people with AD(Alzheimer's disease)
+
+== DATA
+Past diagnostic data
+
+== METHODS
+Convolutional neural network (CNN), Classification, Supervised
+
+== RESULTS
+Identify the mild cognitive impairment stages
+
+== ISSUES
+
+== SCORE
+7
+
+== COMMENTS
+This is a very great application, and the ultimate goal of human creation is for humanity itself.

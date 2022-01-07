@@ -1,0 +1,26 @@
+== SOURCE
+https://www.independent.co.uk/news/science/university-glasgow-chemistry-robot-machine-learning-lee-cronin-a8453851.html
+
+== AGENT
+University of Glasgow
+
+== GOAL
+To create a robot chemist that could revolutionize the way new molecules are discovered, which will then lead to lower costs for discovering new molecules for drugs, new chemical products including materials, polymers and molecules for high tech applications like imaging.
+
+== DATA
+Have the system search through 1000 reactions using combinations of 18 different starting chemicals.
+
+== METHODS
+Machine learning techniques.
+
+== RESULTS
+After expolring only 100 of the possible reactions , the robot could predict with over 80% accuracy which combinations of starting chemicals should be explored to create new reactions and molecules. The scientists discovered a range of previously unknown molecules and reactions. One reaction in particular is classed within the top 1% of the most unique reactions known. 
+
+== ISSUES
+Within this 80% of reactions which show promise very few or none at all may actually be viable for any practical use. 
+
+== SCORE
+5
+
+== COMMENTS
+It is quite interesting as it will be a key step in the digitisation of the field of chemistry. From the article it seems they never tested already real reaction combinations to see if it could come up with them. With the rise of stronger new and old diseases, a new set of drugs will become vital and this could lead the way.

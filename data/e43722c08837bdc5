@@ -1,0 +1,69 @@
+== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201264#sec011 
+
+== AGENT
+
+Universty of Pisa - Dr. Alessio Rossi
+
+== GOAL
+
+A recent study concluded that professional football players in Spain miss 
+16% of matches due to injury, which roughly equated to a cost €188 million 
+per season. A team of researchers wanted to predict the likelihood of a 
+player suffering an injury in the next training session or match from their
+recent workload.
+
+== DATA
+
+They chose 26 different professional players from an Italian team to build 
+their data around. The researchers monitored these players over 23 
+consecutive weeks, recording training workload indicators from GPS devices. 
+The dataset is split into 2 groups – one set that records each player’s 
+basic information (such as age, BMI, height and playing position) and the 
+second that contains the data recorded from each training session. Using 
+the GPS technology, the researchers could track each player’s total 
+distance covered, high-speed distance and the number of 
+accelerations/decelerations above a specific threshold. For each training 
+session, they also consider the number of injuries a player has suffered up
+to that stage of the study.  
+
+== METHODS
+
+The model was trained using Decision Tree methods – a supervised machine 
+learning technique. As an example, if a player recently a suffered an 
+injury and only covered 5km in training, the researchers’ model would 
+follow a flow chart to find the probability that player will get injured in
+the next session. The flow chart is a lot more complex than that and 
+involves more information to make a prediction.
+
+== RESULTS
+
+As a result of their model, the researchers concluded that they could 
+predict 80% of injuries with 50% accuracy, which was improvement on 
+previous attempts. Importantly, their model also has a low false negative 
+rate and low false positive rate. This means that players are less likely 
+to be unnecessarily rested as a precaution.
+
+== ISSUES
+
+The research team did state that this type of model training is team 
+specific. Since each team has different strategies and training schedules,
+and the tolerance level for false alarms, an initial period of recording 
+data is needed each time a model is built for a different team. They 
+noticed that 14 weeks worth of training data is required to build a stable
+model. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is quite easy to believe that this form of injury forecasting will be 
+widespread in the future, and it can be applied to most sports. However, I
+believe the research done by this team was based on a small sample size. I
+understand that perhaps this project was a starting point for this research
+team, but they need to perform more rigorous testing before they can 
+convince professional sports teams to apply this methodology to their own
+players.

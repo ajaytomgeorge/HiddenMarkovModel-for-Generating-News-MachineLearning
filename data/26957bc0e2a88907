@@ -1,0 +1,35 @@
+== SOURCE
+
+https://github.com/loicmagne/air-drawing
+
+== AGENT
+
+Individual
+
+== GOAL
+
+Be able to draw with your hand via the webcam.
+
+== DATA
+
+Small Personal Dataset (~ 50 samples)
+
+== METHODS
+
+Deep Learning, Bidirectional LTSM
+
+== RESULTS
+
+The model is capable of detecting hand down or up via the webcam images. It can distinguish the intent of when you want to draw with your hand or just move your hand around.
+
+== ISSUES
+
+Small dataset, detecting the hand is really based on how good the camera quaility is. Some generalization would move away from depending on camera quality for detection.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Interesting way for expanding online classes to have a more engaing and cheap way to communicate with students. Pretty effective considering that the dataset has only 50 samples.

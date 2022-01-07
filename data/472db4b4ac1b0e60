@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+https://phys.org/news/2019-09-machine-metamaterial-energy-harvesting.html
+
+==== AGENT
+
+Willie Padilla et al. - Duke University
+
+==== GOAL
+
+The goal of this research was to utilise “machine learning to design dielectric (non-metal) metamaterials that absorb and emit specific frequencies of terahertz radiation”.  In Essence, they used machine learning to optimise the geometric configuration of the material. This technology can in turn be used to harvest electromagnetic energy in a more efficient manner.
+
+==== DATA
+
+The training data for this neural network was acquired from 18,000 individual model simulations of the metamaterial’s geometry. 
+
+==== METHODS
+
+As mentioned, the neural network was trained using 18,000 model simulations. This number accounted for just 0.0022% of the possible geometric configurations of this material. The network takes 24 inputs; including: the height, radius, and radius-to-height ratio of each cylinder. The network was validated by comparing its results to those of the commercial simulation software, by passing each the same frequency response graph and observing the results. The results matched, thus validating the neural network.
+
+==== RESULTS
+
+Overall, the work was successful in predicting the frequency response of a given geometry of the material. However, the researchers are also interested in the inverse problem, of matching a geometry to a specific frequency response, which the model could not do. Nevertheless, the ML algorithm proved to be one million times faster than the modelling software they previously used, cutting the model run time down from 2000 years to just 23 hours.
+
+==== COMMENTS
+
+The use of ML has grown exponentially in a vast array of research fields in recent years. One of which is material science. One reason which accounts for the growth in popularity is machine learning’s ability to model Non-Linear relationships, which are observed in all fields of science.

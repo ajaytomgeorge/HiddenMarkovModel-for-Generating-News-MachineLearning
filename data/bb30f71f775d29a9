@@ -1,0 +1,36 @@
+== SOURCE
+
+https://phys.org/news/2021-09-soybean-corn-yields-machine.html
+
+== AGENT
+
+Pennsylvania State University
+
+== GOAL
+
+Increase soybean and corn yields using Machine Learning to detect weather patterns.
+
+== DATA
+
+Data sets with information on soil type, irrigation, tillage method, seeding rate, row spacing, maturity and weather data.
+
+== METHODS
+
+Simulating growing seasons in random locations. Correlations with weather data. Extreme Gradient Boosting. Baysian optimization. Cross Validation. 
+
+== RESULTS
+
+6% increase in corn crop yield, consistant over 256 background cropping system choices. 14% increase in soybean crop yield, consistant over 128 background cropping system choices.
+
+== ISSUES
+
+The study reports a lack of data, and assumptions that crop management techniques were consistant beweeen different US states.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+A very useful use of Machine Learning, with oportunities for further research and advancements for agriculture. Would be interesting to see how the ML methods could be adapted for other crops.
+

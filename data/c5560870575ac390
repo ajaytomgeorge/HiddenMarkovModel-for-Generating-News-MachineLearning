@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.irishtimes.com/news/science/harnessing-machine-learning-to-help-patients-with-als-1.4673787
+
+== AGENT
+
+The Irish Times
+
+== GOAL
+
+Research ALS using machine learning
+
+== DATA
+
+data about ALS patients with their consent.
+
+== METHODS
+
+Interrogate the anonymised data, and additional information that the team was able to provide from consenting caregivers and patients, to explore what factors could be likely to affect their quality of life. The models can be used as part of a clinical decision support system, which could automatically flag up to a nurse or doctor a pattern of patient or caregiver characteristics that suggests the patient or caregiver might be at risk of greater psychological stress or a lower quality of life. This would help them to build a personalised plan to support the patient and caregiver.
+
+== RESULTS
+
+Research being translated into real-world context
+
+== ISSUES
+
+N/A
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Not much information was given in the article but the concept was interesting.

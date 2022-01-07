@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211007/Machine-learning-algorithms-accelerate-the-protein-engineering-process.aspx
+
+== AGENT
+
+University of Illinois
+
+== GOAL
+
+Accelerate the protein engineering process
+
+== DATA
+
+They used genetic code from different protien stuctures as well as evlutionary data about specific protein structures 
+
+== METHODS
+
+They used a language and direct coupling model that were fed into an LSTM (Long Short-Term Memory)
+
+== RESULTS
+
+The network outperformed current methods on several mutagenisis datasets and was used to engineer a protein called TEM-1 Beta-lactamase
+
+== ISSUES
+
+No issues
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The teams employment of novel techniques to predict the genetic code of these proteins was very interesiting.
+This will now allow them to study study improved enzyme catalysts and further our understanding of proteins, a major building block for life, as a whole.
+The article was acurate and informative.

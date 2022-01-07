@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.thecrimson.com/article/2021/3/12/machine-learning-alzheimers/
+
+== AGENT
+
+Harvard Medical Students researchers carried out the machine learning related work
+
+== GOAL
+
+Their goal was to create a method on how they can use machine learning to advocate drugs as potential candidates for clinical trials for Alzheimer's disease
+
+== DATA
+
+A team of researchers Medical School’s Laboratory of Systems Pharmacology and Massachusetts General Hospital developed a method known as Drug Repurposin in Alzheimer's Disease or DRIAD for short. This uses gene expresion data from tissues that have been affected by Alzheimer's. It was said that DRIAD was built based on data from 1500 patients who have Alzheimer's. So this is the data the team from HMS decided to use.
+
+Artem Sokolov, an HMS instructor stated that there might be some hidden parts of the data obtained that cannot be revealed.
+
+They hope that DRIAD can help identify certain drugs which have genes associated with Alzheimer's as there are millions of drugs that have been made and approved
+
+== METHODS
+
+The only way to determine the effectivness of the drugs in question were clinical trials and it was said that 'baricitinib' will be the main focus of the clinical trials in Massachusetts General Hospital.
+They plan to understand and learn some mechanisms to see why neurons are dying and to simultaneously match up treatments for specific causes
+
+== RESULTS
+
+After putting th drugs through DRIAD the group revealed that the best performing drugs target Janus kinase proteins, which promote proinflammatory signals. 
+It was also revealed that eliminating these signals can help reduce the symptoms of Alzheimer's
+
+== ISSUES
+
+My only concern with this would be the error margin or if it was possible that if the system that they constructed had any errors at all, as errors in this sort of department would be crucial and it would be important that it was kept to a minimum as mch as possible.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this was very interesting, it was amazing to read about how people are using Machine learning for such a positive impact as Alzheimer's is a very serious disease that many people all over the world have. The reporter done a very good job including different things that were being said by different people and the source of the information being provided was very easy to navigate.

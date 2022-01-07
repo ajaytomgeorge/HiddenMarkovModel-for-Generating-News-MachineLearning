@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://analyticsindiamag.com/google-maps-machine-learning-bus-delays-real-time-prediction/
+
+==== AGENT
+
+Google Maps
+
+==== GOAL
+
+Show traffic alerts to users of google maps.
+
+==== DATA
+
+It is a collection of data from people who used the service in the past and from people currently using it. Google maps collects the time, location and average speed in which they are travelling from every user. 
+
+==== METHODS
+
+They used the collected data to predict traffic delays.
+
+==== RESULTS
+
+How did it go for them?
+They successfully predicts traffic delays and it allows them to calculate best route when travelling. 
+
+==== COMMENTS
+
+Google maps have been very good at predicting traffic delays. From personal use they provide a great service at the expense of your privacy.

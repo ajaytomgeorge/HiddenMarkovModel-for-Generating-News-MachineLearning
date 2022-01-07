@@ -1,0 +1,114 @@
+== SOURCE
+https://www.eurekalert.org/pub_releases/2020-10/msu-mlh102820.php
+== AGENT
+Michigan State University Foundation
+== GOAL
+Improve machine learning techniques for a global health crisis
+== DATA
+They repurposed their deep learning models to focus on a specific SARS-CoV-2 protein called its main protease.
+== METHODS
+They used its models to predict those details for over 100 known protease inhibitors. These models were supervised by Professor Guowei Wei and his team. 
+== RESULTS
+They came to the conclussion that antibody treatments that resemble what immune systems produce naturally to fight the coronavirus will be most likely the first therapies approved during the pandemic.
+== ISSUES
+The only issue at the moment is that this team have been limited on time and resources as the pandemic is currently taking place.
+== SCORE
+8
+== COMMENTS
+I think that this is interesting to a certain extent as this team kind of gave what was already known as this is already public knowledge. They gave what companies need to do in order to make a cure to the current pandemic which is a bonus. 
+
+---------------------------------------------------
+== SOURCE
+https://www.mobihealthnews.com/news/machine-learning-app-scans-faces-and-listens-speech-quickly-spot-strokes
+== AGENT
+Penn State University and Houston Methodist Hospital
+== GOAL
+To scans faces and listens to speech to quickly spot strokes
+== DATA
+The model relies on computational facial motion analysis and natural language processing to spot sagging muscles, slurred speech or other stroke-like symptoms.
+== METHODS
+They used an iPhone to record 80 Houston Methodist patients who were experiencing stroke symptoms as they performed a speech test
+== RESULTS
+The machine learning model performed with 79% accuracy when tested again on that dataset
+== ISSUES
+There was an inaccuracy of 21% which could be fatal giving the situation at hand.
+== SCORE
+7
+== COMMENTS
+I think that the article is interesting but the model still needs to be enhanced but when it does and they build on the information, I believe then it will further the interest.
+---------------------------------------------------
+== SOURCE
+https://www.wired.co.uk/article/how-do-netflixs-algorithms-work-machine-learning-helps-to-predict-what-viewers-will-like
+== AGENT
+Netflix
+== GOAL
+Correct recommendations for the right viewers
+== DATA
+They split each profile into different taste groups based on what they like to watch to give them more of the same.
+== METHODS
+Tags are used for the machine learning algorithms to put each profile into the group that suits them. This then gives this group certain recommendations. The data that Netflix feeds into its algorithms can be broken down into two types – implicit and explicit.
+== RESULTS
+Netflix now gives the correct recommendations based on what you watch.
+== ISSUES
+Limits what is displayed based on what you have watched to date.
+== SCORE
+8
+== COMMENTS
+This article is interesting because Neflix is used by a lot of people daily. It is interesting to learn how the recommendations are put together.
+---------------------------------------------------
+== SOURCE
+https://www.marktechpost.com/2020/10/28/microsoft-introduces-lobe-a-free-machine-learning-application-that-allows-you-to-create-ai-models-without-coding/
+== AGENT
+Microsoft
+== GOAL
+To create a Machine Learning Application That Allows You To Create AI Models Without Coding
+== DATA
+To create an AI in Lobe, a user first needs to import a collection of images. These images are used as a dataset to train the application
+== METHODS
+It trains the model on the provided data, creating an AI model optimized to scan images for the user’s specific object or action.
+== RESULTS
+This application is now available and it is called LOBE. Presently it only supports image classification by categorizing the image to a single label overall.
+== ISSUES
+It is limited to what it can support and more work needs to be done.
+== SCORE
+6
+== COMMENTS
+This article is interesting but is limited as only part of the application has been complete. There would be more information if the application was complete.
+---------------------------------------------------
+== SOURCE
+https://cardiacrhythmnews.com/machine-learning-approach-could-detect-drivers-of-atrial-fibrillation/
+== AGENT
+CDISE, Moscow, Russia
+== GOAL
+To detect drivers of atrial fibrillation
+== DATA
+The team tested their approach on 11 explanted human hearts
+== METHODS
+Researchers performed the simultaneous optical and multi-electrode mapping of atrial fibrillation episodes induced in the hearts.
+== RESULTS
+The sample size was too small to give an accurate result but they intend to do more tests with higher numbers.
+== ISSUES
+The size of the tests they done was limited so there was no accurate outcome to the research.
+== SCORE
+5
+== COMMENTS
+This article was informative but there was no actual outcome from their research so it seems like a whole waste of time.
+---------------------------------------------------
+== SOURCE
+https://spacenews.com/noaa-google-cloud-ota/
+== AGENT
+NOAA and Google
+== GOAL
+To increase the rate and quality of assimilating environmental data with the intent of improving the  weather monitoring and forecasting
+== DATA
+They captured data and imagery from its current weather satellites and fed that data into what they hoped to create. 
+== METHODS
+They created machine learning systems related to specific areas like weather forecasting
+== RESULTS
+They are currently working through the process of creating the system so there are no offical results to date.
+== ISSUES
+The time to create such systems is the main factor in this article. Another is funding as only a certain amount was approved.
+== SCORE
+7
+== COMMENTS
+This is a very interesting article as the weather effect everyone on a daily basis and it is interest to see how people are using the power of computers to find out information about what to expect from the earth's weather 

@@ -1,0 +1,27 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+MIT and the University of California at San Diego (UCSD)
+
+==== GOAL
+
+To predict cases of cybercrime, such as IP hijacking, in advance of an attack.
+
+==== DATA
+
+Data taken from historical mailing lists and BPG data from the global routing table.
+
+==== METHODS
+The systems were trained using the data to highlight and identify the behaviours of networks being used to hijack IP's
+
+
+==== RESULTS
+
+They identified characteristics such as changes in activity and having IP adresses in multiple countries.
+
+==== COMMENTS
+
+Mostly research with no use outside of the project. 

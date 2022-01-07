@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.irishtimes.com/business/technology/how-ai-is-improving-the-lives-of-children-with-challenges-1.3719715
+
+== AGENT
+
+Dr. Ned Satin
+
+== GOAL
+
+Create an AI that would outsource or near source some of the complex challenges such as determining when someone is angry or bored, or help look towards someone, pay attention when they are speaking and get the right information.
+This would then be used with Google Glass to help people with conditions such as Autism with social interaction.
+
+== DATA
+
+While Google provides the hardware, the computing behind the scenes comes through Amazon Web Services (AWS). They use facial recognition software.
+Data is cloud-based and updates regularly.
+
+== METHODS
+
+Unspecified.
+
+== RESULTS
+
+The wearable device has been through clinical trials and is now on sale in schools. It uses facial detection and analysis to detect emotions and turns into a video game: the wearer gets points for making eye contact with a teacher, or for guessing correctly if someone is happy or angry.
+No further comments were made on effectiveness.
+
+== ISSUES
+
+Teaching kids to rely on a device to identify social cues may lead to them becoming dependent on the device and not develop the abilities themselves. Since the results are confidence based a percentage of the identifications will be incorrect, potentially create more confusion.
+Device may be expensive and therefore unable to provide to the majority of the population.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found this very interesting. It was a quite innovative use of facial recognition. It is strange to think that there are cases where a machine is better at recognising human emotion than another human.
+I would have liked to see more of the mechanisms behind the software and it is unfortunate that the article didn't provide them.

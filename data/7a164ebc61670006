@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.sciencetimes.com/articles/22289/20190604/machine-learning-ai-reconstructs-and-animates-monalisa.htm
+
+== AGENT
+
+ Egor Zakharov, Skolkovo Institute of Science and Technology
+
+== GOAL
+
+Creation of 'deepfakes', or perfect realism, from paintings and images
+
+== DATA
+
+Datasets of facial movements from multiple people
+
+== METHODS
+
+Unsupervised
+
+== RESULTS
+
+A realistically expressive image
+
+== ISSUES
+
+Lacks perfect realism
+
+== SCORE
+
+8
+
+== COMMENTS
+
+If this achieves perfection it could lead to ethical issues if real can not be distinguished from fake

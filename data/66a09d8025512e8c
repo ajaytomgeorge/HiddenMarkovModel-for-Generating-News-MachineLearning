@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.medicalnewstoday.com/articles/ai-may-help-predict-the-next-virus-to-jump-to-humans
+
+== AGENT
+
+University of Glasgow
+
+== GOAL
+
+Predict the probability that an animal virus might jump into humans.
+
+== DATA
+
+They used published datasets of genomic data of viruses.
+
+== METHODS
+
+Supervised learning was used, presumably a neural network.
+
+== RESULTS
+
+The model correctly identified 70.8% of viruses with high zoonotic potential.
+
+== ISSUES
+
+There does not seem to be any glaring issues with their methods.
+
+== SCORE
+
+8
+== COMMENTS
+
+The utility of an ML application like this is quite self-explanatory, I appreciated the methodology behind
+ranking several models based on accuracy on an unseen dataset. This gave more accurate predictions overall.

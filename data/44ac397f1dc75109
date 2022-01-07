@@ -1,0 +1,24 @@
+==== SOURCE
+https://phys.org/news/2019-10-scientists-machine-learning-algorithms-automate.html
+
+==== AGENT
+Molecule.one
+
+==== GOAL
+To create a platform to simplify the process of turning a molecule existing only in a simulation to a real life
+molecule. In simpler terms, once a pharmaceutical comes up with what molecule they want to create, molecule.one provides
+the "how".
+
+==== DATA
+The ML model has been trained on millions of Patents and known chemical processes.
+The data is of type text.  
+
+==== METHODS
+The ML model was trained on the data mentioned above, so that it could come up with the a solution for creating a
+certain molecule; since it has access to millions of chemical processes.
+
+==== RESULTS
+The model works as described; the model has worked for structures that have never been seen before by any chemist. 
+
+==== COMMENTS
+There was no info about what type of machine learning algorithm was used. 

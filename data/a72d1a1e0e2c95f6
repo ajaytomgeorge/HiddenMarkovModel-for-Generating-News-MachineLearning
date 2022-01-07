@@ -1,0 +1,39 @@
+== SOURCE
+
+https://healthitanalytics.com/news/machine-learning-tool-detects-genetic-syndromes-in-children
+
+== AGENT
+
+Children’s National Hospital researchers
+
+== GOAL
+
+To build “a software device to increase access to care and a machine learning technology to identify 
+the disease patterns not immediately obvious to the human eye or intuition, and to help physicians 
+non-specialized in genetics.”
+
+== DATA
+
+2,8000 retrospective facial photographs of children with and without genetic syndromes from 28 countries, 
+including Argentina, Australia, Brazil, China, France, Morocco, Nigeria, Paraguay, Thailand, and the US.
+
+== METHODS
+
+Supervised deep learning 
+
+== RESULTS
+
+Software that, when given a facial photo of a young child, uses ML to predict potential genetic conditions 
+
+== ISSUES
+
+None
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Good use of ML to help areas of the world where health care, especially genetic services, is not readily available.
+This can close the gap in health disparities and promote more preventitive care.

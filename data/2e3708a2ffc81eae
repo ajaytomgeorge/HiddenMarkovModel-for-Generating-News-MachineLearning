@@ -1,0 +1,42 @@
+== SOURCE
+https://singularityhub.com/2021/07/20/new-protein-folding-ai-just-made-a-once-in-a-generation-advance-in-biology/
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+Trying to understand how proteins unfold and therefore predict how they work.
+
+== DATA
+
+They used all kinds of chemical properties and an already known 100,000 protein structure.
+
+== METHODS
+
+It is supervised learning with the help of 100,000 known protein sequences and structures. It was trained with the sample, and then it tried to predict the unfolding of proteins with new ones.
+To quantify this prediction, it compares the laboratory's data and its own data.
+
+== RESULTS
+
+In 2020, the DeepMind team achieved an accuracy of around 90% which was their threshold of a solution.
+Their latest test with a protein of sars-covid-19 achieved 89.5% accuracy.
+
+== ISSUES
+
+The prediction method was static for one year with relevant progress. It was needed to change the algorithm to get a higher result.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Seen as a breakthrough, the AI managed to predict the unfolding of proteins which was a 50-year long mystery.
+I find it interesting how AI can help scientific research in other fields such as the medical field.
+Making it free, the AI will have the capacity to learn even more about proteins and maybe making other medical discoveries.
+
+
+
+

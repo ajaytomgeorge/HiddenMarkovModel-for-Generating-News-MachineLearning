@@ -1,0 +1,30 @@
+==== SOURCE
+
+https://arstechnica.com/gaming/2014/08/how-microsofts-predictive-modeling-could-make-streaming-gaming-tolerable/
+
+==== AGENT
+
+Microsoft Research
+
+==== GOAL
+
+Reduce Latency during Cloud Gaming
+
+==== DATA
+
+Data was acquired from interactive gamer testing. Data was primarily controls for a game.
+
+==== METHODS
+
+They used a Markov-based prediction model to forecasr expected future input from a user. The two techniques used to improve prediction quality were, supersampling of input events and cpnstructing a Kalman filter to improve users' perception of smoothness 
+
+==== RESULTS
+
+They found that players perceived only minor differences in responsiveness on
+DeLorean (the predictive input technology) even with some network latnecy when compared
+head-to-head to a system with no latency. Overall, player
+surveys indicated positive reception of gameplay on DeLorean.
+
+==== COMMENTS
+
+The use of predictive machine learning to predict user input for gaming seems like a good idea on paper.

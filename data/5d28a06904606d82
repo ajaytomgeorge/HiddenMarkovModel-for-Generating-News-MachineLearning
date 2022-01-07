@@ -1,0 +1,8 @@
+SOURCE : https://www.cam.ac.uk/research/news/world-first-for-ai-and-machine-learning-to-treat-covid-19-patients-worldwide
+AGENT : University of Cambridge
+GOAL : The research was sparked by the pandemic and set out to build an AI tool which will predict how much extra oxygen a COVID 19 patient may need in his initial stage in the hospital, using extensive data from different continents. 
+Data, Method and Results :  A technique known as federated learning, used a particular algorithm to analyse chest x-rays and electronic health data from hospital patients with COVID19 symptoms. The algorithm gathered the information from the data, analysis was done together to build an AI tool which can easily predict oxygen needs of patients from all over the world. The algorithm was tested in number of hospitals and the results showed was positive. It predicted the oxygen needed within 24 hours of a patient's arrival in emergency department. The outcomes of around 10,000 COVID patients around the world were analysed in the study of making this algorithm. 
+SCORE : 9
+
+
+COMMENTS : Oxgen shortage has been one of the major problems across the world during this COVID19 pandemic. This algorithm not only will help the hospital to know how much oxygen will a patient need beforehand, it will also help many people's lives. This research was supported by the National Institute for Health Research (NIHR) Cambridge Biomedical Research Centre (BRC), so the article agent being University of Cambridge themselves makes this one very well detailed.

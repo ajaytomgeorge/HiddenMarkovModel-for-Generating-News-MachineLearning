@@ -1,0 +1,54 @@
+﻿==== SOURCE
+
+
+https://www.wired.com/story/technique-easier-ai-understand-videos/
+
+
+
+
+
+==== AGENT
+
+Massachusetts Institute of Technology
+IBM
+
+
+
+
+
+
+==== GOAL
+
+
+
+This Technique Can Make It Easier for AI to Understand Videos
+
+
+==== DATA
+
+
+
+The 20BN-SOMETHING-SOMETHING dataset is a large collection of densely-labeled video clips that show humans performing pre-defined basic actions with everyday objects. The dataset was created by paying thousands of people to perform simple tasks from pouring tea to opening jars.
+
+
+
+==== METHODS
+
+
+
+Temporal Shift Module (TSM) that enjoys both high efficiency and high performance. Specifically, it can achieve the performance of 3D CNN but maintain 2D CNN's complexity. TSM shifts part of the channels along the temporal dimension; thus facilitate information exchanged among neighboring frames. It can be inserted into 2D CNNs to achieve temporal modeling at zero computation and zero parameters. 
+Approach uses a more efficient 2D algorithm, more commonly used for still images. The Temporal Shift Module provides a way to capture the relationship between the pixels in one frame and those in the next without performing the full 3D operation. As the 2D algorithm processes each frame in turn, while incorporating information from adjacent frames, it achieves a sense of things unfolding over time, allowing it to detect the actions shown
+
+
+==== RESULTS
+
+When compared with other algorithms using a benchmark provided with the dataset, the algorithm claimed first place, in terms of accuracy, on the first versions of this dataset, and second place on the second version. In both cases, it also required just a fraction (between one-ninth and one-quarter) of the computer power of other approaches.
+
+The researchers created a demo version of their algorithm that runs on a single GPU chip, allowing a computer to interpret actions through a webcam in real-time. They also tested a version of their algorithm on a cluster of 1,536 GPU chips, through Summit, a supercomputer operated by Oak Ridge National Lab. The new algorithm, combined with the machine’s massive hardware, reduced the time to learn to recognize activities in a video dataset called Kinetic by over 99.5 percent, from 49 hours and 55 minutes to just 14 minutes and 13 seconds.
+
+
+==== COMMENTS
+
+The algorithm will be a bench mark for improving and using the potential of Video recogniton and understanding 
+
+

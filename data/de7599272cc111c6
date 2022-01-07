@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.independent.co.uk/news/world/americas/us-election-2020/2020-election-whos-going-to-win-ai-trump-biden-results-outcome-odds-b1374290.html
+
+== AGENT
+
+Levich Institute
+
+== GOAL
+
+To predict the result of the election
+
+== DATA
+
+Over a billion mined twitter posts, which were then georeferenced to help predict state by state and electoral college results. 
+
+== METHODS
+
+Not Specified, I would guess a supervised model on twitter posts used to inform a clustering algorithm on people 
+based upon their positive or negative posts about the different politicians. Georeference the clusters and you have a voting sample.
+
+== RESULTS
+
+They predicted Joe Biden had the advantage in the election by a small margin.
+
+== ISSUES
+
+The AI suffers from similar issues to polling, incomplete or biased samples, data was acquired mainly from social media
+with significant voting groups having less access skewing the data.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+Reminded me of cambridge analytica.The article didn't have a lot of information about how the model worked 
+seemed a bit like click bait. But interesting that this model supposedly predicted the previous american election result 
+which seemed against the odds to most. Would have been higher in cool factor with more information.

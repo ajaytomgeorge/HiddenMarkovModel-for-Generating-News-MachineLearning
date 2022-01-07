@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.engadget.com/2018-06-11-goldman-sachs-ai-predicts-brazil-win-world-cup.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAJhe69hQjJppJSkZkUMdFeEy9B0uTQJKW_akI5Z-pn6AaiARPd4KqXWzU4Zr5kzgVjhVzjIb5PyOYXgQPiXwK4Ovr89MOEwt91rS41gyKGrEP3li3KCWBsehRdkmj9g1hr0Gv73aqoABq7Bdp28hbysUyw6A0Yp3LjbIhofRuED8
+
+== AGENT
+
+Goldman Sachs
+
+== GOAL
+
+To predict the 2018 world cup winner
+
+== DATA
+
+Previous world cup events
+
+== METHODS
+
+Neural Network
+
+== RESULTS
+
+They predicted Brazil even though France won.
+
+== ISSUES
+
+Football is far to unpredictable.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think if they incorporated individual players involved and current skill level they would get a more accurate prediction, but ultimately still a low chance of a correct prediction due to random factors unknown before the tournament.
+

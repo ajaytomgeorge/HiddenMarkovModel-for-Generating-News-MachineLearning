@@ -1,0 +1,43 @@
+## Format
+```
+== SOURCE
+
+https://www.reviewofophthalmology.com/article/machine-learning-for-diabetic-retinopathy
+
+== AGENT
+
+​Peter A. Karth, MD, Stanford, Calif., and Ehsan Rahimy, MD, Palo Alto, Calif.
+
+== GOAL
+
+Help ophthalmologists catch and treat Diabetes Retinopathy Effectively 
+
+== DATA
+
+Datasets of patients 
+
+== METHODS
+
+Advanced Neural Network, SVM
+
+== RESULTS
+
+Correct detection and treatment of DR can reduce the number of vision loss
+
+== ISSUES
+
+Accuracy of predicting this critical data is a task
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It's an interesting as well as life changing research for helping the people by saving their complete vision
+loss by timely diagnosis of DR
+
+```
+
+
+

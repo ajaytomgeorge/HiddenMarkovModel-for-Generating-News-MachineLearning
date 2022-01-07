@@ -1,0 +1,27 @@
+
+== SOURCE
+https://news.sky.com/story/coronavirus-artificial-intelligence-to-rank-nhs-patients-to-help-clear-post-covid-backlog-12014339
+
+== AGENT
+DrDoctor
+
+== GOAL
+Reduce number of in person visits that doctors need to carry out to speed up wait times
+
+== DATA
+Unsupervised
+
+== METHODS
+Using data collected from hospitals, they analysed visits that could have been done remotely/not in person and attempted to generalise a model to generate future predictions. 
+
+== RESULTS
+"Dr Sivanandan said the system had "huge potential" for freeing up doctors' time" Reduces patients needing to be seen in person by about 12%
+
+== ISSUES
+Some people don't want their hospital visits to depend on them meeting a "criteria" to suit an algorithm
+
+== SCORE
+4. Mainly boring, but has useful applications
+
+== COMMENTS
+On a high level, the idea is sound, it is always useful to improve wait times and help reduce patient load, but it is also contributing to a dehumanisation of the medical services that could get out of control.

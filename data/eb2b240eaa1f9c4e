@@ -1,0 +1,42 @@
+== SOURCE
+
+https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=133730
+
+== AGENT
+
+University of Pennsylvania
+
+== GOAL
+
+Help artificial intelligence (AI) move towards mimicking human behaviour and thought processes
+
+== DATA
+
+7 different datasets that included a total of 678 subjects and 9258 volumes:
+A traumatic brain injury (TBI) dataset with lesions and white-matter hyperintensities
+A developmental dataset
+An autism dataset
+A TBI dataset with lesions and white-matter hyperintensities
+A dataset including cases with hypertension, cardiovascular disease, and white-matter hyperintensities
+A TBI dataset with lesions and white-matter hyperintensities
+A dataset with only healthy control
+
+== METHODS
+
+3D-Densenet architecture, Supervised.
+
+== RESULTS
+
+94% accuracy in testing for detecting artifacts on diffusion MRI scans. Also the first method to be proven to detect artifacts in scans with pathologies.
+
+== ISSUES
+
+94% accuracy isn't good enough in a medical setting. The model is "agnostic" for a certain threshold of certainy, requiring a human to make a decision.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The article doesn't mention the methods used in this project. Why do these biology papers never have an "ethics" section smh. 

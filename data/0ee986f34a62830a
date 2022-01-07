@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.forbes.com/sites/forbestechcouncil/2021/10/01/what-machine-learning-can-bring-to-cybersecurity/
+
+== AGENT
+
+Gurucul
+
+== GOAL
+
+Use ML to identify security vulnerabilities and threats in software.
+
+== DATA
+
+Known security threats. Data logs.
+
+== METHODS
+
+Supoervised learning teaching it with known threats so it can make the correct identification.
+
+== RESULTS
+
+Faster identification of potential threats
+
+== ISSUES
+
+Dependent on known vulnerabilities to identify new ones. Any issues in the data could lead to a false sense of security.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It's a very interesting application of ML and AI. It almost seems like a perfect fit for the technology. Threats and vulnerabilities follow certain patterns. With the increase in ransomeware attacks and data breaches, I hope this can be used to better protect people's data.

@@ -1,0 +1,201 @@
+1. FORMULA 1 GRAND PRIX ANALYSIS
+
+https://towardsdatascience.com/formula-1-grand-prix-analysis-d05d73b1e79c == SOURCE
+
+Mr. Vineet Viswakumar (Computer Science Master’s student at New York University) & Mr. Chinmay Wyawahare (Graduate Research Assistant @ New York University) == AGENT
+
+The goal was to visualize the available GrandPrix data and develop an interactive dashboard to understand the various statistical information regarding Formula1 Drivers, races, lap timings, pitstop status, etc in a cleaner manner == GOAL
+
+Data was collected from www.ergast.com/mrd/ and upload as a merged ‘.csv’ file to ‘Kaggle’ where it had various information regarding the statistical information of the drivers, race circuits, season overview, constructor’s results, etc == DATA
+
+An interactive dashboard developed on Tableau containing Gantt chart, Discrete Line Chart, Symbol Map, Circle View, Bubble Chart, Stacked Bar Chart were developed using data visualization techniques with the help of Tableau, Jupyter Notebook and methodologies like Reinforcement Learning == METHODS
+
+An Interactive Tableau Dashboard displaying information regarding various parameter in the GrandPrix that took place between 1950-2017 == RESULTS
+
+Since the report is straight-forward and provides an overview of few data terms, the result requires pre-context of the information mentioned and better visualisation could be possible with the use of other charts == ISSUES
+
+7 == SCORE
+
+It is interesting to come across this article if you have a keen interest in motorsport or come from a similar background as it provides the complete history at a single place briefly with all the vital information and as it is based on the events occurred, so they didn’t make any mistake as the data was readily available and it was just to be processed, visualised, and presented. The method is known one and one can use Tableau with personal taste to develop a dashboard as per his/her liking. But presenting the history with an interactive touch always proves to be more insightful atleast for the new users == COMMENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. A Robot that finds lost items
+
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005 == SOURCE
+
+Researchers at MIT == AGENT
+
+The goal is to search the lost tagged item with the help of sensors and camera inputs and make a pathway till the lost item and then identify it using ML models and collect it == GOAL
+
+The data was in a form of radio frequency signal that was bouncing back from the RFID tags placed on the items and a camera input for identification of the object and making a route till the lost item. The system was developed as an integration of the physical input signals which are processed and monitored with the help of Machine Learning techniques and execute the required output == DATA
+
+Researchers used reinforcement learning to train the neural network that was used to provide the machine’s pathway to the lost item. The optimization algorithm was rewarded whenever it took the least number of steps to the lost item. Once the robot is at the required spot, the NL uses combined data from RF and camera to predict the movement required for grasping the item == METHODS
+
+The final results’ data is not present in the article but with the help of the provided video, it is clear that the robot functions as planned, and a real-world use will provide a better data when the things will be supplied with RFID from the factory, or a system will be established for the same == RESULTS
+
+Since the whole system relies on the RFID signals for detecting the lost items, it is not feasible to provide a tag to each item present in the place. Also, if the tagged item is out of the RF sphere then the robot won’t be able to track the item. Regarding the software side, it trains itself with every input and thus, more time is required for getting an error-free operation == ISSUES
+
+6 == SCORE
+
+The whole idea is great and well executed in a highly monitored environment, but it requires a revamp in the manufacturing process to be placed in the working environment and thus, the feasibility reduces drastically considering the physical limitations of the project. Analysing the present state, nothing much different approach would have been possible. The method is not new, but the approach is definitely fresh. == COMMENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. An Implant uses Machine Learning to give Amputees control over Prosthetic Hands
+
+https://www.technologyreview.com/2020/03/04/905530/implant-machine-learning-amputees-control-prosthetic-hands-ai/ == SOURCE
+
+Researchers at MIT Technological Institute == AGENT
+
+To control the prosthetic hands using deep learning algorithms embedded in the brain-machine interface and develop a tool that can be used without investing huge amount of money on the technology == GOAL
+
+The data was collected from the electrical cathodes in the form of electrical impulses / signals generated by the brain and transmitted through the nervous system. The generated signal is analog and is in millivolts == DATA
+
+The analog data is then converted into a digital format and provided to the machine where a calibrated deep-learning algorithm is present in the brain-machine interface to process the data and accordingly provide an output in the form of signal for controlling the prosthetic hands == METHODS
+
+Calibration is done in the deep-learning algorithm according to the individuals and once calibrated, re-calibration is not required for a long time. Amputees wearing the prosthetic hand were able to control each finger and fold their thumbs, regardless of how recently they have lost their hands. They were able to hold few play-bricks and few cans which was a great result considering the cost involved and the methodology used == RESULTS
+
+The whole system is highly integrated as a single unit where any malfunction of any component will result in the whole system to crash and can only be restored with the help of a professional that has any prior knowledge regarding the system == ISSUES
+
+9 == SCORE
+
+Since, the whole project was developed with the aim of the betterment of the amputees and providing them functionality at a very reasonable cost which helped them to carry out day to day tasks as before and thus, lowering their dependency on others. It is successful in delivering the motive and thus, it is very impressive considering the number of technological advancements that they made == COMMENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. AI assisted Cough tracking could help detect the next Pandemic
+
+https://www.the-scientist.com/news-opinion/ai-assisted-cough-tracking-could-help-detect-the-next-pandemic--68233 == SOURCE
+
+Joe Brew, CEO of Hyfe and his team of Scientists == AGENT
+
+To develop a tracking system that can have the mobility to be carried with you (application in smartphone) and can provide an alert of any serious infection by analysing the sound of coughing using AI and thus, preventing any major outbreak as SARs-CoV-2 == GOAL
+
+The data was recorded in form of a sound wave when the person is coughing and then plotting it in a 3-D image known as spectrogram where it analysis the pitch and intensity of the sound overtime from the already present database of more than 2,70,000 sounds == DATA
+
+Since, the algorithm determines whether the abrupt noise was a cough or not by comparing it with the already present of a set of database, hence, the learning technique was supervised learning. The machine also logs the cough data and compares it that the present cough noise was same or different from the earlier cough noise resulting in higher accuracy == METHODS
+
+The project is going to examine the cough data at a community-wide level in a small municipality on the outskirts of Pamplona, Spain and thus the results are not present yet but with the current situation but the whole idea looks promising and thus, a positive outcome can be expected from the same == RESULTS
+
+The above project does not consider the limitations of the surrounding environment which may be the reason of the coughing (dust from a construction site) and thus, the deviation becomes more in such cases as a false information is recorded which will not play any role in monitoring. This issue has been addressed by Joe and says that it will be looked up and added in the future iterations as a feature == ISSUES
+
+9 == SCORE
+
+The whole execution is very interesting as it lies on the primary idea of being faster than the virus itself and not providing any time for the virus to grow and to spread and thus, preventing the adverse effect of any air-borne infection using the Artificial Intelligence in the most appropriate way == COMMENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Skill-Driven recommendations for Job Transition Pathways
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0254722 == SOURCE
+
+Nikolas Dawson, Mary-Anne Williams, Marian-Andrei Rizoiu == AGENTS
+
+To develop a recommender machine learning model which will provide the best job based on the present skill set of an individual and also on the currently present top 500 available skill set helping us to provide the best switch and thus, obtaining a new job with ease == GOAL
+
+The data was taken from more than 8 million real-time job advertisements in Australia from 2012-2020. It enabled them to measure the distance between any defined skill sets based on distances at the individual skill level. When two sets are mostly similar, the gap is narrow and thus the difficulty in transiting to a new job is comparatively easy == DATA
+
+A dataset was formed through web-scraping the current available jobs partitioned according to the skills-sets. Also, various special features were added that considered the job location, employer, salary, education, experience, etc. Presently data with more granular skills and when used historically and near-real-time skills data in specific location. It was a form of Supervised learning == METHODS
+
+The end result was a recommender system based on machine learning which provided job transition results with all the historical and present data with the recommendation being 75% accurate and also distinguished the various skills based upon the type of employment. Few graphs with clusters of similar sets have been made for visualisation and better selection for an individual == RESULTS
+
+Since this system is in the development phase and only relies on single dataset from a site, limitations are placed as the recommender system only has information of the job market based on a single website and thus provides a major set-back when we consider the gravity of the situation == ISSUES
+
+9 == SCORE
+
+The whole idea is about a new approach then the prior one (O*NET) and this helps to attain better accuracy and proper recommendations for an individual comprising with any of the given skill set. The whole system provides a great insight about the job market for a fresher and can prove to be game-changing when the subject is about a new job or a job transition. This model will always prove to be helpful and can provide a direction in no-time == COMMENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Using AI and Satellite Data to find ocean fishing boats using Forced Labour
+
+https://theconversation.com/thousands-of-ocean-fishing-boats-could-be-using-forced-labor-we-used-ai-and-satellite-data-to-find-them-152166 == SOURCE
+
+Gavin McDonald – Senior Project Researcher, University of California Santa Barbara == AGENT
+
+The goal was to identify the ocean fishing boats and vessels that would be having forced labour onboard using ML techniques to predict the results == GOAL
+
+Satellite Tracking Data of 22 vessels which were known to have used forced labour was collected from Global Fishing Watch and it was used to examine the commonalities in these boats’ behaviour. Indicators like spending more time on the high seas, traveling farther from ports compared to other vessels and fishing more hours per day than other boats. Also, the suspicious vessel could be at sea for many months. With ML techniques, they look for similar behavioural patterns in 16,000 fishing vessels from 2012-2018 from which 14-26% boats showed suspicion == METHODS
+
+The model is developed and still needs to be tested in the real world. By having the model assess vessels already caught based on the results of suspicion, the results showed that the model is 92% accurate at that time == RESULTS
+
+The model relies on the data from a single source can easily neglect other vessels which may not be in the database of the provider company. Thus, such models always have a buffer and regardless of the buffer space, the high accuracy plays it parts and keeps the model successful == ISSUES
+
+8 == SCORE
+
+The whole concept as well as execution is quite unique and proves helpful for the people coming from any of the backword societies. Since, it helps in the betterment of the society and helps to maintain law and justice at the international waters, it proves a much needed project which can be further developed and enhanced by providing more needful information == COMMENTS

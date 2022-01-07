@@ -1,0 +1,36 @@
+== SOURCE
+
+https://phys.org/news/2021-10-machine-reveal-cells.html
+
+== AGENT
+
+Hughes Medical Institute
+
+== GOAL
+
+Use machine learning to identify cell organelle and structure. 
+
+== DATA
+
+Thousands of images per cell. Collected using a electron microscopes.
+
+== METHODS
+
+Assigning each pixel a number which is it's distance away from the nearest synapses. Using these values the machine learning model can predict where organelle are positioned.
+
+== RESULTS
+
+Positive results being able to identify 30 different organelle and structures in cell imaging. 
+
+== ISSUES
+
+Possible issues in accuracy when using other machine learning tools as a basis to new machine learning tools, there could be problems with aggregation of inaccuracy. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+A very interesting report which shows how leveraging previously done work can be used to help solve another problem. In this case, using the machine learning tools that can pinpoint synapses. More work will be done on this project to help improve results and give more variety to what can be identified.
+

@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.analyticsinsight.net/how-whatsapp-utilises-machine-learning-to-combat-fake-news/
+
+== AGENT
+
+Whatsapp
+
+== GOAL
+
+They were trying to combat the spread of fake news across the world.
+
+== DATA
+
+They used news articles and flagged the news as real or fake using a color coding system using a red flag for fake news and a green flag for authentic news.
+
+== METHODS
+
+WhatsApp has started utilizing machine learning algorithms to indicate red flags on the messages.
+Machine learning will assist in identifying multiple sets of real-time data to put a label on the behavioral pattern such as abusive, propaganda, or agenda.
+This method used supervised learning to classify the news as real or fake.
+
+== RESULTS
+WhatsApp announced that it banned more than 2 million accounts for sending bulk automated messages and fake news per month.
+AI technology has put a restriction on how many times a specific message can be forwarded including a number of texts.
+
+== ISSUES
+
+During the Covid 19 pandemic the media has been flooded with a lot of conflicting
+and biased news coming from a number of sources and it is important this this news
+is filtered out and people are given the correct news.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This was an interesting article to read as it is very relevant to todays media driven society,
+I would not have done this differently as they were able to filter and flag fake news successfully.
+Although this fake news is not a new issue, this article was a good way of using supervised learning as it can successfully compare sources and flag fake news for readers.

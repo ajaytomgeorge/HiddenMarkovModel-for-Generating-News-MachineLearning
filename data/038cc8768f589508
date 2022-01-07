@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.auntminnie.com/index.aspx?sec=ser&sub=def&pag=dis&ItemID=133564
+
+== AGENT
+
+Researchers in Stony Brook University
+
+== GOAL
+
+Predict patient respones to antidepressants.
+
+== DATA
+
+77 pretreatment MRI exams from patients who initiating antidepressant treatment. 657 structural MRI measures. Patient information such as age, sex, treatment status.
+
+== METHODS
+
+eXtreme Gradient Boosting (XGBoost), a tree-boosting classifier that has been shown to accurately detect depression was used. 51 patients were used for algorithm training and 26 were used for validation. XGBoost was used to select the 5 best MRI features for predicting antidepressant treatment response. These features were entered into the algorithm for supervised training to predict remission or non-remission based on pretreatment MRI.
+
+== RESULTS
+
+94% Specificity, 68% Accuracy, 22% Sensitivity
+
+== ISSUES
+
+A very small dataset was used for both training and validation. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The study uses an existing software library, XGBoost. Although it is for an interesting medical purpose, the dataset is too small to confirm whether it will be a viable option in determining the effectiveness of treatment based on an MRI. 

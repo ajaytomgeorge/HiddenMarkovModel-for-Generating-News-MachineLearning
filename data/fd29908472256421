@@ -1,0 +1,35 @@
+==== SOURCE
+
+https://www.sciencedaily.com/releases/2019/10/191007103609.htm
+
+==== AGENT
+
+Developed by Alexandre Szenicer, David F. Fouhey, Andres Munoz-Jaramillo, Paul J. Wright, Rajat Thomas, Richard Galvez, Meng Jin, and Mark C. M. Cheung at Southwest Research Institute.
+
+==== GOAL
+
+Trying to develop a new algorithm that combines the capabilities of two spacecraft instruments, which could result in lower cost and higher efficiency space missions. 
+The virtual "super instrument," is a computer algorithm that utilizes deep learning to analyze ultraviolet images of the Sun, taken by NASA's Solar Dynamics Observatory, 
+and measure the energy that the Sun emits as ultraviolet light.
+
+==== DATA
+
+They derived their data from the period between 1 January 2011 and 26 May 2014, when the SDO/AIA imager and the SDO/EVE spectrograph co-observed the Sun. 
+The data consisted of nine-channel AIA images at 6-m cadence (in total: 264K images) that had been corrected for angular resolution variation and instrument degradation.
+
+==== METHODS
+
+They used supervised Machine Learning methods.
+Some of the initial models were linear regression.
+The full model incorporates a CNN.
+
+==== RESULTS
+
+The DEM-based model had 6/14 lines predicted with under 3% error.
+Some other lines, such as Fe XX (which is sensitive to plasma at about 10 million K), have discrepancies of ~10% during quiet conditions, but the average error can increase to 60% during flares.
+
+==== COMMENTS
+
+A deep learning virtual instrument for monitoring extreme UV solar spectral irradiance. Science Advances, 2019; 5 (10) eaaw6548
+https://advances.sciencemag.org/content/5/10/eaaw6548
+Machine learning in this case is used to save money by combining two currently existing technologies into one new algorithm.

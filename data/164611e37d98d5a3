@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.technologyreview.com/2020/10/16/1010566/ai-machine-learning-with-tiny-data/
+
+== AGENT
+
+University of Waterloo
+
+== GOAL
+
+A radical new technique lets AI learn with practically no data
+
+== DATA
+
+MNIST-handwritten digit database.
+
+== METHODS
+
+kNN (SLaPkNN classifier), LO-shot Learning
+
+== RESULTS
+
+A simple classifier likeSLaPkNN can perform LO-shot learning
+
+== ISSUES
+
+This is a novel case study and further reasearch is being carried out to increase its compatibility with popular learning models.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+LO-shot Learning can effectively reduce the volume of data that may be required to train a model by soft labelling and condensing data. LO-shot technique a is work in progress and plans to achieve compatibility with other well known models like DNN that trains efficiently with less or condensed data.

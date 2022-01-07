@@ -1,0 +1,192 @@
+==== SOURCE
+
+https://towardsdatascience.com/colorizing-old-b-w-photos-and-videos-with-the-help-of-ai-76ba086f15ec
+
+==== AGENT
+
+University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros
+
+==== GOAL
+
+The goal of the project was to develop an automatic approach which would be able to create realistic
+colorisation's of old black and white photos and also black and white movies. 
+
+==== DATA
+
+The data used was a set of 1.5 million colour photos of images ranging from landscape, to people and animals.
+
+==== METHODS
+
+The team approached the problem by posing it as a classification problem using class-rebalancing at
+training time. The machine learning method that the team used was a feed-forward pass in a convolutional 
+neural network that was trained using over 1 million colour images. The method that the team used to train
+the machine learning algorithm was to decompose millions of colour images. These images were decompose into 
+two separate parts, the black and white component and the colour component. After the model had been successful
+trained a black and white image could then by fed into the model which would generate a coloured version of the 
+image.
+ 
+==== RESULTS
+
+The team successfully managed to build the model that could apply realistic colour to old black and white 
+photos and movies.
+
+==== COMMENTS
+
+I think that this project shows how machine learning can be applied to many areas of industries where one 
+would not immediately think that computer science would be applicable.
+
+==== SOURCE
+
+https://www.remi.ai/post/bringing-a-i-to-the-vine
+
+==== AGENT
+
+Remi.ai is a machine learning AI startup located in Sydney Australia.
+
+==== GOAL
+
+The goal was to use machine learning to help a customer to understand grape health, size and count. The customer
+owned a vineyard for the production of wine and the machine learning model was going to help accurately forecast
+harvest yields.
+
+==== DATA
+
+The data used was photos of bunches of grapes that were of various ages and also grapes that had certain types 
+of diseases and damage to them.
+
+==== METHODS
+
+The system was a deep learning algorithm and datasets that was used to automatically monitor the grapes of the 
+vineyard over the one thousand hectares. The system had the ability to identify the size of the grapes too an 
+accuracy of 0.3 millimetres and the system was also able to estimate the numbers of grape in each bunch.
+ 
+==== RESULTS
+
+A pilot of the system was rolled out to the vineyards in the Hunter Valley wine region in New South Wales Australia.
+
+
+==== COMMENTS
+
+This system is a great example of how AI can be successfully applied to agri foods sector, where monotonous tasks can 
+be handed over to machines and productivity and wast can be controlled more effectively.
+
+==== SOURCE
+
+https://uk.pcmag.com/business/82910/predictive-analytics-big-data-and-how-to-make-them-work-for-you
+
+==== AGENT
+
+eHarmony is an online dating site.
+
+==== GOAL
+
+The goal of eHarmony is to use the personal information that clients provide and to use machine learning algorithms 
+to find a romantic match from the client.
+
+==== DATA
+
+29 different dimensions of personality are collected from each user of the website in the form of a questionnaire.
+There are 436 questions in the questionnaire and about 15,000 different people take the questionnaire each day.
+
+==== METHODS
+
+eHarmony uses integer optimisation in its matching algorithm. The algorithm works by assigning a compatibility 
+score to pairs of people on the website, ranging between 1 and 5. Each person should match to one other person 
+using the mathematical constraint x1 + x2 + x3 = 1. Logistic regression is then used on pairs of users differences
+to predict compatibility. In order to reduce the size of the data only people from the surrounding area are considered
+who have compatibility scores listed in the data set. Next the absolute difference is computed on the features for the 
+1475 pairs. Then a logistic regression model is trained on the differences. A low threshold for the logistic model is 
+used which generates a high proportion of false positives but also gets a high proportion of true positives. The classification
+matrix for a threshold equal to 0.2 generates a successful matching rate of 29%, which is very high for an online dating sit.
+ 
+==== RESULTS
+
+Since 2000 eHarmony has generated over $1 billion dollars in revenue and in 2012 nearly 4% of US marriages were as a result of
+eHarmony. 
+
+
+==== COMMENTS
+
+The online dating site eHarmony has created an enormously profitable business using quite a simple and straight forward type of
+machine learning, Linear Regression.
+
+==== SOURCE
+
+https://www.theguardian.com/science/grrlscientist/2012/nov/08/nate-sliver-predict-us-election
+
+==== AGENT
+
+Nate Silver, columnist with the New York Times.
+
+==== GOAL
+
+To use polling data to predict state winners in the 2012 US Presidential Election. Also to predict which candidate would win
+the vote in each state.
+
+==== DATA
+
+The data used was polling data which was collected in the months leading up to the 2012 Presidential Election. The data included state, year, Boolean variable for Republican or Democrat.
+
+==== METHODS
+
+A mathematical model of how people would vote on a particular day was constructed, this was called the 
+nowcast, ie how people would vote if they had to today. There were numerous variables that would affect
+How a person would vote, so these vote were taken into account in the model, such as what area a person 
+came from, also what race a person is.
+This model is used as a baseline of voting from that point in time. The model takes into account changes 
+that happen, both regional and state wise, and these are fed into the model. For example if unemployment
+in an area went down the incumbent party will gain popularity in that area. All of these variable were then
+used with a logistic regression model and this is what was used to make the prediction for the Presidential
+Election.
+
+ 
+==== RESULTS
+
+Nate Silver was one of the few main stream commentators who successfully predicted the outcome of the 2012
+Presidential Election.
+
+==== COMMENTS
+
+Again a pretty standard regression model can be used with great affect to make predictions that no one else
+can see.
+
+==== SOURCE
+
+https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-018-1122-7
+
+==== AGENT
+
+IBM Watson Oncology.
+
+==== GOAL
+
+The goal is to use data and machine learning to make medication and medical treatments more personalised and not just to 
+rely on generic treatments that the health services are currently offering.
+
+==== DATA
+
+The data used in personalised medical treatment are the patients genetic information, their family history and their medical 
+history.
+
+==== METHODS
+
+Personalised medical treatment uses deep learning which is a specialised machine learning approach based on the multiple-
+layered structures of artificial neurons. These neurons are able to process information and learn by adjusting the weights
+at each neuron allowing for an accurate prediction to be made. These deep networks are capable of learning from large amounts
+of data and are then able to apply this learning to new unseen data. Deep learning systems are able to integrate data from an
+individual patient and allow better predictions and recommendations for treatment options to patients based on individual 
+characteristics.
+
+ 
+==== RESULTS
+
+Deep learning systems are very well suited for the large amounts of healthcare data and out perform the more traditional 
+statistical models that had previously existed.
+
+
+==== COMMENTS
+
+The area of health care personalisation is a fine challenge for todays deep learning systems.
+
+
+ 

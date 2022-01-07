@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.genengnews.com/news/detecting-alzheimers-earlier-with-the-help-of-machine-learning-algorithm/
+
+== AGENT
+
+Texas Tech University
+
+== GOAL
+
+They were trying to develop a type of deep-learning algorithm known as a convolutional neural network (CNN) that can differentiate among the fMRI signals of healthy people, people with mild cognitive impairment, and people with AD.
+
+== DATA
+
+A public database is all that they said.
+
+== METHODS
+
+A type of deep-learning algorithm known as a convolutional neural network (CNN)
+
+== RESULTS
+
+Their results demonstrate that deep learning-based approaches can help improve diagnosis not only for AD but also for other neurological disorders.
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+
+Since it was on the news, for the general public to see, I believe they could have reported it better and made it easier for the general person to understand.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Yes this was extremely interesting and is definitely something that I would like to look into more.  If I was doing it I would have done it for more diseases instead of just Alzheimers.  The press did a good job of reporting this, it was pretty much just a regurgitation of what the researchers said.  The method was not new, they simply used CNN's on public data.  

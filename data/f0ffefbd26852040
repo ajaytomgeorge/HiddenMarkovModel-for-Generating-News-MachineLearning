@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/
+
+==== AGENT
+
+facebook/Carnegie Mellon University
+
+==== GOAL
+
+create a ai bot to learn to beat poker professionals, specifically one that can compete with multiple users.
+
+==== DATA
+
+the bot used its self as the oposing player to learn.
+
+==== METHODS
+
+they used a mixture of monte carlo and Nash elquilibrium
+
+==== RESULTS
+
+they were successful with the bot as it was able to beat the professionals. they played over 10000 poker hands, and the pluribus ai bot was above the pros on average 5 big blinds out of every 100. 
+
+==== COMMENTS
+
+This was very interesting as it was against multiple people all trying to win when most of the known advanced machine learning and ai bots are usually in one on one games such as go and chess.

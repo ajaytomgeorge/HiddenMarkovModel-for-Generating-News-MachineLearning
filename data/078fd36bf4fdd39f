@@ -1,0 +1,349 @@
+== SOURCE
+
+https://www.nytimes.com/2019/02/05/business/media/artificial-intelligence-journalism-robots.html
+
+== AGENT
+
+Bloomberg News
+
+== GOAL
+
+Bloomberg News uses automated technology to write articles and news reports for them. Their aim was 
+to have an algorithm that can dissect a finacial report the moment it appears and immedately write a news
+story accurately containing the keys facts and figures from the report. 
+
+
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+Editiors and writers meticulously craft several versions of a particular story or report
+that includes text for different outcomes of an event or topic.  
+
+
+== METHODS
+
+What methods (algorithms, etc) did they use? Supervised? Unsupervised? RL?
+They use a system called Cyborg.
+
+== RESULTS
+
+What were their results?
+The company successfully use a system that is able to take finacial reports as an input
+and to output a perfectly written article on the companys earnings. 
+The company also adapted this system to set up alerts to signal anomalous bits of data, 
+reporters who see the alert can determine if there is a bigger story to be written by a human
+being.
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+A major issure with a machine generating an earnings report article is that companies can 
+choose figures to create a more favourable protrayal then the numbers warrant. 
+
+== SCORE
+
+3
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?
+I would not describe this story as interesting simply because it is an algorithm writing articles.
+The system they use successfully carries out the task it was intended for, it is helpful for the
+industry and allows reporters to focus on other tasks. It also means that each article written by the algorithm
+is grammatically correct. The article was fair and showed both pro's and con's to using this techinology.
+
+== SOURCE
+
+ https://go.gale.com/ps/i.do?p=AONE&u=nuim&id=GALE|A540513392&v=2.1&it=r&sid=summon
+
+== AGENT
+
+The English city of Rochdale employed two economics to carry out an experiment.
+
+== GOAL
+
+What were they trying to accomplish?
+The city of Rochdale's goal is to carry out an experiment using machine learning
+to judge an entire towns wellbeing based on the tweets it's inhabitants send out.
+The experiment evalutes the tweets over a the period of a day and gauges the emotional state of the town
+
+
+== DATA
+
+The data used for this experiment were the tweets written by the inhabitants of this
+city. Tweets can be up to 140 characters long and can include links to relevant websites 
+and resources. The tweets were obtained from the inhabitants twitter social media accounts.
+
+== METHODS
+
+An algorithm was developed that took in thousands of tweets on a daily basis and analysed them for
+words that had a postive or negative connotation associated with them. Using this data it was able 
+to give real time results on the overall emotional state of the city for that particual day.
+
+== RESULTS
+
+As the experiment has only been running for a year the only results they have concluded 
+is that Rochdale is happier on a Friday than a Monday, happier at Christmas than in January,
+when the credit card bills come rolling in and permanently less happy than London.
+At the beginning, it did concluded that the town was happier while it was involved in a
+charity bike ride.
+
+
+== ISSUES
+
+There is always an ethical issue when analysing peoples personal data, although
+people are willing giving out information about themselves, this can make them a target.
+Their data can be used to predict who they would vote for in an election, how they will respond
+to particular events. Analysing peoples data makes them predicatable and they can be 
+easily manipulated from this.
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?
+
+This experiment was very interesting as the data collected was analysed in a new way.
+It is also an enjoyable report to read as the content was correct and also linked
+in other current studied similar to this one. 
+
+== SOURCE
+
+https://go.gale.com/ps/retrieve.do?tabID=T004&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=298&searchType=AdvancedSearchForm&currentPosition=1&docId=GALE%7CA619035354&docType=Article&sort=Relevance&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA619035354&searchId=R1&userGroupName=nuim&inPS=true
+
+== AGENT
+
+Cancer researchers 
+
+== GOAL
+
+What were they trying to accomplish?
+Researchers were aiming to develope a system that used machine learning to
+detect cancer cells from a blood test. The test would learn to detect the chemical 
+changes in the DNA known as methylation patterns.
+
+== DATA
+
+Initially the system with fed data on methylation patterns in DNA 
+from within blood samples taken from more than 2,800 patients, before 
+further training the algorithm with data from 3,052 participants, 1,531 of whom had 
+cancer and 1,521 of whom did not
+
+
+== METHODS
+
+The test was developed using a machine learning algorithm. The system picked up
+on patterms within data and as a result classified it. The system sorted the samples into groups based on the methylation patterns. 
+The system was then taught which groups reflected which type of cancer.
+
+
+== RESULTS
+
+The system designed could detect 50 types of hard to identify cancers.
+The test can not only identify if somebody has cancer but can shed light on 
+what type of cancer they have by identifying what type of tissue it originated from.
+Across more the 50 different types of cancers, the system correctly detected that the disease was
+present 44% of the time.
+
+
+== ISSUES
+
+A major issure with this is the possibility of wrongfully detecting cancer.
+This system would need extensive research to be reliable in identifying cancers. 
+Not detecting cancer when it is present is also a major issure as it could go untreated. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?
+
+I personally think this is highly interesting because it is a universal problem,
+therefore everybody benefits from there being a solution developed that helps detect it.
+However, the press will always highlight this development in a possive way and may exaggerate
+details. The method used in this test is very interesting 
+
+
+== SOURCE
+
+https://go.gale.com/ps/retrieve.do?tabID=T004&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=298&searchType=AdvancedSearchForm&currentPosition=3&docId=GALE%7CA606099640&docType=Article&sort=Relevance&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA606099640&searchId=R2&userGroupName=nuim&inPS=true
+
+== AGENT
+
+Social workers
+
+== GOAL
+
+Use a system that would help social workers identify the probabilty of a child
+coming on to the at-risk register and how they might prevent it.
+
+
+== DATA
+
+They get vast amounts of data from a number of sources such as police records, 
+housing benefit files, social services, education and the health service. 
+Data includes childs attendance at school and if the family are behind on with rent. 
+
+== METHODS
+
+A supervised algorithm was used analysed data about a child from numerous resources
+and was trained to cross-reference this information and produce a percentage
+of how at risk a child was.
+
+== RESULTS
+
+Social service departments are using machine learning to help them indentify
+child at risk in their communities. The system gives them a percentage based on information
+fed to it. However this is only part of a toolbase for social workers and would
+never be the only method used. 
+
+
+== ISSUES
+
+There are major ethical issues with using machine learning as part of social services
+as the information is so sensitive and personal to each case. There is many problems
+with the accuracy of this system if some information is not presented or it focuses
+too much of on one aspect of the childs life.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+This is an interesting use of machine learning however there will alway be massive ethical issues
+with this and with obtaining the information needed to run this algorithm as it is the sensitive information
+of children and the less information provided the less accurate the result will be. 
+
+
+== SOURCE
+
+https://go.gale.com/ps/retrieve.do?tabID=T004&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=298&searchType=AdvancedSearchForm&currentPosition=8&docId=GALE%7CA400513650&docType=Article&sort=Relevance&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA400513650&searchId=R2&userGroupName=nuim&inPS=true
+
+== AGENT
+
+Who did this machine-learning-related work (e.g., Netflix)
+a student from Michigan State
+
+== GOAL
+
+What were they trying to accomplish?
+To develope an algorithm to efficiently find wally from the books wheres wally.
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+He derive the method for finding Wally fastest using a data set mapping out all of 
+Wally's positions across all 68 of Handford's books published since 1987.
+
+== METHODS
+
+What methods (algorithms, etc) did they use? Supervised? Unsupervised? RL?
+The co-ordinates where plugged into a genetic algorithm
+a search process that mimics the process of natural selection used in
+artificial intelligence as part of machine learning.
+
+
+== RESULTS
+
+The result was a trial and error search that optimised the fastest 
+route to take across the page to find Wally. The algorithm was ran for 5 minutes
+and found the best solution - a path across the page that takes into account that 
+Wally is never in the top left of the page, as he would be covered by the postcard, 
+or in the bottom right as that's the most looked at part of the entire page, as readers 
+see it first when turning the pages of the book.
+
+== ISSUES
+
+There is no issues with this. The problem was solved and solved effiently.
+
+
+== SCORE
+
+5
+
+== COMMENTS
+
+This was interesting because the algorithm was applied to a quirky well known 
+childrens book, which made the report interesting to read about to see how machine learning
+can be applied to solve a basic problem such as finding a kids character.
+
+
+== SOURCE
+
+The source of this story, preferably in the form of a URL
+https://go.gale.com/ps/retrieve.do?tabID=T004&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=298&searchType=AdvancedSearchForm&currentPosition=20&docId=GALE%7CA562278788&docType=Brief+article&sort=Relevance&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA562278788&searchId=R3&userGroupName=nuim&inPS=true
+
+== AGENT
+
+Who did this machine-learning-related work (e.g., Netflix)
+Researchers from New York University.
+
+== GOAL
+
+Use machine learning to create a fake fingerprint to use as a masterkey to biometric 
+scanners. 
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+The used a database of numerous fingerprints in order to analyse them to find 
+common features.
+
+
+== METHODS
+
+What methods (algorithms, etc) did they use? Supervised? Unsupervised? RL?
+They used a generative adversarial network, to artifically create new fingerprints.
+
+== RESULTS
+
+What were their results?
+They successfully generated fake fingerprints that fooled a biometric scanner
+and also allowed them to create ones that look like real finger prints to the human eye. 
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+There are major issues with creating fake fingerprints.
+It immediately makes biometric scanners less secure as they can fooled. There is also 
+and ethical issure as people fingers prints are used as the database for making these.
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?
+
+This is a very interesting technique of using data and the report was very 
+factual on it. 
+
+
+

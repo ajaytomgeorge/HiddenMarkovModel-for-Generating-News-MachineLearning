@@ -1,0 +1,18 @@
+== SOURCE
+https://news.mit.edu/2020/gaussian-machine-learning-tb-drug-1015
+== AGENT
+MIT CSAIL
+== GOAL
+Computational method for screening drug compounds - potential new TB drugs.
+== DATA
+ZINC database
+== METHODS
+ML algorithms improving their prediction-making ability, Gaussian process
+== RESULTS
+Improved already existing ML algorithms with Gaussian process for better predictions.
+== ISSUES
+Founded by U.S. Department of Defense - could be used for wrong doing.
+== SCORE
+8
+== COMMENTS
+It's intriguing how biologists using machine learning techniques to solve problems in their domain, what's even more cool is that they use publicly available data repository.

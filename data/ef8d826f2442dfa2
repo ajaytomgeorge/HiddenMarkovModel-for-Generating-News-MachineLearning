@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.sciencedirect.com/science/article/pii/S2666827021000530
+
+== AGENT
+
+ScienceDirect
+
+== GOAL
+
+To automatically classify takeaway food outlets, by 10 major cuisine types, based on business name alone.
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+
+== METHODS
+
+LSTM, Recurrent Neural Network
+
+== RESULTS
+
+Although accuracy of prediction varied by cuisine type, overall the model (or ‘classifier’) made a correct prediction approximately three out of four times. We demonstrated the potential of the classifier to public health researchers and for surveillance to support decision-making, through using it to characterise nearly 55,000 takeaway food outlets in England by cuisine type, for the first time.
+
+== ISSUES
+
+The keywords used in this modeling might be very strict and might loose out on some very useful food outlets that donot have "takeaway" in their name. Eg: KFC, McDonalds.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This is great to figure out patterns and correlations between food and the underlying disease that people are prone to.

@@ -1,0 +1,63 @@
+﻿==== SOURCE
+
+
+
+http://news.mit.edu/2019/machine-learning-you-can-dance-to-samply-0918
+
+
+
+
+
+==== AGENT
+
+
+
+Samply- product by Justin Swaney, a Ph.D. student in the MIT Department of Chemical Engineering
+
+
+
+
+
+==== GOAL
+
+
+
+The tool that could help music directors in making music
+
+
+
+==== DATA
+
+
+
+The data set is used from the sample library uploaded by the user. It is set of the audio collection containing the wide range of audio samples 
+
+
+
+
+==== METHODS
+
+
+
+It analyzes audio waveforms using a convolutional neural network.It uses relatively little pre-processing compared to other image classification algorithms. This means that the network learns the filters that in traditional algorithms were hand-engineered. This independence from prior knowledge and human effort in feature design is a major advantage.
+
+
+
+
+
+
+
+==== RESULTS
+
+Samples were classified based on their sonic characteristics and the result is a classification of similar sounds which are closer together and different sounds are father apart. It also allows multiple sample libraries to be processed at a time thereby shortening the lag.
+
+
+
+
+
+
+
+
+==== COMMENTS
+
+Samply is a great application which shows the changes machine learning can bring in the Music industry 

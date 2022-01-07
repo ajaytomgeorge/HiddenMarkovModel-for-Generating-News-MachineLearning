@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.eurekalert.org/news-releases/929986
+
+== AGENT
+
+Idaho National Laboratory
+
+== GOAL
+
+early detection of lithium battery ageing
+
+== DATA
+
+31 graphite cells
+
+== METHODS
+
+ML-based tree classification model
+
+== RESULTS
+
+0.88 valid
+
+== ISSUES
+
+the 31 cells were classified by human judgment
+
+== SCORE
+
+2
+
+== COMMENTS
+
+batteries are important but this was a pain to read

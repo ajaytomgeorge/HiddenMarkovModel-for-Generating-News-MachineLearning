@@ -1,0 +1,40 @@
+
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/10/201028124520.htm
+
+== AGENT
+
+Scientists from Texas Tech University.
+
+== GOAL
+
+Goal to develop a artificial intelligence-based algorithm for the early diagnosis of Alzheimer's. fMRI is a diagnostic tecnique for brain disorders.
+Hence, developing a type of deep-learning algorithm that can differentiate among the fMRI signals of healthy people,people with mild cognitive impairment, and people with AD.
+
+== DATA
+
+They used a public database to train and test their model(CNN with fMRI).
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+Authors of this algorithm say, "Our classifier can accurately identify the mild cognitive impairment stages which provide an early warning before progression into AD."
+
+== ISSUES
+
+As stated earlier in the article that fMRI signals are small and suscetible to noise,the model should be accurate enough to rely on, so that no fluctuations in reports happen due to noise.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Nowadays, many such models are being proposed. Idea is good. I just want to say that it would be wonderful if all these provide accurate results and we don't have to give any second thoughts in trusting these.
+
+
+

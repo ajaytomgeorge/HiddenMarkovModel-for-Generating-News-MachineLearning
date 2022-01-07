@@ -1,0 +1,225 @@
+
+== SOURCE
+
+
+https://www.sciencedaily.com/releases/2020/10/201015111731.htm
+
+
+== AGENT
+
+
+Massachusetts Institute of Technology (one of the best universities in the world, behind Maynooth of course).
+== GOAL
+
+
+To identify several molecules that targets an important protein by the bacteria that causes tuberculosis (TB) and inhibit its growth.
+== DATA
+
+
+
+Used information from databases developed by biologists from the last few years (ZINC database). They analyzed around 11000 small molecules and their interactions with more than 400 proteins.
+== METHODS
+
+
+They used an unsupervised, clustering method. Using Gaussian process to add uncertainty to the experiment, they could make predictions for protein-target interactions that the model hadn't seen before.
+
+== RESULTS
+
+
+The researchers identified certain molecules that had a strong predicted binding affinity 
+to PknB, an important protein that allows the bacteria Mycobacterium tuberculosis to survive. When experimentally tested, the model proved to be very accurate as there was a 90 percent hit rate for the molecules the model highlighted with the most certainity to bind to the protein. Against Mycobacterium tuberculosis, they found that some of the molecules inhibited the bacteria's growth.
+== ISSUES
+
+An issue with the experiment is that even with positive results from the model, it takes months, even years of experimenting and testing of the molecules against the protein to ensure that it prevents the growth of the bacteria and to ensure there are no side/damaging effects given to the patient. This is essential before it can be released to the public. Also, the model is not perfect as there is still a 10 percent chance that it is wrong.
+
+
+== SCORE
+
+
+8
+
+== COMMENTS
+
+
+As I have a huge interest in both Computer Science and Biology, it is cool to see Machine Learning methods used to solve problems in the biological sector. It is still relatively new in biology so it's interesting to see researchers in MIT use existing information about thousands of molecules and proteins to prevent the growth of the bacteria that causes TB. They allowed for uncertainity (Gaussian process) which is essential in experiments and this could be used as a blueprint by more biologists in areas such as fighting Covid-19. For how bad the year has been because of Covid-19, it would be cool to see Machine Learning being used to help develop a vaccine as it is ruining my life and I kinda want to leave my home.
+
+
+== SOURCE
+
+
+
+https://www.purdue.edu/newsroom/releases/2020/Q4/big-data,-machine-learning-shed-light-on-asian-reforestation-successes.html
+== AGENT
+
+
+Purdue University's Jingjing Liang and his international team.
+== GOAL
+
+
+To shed light on Asian reforestation
+== DATA
+
+
+Data from hundreds of plots in China and Korea (with aid of Beijing Forestry University and Seoul National University), records of environmental conditions
+ and retrieved information from a database that records planted trees across the world from World Resources Institute.
+== METHODS
+
+
+The research used a mixture of field work, remote sensing and machine learning (big data analysis).
+== RESULTS
+
+
+The researchers discovered that the carbon storage in Asia increased by 20 to 40 percent over the last three decades, with 76 percent of that due to reforestation efforts in China and Korea. In China alone, 567420 square kilometers of new forests have been planted over the last 20 years.
+
+== ISSUES
+
+The article does not mention the exact methods used by the researchers to obtain their results, like the type of machine learning steps used. The researchers also could've used a larger sample size of areas, such as from Japan, to obtain more accurate results.
+
+== SCORE
+
+
+6
+
+== COMMENTS
+
+
+With the environment being such an important topic in the world today, it is cool to see Machine Learnings techniques being used to help save the world. The West normally see the Asian countries as people who don't care for the environment but just in the area studied, which is 0.01 percent of forested land in the world, it has nearly 1 percent of global carbon storage. A project as simple as this, with data used available to all, is so important as it shows the power of Machine Learning and how it can solve problems we have today. The article also mentions a promise from President Trump to plant billions of trees in America which although would be great to fight the 'myth' of global warming, was probably just a plee to win the votes of vegans and tree lovers.
+
+
+
+== SOURCE
+
+
+
+https://techxplore.com/news/2020-09-deep-super-human-gran-turismo-sport.html
+== AGENT
+
+
+Researchers at University of Zurich and SONY AI Zurich
+
+
+== GOAL
+
+
+To achieve super-human performance in Gran Turismo by a deep learning model
+== DATA
+
+
+73 hours of training the model using 4 Playstation 4s and a PC on Gran Turismo Sport
+
+
+== METHODS
+
+Their neural network was trained by reinforcement learning, which rewarded the model when performing well. In this case, was rewarded when segment times racing were as small as possible.
+== RESULTS
+
+
+Within 73 hours, the model had achieved super-human performance. It could perform better than an expert Gran Turismo Sport driver who had won many international video game competitions.
+
+== ISSUES
+
+
+The only issue I had with the project is that the game they wanted to achieve maximum performance on was Gran Turismo Sport. I think Mario Kart or Crash Team Racing would've been a better option, much more fun.
+
+== SCORE
+
+
+9
+
+
+== COMMENTS
+
+
+Being a Computer Science student, I am a nerd who loves video games. As good as I think I am at certain games, I would get destroyed by a Machine Learning model with just 70 hours of training, even without any prior knowledge of game mechanics. Reinforcement learning models has been carried out in many computer games to achieve crazy strategies and glitches that speedrunners (people who try to beat games as fast as possible) would love to pull off.
+ Perhaps in the future, reinforcement learning models could be used to produce self-driving cars to bring my lazy-ass to work.
+
+
+== SOURCE
+
+
+https://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/20830/The-KIcker-Story-Foosball-and-Deep-Reinforcement-Learning.aspx
+
+
+== AGENT
+
+
+Researchers from Bosch Rexroth and DXC Technology.
+
+== GOAL
+
+
+To develop an automated foosball system called Klcker.
+== DATA
+
+
+Simulated thousands of virtual foosball games.
+
+== METHODS
+Used deep reinforcement learning, through trial and error, which rewarded the neural network when scoring and gave negative feedback when getting scored on.
+== RESULTS
+
+
+Produced a foosball system which could play against human oppenents. Although it's not perfect, could beat the average foosball player.
+
+== ISSUES
+
+
+At first, the reserachers had intended to train the system using human players but realized quickly that it was too time consuming. For the system to get better, it would have to play games with different scenarios so it could learn on how to react to it. Moving virtually also had its problems as it was hard to illustrate the physical conditions and measurements of a real foosball table.
+
+== SCORE
+
+
+7.
+
+== COMMENTS
+
+
+
+Although the system is not the best, it is cool to see that the Klcker is being used as an educational tool in Germany for students to learn about Machine Learning. Imagine being able to play foosball instead of listening to some boring lecturers talk about nonsense for 50 minutes (not you Barak, you're cool). The article also mentions how the machine learning system Deep Blue defeated chess grandmaster Garry Kasparov in 1997, marking an end of human superiority in chess. As chess has become popular again due to streamers on the platform Twitch playing it, I've tried playing against AI with a high power level and every time I got destroyed. Lost in 4 moves once. We all know AI is going to take over the world like in that Will Smith movie I-Robot. It is very interesting to see the power of Machine Learning and how it can be used to solve all sorts of problems.
+
+
+== SOURCE
+
+
+https://www.genengnews.com/news/detecting-alzheimers-earlier-with-the-help-of-machine-learning-algorithm/
+
+== AGENT
+
+
+Scientists from Texas Tech University
+
+
+== GOAL
+
+
+
+
+To detect Alzheimer's earlier using Machine Learning algorithms
+== DATA
+
+
+Takes BOLD fMRI data (functional magnetic resonance imaging) which measures changes in blood oxygen levels within the brain over time. Took data from public database.
+== METHODS
+
+
+Dveloped a type of deep learning algorithm known as a convolutional neural network that can differentiate among the fMRI signals of healthy people, people with mild cognitive impairment, and people with AD.
+
+== RESULTS
+
+
+Could classify the BOLD fMRI data into either Alzheimer’s disease, mild cognitive impairment (MCI), or both early cognitive impairment (EMCI) and late cognitive impairment (LMCI), and healthy controls (CN). When compared to other methods, had as good or better accuracy.
+
+== ISSUES
+
+
+Although the model is accurate, it takes months or years of testing to ensure that the results of the algorithm is reliable.
+
+== SCORE
+
+
+8
+== COMMENTS
+
+
+
+I think this is interesting because not only could deep learning algorithms be used to help diagnose Alzheimer's but also other neurological disorders. Healthcare is so important and it is cool to see Machine Learning being used to help save lives. Healthcare is so important and it is cool to see Machine Learning being used to help save lives. I know I said that twice, was an Alzheimer's joke. I'm terrible.

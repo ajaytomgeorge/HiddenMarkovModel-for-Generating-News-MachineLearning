@@ -1,0 +1,35 @@
+== SOURCE
+
+https://siliconangle.com/2020/10/26/microsofts-new-lobe-app-lets-anyone-train-ai-models/
+
+== AGENT
+
+LOBE (owned by Microsoft)
+
+== GOAL
+
+To make image-classification machine learning models universally accessible.
+
+== DATA
+
+Any images input
+
+== METHODS
+
+Uses AutoML technology and supervised learning
+
+== RESULTS
+
+https://lobe.ai/
+
+== ISSUES
+
+NA
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Microsoft are big into their AIs, I guess this is just a fun way of letting laypeople in on the action. Any user can create personalised models by inputting their own training sets of images, then use those models to identify similarities in other images. In many ways, it’s a toy version of existing technologies, like Azure, but the fact that it is freely and easily accessible to anyone, without the need for any prior knowledge of ML, could greatly diversify the ways ML is used in the future. It’s pretty limited in terms of functionality, but it’s a fun app, would recommend.

@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.the-scientist.com/critic-at-large/opinion--ai-beats-animal-testing-at-finding-toxic-chemicals-65795
+
+== AGENT
+
+Center for Alternatives to Animal Testing (CAAT) at Johns Hopkins University
+
+== GOAL
+
+Finding toxicity of a chemical using machine learning algorithm without testing it on animals.
+
+
+== DATA
+
+They compiled a database of 800,000 toxicological studies on more than 10,000 chemicals registered under the European REACH legislation for industrial chemicals, and used it to feed an advanced predictive algorithm that enabled to predict the toxicity of any chemical without setting foot in the animal lab.
+
+== METHODS
+
+They used big data and transfer learning, a machine learning method that applies information from one task or set of items to another.
+
+== RESULTS
+
+Using an Amazon cloud server, it took two days to analyse the similarities and differences among the 10 million chemicals. Applying this to 190,000 classified chemicals based on animal tests; the computer correctly predicted the outcome of toxicity studies 87 percent of the time.
+
+== ISSUES
+
+The power of this approach depends on the availability of data, and its implementation will only work for toxic properties that are directly dependent on chemical structure. Situations where the underlying biology is complex, more information might be required.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Here, this AI approach could drastically reduce the need for these animal toxicity tests, and also save quite a bit of money in the process. 
+
+

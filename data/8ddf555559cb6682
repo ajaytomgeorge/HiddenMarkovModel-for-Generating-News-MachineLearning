@@ -1,0 +1,43 @@
+Article 2 - Google Optimizing data centres.
+
+==== SOURCE
+
+https://techcrunch.com/2014/05/28/how-google-uses-machine-learning-and-neural-networks-to-optimize-data-centers/
+https://ai.google/research/pubs/pub42542
+
+==== AGENT
+
+Jim Gao, Data centre engineer at Google.
+
+==== GOAL
+
+Gao's goal was to use machine learning to take in large amounts of data from Google's 
+already tracked sources and analyse this data to predict power usage
+effectiveness and use their power more effectively. Simply finding methods to save time,
+energy and money from the data centres.
+
+==== DATA
+
+Gao built a neural network framework that would take in data that Google had already been 
+tracking such as energy levels being used at a particular server and temperature both inside
+and outside.
+
+==== METHODS
+
+After taking in the data tracked by Google, Gao's model would then analyse the operating 
+configurations and interdependencies that are too dificult for the human mind to analyse.
+this analysis is then used to predict future power usage effectiveness within a range of
++/- 1 standard deviation.
+
+==== RESULTS
+
+Gao's model was tested and approved by Google DCs. According to Gao's LinkedIn account,
+This project led to energy saving in Google's data centres and a revenue increase in 
+Google's wind farms.
+
+==== COMMENTS
+
+This project seems like a method that should be implemented into all companies and 
+industries with data centres that use large amounts of power. It is an idea that could 
+benefit both financially and environmentially. Jim Gao saw the importance of machine 
+learning in today's society and really put this to use at Google.

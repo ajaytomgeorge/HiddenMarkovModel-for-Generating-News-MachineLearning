@@ -1,0 +1,18 @@
+== SOURCE
+https://www.nature.com/articles/d41586-021-02556-w
+== AGENT
+Bastani et al., Nature
+== GOAL
+In Greece, create an algorithm for testing with a balance between the need for testing people arriving at borders for COVID-19 and the need for travel between countries in an economy which relies on tourism by selectively testing those who are most likely to have COVID-19.
+== DATA
+Previous samples of populations with and without COVID-19 along with continously updating the data it has available with the newly tested people arriving in the country.
+== METHODS
+Reinforcment learning and exploring unknown patterns to see the results of testing those patterns.
+== RESULTS
+The automated system doubled the efficiency of testing
+== ISSUES
+The testing is currently limited to the data the algorithm has available to it by GDPR, perhaps for the better. The algorithm could cause displeasure in the groups who it identifies as more likely to test positive for the virus but who still test negative. The algorithm also only tests for a positive result and not the virus itself, meaning it could be subject to a disproportionate ammount of false positives.
+== SCORE
+7
+== COMMENTS
+The real world application of this machine learning algorithm is fascinating, and the results seem impressive with it being able to correctly guess who would test positive twice as much as how Greece selected for tests prior to the alogrithm's implimentation. It does raise ethical concerns as it is selecting people to have an intrusive test done on them from a profile about them however.

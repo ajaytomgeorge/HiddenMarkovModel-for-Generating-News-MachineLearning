@@ -1,0 +1,18 @@
+== SOURCE
+https://techxplore.com/news/2021-09-horror-rom-com-ai-based-solely.html
+== AGENT
+University of Southern California (USC)'s Viterbi School of Engineering
+== GOAL
+Objectively examine the effect of music on cinematic genres. The study aimed to determine if AI-based technology could predict the genre of a film based on the soundtrack alone. 
+== DATA
+In their study, the group examined a dataset of 110 popular films released between 2014 and 2019. They used genre classification listed on the Internet Movie Database (IMDb), to label each film as action, comedy, drama, horror, romance, or science-fiction, with many of the films spanning more than one of these genres.
+== METHODS
+They applied an unsupervised deep learning network that extracted the auditory information, like timbre, harmony, melody, rhythm, and tone from the music and score of each film. This network used machine learning to analyze these musical features and proved capable of accurately classifying the genre of each film based on these features alone.
+== RESULTS
+In addition to accurately classifying the genre of each film based on their score, the group also interpreted these models to determine which musical features were most indicative of differences between genres. The models didn't give specifics as to which types of notes or instruments were associated with each genre, but they were able to establish that tonal and timbral features were most important in predicting the film's genre.
+== ISSUES
+All through-out the article the authors of the study sound very excited about their efforts and having "laid all this groundwork for future directions" on the matter, but it seemed to me they may have slightly over-estimated the novelty of their findings, and specially its practical applications, when believing that "their work could have valuable applications for media companies and creators in understanding how music can enhance other forms of media". Personally, I feel that music and film authors might not be that open to change their way of doing things just because of some new reassuring mathematical evidence telling them what they may feel they already knew about how to do their job.
+== SCORE
+8
+== COMMENTS
+The notion that different film genres are more likely to use certain musical elements in their soundtrack is rather intuitive. But while past work qualitatively indicates that different film genres have their own sets of musical conventions - conventions that make that romance film sound different from that horror movie - Narayanan and their team set out to find quantitative evidence that elements of a film's soundtrack could be computationally analyzed and used to characterize a film's genre.

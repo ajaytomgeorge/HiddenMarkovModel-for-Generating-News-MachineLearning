@@ -1,0 +1,19 @@
+== SOURCE
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+== AGENT
+MIT CSAIL, IARPA
+== GOAL
+Translate lost languages using machine learning.
+Decipher lost languages using just a few thousand words.
+== DATA
+Languages of the world.
+== METHODS
+Decipherment algorithm, cognate-based decipherment, entity recognition.
+== RESULTS
+Development of algorithm that deciphered the dead languages.
+== ISSUES
+What if the translation is wrong.
+== SCORE
+8
+== COMMENTS
+In my view there is some chance this translation could be wrong and researchers would never find out about it, or what if its right and they will summon some demons.

@@ -1,0 +1,34 @@
+== SOURCE
+
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+
+== AGENT
+
+MIT’s Computer Science and Artificial Intelligence Laboratory
+
+== GOAL
+
+Predict new drug combinations to fight Covid-19
+
+== DATA
+
+What data did they use: what did it look like and how did they get it?
+
+== METHODS
+
+Neural network identifies synergistic drug blends for treating viruses like SARS-CoV-2.
+
+== RESULTS
+
+What were their results?
+
+== ISSUES
+
+Because of the lack of information if the information isn’t fully correct it could cause a large problem 
+== SCORE
+
+7
+
+== COMMENTS
+
+Typically, data scientists use deep learning to pick out drug combinations with large existing datasets for things like cancer and cardiovascular disease, but, understandably, they can’t be used for new illnesses with limited data. This new method allows new virus that we do not have the same amount of information on such as covid to be able to be treated.

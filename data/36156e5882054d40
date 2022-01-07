@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/us-air-force-pilots-artificial-intelligence-assist-scheduling-aircrews-0708
+
+== AGENT
+
+Kylie Foy, MIT Lincoln Laboratory
+
+== GOAL
+
+To build an algorithm that automatically schedules aircrew for US Air Force."Being a scheduler is an additional duty on top of an airman's main job, such as being a pilot"
+
+== DATA
+
+Probably the data would have consisted of aircrew and available military cargo aircrafts
+
+== METHODS 
+
+Reinforcement learning
+
+== RESULTS
+
+Successfully built a model that allows airman to chose their schedule from multiple schedule
+
+== ISSUES
+
+NIL
+
+== SCORE
+
+9
+
+== COMMENTS
+
+the Air Force letting its guard down and letting others in to help us leverage AI and machine learning to make people's lives better on a daily basis

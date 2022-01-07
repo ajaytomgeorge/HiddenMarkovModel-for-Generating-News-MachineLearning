@@ -1,0 +1,29 @@
+#6
+
+== SOURCE
+https://www.nature.com/articles/s41598-021-87834-3
+
+== AGENT
+Nature.com
+
+== GOAL
+Evaluating Machine Learning techniques for archaeological lithic sourcing 
+
+== DATA 
+Data generated from 118 Meesolithic artefacts from 12 Archarological sites data 
+
+== METHODS
+Random Forests, K Nearest Neighbous and Support Vector Machines 
+
+== RESULTS
+The results presented here demonstrate a robust machine learning pipeline for archaeological lithic sourcing, with the important addition of outlier detection.
+
+== ISSUES
+The key issues are the adequacy of sampling quantity, and the point at which these groups should be further separated into different classes based on inspection of the data.
+
+== SCORE
+7
+
+==COMMENTS
+It is a great approach to find the geological origin of stone materials or artefacts. Though if deep neural networks would’ve been used with more data, it would give more accuracy.
+

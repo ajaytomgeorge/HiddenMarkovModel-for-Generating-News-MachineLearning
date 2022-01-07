@@ -1,0 +1,40 @@
+
+== SOURCE
+
+https://www.nature.com/articles/s41746-021-00520-6
+
+== AGENT
+This work was reviewed and approved by the Salesforce Research Ethics Team
+
+== GOAL
+
+Human-augmenting AI-based labeling system .Initially untrained deep learning models learn from human demonstration, train themselves, 
+and begin to augment human annotation ability.
+
+== DATA
+
+Images from Cancer Genome Atlas were used.
+
+== METHODS
+
+deep learning model
+
+== RESULTS
+The workload reduction across the pathologists, when using HALS, ranges from 66% to 100%, as measured by their corrected fraction. 
+The average workload reduction is 90.6%
+
+== ISSUES
+More data would be needed to train the model accurately.There are many cases where the pathologists will have different opinions 
+and the result sometimes may be unprecedented . In such cases the model will incorrect result which cannot be relied upon.As this is concerning 
+with human life it will be risky to fully rely on the model alone. The reliability of ML algorithms depends on the validity of the data 
+on which they are trained
+
+
+== SCORE
+7
+
+
+== COMMENTS
+This can reduce human workload.Same repetitive tasks like cellular annotation usually done by pathologists can be 
+done by the model.It can also increase the effectiveness of annoatated data. This is a highly beneficial tool in the medical field.
+

@@ -1,0 +1,27 @@
+==== SOURCE
+
+Medium. (2019). Beginner’s Guide to OpenAI Five at Dota2. [online] Available at: https://medium.com/@ngwaifoong92/beginners-guide-to-openai-five-at-dota2-3b49ee5169b8 [Accessed 13 Oct. 2019].
+
+==== AGENT
+
+OpenAI
+
+==== GOAL
+
+Create an AI capable of learning to play games as well or better than humans (Dota2 in this case).
+
+==== DATA
+
+The AI played against itself at first and generated data through that. Eventually, it was let loose to play against human players and gathered even more game data. Since many iterations can be run at once, hundreds of years of data could be accumulated a day.
+
+==== METHODS
+
+The AI was given a reward system to dictate the actions it should take. Through repeated training, the AI learns the optimal steps to meet reward criteria. This is known as reinforcement learning. The AI then played itself (gathering up to 180 years per agent (controllable unit) per day) until it was proficient at the game. 
+
+==== RESULTS
+
+The OpenAI Five as the AI became known as, was released onto servers to play against human teams. The AI team beat 99.4% of challengers.
+
+==== COMMENTS
+
+The OpenAI Five was a very cool project which shows one of the cool things that can be done with machine learning. To think it was able to play a complicated game like Dota2 and beat so much of the player base is incredible. The article itself is very good and gives an in-depth but easy to understand. 

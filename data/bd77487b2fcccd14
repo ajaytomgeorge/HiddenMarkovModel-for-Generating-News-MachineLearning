@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://evannex.com/blogs/news/what-can-deepmind-s-starcraft-win-teach-us-about-tesla-s-path-to-full-autonomy
+
+==== AGENT
+
+Tesla Engineers in the AI and Machine Learning department
+
+==== GOAL
+
+Create a self driving car by learning from a good human driver
+
+==== DATA
+
+They receive their data from monitoring how human drivers respond to scenarios encountered during daily driving. With 400,000 cars travelling a collective 12.5 million miles per day (according to this article dated 22/April/2019) they have a large data-set to work with. 
+
+==== METHODS
+
+They use a machine learning method, supervised imitation learning, where a machine takes in a huge number of examples on how to do something and eventually recognises the correct way of doing it.
+
+==== RESULTS
+
+Currently tesla is a world leader in autopilot technology with numerous commercial road worthy vehicles using the technology. The autopilot technology can successfully bring passengers on long journeys without the need for any user input.
+
+==== COMMENTS
+
+The methods used by tesla to teach a machine to match or exceed the driving ability of a human is very interesting as not every person drives the same. The sample data therefore will contain a very wide net of different techniques of different driver skill levels and ability for the machine to learn from. This could be detrimental for a machine as it could learn very bad habits from everyday drivers.

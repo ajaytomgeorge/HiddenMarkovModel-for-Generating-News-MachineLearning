@@ -1,0 +1,40 @@
+==== SOURCE
+
+https://techcrunch.com/2019/10/02/molecule-one-uses-machine-learning-to-make-synthesizing-new-drugs-a-snap/
+
+==== AGENT
+
+Molecule.one
+
+==== GOAL
+
+Use machine learning to automatically discover formulas for completex molecules and 
+chemicals for pharmacutical purposes.
+
+==== DATA
+
+The databases utilised in this project was pulled mostly from the US patent office which 
+stores tons of patents revolving around chemical processes.
+
+==== METHODS
+
+Molecule.one runs simulations of biological and chemical interactions in order to 
+determine the compound best suited to fight a particular disease. This function already 
+existed in many other softwares however, the new function Molecule.one brings to the 
+table is its ability to search its database of chemical processes and determine also
+how to synthesize these new chemicals. This is a processess which was previously done
+manually and was time consuming. It also contains a database of commercially available
+chemicals and their pricing and can hence calculate the cheapest way to synthesize
+a chemical while also minimising the number of toxic reagents used.
+
+==== RESULTS
+
+The results for this software were very positive, it reduces the amount of time required 
+to discover and synthesize new drugs for market and medical practices.
+
+==== COMMENTS
+
+I believe this software, if applied properly, could revolutionise the medical and 
+pharmacutical industries.
+However if the technology is not developed and fully utilized then it may just fade into 
+the background and never reach it's full potential.

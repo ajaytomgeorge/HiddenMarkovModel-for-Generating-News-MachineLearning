@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+
+== AGENT
+
+MIT CSAIL
+
+== GOAL
+
+Dicpher (translate) languages that were once thought to be lost to linguists
+
+== DATA
+
+Already dicphered languages (Gothic, Ugaritic) and undeciphered language (Iberian)
+
+== METHODS
+
+Decipherment algorithm, doesn't specify which type of Machine Learning, but from the paper they published and reference to 'Reward' and 'Penalty' I'm guessing Reinforcment Learning. 
+
+== RESULTS
+
+When compared to other state of the art Dicpherment algorithms, they did 11% better in Hebrew/Ugaritic and 15% better for Gothic/Old English
+
+== ISSUES
+
+Since nobody is able to dicpher these languages, how can they validate their results? I can say this word 'aldjkfadf' means 'peacock' but if there is no way to verify it, how can we know? I suppose if it works correctly on other languages thats some basis for validity. 
+
+== SCORE
+
+4
+
+== COMMENTS
+
+I thought it was a neat approach to the problem of reviving dead languages. I'm not that interested in it, but someone has to do the work. I did find the application of mathematics to this field of linguistics was very interesting to see. 

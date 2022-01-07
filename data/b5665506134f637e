@@ -1,0 +1,35 @@
+== SOURCE
+
+http://ftp.cerias.purdue.edu/pub/papers/terran-lane/brodley-lane-nissc97_paper.pdf
+
+== AGENT
+
+Terran Lane and Carla E. Brodley
+
+== GOAL
+
+The goal is to automatically detect violations of security policy for a computer site by an outsider by following machine learning approach.
+
+== DATA
+
+To learn characteristic patterns of actions, the system uses thesequence (an ordered, fixed-length set of temporally adjacent actions) as the fundamental unit of comparison. For this research, actions were taken to be UNIX shell commands with their arguments, although the approach developed here is general and can be extended to any stream of discrete events such as operating system calls or graphical user interface events. 
+
+== METHODS
+
+Computing Sequence Similarity - A number of possible methods exist for measuring the similarity of two sequences. The most straightforward is the equality function, which yields TRUE when both sequences match in every position and FALSE otherwise. This is the similarity function employed by string matching algorithms and has the advantage of being widely studied and highly optimizable.
+
+== RESULTS
+
+The results demonstrate that the recognition system has higher true detection than type II error rates. Furthermore, in some cases (USER1 tested against USER0 and USER2 tested against USER1, for example), the type I error rate is lower than the type II error rate. This is a desirable characteristic as false negatives make the system less usable (because of the annoyance of false alarms). These results are taken as evidence that sequence-based behavioral profiling is beneficial for at least some users in this domain, although the users involved in this study are all fairly to extremely experienced computer users.
+
+== ISSUES
+
+One potential problem that this research has not addressed is, that as time passes, normal user actions will change – they will use different applications or read the UNIX manual. This means that some of the old sequence data will no longer accurately reflect the user's behavior.
+
+== SCORE
+
+4.5
+
+== COMMENTS
+
+Studying about an application of machine learning to anomaly detection is definitely interesting. The reporting in the press was reasonable considering it was published in 1997. It was interesting to know about how ML worked in the 90's.

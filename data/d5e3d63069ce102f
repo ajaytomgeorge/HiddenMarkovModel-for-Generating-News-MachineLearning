@@ -1,0 +1,37 @@
+==== SOURCE
+
+http://iizuka.cs.tsukuba.ac.jp/projects/colorization/data/colorization_sig2016.pdf
+
+==== AGENT
+
+Who: Satoshi Iizuka, Edgar Simo-Serra, Hiroshi Ishikawa
+
+Where: Waseda University
+
+
+==== GOAL
+
+Teach network to add colors into the black and white image
+
+==== DATA
+
+They was using b\w wersoin of image as input and network
+was comparing after processing proposed version with collored versoin. 
+
+==== METHODS
+
+Approach is based on deep Convolutional Neural Networks [Krizhevsky et al. 2012] that have been proven able to learn
+complex mappings from large amounts of training data. Ntwork is formed by several subcomponents that form a Directed
+Acyclic Graph (DAG) and contain important discrepancies with widely-used standard models:
+	1. can process images of any resolution
+	2. incorporates global image priors for local predictions
+	3. can directly transfer the style of an image into the colorization of another
+
+==== RESULTS
+
+Result is impressing. Network managed to almost completely restore colors of
+images and this was achieved by using "local" and "glodal" details. 
+
+==== COMMENTS
+
+a HUGE potential to work with old hotos and videos

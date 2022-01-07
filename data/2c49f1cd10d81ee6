@@ -1,0 +1,53 @@
+==== SOURCE
+
+https://arxiv.org/pdf/1702.01983.pdf
+
+==== AGENT
+
+Grigory Antipov- orange labs+Eurocom
+Moez Baccouche - Oange Labs
+Jea-Luc Dugelay - Eurocom
+
+Orange Labs,
+4 rue clos courtel,
+33512 cesson-sevigne,
+France.
+
+Eurocom,
+450 route des chappes,
+06410 biot,
+France.
+
+==== GOAL
+
+Their goals are as following:
+1) They designed Age-cGAN (Age Conditional Generative
+	Adversarial Network), the first GAN to generate high
+	quality synthetic images within required age categories.
+2) They proposed a novel latent vector optimization approach
+	which allows Age-cGAN to reconstruct an input face
+	image preserving the original person’s identity.
+
+
+==== DATA
+
+Stock images of peoples faces where you know their age.
+
+==== METHODS
+
+Their face aging method is based on Age-cGAN, a generative model for synthesis 
+of human faces within required age categories.GAN stands for Generative Adversarial
+Networks.
+
+==== RESULTS
+
+Initial reconstructions allow “OpenFace” to recognize the original person only in 
+half of test examples. This percentage is slightly increased by “Pixelwise” optimization 
+but the improvement is marginal. On the contrary, “Identity-Preserving” optimization 
+approach preserves the person’s identities much better demonstrating by far the best
+face recognition performance of 82.9%.
+
+==== COMMENTS
+
+Face aging technology has a lot of potential. In my opinion it is a pretty cool technology
+and has applications from finding missing children to entertainment with face aging apps.

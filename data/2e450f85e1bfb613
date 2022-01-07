@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.universetoday.com/148165/machine-learning-software-is-now-doing-the-exhausting-task-of-counting-craters-on-mars/
+
+== AGENT
+
+NASA JPL 
+
+== GOAL
+
+Identify craters and other features in images captured by cameras onboard NASAs Mars Reconnaissance Orbiter. This frees up the humans currently doing the work, which can be very time consuming
+
+== DATA
+
+Images from Mars Reconnaissance Orbiter cameras (CTX and HiRISE), 6,830 images in total for training. 110,000 images for evaluation 
+
+== METHODS
+
+Classification, Supervised Learning
+
+== RESULTS
+
+Humans take 40 minutes to identify an image with a feature, the AI took 5 seconds
+
+== ISSUES
+
+In order to achieve these results, NASA took advantage of JPL's supercomputers. This type of work wouldnt really be possible unless you had access to this type of computing power. Which means this algorithm cant be run on the orbiters itself. You have to send all the images back to earth before they can be analyzed
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This is exactly what we should be doing with ML, using its ability to take a mundane process that requires extreme attention to detail and applying it to simple repetative tasks. The method of classification isnt really new, but the press reported it as super cool AI, thats a bit of a strecth I think. But hey, if it sells papers and gets people interested in things other than the kardashians or love island, IM ALL FOR IT. 

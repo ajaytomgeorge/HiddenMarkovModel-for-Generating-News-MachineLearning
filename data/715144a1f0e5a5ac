@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.sciencesetavenir.fr/high-tech/robot/un-robot-prepare-une-omelette_144839
+
+== AGENT
+
+Cambridge university  engineers
+
+== GOAL
+
+Have a robot make omelette
+
+== DATA
+
+They made several paramteres (such as salt, pepper…) vary and have people taste each omelette and tell the robot whic is best
+
+== METHODS
+
+It is supervised learning
+
+== RESULTS
+
+The omelettes were delicious
+
+== ISSUES
+
+Even though it is interesting and fun, it doesn't have much use
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is hard to quantify the taste of an omelette, so to teach the robot which one was better they used comparison

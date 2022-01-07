@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://www.forbes.com/sites/janakirammsv/2019/06/26/managing-machine-learning-models-the-uber-way/#e9c52f04ae47
+Janakiram, June 26 2019
+
+==== AGENT
+
+Uber
+
+==== GOAL
+
+Better user experience
+
+==== DATA
+
+Collected from feedback and user history from drivers and customers as weel as data from the cabs. 
+
+==== METHODS
+
+Using the ML platform Michelangelo and other tools layered on top of historic trip data they make suggetsions on 
+destinations and drivers and ETAs
+==== RESULTS
+
+With the implementaion of ML they saw a 26% accuracy in delivery and pickup
+
+==== COMMENTS 

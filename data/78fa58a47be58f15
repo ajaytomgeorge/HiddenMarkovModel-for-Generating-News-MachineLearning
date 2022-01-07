@@ -1,0 +1,39 @@
+
+== SOURCE
+
+https://techxplore.com/news/2020-10-stressed-job-ai-teammate.html
+
+== AGENT
+
+This model is proposed by researchers of Lincoln Laboratory.
+
+== GOAL
+
+Their goal is to develop artificial intelligence "teammates" that can sense cognitive fatigue of humans and suggest actions to help the human recover so that their are no impacts on the human's mental health and the work that they aim to do.
+
+== DATA
+
+As explained in the article, this vision can be achieved by collecting biometric data—such as video and audio recordings of a person speaking—and processing these data with advanced AI algorithms. 
+Researchers have uncovered biomarkers of various psychological and neurobehavioral conditions. These biomarkers have been used to train models that can accurately estimate the level of a person's depression, for example.
+
+== METHODS
+
+This model can be trained by using biomakers. Hence, we can say that they would be using Supervised Learning.
+
+== RESULTS
+
+Expected result is that the AI teammate/system can start recognizing deviations from normal human behaviour and predict if those deviations will lead to mistakes or poor performance. 
+
+== ISSUES
+
+I don't see any issues as the parameters taken into account are really very appropriate for what we need to establish. 
+But the model can sometimes lead to deviations in honesty in reporting the results.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The data used i.e., the parameters are really very fascinating as they are very well suited for detecting the tiredness of a human. The model can turn to be very accurate and helpful once fully ready. 
+I really liked the idea of keeping in mind the risks that can occur if a human teammate is very tired and hence cannot be productive. This is important to understand. Because even if he wants to work accurately, he cannot because his mind is not energetic at that moment still he tries to struggle which at the end doesn't really gives very good results.

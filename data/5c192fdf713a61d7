@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/algorithm-spots-covid-19-cases-from-eye-images-preprint-67950
+
+== AGENT
+
+TheScientist
+
+== GOAL
+
+Predict if a person has coronavirus based on his eye images
+
+== DATA
+
+Data is a set of eye images collected from virus infected and uninfected people
+
+== METHODS
+
+Neural networks
+
+== RESULTS
+
+Ability to predict the covid-19 infected patients using just the eye images data
+
+== ISSUES
+
+The issue is the honesty of the data due to the diseases that could not be covid19 but would influene the model negatively.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I believe that this prediction model by itself might not give all the right answers, but this sure could be another potential dependent variable in the process of solving the "Goal" itself

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2021/10/211005124730.htm
+
+== AGENT
+
+Massachusetts Institute of Technology
+
+== GOAL
+
+To create a robotic arm that fuses data from a camera and antenna to locate and retrieve items, even if they are buried under a pile.
+
+== DATA
+
+It relies on the RFID technology. Every item is attached with a RFID tag which helps the robot to pin point it's location using the antenna embedded in the robot which bounces signals off the RFID tags.
+
+== METHODS
+
+They have used the RFID technology and have created a dataset with the images of the items and it's corresponding RFID tag number which the robotic arm uses to locate the objects when needed.
+
+== RESULTS
+
+They were able to develope a fully-integrated robotic arm that fuses visual data from a camera and radio frequency (RF) information from an antenna to find and retrieve object, even when they are buried under a pile and fully out of view.
+
+== ISSUES
+
+The RFID technology may not work efficiently everytime as RFID nterference can occur. For example, if the RFID tags are attached to a metal container or a container containing liquids, it interferes with the activation of the tags and results in the failure of activating them.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It was an interesting arcticle as the technology used is simple and they have abled to integrate it in such a way that the functionality is almost efficient.

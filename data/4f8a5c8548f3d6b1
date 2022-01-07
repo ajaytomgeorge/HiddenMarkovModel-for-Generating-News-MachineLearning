@@ -1,0 +1,75 @@
+﻿== SOURCE
+
+https://www.vice.com/en/article/78k7de/why-an-ai-judged-beauty-contest-picked-nearly-all-white-winners
+
+== AGENT
+
+This machine-learning work is done by Youth Laboratories and supported by Microsoft and Nvidia.
+
+== GOAL
+
+Youth Laboratories ran a beauty contest with 600,000 entries, who sent in selfies from around the world — India, China, all over Africa, and the US. 
+They let, a set of algorithms judge them based on their face's symmetry, their wrinkles, and how young or old they looked for their age. 
+The algorithms did not evaluate skin colour.
+
+
+== DATA
+
+All the algorithms were trained on open source machine learning databases that are shared between researchers.
+Algorithms are trained on a set of images with almost 3000+ images of resolution more than 2k, pre-labelled with
+bio parameters like weight, height, age, gender, ethnicity and country.
+
+== METHODS
+
+Deep learning has been used to implement these algorithms.
+Theano for Deep convolutional neural networks (CNN) implementation
+OpenCV for image processing
+
+4 main algorithms used:
+
+AntiAgeist - This algorithm measures two things. First, how old it thinks the person in the photo is. 
+Second, how old it believes people will think the person is. Based on the difference between these and the person’s actual age, 
+it comes up with an AntiAgeist score.
+
+PIMPL: This algorithm detects acne and allergic rashes and scores people based on how clear their skin is.
+
+RYNKL: It counts the number of wrinkles a person has and gives them a score based on it.
+
+MADIS: It compares photographs of people with those of models and actors in the person’s ethnic group and tries to determine how 
+similar the person looks to models and actors.
+
+Symmetry Master score: This algorithm measures the distance between various key points on your face and determines how symmetrical it is.
+
+== RESULTS
+
+More than 600,000 people from around the world sent in pictures of their faces to be judged by bots. 
+But when the results released in August came in, 37 of the 44 winners were white. Six were Asian and only one of the winners had dark skin. 
+It looked like AI considered skin colour as one of the parameter for beauty even if none of the algorithms were suppose to evaluate skin colour.
+
+== ISSUES
+
+The main issue with the algorithm was the dataset it was trained on. According to Konstantin Kiselev, chief technology officer of Youth Laboratories,
+the dataset had more white people than black or brown people, which shows that the data on which the AI was trained, is very important 
+when it comes to real world applications. This is the problem with many real world AI applications, for example, a language processing algorithm 
+was recently found to rate specific region names as more "pleasant" than other names. Another thing to consider here is, human analysis is necessary,
+after AI results, to verify if the algorithm is working as per the expectations. For example, if dataset has 85% images of white people and 
+remaining for brown or black, and the results are such that the AI gave 95% results correct, you would not know at the first instance 
+if the analysis is correct or not.
+
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I think this story was very interesting because we always focus on which technology to use or which tools are best for the application 
+but when it comes to developing real world applications, testing and datasets are equally important. After all AI is nothing but a learning machine 
+and we would not know what the algorithm is learning from data, for example once AI is developed for military purpose to identify the tank 
+from set of images. When algorithm was tested, the results were 100% correct, but after a while scientists found out that the machine actually
+learned about the sky in the images rather than tanks. That is why according to me its important to analyze the results of machine learning algorithms 
+rather than just focusing on numbers.
+This article was very important because after this, many such cases of AI came out where the results were bias because of lack of diversity 
+in the training datasets. To overcome this problem with real world applications of AI, new algorithm has been developed called Diversity.ai 
+which evaluates the diversity parameter of multiple AI applications. 
+

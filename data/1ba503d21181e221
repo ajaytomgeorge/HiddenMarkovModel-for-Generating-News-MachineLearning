@@ -1,0 +1,18 @@
+== SOURCE
+https://techxplore.com/news/2021-09-robot-efficiently-sidewalks-urban-environments.html
+== AGENT
+Georgia Institute of Technology
+== GOAL
+Have a robot navigate sidewalks in an outdoor enviroment
+== DATA
+Abstract represnetations of the enviroments the robot would be operating in.
+== METHODS
+Reinforcement learning, Abstract teacher and student.
+== RESULTS
+The robot they used was able to navigate multiple routes with only a handful of interventions required on each route.
+== ISSUES
+The robot does make significant errors such as walking off the sidewalk. If this were to happen in a less forgiving enviroment it could fall or be hit by a vehicle damaging the robot. The robot also does not account for road crossing.
+== SCORE
+6
+== COMMENTS
+It was impressive seeing the robot be able to navigate around obstacles dynamically and be able to stick to walking on the sidewalk for the vast majority of its courses. I was also impressed with how well the robot performed given it had never actually seen any real world images and was using abstract representations for its data. However, there are notable errors it still makes and not being able to cross roads is a signifacant issue it must overcome.

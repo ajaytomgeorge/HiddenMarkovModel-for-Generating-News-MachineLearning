@@ -1,0 +1,43 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Ziad Obermeyer
+
+== GOAL
+
+Machine to target COVID testing of travellers
+
+== DATA
+
+Passengers that show outcomes from tests for SARS-CoV-2 and ones that don't show the outcomes
+
+== METHODS
+
+Algorithm draws on the reinforcement-learning stategies that lead to 
+advances in online commerce and marketing
+
+== RESULTS
+
+This doubled the efficiency in testing, the number of cases detected per test 
+and allowed the border agents to test and quarantine the right people
+
+== ISSUES
+
+The accuracy of the system was reduced beacuse the authors of the 
+system had to limit the data available to the algorithm
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This system seems very useful in saving time and funds to for testing passengers, 
+it seems better as the agents don't have to pick the passengers, which may have caused problems.
+The article portrayed the info in good manner and kept me as the reader interested.
+It also expains issues that the creators of the algorithm had to go through with in terms of the
+data that they could share with the system and why the chose to approach the task with the method 
+they did although I feel there could have been more on the chosen method.

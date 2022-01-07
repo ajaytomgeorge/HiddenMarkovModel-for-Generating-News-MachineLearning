@@ -1,0 +1,69 @@
+== SOURCE
+
+
+https://www.genengnews.com/news/detecting-alzheimers-earlier-with-the-help-of-machine-learning-algorithm/
+
+
+
+== AGENT
+
+Harshit Parmar a doctoral student at Texas Tech University
+
+
+
+== GOAL
+
+
+
+Detecting Alzheimer's earlier in patients using a machine learning algorithm
+
+
+
+== DATA
+
+
+
+What data did they use: what did it look like and how did they get it?
+fMRI scans which can measure minute changes in blood oxygen levels in the brain. 
+Since the data was 4D (brain scan over time) they developed a convolutional neural 
+network architecture that could handle the fMRI data. 
+
+
+
+== METHODS
+
+
+
+A nuclear density and a nuclear density-confidence interval (ND-CI) algorithm was developed. 
+To develop this algorithm a data bank of 811 HRME images was acquired. Supervised ML
+
+
+
+== RESULTS
+
+
+
+The ND-CI algorithm had a 6% increase in positive predictive value (PPV) and 
+3% increase in negative predictive value over the ND algorithm.
+
+
+
+== ISSUES
+
+
+
+fMRI images contain a lot of noise which would make it difficult to predict earlier Alzheimer's.
+
+== SCORE
+
+7
+
+
+
+== COMMENTS
+
+
+
+The algorithm used was an improvement on an already existing algorithm. 
+In the article they don't state if the research was successful and if so how successful. 
+The idea is interesting and can definitely help people if it keeps improving.

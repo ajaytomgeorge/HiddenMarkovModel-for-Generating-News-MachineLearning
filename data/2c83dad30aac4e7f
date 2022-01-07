@@ -1,0 +1,37 @@
+== SOURCE
+
+https://link.springer.com/chapter/10.1007/978-981-13-1513-8_39
+
+== AGENT
+
+
+
+== GOAL
+
+Sentence Level Sentiment Identification and Calculation from News Articles 
+
+== DATA
+
+News articles data from BBC News.
+
+== METHODS
+
+Supervised learning, support vector machines and naive bayes'.
+
+
+== RESULTS
+
+Support Vector Machine achieves 96.46% accuracy and Naive Bayes achieves 94.16%.
+
+== ISSUES
+
+I do think more detail was needed in the overall hyperparameters of both algorithms.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This is very interesting to me as I am researching sentence-level sentiment analysis as part of my final year project,
+this gave me some ideas on models to approach this issue.

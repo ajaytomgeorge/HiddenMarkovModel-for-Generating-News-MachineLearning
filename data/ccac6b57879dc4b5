@@ -1,0 +1,39 @@
+== SOURCE
+
+https://machinelearning.apple.com/research/recognizing-people-photos
+
+== AGENT
+
+Apple
+
+== GOAL
+
+Recognize people in Photos
+
+== DATA
+
+Gallery of images, algorithm detects faces and upper bodies of people in images.
+
+== METHODS
+
+The learning method they used to train the algorithm is known as unsupervised learning.
+
+== RESULTS
+
+An algorithm which is able to create profiles from photos of people and organise the photos by person
+
+== ISSUES
+
+Instance of false positives, where the algorithm thinks its a face but in actual fact it isn't. 
+Algorithm also doesnt detect duplicates.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Really cool feature, very advnaced way of organising photos. If I was doing I'd first of all try solve the false positives and have it recognise duplicates.
+The press release was very informative as it was apple that wrote it themselves. 
+
+

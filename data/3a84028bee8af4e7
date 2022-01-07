@@ -1,0 +1,39 @@
+== SOURCE
+
+https://vframe.io/research/
+
+== AGENT
+
+VFRAME
+
+== GOAL
+
+Develop the ability to identify illegal cluster munitions used syria 
+
+== DATA
+
+Media collections from conflict zones along with 3D rendered and 3D printed cluster munitions in varying states placed in locations to try and emulate the actual environments they will be found in
+
+== METHODS
+
+several hundred annotations are created for each cluster munition within their type and subtypes etc.
+the Darknet/YoloV3 training network are then used to develop object detection models
+
+== RESULTS
+
+The first prototype worked well for cluster munitions close to the camera but struggled with ones covered in dirt
+The third prototype was subsequently trained on more diverse data and increased the detection rate
+
+== ISSUES
+
+The model is lacking in data of cluster munitions in varying states i.e. unexploded, exploded, partially exploded 
+it also has to overcome the likely fuzziness of the data where explosives could be buried in rubble and dirt or documented in poor quality
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This is a very interesting model that has some incredible implications with regards to justice. 
+It is also very informative to see how with the lack of required data, realstic computer graphics and 3D printing can be used to simulate munitions in varying environments

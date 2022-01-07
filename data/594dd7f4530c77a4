@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.icij.org/investigations/pandora-papers/about-pandora-papers-leak-dataset/
+
+== AGENT
+
+International Corsortium of Investigative Journalists
+
+== GOAL
+
+The investigation is based on a leak of confidential records of 14 offshore service providers that give professional services to wealthy individuals and corporations seeking to incorporate shell companies, trusts, foundations and other entities in low- or no-tax jurisdictions.
+
+== DATA
+
+The 11.9 million-plus records were largely unstructured. More than half of the files (6.4 million) were text documents, including more than 4 million PDFs, some of which ran to more than 10,000-pages. The documents included passports, bank statements, tax declarations, company incorporation records, real estate contracts and due diligence questionnaires. There were also more than 4.1 million images and emails in the leak. Spreadsheets made up 4% of the documents, or more than 467,000. The records also included slide shows and audio and video files.
+
+== METHODS
+
+In cases where information came in spreadsheet form, ICIJ removed duplicates and combined it into a master spreadsheet. For PDF or document files, ICIJ used programming languages such as Python to automate data extraction and structuring as much as possible. In more complex cases, ICIJ used machine learning and other tools, including the Fonduer and Scikit-learn softwares, to identify and separate specific forms from longer documents. Some provider forms were handwritten, requiring ICIJ to extract information manually. Once information was extracted and structured, ICIJ generated lists that linked beneficial owners to the companies they owned in specific jurisdictions. In some cases, information about where or when a company was registered wasn’t available. In others, information was missing about when a person or an entity had become the owner of the company, among other details. After structuring the data, ICIJ used graphic platforms (Neo4J and Linkurious) to generate visualizations and make them searchable. This allowed reporters to explore connections between people and companies across providers.
+
+== RESULTS
+
+ICIJ matched Panamanian companies from the Panama Papers data against  data available for the Panama corporate registry on OpenCorporates, and found out that at least 113 companies had changed registered agents and simply moved to Alcogal between April 3, 2016 and 2020. Together with The Miami Herald data team, ICIJ also counted 759 BVI companies that specifically considered moving to Trident Trust as part of the provider’s so-called “Mossfon Project”.
+
+== ISSUES
+
+N/A
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Very interesting article.

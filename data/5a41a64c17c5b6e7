@@ -1,0 +1,35 @@
+== SOURCE
+
+https://ocula.com/magazine/art-news/google-reconstructs-lost-klimt-paintings-with-ai/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Reconstruct paintings that were destroyed during a fire in WW2
+
+== DATA
+
+The artists surviving paintings, black and white photos of the painints, research from scholars.
+
+== METHODS
+
+A ML algorithm was trained on 91,749 pieces of art. Then the algorithm was trained on Klimt's work. It seems to be some form of regression ML. 
+
+== RESULTS
+
+The lost paintings were restored digitally, though it's not known if the reconstructions are correct.
+
+== ISSUES
+
+Perhaps this analyitical reconstruction of lost art could allow someone to make very authentic counterfeits of lost paintings.  
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It's always tragic when art is lost. I think the technology could be expanded to do more. Perhaps restore lost films or help recolourise content that only exists in black and white. The article was well written but I feel it could have gone more in depth into how the ML was done.

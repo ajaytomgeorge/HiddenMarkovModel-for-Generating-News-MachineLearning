@@ -1,0 +1,34 @@
+==== SOURCE
+
+Machine Learning in Finance: The Case of Deep Learning for Option Pricing
+
+https://srdas.github.io/Papers/BlackScholesNN.pdf
+
+==== AGENT
+
+Robert Culkin & Sanjiv R. Das from
+Santa Clara University
+
+==== GOAL
+
+Machine learning is being used to learn option pricing models from the markets, 
+and could be trained to mimic option pricing traders who specialize in a single stock or index.
+
+==== DATA
+
+Historical Trading Data was used for the option pricing model.
+
+==== METHODS
+
+They Trained a fully-connected feed-forward deep learning neural network to reproduce the Black and Scholes
+(1973) option pricing formula to a high degree of accuracy.
+
+==== RESULTS
+
+Their experiments show that simple deep learning nets can be used to learn price options with very low error.
+
+==== COMMENTS
+
+As per this paper only the technical data is digested by the ML to come up with a pricing Model, But Introducing 
+the fundamental data like Financial Earnings and Interest Rate Decisions will give us a even more accurate a pricing Model. 
+

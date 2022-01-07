@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theverge.com/2019/4/13/18309459/openai-five-dota-2-finals-ai-bot-competition-og-e-sports-the-international-champion
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+To play and beat the champions of the strategy game DOTA - Defense of the Ancients.
+
+== DATA
+
+In this study, reinforcement learning was used, which means the data was essentially created over time.
+
+== METHODS
+
+The system, called OpenAI Five, has the rules of the game and it's objectives hardcoded in at the beginning, but it is not told how to play the game. Through trial and error over time OpenAI Five learns to play the game itself, with the highest rated strategies always being improved on. This is know as the genetic or evoloutionary algorithm, with each strategy used in each generation being given a fitness value, the higher the fitness value the more likely the strategy will live on. 
+
+== RESULTS
+
+The results of this study were pretty inconclusive in my opion. In 2019, after Open AI 5 had built up around 45000 human hours of gameplay, the system took on the world champions of the game and won - twice. However to even be able to compete in the first place they had to reduce the character pool from 100 to just 17 and it also used other rules to further restrict their compeditors in the opening stages of the game.
+
+== ISSUES
+
+After 45000 hours of human gameplay it seems Open AI 5 was still unable to play at a level to which it really could compete with the world champions, sure it beat them both times, but if you have to change the rules of the game just to be able to compete does it really count. I'm sure they will continue to train the system but until then I donn't think we have conclusive evidence that a nueral network can play a mass player strategic game to an unbeatable or even a compeditive level.
+
+== SCORE
+
+3
+
+== COMMENTS
+
+While I don't underestimate the fact that this was a massive step towards a ground breaking achievement, I don't think it shows us that we have progressed as a machine learning community since Alpha Go.

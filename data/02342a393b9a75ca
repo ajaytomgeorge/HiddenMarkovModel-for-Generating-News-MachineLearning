@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.pnas.org/content/110/12/E1142/tab-article-info
+
+== AGENT
+
+Patrick L. Purdon, Eric T. Pierce, Eran A. Mukamel, Michael J. Prerau, John L. Walsh
+
+== GOAL
+
+To monitor the brain activity of patients receiving general anesthesia.
+
+== DATA
+
+They have used 60,000 patients data to conduct this study
+
+== METHODS
+
+Bayesian state-space algorithm 
+
+== RESULTS
+
+There are two important terms to be considered. One is peak-max pattern and the other one is trough-max pattern. Findings suggest that the peak-max pattern is a marker of profound unconsciousness, and the transition from the peak-max pattern to the trough-max pattern predicts when subjects may be able to recover consciousness. 
+
+== ISSUES
+
+NIL
+
+== SCORE 
+
+8
+
+== COMMENTS
+
+It is a interestig project as we could keep track of patients consciousness during treatment
+

@@ -1,0 +1,9 @@
+SOURCE : https://www.newswise.com/articles/new-machine-learning-method-to-analyze-complex-scientific-data-of-proteins
+AGENT : OHIO STATE UNIVERSITY
+GOAL : Researchers have developed a method using Machine Learning to better analyze data from a powerful scientific tool: nuclear magnetic resonance (NMR). It can be used to understand proteins and chemical reactions in human body. 
+Data, Method and Results :  The process involves creating an artificial deep neutral network, a multi layered network of nodes that the computer uses to separate and then analyse the data. Using Machine Learning as a tool to analyse NMR spectra is just one key step in the lengthy scientific process of NMR data interpretation, Rafael Bruschweiler, senior author of the study claimed. 
+
+SCORE : 7
+
+
+COMMENTS : Even though this another very good example of using Machine Learning as a tool for medical researches, this is only part of the big scientific process required for NMR data interpretation.

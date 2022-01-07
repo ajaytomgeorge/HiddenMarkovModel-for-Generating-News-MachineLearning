@@ -1,0 +1,45 @@
+﻿==== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217075
+
+==== AGENT
+
+The researcher for this research is Kyosuke Yamamoto employee of PS Solutions Corp and SoftBank Corp.
+
+==== GOAL
+
+Distillation of crop models to learn plant physiology theories using machine learning models.
+
+==== DATA
+
+Generated datasets fed to Convolutional Neural Networks, also many crop information on paddy rice was used since rice is one 
+of the most common crops grown in many Asian countries. Meterological data was acquired for the use of this as well.
+Simulations of paddy rice was also used as part of the dataset.
+132,460 datasets were obtained.
+
+==== METHODS
+
+Since it is difficult to collect big data on crop growth, a generated dataset was fed into Convolutional Neural Networks (CNN)
+for distillation of crop models.
+Simulated paddy rice data and real paddy rice data was used along with some other crop growth generated data as part of the data set.
+Simulation Model for Rice-Weather relations (SIMRIW) was used to simute potential growth and yeild of irrigated rice with factors including 
+weather, temperature, solar radiation and CO2 concentration in the atmosphere.
+The algorithms for this can be viewed in the article. Meterological data was acquired to assist with this.
+For the crop models using CNN, a 3x3 pixel convolution layer with a stride of 1x1 pixel in both horizontal and vertical directions 
+and padding of 2x2 pixels was used. This mapped single channel in the input to 32 feature maps, etc.
+There was a second layer and so so, the error was then calculated and weights adjusted.
+Meterological data was put in a 2D array and fed into the CNN to obtain predictions of the grain yield as weather, temp, etc would affect 
+crop growth.
+This data was then finally evaluated using graphs and mapping (can be seen in article).
+
+==== RESULTS
+
+The data was graphed and a visual mapping of the data was done to see the results. But used mostly only simulated data 
+so it's difficult to know if it would work with real world examples, although, this is very helpful for testing theories 
+on crop growth and other related plant relations.
+
+==== COMMENTS
+
+This research is very interesting as it can help with crop growth and theories. But I think because of the simulated 
+data primarily being used along with the fact that most of the data was on paddy rice. It's difficult to tell if this would be 
+accurate enough with real world examples. But this field of research can definitely help improve crop growth.

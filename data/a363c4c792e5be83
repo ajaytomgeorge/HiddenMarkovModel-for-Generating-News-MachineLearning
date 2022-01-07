@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.darkdaily.com/2021/09/15/proof-of-concept-study-demonstrates-machine-learning-and-ai-can-identify-cancer-cells-based-on-ph-levels-may-have-applications-in-surgical-pathology/
+
+corresponding research paper: https://aip.scitation.org/doi/10.1063/5.0031615
+== AGENT
+
+National University of Singapore, Institute for Health Innovation and Technology
+
+== GOAL
+
+Use ML to identify cancer cells on the basis of pH, for surgical applications.
+
+== DATA
+
+Datasheets containing the single-cell colorimetric features. Color images are acquired using an optical microscope equipped with a color digital camera.
+
+== METHODS
+
+t-sne used to 2-d project plot of breast cell lines for classification. 10-fold cross-validation. Logistic regression was best for classification.
+
+== RESULTS
+
+Model can provide answers in about half an hour with 95% accuracy.
+
+== ISSUES
+
+This seems to be very well thought through, perhaps more data is needed to increase accuracy.
+== SCORE
+
+9
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?
+
+The methodology was quite novel, using computer vision techniques to identify cancer cells using a pH sensitive dye. Extremely useful application.

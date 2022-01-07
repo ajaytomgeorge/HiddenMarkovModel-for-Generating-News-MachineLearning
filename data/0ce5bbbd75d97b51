@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.theverge.com/2019/2/6/18213453/gmail-tensorflow-machine-learning-spam-100-million
+
+==== AGENT
+
+Google (Gmail).
+
+==== GOAL
+
+Filtering out additional spam for its Gmail users.
+
+==== DATA
+
+They have access to "emails that you write and recieve on Gmail" as part of their data transparency policy when a user sign up for a Google account. This data just consists of emails the user sends/receives to determine if it's spam.
+
+==== METHODS 
+
+Using their in-house TensorFlow machine learning framework they were able to train models to identify patterns in massive datasets to flag cerain trickier suspicious messages. Algorithims implemented investigated huge number of metrics from the formatting of an email to the time of day it's sent.  
+
+==== RESULTS
+
+Currently blocking an extra 100 million spam messages every day.
+
+==== COMMENTS
+
+Great application of an open source ML framework that will help deter those irritating spam emails from riddling a user's inbox.

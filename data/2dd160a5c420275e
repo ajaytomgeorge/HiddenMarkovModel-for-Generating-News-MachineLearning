@@ -1,0 +1,14 @@
+SOURCE : https://www.news-medical.net/news/20210928/Machine-learning-may-predict-zoonotic-potential-of-viral-genomes.aspx
+AGENT :  Emily Henderson 
+GOAL : The goal of the research suggests that Machine Learning using viral genomes may predict the likelihood that any animal infecting virus will infect humans, given biologically relevant exposure. 
+Data, Method and Results :  To develop machine learning models using viral genome sequences, the researchers in first-hand compiled a dataset of 861 virus species from 36 families. After this the researchers went on to built Machine Learning models, which assigned a probability of human infection based on patterns in virus genomes. The last part involved applying the best performing model to analyse patterns in the predicted zoonotic potential of additional virus genomes sampled from wide range of species. 
+
+SCORE : 7
+
+
+COMMENTS : As mentioned in the article, these models have limitations, as computer models are only a preliminary step of identifying zoonotic viruses with potential to infect people, so it's not really as fully effective/completed research. 
+
+
+
+
+

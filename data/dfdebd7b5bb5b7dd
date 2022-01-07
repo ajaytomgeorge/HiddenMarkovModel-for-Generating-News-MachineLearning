@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.the-scientist.com/notebook/deep-learning-algorithms-identify-structures-in-living-cells-65778
+
+== AGENT
+
+Allen Institute for Cell Science
+
+== GOAL
+
+Identify Structures in Living Cells
+
+== DATA
+
+Images taken with bright field microscopy
+
+== METHODS
+
+Convolutional Neural Networks
+
+== RESULTS
+
+By the end they could acurately predict the location of structures in a human cell from images taken with brightfield microscopy.
+
+== ISSUES
+
+Issues occur when images are not clear, exposed to too much light or when a model trained on images from one microscope, it may not work with a training set from a different one.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Good insight into the future of medicine with deep learning.

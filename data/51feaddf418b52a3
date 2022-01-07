@@ -1,0 +1,36 @@
+== SOURCE
+
+https://thefintechtimes.com/trust-science-the-power-of-artificial-intelligence-and-machine-learning-in-credit-lending/
+
+== AGENT  
+
+Trust Science
+
+== GOAL
+
+The use of AI/ML technologies to identify creditworthy borrowers who have been traditionally excluded from the credit system due to the lack of credit history
+
+== DATA
+
+Over 400 telecommunication variables such as voice usage, top-up patterns, duration of calls, SIM card age, location, and many more
+
+== METHODS
+
+Gradient boosting and Neural Networks
+
+== RESULTS
+
+The use of AI/ML in credit score calculation, however, leads to superior loan origination, has shown to increase lender’s profits by upwards of 15%, and contribute to a better return on their assets, all while keeping the risk level relatively constant.
+
+== ISSUES
+
+Not mentioned.
+
+== SCORE 
+
+9. Around 50% of Latin Americans are excluded from the financial sector, this is a big barrier to eradicate poverty in the region. Applications such as this one would make possible a reality were most of the people can access the financial system if they want to
+
+== COMMENTS
+
+Lots of fintech companies are trying to create alternative risk methods to increase the addressable market. I don't think there is a lot of innovation, nevertheless, such technologies haven’t arrived to the most need locations, hence there is still work to do to exploit the AI application 
+

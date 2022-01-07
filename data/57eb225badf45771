@@ -1,0 +1,39 @@
+==== SOURCE
+
+https://uk.pcmag.com/business/82910/predictive-analytics-big-data-and-how-to-make-them-work-for-you
+
+==== AGENT
+
+eHarmony is an online dating site.
+
+==== GOAL
+
+The goal of eHarmony is to use the personal information that clients provide and to use machine learning algorithms
+to find a romantic match from the client.
+
+==== DATA
+
+29 different dimensions of personality are collected from each user of the website in the form of a questionnaire.
+There are 436 questions in the questionnaire and about 15,000 different people take the questionnaire each day.
+
+==== METHODS
+
+eHarmony uses integer optimisation in its matching algorithm. The algorithm works by assigning a compatibility
+score to pairs of people on the website, ranging between 1 and 5. Each person should match to one other person
+using the mathematical constraint x1 + x2 + x3 = 1. Logistic regression is then used on pairs of users differences
+to predict compatibility. In order to reduce the size of the data only people from the surrounding area are considered
+who have compatibility scores listed in the data set. Next the absolute difference is computed on the features for the
+1475 pairs. Then a logistic regression model is trained on the differences. A low threshold for the logistic model is
+used which generates a high proportion of false positives but also gets a high proportion of true positives. The classification
+matrix for a threshold equal to 0.2 generates a successful matching rate of 29%, which is very high for an online dating sit.
+
+==== RESULTS
+
+Since 2000 eHarmony has generated over $1 billion dollars in revenue and in 2012 nearly 4% of US marriages were as a result of
+eHarmony.
+
+
+==== COMMENTS
+
+The online dating site eHarmony has created an enormously profitable business using quite a simple and straight forward type of
+machine learning, Linear Regression.

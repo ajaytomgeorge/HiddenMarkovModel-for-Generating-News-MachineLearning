@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.wired.com/story/ai-is-throwing-battery-development-into-overdrive/
+
+== AGENT
+
+A team of researchers from Stanford, MIT, and the Toyota Research Institute
+
+== GOAL
+
+use AI trained on data generated from these machines to predict the performance of lithium-ion 
+batteries over the lifetime of the cells before their performance had started to slip
+
+== DATA
+Data type unavailable:
+Data was aquired at Stanford University’s Precourt Institute for Energy, 
+there are a half dozen refrigerator-sized cabinets designed to kill batteries as fast as they can.
+Each holds around 100 lithium-ion cells secured in trays that can charge and discharge the batteries dozens of times per day. 
+Energy is dumped in and out of these cells as fast as possible to generate reams of performance data that will teach artificial
+intelligence how to build a better battery.
+
+== METHODS
+
+Unsupervised
+
+== RESULTS
+
+AI could predict lifetime performance after only hours of data collection, previously this would take months.
+
+== ISSUES
+
+No issues, maybe wasting batteries & electricity
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I found it interesting how counter-intuitive their approach seemed. Damaging batteries by stressing them severly, to obtain data and optimise the testing process.

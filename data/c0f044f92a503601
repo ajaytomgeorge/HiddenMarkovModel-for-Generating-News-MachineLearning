@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.wired.com/story/clearview-ai-new-tools-identify-you-photos/
+
+== AGENT
+
+CLEARVIEW
+
+== GOAL
+
+Developed new ways to aid police surveillance.
+Clearview is keen to focus on ways the technology has helped police.
+
+== DATA
+
+Clearview has collected more than 10 billions of photos from across websites that include Facebook, Instagram, and Twitter.
+
+== METHODS
+
+Machine Vision(Face recognition), Machine Learning, Web-crawling
+
+== RESULTS
+
+Police and government agents have used the company’s face database to help identify suspects in photos by tying them to online profiles.
+
+== ISSUES
+
+1. The allure of such a tool is obvious, but so is the potential for it to be misused.
+2. Critics say the company is eroding personal privacy.
+3. they could increase the risk that a person is wrongly identified and could exacerbate biases inherent to the system.
+
+== SCORE
+
+3
+
+== COMMENTS
+
+Although the report mentions that Clearview is keen to focus on ways the technology has helped police
+and Clearview uses and produces a number of advanced technologies to correctly recognize peoples' faces indeed,
+I think it is not interesting as they collect the peoples' images as the data set without authorization. 
+Probably the justice will take advantage of it, by contrast, the evil can do it as well.

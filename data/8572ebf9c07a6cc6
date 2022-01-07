@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.france24.com/en/live-news/20201019-facebook-unveils-machine-learning-translator-for-100-languages
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+To translate from any of 100 languages without replying on English
+
+== DATA
+
+Facebook had a data set of 7.5 billion snetence pairs for 100 languages as well as 2200 language direactions
+
+== METHODS
+
+Facebook uses a long short-term memory network which is an artifical recuurent neural network
+
+== RESULTS
+
+What were their results?
+
+== ISSUES
+
+Translating languages that are not as commonly used as English or French. less used languages means there is less data which results in a less acurate translation
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This interesting use of AI allows people of different languages and backgrounds to communicate with each other over Facebook which can has a host of postive effects in business and improving diversity. 
+
+

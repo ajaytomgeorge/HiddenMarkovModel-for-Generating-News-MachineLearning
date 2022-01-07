@@ -1,0 +1,33 @@
+==== SOURCE
+
+The article’s source can be found at: 
+https://journals.sagepub.com/doi/pdf/10.1177/1475921718768747?casa_token=toMbS-GUMhoAAAAA:z7J0TT_OrN_1Tff2ET0RbA79qxN1xo2VuXjEgjJpVfNql-NsMxuwDCdr-OC669KI7R2SFbPHewuZ
+
+
+==== AGENT
+
+The document was written by:
+Qi Yu, Yoan Miche , Eric Séverin, Amaury Lendasse
+Department of Information and computer science, Aalto University FI-00076 Espoo, Finland
+
+
+==== GOAL
+
+The main objective of to predict Bankruptcy based on financial data bases utilizing pre-financial knowledge and experience of financial experts.
+
+==== DATA
+
+The data set created by Philippe du Jardin contains information of corporations from 2002 where companies of the same trade sector, similar structure and same point of view of the assets. 500 healthy companies and 520 bankrupted companies where analyzed. The variables where carefully chosen based on the fact that the health of the company could be measured through the selected variables in order to be feeded into the algoriths.
+
+==== METHODS
+The methodology followed in this paper is called the combo method. Which merges various methodologies from previous experimentation on business analysis. They utilize neural networks and back propagation to train the machine based on the pretrained data that is labeled as healthy and unhealthy companies. Their method is combined utilizing a financial methodology called Leave-One-Out-Incremental Extreme Learning Machine (LOO-IELM). This classifies binary the state of the business.
+They allowed the machine to choose nine variables and compared against 12 variables chosen by financial experts, then the data was analyzed by LOO-IELM, their method called the Combo method and the Ensemble method.
+
+
+==== RESULTS
+
+The results of the research showed that the financial variables chosen by the machine gave better accuracy prediction than the one chosen by the financial experts. The combo method showed an accuracy levels of 94.04% for the data of 2002 which was higher than the other two methods. Showing that this combination called the combo option is more effective.
+
+==== COMMENTS
+
+The article shows a high level of financial knowledge; however the explanation of the methodology is not clear and the data utilized is very old. Due to this reason is a good exercise to get involve into financial modeling but larger amounts of data will be required in order to obtain better results and accurate modeling. Is interesting to visualize the interdisciplinary team that performed the research, showing the importance of the expertise in each individual area.

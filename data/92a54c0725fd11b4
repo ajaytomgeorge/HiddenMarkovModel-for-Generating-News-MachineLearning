@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theverge.com/2021/8/10/22618128/openai-codex-natural-language-into-code-api-beta-access
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+Translate English into code
+
+== DATA
+
+GTP-3 dataset, open-source code repositories online
+
+== METHODS
+
+Not much about the method is given in the article, however it is stated that the model uses GPT-3, a language generation model and also online code repositories to train. This model, which is called "Codex" is a later version of the GitHub Copilot tool. 
+
+== RESULTS
+
+While no numerical results were given, the author of the article gave their impressions from seeing Codex being used. They claim it was very smooth and most of the commands given were translated to the expected code. There were however a number of times when the commands did not get translated to the correct code, showing limitations with the technology.
+
+== ISSUES
+
+The training is based on online code repositories. This leads to a complaint that OpenAI is profiting unfairly from other people's work. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Although this implementation is not fully accurate, the idea of converting English commands to code is very exciting. One example given was the english sentence "Get the current price of bitcoin and store it in a variable" being converted into source code that called to an api, recieved

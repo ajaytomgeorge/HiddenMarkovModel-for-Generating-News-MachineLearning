@@ -1,0 +1,43 @@
+﻿==== SOURCE
+
+http://news.mit.edu/2019/robot-jenga-0130
+
+==== AGENT
+
+A group of MIT engineers
+
+==== GOAL
+
+Through machine learning, enable a robot to successfully play Jenga, which
+would show that a "machine learning approach could help robots assemble
+cellphones and other small parts in a manufacturing line.
+
+==== DATA
+
+The data was obtained from the components of the robot - a force-sensing
+wrist cuff and an external camera.
+
+==== METHODS
+
+To begin with, the training method used was the following: "the robot first
+chose a random block and a location on the block against which to push.
+It then exerted a small amount of force in an attempt to push the block out
+of the tower. For each block attempt, a computer recorded the associated visual
+and force measurements and labeled whether each attempt was a success.
+Rather than carry out tens of thousands of such attempts, the robot trained
+on just about 300, with attempts of similar measurements and outcomes grouped
+in clusters representing certain block behaviors".
+
+==== RESULTS
+
+The machine learning model enabled the robot to play Jenga successfully. Interestingly,
+the "clustering technique dramatically increases the efficiency with which the robot
+can learn to play the game.
+
+
+==== COMMENTS
+
+The clustering technique used in order to significantly cut down the time needed to
+train the model was impressive. "The researchers tested their approach against other
+state-of-the-art machine learning algorithms. '“Compared with our approach, these algorithms
+need to explore orders of magnitude more towers to learn the game'”.

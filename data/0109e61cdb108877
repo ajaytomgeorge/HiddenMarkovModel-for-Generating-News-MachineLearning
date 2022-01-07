@@ -1,0 +1,33 @@
+﻿==== SOURCE
+
+https://www.nytimes.com/2017/02/24/technology/anthony-levandowski-waymo-uber-google-lawsuit.html
+
+==== AGENT
+
+Anthony Levandowski at Uber 
+
+==== GOAL
+
+Perform an unlicensed experimental test of self-driving vehicles 
+
+==== DATA
+
+The data read in this experiment was real-time data from cameras and sensors analysing the cars surroundings. 
+
+==== METHODS
+
+After the data was ran through algorithms the AI car would then receive its output signals to then preform the appropriate actions. 
+These results may include answers to questions like, what colour the light was, if there where pedestrians, how far away the car was in front etc.
+The algorithms used in the test was gathered from years of testing through a company that was bought by Uber called OTTO. An autonomous truck driving company
+that was run by Anthony Levandowski. After Uber bought OTTO Anthony became a leading member of the self-driving team at Uber.
+Anthony then worked with the team at Uber to develop personal self-driving cars until they felt it was ready for a real-world test. 
+
+==== RESULTS
+
+The self-driving car failed to recognise six traffic lights resulting in the car running a red light.
+
+==== COMMENTS
+
+autonomous driving is definitely on its way to the streets but as clearly demonstrated by this experiment if not quite there yet.
+Machine learning has come a long way to allow a car to perform the way it did in the test only misreading six traffic lights, but that’s not to a standard that can be excepted due to what could have happened. 
+Such as if there would have been a pedestrian crossing at this time they could have been hurt or even fatally injured.

@@ -1,0 +1,52 @@
+== SOURCE
+
+https://phys.org/news/2021-07-machine-learning-mutations-similar-genome-sequences.html
+
+== AGENT
+
+A team of researchers working at the Francis Crick Institute in the UK
+
+== GOAL
+
+They are trying to use machine learning to find mutations in similar 
+genome sequences of cancer samples
+
+== DATA
+
+TThe researchers first started looking for mutations in non unique parts of the genome.
+They then used an alogorithm to spot mutations in different tissues, from 2658 different 
+samples from the Pan-Cancer Analysis of Whole Genome dataset.
+
+== METHODS
+
+The methods involved first creating a list of all the genome regions known to be similar 
+to other regions and using them to teach a machine learning algorithm how to recognize them.
+
+== RESULTS
+
+The researchers discovered mutations in 1,744 coding sequences with thousands of other
+ones in non- coding sequences. The also realised that they had a false discovery rate of 7%
+and an accurate validation rate of more than 80%
+
+They also found out that the mutations involved in the coding sequence had an impact on 
+protein sequences, which have been linked to cancer types, they found a recurrent mutation in 
+KMT3C and PIK3CA genes and also mutations that have been previously linked to breast cancer.
+
+They also found mutatins that have involvment in regulatory regions along with some in
+the immunoglobulin family
+
+== ISSUES
+
+My only worry would with this work would be the reliabilty on their results, it would be very
+concerning for them to find something that seems like it one thing but is actuall completely 
+different, which could be very serious in a situation like this.
+
+== SCORE
+
+3
+
+== COMMENTS
+
+This article was okay, it did not seem as if there had been anything groundbreaking done. I would
+think that with all the years of cancer research there would be something that has happened recently
+that would be more interesting than this.

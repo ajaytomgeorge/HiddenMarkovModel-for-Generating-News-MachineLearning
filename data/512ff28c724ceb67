@@ -1,0 +1,36 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9139239/
+
+== AGENT
+
+Chaman Verma, Veronika Stoffová, Zoltán Illés, Sudeep Tanwar, Neeraj Kumar.
+
+
+== GOAL
+
+Predicting student’s native place on real-time using three machine learning methods.
+
+== DATA
+
+Data is collected(331 samples) in the form of Google forms from various students, and personal visits to India.  
+
+== METHODS
+
+Adaptive Moment Estimation, Stochastic Gradient Descent, Limited-memory Broyden-Fletcher-Goldfarb-Shanno
+
+== RESULTS
+
+Three experiments were conducted on the samples to predicts the native of student’s place who’s accuracy levels were more than 90% in all three methods.
+
+== ISSUES
+
+There might be changes of over-fitting of the model as the sample size is very small that makes model  very less effective when it predicts newer datasets.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+There are multiple parameters to be considered for predicting student’s native place because now a days there are many migrating population.

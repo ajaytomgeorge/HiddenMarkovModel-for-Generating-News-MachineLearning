@@ -1,0 +1,35 @@
+== SOURCE
+
+https://hai.stanford.edu/news/how-bodies-get-smarts-simulating-evolution-embodied-intelligence
+
+== AGENT
+
+Research
+
+== GOAL
+
+Simulating evolution of embodied intelligence in given enviornments
+
+== DATA
+
+multi-institutional dataset of intracranial 3D MRI scans from four publicly available sources
+
+== METHODS
+
+Deep Evolutionary Reinforcement Learning
+
+== RESULTS
+
+Detect brain tumors by looking at a single MRI scan of a patient. Had an accuracy of 93.35% on internal data, the model was 91.95% accurate on external data
+
+== ISSUES
+	
+Overall dataset quite small only 2,105 scan split into 1,396 for training, 361 for internal testing and 348 for external. With a larger dataset could be more accurate and reliable, trustworthy
+	
+== SCORE
+
+8
+
+== COMMENTS
+
+Always great to see machine learning pushing in the healthcare industry, the body is a complex system and having another complex system which can notice the tiniest of details it is great to see.

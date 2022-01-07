@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-44531132
+
+== AGENT
+
+IBM
+
+== GOAL
+
+To create an artificial intelligence that can debate and make arguments with human beings named Project Debate.
+
+== DATA
+
+The data was a collection of 400 million newspaper articles to use deep learning to extract the meaning and likely subsequent words. A database from the International Debate Education Association was also used to find relevant counter examples with the human's arguments. secondly IBM Watson uses its speech to text service to convert language into text. It was also fed data sets of previous debates on the topic that was being debated.
+
+== METHODS
+
+Initial training on a topic is performed using neural models and cluster analysis is used to construct the argument for the rebuttal to the human's argument.
+
+== RESULTS
+
+The result was the creation of an artificial intelligence that can debate a human, bring up relevant facts and figures, to listen and respond to a human's argument and to ultimately be more persuasive than a human. In a live poll, more people agreed with the arguments made by Project Debate than with the expert debater.
+
+== ISSUES
+
+The AI does not have a sense of the sentiment of what it is saying and so made similar arguments or the same arguments using different words.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought that this application of machine learning was cool, however the persuasive power that an AI can hold is unnerving. The ability for a machine to understand is a terrifying goal, but an exciting one nonetheless. The news article did well to not sensationalise the story, giving a healthy background of machine learning and AI in layman's terms.
+

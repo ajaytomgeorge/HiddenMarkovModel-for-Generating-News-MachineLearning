@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.technologyreview.com/2020/03/04/905530/implant-machine-learning-amputees-control-prosthetic-hands-ai/
+
+== AGENT
+
+University of Michigan
+
+== GOAL
+
+The use of an AI implant to allow amputees to control a prosthetic hand in real time
+
+== DATA
+
+The experiment was performed on four volunteers over the course of a year
+
+== METHODS
+
+After the implant has been inserted and the site healed fully, electrodes are implanted into the site allowing a nerve signal to be recorded and passed to the prosthetic hand in real time. The signals are turned into movements using machine-learning algorithms. The project was supervised over its course.
+
+== RESULTS
+
+The participants reported it gave them fine control of their prosthetic hands and let them pick up miniature play bricks, grasp items like cans, and play Rock, Paper, Scissors.
+
+== ISSUES
+
+The procedure for the implant requires one of the amputee’s peripheral nerves to be cut and stitched up to the muscle, which is both costly and invasive. If anything were to go wrong in this preliminary stage of the procedure it could cause irreparable damage to a patient.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The experiment was described as more of a ‘proof of concept’ experiment just to prove it is possible. Once more testing is done this could have life changing effects for millions of amputees globally.

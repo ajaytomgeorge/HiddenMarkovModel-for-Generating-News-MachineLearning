@@ -1,0 +1,42 @@
+== SOURCE
+
+https://news.mit.edu/2021/using-adversarial-attacks-refine-molecular-energy-predictions-0901
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Find a new way to quantify the uncertainty in molecular energies predicted by neural networks.
+
+== DATA
+
+They used more than 15,000 examples to train a neural network to predict the potential energy surfaces for these systems. 
+With only around 80 percent network-based simulations being successful, they added 5,000 datapoints which saw 92 percent success rate
+
+== METHODS
+
+Synergistic synthesis of first-principles simulation and machine learning that greatly speeds up this process. 
+The actual simulations are run only for a small fraction of these molecules, and all those data are fed into a neural network that learns how to predict the same properties for the rest of the molecules. 
+Multiple neural networks were used to predict the potential energy surface from the same data.
+
+== RESULTS
+
+They showed how their method can provide significant savings in computational simulations.
+Their adversarial approach is used to retrain the neural networks after the standard approach with only 500 data points.
+This returned a 97 percent success rate. This is a big win in terms of CPU time from 2000 data points previously and a 92 success rate to this big improvement.
+
+== ISSUES
+
+I had no issues with the news article, it was very informative. My only concern would be the data set they used,
+whether it would be applicable to the other molecule substances i.e. was the dataset being trained biased.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I thought the study was kind of interesting, it was hard to get into as it was molecular energy predictions.
+I think it is great though to see all of the different applications of Machine learning especially to this level of detail.

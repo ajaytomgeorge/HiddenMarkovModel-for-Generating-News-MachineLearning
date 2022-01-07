@@ -1,0 +1,36 @@
+== SOURCE
+
+https://economictimes.indiatimes.com/tech/software/how-google-maps-is-using-ai-and-machine-learning-to-understand-post-covid-traffic/ai-meets-ml/slideshow/77927574.cms
+
+== AGENT
+
+Google
+
+== GOAL
+
+Optimised Post-COVID Traffic Route Prediction 
+
+== DATA
+
+Geo-Spatial Data, COVID Cases Data, Road Routes, Consumer Feedback
+
+== METHODS
+
+Supervised and Unsupervised Learning
+
+== RESULTS
+
+The best optimised route for user to travel given the new restrictions of COVID.
+
+== ISSUES
+
+The new technology claims to automatically re-route the end user based on real-time and historical data if the forthcoming route has heavy traffic congestion or any COVID related case, road blockage.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Google has been optimising travel time of its users since a very long time now and it has also been leading in the technology. Addition of COVID related data surely does help making it sound "Cooler" but the technology does not sound any thing new or very different from what it has already been doing. Google has been suggesting alternative routes based on real-time traffic from quiet some time now and integrating a few more COVID related government guidelines for route optimisation does not sound like a very big deal for them! It isn't a surprise but is surely helpful!!! A lot more is expected from a brand like Google who has redefined travel for all of us!
+Having one of the largest data bank they should be ones displaying us spatial heat maps of probability of contracting COVID based on locality, or maybe predicting the rate of spread COVID spatially due to human mobility! That would be an interesting map to look at! In fact if Google could figure out the best algorithm to optimise the timing of traffic signals located within 500m distance to each other at heavy traffic locations, that would really be a breakthrough!

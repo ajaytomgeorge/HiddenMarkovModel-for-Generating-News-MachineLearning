@@ -1,0 +1,39 @@
+==== SOURCE
+
+http://shelley.ai/
+
+based on
+http://nightmare.mit.edu/
+
+==== AGENT
+
+MIT guys:
+Pinar Yanardag, Manuel Cebrian, Iyad Rahwan, Nick Obradovich
+
+==== GOAL
+
+Generate text that would inspire humans to write horror texts. 
+
+==== DATA
+
+horror stories for "Shelley" and "scary" images for "Nightmare machine". 
+
+==== METHODS
+
+I haven't found exact type of network they were using, but i was written, that network 
+working on combination of reinforcement and supervised learning. 
+I've joined two projects into one because they one is based on another (stucture of it). 
+
+==== RESULTS
+
+You can check results on the links i've provided in source. 
+Imagies and stories could be really uncomfortable and even scary to some people. 
+
+==== COMMENTS
+
+I love what hte guys did there. Teaching machine to scare human being - is what human being deseerve (to be 
+scared). It can lead to a next level of horrors in moovies, games and literature. Example of implementation of such thing could be 
+found in one of episades of "Black Mirror" called "Playtes". I'm realy looking forward to such things that could personalize your experience 
+according to your own preferences and reaction in games or videos and that work, as for me - is one of the first steps.
+
+And yes, i do know that this is rubish, especially as training set, but i can't just not mention things that exite me so much here, sorry. 

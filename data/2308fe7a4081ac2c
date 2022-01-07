@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://www.cnet.com/news/ai-out-of-mit-can-make-the-perfect-pizza-from-looking-at-a-photo/
+
+==== AGENT
+
+The project was developed at MIT.
+
+==== GOAL
+
+Their aim was to implement a neural network that will learn and replicate ways to make a pizza through the analysis of photos.
+
+==== DATA
+
+The dataset consisted of 9213 images that show a single pizza, all downloaded from Instagram.
+Pictures of 12 pizza toppings such as pepperoni, mushrooms and olives were also included in the dataset.
+
+==== METHODS
+
+They labelled each image in the dataset with descriptions of toppings, excluding the dough, sauce and cheese.
+The image then gets fed into the algorithm which identifies the individual toppings, and determines their layers and the order in which they appear.
+From there, it generates a step-by-step guide for making the pizza in the given image.
+
+==== RESULTS
+
+The developers tested the tool using pizzas with just two toppings, and found that it could determine the right order 88 percent of the time.
+They also acknowledged that the algorithm would likely struggle more with a pizza that has more toppings.
+
+==== COMMENTS
+
+I think that the project itself is interesting and unique.
+Although it seems to me that there a lot of ways that it could be expanded.
+For one, it could be trained further so that it can identify more things such as shape and size, and provide accurate measurements instead of merely focusing on the toppings.

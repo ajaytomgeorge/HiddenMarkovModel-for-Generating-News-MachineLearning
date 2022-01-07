@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.adweek.com/creativity/a-twitch-engineer-used-machine-learning-to-generate-surreal-emoji/
+
+==== AGENT
+
+Twitch software engineer Avery Gnolek
+
+==== GOAL
+
+Generate Surreal Emoji - This specific personal project was more to investigate the viability of the technology and produce some interesting images
+
+==== DATA
+
+The experiment hinged on a deep learning model called a Generative Adversarial Network (GAN), a system in which one neural network generates images until another neural network can no longer tell the difference between its output and the real images of the training data.
+
+==== METHODS
+
+Gnolek used a form of machine learning to create realistic-looking sets of the types of custom icons popular among Twitch users, including batches of fake human faces and cartoon avatars.
+
+==== RESULTS
+
+While the end result isn’t going to replace the work of human designers anytime soon, the project is one of a growing number of ways that artists, agencies and brands are testing machine learning breakthroughs that have unlocked new creative potential for the technology.
+
+==== COMMENTS
+
+Great since it will save business time and money when creating logos, emojis for their sites to use.

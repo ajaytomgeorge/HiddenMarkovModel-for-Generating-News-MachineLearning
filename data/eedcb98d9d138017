@@ -1,0 +1,59 @@
+== SOURCE
+
+https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G
+
+== AGENT
+
+Amazon
+
+== GOAL
+
+To review job applicants with the aim of automating the search for top talent
+
+== DATA
+
+The data consisted of CV's Amazon had recieved in the past as part of job
+applications.
+
+== METHODS
+
+A supervised approch was used, and as the system outputed a score from 1 to 5,
+1 being the worst and 5 being the best, a regression model was used.
+
+== RESULTS
+
+The result of their model was bias in favour of men.  
+
+== ISSUES
+
+The issue of creating an unbias model proved unatainable for Amazon. This was because
+the data they were using was 70% male related and 30% female related and the
+tech industry is male dominated by about 70% so the models being produced would be 
+favour males.
+
+But the issue wasnt resolvable by just removing ta male or female label from the data as
+there were other charicoristics associate with male CV's with would be seen as faviourable
+by the model.  For example, male applications tended to contain the words "executed" and
+"captured" more frequently which would be associated with the same words in the training dta
+causing a bias twords male candadated when in reality just because a candadate is male does
+not nesasaraly mean he would be a better fit for the job.
+
+== SCORE
+
+5
+== COMMENTS
+
+I found it to be a mildly interesting atrical it explinted that even the largest tech comapnies
+strugel with creating unbias models,  but it did not go into much technical detail about the data
+used or the algorithms used either.
+
+Their issues seem to of arrose from the data its self, so I dont see a way to overcome their
+issue.  But what I would of done is create two seperate models, one for males and the other
+females.  That way you can sort the best tallent from each catagry can pick the top applications
+from each.  Seems simple enough to me, I wonder why they scraped the whole project instead of doing
+this.  But it makes me think they must of known something I didnt.
+
+The artical was well writen and for the non-tech person it exaplines nicely the arise bias from
+data, but for the for involved reader I can see how I could leave them wanting more.
+
+The method wasn't new, nothing fancy was acomplished.

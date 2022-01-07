@@ -1,0 +1,18 @@
+== SOURCE
+https://www.bbc.com/news/technology-57101248
+== AGENT
+Chinese Government
+== GOAL
+AI emotion-detection software tested on Uyghurs for use in police stations across China.
+== DATA
+Prisoners were put in restraint chairs and data was gathered on minute changes in their facial expressions as well as skin pores.
+== METHODS
+There is no information available on the algorithms they used for obvious reasons, although I would stipulate it was supervised.
+== RESULTS
+A working software was created which output the mixture of emotions a person was experiencing to a pie chart.
+== ISSUES
+There is obviously a huge array of ethical issues with forcing enslaved people to train ML models as well as the reliability issue of this being used to judge the innocence of people in police stations across China.
+== SCORE
+8
+== COMMENTS
+Although I scored this article highly this was because of the shocking and cruel nature rather than a personal admiration for the research.

@@ -1,0 +1,273 @@
+== SOURCE
+
+https://www.scholarsresearchlibrary.com/articles/applying-machine-learning-techniques-to-advance-antidoping-18437.html
+
+== AGENT
+
+United States Anti-Doping Agency, Colorado Springs, CO, USA
+
+== GOAL
+
+Applying Machine Learning Techniques to Advance Anti-Doping.
+The goal of this project was to develop and compare multiple classification models using career performance data from athletes who have been sanctioned for doping. 
+
+== DATA
+
+UFC athletes tested by the US Anti-Doping Agency (USADA) from July 2015 through May 2018 were included the dataset. For these athletes, career performance data was obtained for athletes who had competed in a minimum of one fight in the UFC from January 2015 to May 2018. Given the relatively low population, female athletes were not included in this analysis. Athletes were identified as having engaged in doping if they had publicly received a sanction for a doping-related offense from USADA.
+All athlete data was obtained from the mixed martial arts data aggregation website Fightmetric.com. 
+
+== METHODS
+
+Machine-learning based classification models used include Support Vector Machine (SVM), Random Forest (RF), Multinomial Naïve Bayes (MNB), Logistic Regression, and Gaussian Naïve Bayes (GNB). 
+All classifiers were trained using Python(version 3.6.5) and the scikit-learn(version 0.19.1) package.
+
+== RESULTS
+
+UFC athletes sanctioned for doping are significantly older (32.6 years old) compared to athletes who have not been sanctioned (30.9 years old). Additionally, of the nine performance measures, sanctioned athletes have a significantly greater takedown accuracy. Although takedown accuracy was the only performance measure to be significantly different, similar performance measures such as takedown defense and takedowns landed were higher in sanctioned athletes. To better understand if sanctioned athletes exhibit a similar “fighting strategy,” the percent difference was calculated for each of the nine performance measures as well as fight time and age. UFC athletes tend to excel in offensive and defensive takedown-based movements. Furthermore, sanctioned athletes tend to land more significant strikes per minute but knock their opponent down less and attempt fewer submissions. This data suggest sanctioned UFC athletes may employ a similar fighting strategy, best described as “ground-and-pound,” to fighting an opponent.
+
+== ISSUES
+
+A possible issue exists with the dataset, athletes are assumed clean unless sanctioned otherwise. There exists the possibilty that athletes who are currently doping are included in the data used to model the clean atheltes.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found it interesting as a new angle in attempting to ensure a level playing field for all athletes.
+I would have explored including fighters with fewer fights as they generally move to the UFC from an untested organisation, producing a large amount of positive tests early on in younger fighters careers, a factor I feel wasn't included in this model. Also, try and build a model for female fighters, however this might not be worthwhile until a larger dataset is gathered. 
+Used old methods for a new interesting purpose.
+
+
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://netflixtechblog.com/artwork-personalization-c589f074ad76
+
+== AGENT
+
+Netflix
+
+== GOAL
+
+Use machine learning to to get the right titles in front of each of their members at the right time 
+
+== DATA
+
+Under their online exploration scheme, they obtained a training dataset that records, for each (member, title, image) tuple, whether that selection resulted in a play of the title or not.
+
+== METHODS
+
+Supervised learning models or contextual bandit counterparts with Thompson Sampling, LinUCB, or Bayesian methods that intelligently balance making the best prediction with data exploration.
+
+== RESULTS
+
+They’ve taken the first steps in personalizing the selection of artwork for their recommendations and across the service. This has resulted in a meaningful improvement in how members discover new content and they’ve rolled it out to all their customers
+
+== ISSUES
+
+We also carefully determine the label for each observation by looking at the quality of engagement to avoid learning a model that recommends “clickbait” images: ones that entice a member to start playing but ultimately result in low-quality engagement.
+Possible issue- How to include variety outside the viewers perceived comfort zones/familiarities.	
+
+== SCORE
+
+5
+
+== COMMENTS
+
+Useful time saving application of machine learning. Accurate reports in the press and any user of Netflix will appreciate the personalised experience. 
+Interesting new approach to advertising content to users.
+
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://deepmind.com/blog/article/safety-first-ai-autonomous-data-centre-cooling-and-industrial-control
+https://deepmind.com/blog/article/deepmind-ai-reduces-google-data-centre-cooling-bill-40
+https://research.google/pubs/pub42542/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Use machine learning to improve cooling capability and reduce cooling bill in data centres. 
+
+== DATA
+
+A combination of historical data that had already been collected by thousands of sensors within the data centre - data such as temperatures, power, pump speeds, setpoints, etc. and live data from the data centres available at all times.
+
+== METHODS
+
+The neural network utilizes 5 hidden layers, 50 nodes per hidden layer and 0.001 as the regularizationparameter. The training dataset contains 19 normalized input variables and one normalized output variable (the DC PUE), each spanning 184,435 time samples at 5 minute resolution (approximately 2 years ofoperational data). 70% of the dataset is used for training with the remaining 30% used for cross­validationand testing. The chronological order of the dataset is randomly shuffled before splitting to avoid biasing thetraining and testing sets on newer or older data.
+
+== RESULTS
+
+Having an accurate and robust PUE model offers many benefits for DC operators and owners. For example, the comparison of actual vs. predicted DC performance for any given set of conditions can be used forautomatic performance alerting, real­time plant efficiency targets and troubleshooting.
+Claimed to have reduced cooling bill by 40%. 
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Really cool way to help reduce emissions. Major implications as data centres become bigger and bigger demanding more cooling. Large effect on emissions footprint of Google and any customer of Google products such as Cloud.
+
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://towardsdatascience.com/beating-the-fantasy-premier-league-game-with-python-and-data-science-cf62961281be
+
+== AGENT
+
+Dilyan Kovachev
+
+== GOAL
+
+Use machine learning to improve their fantasy premier league performance. The final goal of the project was to write a Python Algorithm, which uses the data from an analysis to make “smart” picks and build the most optimal Fantasy League squad given the limited budget of 100MM
+
+== DATA
+
+Looked at indivdual team & player stats.
+
+== METHODS
+
+Unsupervised. Custom algorithm built around the data available. 
+
+== RESULTS
+
+The final results showed that the team scored a total of 944 points vs. only 812 pts for an average Joe team (similar to a handpicked team with no extensive analysis used in determing the team), which is a significant 132pt difference! 
+This deep dive into the player data allowed them to realize that they were allowing team favoritism and a tendency to buy a lot of the overpriced players to hurt their overall Fantasy League performance
+
+== ISSUES
+
+Technically having to choose a desired formation for the model removes the possibilty of comparing different formations and how the model would differ on those formations. Price changes in players on the market means the budget is a changeable variable that means adjusting the model down the line will have an added layer of complexity.
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Interesting way of using simple if-else logic to remove human bias. I would have included further comparison versus the top performing fantasy premier league teams throughout the season. 
+
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://www.forbes.com/sites/bernardmarr/2018/04/09/the-amazing-ways-google-uses-artificial-intelligence-and-satellite-data-to-prevent-illegal-fishing/#5fcfab271c14
+https://globalfishingwatch.org/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Ways Google Uses Artificial Intelligence And Satellite Data To Prevent Illegal Fishing
+
+== DATA
+
+Data on the location of all vessls and what they are doing. 
+22 million data points every day
+AIS System vessel tracking data &  EQ satellite data
+
+== METHODS
+
+Applied machine learning to this data they were able to identify the reason any vessel is at sea – whether it is a transport ferry, container ship, leisure vessel or fishing boat.
+Generated a real-time heat map that shows where fishing is happening
+
+== RESULTS
+
+The initiative has already led to positive outcomes in the fight against illegal fishing in protected marine environments. For example, the system identified suspicious activity in waters under the jurisdiction of the Pacific island nation of Kiribati – which include the world’s largest UNESCO heritage marine site. When intercepted by Kiribati government vessels, the captain of the fishing vessels denied any wrongdoing. But after being presented with evidence gathered by Google’s machine learning algorithms, he realized he had been caught red-handed and admitted the violation of international law.
+
+== ISSUES
+
+Inability to act on illegal activity in remote areas with weakly enforced laws.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+Cool concept. Could be combined with tracking of fish population metrics to develop our understanding of changes in fish count due to over fishing. 
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://www.bernardmarr.com/default.asp?contentID=1269
+
+== AGENT
+
+Infervision 
+
+== GOAL
+
+Using AI And Deep Learning To Diagnose Cancer
+
+== DATA
+
+Real-life data from previous scan images to increase the model’s accuracy at identifying signs of cancerous growth in lung scans.
+
+== METHODS
+
+CNN machine learning model, which has already been trained with over 100,000 chest CT scans 
+
+== RESULTS
+
+“It usually takes a physician 10 to 30 minutes to read a CT scan, while Infervision AI only takes 5 seconds. Human eyes can easily miss lesions less than 3mm, but AI can accurately detect them and assists physicians for the optimal diagnosis of each patient.
+Assisted with over 100,000 image diagnostic cases. It is breaking the record of AI image screening in the medical AI industry.
+
+== ISSUES
+
+Ethically is it ok to put the health of a human in the hands of a computer algorithm?
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Expand it to all forms of cancer, not just lung. Can its understanding of tumours be transferred into predicting success of treatments?

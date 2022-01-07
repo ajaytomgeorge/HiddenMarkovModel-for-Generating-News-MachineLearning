@@ -1,0 +1,61 @@
+==== SOURCE
+
+https://www.aclweb.org/anthology/P14-2009.pdf
+
+==== AGENT
+
+Who:
+Li Dong, Furu Wei, Chuanqi Tan, Duyu Tang, Ming Zhou and Ke Xu.
+
+Where:
+Beihang University, Beijing, China
+Microsoft Research, Beijing, China
+Harbin Institute of Technology, Harbin, China
+
+==== GOAL
+
+They were trying to develop neural network that 
+adaptively propagates the sentiments of
+words to target depending on the context
+and syntactic relationships between them
+
+==== DATA
+
+Posts from Twitter
+"For the tweets, our task is to classify their sentiments for a given target as positive, negative, and
+neutral. People may mention several entities (or
+targets) in one tweet, which affects the availabilities for most of existing methods. For example,
+the tweet “@ballmer: windows phone is better
+than ios!” has three targets (@ballmer, windows
+phone, and ios). "
+
+==== METHODS
+
+"We use the dependency parsing results to find the
+words syntactically connected with the interested
+target. Adaptive Recursive Neural Network is proposed to propagate the sentiments of words to the
+target node. We model the adaptive sentiment
+propagations as semantic compositions. The computation process is conducted in a bottom-up manner, and the vector representations are computed
+recursively. After we obtain the representation of
+target node, a classifier is used to predict the sentiment label according to the vector"
+
+==== RESULTS
+
+"We propose Adaptive Recursive Neural Network
+(AdaRNN) for the target-dependent Twitter sentiment classification. AdaRNN employs more than
+one composition functions and adaptively chooses
+them depending on the context and linguistic tags.
+For a given tweet, we first convert its dependency
+tree for the interested target. Next, the AdaRNN
+learns how to adaptively propagate the sentiments
+of words to the target node. AdaRNN enables
+the sentiment propagations to be sensitive to both
+linguistic and semantic categories by using different compositions. The experimental results illustrate that AdaRNN improves the baselines without
+hand-crafted rules."
+
+
+==== COMMENTS
+
+Honeslty, for me it sounds useless. Such complicated thing for classification 
+for tweets of random human beings? The only reason for this is to know an opinion of majority, 
+on specific question but there are better ways of doing this for companies and it's useless for individuals (imho)

@@ -1,0 +1,25 @@
+== SOURCE
+https://www.zmescience.com/science/news-science/machine-learning-archaeology-30092021/
+
+== AGENT
+Mihai Andrei, ZMEscience, Penn State researchers
+
+== GOAL
+How ML can assist in archeology
+
+== DATA
+Data from archeological sites and structures
+
+== METHODS
+ML was used to analyse the data and find promising data and trim out the fat. The team used a public smaller data set and then used a deep learning process to recognise the algorithms and find specific data they needed, they then manually went over the data the algorithm found and located the known information.
+
+== RESULTS
+The results were very promising which led to a public and commercially available geographic information system ArcGis.
+
+== ISSUES
+No particular issues found! Very clear and concise article explaining the process in which ml was used and the area it was used in!
+
+== SCORE
+9
+== COMMENTS
+This article is an example of an article with a not particularly interesting topic to most but finding a way to make it interesting! Amazing article which kept me interested in reading throughout the whole thing! An area I didn't particularly find interesting (Archeology) unexpectedly made me very interested in it due to the writing, the concise and clear delivery of information, and the title.

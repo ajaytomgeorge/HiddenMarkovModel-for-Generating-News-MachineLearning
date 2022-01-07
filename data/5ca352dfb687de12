@@ -1,0 +1,30 @@
+﻿==== SOURCE 
+
+https://www.the-scientist.com/news-opinion/ai-accurately-detects-lung-cancer-in-scans-65914
+
+==== AGENT 
+
+Googles AI
+
+==== GOAL
+
+To see whether artificial intelligence could improve radiologist's accuracy in analysing CT scans
+
+
+==== DATA
+
+They used data from an earlier NIH study.
+
+==== METHODS
+
+The research team fed thousands of scans from the earlier NIH study into Google’s computers as well as the patient's later diagnoses. 
+After this training, the researchers tested the model’s accuracy in detecting cancer from new scans and compared it to that of six radiologists. 
+
+==== RESULTS
+
+ The model performed as well as the radiologists when there was more than one scan was taking of the patient. However when just one image was available, the program yielded 5 percent fewer false negatives and 11 percent fewer false positives than the radiologists.
+This collaboration between software engineers and clinical researchers has produced an artificial intelligence program that uses images to predict with 94 percent accuracy which people will develop lung cancer.
+
+==== COMMENTS
+
+The article stated that there will need to be more trails before it can be used clinically .

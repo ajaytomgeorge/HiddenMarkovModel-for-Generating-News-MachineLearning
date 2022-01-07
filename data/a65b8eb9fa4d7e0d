@@ -1,0 +1,67 @@
+== SOURCE
+
+
+
+https://techxplore.com/news/2019-09-spotify-songs.html
+
+
+
+== AGENT
+
+
+Research students at the University of San Francisco (USF).
+
+
+
+== GOAL
+
+
+
+Using Spotify data to predict what song will be hits.
+
+
+
+== DATA
+
+
+Using a Spotify API 1.8 million songs data was collected, which include features such as song tempo, key, 
+valence, energy, acousticness, dance ability, loudness,  etc.
+
+
+
+== METHODS
+
+
+
+Four different methods, logical regression, a neural network, a support vector machine (SVM) 
+and a random forest (RF) architecture. Supervised.
+
+
+
+== RESULTS
+
+
+
+SVM architecture achieved the highest precision rate (99.53 percent), while the random forest model 
+attained the best accuracy rate (88 percent) and recall rate (85.51 percent).
+
+
+
+== ISSUES
+
+
+The work is good I don't see any issues.
+
+== SCORE
+9
+
+
+
+
+== COMMENTS
+
+
+
+It's interesting to be able to predict trend by analyzing characteristics of a musical piece. 
+The reporting of the research was good with multiple quotes from the researchers. 
+Overall a interesting and fun project that was well reported.

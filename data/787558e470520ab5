@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://gadgets.ndtv.com/science/news/new-ai-system-can-detect-bowel-cancer-in-less-than-a-second-1768960
+
+==== AGENT
+
+Researchers from Showa University in Yokohama, Japan.
+
+==== GOAL
+
+The goal was to create a machine learning algorith to detect bowel cancer.
+
+==== DATA
+
+Researchers studied 250 men and women in whom colorectal polyps had been detected using endocytoscopy.
+
+==== METHODS
+
+The machine learning system was used to predict the pathology of each polyp. These predictions were compared with the pathological report obtained from the final resected specimens and used to determin whether or not a patient had bowle cancer themselves.
+
+==== RESULTS
+
+The team assessed 306 polyps in real-time by using the AI-assisted system, providing a sensitivity of 94 percent, specificity of 79 percent, accuracy of 86 percent, and positive and negative predictive values of 79 percent and 93 percent respectively, in identifying neoplastic changes.
+
+==== COMMENTS
+
+This article highlighted the power or machine learning and AI. The area of medicine seems to be being revolutionised by technology which is evidentally seen here.

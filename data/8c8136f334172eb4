@@ -1,0 +1,46 @@
+== SOURCE
+
+https://scitechdaily.com/artificial-intelligence-classifies-brain-tumors-with-single-mri-scan/
+
+== AGENT
+
+A team of researchers at Washington University School of Medicine 
+(Satrajit Chakrabarty , Aristeidis Sotiras, Mikhail Milchenko, Pamela LaMontagne, Michael Hileman and Daniel Marcus)
+
+== GOAL
+
+Their goal was to develop a deep learning model that is capable of classifying a brain tumor as one of six common types using a single 3D MRI scan.
+
+== DATA
+
+They used 2,105 scans into three subsets of data: 1,396 for training, 361 for internal testing and 348 for external testing.
+To build their machine learning model, they developed a large, multi-institutional dataset of 
+intracranial 3D MRI scans from four publicly available sources.
+
+== METHODS
+
+It was supervised : The first set of MRI scans was used to train the neural network to discriminate 
+between healthy scans and scans with tumors, and to classify tumors by type. 
+
+== RESULTS
+
+Using the internal testing data, the model achieved an accuracy of 93.35% (337 of 361)
+For the external testing dataset, the model had an accuracy of 91.95%. (320 of 348)
+
+== ISSUES
+
+It is quite accurate but there are some ethic problems i think : Can we trust the algorithms to the point we give them our health ? 
+Is ~92.5% enough to do so ? Who will we blame when the machine will do diagnostic errors ?
+
+== SCORE
+
+I would say 8, this is just incredible to be able to give a diagnostic from an image and to achieve the work that need long years of studies for a human.
+This example shows how machine learning can help us even for the most complicated tasks and how useful it can be.
+
+== COMMENTS
+
+It was quite interesting, I would not have seen these articles by myself.
+This article explains well the topic but stays technical and gives useful numbers. 
+I do not think the method is new. It was already used to detect brain tumors but not to classify it like this and with such good results.
+The data and the methods were already used but not to get this output and this precision.
+We can find the entire publication here : https://pubs.rsna.org/doi/10.1148/ryai.2021200301

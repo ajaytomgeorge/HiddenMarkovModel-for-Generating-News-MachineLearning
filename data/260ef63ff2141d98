@@ -1,0 +1,35 @@
+== SOURCE
+https://www.smithsonianmag.com/innovation/how-artificial-intelligence-completed-beethovens-unfinished-10th-symphony-180978753/
+
+== AGENT
+
+Karajan Institute
+
+== GOAL
+
+Complete Beethovens unfinished 10th Symphony
+
+== DATA
+
+All parts of beethovens symphony that had been started before he passed away. 
+They also inputted all of beethovens finihsed symphonys
+
+== METHODS
+
+The algorithm used generative adversarial networks in order to piece together the symphopny. Not a lot of information about the methods used are available in this aritcle as it is extremly new. 
+
+== RESULTS
+
+The algorithm constructed two entire movements of more than 20 minutes apiece.
+
+== ISSUES
+
+The major issue in this article was the idea that arts should be off limits to AI, and that AI should play no part in trying to recreate the genius of Beethoven.
+
+== SCORE
+
+7
+== COMMENTS
+
+
+I think that this is an extremly interesting area of AI. I belive that people should not belive that arts are off-limit to AI, but we should begin to use AI as a tool to further creativity. 

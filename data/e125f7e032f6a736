@@ -1,0 +1,35 @@
+== SOURCE
+
+https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+To create a system that could teach itself to beat any champion in chess, Shogi and go.
+
+== DATA
+
+The only data it needs is the basic rules of the game. The rest of the data is obtained through trial and error by playing games against itself.
+
+== METHODS
+
+Monte Carlo and artificial neural network
+
+== RESULTS
+
+They outperformed any standard AI system and AlphaGO in far less processing power.
+
+== ISSUES
+
+No issues at all
+
+== SCORE
+
+10
+
+== COMMENTS
+
+Good contribution and teaches masters of the game new dynamic unknown strategies.

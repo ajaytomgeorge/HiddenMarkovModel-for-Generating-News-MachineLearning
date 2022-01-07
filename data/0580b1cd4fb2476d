@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.generalsurgerynews.com/In-the-News/Article/09-21/Using-Machine-Learning-to-Predict-Surgical-Site-Infections/64654
+
+== AGENT
+
+General Surgery News
+
+== GOAL
+
+Predict Surgical Site Infections
+
+== DATA
+
+8883 patients from Mayo Clinic in America
+
+== METHODS
+
+Supervised learning and SSI-detection algorithms
+
+== RESULTS
+
+An alogirthm that predicts surgical site infections
+
+== ISSUES
+
+Currently there is no standard way the predictions are documented in the electronic health record portal
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The algorithm works but is still not 100% accurate.
+External validation of the model is required before it can be routinely used to identify SSIs.
+If I was doing it I would've probable collected more data and implemented a way of properly saving and storing the predition.
+
+

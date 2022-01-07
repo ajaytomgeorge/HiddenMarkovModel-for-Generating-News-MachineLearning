@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theverge.com/2021/6/10/22527476/google-machine-learning-chip-design-tpu-floorplanning
+
+== AGENT
+
+Google
+
+== GOAL
+
+Use AI to design AI chips quicker than a human
+
+== DATA
+
+10,000 chip floor plans of varying quality.
+
+== METHODS
+
+A reinforcement learning algorithm was used to train the model. Each design in the dataset was tagged with a specific "reward" function based on metrics like length of wire required and power usage. The algorithm can use this to distinguish between good and bad designs and generate its own.
+
+== RESULTS
+
+The designs are very different to how a human would design a chip. The AI designed chips seem to have components placed at random. They have been described as "comparable or superior" but can be generated much faster.
+
+== ISSUES
+
+The article doesn't contain any hard result data just quotes from Google.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The concept of computers designing themselves has been present in Sci-Fi for years, generally in a negative world ending light. The reality of this however is that we will see more advanced hardware at a much quicker rate than if humans were designing these chips. The article highlights this and Google's breakthrough could be the beginning of fully autonomous designs for computer hardware. 

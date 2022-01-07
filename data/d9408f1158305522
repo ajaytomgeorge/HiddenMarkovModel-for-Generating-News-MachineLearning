@@ -1,0 +1,35 @@
+== SOURCE
+
+https://techcrunch.com/2021/06/24/walmarts-ai-is-getting-smarter-about-grocery-delivery/?guce_referrer=aHR0cHM6Ly93d3cucHJlZGljdGl2ZWFuYWx5dGljc3dvcmxkLmNvbS8&guce_referrer_sig=AQAAAIuZp8zBPaXmgNIYtOdWyBsLKS0fcHalu1NX7izbsZA1oACxl8pczsvY33K8dmJtcREKgeWflfAynivnCcrGVacrSeeGLAP0lpC0jllZBSDJKUo4tqMr99QyNGd2wwICnqUcJH3GRAiHDlC3AX-OOpx6QdkCbTSd6f1doviMww9X&guccounter=2
+
+== AGENT
+
+Walmart
+
+== GOAL
+
+To train AI to make smarter substitutions in online grocery orders.
+
+== DATA
+
+The AI uses historical shopping data already available to Walmart
+
+== METHODS
+
+They use deep-learning AI to consider hundreds of variables — size, type, brand, price, aggregate shopper data, individual customer preference, current inventory and more
+
+== RESULTS
+
+Customer acceptance of substitutions has risen from 90% to 97/98%
+
+== ISSUES
+
+I don't really see any issues with it, as Walmart, their personal shopper employees, and the customer wins. It's unclear whether or not they use any personal information about the shopper or just the items each person buys.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I think it's a pretty standard use of Machine Learning and as such not that interesting. I also don't really care for Walmart so I'm not really bothered either way.

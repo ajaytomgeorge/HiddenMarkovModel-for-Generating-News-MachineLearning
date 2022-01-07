@@ -1,0 +1,37 @@
+== SOURCE
+
+https://openai.com/blog/openai-five-defeats-dota-2-world-champions/
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+A. to design a (team of) AI that is the best in the world at Dota 2
+B. to work on a problem that felt outside of the reach of existing deep reinforcement learning algorithms 
+
+== DATA
+
+OpenAI Five sees the world as a bunch of numbers that it must decipher. It uses the same general-purpose learning code whether those numbers represent the state of a Dota game (about 20,000 numbers) or robotic hand (about 200).
+
+== METHODS
+
+RL
+
+== RESULTS
+
+Defeated Dota 2 world champions in 2019 on livestream. 
+
+== ISSUES
+
+The AI is not adapted to the entire game of Dota 2 - Only a limited pool of heroes were used in its training and the matches it played versus human players.
+The surprising power of today’s RL algorithms comes at the cost of massive amounts of experience, which can be impractical outside of a game or simulated environment.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+OpenAI five strived to achieve a very similar goal to other game AIs such as stockfish for chess. However what made it stand out was the degree of complication that exists in a dota 2 game state vs that for a chess game. To quote OpenAI, the author of the blog post, Dota is a much more intrinsically interesting and difficult (and now well-understood) environment for RL development than the standard ones used today.

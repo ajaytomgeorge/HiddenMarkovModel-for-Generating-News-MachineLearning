@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.youtube.com/watch?v=WXuK6gekU1Y
+
+https://deepmind.com/research/case-studies/alphago-the-story-so-far
+
+== AGENT
+
+Google Deep Mind AlphaGO
+
+== GOAL
+
+They are trying to beat the worlds #1 ranked Go player with A.I.
+
+== DATA
+
+They fed the model a lot of data from previous matches between professional Go players.  In their new model AlphaZero, the creators decided not to feed in any data like they did with AlphaGO and instead decided to let it learn itself, entirely from self play.
+
+== METHODS
+
+AlphaGO uses reinforcement learning to achieve its goals and uses this along with self play.  It combines this with Monte Carlo Tree Search.  Both implemented by using deep neural networks.
+
+== RESULTS
+
+Deep Mind used Alpha Go to play a series of 4 mathces against Lee Sedol, who was the #1 ranked GO player.  Alpha GO ended up beating Lee Sedol 3-1.  The reason it lost is because it sometimes suffered "delusions" and completely forgot where it was in a game and made statistical errors.  Alpha Zero, which is basically Alpha GO version 2, has beaten Alpha GO 100-0.  Lee Sedol will most likely be the last person to every beat the Alpha GO/ Alpha Zero machines which is a huge achievement.
+
+== ISSUES
+
+I did not see any issues with the work of Deep Mind.  I feel they did a great job of documenting the story and I also think that David Silver, who leads the reinforcement learning research group at DeepMind did a great job reporting his results in multiple papers and interviews.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I thought this was an amazing story and it hooked me from the beginning.  To think that a machine can beat humans at these complex games is just amazing.  I would love to find out how I could do it differently/ better but unfortunately at the moment I am not up to par to offer a better alternative to the work of Google's DeepMind.  I feel this is a hugely important area right now and will be in our future which is why I took such a great interest in this area and decided to do my project on Evolutionary Algorithms.  The technique they used, Reinforcement Learning is not new as it has been around since the 1980's.

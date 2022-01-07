@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.genengnews.com/news/detecting-alzheimers-earlier-with-the-help-of-machine-learning-algorithm/
+
+== AGENT
+
+Texas Tech University
+
+== GOAL
+
+To be able to diagnose the early stages of the onset of Alzheimer's
+
+== DATA
+
+The data was collected from a public database of fMRIs.
+
+== METHODS
+
+The team used supervised learning methods to train a convolutional neural network. The researchers developed a CNN architecture that can handle fMRI data with minimal pre-processing steps.
+
+== RESULTS
+
+The results of this study seem quite positive. The neural network was able to return results classifying the patient as either healthy, having early or late mild cognitive impairment or having Alzheimers.The network achieved at least as high, if not higher, a rate of correct results than that of other methods. The main result here however is that it proves that deep a learning-based approach can help improve diagnosis not only for AD but also for other neurological diseases.
+
+== ISSUES
+
+This article was very interesting to read and I hope work in this area continues. However the network here only achieved results as high as other methods, meaning that, while the network is a step forward, it does not advance the field of medicine at all. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is interesting to note that these images are difficult for humans to read mainly because of the amount of noise often present in them. It seems if you could teach a neural network to remove the noise it would inevitabley succeed in being far better than any human at reading these, which means that while this is still in its early stages, what is happening in this study couold be the new normal in the future when it comes to detecting Alzheimers.

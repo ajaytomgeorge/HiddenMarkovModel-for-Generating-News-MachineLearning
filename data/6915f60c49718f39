@@ -1,0 +1,25 @@
+==== SOURCE
+
+https://scienceblog.com/511016/machine-learning-is-providing-new-insights-when-the-biology-is-too-complex-for-traditional-research/
+
+==== AGENT
+
+Biomedical engineers at Duke University
+
+==== GOAL
+utilise machine learning in order to provide further insight when the biology of a subject is too complex for traditional research.
+
+==== DATA
+the system of data consisted of 13 bacterial variables such as the rates of growth, diffusion, protein degradation and cellular movement of the biological subject, the neural network was trained with 100,000 data sets
+
+==== METHODS
+
+created a neural network which took generic random model variables as input and tweaked the weights and biases as new data is fed into the network, over time the neural network will eventually learn to make more accurate descriptions
+
+==== RESULTS
+
+They managed to create a simple system which now has enabed further research into the underlying dynamics of more complex biological circuits
+
+==== COMMENTS
+
+Atricle includes insightful graphs comparing the neural network prediction and a longer more thorough method of predicton which takes large amounts of time to affectively analyse the biological circuit. This clealy communicates the efficiency of the NN prediction.

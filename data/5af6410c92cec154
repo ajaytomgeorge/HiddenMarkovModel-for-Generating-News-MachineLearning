@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://towardsdatascience.com/color-identification-in-images-machine-learning-application-b26e770c4c71
+
+==== AGENT
+
+Karan Bhanot, Data science and Machine learning enthusiast.
+
+==== GOAL
+
+They were trying to detect different colours in images.
+
+==== DATA
+
+It seems like they gathered random images from the internet. They were of nature and buildings.
+
+==== METHODS
+
+They used openCV and the kmeans algorithm to extract colours from images.
+
+==== RESULTS
+
+It went quite well for him, he was able to filter images by colour quite successfully.
+
+==== COMMENTS
+
+This application is a very interesting use of machine learning. Categorizing data in colours could also be used as the pre-processing step for many other applications such as the detection of coloured objects i.e. if the colour of the object is not in the image then you do not need to bother with any further steps.

@@ -1,0 +1,32 @@
+==== SOURCE
+
+A Machine Learning Framework for Stock Selection
+https://www.academia.edu/40135632/A_Machine_Learning_Framework_for_Stock_Selection
+
+==== AGENT
+
+XingYu Fu,JinHong Du,YiFeng Guo,MingWen Liu,Tao Dong,XiuWen Duan from 
+Sun Yat-sen University
+
+==== GOAL
+
+Use Machine learning algorithms to distinguish good and bad stocks.
+
+==== DATA
+
+Historical Data of various stocks are used to backtest and come up with the list of good stocks.
+
+==== METHODS
+
+Algorithms ranging from traditional statistical learning methods to recently popular deep learning method, 
+e.g. Logistic Regression(LR), Random Forest (RF), Deep Neural Network (DNN), and the Stacking, 
+are trained to solve the classiﬁcation task.
+
+==== RESULTS
+
+Each model they come up with using LR, RF, DNN and stacking outperforms the market.
+
+==== COMMENTS
+
+They have used relatively small set of stocks to choose from and used 244 Techinal and Fundamental factors to 
+come up with stock selection, but a more stocks and factors are needed to give a reality check.

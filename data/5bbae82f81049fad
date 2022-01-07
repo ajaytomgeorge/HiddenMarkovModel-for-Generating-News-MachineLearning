@@ -1,0 +1,40 @@
+
+== SOURCE
+
+https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/ai-ancient-maps-satellite-images
+
+== AGENT
+
+A student, named Henrique Andrade at Escola Politécnica da Universidade de Pernambuco, Recife came up with this.
+
+== GOAL
+
+Andrade's goal was to develop a machine learning algorithm that could transform old maps into Google satellite images.
+And later, this could be used in comparing this satellite image of old map with the current satellite image of the same area which could help in discovering many issues and changes over time.
+
+== DATA
+
+The input data used  were maps. Specifically talking about making this algorithm, they took an old map(from 1808) of Recife town and generated modern day images of this area using an existing AI tool called Pix2pix, which relies on two neural networks.
+
+== METHODS
+
+This might be done using supervised learning as we know both- the inputs and outputs that needs to be produced.
+
+== RESULTS
+
+The algorithm creates realistic-looking images(like satellite images of a place many years ago) based on the historical data provided(say old maps).
+
+As Andrade explained, “When you look at the images, you get a better grasp of how the city has changed in 200 years,” explains Andrade. Say for example, “The city's geography has drastically changed—landfills have reduced the water bodies and green areas were all removed by human activity.” (Stated for Recife on which they made algorithm).
+
+== ISSUES
+
+One small issue I see here we should know the old map origins- like it's information, what is it of, where is the place in the map and exact position of the place so as to compare with the new/recent satellite images of the place.
+Else, the model in itself doesn't have any issues I feel.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+As discussed in the issues, I have concern of just that much. Also if asked to comment I would like to say that the model is very simple in respect of it's idea but can be of great use for people in the relevant fields such as urban planners, anthropologists, and historians.

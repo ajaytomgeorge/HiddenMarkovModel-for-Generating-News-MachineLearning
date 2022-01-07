@@ -1,0 +1,43 @@
+== SOURCE
+
+https://news.mit.edu/2021/making-roadway-spending-more-sustainable-0928
+
+== AGENT
+
+MIT Concrete Sustainability Hub
+
+== GOAL
+
+More sustainable and higher performing roads are still possible even with today’s limited budgets.
+
+== DATA
+
+The model begins by investigating every segment in an entire pavement network and predicting future possibilities for pavement deterioration, cost, and traffic.
+Run thousands of simulations for each segment in the network to determine the likely cost and performance outcomes for each initial and subsequent sequence, or ‘path,’ of treatment actions.
+
+== METHODS
+
+Machine Learning, Probabilistic Treatment Path Dependence(PTPD)
+
+== RESULTS
+
+The PTPD model not only seeks to minimize costs to agencies but also to users — in this case, drivers.
+The MIT model can help DOTs make better decisions, but that decision-making is ultimately constrained by the potential options considered.
+
+== ISSUES
+
+The average road must last many years and support the traffic of thousands — if not millions — of vehicles. 
+Over that time, a lot can change. Material prices may fluctuate, budgets may tighten, and traffic levels may intensify. 
+Climate (and climate change), too, can hasten unexpected repairs.
+Managing these uncertainties effectively means looking long into the future and anticipating possible changes.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I think it is complicated but interesting because constructions are linked to many factors and are full of uncertainty.
+And it seems that this model is successful to deal with it.
+I do not know how they achieve it, but this is good news both for governments and residents.
+In my opinion, it also can be applied in railway construction.

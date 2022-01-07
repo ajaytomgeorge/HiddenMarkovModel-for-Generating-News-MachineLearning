@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/using-ai-and-old-reports-understand-new-medical-images-0927
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Understand new medical images based on old reports.
+
+== DATA
+
+Datasets of X-Ray images along with a doctor's rating of severity for each.
+
+== METHODS
+
+A neural network is trained to decide the extent of a disease based on the data from the datasets. The information is set as a set of numbers while another network does the same for text. The third network combines the information between the images and text to maximize mutual information between the two. For example, if the information between the two is high, then the images are predictive of the text and the text is predictive of the images highly. This information is broken down into its own sentences, then relating those sentences with specific parts of the image to better understand the issues at hand.
+
+== RESULTS
+
+The A.I. proved to be accurate based on the sample data. As a result, a pilot program is underway at the Beth Israel Deaconess Medical Center to see how the model can influence methods to managing heart failure patients decision making. This is even more the case when in an emergency room setting.
+
+== ISSUES
+
+I don't find any issues with this learning process as it has clearly been effective in testing. Assuming the process would be similar for other image types, they could also push into MRI, Ultrasound, ECG and other scanning methods to get the most out the machine learning model.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The fact that they could predict the best course of action given a patients medical report scans that could possibly be a better decision than that of a doctor is very interesting. There are also dangers to this as it would not have the required empathy given certain decision, for example amputations.

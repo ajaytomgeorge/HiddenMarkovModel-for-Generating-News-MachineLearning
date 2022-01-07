@@ -1,0 +1,41 @@
+== SOURCE
+
+https://lionbridge.ai/articles/creative-ai-the-storytelling-of-ai-dungeon/
+
+== AGENT
+
+Nick Walton, with support from David Wingate, Max Robinson, and Alan Walton
+
+== GOAL
+
+Creating a text adventure game where the player's actions are not limited
+to a predefined set.
+
+== DATA
+
+Many pieces of text: news articles, online messages boards, text poetry, chat
+bots... 
+
+== METHODS
+
+OpenAI’s GPT-2 (Generative Pretrained Transformer 2), creative AI, supervised
+
+== RESULTS
+
+The tester find the game impressive. It seems to have a strong ability to 
+construct a consistent story at the beginning. However, he notices that 
+it can become a bit strange as the adventure advances.
+
+== ISSUES
+
+The system can still be improved to make flawless stories.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This game is an interesting application of a known technology.
+
+

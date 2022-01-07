@@ -1,0 +1,18 @@
+== SOURCE
+https://www.microsoft.com/security/blog/2020/10/22/cyberattacks-against-machine-learning-systems-are-more-common-than-you-think/
+== AGENT
+Microsoft, IBM, NVIDIA, Bosch, CISO
+== GOAL
+Develop a framework, to empower security analysts to detect, respond to, and remediate threats against machine learning systems.
+== DATA
+Cyberattacks leverage training-data poisoning, AI model theft, or adversarial samples to attack AI-powered systems
+== METHODS
+Gives guidance and steps to empowering security teams to defend against attacks on ML systems, a framework that systematically organizes the techniques employed by malicious adversaries in subverting ML systems
+== RESULTS
+There have been many case studies done, flaws are being caught and security analysts can orient themselves to new and upcoming threats.
+== ISSUES
+In a survey of 28 organizations snapping small and large companies, 25 organizations did not know how to secure their ML system. Spreading the word and training people have been very slow.
+== SCORE
+7
+== COMMENTS
+I think this is very interesting and also important as ML is becoming an essential and ever expanting field. It's important that companies like Tesla with their self driving cars can defend their ML system from attackers 

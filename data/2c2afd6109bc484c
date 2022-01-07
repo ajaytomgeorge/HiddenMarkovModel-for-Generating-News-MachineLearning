@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.news-medical.net/news/20201028/Deep-learning-models-help-hunt-for-COVID-19-drugs.aspx
+
+== AGENT
+
+Michigan State University Foundation Professor Guowei Wei 
+
+== GOAL
+
+To help developers design drugs.
+
+== DATA
+
+They mentioned that they used public data and that they trained their models with data sets filled with information about proteins that drug developers want to target with therapeutics.
+
+== METHODS
+
+They mentioned that they use Deep Learning CNN's
+
+== RESULTS
+
+If developers now want to develop a new drug, this model shows them basically what they need to do.
+
+== ISSUES
+
+I did not see any issues with this work.  I would like to have known if he used the exact same models as he used for Sars or what he changed to tweak it for Covid.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Yes this was very interesting and something that I would like to look into more.  He previously used models to do the same for Sars virus so he used old models for new problems.  The reporting in the press was reasonable and since they were interviewing the agent himself, then they simply wrote what he said.

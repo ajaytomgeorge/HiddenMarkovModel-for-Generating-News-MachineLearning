@@ -1,0 +1,27 @@
+﻿==== SOURCE http://news.mit.edu/2019/decima-data-processing-0821
+
+==== AGENT
+MIT
+
+==== GOAL
+
+They are trying to use Artificial intelligence to help data centres to run more efficiently.
+
+==== DATA
+
+They compared human handwritten algorithms to their systems algorithms across datacentres.
+
+==== METHOD
+
+They used reinforced learning to train the systems how to schedule data-processing operations across thousands of servers. 
+They were concerned that some workload sequences are more difficult than others so they used a technique called baselining which takes the average of scenarios with a larger number of variable and uses those averages to as a baseline to compare future results .
+
+
+==== RESULTS
+
+The researcher’s system completes jobs about 20 to 30 percent faster compared to the best handwritten scheduling algorithms, and twice as fast during high-traffic times. The system learns how to compact workloads efficiently to leave little waste.
+The results where positive and indicated the system could enable data centres to handle the same workload at higher speeds, using fewer resources.
+
+==== COMMENTS
+
+The type of data and how much they used is not given in the artical.

@@ -1,0 +1,47 @@
+﻿==== SOURCE
+
+https://www.aitrends.com/ai-in-science/artificial-intelligence-could-help-predict-volcanic-eruptions/
+
+
+==== AGENT
+
+A research group in the United Kingdom called the Centre for Observation and Modelling of Earthquakes, 
+Volcanoes and Tectonics (COMET) undertook this project.
+
+
+==== GOAL
+
+The aim was to predict volcanic eruptions using the European satellite data. 
+
+
+==== DATA
+
+With the launch of the European Space Agency’s satellites Sentinel 1A and Sentinel 1B, the field of volcanology has received frequent, repeated views of how the ground shifts around the world’s volcanoes. The Sentinel 1 satellites use a technique called radar interferometry, which compares radar signals sent to and reflected from Earth to track changes in the planet’s surface. The method isn’t new, but, uniquely, the Sentinel 1 satellites revisit each spot on the planet once every 6 days, and the Sentinel team releases those high-resolution observations rapidly.
+
+
+==== METHODS
+
+COMET had already begun to create a database of the ground-movement snapshots from sentinel 1, called interferograms, for the world’s volcanoes. Overlaying this database with automated detection seemed natural given the success machine learning has had in other forms of pattern detection. Changes in ground motion typically reflect magma shifting beneath the volcano and do not perfectly predict eruptions. But unlike thermal hot spots or ash plumes, which can be automatically detected with weather satellites, land shifts can help predict eruptions, not simply indicate their occurrence.
+
+First, the teams had to teach their algorithms not to confuse atmospheric shifts for ground motion, something interferograms are prone to do. To do that, Hooper’s team settled on a technique called independent component
+analysis, which learns to break apart a signal into different pieces: such as stratified atmosphere or
+short-term turbulence, along with ground shifts in a volcano’s caldera or flank. The technique allows them
+to catch both brand-new ground motions, or changes in rate, both of which can be signs of pending eruption.
+
+Meanwhile, another COMET team led by Juliet Biggs, a volcanologist at the University of Bristol in the United Kingdom, has built a second algorithm using a increasingly popular form of artificial intelligence
+called convolutional neural networks, which use layers of biologically inspired “neurons” to break apart
+features of images into ever-more-abstract pools, learning how to tell, for example, cats from dogs. The
+researchers first trained their neural network using raw interferograms from Envisat, Sentinel’s precursor,
+for which they had existing examples of eruptions. 
+
+						
+==== RESULTS
+
+Although the algorithm had some success on an analysis of 30,000 Sentinel interferograms, it still produced too many false positives.To overcome that problem, Biggs and her colleagues create a synthetic data set of
+computer-simulated eruptions, generated for a few known physical patterns. These synthetic data dropped the
+fraction of false positives from some 60% to 20%, as they reported today at the AGU meeting.
+
+
+==== COMMENTS
+
+The prediction of volcanic eruptions opens the doors to numerous other research subjects like climate change, resource mining, soil quality, etc. ML might also prove successfull in predicting other disasters and monitor various geographical activities.  

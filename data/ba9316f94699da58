@@ -1,0 +1,40 @@
+## Format
+```
+== SOURCE
+
+https://techxplore.com/news/2019-09-machine-radical-application-severe-weather.html
+
+== AGENT
+
+Eric Verbeten
+
+== GOAL
+
+ML Application for severe weather predictions
+
+== DATA
+
+historic data or such events 
+
+== METHODS
+
+DeepMicroNet, Linear Regression, Naive Bayesian
+
+== RESULTS
+
+Can tell vital information about hurricane structures, intensities, storms behavior 
+
+== ISSUES
+
+Limited dataset for training and testing, accuracy, are the results meaningful
+
+== SCORE
+
+7
+
+== COMMENTS
+
+can also use RCNN, LSTM, FLNN for model training 
+```
+
+

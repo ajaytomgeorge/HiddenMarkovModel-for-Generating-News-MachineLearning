@@ -1,0 +1,20 @@
+== SOURCE
+https://www.marktechpost.com/2021/10/07/mit-researchers-open-sourced-maddness-an-ai-algorithm-that-speeds-up-machine-learning-using-approximate-matrix-multiplication-amm/
+== AGENT
+Researchers from MIT's Computer Science and Artificial Intelligence Lab.
+== GOAL
+To create an algorithm to speed up machine learning using Approximate Matrix Multiplication (AMM). They called this algorithm MADDNESS.
+== DATA
+UCR Time Series Archive datasets for comparison with MADDNESS.
+== METHODS
+Regression Learning (Binary Regression).
+== RESULTS
+The MADDNESS algorithm runs 10 times faster than other approximation algorithms (such as Bolt, etc) and 100 times faster than accurate matrix 
+multiplication.
+== ISSUES
+This algorithm is quite new (introduced earlier this year), and AMM methods can produce some output error.
+== SCORE
+8
+== COMMENTS
+This article is very interesting as it shows that by using AMM methods rather than accurate matrix multiplication, machine learning speeds can 
+be greatly increased.

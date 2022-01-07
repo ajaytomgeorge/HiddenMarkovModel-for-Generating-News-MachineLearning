@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.wired.com/story/this-ai-helps-detect-wildlife-health-issues-in-real-time/
+
+== AGENT
+
+UC Davis
+
+== GOAL
+
+A system that scans animal rehabilitation center data could provide early alerts when a disease is spreading.
+
+== DATA
+
+The researchers used five years of data and more than 200,000 records to establish baselines for how frequently these conditions normally occur.
+
+== METHODS
+
+Natural Language Processing, Machine Learning
+
+== RESULTS
+
+The system processes rehab center admission data in just a day or two, it can produce “prediagnostic” alerts, 
+which are faster than waiting until diagnoses have been confirmed.
+
+== ISSUES
+
+This report doesn't mention the trouble that the system meets while developing.
+Before the relevant people use the system, they used to record every problem on paper.
+you’d have to go through boxes and boxes of paperwork to figure out what you gave that golden eagle 10 years ago.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I suppose the system is so cool which can not only help people detect most of the problems but sharply improve the efficiency of the work process.
+What the most important thing is it can save animals by using this new method, therefore I hope this can be widely applied.
+Although the original data is hard to be extracted, researchers use the technology of natural language processing to deal with it successfully.

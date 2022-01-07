@@ -1,0 +1,27 @@
+==== SOURCE
+
+University of Surrey. "AI neural network detects heart failure from single heartbeat: New AI neural network approach detects heart failure from a single heartbeat with 100% accuracy." ScienceDaily. ScienceDaily, 11 September 2019. <www.sciencedaily.com/releases/2019/09/190911101520.htm>.
+
+==== AGENT
+
+Dr Sebastiano Massaro, Associate Professor of Organisational Neuroscience at the University of Surrey
+
+==== GOAL
+
+develop a neural network approach that can accurately identify congestive heart failure
+
+==== DATA
+
+large publicly available ECG datasets featuring subjects with CHF as well as healthy, non-arrhythmic hearts
+
+==== METHODS
+
+used a combination of advanced signal processing and machine learning tools on raw ECG signals
+
+==== RESULTS
+
+They were able to accurately identify congestive heart failure with 100% accuracy through analysis of just one raw electrocardiogram (ECG) heartbeat
+
+==== COMMENTS
+
+100% accuracy from a single heartbeat allows for early intervention which will in turn ease the pressure on hospitals.

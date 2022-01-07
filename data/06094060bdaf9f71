@@ -1,0 +1,44 @@
+Machine Learning Predictive Models for Improved Acoustic Disdrometer 
+
+SOURCE
+
+https://doi.org/10.1109/HNICEM.2018.8666256
+https://journals.ametsoc.org/doi/full/10.1175/1520-0426%282001%29018%3C1640%3ALTRFUA%3E2.0.CO%3B2
+
+AGENT
+
+Ma. Madecheen S. Pangaliman - School of Electrical Electronics and Computer Engineering, Mapua University, Manila Philippines
+Febus Reidj G. Cruz -  School of Graduate Studies, Mapua University, Manila Philippines
+Timothy M. Amado  - Electronics Engineering Department, University of Santo Tomas, Manila, Philippines
+
+GOAL
+
+The trend of technology nowadays requires massive machine-to-machine communications and this can be done only through the application of artificial intelligence, deep learning, and machine learning to different devices through wireless sensor networks. 
+One of the applications is through the development of acoustic disdrometer. Acoustic disdrometer is a tool that measures the amount of rainfall through the sound produced as the raindrops hit the piezoelectric sensors.
+With this, the main purpose is to develop predictive models through the application of machine learning algorithms that can be used to categorize the intensity of the amount of rainfall from ambient noise. 
+
+DATA
+
+Datasets used in the study was obtained from the piezoelectric sensors of the acoustic disdrometer using the rain intensities of the rainfall simulator. 
+The rainfall simulator used has already established the five classification of rainfall, namely - light, moderate, heavy, intense and torrential.  
+After retrieving the dataset from the setup, the data will undergo data cleaning and data tidying. 
+
+METHODS
+
+Development of Predictive Models 
+Data Gathering and Data Pre-processing Results
+Predictive Model Results using the three supervised machine learning algorithms
+ K-Nearest Neighbors (KNN),
+ Support Vector Machine (SVM) and 
+ NaïveBayes Classifier 
+
+
+RESULTS
+
+Based from the obtained data results, it can be concluded that: 
+The data acquisition and data pre-processing techniques were effectively employed in generating the needed tidy dataset suitable for the machine learning applications;
+Three predictive models are developed successfully using the three supervised machine learning algorithms.
+The Polynomial Support Vector Machine is the most appropriate predictive model to be used in the study, where it obtained an accuracy of 98.71% using the out-of-sample accuracies, making the predictive model reliable for future applications. 
+
+COMMENTS
+Main shortcome of an acoustic disdrometer is the background noise cancellation which decreases the accuracy but as this model achieves a very good accuracy of 98.71%, it can be used for further research on improving acoustic disdrometers in use.

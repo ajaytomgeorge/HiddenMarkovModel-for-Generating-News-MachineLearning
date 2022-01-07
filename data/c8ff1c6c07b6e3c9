@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+https://newsroom.heart.org/news/machine-learning-could-offer-faster-more-precise-results-for-cardiac-mri-scans?preview=dcb0
+
+==== AGENT
+
+Charlotte Manisty et al. - Senior Lecturer at University College London and Consultant Cardiologist at the Barts Heart Centre and University College Hospitals.
+
+==== GOAL
+
+The goal of this work was to use a machine learning approach to reduce the time it takes to analyse heart function on cardiac MRI scans from the 13 minutes it takes human experts. This would see 54 clinician days saved per year at each UK health centre. The researchers also aimed to assess this ML approach’s potential to improve analysis accuracy.
+
+==== DATA
+
+The neural network was trained using cardiac MRI scans and the results from approximately 600 patients.
+
+==== METHODS
+
+Although the machine learning methodology is used not discussed in detail, the team used a neural network trained using 600 datapoints (cardiac MRI scan results) and tested it against the results of 110 patient’s scans from multiple health care centres. It was compared to the results of human analysed cardiac MRI scans, by people with varying levels of expertise (trainees to experts).
+
+==== RESULTS
+
+The result of this work saw a reduction in the time taken to analyse heart function in cardiac MRI scans from 13 minutes to just 4 seconds. The results of the neural network exhibited comparable accuracy when compared to a human based analysis of 110 patient’s scans from multiple healthcare centres. Although the reduction in analysis time using this neural network approach is advantageous, accuracy was not improved by this method. Resultantly, it is not being implemented in real world applications as of now.
+
+==== COMMENTS
+
+This machine learning approach did not prove to be more accurate than human analysis, if anything this approach was on par with the traditional method. However, it did reduce the analysis time substantially. Also, as Manisty notes: it shows a potential to surpass analysis by humans in the future, in terms of measurement precision and efficiency. The group intend on furthering this research, seeing a potential to “validate [machine leaning’s] superiority to human analysis”.

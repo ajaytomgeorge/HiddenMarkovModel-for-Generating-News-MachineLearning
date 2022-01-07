@@ -1,0 +1,31 @@
+====SOURCE 
+
+https://www.techrepublic.com/article/how-mit-researchers-use-machine-learning-to-detect-ip-hijackings-before-it-occurs/ 
+
+====AGENT 
+
+MIT 
+
+====GOAL 
+
+Detect IP hijacking before it occurs. 
+
+====DATA 
+
+Volatile changes in activity 
+
+Multiple address block 
+
+IP addresses in multiple countries 
+
+====METHOD 
+
+The machine learning system tagged networks with three key traits as shown above in terms of the blocks of IP addresses they us 
+
+====RESULTS 
+
+IP address hijacking will no longer be an issue 
+
+====COMMENTS 
+
+Internet security is a massive issue and machine learning could pose as an answer to a lot of online security problems. 

@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.foxnews.com/science/ai-predict-animal-viruses-likely-infect-humans-study
+
+== AGENT
+
+PLoS Biology
+
+== GOAL
+
+To Identify the next animal virus that is capable of infecting humans,
+
+== DATA
+
+With a dataset of 861 viral species with known zoonotic status, the researchers collected a single representative genome sequence from the hundreds of RNA and DNA virus species, spanning 36 viral families.
+
+== METHODS
+
+The used gradient boosted classification trees and clustering so, supervised and unsupervised learning were both used.
+
+== RESULTS
+
+Across the full dataset, 77.2% of viruses predicted to have very high zoonotic potential were known to infect humans.
+
+== ISSUES
+
+I dont see many issues with the work other than their results mightnt be that accurate for some cases as even though they applied their models, a 
+considerable numbers of viruses may need to undergo confirmatory testing (e.g., infectivity experiments on human-derived cell lines)
+
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought it was very interesting to know people are looking to prevent another virus like COVID from effecting the whole world again. 
+The news article was interesting but was misssing some important information like how it was trained and a more indept view of the results and tests.
+The results shown on the article was a brief quote from the researchers but when I actually read the paper and I could see they were missing quite abit.
+Altought the article didnt have all of the information it did show the link to the actual paper which I found really helpful to get a more indept view 
+of the project. The method of testing was very interesting 

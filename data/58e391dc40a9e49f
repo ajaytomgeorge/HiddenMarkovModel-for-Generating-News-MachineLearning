@@ -1,0 +1,35 @@
+== SOURCE
+
+https://research.netflix.com/research-area/machine-learning
+
+== AGENT
+
+Netflix
+
+== GOAL
+
+Support content decision makers with machine learning using historic titles on the site.
+
+== DATA
+
+Netflix viewers data.
+
+== METHODS
+
+Transfer learning, T-SNE visualisation, localised assets, embedding, supervised learning.
+
+== RESULTS
+
+It gives Netflix a great way to see how movies should be put on their site and also gives the user better options on their viewing experience.
+
+== ISSUES
+
+This system does not allow creators of obscure titles to take hold as it causes the system to choose titles that follow their trends which doesn’t always lead to originality. This is very hard to predict if content is good as well.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It’s an interesting story to see how Netflix works with deciding what goes on Netflix and what doesn’t and how complex it is that works with that decision. 

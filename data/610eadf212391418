@@ -1,0 +1,28 @@
+== SOURCE
+https://searchenterpriseai.techtarget.com/news/252507881/Machine-learning-development-for-autonomous-vehicles
+
+== AGENT
+SearchEnterpriseAI
+
+== GOAL
+understand how the new output will affect the overall end-to-end performance of the autonomous vehicle system.
+
+== DATA
+The framework starts with labeling or detecting crash and other accident scenarios and then transferring those scenarios into new training sets
+
+
+== METHODS
+Analyyzing crash and other accident scenarios and training the framework using machine learning to assess how it will affect the overall end-to-end performance of the autonomouse vehicle system.
+
+== RESULTS
+Successful reduction of complexities and enabling ML developers to focus on validating models.
+
+== ISSUES
+Changing the data may set Machine learningengineers back and could disrupt the experiment.
+
+
+== SCORE
+8
+
+== COMMENTS
+Machine learning and vehicles alwaus interested me and this article was very insightful.

@@ -1,0 +1,20 @@
+== SOURCE
+https://www.nationalgeographic.com/science/2020/09/face-mask-recognition-has-arrived-for-coronavirus-better-or-worse-cvd/
+== AGENT
+LeewayHertz, owned by Akash Takyar.
+== GOAL
+To introduce a more peaceful way of encouraging mask usage amongst the public, during the new coronavirus pandemic, rather than the public monitoring each other.
+== DATA
+CCTV footage obtained by earthcam.
+== METHODS
+It isolates images and organizes them into two categories, people who are wearing masks and those who are not, using machine learning tools.
+== RESULTS
+Currently, this recognition software is being used in “stealth mode” in multiple settings in the United States and Europe. Restaurants and hotels are using it to make sure the staff is complying with wearing masks. One airport on the East Coast of the United States is also testing the technology on-site, says Taykar.
+== ISSUES
+There is an issue of accuracy. Many of the training datasets used for facial recognition are dominated by light-skinned individuals. Using a new set of faces with much more racial and ethnic balance, the researchers found that the algorithm was less than 70 percent accurate in identifying new faces.
+== SCORE
+5
+== COMMENTS
+There is a lot of issues with the efficacy of this. For example while private companies may employ it, there would be issues applying it in public places, and censuring those who did not comply. Additionally, the long term uncertainty of its usefulness is doubtful. No one knows if masks will still be necessary in five or ten years.
+
+

@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://www.healthdatamanagement.com/news/machine-learning-can-differentiate-types-of-pancreatic-cancer-tumors
+
+==== AGENT
+
+The authors of the research can be found here
+https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0218642
+
+==== GOAL
+
+Develop a machine learning algorithm to distinguish between clinically relevant molecular subtypes 
+of pancreatic ductal adenocarcinoma (PDAC) from radiomic features.
+
+==== DATA
+
+They got their data from patients who were suffering from PDAC and used that to train and test
+the machine.
+
+==== METHODS
+
+They trained the AI using supervised methods with data from patients(70%) and then tested the findings 
+against the remaining set of patients(30%)
+
+==== RESULTS
+
+They found that entropy was the most important radiomic feature evaluated.
+
+==== COMMENTS
+
+This article covers the research produced well, with a clear breakdown that makes a non-expert able to 
+follow along.

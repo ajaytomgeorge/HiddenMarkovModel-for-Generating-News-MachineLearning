@@ -1,0 +1,36 @@
+== SOURCE
+
+https://tectales.com/ai/using-deep-learning-to-diagnose-autism.html
+
+== AGENT
+
+KAIST, in collaboration with the YonseiUniversity College of Medicine 
+
+== GOAL
+
+Identify abnormalities in brain structure, associated with ASD (autism), to aid diagnoses of ASD.
+
+== DATA
+
+- Open-source dataset Autism Brain Imaging Data Exchange initiative (>1000 MRI images)
+- Dataset of 84 MRI images from the Child Psychiatric Clinic at Severance Hospital, Yonsei University College of Medicine 
+
+== METHODS
+
+5 categories of deep-learning models, examining structural anatomy and activity of brains, in all regions of the brain
+
+== RESULTS
+
+Model was able identify specific characteristics of brains associated with ASD, describe how much an aspect would contribute to ASD behaviours, and give explanations of its rationale in producing its findings.
+
+== ISSUES
+
+This was done in Korea, I don’t know anything about medical ethics there. Not much detail on the models or what features they were actually looking for. No information on how the model performed, only what it does. How accurate is the output?
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I’d say this is kinda cool, I can definitely see it being useful in the future. Autism more often than not goes undiagnosed, and diagnoses are generally expensive, inaccessible to many, and highly subjective. Any tool or technology that could more accurately and efficiently diagnose ASD would be a welcome change, but there is a lot more research needed before that can become a reality. I think this particular article got a bit ahead of itself.

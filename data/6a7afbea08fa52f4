@@ -1,0 +1,39 @@
+== SOURCE
+
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+
+== AGENT
+
+Massachussetts Institute of Technology
+
+== GOAL
+
+identify the right synergistic drug combinations for SARS-CoV-2
+
+== DATA
+
+I assume data was created in a biological lab to train the neural network models on.
+
+== METHODS
+
+Main method was Supervised learning. Neural network to predict interations between pairs of drugs.
+Drug-target predictor models the interation between a drug and biological targets of a given disease. Target-disease
+association predictor learns to understand a drug's antiviral actibity by observing virus yield in tissue cultures.
+These two predictors can in turn predict the synergy of two drugs.
+
+== RESULTS
+
+Two new drug combinations were found to aid in the treatment of covid-19, remdesivir (FDA-approved) and reserpine, as well as remdesivir and IQ-1S.
+
+== ISSUES
+
+I do not see any issues.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This is by far the most interesting machine learning article I've read. It uses some truly innovative approaches to 
+a seemingly infinitely complex problem. The data source remained unspecified, disappointingly enough.

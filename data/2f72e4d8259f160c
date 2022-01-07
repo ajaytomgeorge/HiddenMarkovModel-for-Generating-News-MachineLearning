@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://scitechdaily.com/using-machine-learning-and-game-theory-to-successfully-identify-bacterial-antibiotic-resistance/
+
+==== AGENT
+
+Washington State University researchers 
+
+==== GOAL
+
+To use machine learning and game theory to successfully identify bacterial antibiotic resistance 
+
+==== DATA
+
+Researchers have been working to make use of genome sequencing to identify antibiotic-resistant genes, looking for similar sequences of genes in public databases.
+This works for identifying well-known antibiotic-resistant genes, but doesn’t hold up with new or unusual genes. To help identify new or unsual genes, game theory was used. 
+
+
+==== METHODS
+
+Using their machine learning algorithm and game theory approach, the researchers looked at the interactions of several features of the genetic material,
+ including its structure and the physiochemical, evolutionary, and composition properties of protein sequences rather than simply its sequence similarity.
+
+==== RESULTS
+
+By employing machine learning and game theory, the researchers were able to determine with 93 to 99 percent accuracy the presence of antibiotic-resistant genes 
+in three different types of bacteria.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+Include things about the deficiency of the story as written if you’re feeling snarky.

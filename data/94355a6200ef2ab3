@@ -1,0 +1,46 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/abstract/document/7275970
+
+== AGENT
+
+Vikas S Chavan, Shylaja S S
+
+== GOAL
+
+The fast growing use of social networking sites among the teens have made them vulnerable to get exposed to bullying. Cyberbullying is the use of computers and mobiles for bullying activities. Comments containing abusive words effect psychology of teens and demoralizes them. In this paper Vikas and Shylaja have devised methods to detect cyberbullying using supervised learning techniques. They presented two new hypotheses for feature extraction to detect offensive comments directed towards peers which are perceived more negatively and result in cyberbullying. Their initial experiments show that using features from the hypotheses in addition to traditional feature extraction techniques like TF-IDF and N-gram increases the accuracy of the system.
+
+== DATA
+
+In this paper machine learning techniques were used to detect the insults and offensiveness of the comments present in social networking sites. The datasets used for experiments are collected from kaggle website. The training datasets contain just 4000 comments. The model is applied on the test set which contains close to 2500 comments. The first objective is to predict whether a comment is an insult to a participant of a conversations. Two new hypotheses have been proposed for detecting cyberbullying. Further a comparison between the performances of popular machine learning classification algorithms is presented.
+
+== METHODS
+
+The steps involved are normalization, standard feature extraction, additional feature extraction, feature selection and finally classification.
+
+== RESULTS
+
+The model is tested over the test dataset which contains 2647 comments. Out of these, 720 comments are negative comments.
+
+Evaluation Parameters
+Following parameters are used to compare the individual algorithms on the test datasets.
+
+Recall: The recall is the ratio tp/(tp + fn) where tp is the number of true positives and fn is the number of false negatives. It is the ability of the classifier to find all the positive samples. This show that comments which are true bullied are predicted as bullied.
+
+Precision: The precision is the ratio tp/(tp + fp) where tp is the number of true positives and fp is the number of false positives. It is the ability of the classifier not to label a sample as positive that is negative.
+
+AUC (Area under the curve score): Computes the Area Under the Curve (AUC) from prediction scores and this evaluation parameter is strictly restricted to binary classification. As our task is to classify the comments as a bully/not bully i.e. a binary classification task, this evaluation parameter is very important. Using traditional feature extraction technique, model resulted in AUC score of 82%. An increase of 4% is achieved after introducing features extracted from the hypotheses.
+
+ACC score: In multilabel classification, this function computes subset accuracy i.e. the set of labels predicted for a sample must exactly match the corresponding set of labels in ground truth (correct) labels.
+
+== ISSUES
+
+There were no issues with this work. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Studying about an application of machine learning for detection of cyber-aggressive comments by peers on social media network is definitely interesting. The reporting in the press was reasonable. It was an interesting new way of using existing data and methods.

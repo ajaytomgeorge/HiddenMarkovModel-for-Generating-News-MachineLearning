@@ -1,0 +1,29 @@
+== SOURCE
+https://www.nature.com/articles/s41598-021-88807-2
+== AGENT
+Abolfazl Zargari Khuzani, Morteza Heidari & S. Ali Shariati
+== GOAL
+To make it easier to diagnose COVID-19
+== DATA
+They took chest x-ray images of people with pneumonia, covid and normal
+people(as control). 140 people with covid, 140 people with pneumonia and
+140 people with no condition. All images were set to 512 x 512 pixels.
+== METHODS
+The dataset was randomly split into a training set (80%) and a test set
+(20%). They used this train-test method to evaluate the supervised learning
+algorithm’s performance. The test set is then used to evaluate the trained
+model’s performance.
+== RESULTS
+Their model performed quite well with a sensitivity rate of 100% and a
+precision rate of 96%
+== ISSUES
+Everything looks really good but I’m worried about the fact that they only
+used 88 images as a test. I think that’s too small. Another issue with it
+is scalability. This technology seems to be very useful but it’s too
+expensive in the sense that we wouldn’t be able to test anywhere near as
+many people as we test with a standard PCR test daily.
+== SCORE
+9. Machine learning solution for a real-world problem. Awesome
+== COMMENTS
+I really liked this project. The only issues I had were pointed out above
+but in general it was really cool.

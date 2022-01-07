@@ -1,0 +1,28 @@
+
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Massachusetts Institute of Technology
+
+==== GOAL
+
+The goal of this endeavor was to develop a system to catch cybercriminals. Specifically, this system is aimed at tackling "IP Hacking", the practice of rerouting data over a WAN to gain sensitive information. This is in response to cases such as in China whereby a telecom company would reroute internet traffic to spy on areas of interest. The exploit occurs by exploiting a protocol within the network which is used adjust traffic through the fastest route, the Border Gateway (BGP). Nefarious users could use this exploit to reroute traffic and hence gather sensistive information from users.
+
+==== DATA
+
+Data was attained from several years of network operators and historical data Border Gateway Protocal (BGP) that was attained every 5 minutes from the global routing table. Such data provided an angle to decipher between normal network behaviour and behaviour that corresponded to cybercriminals exploiting BGP to reroute traffic.
+
+==== METHODS
+
+They're have and currently are listing networks with a "bad reputation" as untrustworthy sources, however this has caused a problem as their classifer cannot often distinguish between genuine rerouting (e.g. to stop a DoS attack). This has been a huge blow as supposedly 20% of their test cases did not account for this.
+
+==== RESULTS
+
+Though it is not at all abandoned, the plan has been slowed, especially considering how AT&T has proposed a new solution to the problem without any Machine Learning and instead routing for a new public key infrastructure (RPKI). They hope that in new iterations the algorithm will not need human intervention to prevent false positives.
+
+==== COMMENTS
+
+Though its a fantastic use of machine learning, I don't think its necessary considering there are regular systematic processes to at least make this problem harder to exploit.

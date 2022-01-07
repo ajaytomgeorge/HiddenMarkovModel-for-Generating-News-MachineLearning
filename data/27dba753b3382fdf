@@ -1,0 +1,29 @@
+==== SOURCE
+
+An Application of Data Mining and MachineLearning for Weather Forecasting
+https://www.academia.edu/33998974/An_Application_of_Data_Mining_and_Machine_Learning_for_Weather_Forecasting
+
+==== AGENT
+
+Risul Islam Rasel, Nasrin Sultana, Phayung Meesad 
+
+==== GOAL
+
+To observe weather forecasting performance of different Machine Learning and Data Mining techniques to propose a weather forecasting model to forecast weather with high accuracy.
+
+==== DATA
+
+The 6-years historical weather dataset of rainfall and temperature of Chittagong metropolitan area were 
+collected from Bangladesh Meteorological Department (BMD).
+
+==== METHODS
+
+Methods like Support Vector Regression(SVR) and Artiﬁcial Neural Networks (ANN) for a robust weather prediction.
+
+==== RESULTS
+
+SVR can outperform the ANN in rainfall prediction and ANN can produce the better weather results than the SVR with acceptable deviation of error rate.
+
+==== COMMENTS
+
+Dataset from a single station of country were used but more data points is needed for better accuracy and more relaibility. 

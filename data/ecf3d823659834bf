@@ -1,0 +1,41 @@
+== SOURCE
+
+https://blog.education-ecosystem.com/why-artificial-intelligence-failed-in-predicting-the-2018-fifa-world-cup-winner/
+
+== AGENT
+
+German Technische Universitat of Dortmund, the Ghent University in Belgium, and the Technical University in Munich
+
+== GOAL
+
+To predict the FIFA 2018 World Cup
+
+== DATA
+
+Information from the last four fifa world cups, current performace of teams/players, FIFA ranking, team structure, economy of participating country and skills of the coach.
+
+== METHODS
+
+The event was simulated 100,000 times and used three different data modelling techniques: poisson regression modules, random forcasts, and ranking modules.
+
+== RESULTS
+
+It Got it wrong
+
+Two of the countires indicated most likely to win (Spain and Germany) did not even reach the quarter finals however the county predicted to come in fourth place france went on to win the tournament.
+
+== ISSUES
+
+Due to the nature of the event there are too many variables to take into account that can occur within the 90 minute game. furthermore aprt from internal factors such as team performance or coach skills the AI could not account for an unfair referee, players personal problems, fan sentiments or weather
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The use of artifical intelligence in predicting an outcome such as the FIFA world cup needs to be worked upon. However Even if a program like this exists or is developed that reliably predicts such outcomes it is unlikely we will ever hear about it as once a system system like this is made public its potential to make its owner very wealthy diminishes.
+
+
+
+

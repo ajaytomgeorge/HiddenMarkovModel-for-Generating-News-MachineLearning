@@ -1,0 +1,27 @@
+== SOURCE
+https://readwrite.com/2020/10/15/how-artificial-intelligence-is-transforming-customer-service-industry/
+
+== AGENT
+Enterprise
+
+== GOAL
+Answer queries
+
+== DATA
+Customer's past consultation records
+
+== METHODS
+The classification method of supervised learning is adopted. Different questions can be split into different sentences, phrases, and words. These contents correspond to a Wij as input, and then the most likely answer to this question can be calculated. The staff can review the content after each consultation to verify whether the answer given by the system is the most suitable answer, and if not, manually correct the model to make the model more accurate.
+
+== RESULTS
+Get the most relevant answer.
+
+== ISSUES
+· ethical issues:
+To continuously improve the accuracy of this type of application, it needs to provide enough data and constantly let people train the machine. In the past, when we talked to others about this type of problem, I knew who the other person was and the emotion of the other person when chatting , And these are all private. However, although I am chatting with the machine now, it also means that there must be someone or a few people or even a team staring at me and chatting. I can’t know who the opposite person is. Are they angry because of my problem? Are they laughing at my question. In short, I am not comfortable.
+
+== SCORE
+2
+
+== COMMENTS
+I think this application is useful, but it is not fresh and makes me uncomfortable.

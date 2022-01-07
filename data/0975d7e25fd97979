@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+Iowa State University (2019). Machine learning in agriculture: Scientists are teaching computers to diagnose soybean stress. Available at: https://techxplore.com/news/2019-09-machine-agriculture-scientists-soybean-stress.html
+
+==== AGENT
+
+Arti Singh's research team at Iowa State University.
+
+==== GOAL
+
+To spot and predict disease and stress in crops using unmanned aircraft.
+
+==== DATA
+
+They collected a large number of soybean images including both healthy and undergoing stress and disease.
+
+==== METHODS
+
+They trained algorithms to recognise and classify and predict stresses in new images through labelled images of various soybean stresses and assembles algorithms.
+
+==== RESULTS
+
+The machine learning programme could be able to spot a wide range of soybean stresses, such as fungal, bacterial and viral diseases, as well as nutrient deficiency and herbicide injury.
+
+==== COMMENTS
+
+As the article mentioned, further development will use hyperspectral imaging that capture wavelength ranges beyond those seen by human eye, which enables the machine to predict potential risks before symptoms of stresses appearing. This would give farmers more time to solve such problems.

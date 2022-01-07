@@ -1,0 +1,35 @@
+== SOURCE
+
+https://syncedreview.com/2021/09/24/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-111/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Compare Google’s Zero-Label Language Learning With Supervised Learning
+
+== DATA
+
+Unsupervised Data Generation
+
+== METHODS
+
+Supervised Unsupervised
+
+== RESULTS
+
+Google’s Zero-Label Language Learning Achieved Results Competitive With Supervised Learning
+
+== ISSUES
+
+Results were not always better
+
+== SCORE
+
+5
+
+== COMMENTS
+
+interesting to read about models are trained purely on synthetic data

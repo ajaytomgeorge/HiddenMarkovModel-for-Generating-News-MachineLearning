@@ -1,0 +1,27 @@
+==== SOURCE
+
+Techjunkie.com. (2019). How Do Tinder Smart Photos work?. [online] Available at: https://www.techjunkie.com/tinder-smart-photos/ [Accessed 13 Oct. 2019].
+
+==== AGENT
+
+Tinder
+
+==== GOAL
+
+Create a system that will learn which of your photos are most likely to get a successful swipe and show that picture as your main picture.
+
+==== DATA
+
+The system starts out showing random photos from the users photo set. As these photos get selected or rejected, they are added to the data set.
+
+==== METHODS
+
+The system tries out random photos as the main photo in th beginning. It then learns which photos are more likely to be successful based on selection/rejection. The more successful photos re moved up in the order of display. 
+
+==== RESULTS
+
+The system should always display the photo most likely to be successful for the user after it hs gathered enough data.
+
+==== COMMENTS
+
+An interesting but simple algorithm is applied here and should theoretically increase the chances of a match given a large enough dataset and variety in photos available. The article is somewhat lacking in what the increase of matches is when using this smart photo system but otherwise is quite good.

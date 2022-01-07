@@ -1,0 +1,36 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/8644458
+
+== AGENT
+
+Adil Mahmud Choudhury, Kamruddin Nur.
+
+== GOAL
+
+A Machine Learning Approach to Identify Potential Customer Based on Purchase Behavior.
+
+== DATA
+
+Dataset consists of 9259 customers sales data. Over the three months, 194439 invoice entries are given. On average a customer made 7 purchases each month. Each invoice contains a minimum of one and a maximum of 83 types of items. Items are grouped into 19 categories. These data are collected from the Taradin superstore.
+
+== METHODS
+
+Supervised machine learning (Logistic Regression, Decision Tree Classifier, Support Vector Classifier, Random Forest Classifier, Multilayer Perceptron Classifier).
+
+== RESULTS
+
+It is very difficult to find a pattern using the native dataset and it gives 56.78% accuracy. But Engineered feature will provide more accuracy of 99.41% by using the Multilayer Perceptron Classifier.
+
+== ISSUES
+
+There is no issue with the proposed module. But the data used for checking the accuracy is from the Teradin superstore. hence the accuracy will differ with different companies.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+
+The proposed module is very interesting. This project will help the companies to understand their customer behavior and give better service. This will help the business to earn more profit. The proposed module accuracy is considered with the data collected from the store in Teradin. Hence the result accuracy will differ from other companies, considering their sales data.

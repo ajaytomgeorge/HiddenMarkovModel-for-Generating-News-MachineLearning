@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.the-scientist.com/critic-at-large/opinion--ai-beats-animal-testing-at-finding-toxic-chemicals-65795
+
+== AGENT
+
+The Center for Alternatives to Animal Testing (CAAT) at Johns Hopkins University.
+
+== GOAL
+
+Better understanding of toxicology detection than animals.
+
+== DATA
+
+European REACH legistlation databse.
+
+== METHODS
+
+Big Data and Transfer Learning.
+
+== RESULTS
+
+Easier mapping of toxicology for different chemicals without animals suffering.
+
+== ISSUES
+
+Only simple toxicology issues can be mapped correctly.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Interesting study and great for animal preservation.

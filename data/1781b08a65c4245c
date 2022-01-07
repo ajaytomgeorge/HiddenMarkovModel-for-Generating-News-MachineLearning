@@ -1,0 +1,55 @@
+== SOURCE
+
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+
+Nature Research
+
+
+== GOAL
+
+Efficient and targeted COVID-19 vorder teseting via reinforcement learning. Limit the influx of asymptomatic 
+travellers infected with SARS-COV-2.
+Adapt border policies based on real-time estimates of covid-19 prevalence.
+
+== DATA
+
+They acquired demographic data (country, region, age, gender, point and date of entry from travellers 24 hours prior to travelling 
+and used this to train the so-called 'EVA' model.
+
+
+== METHODS
+
+Reinforcement learning was the main method used. Lasso regression was used to adaptively extract demographic 
+features of passengers. Bayes' method used to estimate each traveller type's prevalence daily.
+
+== RESULTS
+
+Eva was most effective when testing was more scarce. Random surveillence testing would have identified 54.1% of cases
+Eva identified (+-8%).
+
+== ISSUES
+
+I think a more accurate region description was neccessary when describing the country of origin, to allow for
+higher accuracy when predicting covid prevalence. This would have better accounted for those living in densely-populated 
+areas and those who lived in more sparsely-populated regions in a given country.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?
+
+
+The methods were quite conventional and modern, but used on interesting data with an extremely useful application. I 
+may have used a deep learning model for the regression problem in which they used lasso regression, although, being unfirmiliar with
+the data first-hand, I assume lasso fit the dataset most optimally. 

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://esource.dbs.ie/bitstream/handle/10788/4250/msc_mineni_h_2020.pdf?sequence=1&isAllowed=y
+
+== AGENT
+
+Ms. Himaja Mineni
+
+== GOAL
+
+Prediction of second heart attack using machine learning and deep learning techniques
+
+== DATA
+
+ECG recordings of patients
+
+== METHODS
+
+Classification, Supervised
+
+== RESULTS
+
+Successful prediction of Heart Attacks
+
+== ISSUES
+
+Data input must be accurate
+
+== SCORE
+
+6
+
+== COMMENTS
+
+NONE

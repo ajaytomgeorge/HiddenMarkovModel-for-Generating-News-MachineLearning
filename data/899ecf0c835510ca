@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://techcrunch.com/2019/05/22/mona-lisa-frown-machine-learning-brings-old-paintings-and-photos-to-life/
+
+==== AGENT
+
+Samsung AI Center
+
+==== GOAL
+
+To recreate lifelike motion using just a single frame of a persons face and a driving 
+sequence.
+
+==== DATA
+
+The system requires a single frame of the persons face as well as a driving video which 
+is used to decide the motions of the single frame image.
+
+==== METHODS
+
+This program uses a Generative Adversarial Network. This means the system generation the 
+sequence has to fool another program it is pitted against into thinking that the face 
+produced is an authentic human being and not just a rendering of one. The second system 
+is doing the authenticating and will not let the first system produce an output unless it 
+is reasonably certain that it is an actual human face.
+
+==== RESULTS
+
+The results of this project are amazing with a single frame and a driving sequence the 
+team were able to achieve outputs of extremely convincing 'fake humans'. Considering the 
+little amount of data required for these systems to output a false human of this quality 
+is astounding.
+
+==== COMMENTS
+
+This technology, I feel, could be used in countless aplications related to facial 
+recognition and other image manipulation/translation softwares.

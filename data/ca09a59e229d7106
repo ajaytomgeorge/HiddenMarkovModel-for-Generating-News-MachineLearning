@@ -1,0 +1,35 @@
+== SOURCE
+
+https://eandt.theiet.org/content/articles/2020/10/machine-learning-accelerated-with-dog-training-technique/
+
+== AGENT
+
+John Hopkins University
+
+== GOAL
+
+Use positive reinforcement to teach a robot new skills, including stacking blocks, at a rate faster than if not to use positive reinforcement.
+
+== DATA
+
+Other than the points system, the article does not go into much detail on the data that was used as input.
+
+== METHODS
+
+In this case, Hundt and his colleagues devised a reward system which reflects giving dogs treats during training for performing tasks correctly; the rewards in the case of the algorithm were numerical points. The researchers used this system to teach a robot to stack bricks. As the robot experimented with the blocks, it quickly learned that the correct behaviours for stacking earned points while incorrect ones earned no points; the most points could be earned by placing the final block on top of the stack of blocks.
+
+== RESULTS
+
+The system took just days to teach what previously would have taken weeks – including wasting time exploring dead ends – with the team speeding up the process by running a simulation before running tests with the robot. Efficiency with respect to actions per trial typically improves by 30 per cent or more.
+
+== ISSUES
+
+This approach seems to have great results when attempting to complete simple tasks, however I would imagine there would be great difficulty in implementing it for much more complex tasks such as those in the real world. Measures will have to be put in place to prevent the robots from taking "shortcuts" to receiving rewards.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This is interesting as positive reinforcement approach could help train robots to perform tasks in real-world settings, such as by training household robots to do laundry and wash dishes, or improving the performance of autonomous driving systems. It is also cool to think of robots as dogs being trained.

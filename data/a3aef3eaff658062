@@ -1,0 +1,29 @@
+==== SOURCE
+http://news.mit.edu/2019/using-machine-learning-estimate-risk-cardiovascular-death-0912
+==== AGENT
+A team from MIT’s Computer Science and Artificial Intelligence Laboratory
+==== GOAL
+A new system for better predicting health outcomes for Cardiovascualar patients
+==== DATA
+The system, called “RiskCardio,” focuses on patients who have survived an acute coronary 
+syndrome (ACS). Using just the first 15 minutes of a patient's raw electrocardiogram 
+(ECG) signal, the tool produces a score that places patients into different risk categories. 
+RiskCardio’s high-risk patients — patients in the top quartile — were nearly seven times more 
+likely to die of cardiovascular death when compared to the low-risk group in the bottom quartile. 
+By comparison, patients identified as high risk by the most common existing risk metrics were only 
+three times more likely to suffer an adverse event compared to their low-risk counterparts. 
+==== METHODS
+To get the model up and running, the team first separated each patient's signal into a 
+collection of adjacent heart beats. They then assigned a label — i.e., whether or not the 
+patient died of cardiovascular death — to each set of adjacent heartbeats. The researchers 
+trained the model to classify each pair of adjacent heartbeats to its patient outcome: Heartbeats 
+from patients who died were labeled “risky,” while heartbeats from patients who survived were 
+labeled “normal.” 
+==== RESULTS
+They measured how much more likely a patient would suffer from cardiovascular death as a 
+high-risk patient when compared to a set of low-risk patients. They found that in 
+roughly 1,250 post-ACS patients, 28 would die of cardiovascular death within a year. 
+Using the proposed risk score, 19 of those 28 patients were classified as high-risk.
+==== COMMENTS
+How effective could this approach be seen as all bodies are different? How accurate is it? What is the
+margin of error?

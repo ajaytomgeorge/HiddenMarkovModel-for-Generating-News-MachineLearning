@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Researchers from the University of Pennsylvania and the University of Southern California completed this research.
+
+== GOAL
+
+To create a machine learning system for targeted COVID-19 border testing. This would be a success if it could accurately detect asymptomatic, infected travelers.
+
+== DATA
+
+The data used in this system, was provided by the Greek Ministry of Civil Protection, and is available on Github (anonymized) to allow for further research.
+
+== METHODS
+
+A fully real-time, reinforcement learning system. 
+
+== RESULTS
+
+The system has had a consistent improvement over random testing, as well as against other available systems with the same goal.
+
+== ISSUES
+
+The algorithm was designed at the beginning around data minimization, to avoid the possibility of breaching GDPR. While this is commendable, it means we are unable to tell if more information would have improved the accuracy of the system. 
+It also remains to be shown how this system would perform in any other location than Greece.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The press covered this paper very well. I believe the article covered the topic in enough detail that a layman could understand, without losing too much detail. They could have included slightly more information about the algorithm used though, in my opinion.
+
+The code being made available publicly, as well as the dataset is a great sign and makes reproduction/improvement possible.

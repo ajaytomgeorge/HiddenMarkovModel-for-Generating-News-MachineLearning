@@ -1,0 +1,19 @@
+== SOURCE
+https://www.reuters.com/article/us-amazon-com-jobs-auto
+== AGENT
+Amazon
+== GOAL
+To create an algorithm to review amazon job applications to mechanize the search for top tallent.
+== DATA
+The algorithm was fed successful resumes of applicants over a 10 year period
+== METHODS
+unsupervised
+== RESULTS
+The algorithm continuously spit out male candidates as more suitable for the job than women.
+== ISSUES
+the algorithm saw that women applications were unsuccsessful in the past and ruled that to be the common theme in failure. Not ideal for a company trying to show off its multi gender work ethics. they Fixed this particular error but could not guarantee that another way of sorting candidates would not be descriminatory acourding to the AI.
+== SCORE
+8
+== COMMENTS
+i think this was a unique error and one sensibly fixed by the company. the press i believe gave the whole story allowing not too of a bias to be forced on the reader.
+

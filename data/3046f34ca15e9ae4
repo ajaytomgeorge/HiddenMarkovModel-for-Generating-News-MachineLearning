@@ -1,0 +1,44 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-35902104
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+Creating a self-learning and chatting chat bot.
+
+== DATA
+
+At first, Tay (the chatterbot in question) was trained to make sentences like a 16 yo user.
+After, they used twitter and the people messaging it to enhance the bot's new sentence to learn.
+It was able to add images and emoji.
+
+== METHODS
+
+At first, it learns how to speak English with an already trained AI. After, it uses every private message sended to it to learn new sentences to say.
+With all of the messages, it creates an "artificial" personality : it uses the sentences given to it.
+
+== RESULTS
+
+In 16 hours and with over ninety thousand tweets, Tay bot became racist, sexist and not politically friendly.
+
+== ISSUES
+
+The problem was to trust the internet to teach Tay new sentences. With malicious intent, it shows that an AI can turn not what we expected to be. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It's interesting to see how an artificial intelligence can get out of control if not choosing the right way of learning and not putting the right 'rules of learning'.
+For example, learning the boundaries of what to learn and what not to learn, what it can repeat and it can’t.
+
+The article is correct about the past event that happened on twitter. Other chat bot were created successfully in China like the Xiaoice bot. A similar bot in english and successor of Tay, was created and named Zo.
+It was online for 4 years after getting shut down because of similar problems.
+The article describes the event with the accuracy needed but does not describe how the AI was made.
+

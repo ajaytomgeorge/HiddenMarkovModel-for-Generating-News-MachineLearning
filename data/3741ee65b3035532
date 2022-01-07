@@ -1,0 +1,36 @@
+== SOURCE
+https://www.dbta.com/Editorial/News-Flashes/ScaleOut-Software-Adds-Machine-Learning-Capabilities-to-its-Twin-Streaming-Service-149436.aspx
+
+== AGENT
+ScaleOut Software
+
+== GOAL
+Integration of machine learning with real-time digital for real-time monitoring across a wide variety of applications.
+
+== DATA
+Data collected from a vast variet of applications such as cloud-based real time system that can track a fleet of trucks to identify subtle changes in ke engine paremeteres to avoid costly failures.
+
+
+== METHODS
+Implementing host machine learning and statystical analysis algorithms
+
+
+== RESULTS
+A tool that provides three configuration options for analyzing numeric parameters contained within incoming messages to spot issues as they are:
+
+    Spike Detection: Tracks a single parameter from a data source to identify a spike in its values over time using an adaptive kernel density estimation algorithm implemented by ML.NET.
+
+    Trend Detection: Also tracks a single parameter to identify a trend change, such as an unexpected increase over time for a parameter that is normally stable, using a linear regression algorithm that detects inflection points.
+
+    Multi-Variable Anomaly Detection: Tracks a set of related parameters in aggregate to identify anomalies using a user-selected machine-learning algorithm implemented by ML.NET that performs binary classification with supervised learning.
+
+
+== ISSUES
+Using Microsoft's ML.NET machine learning library means that ScaleOut Software relyies on them for their project.
+
+
+== SCORE
+5
+
+== COMMENTS
+Overall the article was not bad but it did not interest me personally. I am not a fan of relying on other libraries for a project of that scale.

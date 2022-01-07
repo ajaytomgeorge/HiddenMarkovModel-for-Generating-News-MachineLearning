@@ -1,0 +1,29 @@
+== SOURCE
+https://healthitanalytics.com/features/how-machine-learning-is-transforming-clinical-decision-support-tools
+
+== AGENT
+Duke Institute for Health Innovation. 
+
+== GOAL
+To predict adult patients’ risk of in-hospital mortality.
+
+== DATA
+Data used:
+Which hospitals had better or worse mortality rates
+How did they get it:
+State health department to get data through the vital statistics office
+
+== METHODS
+Models, Unsupervised Learning
+
+== RESULTS
+The results showed that the model performed on par with state-of-the-art methods.
+
+== ISSUES
+None as making everything automated can save more lives.
+
+== SCORE
+5
+
+== COMMENTS
+It was interesting and a new way of using existing data and methods.

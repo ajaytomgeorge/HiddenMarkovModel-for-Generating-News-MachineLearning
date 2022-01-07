@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.cbsnews.com/news/microsoft-shuts-down-ai-chatbot-after-it-turned-into-racist-nazi/
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+The goal of the Together and You (TAY) Twitter bot was to design an AI to "engage people in dialogue through tweets or direct messages, while emulating the style and slang of a teenage girl".
+
+== DATA
+
+TAY was initially trained using a large dataset of anonymised public data and some pre written inputs by comedians to appeal to people aged 18 to 24. TAY was then live fed phrases and had interactions with thousands of users.   
+
+== METHODS
+
+TAY was taught using both supervised deep learning and natural learning processing (NLP). NLP is a method of assigning numerical values to words depending on the previous word for the use of predictive speech.
+
+== RESULTS
+
+TAY was a disaster. The repeat after me functionality meant that it internalised some of the structure and phrases from the horrendous sentences the internet trolls fed it. It posted about the holocaust and Hitler and was used as a weapon to target specific people, such as Zoey Quinn. TAY was deactivated less than a day after launch.  
+
+== ISSUES
+
+TAY's issues lay in the numeric vectors which it could understand. It did not have any negative context for hate speech or insults, which could have been parametrised in its weighting during training or at least by public launch.  
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The application of machine learning to work as a chat bot nowadays is not shocking, with TAY showing developers what to avoid in the years since. TAY is an interesting example of how people will try and ruin or break whatever tool you make. As I have said, some correlation between the positivity of a word (which is a strange and difficult thing to quantify) would help combat the degradation of a chat bot into becoming a neo-Nazi. The press took advantage of the (accidental) creation of a racist chat bot by Microsoft and included snippets of the tweets made by TAY which gave the article the shock factor and headline mainstream media need.
+

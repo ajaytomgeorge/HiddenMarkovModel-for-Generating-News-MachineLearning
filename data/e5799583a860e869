@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2020/gaussian-machine-learning-tb-drug-1015
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Discover potentially more effective drugs against TB
+
+== DATA
+
+Laboratorial data of different molecules interacting with each other
+
+== METHODS
+
+Gaussian process, which introduced uncertainty to learning
+
+== RESULTS
+
+Model certainty jumped from 40 percent to 90
+
+== ISSUES
+
+N/A
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Interesting from a Medical perspective

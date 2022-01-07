@@ -1,0 +1,46 @@
+== SOURCE
+
+https://news.mit.edu/2021/machine-learning-discovers-sequences-boost-drug-delivery-0810
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Find powerful peptides that could improve a gene therapy drug for Duchenne muscular dystrophy.
+In layman's terms, Use Machine learning to discover new sequences to boost drug delivery.
+Another goal of the study was to One goal of the project was to create a model that could work with any amino acid,
+while only 20 amino acids naturally occur in the human body, hundreds more exist elsewhere.
+
+== DATA
+
+Before a model could make any worthwhile predictions, researchers on the experimental side needed to create a robust dataset. 
+By mixing and matching 57 different peptides, Schissel and her colleagues were able to build a library of 600 miniproteins, each attached to PMO. 
+The team was able to quantify how well each miniprotein could move its cargo across the cell.
+
+== METHODS
+
+The team trained a convolutional neural network on the miniprotein library, 
+with each of the 600 miniproteins labeled with its activity, indicating its ability to permeate the cell.
+
+== RESULTS
+
+The machine learning model proposed sequences that were more effective than any previously known variant. One in particular can boost PMO delivery by 50-fold.
+By injecting mice with these computer-suggested sequences, the researchers validated their predictions and demonstrated that the miniproteins are nontoxic.
+
+== ISSUES
+
+I found the study very interesting In how a computer science technique like machine learning can boost the performance in delivery of medicine by a significant amount.
+It really shows the potential of this area in CS. The only issue I had with this study was their use of mice as guinea pigs not knowing
+whether a substance is toxic to humans. It might be best practice in the industry but it still seems wrong to do this.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I thought the study was inspiring and a real advancement in the area of medicine.
+An area of potential from reading all of these machine learning articles and studys,
+would be to further mesh machine learning and medicine/ healthcare together.

@@ -1,0 +1,40 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/abstract/document/9036769
+
+== AGENT
+
+Surabhi Ghankutkar; Neelabh Sarkar; Pooja Gajbhiye; Sanyukta Yadav; Dhananjay Kalbande; Nida Bakereywala
+
+== GOAL
+
+The goal is to develop a system which analyzes real-time crime data in the form of online news articles and give a report of the news which are related to crime.
+
+== DATA
+
+The machine learning model is trained using 6700 News records from the News Category dataset. The News Category dataset contains around 200k news from the year 2012 to 2018 taken from HuffPost. To create the training dataset from the News Category dataset for training the machine learning model for our system, they took the crime news records and around other 3300 records of another category of news which included comedy, business, education, entertainment, politics, religion, science, sports, tech, travel, and world news. Thus the final training dataset consisted of around 6700 records of crime and non-crime categories. The final training dataset consisted of the following attributes: headline, category (crime or non-crime), and date.
+
+== METHODS
+
+What methods (algorithms, etc) did they use? Supervised? Unsupervised? RL?
+The experiment uses the following algorithms:
+1.  Apriori algorithm
+2. K means algorithm 
+3. DBscan algorithm
+Deep Learning has been used in this model.
+
+== RESULTS
+
+Machine Learning was used to classify the news into crime and non-crime. The classification of real-time news was performed.
+
+== ISSUES
+
+This model was used to help analyze the current and past crimes to predict future crimes. The one issue that came to my mind would be the authenticity of the news reporting. The initial reporting of the crime might not be correct and the correct news might be coming in the future(maybe after some days/weeks or even years). Hence, we cannot guarantee the authenticity of some crimes, which can cause false positives in the predictions.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Crime detection has become a very important part in our safety. This approach helps us to reduce the amount of crime rates in the society, which to me, is a huge thing to do. Although crime detections are used before, this initiative of the authors is applauding.

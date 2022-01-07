@@ -1,0 +1,32 @@
+﻿==== SOURCE
+
+Yu, Q., Miche, Y., Séverin, E., & Lendasse, A. (2014). Bankruptcy prediction using Extreme Learning Machine and financial expertise. Neurocomputing, 128, 296–302. https://doi.org/10.1016/j.neucom.2013.01.063
+
+==== AGENT
+
+Qi Yu (Department of Information and Computer Science, Aalto University, FI-00076 Espoo, Finland)
+Yoan Miche (Department of Information and Computer Science, Aalto University, FI-00076 Espoo, Finland)
+Eric Séverin (LEM, Université Lille 1, 59043 Lille Cedex, France)
+Amaury Lendasse (Department of Information and Computer Science, Aalto University, FI-00076 Espoo, Finland)
+
+==== GOAL
+
+In this experiment, Leave-One-Out-Incremental Extreme Learning Machine (LOO-IELM) is explored for this task. Besides, Combo method and Ensemble model are explored based on LOO-IELM, as well as some pre- knowledge of financial expertise in order to improve the bankruptcy prediction accuracy. 
+
+==== DATA
+
+Philippe du Jardin gathered and constructed this data about French retail companies for quite a long 22time 2002 and 2003. The data collection of 2002 includes organizations that have accounting data from the year 2002 and net value data from the year 2001. The bankruptcy decisions, or more precisely, choices of revamping or liquidation, are from the year 2003. The data collection of 2003 was developed likewise. In both data sets, the proportion of healthy and bankrupted companies is balanced. Altogether, there are 500 and 520 examples, individually. The organizations are all from the exchange division and they have a comparative structure, juridically and from the perspective of the benefits.
+Both of the data sets have 41 variables originally, which were divided into six groups: The first represents the performance of the firms (such as for instance EBITDA/Total assets), the second the efficiency (such as for instance Value added/Total sales), the third the financial distress (such as for instance financial expenses/Total sales), the fourth the financial structure (such as for instance Total debt/Total equity), the fifth the liquidity (such as for instance quick ratio) and the sixth the rotation (such as for instance Accounts payable/Total sales). 
+
+==== METHODS
+
+In this investigation, all techniques are tried on both two sets (9 priori chose Variables from automatic black-box variable selection and 12 priori chose Variables from financial expertise.It is stated that a specific strategy for making a gathering can be ensemble to the best single model. Hence, how to consolidate the models turns into an issue. There are a few different ways to accomplish this. One model is utilizing Non-Negative constrained Least-Squares (NNLS) algorithm. In this paper, scientist utilize the decision table for the ensemble. The decision table is made as per the precision of various individual classifiers.
+
+==== RESULTS
+
+Ensemble model are investigated based on different LOO-IELM models and the specific financial indicators. It ensembles from a LOO-IELM model and a Combo method trained with the same training set. The ensemble process is accomplished by decision and the entire algorithm performs a good prediction as shown in the experiments and it helps to interpret the model. In general, the 9 variables (9V) selected by automatic black-box variable selection performs better than the 12 variables (12V) chosen by financial expertise. However, even though the choice of 12V could not compel conviction, the financial ratios, the intervals used in Combo method play an important role in this study. 
+
+==== COMMENTS
+
+This examination displays a strategy called LOO-IELM. It uses PRESS statstics to calculate LOO, in order to select the best neurons in a incremental way. In this manner, LOO-IELM has a bit of advantage that it accomplishes an optimal set of neurons while no parameters should be tuned. Also, it keeps up the quick computational speed as original ELM. Then again, as per the preknowledge of financial expertise, there is a fascinating phenomenon that the companies containing the outliers of some particular factors will tend to go bankrupt. Hence, Combo technique uses this phenomenon just as the LOO-IELM model, wso that it improves the classification results.
+In general, the entire process has demonstrated its good performance with a very fast speed, and furthermore interpret the model and the special ratios.

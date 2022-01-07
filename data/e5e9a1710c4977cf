@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211008/Study-uncovers-toxic-air-pollutant-mixtures-linked-to-poor-childhood-asthma-outcomes.aspx
+
+== AGENT
+
+Icahn School of Medicine
+
+== GOAL
+
+Identify unknown mixtures of toxic air pollutants that can be linked to poor asthma outcomes later in a child's life
+
+== DATA
+
+Estimates for 125 known pollutants and birth years of 151 children from the New York metropolitan region obtained from the Environmental Protection Agency's National Air Toxics Assessment resource.
+
+== METHODS
+
+They mapped the datasets above and then applied an EXBoost algorithm which is based on the construction of hundreds of decision trees. Then, they tested whether increased levels of these pollutants early in a child's life were correlated with asthma problems around the age of 12.
+
+== RESULTS
+
+They were able to find that some pollutants may have worked alone and also that others could act alone or in mixtures. Lastly, some pollutants could only cause poor outcomes when coupled with other compounds. Demographic correlations were also found, showing that certain pollutants were caused asthma problems in children from lower family incomes.
+
+== ISSUES
+
+The main issue with this research is the lack of data. While they were able to combat this using the methods mentioned, their researched could've progressed much quicker assuming they could've found a potentially viable large dataset.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This was very interesting because it used a small dataset alongside a relatively novel algorithm to discover a list of pollutants that they could say caused asthma problems later in life. It also showed how demographics played a large role in this process.

@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Researchers at MIT and UCSD
+
+==== GOAL
+
+To help identify exploits of Border Gateway Protocol (BGP), a standar routing protocol.
+
+==== DATA
+
+The team got their data from several years worth of network opertator mailing lists, as well as historical BGP data 
+taken every 5 minutes from the global routing table.
+
+==== METHODS
+
+They used the data to train a ML model that would help identify suspicious networks
+
+==== RESULTS
+
+Using the results they have pinpointed roughly 800 suspicious networks.
+
+==== COMMENTS
+
+There was no info about the type of algorithm used or how the results wil be put to use.

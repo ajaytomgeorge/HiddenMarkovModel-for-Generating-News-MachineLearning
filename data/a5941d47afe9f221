@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.independent.co.uk/life-style/gadgets-and-tech/drone-fully-automated-military-kill-b1856815.html
+
+== AGENT
+
+STM (a Turkish military tech company)
+
+== GOAL
+
+Develop an algorithm using machine-learning based object classification to make a drone able to select and engage targets on its own
+
+== DATA
+
+Can't be certain, assumed to be large datasets of photos or videos allowing the software to identify objects such as buses, cars and civilians.
+
+== METHODS
+
+Can't be certain, I'd assume reinforcement learning or supervised.
+
+== RESULTS
+
+They apparently succeeded, with reports of the first attack performed against humans by a military drone with no human operator.
+
+== ISSUES
+
+There are huge ethical issues with these drones using "fire, forget and find" capabilities. This means a human operator "fires" the drone with instructions on the type of target it is meant to engage and the drone attempts to find the target by itself. If there are any errors in the underlying algorithm then the drone could mistakenly attack the wrong target, possibly killing or injuring civilians. There would also be incentive to hide such mistakes, which could make correcting these errors take longer and possible endanger more innocent targets. I can't imagine being 100% certain the drone would always find the correct target. (This is ignoring the further ethical implications of whether AI should be able to kill anyone even if they are the chosen target)
+
+== SCORE
+
+8
+
+== COMMENTS
+
+There is an admittedly large cool factor with this, despite how it's something I personally don't approve of. As for would I have done it differently, I would have rather it not be done at all. This seems to be a new use for existing methods, though one which again I feel should be debated more. The article is scant on details of the machine learning methods used, presumably as the company behind it doesn't offer many insights into its inner workings.

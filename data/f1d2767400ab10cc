@@ -1,0 +1,47 @@
+== SOURCE
+How machine learning is allowing thousands of students to sit exams at home
+https://www.bbc.com/news/business-54881746
+
+== AGENT
+Piero Tintori's company Better Examinations
+
+== GOAL
+To manage exams online and all of the governance around it with different levels of invigilation. 
+The unique feature is that it can detect if a student is attempting to cheat through the procedures of machine learning.
+The software will perform these visual checks periodically, throughout the exam, to ensure the examinee does not trade places with someone else. 
+It also restricts access to the internet, and any applications on the computer that could be used to help the student.
+It uses Amazon's cloud computing system Amazon Web Services, to allow everything to work online.
+
+== DATA
+1. Question bank and answer key shared by university/teacher
+2. List of assigned Users and Students. Upload photo of students that has been approved by a teacher
+3. List of websites sites (applications on the computer that could be used to help the student) (tentative)
+4. The visual or verbal cues that suggest student are cheating. Facial expressions like confusion. (tentative)
+
+== METHODS
+1. Detecting patterns in user behaviour that could indicate attempts to cheat - Classification problem
+2. Assessment of MCQs and mathematics exams - Supervised learning technique as this is a classification problem.
+3. Checking examinee's identity using the webcam - Face recognition system may be by SVM. Support Vector Machines (SVM) are a 
+   popular training tool which can be used to generate a model based on several classes of data, and then distinguish between them.
+4. Restricting access to websites and applications on each person's computer - Supervised learning technique as this is a classification problem.
+
+== RESULTS
+Helps to standardize practices across university/colleges and helping improve exam security and integrity.
+
+== ISSUES
+The examinee needs a laptop, a webcam and an internet connection. At times internet connections may not be stable. 
+To ensure exam integrity, students must remain online for Proctored exams. 
+Also, answers to open questions like essays are not auto-scored.
+
+== SCORE
+7
+
+== COMMENTS
+
+With pandemic leading to lockdowns and shutting schools/universities, the technologies like these really helped education system to work 
+efficiently and effectively. It wasn't completely a new method as there are platforms where similar software is available. One impressive feature 
+of the technology is that it can perform a visual identity check on the examinee repeatedly, throughout the exam, ensuring a precocious friend or 
+parent isn`t sitting the test for them. The article on BBC News gives us a brief about the software. 
+However, the company doesn't disclose the confidential workings related to product like data sets used for blocking websites and data used to analyse 
+behavioural patterns of students. Also, they didn't specify the ML algorithms that were made into use.
+Therefore, based on my understanding and google search engine, the methods might have been adopted are mentioned above.

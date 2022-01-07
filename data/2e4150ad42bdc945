@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://machinelearning.apple.com/2017/08/01/cross-initialization.html
+
+==== AGENT
+
+Apples Siri Team
+
+==== GOAL
+
+To improve Neural Network Acoustic Models by Cross-bandwidth and Cross-lingual Initialization. They want to be able to recognise their customers voices in different languages reliably.
+
+==== DATA
+
+Apple used data obtained by audio recording people speaking 4 very unrelated and different sounding languages (Dutch, Brazilian Portuguese, Thai, Turkish) over both wideband (iPhone microphones) and narrowband (Bluetooth) frequencies.
+
+==== METHODS
+
+Cross-lingual initialization was performed on the data. This involved transfering "...hidden layers on a narrowband DNN from a well-trained existing language to the new target language." They then retrained the network using smaller amounts of the target language (narrowband).
+
+==== RESULTS
+
+They found that training with cross-lingual initialization always improves their model, and that band limited models are helpful as an initial staring point in cross-bandwidth initialization, however real narrowband data always outperforms band-limited wideband data. Using both cross-bandwidth and cross-lingual initialization, they discovered that initializing a DNN with weights assigned to a known language was a better acoustic model than initializing with random weights. They showed a maximun 45% word error rate (WER) reduction from their discovery.
+
+==== COMMENTS
+
+I felt that the story was convoluted and reused the same jargon over and over without explaining what the actual technical cross-bandwidth data looked like in a simplified way. That said, they made an amazing discovery that cross-bandwidth and cross-lingual initialization combined lowered the WER. I also felt the diagrams helped their convoluted explanation.
+

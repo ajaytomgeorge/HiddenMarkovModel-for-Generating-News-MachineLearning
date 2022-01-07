@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/10/09/researchers-from-heidelberg-and-university-of-bern-propose-a-new-method-to-enhance-deep-learning-using-first-spike-times/tps://www.marktechpost.com/2021/09/29/university-of-oxford-researchers-release-pass-dataset-with-1-4m-images-free-from-humans-for-self-supervised-machine-learning/
+
+== AGENT
+
+Heidelberg University and University of Bern
+
+== GOAL
+
+Propose a new method to enhance Deep Learning using First-Spike times
+
+== DATA
+
+The method is based on human membraine and neurons. 
+
+== METHODS
+
+When the membrane potential reaches a particular threshold value, the neuron fires and generates a signal which reaches the other neurons. This eventually results in either an increase or a decrease in response to the signal. If a particular model fires immediately after the threshold value is crossed, it is referred to as a spiking neuron model.
+This strategy is based on the Time-to-First Spike coding scheme, in which the activity of neurons is inversely proportional to firing delay.
+In a neural network, each input spike bumps the potential of a neuron up or down, whose size depends on the synaptic weight. On accumulation of the appropriate number of bumps, the neuron fires and sends a spike to its neighboring neuron. In this manner, the entire spiking network can be designed in the desired manner.
+
+
+== RESULTS
+
+Owing to its spike-based nature, it has proven to be a quick and efficient solution. The framework encourages the neurons to spike only once at the quickest speed possible, assuring very little data flow in the neural network to complete the task. In addition to this, the neuron dynamics of BrainScaleS hardware are extremely fast, ensuring high information processing speed.
+First-Spike approach results in greater efficiency in data processing, and therefore consumes less power.
+It has been tested using a platform for basic neuromorphic research, as well as real world online and embedded learning scenation.
+It is planned to train it on time-varying data like audio or video recordings. 
+
+== ISSUES
+
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+

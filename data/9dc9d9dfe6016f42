@@ -1,0 +1,50 @@
+== SOURCE
+
+https://www.news-medical.net/news/20210925/Machine-learning-pinpoints-genes-that-enable-plants-to-grow-more-with-less-fertilizer.aspx
+
+== AGENT
+
+NYU researchers and collaborators in the U.S and Taiwan did this machine learning
+related work.
+
+== GOAL
+
+Their goal was to try and figure out what the best way would be for them to use
+the large amount of genomic data available to to predict how organisms react to
+changes in nutrition, toxins, and pathogen exposure
+
+== DATA
+
+It was said that focusing on genes whose expression patterns are evolutionary
+conserved across species enhance our ability to learn and predict genes for 
+groth performance for stable crops and disease outcomes in animals.
+What data did they use: what did it look like and how did they get it?
+
+== METHODS
+
+It was said that the researchers demonstrated the genes whose responsivness
+to nitrogen are evolutionary conserved between two diverse plant species,
+arbidopis and a varietes of corn.
+
+== RESULTS
+
+After the researchers ran experiments they showed that altered gene expression
+in Arabidopsis or corn could increase plant growth in solis that have low
+nitrogen, which was tested in labs at NYU and in cornfields at the University
+of Illinois.
+
+== ISSUES
+
+Some ethical concerns I would have for experimants like this would be 
+the saftey of humans and animals consuming these plants and if this 
+affects the taste of the food and health of consumers.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I thought this was a very interesting article as it shows how we can do more
+with less, if something like this beomes succesfull this could benefit farmers
+all over the world which would bring costs down for a lot of them too.

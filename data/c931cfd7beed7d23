@@ -1,0 +1,18 @@
+== SOURCES
+https://artificialintelligence-news.com/2021/09/27/ai-provides-imaging-solution-for-the-moons-shadowy-craters/
+== AGENT
+Max Planck Institute for Solar System Research (MPS)
+== GOAL
+Imaging the Moon's shadowed craters in order to study the believed presence of frozen water within many of them, and collaborate in this way with NASA's Volatiles Investigating Polar Exploration Rover (VIPER) mission, which is scheduled to touch down on the Moon in 2023.
+== DATA
+The software uses more than 70,000 calibration images taken on the dark side of the Moon by NASA's Lunar Reconnaissance Orbiter to reduce the heavy amounts of noise created by low light imagery.
+== METHODS
+HORUS (Hyper-effective nOise Removal U-net Software) is a supervised machine learning algorithm.
+== RESULTS
+Using HORUS, the researchers achieved a resolution of about 1-2 meters per pixel, which is five to ten times higher than the resolution of all previously available images.
+== ISSUES
+The results can't, for the moment, be used to draw any firm conclusions about the geology of the lunar shadowed regions since much more is to be explored and interpreted, now that the tools have just been made available. 
+== SCORE
+7
+== COMMENTS
+I liked to read about the number of different organizations that are behind, and make possible by collaborating with each other, this kind of projects. These were the Frontier Development Lab, NASA, the SETI Institute, Trillium Technologies Inc, Luxembourg Space Agency and Google Cloud.

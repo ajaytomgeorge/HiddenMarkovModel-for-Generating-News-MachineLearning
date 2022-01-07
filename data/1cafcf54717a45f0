@@ -1,0 +1,28 @@
+== SOURCE
+https://www.irishtimes.com/news/science/harnessing-machine-learning-to-help-patients-with-als-1.4673787
+
+== AGENT
+FutureNeuro centre for chronic and rare neurological diseases 
+== GOAL
+Using Machine Learning to help patients with ALS
+
+== DATA
+Specific information of ALS patients with their consent. 
+
+
+== METHODS
+Interrogating anonymised data, and additional information consenting caregivers and patients, to explore what factors could be likely to affect their quality of life.
+
+
+== RESULTS
+Timing of when the disease symptoms started and whether they have issues with breathing when lying down – that could reduce their quality of life. Also for primary caregivers, how they view their role and purpose seemed to be linked to their quality of life. 
+
+== ISSUES
+Unless using higher data samples from many countries, it could not be full accutare.
+
+== SCORE
+7
+
+== COMMENTS
+
+Overall the article was fun to read and I found it fairl interesting that companies used machine learning to help patients with ALS.

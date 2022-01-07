@@ -1,0 +1,27 @@
+
+== SOURCE
+https://www.rte.ie/brainstorm/2020/0811/1158560-gpt3-artificial-intelligence-machine-learning/   and http://jalammar.github.io/how-gpt3-works-visualizations-animations/
+
+== AGENT
+OpenAI
+
+== GOAL
+Create an autoregressive language model that can predict the next word to be written, and thus write for itself
+
+== DATA
+"The dataset of 300 billion tokens of text is used to generate training examples for the model" 
+
+== METHODS
+Trained from unsupervised training data
+
+== RESULTS
+A predictive text based system that is capable of intelligently writing and conversing. 
+
+== ISSUES
+None, system is only  capable of 'guessing' at what to say next. no actual higher level intelligence
+
+== SCORE
+8. Super interesting
+
+== COMMENTS
+Highly interesting system that could revolutionise how we interact with robotics in the future. 

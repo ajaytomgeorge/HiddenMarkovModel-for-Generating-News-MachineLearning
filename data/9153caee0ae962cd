@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.rte.ie/news/health/2020/0221/1116671-antibiotics/
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Find new antibiotic strains.
+
+== DATA
+
+Chemical compounds, presumably from already existing data. The article says that 100 million compounds could be screened in days.
+
+== METHODS
+
+Deep neural network
+
+== RESULTS
+
+A molecule called halicin was found to be effective against some bacterial strains.
+
+== ISSUES
+
+It's not clear but I do wonder how many false positives that failed at the level of animal trials due to causing side effects.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The reporting in the press was fairly simplistic and didn't go into significant detail. I had to go to the paper itself to find any indication of how it was carried out. 
+I've always disliked that often articles that talk about papers don't actually link to them or at least provide the name of the paper.

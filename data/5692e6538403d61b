@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theguardian.com/uk-news/2021/sep/29/do-i-need-a-brolly-google-uses-ai-to-try-to-improve-two-hour-rain-forecasts
+
+== AGENT
+
+Google DeepMind
+
+== GOAL
+
+Improve two-hour rain forecasts.
+
+== DATA
+
+They used radar data for the past 20 minutes and fed it into generative modelling.
+
+== METHODS
+
+They used generative modelling to create a tool that made probabilistic predictions for medium to heavy rain for the following 90 minutes.
+
+== RESULTS
+
+It was evaluated against two existing tools by more than 50 Met meteorologists. They ranked it first in 88% of cases.
+
+== ISSUES
+
+I do not find any faults with the work as the design was tested against two of the most used existing tools by over 50 independent experts. This ensured a high quality testing environment.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought this was interesting as it's a prime example of how Artificial Intelligence can be used to improve every day life for not just people who work in the field of meteorology but also for most normal people. We all look at the weather at least once a day in some form and often we are looking to see if it will rain within the next 2 hours or so, having a tool that is very accurate compared to our current technology is very useful.

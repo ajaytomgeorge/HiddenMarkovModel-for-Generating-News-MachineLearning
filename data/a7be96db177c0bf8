@@ -1,0 +1,35 @@
+== SOURCE
+
+https://blogs.microsoft.com/ai/lobe-machine-learning/
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+Develop an app to make machine learning easier for people to use and help them train models without writing code.
+
+== DATA
+
+People can easily feed their own dataset into the application. At the moment this is limited to a collection of images, each with a single label.
+
+== METHODS
+
+Import images into Lobe and label them to create a machine learning dataset. Lobe automatically selects the right machine learning architecture and starts training without any setup or configuration. Users can evaluate the model’s strengths and weaknesses with real-time visual results, play with the model and offer feedback to boost performance.
+
+== RESULTS
+
+Lobe seems to be a really effective application in giving people the means to quickly create simple machine learning models. The application is already being used to assist small businesses in their day-to-day activities, such as allowing beekeepers to detect when unwanted insects enter their beehives.
+
+== ISSUES
+
+The application is quite limited in terms of the complexity of the models that can be created and in the types of data it can take as input. There may also be issues in that as it's being used by people with no data science experience, there may be issues in the training process that go unnoticed and lead to bugs.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Machine learning can be quite an intimidating prospect for people who are new to it. It can be hard to know where to start but an application like this makes it much more accessible for those who are less familiar with code. This could lead to machine learning be used in cool new ways where people who have an area of expertise far from developing machine learning models, can utilise their effectiveness.

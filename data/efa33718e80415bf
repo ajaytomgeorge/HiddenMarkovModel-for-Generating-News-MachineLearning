@@ -1,0 +1,9 @@
+SOURCE : https://www.healio.com/news/orthopedics/20210916/machine-learning-algorithm-may-identify-patients-at-risk-for-extended-opioid-use
+AGENT : Casey Tingle 
+GOAL : Joseph H Schwab and some of his colleagues developed five machine learning algorithms to predict extended postoperative opioid consumption among patients. 
+Data, Method and Results :  The researchers assessed performance algorithms through discrimination, calibration and decision curve analysis. The researchers have integrated the model into a web based open access application that is able to predict. Schwab though, thinks that the model still needs to be validated. Schwab thinks that this is probably the biggest impediments to the utilisation of Machine Learning. 
+
+SCORE : 8
+
+
+COMMENTS : Even though, it is stated that this is one of the best use of Machine Learning, still the model is not entirely error free and still needs a lot to be validated. 

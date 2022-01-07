@@ -1,0 +1,40 @@
+== SOURCE
+
+https://12ft.io/proxy?q=https%3A%2F%2Ftowardsdatascience.com%2Fmachine-learning-image-to-audio-captioning-964dc0f63df9
+
+== AGENT
+
+Mark Hasegawa-Johnson, Alan Black, Lucas Ondel, Odette Scharenborg, Francesco Ciannella
+
+== GOAL
+
+The ability to generate audio descriptions directly from images
+
+== DATA
+
+An image dataset from flickr and MSCOCO combined with an audio data set from Flicker-audio and Speech-MSCOCO
+
+== METHODS
+
+VGG16 was used to extract Convolutional neural network features from an image
+XNMT generates speech units from the CNN features
+ClusterGen converts speech units into audio
+Kaldi and Eesen are used for automatic speech recognition and to translate audio into speech units
+
+== RESULTS
+
+They were able to achieve a 78.8 percent phone error rate
+
+== ISSUES
+
+The success rate of the model is low enough for occasional unintelligible descriptions of images to occur
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The model is interesting with respect to accessibility for people with certain disabilities or impairments
+The authors are hoping are hoping to create an area of research with image2speech which if successful would most certainly increase the success rate. 
+

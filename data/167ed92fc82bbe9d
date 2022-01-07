@@ -1,0 +1,22 @@
+== SOURCE
+https://www.nature.com/articles/d41586-021-02556-w
+== AGENT
+Bastani et al.
+== GOAL
+To create a model that can predict people who are most likely to be carrying Covid-19 at the Greek border and airports to increase the 
+efficiency of testing.
+== DATA
+Passenger data such as where they're from, their age and gender.
+== METHODS
+Reinforcement Learning (RL).
+== RESULTS
+The machine learning model doubled the efficiency of Covid-19 testing at Greek borders and airports.
+== ISSUES
+The main issue I can see with the model is the data. The data was limited to align with the EU's GDPR rules, which reduced the models potential 
+performance ability.
+== SCORE
+8
+== COMMENTS
+The issue with the data being fed into the model is an interesting topic in my opinion. While it is important to comply with the EU's GDPR 
+legislation, should exceptions be made in order to protect the citizens of a country in such unforeseeable conditions? As the data necessary 
+for the model's optimal performance is blocked by legislation, this puts more lives at risk.

@@ -1,0 +1,39 @@
+## Format
+```
+== SOURCE
+
+https://www.bbc.com/news/technology-55438969
+
+== AGENT
+
+Jiajun Zhu and Dave Ferguson
+
+== GOAL
+
+Driveless delivery service 
+
+== DATA
+
+Data of traffic, road safety, rules and regulation
+
+== METHODS
+
+Image Classification, Open CV, RCNN
+
+== RESULTS
+
+Can deliver goods without need of any human for delivery 
+
+== ISSUES
+
+Keeping safety of motoring public
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It seems so fascinating to see a car moving on its own amidst the people and traffic 
+
+```

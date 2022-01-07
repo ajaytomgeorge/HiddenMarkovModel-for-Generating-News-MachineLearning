@@ -1,0 +1,19 @@
+== SOURCE
+https://www.geekwire.com/2016/olympic-athletes-use-machine-learning-data-analysis-reach-peak-performance-levels/
+== AGENT
+Kitman Labs
+== GOAL
+To employ an Athlete Optimization System which analyses data from athletes in order to obtain peak performance.
+== DATA
+The data was collected from athletes using multiple systems including wearable trackers that show workload information and other data including sleep, hydration, diet, mood, stress and perceived muscle soreness.
+== METHODS
+Kitman Labs uses machine learning that helps coaches see individualized data for each athlete, based on variables like fitness levels and overall capabilities specific to that player. The technology learns about each athlete and flags any meaningful, high-risk changes in the athlete.
+== RESULTS
+The technology learns about each athlete and flags any meaningful, high-risk changes in the athlete.
+== ISSUES
+There seems to be some issues of the efficacy and usefulness of the system and the willingness of atheltes and coaches to adopt it.
+== SCORE
+6
+== COMMENTS
+While this may be an interesting item for a sports fan, questions may be asked as to its overall usefulness. According to Stephen Smith, the founder of Kitman Labs, the algorithms identified 25% of the injuries from the 2012 Olympics were related to overuse, which are the most avoidable injuries. Perhaps in the future, players and athletes might be more accustomed to use technology like this and it will make a more pronounced difference.
+

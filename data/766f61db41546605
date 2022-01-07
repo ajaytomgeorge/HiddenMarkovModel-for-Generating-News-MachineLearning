@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://www.the-scientist.com/notebook/artificial-intelligence-could-help-monitor-bee-health-65776
+
+==== AGENT
+
+Kinetica, Nvidia and Jade Greenberg of Pascack Hills High School
+
+==== GOAL
+
+detecting the presence of varroa mites’ in bee conlonies and and what they can do to help.
+
+==== DATA
+
+They installed a camera and captured photos every 10 seconds of the hive and placed sensors to monitor the temperature and humidity of the hive.
+
+==== METHODS
+
+they used Nvidias machine learning to detect the presence of varroa mites on bees. they used supervised learning to detect which frames had the mites in them.
+==== RESULTS
+
+it is still in the prototype stage and its currently ongoing. 
+
+==== COMMENTS
+Im skeptical what the solution to this will be as it is still ongoing. they only seem to have a small sample set and im not sure how accurate it will be.
+
+
+
+

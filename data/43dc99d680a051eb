@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.newswise.com/articles/sensors-driven-by-machine-learning-sniff-out-gas-leaks-fast
+
+== AGENT
+
+Los Alamos National Laboratory
+
+== GOAL
+
+Autonomous, Low cost, Fast Leak Detection System (ALFaLDS) to detect, locate and quantify gas leaks in gas field infrastructure.  
+
+== DATA
+
+Los Alamos National Laboratory's high resolution plume dispersion models and on-site controlled releases.
+
+== METHODS
+
+Not mentioned in article.
+
+== RESULTS
+
+ALFaLDS locates and quanifies leaks precisely and could reduce methane emissions by 90% if deployed in industry.
+
+== ISSUES
+
+Vague description given of training methods (maybe to make article more accessible to non technical readers).
+No quantifiable results offered or comparisons to other systems or benchmarks.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+It's cool that they were able to locate the source of a gas leak based on atmospheric wind models.
+It's also interesting how they initially trained the neural network on simulated data from models.
+However, as mentioned in the 'ISSUES' above, the reporting fails to give details of specific training 
+methods or frame results in context of previous work or alternate systems.

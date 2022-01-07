@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.csoonline.com/article/3293002/deepfake-videos-how-and-why-they-work.html
+
+==== AGENT
+
+FakeApp
+
+==== GOAL
+
+Creating DeepFakes
+
+==== DATA
+
+Data can be acquired from the internet
+
+==== METHODS
+
+Deepfakes are created using GANs (Generative Adversarial Networks), in which two machine learning (ML) models duke it out. One ML model trains on a data set and then creates video forgeries, while the other attempts to detect the forgeries. The forger creates fakes until the other ML model can't detect the forgery. The larger the set of training data, the easier it is for the forger to create a believable deepfake. Hence it is easier to create deepfakes with celebrities and the like.
+
+==== RESULTS
+
+They were able to effectively create videos and audio that would fool humans.
+
+==== COMMENTS
+
+Deepfakes have been touted to be dangerous, especially due to how easily accessible they are.

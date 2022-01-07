@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://www.the-scientist.com/news-opinion/ai-accurately-detects-lung-cancer-in-scans-65914
+
+==== AGENT
+
+A collaboration between software engineers and clinical researchers
+
+==== GOAL
+
+What were they trying to do?
+Accuracy detect lung cancer in scans, improving from our human work. Using images to precisely tell if a victim had a certain lung cancer or not.
+
+==== DATA
+
+Where did they get their data? 
+They got the data from 6 radiologists and from all their patients (ambiguous source). These x-ray images were then fed through a model and it later gave a 94% accuracy which people will develop lung cancer.
+
+
+
+
+==== METHODS
+
+What did they actually do?
+The researchers studied on lung cancer screening for smokers. These lung cancer screening were then fed through a model.
+
+
+==== RESULTS
+
+How did it go for them?
+It gave a 94% accuracy rate for lung cancer in victims and yield 11 percent fewer false positives than the physicians, this research went really well in reducing the error rate of finding cancer.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+Include things about the deficiency of the story as written if you’re feeling snarky.
+
+Article was a bit poor, I kept it in this document.

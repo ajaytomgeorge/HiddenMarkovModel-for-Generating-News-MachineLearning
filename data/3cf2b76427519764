@@ -1,0 +1,36 @@
+==== SOURCE
+
+https://engineeringblog.yelp.com/2015/10/how-we-use-deep-learning-to-classify-business-photos-at-yelp.html
+
+==== AGENT
+
+Yelp company 
+
+==== GOAL
+
+Developing a photo understanding system which allows us to create semantic data about individual photographs
+
+==== DATA
+
+Photos uploaded to Yelp.com 
+
+==== METHODS
+
+They took images from their hosting with labels, used " deep convolutional neural networks (CNNs) in the form of ”AlexNet” to recognize those classes. 
+Our CNN was built on AWS EC2 GPU instances based on the Caffe framework. To address Caffe’s software dependencies, 
+we wrapped our CNN using Docker so that it could be more easily deployed." 
+A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers. 
+The hidden layers of a CNN typically consist of a series of convolutional layers that convolve with a multiplication or other dot product. 
+The activation function is commonly a RELU layer, and is subsequently followed by additional convolutions such as pooling layers, fully connected layers 
+and normalization layers, referred to as hidden layers because their inputs and outputs are masked by the activation function and final convolution. 
+The final convolution, in turn, often involves backpropagation in order to more accurately weight the end product.
+Though the layers are colloquially referred to as convolutions, this is only by convention. Mathematically, it is technically a sliding dot product 
+or cross-correlation. This has significance for the indices in the matrix, in that it affects how weight is determined at a specific index point
+
+==== RESULTS
+
+It helping company a lot
+
+==== COMMENTS
+
+Yelp did a nice job just boorowed already developed thing

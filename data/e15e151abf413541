@@ -1,0 +1,29 @@
+﻿ ==== SOURCE 
+
+http://news.mit.edu/2019/faster-video-recognition-smartphone-era-1011
+
+https://20bn.com/datasets/something-something
+
+ ==== AGENT 
+
+MIT and IBM
+
+==== GOAL
+
+ To make AI accessible to anyone with a low-power device.
+
+==== DATA
+
+“The 20BN-SOMETHING-SOMETHING dataset is a large collection of densely-labelled video clips that show humans performing predefined basic actions with everyday objects. The dataset was created by a large number of crowd workers. It allows machine learning models to develop fine-grained understanding of basic actions that occur in the physical world.”
+
+==== METHODS
+
+They outline a method for shrinking video-recognition models to speed up training and improve runtime performance on smartphones and other mobile devices. This new method makes it possible to shrink the model to one-sixth the size by reducing the 150 million parameters in a state-of-the-art model to 25 million parameters. 
+
+==== RESULTS
+
+The model that outperformed its peers at recognizing actions in the Something-Something video dataset. 
+The team trained the model in 14 minutes using a supercomputer, this would normally take two days on a machine with a one graphics processor.
+
+==== COMMENTS
+

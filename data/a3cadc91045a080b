@@ -1,0 +1,55 @@
+== SOURCE
+
+https://becominghuman.ai/its-magic-i-owe-you-no-explanation-explainableai-43e798273a08
+
+== AGENT
+
+University of Washington
+
+== GOAL
+
+To classify images of wolves from huskies.
+
+== DATA
+
+The data consisted of labelled rgb images of wolves and huskies.
+
+== METHODS
+
+The image classifier falls in the supervised learning category of training.
+
+== RESULTS
+
+The final classifier achieved an accuracy around 90%.  This was determined by
+testing the results against validation data.  But the 90% did not come from
+directly distinguishing wolves and huskies but an alternative difference between
+in the two categories of images.  That difference is the presence of snow in the
+images with wolves and its absence in the images of huskies.  So instead of creating
+a model which classifies wolves from huskies a snow classifier was created.
+
+== ISSUES
+
+The issue here arises from the presence of unexpected distinguishing features in the images
+separate from intended features (in this case a wolf or husky).  So, what happened in
+this specific case in the neural network realised the simplest was to distinguish the two
+categories is by the presence or absence of snow.  
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I like this story a lot because it explained in very simple terms the bias that can arise from
+data, and it’s not too difficult to extrapolate on this thought to imaging what untended consequences
+could arise from bias models being used in a field with high quality demands on software such as the
+medical field or self-driving cars.  It also makes it easy to communicate the concept of bias to not
+technical people.  Plus, the story has dogs, so I gave it an extra point for that.
+
+This story makes you question your data and how a given data set produces an output and the complexity
+that arises from such a seemingly simple task.  For example, if we segmented the huskies and wolfs from
+their backgrounds would solve the problem of bias in this case?  Possibly not, as there may still be distinguishing
+features in the remaining images such as a dog collar.  This makes it evident that this task is not so simple.
+
+To reduce bias I would start by removing anything from the image that is not directly related to the wolf or
+husky from the training data.  Though I could see this not working in general.

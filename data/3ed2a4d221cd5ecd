@@ -1,0 +1,28 @@
+== SOURCE
+https://ieeexplore.ieee.org/document/8843612/authors#authors
+
+== AGENT
+Abdullah-All-Tanvir, Ehesas Mia Mahir, Saima Akhter, Mohammad Rezwanul Huq
+
+== GOAL
+Detecting Fake News using Machine Learning and Deep Learning Algorithms
+
+== DATA
+It is dealing with text data by Count Vectors, TF-IDF, Character Level
+
+== METHODS
+
+The classification models that we implemented using above mentioned dataset are Bayesian Model, Logistic Regression & also Support Vector Machine two most famous deep learning methods RNN Recurrent Neural Network & Long Short-Term Memory were also implemented to see how well our data fit into the model.
+
+== RESULTS
+It gives 73% accuracy on count vector feature, 75% on Word Level TF-IDF, N - gram vector, and character vector as well. Then Logistic regression model was performed. This time the performance was slightly optimized than before, predicting 74% and 76% respectively on count and word level vectors. Whereas 75% and 76% was the results of Logistic Regression stage.
+
+== ISSUES
+
+Inter Accuracy Prediction is isnt better.
+
+== SCORE
+6
+
+== COMMENTS
+In this they have analyzed a computerized model for checking the verification of news extracted from Twitter which gives general answers for information accumulation and expository demonstration towards fake news recognition. 

@@ -1,0 +1,31 @@
+==== SOURCE
+
+https://phys.org/news/2019-10-scientists-machine-learning-algorithms-automate.html
+
+==== AGENT
+
+Molecule.pne
+
+==== GOAL
+
+The goal was to create a tool that would simplify the process of turning a simulated molecule into one existing in real 
+life.
+
+==== DATA
+
+The ML modle used millions of patents and known chemical processes, the data fed in was text.
+
+==== METHODS
+
+There was no algorithm given, however it did say that the model was trained on the data set mentioned above. It had 
+access to millions of processes during it's training.
+
+==== RESULTS
+
+The goal was accomplished. It has been used and is currently making breakthroughs. It has been used to create molecules 
+that haven't been seen by any chemist.
+
+==== COMMENTS
+
+This is a great breakthrough for the world of chemistry, the article was well written however they did not provide any 
+information on the algorithm used.

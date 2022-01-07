@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-40042581
+
+== AGENT
+
+Deepmind/Google.
+
+== GOAL
+
+Develop a deep learning algorithm to beat an apponent at a Go match.
+
+== DATA
+
+Older matches, the algorithm then learned by playing thousands of games against itself.
+
+== METHODS
+
+Unsupervised learning/Deep learning.
+
+== RESULTS
+
+The AI beat the worlds best Go player.
+
+== ISSUES
+
+Creates a situation in which we put ourselves in direct competition with machines.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought this was interesting as the article states that Go is one of the world's most complex games and is very
+difficult for a computer to learn compared to other games such as chess and thus this demonstrates the power of
+machines at solving complex tasks.
+The report is fair as it shares insights from leading experts and the information present is generally correct.

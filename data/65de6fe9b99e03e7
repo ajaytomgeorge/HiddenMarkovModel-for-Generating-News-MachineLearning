@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/10/06/nvidia-ai-proposes-a-novel-ai-framework-for-mixed-reality-tasks-such-as-photorealistic-virtual-object-insertion/
+
+== AGENT
+
+NVIDIA AI, University of Toronto and the Vector Institute
+
+== GOAL
+
+Develop a Framework to estimate reflectance, shape and 3D spatially varying lighting in images to insert photorealistic virtual objects. 
+
+== DATA
+
+The model has been fed Low Dynamic Range images.
+
+== METHODS
+
+Researchers propose solving typical issues (existing methods are formulated as image-to-image translation, ignoring the 3D properties of a scene) a novel Volumetric Spherical Gaussian representation for lighting.
+Each voxel is assigned a set of spherical Gaussian parameters that control its light source’s emission direction and sharpness. This way, strong directional lighting can be handled without any issues. With the lack of ground truth for HDR lighting, the research team has designed their raytracing-based differentiable renderer that leverages their lighting representation.
+This can be used to formulate an energy-preserving image formation process. The renderer is used to ensure that predictions are physically correct without sacrificing accuracy.
+
+== RESULTS
+
+According to the research paper, the proposed approach outperforms existing state-of-the-art inverse rendering and lighting estimation methods.
+Additionally, the framework jointly estimates albedo, normals, depth, and HDR light field. The model is capable of correctly predicting HDR lighting, despite only having been trained using LDR images.
+
+
+== ISSUES
+
+
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Very interesting read with many potential implications for image processing and commercial use.

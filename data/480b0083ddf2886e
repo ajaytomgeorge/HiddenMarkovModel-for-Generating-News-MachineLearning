@@ -1,0 +1,20 @@
+== SOURCE
+https://www.nintendolife.com/news/2021/10/patent_reveals_nintendo_is_working_on_upscaling_technology
+== AGENT
+Nintendo
+== GOAL
+Image upscaling by Nintendo by using Machine learning 
+== DATA
+Machine learning can give computers the ability "learn" a specific task without expressly programming the computer for that task. One type of machine learning system is called convolutional neural networks (CNNs) -- a class of deep learning neural networks. Such networks (and other forms of machine learning) can be used to, for example, help with automatically recognizing whether a cat is in a photograph. The learning takes places by using thousands or millions of photos to "train" the model to recognize when a cat is in a photograph. While this can be a powerful tool, the resulting processing of using a trained model (and training the model) can still be computationally expensive when deployed in a real-time environment.
+
+Image up-conversion is a technique that allows for conversion of images produced in a first resolution (e.g., 540p resolution or 960x540 with 0.5 megapixels) to a higher resolution (e.g., 1080p resolution, 1920x1080, with 2.1 megapixels). This process can be used to show images of the first resolution on a higher resolution display. Thus, for example, a 540p image can be displayed on a 1080p television and (depending on the nature of the up-conversion process) may be shown with increased graphical fidelity as compared to if the 540p image were displayed directly with traditional (e.g., linear) upscaling on a 540 television. Different techniques for image up-conversion can present a tradeoff between speed (e.g., how long the process takes for converting a given image) and the quality of the up-converted image. For example, if a process for up-converting is performed in real-time (e.g., such as during a video game), then the image quality of the resulting up-converted image may suffer.
+== METHODS
+Deep Learning Super Sampling
+== RESULTS
+Nintendo researching on Super sampling 
+== ISSUES
+None 
+== SCORE
+7/10
+== COMMENTS
+

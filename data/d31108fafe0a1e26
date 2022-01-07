@@ -1,0 +1,35 @@
+== SOURCE
+
+https://newsroom.ibm.com/2020-09-10-IBM-and-ESPN-Announce-New-Feature-in-Fantasy-Football-App-That-Uses-Artificial-Intelligence-from-IBM-Watson-To-Create-Fair-Trades#:~:text=Currently%20in%20its%20fourth%20season,of%20his%20projected%20scoring%20range.
+
+== AGENT
+
+IBM Watson and ESPN
+
+== GOAL
+
+Successfully analyse the fairness of fantasy football (NFL) trades
+
+== DATA
+
+Player and team stats and expert sports journalists’ opinions
+
+== METHODS
+
+Natural Language Processing
+
+== RESULTS
+
+Overall, accuracy in specific tests ranged from 57% to 82%
+
+== ISSUES
+
+The vast number of sources IBM Watson uses should eliminate any bias for or against a certain player, however this can only be truly achieved with more sources. Also, in the cases is sport it is almost impossible to be 100% accurate with predictions.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The ability to successfully predict the performance of players and teams in sports may not have life-saving applications however for the purposes of making the game of fantasy football more enjoyable. 57% accuracy may seem low but when compared to human analysists, Watson is far more accurate.

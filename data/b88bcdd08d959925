@@ -1,0 +1,36 @@
+== SOURCE
+
+https://towardsdatascience.com/predicting-excess-wind-electricity-in-ireland-machine-learning-against-climate-change-part-1-d042894026a6
+
+== AGENT
+
+Catherine Lalanne
+
+== GOAL
+
+Predict Excess Wind Electricity in Ireland
+
+== DATA
+
+Met Eirean data along with EirGrid group data
+
+== METHODS
+
+A Random forest regression model was used as a prototype along with a Hourly, 24Hour and Long short-term memory model for comparisons
+
+== RESULTS
+
+The LSTM model performed the worst mainly as it only has historical data and is expected to improve with time
+The 24 hour model performed the closest to the actual Eirgrid data
+
+== ISSUES
+
+Its difficult to expand and retrain the data given time restraints, the model would also benefit from an increase in the use of wind energy in Ireland bringing in more data
+
+== SCORE
+
+5
+
+== COMMENTS
+
+This model has is pretty interesting to compare to the official data, especially when it expands on considerations likely missed such as the grid SNSP constraints

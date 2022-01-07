@@ -1,0 +1,36 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Adam Conner-Simons | MIT CSAIL
+
+==== GOAL
+
+What were they trying to do?
+Tracking down cyber criminals with the help of Internet IP addresses and with AI. The range of offenses are from sending spam and malware to stealing bitcoin. Even Amazon and Google has countless incidents from these cyber criminals.
+
+==== DATA
+
+Where did they get their data? 
+The team trained their system to be able to identify 800 suspicious networks.
+
+
+
+==== METHODS
+
+What did they actually do?
+The hackers would exploit the Border Gateway Protocol, a routing algorithm that allows us to talk together online. The researchers would filter out all the IPs that were linked to hijackers and any malicious paths would had been found.
+
+==== RESULTS
+
+How did it go for them?
+With 20% false positives, this is not as good as they wanted it but with minimal human supervision, this could be eventually deployed into their production environments.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+Include things about the deficiency of the story as written if you’re feeling snarky.
+
+Interesting topic, as I have working in Networking inside Amazon AWS and these problems isn't an easy one to solve.

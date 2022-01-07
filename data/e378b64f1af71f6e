@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://towardsdatascience.com/betting-on-the-english-premier-league-making-money-with-machine-learning-fb6938760c64
+
+==== AGENT
+
+Nick Campanelli, Data Scientist
+
+
+==== GOAL
+
+To see if machine learing can be used to make money betting of the premier league.
+
+==== DATA
+
+clean data from kaggle.com
+
+==== METHODS
+
+Used Multinomial Logistic Regression and Binary Logistic Regression
+
+==== RESULTS
+
+Placed 191 bets of $100 each, with an overlay outlay of $19,000. In total walked away with $20,124 and a total profit of $1024
+
+==== COMMENTS
+
+While the betting made a profit, I think sports and football in particular are too unpredictable to get a great predicitive algortihm.

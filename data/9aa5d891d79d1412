@@ -1,0 +1,35 @@
+== SOURCE
+
+https://techcrunch.com/2021/09/22/cellino-is-using-ai-and-machine-learning-to-scale-production-of-stem-cell-therapies/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAI2p9p2k3fUHGtD7J84mxuTDrkebdFmTKUPF-WnP3QxkppgVJWCPPGFK0fxlBXbrXZcJvOCPW9Erjl0cKBHe03GOVORPePqMxN1fCVwsTKqlkZ06UgrJwfhcTGHn9mppofoGw1yWf1ljwSB_BbECHLkBQb-svYYN3sW8h-CmK-cu/
+
+== AGENT
+
+Cellino Biotech
+
+== GOAL
+
+Develop a platform to automate the production of stem cells to reduce the cost of human cells and increase yields.
+
+== DATA
+
+Cellino are collecting training data from the National Institutes of Health. The data is a collection of images that document the features of the cell (quality, morphology, density), as well as fluorescence data to find other features such as protein locations in the target cells.
+
+== METHODS
+
+Supervised learning is being used to train the machine to recognise the quality of a cell to meet standards of the FDA.
+
+== RESULTS
+
+Upon identifying a cell of low quality, the algorithm directs an extremely precise laser with very high accuracy to destroy the unwanted cells. This was able to increase the efficiency of isolating of viable stem cells by 60 percent relative to human experts.
+
+== ISSUES
+
+I do not see any issues with this application of machine learning.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I thought that this article was extremely interesting because it shows how far biophysics and artificial intelligence have advanced, and the possibilities for this project to allow further research in other medical problems is an amazing advancement. The project has a varied team who have backgrounds in physics (optical and instrumentation) and machine learning. The article was informative and well written, and it boosts the signal of the goal of the leader of the project which is to make stem cell treatment accessible to everyone, regardless of ethnicity or class. The methods used (supervised learning) are not new but the use of machine learning for the use of stem cells is revolutionary and its impact on the availability of future treatments is colossal.

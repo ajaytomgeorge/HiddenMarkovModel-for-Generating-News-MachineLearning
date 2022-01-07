@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.neowin.net/news/deep-learning-has-now-been-used-for-the-first-time-to-study-to-dark-matter/
+
+==== AGENT
+
+ETH Zurich 
+
+==== GOAL
+
+To test the capabilities of convolutional neural networks for studying dark matter in the cosmos.
+
+==== DATA
+
+The data was obtained from a computer-generated simulation of the universe and described the shapes of different galaxies.
+
+==== METHODS
+
+The convolutional neural network were trained using Nvidia P100 GPUs on the learning data. The model used this data to learn the various hidden features and the weights associated with the model to improve its accuracy. Once the model had been trained it was tested on the KiDS-450 tomographic weak lensing dataset.
+
+==== RESULTS
+
+Compared to the traditional methods of inference the deep learning-based model delivered 30% more accurate values. Additionally the model was two times faster than using the hubble telescope.
+
+==== COMMENTS
+
+I have no doubt that this study will prove to be hugely important in determining more information on dark matter given the remaining significant doubt around the true nature of this material in the universe. 

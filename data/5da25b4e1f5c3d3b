@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/10/07/mit-researchers-open-sourced-maddness-an-ai-algorithm-that-speeds-up-machine-learning-using-approximate-matrix-multiplication-amm/
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Speed up Matrix Multiplication by a new estimation method (Multiply-ADDitioN-lESS (MADDNESS)).
+
+== DATA
+
+The hash functions convert input data into an index into a lookup database with pre-calculated dot-products.
+
+== METHODS
+
+While most AMM algorithems use multiply-add operation, MADDNESS employs a collection of highly efficient learning hash functions to attain coding rates of 100GB/second with just one CPU thread.
+The hash functions convert input data into an index into a lookup database with pre-calculated dot-products.
+MADDNESS is based on the Product Quantization (PQ) algorithm. PQ analyses a vast number of input vectors to generate a limited number of prototype vectors. Each prototype vector’s products with the fixed weight vector are computed in advance. Then, using a hash function, any new input vector is mapped to its most comparable prototype. This provides an index to the pre-computed product.
+
+== RESULTS
+
+MADDNESS runs 10x quicker than other approximation algorithms and 100x faster than accurate multiplication.
+It has been made open-source.
+
+== ISSUES
+
+Researches mention that MADDNESS introduces some output error, but they also show that the error has a theoretical upper bound that can be paid off against speed. This still implies that there are some scenarios where this algorithm cannot be used.
+MADDNESS also makes some assumptions on data - such as the matrices are "large, somewhat dense, and resident in a single computerâ's memory.".
+In summary, MADDNESS is not a solution to all matrix multiplication estimations uses.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This research has one very important implication - because it is very efficient (10x faster than other approximation algorithms) and is open source, it can aid in the development of the entire field.
+Many, if not the vast majority, of researchers aren't funded enough to purchase several high-grade GPUs on a regular basis, therefore MADDNESS will likely be central in solving many researches in the future.

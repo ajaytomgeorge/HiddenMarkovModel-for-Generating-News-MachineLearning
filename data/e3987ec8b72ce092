@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://deepmind.com/blog/article/machine-learning-can-boost-value-wind-energy
+
+==== AGENT
+
+DeepMind / Google
+
+==== GOAL
+
+To predict wind turbine generation ahead of time, allowing for scheduling of sale of electricity to the grid.
+By scheduling this delivery, a higher price per megawatt-hour could be obtained
+
+==== DATA
+
+Data was obtained both from widely available weather forcasts - which use met masts to gather data - and historical wind turbine data.
+The turbine data was obtained though numerous sensors that continously measure different variables eg. rotor speed, generator temperature, ambient temperature etc.
+While not specified, this data would be of high granularity eg. 10-minute data spanning at least 1 year of operation.
+
+==== METHODS
+
+They trained a neural network on the data to configure a system that would predict wind power output 36 hours ahead of time.
+While not mentioned, this was likely done using supervised learning as power output is measured by the turbine.
+
+==== RESULTS
+
+They claim it has boosted the value of their produced wind energy by 20%.
+
+==== COMMENTS
+
+Wind energy is now being traded in a day-ahead market, so accuracy in the prediction of energy output is becoming a key element in the sale of wind energy.
+This is a perfect use case for ML.

@@ -1,0 +1,36 @@
+==== SOURCE
+
+https://arxiv.org/pdf/1704.03477.pdf
+
+==== AGENT
+
+Google Brain
+David Ha & Dougles Eck
+
+==== GOAL
+
+To teach a machine to draw using neaural networks.
+
+==== DATA
+
+They collected a dataset of over 70,00 sketches. Sketches 
+are not pictures, but detailed vector representations of drawings
+(at which point the user pressed the “pencil,” released where the 
+line was drawn, and so on).
+
+==== METHODS
+
+Researchers have trained the Sequence-to-Sequence Variational Autoencoder
+(VAE) using RNN as a coding/decoding mechanism.
+
+==== RESULTS
+
+Eventually, as befits the auto-encoder, the model received a latent vector 
+that characterizes the original picture. Whereas the decoder can extract a 
+drawing from this vector, you can change it and get new sketches. It can even
+perform vector arithmetic to create new images.
+
+==== COMMENTS
+
+Although somewhat impractival and with no real applications at the current time,
+I still think it is a great example of the potential of machine learning.

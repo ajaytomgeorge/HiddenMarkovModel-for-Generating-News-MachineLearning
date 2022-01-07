@@ -1,0 +1,23 @@
+== SOURCE
+https://searchenterpriseai.techtarget.com/news/252507881/Machine-learning-development-for-autonomous-vehicles
+== AGENT
+AI experts from the autonomous vehicle technology industry.
+== GOAL
+These experts' goal was to discuss methods of speeding up and spotting flaws in their machine learning systems to account for changes in real 
+time.
+== DATA
+The data used is 6-12 months of driving data, such as potential traffic light scenarios, crash scenarios, etc.
+== METHODS
+While regressions were mentioned in the article, the type of regression used is never explicitely stated, however I did some research and found 
+that Bayesian Regression and Neural Network Regression are among the many machine learning algorithms that can be used in autonomous vehicles. 
+Unsupervised Learning models can also be used.
+== RESULTS
+This article reported on a discussion between AI experts about improving machine learning models in autonomous vehicles, so the results of this 
+discussion remain to be seen.
+== ISSUES
+I don't see any major issues with what was discussed in the article.
+== SCORE
+6
+== COMMENTS
+This article gave more of a high-level summary of what was discussed during a meeting between AI experts, so they didn't really mention the 
+machine learning algorithms they use in their work in the article.

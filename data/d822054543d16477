@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://www.sciencedaily.com/releases/2019/10/191007164349.htm
+
+==== AGENT
+
+Develped by Illia Ziamtsov and Saket Navlakha at Salk's Integrative Biology Laboratory.
+
+==== GOAL
+
+To tackle three primary challenges in plant phenotyping: lamina/stem classification, lamina counting, and stem skeletonization.
+
+==== DATA
+
+For classification, they used a dataset of 54 3D shoot architectures.
+Then, they inputted the resulting 3D point clouds into machine-learning algorithms. 
+  
+==== METHODS
+
+For classification, they used object detection.
+For lamina counting, they developed an enhanced region-growing algorithm to reduce oversegmentation.
+For stem skeletonization,  they developed an enhanced tip detection technique.
+
+==== RESULTS
+
+For classification, they classified lamina versus stems with 97.8% accuracy.
+For lamina counting, they achieved 86.6% accuracy, outperforming prior methods developed for this problem
+For stem skeletonization, they generated more precise skeleton architectures than prior methods.
+
+==== COMMENTS
+
+http://www.plantphysiol.org/content/early/2019/10/03/pp.19.00524 (link to paper).
+Interesting they used 3D point clouds as their dataset. Shows the versatility and applicability of ML.

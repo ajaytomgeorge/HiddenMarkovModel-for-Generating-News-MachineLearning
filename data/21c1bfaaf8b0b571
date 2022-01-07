@@ -1,0 +1,36 @@
+==== SOURCE
+
+https://phys.org/news/2019-10-artificial-intelligence-rangers-endangered-wildlife.html
+
+==== AGENT
+
+This project was developed at Harvard John A. Paulson School of Engineering and Applied Sciences.
+
+==== GOAL
+
+Their aim was to build a tool - "Protection Assistant for Wildlife Security (PAWS)" - that will predict poaching risk levels in different areas of a wildlife preserve.
+Thus helping rangers to patrol against poachers more effectively.
+
+==== DATA
+
+The dataset used is gathered from another tool called "Spatial Monitoring and Reporting Tool (SMART)".
+SMART records data on poaching activities that are logged by foot patrols.
+The data includes the tracking of poachers' movements and the locations of traps they set.
+
+==== METHODS
+
+By applying machine learning methods to the aforementioned dataset, it can identify the areas that poachers are more likely to target, as well as suggest patrol routes.
+The tool also uses algorithms to make predictions on poaching hot spots and divides the park into segments, classifying each of them as high, medium or low risk.
+The machine learning models also consider factors such as distance to roads and towns, tree cover, topography, and animal counts.
+
+==== RESULTS
+
+Using the PAWS tool, a team in Uganda was able to identify a common poaching spot that rangers have never patrolled.
+Another team in Malaysia used PAWS to provide evidence-based patrol routes for rangers. 
+However, they discovered that they were unable to follow the route provided because there was a dense forest and riverbeds along it.
+This meant that the tool still had to be improved, so that it can detect obstructions such as these and plan paths better.
+
+==== COMMENTS
+
+In my opinion, this tool is very relevant to current issues.
+I agree that there are a lot of improvements to be made with the path planning, and I believe that machine learning techniques can also be used to do this.

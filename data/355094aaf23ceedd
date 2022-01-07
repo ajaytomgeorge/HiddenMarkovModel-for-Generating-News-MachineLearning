@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/09/200916113523.htm
+
+== AGENT
+
+Chicago Department of Public Health (CDPH)
+
+== GOAL
+
+To identify children at risk of lead poisoning
+
+== DATA
+
+2.5 million surveillance blood tests, 70,000 public health lead investigations, 2 million building permits and violations, as well as age, size and condition of housing, and sociodemographic data from the U.S. Census.
+
+== METHODS
+
+UNsupervised Learning
+
+== RESULTS
+
+This model is far better than any previous devised model for identifying lead poisoning in children.  It correctly identifies 15.5% of the time, which is about twice the rate of previous models.
+
+== ISSUES
+
+I would have liked to see them compare different aspects of this model compared to previous models that were used to identify lead poisoning in children.  Other than that I had no issues.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Yes this was very interesting and something that I would like to look into more.  He previously used models to do the same for Sars virus so he used old models for new problems.  The reporting in the press was reasonable and since they were interviewing the agent himself, then they simply wrote what he said.
+
+This was a great example of the wide reaches to where we can go with ML.  I am glad to see the many problems we are trying to solve by using ML.  The reporting was done very well here, again the only issue I had was I wanted it to compare against previous models more, although that has nothing to do with the news reporting.  

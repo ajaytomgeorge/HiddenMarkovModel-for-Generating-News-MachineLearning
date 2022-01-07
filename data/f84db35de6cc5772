@@ -1,0 +1,35 @@
+== SOURCE
+
+https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm
+
+== AGENT
+
+Twitter
+
+== GOAL
+
+An algorithm that can determine what a user might want to see so they can crop the image to fit in twitter.
+
+== DATA
+
+Images of human faces
+
+== METHODS
+
+unknown
+
+== RESULTS
+
+The algorithm worked
+
+== ISSUES
+
+The major issue was that the algorithm would favour the faces of white people over people of colour
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I found this article very interesting, especially how a well funded team could make an obvious bias in the algorithm.

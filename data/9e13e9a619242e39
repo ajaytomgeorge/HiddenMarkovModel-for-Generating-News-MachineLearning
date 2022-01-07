@@ -1,0 +1,18 @@
+== SOURCE
+https://www.dailymail.co.uk/sciencetech/article-2946186/Facebook-soon-tag-photos-AUTOMATICALLY-Social-network-starts-rolling-DeepFace-feature.html
+== AGENT
+Facebook, Face.com
+== GOAL
+To create a system capable of identifying human faces with the accuracy of a human.
+== DATA
+Trained by 4 million photos of people uploaded to Facebook.
+== METHODS
+3D models of faces are constructed, and then passed to a neural network trained on a massive database of images. Deep Learning is used.
+== RESULTS
+DeepFace recognizes faces with an accuracy of 97.35% ± 0.25%, compared to the average human accuracy of  97.53%. Meaning that it almost matches the accuracy of humans, and it sometimes greater than the accuracy of humans.
+== ISSUES
+Many reactions to DeepFace have criticized it, calling it “creepy”. Due to data privacy concerns, many European governments required Facebook to remove facial recognition technology from it’s product.
+== SCORE
+6
+== COMMENTS
+The media seemed to cover this quite accurately. This system took the record for highest degree of accuracy in facial recognition. Previously, the FBI held this record, with a system that could recognize faces with an 85% degree of accuracy.

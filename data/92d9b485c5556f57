@@ -1,0 +1,31 @@
+== SOURCE
+https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deeplearning-using-tf-keras-and-eager-execution-7d541ac31398
+== AGENT
+Raymond Yuan
+== GOAL
+To take three images, a content image, style-reference image and an input
+image and blend them together so that the input image looks like the
+content image but “painted” in the style of the style image.
+== DATA
+He only used the three image types mentioned in the goal as his dataset.
+== METHODS
+This is done using internal representations of neural networks. The
+principle of neural style transfer is to define two distance functions, one
+that describes how different the content of the two images are, and one
+that describes the difference between the two images in terms of their
+style, Lstyle. Then given three images we can try to transform the input
+image to minimize the content distance with the content image and its style
+with the style image.
+== RESULTS
+It looks pretty good. In the example above, they used his method to blend
+the two images together.
+== ISSUES
+What may be an issue is the fact that the output image just looks
+“texturized” and unnatural, however, I may not have seen enough work to say
+this.
+== SCORE
+8
+== COMMENTS
+This was done using tf.keras and eager execution in python. Following the
+tutorial in the article I linked you can achieve the same results in
+roughly an hour of work.

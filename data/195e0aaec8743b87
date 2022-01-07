@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://towardsdatascience.com/teslas-deep-learning-at-scale-7eed85b235d3
+
+==== AGENT
+
+Tesla
+
+==== GOAL
+
+Self Driving Cars
+
+==== DATA
+
+The data was acquired from Tesla's fleet of cars
+
+==== METHODS
+
+They used a mix of Computer Vision, Machine Learning Prediction and Path Planning. They trained the models using behaviour of other road users and then together with imitation learning, the neural network learned how to predict what a human driver would do by drawing correlations between what it sees and the actions taken by human drivers.
+
+==== RESULTS
+
+TThe result was a self driving car that works as well as a human does most of the time. 
+
+==== COMMENTS
+
+Tesla has yet to perfect this technology so full automated driving has yet to be rolled out. Due to this, a human must still be in the drivers seat and alert at all times during any sort of automated driving by the car

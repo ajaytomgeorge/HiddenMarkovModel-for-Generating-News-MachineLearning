@@ -1,0 +1,32 @@
+
+== SOURCE
+https://www.mdpi.com/
+
+== AGENT
+Health sector
+
+== GOAL
+Machine Learning to Predict Cardiac Amyloidosis 
+
+==DATA
+Data analysis was initiated by searching for diagnosed cases of CA in extracted medical records.This is	 a summary of the entire construction process of the training data set.
+The processing of each type of variable (text/categorical/numeric) was carried out separately to be treated in a particular way according to their nature.
+
+== METHODS
+Supervised 
+
+== RESULTS
+The use of artificial intelligence is considered very useful in supporting medical decision-making. However, it is necessary to externally validate the use of algorithms as a diagnostic test as well as the cost-effectiveness of its implementation. 
+
+== ISSUES
+For this, prospective studies are necessary for which the effectiveness of the algorithm is tested, evaluating the care, economic and social impact. In the case of CA, it will be carried out in the next phase of the investigation.
+
+
+== SCORE
+7
+
+== COMMENTS
+This article is quite interesting and need to be improved in many sectors
+
+--------------------------------------------------------------------------------------===
+=

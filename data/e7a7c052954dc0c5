@@ -1,0 +1,18 @@
+== SOURCE
+https://techxplore.com/news/2021-09-world-accurate-visual-questionanswering-ai.html
+== AGENT
+Toshiba Corporation
+== GOAL
+Develop the world's most accurate highly versatile Visual Question Answering (VQA) AI, able to recognize not only people and objects, but also colours, shapes, appearances, positionings and background details in images.
+== DATA
+The new method was benchmarked using the VQA-v2 public dataset, comprising a large volume of images and data text.
+== METHODS
+The conventional approach mainly relies on the features of people and objects in an image, but Toshiba's new method also extracts background features and spatial areas, including the floors and passageways where these people and objects are to be found. This feature enables the new AI to derive accurate answers to questions such as whether there is an object on a path or if a person is standing in a designated area. It still is a supervised algorithm, nonetheless.
+== RESULTS
+In a performance evaluation with a global standard public dataset, Toshiba achieved accuracy levels of 66.25% without pre-learning and 74.57% with pre-learning, the highest levels ever recorded, while the results with the current methods were respectively 65.88% and 74.00%.
+== ISSUES
+The improvement of this AI (2021)'s results over the last method's, published in 2019, doesn't seem to be very drastic and may make the 2023 "deadline" feel too close and ambitious if the progress rate is expected to remain somewhat similar for the few remaining years.
+== SCORE
+7
+== COMMENTS
+Indeed, Toshiba's intention behind developing this technology is being able implement it into its safety monitoring systems in fiscal year 2023, as a solution for growing manpower shortages at production sites in Japan, expected to continue in the coming years (as in other advanced nations, and aggravated by COVID).

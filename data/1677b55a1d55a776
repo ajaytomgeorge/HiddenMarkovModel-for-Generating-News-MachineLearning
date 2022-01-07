@@ -1,0 +1,49 @@
+﻿==== SOURCE
+
+https://www.sciencedaily.com/releases/2019/10/191010142154.htm
+
+==== AGENT
+
+The agents working on this project are Ian Hutchins and his colleagues in the Office of Portfolio Analysys team,
+who is also lead by George Santangelo at the National Institutes of Health.
+
+==== GOAL
+
+The goal that Ian Hutchins and his team was to research and use AI and big data predictions to
+see which is the best way to influence future medical treatments.
+Research was done to find an AI / ML learning model to predict which scientific advances and discoveries
+would most likely be used by clinics and in turn influence medical treaments and research.
+
+==== DATA
+
+The team have used data over the past 2 years of their research in this field. They use publically available data, 
+such as articles written in this field along with thier own research that is done in this Institutes such as the National 
+Institutes of Health. They also make thier data publically available. Any citations related to this field are also used as 
+data for this research.
+
+==== METHODS
+
+Hutchins and his team have in the past 2 years quantified many predictions using Approximate Potential to Translate (APT).
+These values were used by the team to focus attention on areas of science that have a high rate of translational potential.
+This compliments researches research on medical treatments to better influence and evaluate the best strategy for a 
+given medical treatment using data-driven decision-making.
+This model computes APT values and makes its predictions based on content of research articles.
+Using public citation data as well, the model measures scientic influence at the article level, looks at the time of 
+publication, if the research has already been adopted, etc to influence its predictions also. Called Relative Citation 
+Ratios (RCRs).
+
+==== RESULTS
+
+This is still ongoing and the results gained so far is will be used in conjunction with later research done
+to better improve these learning models and in turn allow for more confident results for medical treatments
+and advancements.
+
+==== COMMENTS
+
+I think that this is a very interesting field of research that could be used to help the advancement of different
+medical treatments and strategies. This information could be used to help treat many diseases and find the most 
+appropriate treaments for non-curable diseases, etc.
+With this also comes an decrease in death-rates and an increase in life expectancies which can be viewed as both a 
+good thing and a bad one, with over-population being an increasing issue now.
+As also stated in the article, many of these types of models are restricted in the fact that they are normally proprietary 
+models and it is good that the team doing this research has decided to make their data publically available.

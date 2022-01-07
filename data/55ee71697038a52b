@@ -1,0 +1,28 @@
+﻿==== SOURCE
+
+ ==== https://phys.org/news/2019-09-machine-metamaterial-energy-harvesting.html
+
+
+
+==== AGENT ==== Padilla, Jordan Malof, bogao huang	- Duke University.
+
+
+==== GOAL ==== The design of dielectric metamaterials that absorb and emit specific frequencies of terahertz radiation.
+
+==== DATA
+
+ ==== T
+he network takes 24 inputs. Height, radius and radius/height ratio of each cylinder. The machine also assigns random weights and biases for each individual calculation, and outputs prediction of the metamaterial's frequency response spectrum. 
+
+
+==== METHODS ==== 
+
+To maximize the accuracy of the machine learning algorithm, the researchers trained it with 18,000 (out of 817 million) individual simulations of the metamaterial's geometry. The neural network could produce highly accurate predictions after the training. The researchers then let it solve every single one of the 815.7 million possible permutations, as it was much faster than the commercial simulator. 
+
+==== RESULTS
+
+ ==== A search algorithm could be used to match a given frequency response to the list of possibilities created by the neural network  Nadell hand drew several frequency response graphs and asked the algorithm to pick the metamaterial setup that would best produce each one. He then ran the answers produced through the commercial simulation software to see if they matched up, which of course, they did. This will be useful in creating new devices that create electricity from heat.
+
+==== COMMENTS
+
+ ==== Interesting to see how the speed increase was very significant. Unfortunately this machine did not yield too much interesting information. The training machine could already do much of the work, however the neural network could replicate it much faster. 

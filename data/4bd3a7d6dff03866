@@ -1,0 +1,18 @@
+== SOURCE
+https://www.reuters.com/article/usa-tech-prison/feature-us-prisons-mull-ai-to-analyze-inmate-phone-calls-idUSL8N2PB022
+== AGENT
+US prisons to mull AI to analyse inmate phone calls
+== GOAL
+To automate the surveillance of inmate’s phone calls with friends/ family and detect any criminal communication/ wrong doing through jail phones.
+== DATA
+They are collecting the data in the form of audio recordings; these audio recordings are then automatically transcribed.
+== METHODS
+They are using a supervised algorithm in the order identify certain words/ phrases including slang that officials pre-program into the system.
+== RESULTS
+The simple nature of just transcribing the speech and flagging certain phrases and words makes the result quite simple to imagine. Although I can't find any information on whether or not somebody has been charged with something the AI system has detected.
+== ISSUES
+There are a lot of glaring ethical issues with this, one would be the fact that the inmates are forced to be subjects of experimentation. Another would be the potential for automated racial profiling in the system.
+== SCORE
+7
+== COMMENTS
+This was another AI article I found deeply disturbing, as we have seen many times in the past there is a high chance of racial profiling and discrimination when AI is used in policing.

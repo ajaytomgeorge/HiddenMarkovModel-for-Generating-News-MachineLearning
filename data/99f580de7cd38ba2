@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.forbes.com/sites/bernardmarr/2018/04/09/the-amazing-ways-google-uses-artificial-intelligence-and-satellite-data-to-prevent-illegal-fishing/#5fcfab271c14
+https://globalfishingwatch.org/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Ways Google Uses Artificial Intelligence And Satellite Data To Prevent Illegal Fishing
+
+== DATA
+
+Data on the location of all vessls and what they are doing. 
+22 million data points every day
+AIS System vessel tracking data &  EQ satellite data
+
+== METHODS
+
+Applied machine learning to this data they were able to identify the reason any vessel is at sea – whether it is a transport ferry, container ship, leisure vessel or fishing boat.
+Generated a real-time heat map that shows where fishing is happening
+
+== RESULTS
+
+The initiative has already led to positive outcomes in the fight against illegal fishing in protected marine environments. For example, the system identified suspicious activity in waters under the jurisdiction of the Pacific island nation of Kiribati – which include the world’s largest UNESCO heritage marine site. When intercepted by Kiribati government vessels, the captain of the fishing vessels denied any wrongdoing. But after being presented with evidence gathered by Google’s machine learning algorithms, he realized he had been caught red-handed and admitted the violation of international law.
+
+== ISSUES
+
+Inability to act on illegal activity in remote areas with weakly enforced laws.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+Cool concept. Could be combined with tracking of fish population metrics to develop our understanding of changes in fish count due to over fishing. 

@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.nature.com/articles/s41598-021-84637-4
+
+== AGENT
+
+Rishikesh Magar, Prakarsh Yadav
+
+== GOAL
+
+Predict neutralizing antibodies for SARS-CoV-2 in a high-throughput manner
+
+== DATA
+
+1933 virus-antibody sequences and their clinical patient neutralization response
+
+== METHODS
+
+XGBoost, Random Forest, Multilayered Perceptron, Support Vector Machine and Logistic Regression
+
+== RESULTS
+
+ ML models were trained on 14 different virus types and achieved over 90% fivefold test accuracy.
+The out of class prediction is 100% for SARS and 84.61% for Influenza
+
+== ISSUES
+
+There entire research is revolving around sequences of viral coat protein-antibody pairs. 
+There could be other unknown factors too
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Relevant at this time of pandemic. Though there wasn't anything which was breakthrough in the study.

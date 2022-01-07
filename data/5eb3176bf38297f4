@@ -1,0 +1,32 @@
+==== SOURCE
+
+The article’s source can be found at: 
+https://www.researchgate.net/profile/Mugahed_A_Al-Antari/publication/322830003_Simultaneous_Detection_and_Classification_of_Breast_Masses_in_Digital_Mammograms_via_a_Deep_Learning_YOLO-based_CAD_System/links/5a8e1176a6fdcc808c0f12d9/Simultaneous-Detection-and-Classification-of-Breast-Masses-in-Digital-Mammograms-via-a-Deep-Learning-YOLO-based-CAD-System.pdf
+
+
+==== AGENT
+
+The document was written by:
+Mohammed A. Al-masni a,1 , Mugahed A. Al-antari a,1 , Jeong-Min Parka , Geon Gi a , Tae-Yeon Kima , Patricio Riveraa , Edwin Valarezoa , Mun-Taek Choi b , Seung-Moo Hana , Tae-Seong Kima,∗
+Department of Biomedical Engineering, College of Electronics and Information, Kyung Hee University, Yongin, Republic of Korea
+
+
+==== GOAL
+
+The main objective of this paper is to detect and classify masses in mammograms utilizing YOLO algorithm.
+
+==== DATA
+
+The data was obtained from 600 mammograms Digital Database for Screening Mammography (DDSM) with 2,400 augmented mammograms including information of the masses and their types.
+
+==== METHODS
+
+The methodology of this paper is to utilize train and utilize a YOLO algorithm to detect and classify the masses in mammograms. To increase the augment the dataset a technique utilizing translation rotation and scaling to increase the dataset and it can be trained.
+
+==== RESULTS
+
+The YOLO algorithm achieved a 99.7% of detection accuracy- 
+
+==== COMMENTS
+
+The article shows a high level of the uses of machine learning and certain algorithms. I find the Article somehow general in regards the dataset used, due that the data was augmented. Is important to understand as well that obtaining this type of dataset must be very challenging as it is regarding medical information of patients. The achievements in this work show the areas into which machine learning can be applied and the potential it has for the future in medicine.

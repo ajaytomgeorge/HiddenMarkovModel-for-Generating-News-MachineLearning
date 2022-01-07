@@ -1,0 +1,36 @@
+== SOURCE
+
+https://scitechdaily.com/next-generation-reservoir-computing-a-new-way-to-solve-the-hardest-of-the-hard-computer-problems/
+
+== AGENT
+
+Daniel Gauthier, The Ohio State University, Department of Physics, Columbus, OH, USA
+
+== GOAL
+
+To develop a more efficient algorithm of reservoir computing.
+
+== DATA
+
+The data inputted was in the form of phase space data of dynamic (sometimes chaotic) systems. The inputs could be described as how each coordinate evolved over time.
+
+== METHODS
+
+Reservoir computing is a recurrent neural network. The method called NG-RC uses dynamic calibrations to ignore noise and to avoid over fitting.  
+
+== RESULTS
+
+Their new model performs between 33 and 10e6 times better than the current model. It is especially efficient when analysing chaotic systems with a high accuracy. The algorithm is far more efficient as there isn't the need for thousands of parameters, only around 30 to be superior to the current algorithm.
+
+== ISSUES
+
+There are no majorly obvious issues with the method, however there is still not a mathematical formalism, it is only known how they work.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The article was an interesting read, to hear of such a massive advancement in machine learning is awesome. The ability for more accessible hardware to tackle complex problems will eliminate the trade-offs of efficiency vs accuracy. The report in the press did a good job of summarising the results, but not detail of the theory, likely due to its advanced nature.
+

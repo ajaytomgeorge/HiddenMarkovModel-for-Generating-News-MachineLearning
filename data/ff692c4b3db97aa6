@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://scitechdaily.com/artificial-intelligence-improves-biomedical-imaging/
+
+==== AGENT
+
+ETH Zurich is the Swiss Federal Institute of Technology carried out the imaging and machine learning process.
+
+==== GOAL
+
+To use machine learning to reduce the number of sensors and keep the same amount of resolution in medical imaging under thin layers of skin for medical diagnosis.
+
+==== DATA
+
+Greyscale images of tissue obtained from 512 optoacoustic sensors, this was their training data. Specialised lasers send short light pulses into the tissue, get absorbed by the tisue and return in an ultrasonic form which is then absorbed by the optoacoustic sensor. These images collected by the sensors are stored and ran though a machine learning process.
+
+==== METHODS
+
+The research team at Zurich trained the machine with high quality images obtained by 512 optoacoustic sensors. When the machines' input was a lower resolution photo (either from 128 or 32 sensors), the machine could reconstruct the photo with a seemingly higher resolution, as well as reconstructing without so-called streak distorion.
+
+==== RESULTS
+
+The images reproduced by the machine help drive down the cost of optoacoustic medical devices. This helps patients who are less able to pay for expensive procedures to get a diagnosis with a higher level of accuracy than previous methods.
+
+==== COMMENTS
+
+I feel like this story left out a lot of the nitty-gritty stuff, especially the machine learning part. It seems a bit misleading when the title clickbaits readers with the word "Artificial Intelligence" but tends to talk more about the image processing part. 
+

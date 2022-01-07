@@ -1,0 +1,39 @@
+==== SOURCE
+
+The article’s source can be found at:
+https://iopscience.iop.org/article/10.1088/1742-6596/1004/1/012029/pdf
+
+
+==== AGENT
+
+The document was written by:
+Juan Du
+New Research and Development Center of Hisense, Qingdao 266071, China - dqxwpl@sina.com
+
+
+==== GOAL
+
+The main objective of this paper is to tests YOLO object detection algorithm against its versions V1, V2 Convolutional Neural Network (CNN) families and Faster R-CNN. Utilizing previous knowledge, scientific research for algorithm comparison with specific datasets and theoretical information found in the evolution of Neural Networks.
+You only Look Once (YOLO) is a model based on GoogLeNet utilizes regression and associated class probability to detect objects in one single frame making it the closes Neural Network to real time detection. Reaching object detection at a 155 frame per second speed.
+
+
+==== DATA
+The data was obtained from VOC07 in order to test the performance of R-CNN versus Fast R-CNN. COCO dataset is utilized to 
+
+==== METHODS
+
+The methodology of this paper is to compare and evaluate the different architectures in Neural networks to wrap the evolution of Neural Networks and the different algorithms that will help the users to understand the different types that exist and the different results they can provide as well as their computational requirements.
+CNN has the advantages that can mathematically express and extract features from the input data, it performs classification very well and can handle multidimensional data. However, it requires a high computing capability.
+R-CNN it proposes a crop/wrap that normalizes the input data with a fixed size then after the CNN adds Support Vector Machine classification as well as bounding-box regression to obtain a exact result of object detection. The disadvantage is that it requires a massive consumption of computation, time, data and energy.
+Fast R-CNN is proposed based on Spatial Pyramid Pooling Network (SPPNet) deleting the crop/wrap utilized in CNN, replaces the SPM with SoftmaxLoss and the bounding box with SmoothL1Loos. Raising the precision of the algorithm combining the classification and regression. Improving the speed of the R-CNN 3 to 10 times faster.
+Faster R-CNN solves the classification problem to almost perfect ratings leaving room for speed improvements. It adds Region Proposed Network (RPN) which identifies background and objects first, then it finds the precise location of the objects and then obtains the features of the objects making it faster than the Fast R-CNN.
+YOLOv2 allows to choose in between sizes of matrices allowing it to have tradeoffs between precision and speed. It alters the structure of YOLOv1 and obtains a 76.8 Mean Average precision at 67 frames per second (mAP).
+
+
+==== RESULTS
+
+The YOLO algorithm increased the detection speed rate and maintains a very high object detection rate allowing it to be a very close Realtime object detection algorithm. The general purpose of the paper is to discus the current algorithms used for object detection and outstand its strengths and weaknesses.
+
+==== COMMENTS
+
+The article is very theoretical but gives a great explanation of the evolution of Neural Networks. Definitely worth to read it and understand their advantages and disadvantages of each method.

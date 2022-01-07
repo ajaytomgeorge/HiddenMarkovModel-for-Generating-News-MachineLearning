@@ -1,0 +1,34 @@
+﻿==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Researchers at MIT and the University of California at San Diego
+
+==== GOAL
+
+The goal of the project was to use machine learning to help prevent and catch IP hijacker.  
+
+==== DATA
+
+The data used to teach the machine was data from years of operators mailing lists and past Border gateway patrol data,
+which gets collected globally every five minutes.
+
+==== METHODS
+
+From all this data they gathered they taught the machine how to predict which IP addresses belonged to mischievous actors by analysing
+individual qualities of past actors. these consisted of qualities such as the blocks of the IP Address changing more rapidly than the average 
+users IP blocks, having numerous IP blocks and having IP Address that spread throughout multiple countries in order to help hide their real IP address.  
+
+==== RESULTS
+
+The project was a success in the fact that the machine was able to identify mischievous actors but for twenty percent of all the identities made, there was a false positive.
+For these cases the researchers had to manually engage the machine to find out if it was a legitimate user or a malicious one.
+
+==== COMMENTS
+
+Since people are using the internet more and more for transactions and the option of saving credit card details to your PC is become more frequently used.
+i feel that this influences hijackers to not only continue at the rate at which they hack people’s machines but also grow because the potential rewards for the hackers
+are growing. I think there should be a lot more projects looking into ways of how to protect peoples PC's as many people don’t fully understand how they work it is important 
+for them to feel that they can use their PC in a secured manner.

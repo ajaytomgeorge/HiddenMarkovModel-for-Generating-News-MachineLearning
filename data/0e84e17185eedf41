@@ -1,0 +1,22 @@
+== SOURCE
+https://www.techspot.com/news/91493-music-scholars-computer-scientists-completed-beethoven-tenth-symphony.html
+== AGENT
+Karajan Institute in partnership with Playform.
+== GOAL
+Use Machine Learning techniques to complete Beethoven's Tenth Symphony.
+== DATA
+Several of Beethoven's previous musical sketches, Beethoven's Fifth Symphony in particular. 
+== METHODS
+While the method they used wasn't mentioned in the article, after some research, I found that Supervised Learning (Deep Learning) approaches 
+can be used for audio processing.
+== RESULTS
+After spending 2 years training their Machine Learning model, they were able to play the completed Symphony produced by their model to some 
+journalists. The journalists could not pick out the parts of the symphony that were constructed by their model. Only people who had a vast 
+knowledge of Beethovens's work could tell the difference.
+== ISSUES
+The Tenth Symphony that they created hasn't actually been released yet, so it is hard to say how good the final Symphony actually is.
+== SCORE
+9
+== COMMENTS
+I found this very topic very interesting and it shows how powerful well-trained Machine Learning models can be. The one thing I will say is that 
+the article didn't really go into any technical detail on the methods used to create the model.

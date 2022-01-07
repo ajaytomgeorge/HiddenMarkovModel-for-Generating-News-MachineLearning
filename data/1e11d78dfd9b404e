@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.bbc.com/news/health-50857759
+
+== AGENT
+
+Google Health and Imperial College London
+
+== GOAL
+
+To train an AI to read mammograms and to detect anomalies.
+
+== DATA
+
+The data set they used to train the deep learning algorithm was X-Ray images of women between 2012 and 2015, which was a random ten percent of all women having a mammogram at participating hospitals.
+
+== METHODS
+
+Deep learning vision algorithm was used to for training. The AI used supervised learning with visual data with annotations describing their health situation.
+
+== RESULTS
+
+The deep learning algorithm outperformed six independent radiologists in a previous study. There was a reduction of 1.2% in false positives and a reduction of 2.7% where cancer is missed. Promising results mean that it could reduce the number of radiologists to read a mammogram from 2 to 1
+
+
+== ISSUES
+
+The issues are mainly that the use of deep learning does not give us a great insight into what the computer is actually picking up on. The results are promising; however, the price of missing cancer is very large if there is a systematic error with the images trained.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought that this article was very interesting, the use of machine learning to be more sensitive to the detection of cancer is a brilliant use for technology. I would not deem it trustworthy one hundred percent of the time, so the collaboration of AI with humans to help prevent the loss of lives due to cancer is a worthwhile endeavour. The title of the news article injects feelings of AI taking over or completely replacing humans but it is made clear that this is not the case. The methods used were not new, but the results obtained by the deep learning vision algorithm is impressive.  
+

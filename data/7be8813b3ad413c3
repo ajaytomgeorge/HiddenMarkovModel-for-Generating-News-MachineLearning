@@ -1,0 +1,288 @@
+==== SOURCE - 1
+
+https://www.sciencedaily.com/releases/2019/10/191010142154.htm
+
+==== AGENT
+
+The agents working on this project are Ian Hutchins and his colleagues in the Office of Portfolio Analysys team,
+who is also lead by George Santangelo at the National Institutes of Health.
+
+==== GOAL
+
+The goal that Ian Hutchins and his team was to research and use AI and big data predictions to
+see which is the best way to influence future medical treatments.
+Research was done to find an AI / ML learning model to predict which scientific advances and discoveries
+would most likely be used by clinics and in turn influence medical treaments and research.
+
+==== DATA
+
+The team have used data over the past 2 years of their research in this field. They use publically available data, 
+such as articles written in this field along with thier own research that is done in this Institutes such as the National 
+Institutes of Health. They also make thier data publically available. Any citations related to this field are also used as 
+data for this research.
+
+==== METHODS
+
+Hutchins and his team have in the past 2 years quantified many predictions using Approximate Potential to Translate (APT).
+These values were used by the team to focus attention on areas of science that have a high rate of translational potential.
+This compliments researches research on medical treatments to better influence and evaluate the best strategy for a 
+given medical treatment using data-driven decision-making.
+This model computes APT values and makes its predictions based on content of research articles.
+Using public citation data as well, the model measures scientic influence at the article level, looks at the time of 
+publication, if the research has already been adopted, etc to influence its predictions also. Called Relative Citation 
+Ratios (RCRs).
+
+==== RESULTS
+
+This is still ongoing and the results gained so far is will be used in conjunction with later research done
+to better improve these learning models and in turn allow for more confident results for medical treatments
+and advancements.
+
+==== COMMENTS
+
+I think that this is a very interesting field of research that could be used to help the advancement of different
+medical treatments and strategies. This information could be used to help treat many diseases and find the most 
+appropriate treaments for non-curable diseases, etc.
+With this also comes an decrease in death-rates and an increase in life expectancies which can be viewed as both a 
+good thing and a bad one, with over-population being an increasing issue now.
+As also stated in the article, many of these types of models are restricted in the fact that they are normally proprietary 
+models and it is good that the team doing this research has decided to make their data publically available.
+
+=============================================================================================================================
+
+==== SOURCE - 2
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036556
+Citations included in the article:
+Albert MV, Kording K, Herrmann M, Jayaraman A (2012) Fall Classification by Machine Learning Using Mobile Phones. PLoS ONE 7(5): e36556.
+
+==== AGENT
+
+This research was worked on by Mark V. Albert, Konrad Kording, Megan Herrmann and Arun Jayaraman.
+
+==== GOAL
+
+The goal of this research was to prevent falls in elderly people as it's a very common source of injury, distress 
+and mortality events. The purpose of the research was to find and demonstrate the best techniques to reliably 
+detect falls and to also automatically classify each type of fall, with the end goal of decreasing these falling 
+scenarios.
+
+==== DATA
+
+15 Subjects were asked to simulate 4 different types of falls: Left and Right Lateral, Forward trips and Backward slips
+while wearing mobile phones with built-in accelerometers.
+9 of the subjects also carried the phones for 10 days to also help with the simulation and learning to collect more data.
+Many different activities were done during the testing to also better classify different falls and to check for and remove any false positives.
+
+==== METHODS
+
+Most of the methods are explained above in the DATA section. In the accelerometers and phones, there was a recorded value 
+for the x, y and z-axis which helped determine lateral movement along with forward and backwards movement. The z-axis along with 
+the speed of the subject would be recorded and with this calculations could be made taking into account the subjects 
+y-axis to check if they fell and then the direction they went in using the x and z-axis. This would allow for the classification of 
+the type of fall occured.
+This data was then recorded and used to find better ways to prevent falls and how to recover from falls if an elderly 
+person was to fall.
+To properly detect falls, they also recorded daily activities and checked for any false positives to better teach the 
+learning model.
+
+==== RESULTS
+
+The learning model managed to classify real falls from just daily activities with an accuracy of 98% for the pooled subjects, 
+but dropped by 1% down to 97% accurate when used subject-wide crossvalidation was used which is very impressive. 
+With their study they estimate that in a an average week there would be 2-3 non-falls that would be misclassified and recorded.
+There are also some graphs and visual data shown in the article showing these numbers as well.
+
+==== COMMENTS
+
+I think this is a very interesting field of research. But I fail to understand how this would help people recover from 
+a fall. I can see how it may help prevent a fall, but the application seems to only detect trips in the forward direction. 
+Many people can trip in any direction, or slip forward or laterally. Not just backwards.
+I can see people tripping sideways and it being classified as a lateral fall instead of a lateral trip.
+I can see it being useful as a sort of emergency tool though, maybe used by elderly people when they trip and fall it could 
+notify any local emergency services of their location and issue along with sending the type of fall so emergency services 
+know what kind of emergency it is.
+So overall I think this is definitely something that could benefit many people and could be used to teach people 
+of the most common ways people fall. But there are also some shortcomings with its classification and usefulness right now.
+
+=============================================================================================================================
+
+==== SOURCE - 3
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223012
+https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index
+
+==== AGENT
+
+The people who worked on this research are Xingyun Liu, Bingli Sun, Zhan Zhang, Yameng Wang, Haina Tang 
+and Tingshao Zhu. 
+
+==== GOAL
+
+Research was done to reveal sleep quality using machine learning models. Without the need for questionnaires, 
+surveys, emails, etc.
+
+==== DATA
+
+Data was collected from 59 sleeping patients with no disabilities using the Pitsburgh Sleep Quality Index and gait data 
+to see how well people have slept, have they moved around too much, etc.
+Some data that was collected was a mean score of the Pistburgh Sleep Quality Index was 7.32 with a standard deiviation of 
+3.77. Collecting 3600 frames of gait data which lasted 2 mins for every participant.
+The scale for this is between 0 - 21 and the lower the number the higher the quality sleep. So on average everyone got a good 
+quality sleep.
+
+==== METHODS
+59 students without disablilites were picked to sleep and using a kinect and Pitsburgh Sleep Quality Index along with 
+gait data was stored. Many joints of the person were recorded, such as Head, Wrists, Thumbs, etc. Then this data would be sent 
+to a machine learning model to calculate the quality of sleep that person got by means of linear regression since there are 
+only two states, good sleep and bad sleep quality.
+So with the 59 students they took a Pitsburgh Sleep Quality Index test and then went to sleep while two kinects sensors 
+then captured gait data and their movements by checking the joints movements in the persons body. Then this data was and then 
+the result was calculated. Then the data calculated was compared to the Pitsburgh Sleep Quality Index test and then the model would 
+learn from this. Eventually the Pistburgh Sleep Quality Index test would no longer be needed as the model would eventually learn enough 
+for it to be accurate enough. There is also feature selection and feature extraction involved too, but that would be too much to mention here.
+
+==== RESULTS
+
+The results can be seen in the DATA section also. The data was fairly accurate and can be used as a replacement to 
+intrusive questionnaires, etc.
+
+==== COMMENTS
+
+I think this is a very interesting field of research as I believe it can help many people.
+I myself have been diagnosed with insomnia and I can see how this would benefit me, since it can help me learn what 
+would be the best actions to help me get better sleep. If I see my score got lower then I know what I'm doing is helpful, it can 
+also be used to see what bad things could affect my sleep as well.
+One issue I can with this is that in the article it says this is less intrusive than questionnaires, but I believe it 
+to be more intrusive as you have to sleep with some cameras recording your movements.
+
+=============================================================================================================================
+
+==== SOURCE - 4
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217075
+
+==== AGENT
+
+The researcher for this research is Kyosuke Yamamoto employee of PS Solutions Corp and SoftBank Corp.
+
+==== GOAL
+
+Distillation of crop models to learn plant physiology theories using machine learning models.
+
+==== DATA
+
+Generated datasets fed to Convolutional Neural Networks, also many crop information on paddy rice was used since rice is one 
+of the most common crops grown in many Asian countries. Meterological data was acquired for the use of this as well.
+Simulations of paddy rice was also used as part of the dataset.
+132,460 datasets were obtained.
+
+==== METHODS
+
+Since it is difficult to collect big data on crop growth, a generated dataset was fed into Convolutional Neural Networks (CNN)
+for distillation of crop models.
+Simulated paddy rice data and real paddy rice data was used along with some other crop growth generated data as part of the data set.
+Simulation Model for Rice-Weather relations (SIMRIW) was used to simute potential growth and yeild of irrigated rice with factors including 
+weather, temperature, solar radiation and CO2 concentration in the atmosphere.
+The algorithms for this can be viewed in the article. Meterological data was acquired to assist with this.
+For the crop models using CNN, a 3x3 pixel convolution layer with a stride of 1x1 pixel in both horizontal and vertical directions 
+and padding of 2x2 pixels was used. This mapped single channel in the input to 32 feature maps, etc.
+There was a second layer and so so, the error was then calculated and weights adjusted.
+Meterological data was put in a 2D array and fed into the CNN to obtain predictions of the grain yield as weather, temp, etc would affect 
+crop growth.
+This data was then finally evaluated using graphs and mapping (can be seen in article).
+
+==== RESULTS
+
+The data was graphed and a visual mapping of the data was done to see the results. But used mostly only simulated data 
+so it's difficult to know if it would work with real world examples, although, this is very helpful for testing theories 
+on crop growth and other related plant relations.
+
+==== COMMENTS
+
+This research is very interesting as it can help with crop growth and theories. But I think because of the simulated 
+data primarily being used along with the fact that most of the data was on paddy rice. It's difficult to tell if this would be 
+accurate enough with real world examples. But this field of research can definitely help improve crop growth.
+
+=============================================================================================================================
+
+==== SOURCE - 5
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214966
+
+==== AGENT
+
+The researchers who did this study are Lukuman Wahab and Haobin Jiang. 
+
+==== GOAL
+
+A study on Machine Learning based algorithms for prediction of motorcycle crash severity.
+
+==== DATA
+
+Data was obtained from the Traffic and Transportation Engineering Division of Building and Road Research Institute (BRRI) of 
+the Council of Scientific and Industrial Research (CSIR) in Ghana. The crash data for motorcycles has four types of injury severities.
+Fatal Injury (F), Hospitalized (H), Not-Hospitalized (I) and Damage with no death or injury (D).
+The data includes motorcycle crashes occuring in Ghana from JAN 2011 - DEC 2015.
+
+==== METHODS
+
+The Machine Learning model used Classification as there are four types of severity to choose from, this means that 
+the Machine Learning algorithm was supervised and acts more like a forecaster to predict as best as possible whether 
+something fits in a severity type or another. 
+A J48 Decision Tree Classifier was used and is open-source. This algorithm uses the devide and conquer strategy to solve 
+the learning problem in grouping the different accidents. 
+Random Forest was also implemented along with Instance-based learning with parameter k (K-nearest neighbours) which is a lazy-learning 
+algorithm. The models were then validated and put in a table to check the accuracy of it.
+
+==== RESULTS
+
+The performance of the model was able to handled outliers and missing values well. It was able to identify and predict the response varialbes, 
+which in turn helped better classify the different motorcycle crashes. In some experimental results it had a 73.64% accuracy of correctly identify 
+the correct severity levels, but over time this accuracy should increase.
+
+==== COMMENTS
+
+Motorcycle accidents happen very often, I can see this helping to better deduce what happens in these accidents and 
+to look for patterns in them to better understand why some accidents have a certain severity compared to others.
+
+=============================================================================================================================
+
+==== SOURCE - 6
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0209068
+
+==== AGENT
+
+The researchers who worked on this study are Ethan Mark, David Goldsman, Brian Gurbaxani, Pinar Keskinocak 
+and Joel Sokol.
+
+==== GOAL
+
+The goal of this study was to use Machine Learning to predict kidney transplant survival using an ensemble 
+of methods.
+
+==== DATA
+
+The dataset was provided by the United Network for Organ Sharing (UNOS) and contains data on recipients who 
+underwent kidney transplant surgery from 1987 - 2014 in the US. It contains data on diceased and living recipients.
+
+==== METHODS
+
+A method called Variabled Selection was used, this uses the Breiman-Cutler permutation importance measure to 
+rank variables in order of variable importatnce. Harrel's concordance index was used to measure the error rate to 
+better increase the overall accuracy of the model.
+Recipient's age was ranked the most important varaible by the permutation importance and so on.
+A model called Cox Model was also used to select the correct amount of variables to select.
+Predictive Models were also used to build a random survival forest and check the performance of the overall model.
+
+==== RESULTS
+
+Many of the models and predictions made were very similar to that recorded in the by the UNOS. Most of 
+the results are displayed and explained showing graphs in the article to that would the most appropriate place 
+to look for the results as I cannot add graphs to .txt files.
+
+==== COMMENTS
+
+I can see this being used to influence many decisions that could be made for a kidney transplant recipient.
+This can help save many lives and prevent many incidents that could have been avoided as well.

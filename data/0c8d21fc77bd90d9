@@ -1,0 +1,26 @@
+== SOURCE
+https://www.washingtonpost.com/news/the-intersect/wp/2016/03/24/the-internet-turned-tay-microsofts-fun-millennial-ai-bot-into-a-genocidal-maniac/
+== AGENT
+Microsoft
+== GOAL
+Create an online Chat Bot named TAY (Thinking About You) that imitates millennials, communicating via text, emoji and memes.
+== DATA
+Training data used for this project is uncertain, but the bot used user interactions via social media further learn from its environment and target audience.
+== METHODS
+Combination of Deep Learning and Natural Language Processing
+== RESULTS
+TAY was able to interact with users via social media as intended, and was able to imitate millennial speech patterns to some extent. 
+However, in less than 24 hours of Tay being online, a subset of the internet had organised as a group and attacked a vulnerability in TAY's design in order to get TAY to post messages that would be socially unacceptable, leading to the discontinuation of TAY.
+== ISSUES
+TAY became a neo-Nazi in less than 16 hours.
+TAY posted many things that would be deemed obscene and offensive on Twitter such as denying the existence of the Holocaust, and claiming “Hitler did nothing wrong” followed by some emojis.
+TAY was a complete failure, but there are things that could be learned from this experiment, such as the importance of human moderation of input data from social media environments.
+TAY was also used to harass and insult users on the platform by proxy
+== SCORE
+5
+== COMMENTS
+This experiment is another example of the GIGO principal.
+A subset of users were able to give "bad data" to TAY via the "repeat after me" function that lead to TAY being removed from the internet.
+This is one of many cautionary tales of when working with Human-AI interactions, especially from social media, we must consider that a subset of people will attempt to ruin a good thing for everyone else.
+Moderation and fail safes are a requirement for these types of ventures.
+It is hard to predict all possible human interactions, but it is cautionary tales such TAY that can be used as learning data for developers to try and plan ahead for these situations if working with user-generated data via social media.

@@ -1,0 +1,27 @@
+=== SOURCE
+
+https://www.bernardmarr.com/default.asp?contentID=1090
+
+=== AGENT
+
+Google deepmind
+
+=== GOAL
+
+spot early signs which may indicate the onset of degenerative eye conditions
+
+=== DATA
+
+1 million images of eye scans
+
+=== METHODS
+
+simulated neural network
+
+=== RESULTS
+
+help London's moorfield eye hospital in their work
+
+=== COMMENTS
+
+One of many projects deepmind is undergoing

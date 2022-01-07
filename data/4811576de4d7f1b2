@@ -1,0 +1,31 @@
+==== SOURCE
+
+https://phys.org/news/2019-10-scientists-machine-learning-algorithms-automate.html
+
+==== AGENT
+
+Salk's Integrative Biology Laboratory and Pioneer Fund Developmental Chair.
+
+==== GOAL
+
+The researchers were trying to training a new machine learning AI tool to recognise differences in plant structure
+between healthy plants and un-healthy plants.
+
+==== DATA
+
+They used a 3-D laser scanner to scan 54 tomato and tobacco plants grown in a variety of conditions.
+
+==== METHODS
+
+The researchers used supervised learning to identify the healthy plants so the software could learn to automatically
+recognise leaves and shoots on the plants.
+
+==== RESULTS
+
+The software was succesful in separating stems from leaves with a 97.8% accuracy
+
+==== COMMENTS
+
+The researchers were only succesful with differentiating stems from leaves according to the article and had a very small
+database with two specific plants. They are planning on making the software open source so others can carry on their research.
+They hope this will increase crop production.

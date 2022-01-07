@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+https://phys.org/news/2017-11-algorithm-leverages-titan-supercomputer-high-performing.html
+
+==== AGENT
+
+Robert Patton of the US Department of Energy's(DOE's) Oak Ridge National Laboratory (ORNL)
+
+==== GOAL
+
+Using AI to create an algorithm that could create deep neural networks.
+
+==== DATA
+
+The research team's algorithm, called MENNDL (Multinode Evolutionary Neural Networks for Deep Learning), is designed to evaluate, evolve, and optimize neural networks for unique datasets. It is scaled across Titan's 18,688 GPUs, and can test and train thousands of potential networks for a science problem simultaneously, eliminating poor performers and averaging high performers until an optimal network emerges. The process eliminates much of the time-intensive, trial-and-error tuning traditionally required of machine learning experts.
+
+==== METHODS
+
+The researchers leverage the GPU power of the Cray XK7 Titan at the ORNL, and run the algorithm on it. The algorithm runs on the machine and it would atuomatically tweak the neural network for the optimal hyper-parameters, the scients don't have to worry about the extra details. The MENNDL algorithm assigns one neural network to each node of the TITAN and uses its tremndous GPU power to determine the optimal hyper-parameters. Once these hyper-parameters are set up, it is just a piece of cake for the TITAN to then choose the parameters for a specific neural network and execute the network.
+
+==== RESULTS
+
+In only 24 hours, MENNDL produced optimized networks that outperformed handcrafted networks—an achievement that would have taken months for Fermilab researchers. To identify the high-performing network, MENNDL evaluated approximately 500,000 neural networks within a day which is freakishly fast. 
+
+==== COMMENTS
+
+The day isn't far when MENNDL would give rise to SkyNet.

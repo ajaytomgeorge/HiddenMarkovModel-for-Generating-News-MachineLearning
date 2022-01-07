@@ -1,0 +1,21 @@
+==== SOURCE
+bibliographic citation or URL with pointer to source of this information
+https://www.the-scientist.com/critic-at-large/opinion--ai-beats-animal-testing-at-finding-toxic-chemicals-65795
+==== AGENT
+Who did the machine learning? (E.g., Google Brain, Prof Jane Baz’s group
+at University of North Hoople, etc.)
+==== GOAL
+What were they trying to do?
+Use AI instead of animal testing for finding toxic chemicals. this would reduce the use of animals in experiments.
+==== DATA
+Where did they get their data? What did it look like?
+they mined existing data on chemical toxity to generate new information. they compiled a database of 800,000 toxicological studies on more than 10,000 chemicals registered under the European REACH legislation for industrial chemicals, and used it to feed an advanced predictive algorithm that enabled us to predict the toxicity of any chemical without setting foot in the animal lab
+==== METHODS
+What did they actually do?
+computer correctly predicted the outcome of toxicity studies 87 percent of the time—exceeding the 70 percent probability of animal tests to find a toxic substance again in a repeat animal test.
+==== RESULTS
+How did it go for them?
+AI approach drastically reduced the need for these common animal toxicity tests, and saved quite a bit of money in the process
+==== COMMENTS
+Your own personal comments and thoughts etc.
+Include things about the deficiency of the story as written if you’re feeling snarky

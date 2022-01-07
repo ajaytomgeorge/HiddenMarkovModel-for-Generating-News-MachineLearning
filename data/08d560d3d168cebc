@@ -1,0 +1,53 @@
+==== SOURCE
+
+https://arxiv.org/pdf/1611.05358v1.pdf
+
+==== AGENT
+
+Department of Engineering Science, University of Oxford & Google DeepMind
+Joon Son Chung
+
+Andrew Senior
+
+Oriol Vinyals
+
+Andrew Zisserman
+
+==== GOAL
+
+Trying to use machine learning to be able to read lips to determine what someone is saying.
+It differes from previous attempts because they treated it as an open world problem, with no
+limits to what could be said.
+
+==== DATA
+
+They filmed people talking and cut out  the audio and stored it seperately to verify the accuracy
+of the computer later. They also had a ‘Lip Reading Sentences’ (LRS) dataset for visual speech
+recognition, consisting of over 100,000 natural sentences
+from British television
+
+==== METHODS
+
+They showed these videos to their machine learning algorithm both with and without Audio
+whilst applying several methods to figure out what each video was saying.
+1) WLAS (Watch, Listen, Attend, Spell): This learned to transcribe videos of mouth motion
+	to characters(letters)
+2) a curriculum learning strategy to accelerate training and to reduce overfitting
+
+They employed these methods because their performance supaces that of all previous work on 
+standard lip reading benchmark datasets, often by a significant margin.
+
+==== RESULTS
+
+The model surpasses the performance of all previous work on standard lip reading benchmark 
+datasets, and we also demonstrate that visual information helps to improve speech recognition 
+performance even when the audio is used.
+
+
+==== COMMENTS
+
+I believe this was a very interesting paper ti read. The fact that a computer can potentially
+read lips in the future, to an almost perfect degree will be a huge leap forward for AI. With
+this technology bulding in audio acceting components in robots and fitering out background 
+noise might not even be needed.
+

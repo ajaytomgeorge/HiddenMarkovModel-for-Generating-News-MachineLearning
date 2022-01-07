@@ -1,0 +1,252 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/09/200916113601.htm
+
+
+== AGENT
+
+Technical University of Munich (TUM)
+
+== GOAL
+
+Prevent autonomous vehicles from causing car accidents. 
+
+== DATA
+
+The computer scientists created a virtual model based on real data they had collected during test drives with an autonomous vehicle in Munich. This allowed them to craft a test environment that closely reflects everyday traffic scenarios.
+
+== METHODS
+
+They developed a software module that permanently analyzes and predicts events while driving. Vehicle sensor data are recorded and evaluated every millisecond. The software can calculate all possible movements for every traffic participant, provided they adhere to the road traffic regulations allowing the system to look three to six seconds into the future.
+
+== RESULTS
+
+Using the simulations, they were able to establish that the safety module does not lead to any loss of performance in terms of driving behaviour, the predictive calculations were correct, accidents were prevented, and in emergency situations the vehicle is demonstrably brought to a safe stop.
+
+== ISSUES
+
+I don’t think they have fully solved the problem of autonomous cars causing accidents as the algorithm predicting future scenarios will surely be met with a scenario it hasn’t seen before especially in a confusing traffic situation.
+
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is an interesting way to prevent autonomous cars causing accidents which hasn’t been used before and could simplify the development of autonomous vehicles.
+
+
+
+
+
+== SOURCE
+
+https://becominghuman.ai/how-netflix-uses-ai-and-machine-learning-a087614630fe
+
+== AGENT
+
+Netflix
+
+== GOAL
+
+Identify which thumbnails have the highest likelihood of a user’s click.
+
+== DATA
+
+Using thousands of video frames from an existing movie or show as a starting point for thumbnail generation
+
+== METHODS
+
+Each movie should ideally have a personalized thumbnail that maximizes clicks. Since Netflix has data on clicking behaviour of other people with similar interests, it is a reasonable hypothesis to guess that if other people with similar interests and watch history had a high click thru rate on a certain thumbnail, then it is likely that this image thumbnail will perform well on a new person who hasn’t yet been recommended this movie.
+
+== RESULTS
+
+This resulted in a higher click thru rate which is a good result for Netflix as more users clicked on shows they wouldn’t have watched before thanks to the thumbnails.
+
+== ISSUES
+
+No issues I think the way Netflix uses the data they collect to boost viewership and click thru rate is smart and interesting. 
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I thought this was interesting as I never realised Netflix would use our data for thumbnail generation.
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://eng.uber.com/cota/
+
+== AGENT
+
+Uber
+
+== GOAL
+
+Making customer support easier and more accessible. 
+
+== DATA
+
+Their most common customer support issues.
+
+== METHODS
+
+When customers contact Uber for support, they are routed to the best possible resolution in a timely manner. One way to facilitate this is to have users click through a hierarchy of issue types when they report an issue.
+
+== RESULTS
+
+Having this hierarchy of issue types provided the agents with additional context around the issue, thereby enabling them to solve it more quickly.
+
+== ISSUES
+
+Although this provides important context, not all of the information needed for solving an issue is obtainable through this process.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought it was an interesting new way of using existing data to create the hierarchy of common issues that arise which makes the users experience more friendly and solves users issues more quickly. 
+
+
+
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://news.mit.edu/2020/gaussian-machine-learning-tb-drug-1015
+
+== AGENT
+
+MIT Researchers. 
+
+== GOAL
+
+Screening drug compounds to predict which ones will work best against tuberculosis or other diseases.
+
+== DATA
+
+72 small molecules
+
+== METHODS
+
+The data going into the model predict how strongly a particular molecule binds to a target protein, as well as the uncertainty of those predictions, the model can use that information to make predictions for protein-target interactions that it hasn’t seen before. The model also estimates the certainty of its own predictions. When analyzing new data, the model’s predictions may have lower certainty for molecules that are very different from the training data.
+
+== RESULTS
+
+The researchers then experimentally tested some of their top hits to see how well they actually bind to their targets, and found that the model’s predictions were very accurate.  Among the molecules that the model assigned the highest certainty, about 90 percent proved to be true hits. 
+
+== ISSUES
+
+Couldn’t see any issues. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This an interesting new way of using existing data and methods. The researchers have now incorporated a new feature into these types of machine-learning algorithms, improving their prediction-making ability. They now get much higher than the 30 to 40 percent hit rate of existing machine learning models used for drug screens.
+
+
+
+
+
+
+
+== SOURCE
+
+https://www.bbc.com/news/technology-49446729
+
+== AGENT
+
+OpenAI
+
+== GOAL
+
+Create an AI system that generates realistic stories, peoms and articles.
+== DATA
+
+8 million web pages.
+
+== METHODS
+
+The model, called GPT-2, was trained on a dataset of eight million web pages, and is able to adapt to the style and content of the initial text given to it. It can finish a Shakespeare poem as well as write articles and epithets.
+
+== RESULTS
+
+As an experiment in responsible disclosure, OpenAI released a much smaller model for researchers to experiment with. However this month, OpenAI decided to expand the parameters, offering a much broader database of training data. This one works almost good enough to use as a general artificial intelligence for text generation.
+
+== ISSUES
+
+The issue here are that people could potentially use this AI system to create fake news and abusive spam on social media.  
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I don’t think the reporting here was reasonable as I looked at some of the stories that the system generates after being given a sentence and a lot of the time it was gibberish. It doesn’t seem to work as well as the article claims.
+
+
+
+
+
+
+
+
+
+== SOURCE
+
+https://news.mit.edu/2020/anticipating-heart-failure-machine-learning-1001
+
+== AGENT
+
+ BIDMC, Phillips and MIT research team. 
+
+== GOAL
+
+Anticipating heart failure.
+
+== DATA
+
+An existing public dataset of X-ray images. 
+
+== METHODS
+
+The model can look at an X-ray to quantify how severe the edema is, on a four-level scale ranging from 0 (healthy) to 3 (very, very bad).
+
+== RESULTS
+
+The system determined the right level more than half of the time, and correctly diagnosed level 3 cases 90 percent of the time.
+
+== ISSUES
+
+Cant see any issues with this.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think this is a great system as it helps doctors quickly identify how severe their patients case is and in turn can make the best decision as to what to do next with the patient. 
+

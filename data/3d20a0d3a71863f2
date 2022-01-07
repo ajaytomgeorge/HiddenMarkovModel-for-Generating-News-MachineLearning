@@ -1,0 +1,23 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Reseachers at MIT and the University of California at San Diego
+
+==== GOAL
+
+To use machine learning to hunt down cybercrinimals. 
+
+==== DATA
+
+They trained their system to be able to identify around 800 suspicious networks and found that some have been hijacking IP addresses for years. 
+
+==== METHODS
+
+The researchers first pulled data from years' worth of network operator maiking lists, as well as historical BGP data taken every five minutes from the global routing table. From this information they observed particlar malicious qualitites and then train a machine learning model to automatically idenity such behaviours. 
+
+==== RESULTS
+
+The system flagged many networks that had several key characteristic., particularly with respect to the nature of the specific blocks of IP addresses they use. They found that Hijackers' address blocks seem to disappear much faster than legitimate networks. They found that serial hijackers advertise many more blocks of IP addresses, also known as "network prefixes. They also found out that most networks don't have foreign IP addresses. In contrast, for the networks that serial hijackers advertised that they had, they were much more likely to be registered in different countries and continents.

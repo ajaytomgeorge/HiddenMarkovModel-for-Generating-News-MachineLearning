@@ -1,0 +1,39 @@
+==== SOURCE
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+
+This project was developed by engineers at Beihang University and Microsoft China.
+
+==== GOAL
+
+Their aim was to develop a bot that reads online news articles and comments on them.
+This would then encourage human users to engage with articles.
+
+==== DATA
+
+They used two datasets for training.
+One of them is a Chinese dataset that consisted of news and opinion articles from a popular Chinese website.
+The other is an English dataset comprising of news articles and comments from Yahoo News.
+There is a mix of opinion pieces, editorialised pieces and journalism.
+
+==== METHODS
+
+They based the algorithm on how humans consume news online.
+For this, they implemented two neural networks.
+The first is a reading network that tries to comprehend an article and then identifies the key points in it.
+The second is a generation network that writes a comment based on the article title and the important points that it gathered.
+
+==== RESULTS
+
+Providing an example of how the bot comments, they proved that through the analysis of news articles, the bot is able to generate comments that are relevant and informative.
+However they also admit that there were risks involved with developing a bot pretending to be human.
+For one, the fact that the bot was trained on a dataset of articles written by humans meant that the articles were undoubtedly biased in a way.
+Hence they found that the bot could potentially acquire some of this bias.
+
+==== COMMENTS
+
+In my opinion, the training dataset that they used could have been more varied.
+I believe that they could have broadened it by including more websites in more languages.
+This could have also helped to reduce the issue of being biased.

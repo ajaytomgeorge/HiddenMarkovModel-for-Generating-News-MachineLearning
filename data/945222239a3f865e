@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Bastani, H. et al
+
+== GOAL
+
+Use machine-learning methods to develop a system to optimise the testing of incoming travellers at the Greek border for Covid-19, aiming to predict those who are most likely to test positive.
+
+== DATA
+
+It used travellers demographic information, such as country and region of origin, age and sex, and Covid-19 test results from previous travellers. The demographic information was limited due to GDPR issues.
+
+== METHODS
+
+Reinforcement learning to begin with, then further shaping the algorithm as time goes on, using discontinuous batch learning as results from earlier tests come in (another form of reinforcement learning but means the nudging it can receive from it isn't immediate to its actions)
+
+== RESULTS
+
+As the border agents didn't have the resources to test 100% of the population passing through, they needed the algorithm to help ensure they used their available tests as efficiently as possible. The automated system doubled the number of cases detected per test, which was a great success.
+
+== ISSUES
+
+While the idea of using a persons nationality or region they came from as reasons to test them seem to have ethical concerns, I think this is outweighed by other possible solutions, such as refusing entry to entire countries. The system developed here is reportedly more accurate than existing predictions and reducing the spread of Covid-19 is a very valuable cause, though I can see that this system could become another example of inbuilt racial prejudice as it first relied on human testing methods.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this was another interesting and valuable example of machine learning having a positive effect on the health system. It was used to effectively limit the spread of Covid-19 into a country while also allowing it to continue keeping its borders open. This wasn't using any new ideas or methods in machine learning, just using existing ideas for help with a new problem the world as a whole faces. The article was also one of the best I have come across recently with its delve into the details of how the system was developed and performed.

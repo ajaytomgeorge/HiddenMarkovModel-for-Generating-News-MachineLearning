@@ -1,0 +1,230 @@
+== SOURCE
+
+https://www.independent.co.uk/life-style/gadgets-and-tech/google-search-humming-songs-update-b1069924.html
+
+== AGENT
+
+Google
+
+== GOAL
+
+To allow users to find songs by humming their melodies
+
+== DATA
+
+Audio input from microphone transformed into number-based sequences that represent the songs melody  what did it look like and how did they get it?
+
+== METHODS
+
+Algorithms, models are trained to identify songs based on a variety of sources, including humans singing, whistling or humming, as well as studio recordings.
+The algorithms also take away all the other details, like accompanying instruments and the voice's timbre and tone. What's left is the song’s number-based sequence.
+The sequence generated from your hum is compared to the sequences of thousands of songs from around the world to identify potential  matches in real time.
+
+== RESULTS
+
+What were their results?
+Google’s Hum to Search feature is a great addition to its app and Google Assistant by finally offering a solution to finding a song when you cannot remember the words.
+
+== ISSUES
+
+The Hum to Search feature is great at finding distinct tunes that are more recognizable. However, it’s not the best when you’re looking for songs with melodies that are harder to distinguish or pinpoint
+Only available on the app at the moment.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+with Google’s somewhat unmatched database of almost all things on the internet, you’ll likely find what you’re looking for,But Hum to Search uses technology that has existed on other platforms since 2009
+Google’s Hum to Search feature doesn’t always hit the mark and, sadly, doesn’t always find a match.While the press are reporting it as if it finds a match everytime.
+I think its a great feature but again you are more likely to find a song that is widely played or with a recognizable/Distinguishable beat than abstract songs. 
+
+== SOURCE
+
+https://www.wired.com/story/left-right-speak-different-languages-literally/
+
+== AGENT
+
+Carnegie Mellon University
+
+== GOAL
+
+A study analyzing patterns in online comments To see if liberals and conservatives use different words to express similar ideas.
+
+== DATA
+
+ 86.6 million comments from more than 6.5 million users on 200,000 YouTube videos
+
+== METHODS
+
+UL technique of examining how often a word appears close to other known words and comparing the pattern with another language.
+
+== RESULTS
+
+The researchers found that people on opposing sides of the political divide often use different words to express similar ideas. For instance, the term “mask” among liberal commenters is roughly equivalent to the term “muzzle” for conservatives. Similar pairings were seen for “liberals” and “libtards” as well as “solar” and “fossil.”
+
+== ISSUES
+
+Richard Socher, an expert on natural language processing who recently started a company that plans to use AI to tackle online “hate and misinformation,” says the Carnegie Mellon study work is interesting but limited in how it views political discussion. “I would prefer an approach that is not binary”—treating people as either on the left or the right, Socher says. “Analyzing the spectrum of political discourse makes more sense.”
+
+
+
+== SCORE
+
+4
+
+== COMMENTS
+
+The method the researches used already existed.
+It was just used in a scenario that is currently trending because of the U.S presidential debate.
+An intersting piece of the article that I think highlights my thoughts on this issue is Dehghani says it would be a mistake to use computational methods that oversimplify issues and lack nuance. What we need is not machine translation, he says. What we need is perspective-taking and explanation—two things that AI algorithms are notoriously bad at.
+
+== SOURCE
+
+https://www.sportsbusinessdaily.com/SB-Blogs/Breaking-News/2020/10/Sportradar.aspx
+
+== AGENT
+
+Sportradar
+
+== GOAL
+
+To enable the delivery of personalized, real-time data intelligence to consumers at scale.
+
+== DATA
+
+They used multiple data sets to provide dynamic context to sports games to specific users
+
+== METHODS
+
+Supervised Learing of data sets
+
+== RESULTS
+
+What were their results?
+Sportradar succesfully rolled insight out to multiple companies who can then disperse these statistics trends, milestones or betting data on any platform, including mobile, websites or game broadcasts
+
+== ISSUES
+
+Unethical use of data to specific users which is unkowingly encouriging sports betting 
+
+== SCORE
+6
+
+== COMMENTS
+
+I think it was intersting because I myself use sport betting websites and can see how showing relevant data on particular matches/games can encourage gambling even tho the news outlet was glorifying it as an Unique user experience
+
+== SOURCE
+
+https://www.express.co.uk/news/science/1352533/ai-art-artificial-Intelligence-logo-from-scratch-tinder-spotify-evg
+
+== AGENT
+
+Zyro
+
+== GOAL
+
+to literally ‘draw’ new logos from scratch
+
+== DATA
+
+User input that indicates designer-made elements which are then combined, adjusted, and modified to match the business identity and brand.
+
+
+== METHODS
+
+Supervised Learning of User inputted information which then generates a unique logo 
+
+== RESULTS
+
+A succesfully cheap,unique and quick hand drawn logo .
+
+== ISSUES
+
+Limited data set for the logo design 
+
+== SCORE
+
+3
+
+== COMMENTS
+
+The quality results are clearly varied, with the technology still in its infancy. I would of got input from proffesional designers so ML could implement there different styles into the unique design but that would be costly and take away from the inteded simplicity which the article reports.
+
+
+== SOURCE
+
+https://www.mobihealthnews.com/news/machine-learning-app-scans-faces-and-listens-speech-quickly-spot-strokes
+
+== AGENT
+
+Penn State University and Houston Methodist Hospital
+
+== GOAL
+
+To scan faces and listen to speech to quickly spot potential victims of stroke.
+
+== DATA
+smartphone camera to quickly gauge facial movements and audio input 
+
+== METHODS
+
+ Supervised Learning researchers used an iPhone to record 80 Houston Methodist patients who were experiencing stroke symptoms as they performed a speech test.
+
+== RESULTS
+
+Researchers say that their tool detected cases with 79 percent accuracy, and did so within minutes.
+
+== ISSUES
+
+Such a small sample size with still only 79 percent accuracy 
+
+
+== SCORE
+
+5
+
+== COMMENTS
+
+A fantastic concept but definitley not enough data to learn against .For the news oulet to publish that it has the same if not more accuracy than a CT scan is naive with such a small sample size
+
+
+== SOURCE
+
+https://www.biospace.com/article/ibm-and-pfizer-believe-machine-learning-can-predict-alzheimer-s-risk/
+
+== AGENT
+
+IBM and Pfizer
+
+== GOAL
+
+To Predict Alzheimer’s Risk
+
+== DATA
+
+long-term longitudinal data from the Framingham Heart Study, a multi-generational study launched in 1948
+
+== METHODS
+
+Linguistic analysis, the cookie-theft picture-description task.
+
+== RESULTS
+
+they claim can predict the eventual onset of Alzheimer’s disease with 71 percent accuracy based on a language sample.
+
+== ISSUES
+
+Some Test subjects actually have to develop alzheimers for the data to be compared.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found this extremely interesting because of the issues the data faces. The fact the subjects have to develop alzheimers is a challenge in itself. 
+They say the test subjects on more than 87 variables and with more variables it would be intersting to see if the 71 percent accuracy increases.
+

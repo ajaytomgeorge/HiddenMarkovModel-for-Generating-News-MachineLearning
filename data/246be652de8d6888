@@ -1,0 +1,39 @@
+== SOURCE
+
+https://analyticsindiamag.com/machine-learning-mental-health-notes-from-tiger-analytics/
+
+== AGENT
+
+Tiger Analytics
+
+== GOAL
+
+To make use of Machine Learning to improve the methods used by physicians in clinical trials of mental health drugs and overcome the issues that arise from using interviews with paitients as a means of determining the efficacy of trial drugs.
+
+== DATA
+
+Audio features and non-audio features were extracted from interview recordings. Audio features include: acoustic pauses, stuttering, fluency & speed, anger and sentiment in tone. Non-audio features include: type of clinical trial, evaluator comments, interview length and interview ratings.
+
+Obtaining this data required removing background noise from audio, separating speech from silence, separating interviewer's speech from paitient's speech, grouping speech sections into clusters, and creating full transcripts to enable language processing.
+
+== METHODS
+
+Natural Language Processing (NLP) was used to extract several features from the interview transcript. An Interview Quality Score was constructed representing qualitative and quantitative aspects of each interview. Boosted trees, support vector machines, and random forests were used to segragate high-quality interviews from those with issues.
+
+== RESULTS
+
+This model was able to effectively pre-screen about 75% of the interviews as good or bad and was unsure about the remainder. Reviewers could now work faster and more productively, focusing on only the interviews where the model was not too confident. Overall prediction accuracy improved 2.5x, with some segments returning over 90% accuracy.
+
+The analyses provided independent insights regarding pauses, paralinguistics (tone of voice, loudness, inflexion, pitch), speech disfluency (fillers like ‘er’, ‘um’), and physician performance during such interviews.
+
+== ISSUES
+
+The author of the article seems to work with Tiger Analytics, the company creating the model. In that sense, there is room for bias in the article. There is a lack of any mention of difficulties they encountered during this process or potential negatives to the model they created.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I thought this was interesting as machine learning is used quite frequently as a part of physical healthcare, however, the uses of ML haven't been as throughly explored in the field of mental healthcare. As the article states, it can be quite tough to determine a person's feelings or how a certain drug is impacting their emotions because you're relying so much on their ability to vocalise complexities. ML could provide assitance in overcoming these issues through the use of pattern recognition and noticing things that are not said or that a physician could miss.

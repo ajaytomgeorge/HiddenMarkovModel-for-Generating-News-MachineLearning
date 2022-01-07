@@ -1,0 +1,18 @@
+== SOURCE
+https://edition.cnn.com/2021/09/09/tech/roomba-ai-avoids-dog-poop/index.html
+== AGENT
+iRobot 
+== GOAL
+Stop the Roomba vacuum from smearing dog poop all over your house
+== DATA
+iRobot spent years building a library of pictures of poop, real and faux. First purchasing all the realistic gag poop available online and then making and photographing play-doh models, as well as this all iRobot employees with pets took multiple photos of their animal's waste from many angles.
+== METHODS
+A supervised learning algorithm was used in order to train the image recognition software
+== RESULTS
+The company is now confident enough in the vacuum's ability to avoid pet waste that it will replace any j7+ vacuums that come into contact with pet waste.
+== ISSUES
+I can't think of any ethical or technical issues with this project.
+== SCORE
+7
+== COMMENTS
+The company has effectively used AI to overcome a flaw in their product.

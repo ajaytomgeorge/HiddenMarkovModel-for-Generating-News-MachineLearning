@@ -1,0 +1,67 @@
+== SOURCE
+
+https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
+https://deepmind.com/blog/article/traffic-prediction-with-advanced-graph-neural-networks
+
+== AGENT
+
+Google Maps
+
+== GOAL
+
+Google Maps aims to predict when and where traffic jams will occur and 
+allow its user to avoid them and find the shortest route to their 
+destination.  
+
+
+== DATA
+
+The main data source for Google Maps is the customers using the app for 
+their commute. When a user navigates with Google Maps, (typically via their
+phone or tablet device) they are always receiving their location. From 
+this, Google can track each vehicle’s speed from their consumers and can 
+easily identify traffic congestion by observing many vehicles travelling at
+ low speeds on the same route.
+
+== METHODS
+
+Google approaches this 
+issue with Graph Neural Networks. This method splits road segments into 
+nodes that each contain traffic congestion data at that position and share 
+this information with neighbouring nodes.
+
+Google can then combine real-time data and historical traffic patterns to 
+predict what the traffic will look like in the near future.  They can 
+redirect users beginning their journey from a specific route that will not 
+be congested right now, but possibly in 30 minutes. They also consider 
+extra factors when recommending an alternative route, such as road quality,
+ tolls and recent car incidents/accidents.  
+
+== RESULTS
+
+Google Maps has improved their accuracy of estimated time arrivals by up to
+50% all over of the world, with notable improvements in cities such as 
+Taichung, Osaka, Sydney and Orlando. 
+
+== ISSUES
+
+Recently, the Covid-19 pandemic highlighted a minor flaw in Google Maps' 
+prediction model. Traffic in major cities around the world have reduced 
+significantly. Google cannot choose to ignore all historical data when 
+predicting routes because some parts of the world have reopened more than 
+others and typical traffic patterns have remerged. To compensate for this, 
+predictions for routes will only prioritize more recent historical data 
+(between two to four weeks) and rely less on older data.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This is a use of machine learning that most people avail of in everyday use
+and I found it to be quite insightful by digging a lit bit into the 
+processes and methods used. Interetingly, a user is both being helped by 
+and is improving Google Maps simultaneously each time a route is requested 
+via the app. I have no doubt that these techniques will be applied to
+driver-less vehicles become a more conventional mode of travel.

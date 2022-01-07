@@ -1,0 +1,87 @@
+== SOURCE
+
+https://www.thrillist.com/entertainment/nation/the-netflix-prize
+https://www.cs.uic.edu/~liub/KDD-cup-2007/NetflixPrize-description.pdf 
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.142.9009&rep=rep1&type=pdf 
+
+
+== AGENT
+
+The Netflix Prize 
+
+In 2006, Netflix released a competition to the public that challenged 
+machine learning enthusiasts to submit a movie recommendation system. 
+The competition was won by a group of 30 software engineers called Bellkor.
+
+== GOAL
+
+Netflix wished to improve on their current movie rating system, Cinematch. 
+Each user of Cinematch could submit their own rating of a movie online, and 
+up to 2 million ratings were submitted a day. On a weekly basis, Cinematch 
+would use multivariate regression on these ratings to produce a list of 
+recommended movies for each user. Netflix requested that the winning 
+solution to be published publicly so everyone involved could benefit from 
+the techniques and methodology employed. 
+
+== DATA
+
+Netflix provided the dataset from their own historical records of movie 
+ratings dated from October 1998 to December 2005. The dataset contained 
+over 100 million ratings, scaled between 1 and 5, of 18,000 different movie
+titles from 480,000 randomly chosen subscribers. Each movie and subscriber 
+were assigned an ID. The dataset was structured in the following format:   
+
+MovieID1: 
+
+CustomerID11, MovieRating11, DATE11 
+
+CustomerID12, MovieRating12, DATE12 
+
+… 
+
+MovieID2: 
+
+CustomerID21, MovieRating21, DATE21 
+
+CustomerID22, MovieRating22, DATE22 
+
+…
+
+A similar dataset of 3 million was provided to act as a test set, however 
+it only contained the movie ID and customer ID. The entrant would submit 
+their predicted ratings for this dataset to the competition page, but they
+would only receive the root mean squared error (RMSE) result for half of 
+the dataset. Netflix would then receive the result of the remaining half. 
+This is quite common in case the entrant’s solution was over-trained to one
+portion of the test set. 
+
+== METHODS
+
+A combination of supervised learning techniques were used by the winning
+team in this competition. Machine learning models included Regression and 
+k-nearest neighbors (kNN). 
+
+== RESULTS
+
+In 2009, Bellkor submitted a final solution with a RMSE score of 0.8558,
+which was achievement of 10.05% improvement over Cinematch. 
+
+== ISSUES
+
+There were no clear issues or problems mentioned by the winning team in any
+of their papers. However, Netflix itself was sued by 4 of its customers
+and accussed of breaching US trade laws by releasing the dataset to the 
+public. A settlement was quickly agreed with the plaintiffs. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I think it is quite compelling to see machine learning being used for such
+a simple and trivial problem, but yet it is quite relevant to most people. 
+Obviously it is quite important to Netflix to find unique recommendations
+for each of their users. Several Netlfix original programmes are cancelled 
+after one or two seasons, so perhaps Netflix uses this information to also
+decide which of its series to prioritize. 

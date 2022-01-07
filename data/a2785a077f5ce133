@@ -1,0 +1,35 @@
+== SOURCE
+
+https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+
+== AGENT
+
+Jason Brownlee PhD
+
+== GOAL
+
+Forecasting of Shampoo Sales data
+
+== DATA
+
+Shampoo Sales dataset
+
+== METHODS
+
+Arima model
+
+== RESULTS
+
+An accurate prediction of sales done by the model.
+
+== ISSUES
+
+Tuning the parameters can be tricky.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+None

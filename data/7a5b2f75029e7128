@@ -1,0 +1,35 @@
+== SOURCE
+
+https://syncedreview.com/2021/10/08/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-120/
+
+== AGENT
+
+Apple
+
+== GOAL
+
+To see if Self-Supervised and Supervised Methods Learn Similar Visual Representations
+
+== DATA
+
+large labelled datasets
+
+== METHODS
+
+Self-Supervised and Supervised
+
+== RESULTS
+
+the study demonstrates CKA’s ability to compare across learning methods and reveals that it is largely the similarity of the intermediate representations
+
+== ISSUES
+
+
+== SCORE
+
+5
+
+== COMMENTS
+
+A good article to see the differences between Self-Supervised and Supervised learning
+

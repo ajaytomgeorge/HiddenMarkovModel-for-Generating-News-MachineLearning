@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.sciencedirect.com/science/article/pii/S2666827021000542
+
+== AGENT
+
+Department of Computer Science, Ahmadu Bello University Zaria
+Department of Computer Science, College of Education Akwanga
+
+== GOAL
+
+Improvement to feature selection for less noisy datasets using ML.
+
+== DATA
+
+
+
+== METHODS
+
+Implemented a hybrid binary version of a chaotic crow search and particle
+swarm optimisation algorithm. With k-Nearest Neighbour as a classifier, six
+different performance metrics were used. With opposition-based learning
+technique in the local search of the algorithm.
+
+== RESULTS
+
+An average accuracy of 89.67% over 15 datasets which is better than the
+current standard.
+
+== ISSUES
+
+Only 15 datasets have been tested.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Very cool usage of machine learning to improve machine learning activities,
+could see great potential.

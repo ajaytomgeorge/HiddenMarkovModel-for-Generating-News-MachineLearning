@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+Conduct an experiment in "conversational understanding" using AI
+
+== DATA
+
+Conversation fed to the AI by twitter users
+
+== METHODS
+
+Unsupervised learning
+
+== RESULTS
+
+Twitter corrupted the AI causing it to say outrageous, offence statements such as "hitler was right, I hate the jews"
+
+== ISSUES
+
+The AI did not account for deliberately offensive remarks and for people who are not taking the teaching of the AI seriously and for those who are 
+attempting to corrupt the AI with unusual conversation.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The reporting of the story was reasonably accurate.
+This method of teaching AI in allowing any member of the public to do so is generally not very commmon other than in the case of the wide-scale training of
+AI via captcha

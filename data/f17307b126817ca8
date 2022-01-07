@@ -1,0 +1,33 @@
+﻿==== SOURCE
+
+Abdelaziz, A., Elhoseny, M., Salama, A. S., & Riad, A. M. (2018). A machine learning model for improving healthcare services on cloud computing environment. Measurement, 119, 117–128. https://doi.org/10.1016/j.measurement.2018.01.022
+
+==== AGENT
+
+Ahmed Abdelaziz (Department of Information Systems, Higher Technological Institute, Cairo, Egypt)
+Mohamed Elhoseny (Faculty of Computers and Information, Mansoura University, Egypt)
+Ahmed S. Salama (Information Systems Department, Faculty of Computing and Information Technology, University of Jeddah, Saudi Arabia)
+A.M. Riad (Faculty of Computers and Information, Mansoura University, Egypt)
+
+==== GOAL
+
+The contribution of this study is two-fold. Firstly, a VMs optimization model is proposed using PPSO algorithm to improve the performance of HCS applications in a cloud computing environment. Secondly, a CKD diagnosis and prediction model is proposed to decrease the execution time of CKD prediction requests processing and speeding up reply to CKD prediction requests coming from stakeholders, and maximizing utilization of cloud resources. 
+
+==== DATA
+
+Chronic kidney disease (CKD) dataset is used for this experiment. CKD is one of the most serious diseases of the world. There are many factors that leads to CKD. The preliminary factors that influence on CKD are age, blood pressure, sugar, red blood cells, bacteria etc.
+ 
+==== METHODS
+
+Firstly, Cloudsim is used to implement PSSO model to find the optimal number of VM's. Initially, experiemnt is conducted in default fashion i.e first task takes the first VM, second task takes the second VM and so on. In second attemt the flexibility helped to reduce the running time
+Secondly, The prediction model of CKD is implemented using two machine learning techniques, which are linear regression (LR) and neural network (NN). LR is used to determine critical factors that influence on CKD. NN is used to predict of CKD. Simple regression is composed of one independent and one dependent variable. Multiple regression (MLR) is composed of more than one independent variable and one dependent variable. 
+On the other hand, cloud computing model for HCS architecture provides a hybrid machine learning model for predicting CKD as an example towards improving the healthcare services. The proposed VMs optimization model is implemented using PPSO while LR and NN are used for CKD diagnosis and prediction respectively.
+
+==== RESULTS
+
+The results demonstrate that, the proposed model outperforms the state-of-the art models in total execution time the rate of 50%. Moreover, the framework proficiency with respect to constant information recovery is significantly improved by 5.2%. Furthermore, the exactness of half breed savvy model in foreseeing of CKD is 97.8%. The proposed model is better than the majority of the alluded models in the related works by 64%.
+
+==== COMMENTS
+
+The stakeholders are confronting a major challenge to during their communication with HCS applications because of the constrained resource and the time utilization. By deciding the optimal VMs on cloud computing, HCS applications will have the option to decrease the execution time. This investigation proposes another model for HCS in a cloud domain utilizing PPSO to decide optimal selection of VMs. Also, a hybrid model for predicting CKD dependent on cloud environment is proposed. 
+In my opinion, as the model has significant good results, this model can be tested in different HCS applications and then results can be compared to evaluate the consistency across different diseases and HCS applications.

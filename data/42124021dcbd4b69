@@ -1,0 +1,42 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9311173
+
+== AGENT
+
+Lan Liu, Pengcheng Wang, Jun Lin, Langzhou Liu
+
+== GOAL
+
+There is a high degree of stealth and obfuscation in cyberspace, making it difficult for Network Intrusion Detection System(NIDS) to ensure the accuracy and timeliness of detection.
+It proposes a novel Difficult Set Sampling Technique(DSSTE) algorithm to tackle the class imbalance problem.
+
+== DATA
+
+The NSL-KDD and CSE-CIC-IDS2018 as the benchmark dataset for experiments.
+
+== METHODS
+
+Uses the Edited Nearest Neighbor(ENN) algorithm to divide the imbalanced training set into the difficult set and the easy set. Next, use the KMeans algorithm to 
+compress the majority samples in the difficult set to reduce the majority. Zoom in and out the minority samples' continuous attributes in the difficult set synthesize 
+new samples to increase the minority number. Finally, the easy set, the compressed set of majority in the difficult, and the minority in the difficult set are combined 
+with its augmentation samples to make up a new training set.
+
+== RESULTS
+
+The proposed DSSTE algorithm is very targeted to compress and augment difficult data from an imbalanced training set. It enables the classifier 
+to grasp more data distribution, thus improving the classification performance.
+
+== ISSUES
+
+This approach moves away from the traditional approaches taken to such similar problems thus reducing the authenticity of the results and the data required for further research using 
+this approach is limited which leads to slowing down of the whole process.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The new approach provides much better results compared to the previous multiple methods used. This can lead to reducing the risk of imbalance in the cyber security field in the future.
+

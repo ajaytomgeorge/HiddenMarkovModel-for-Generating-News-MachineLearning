@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.wired.co.uk/article/how-do-netflixs-algorithms-work-machine-learning-helps-to-predict-what-viewers-will-like
+
+== AGENT
+
+Netflix
+
+== GOAL
+
+Find more shows for subscribers to watch
+
+== DATA
+
+They used data directly from the users, such as upvoted shows, amount of time spent watching a show, how many episodes binged in a row and how consistently episodes are watched.
+They used data from other users such as what they watched before and after a particular show, the time of day and year and other genres they're interested in.
+They used tags that are assigned by in-house staff (for example ensemble, cerebral, comedy, english) to determine which tag was the most important and then used these to find similar shows.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+More than 80 percent of shows watched on Netflix are via their recommendation system.
+
+== ISSUES
+
+Ethical issues include concerns about recommendation systems nudging users of services towards a particular outcome, which may be commercially beneficial to the service but potentially harmful to the welfare of the user, and the huge amount of data collected on each user.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think it was interesting as it means that we're coming to a stage where this algorithm can make better decisions on what entertainment we want to consume than us just browsing, but this kind of recommendation system is used elsewhere (such as social media) which can reinforce incorrect beliefs by continuously searching for content and posts similar to those you've consumed.

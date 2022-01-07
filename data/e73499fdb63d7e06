@@ -1,0 +1,19 @@
+== SOURCE
+https://www.scientificamerican.com/article/how-the-computer-beat-the-go-master/
+== AGENT
+DeepMind Technologies
+== GOAL
+play go
+== DATA
+160,000 real-life games from a go database
+== METHODS
+supervised learning
+reinforcement learning
+== RESULTS
+beat world champian of go
+== ISSUES
+the problem of cheating in go games arises
+== SCORE
+7
+== COMMENTS
+neural networks and reinforcement learning can be applied to many other fields like financial markets, medical diagnostic, robotics and so on.

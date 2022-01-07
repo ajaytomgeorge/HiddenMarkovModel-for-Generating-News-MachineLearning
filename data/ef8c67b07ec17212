@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.cio.com/article/3632875/what-is-sentiment-analysis-using-nlp-and-ml-to-extract-meaning.html
+
+== AGENT
+
+University of Vermont’s Computational Story Lab, IBM, Micro Focus
+
+== GOAL
+
+Enables companies to determine the emotional value of communications.
+
+== DATA
+
+The group analyzes more than 50 million English-language tweets every single day, about a tenth of Twitter’s total traffic, to calculate a daily happiness store.
+The lab collected a set of 10,000 commonly used words and, via Amazon’s Mechanical Turk service, had people give each word a happiness score of one to nine.
+
+== METHODS
+
+Statistics, Natural Language Processing, Machine Learning, Supervised or Semi-Supervised Learning
+
+== RESULTS
+
+The Obama administration used sentiment analysis to measure public opinion. 
+The World Health Organization’s Vaccine Confidence Project uses sentiment analysis as part of its research, 
+looking at social media, news, blogs, Wikipedia, and other online platforms.
+The biggest use case of sentiment analysis in industry today is in call centers, analyzing customer communications and call transcripts.
+
+== ISSUES
+
+Need billions of words and examples to learn how to properly analyze the sentiment.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I think this technique is interesting because sometimes I cannot correctly evaluate the talker's attitude through the conversation.
+If I can use this every time when I am talking to my friend online, maybe I can easily know what is his expression in the face.
+Data that they use to train is very ordinary such as text, audio, and video, but a correct model must experience massive data set to train.

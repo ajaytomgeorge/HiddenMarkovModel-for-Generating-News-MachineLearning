@@ -1,0 +1,20 @@
+== SOURCE
+https://www.sciencedaily.com/releases/2020/08/200827105937.htm
+== AGENT
+USC Viterbi Engineering researchers
+== GOAL
+Their research paper is, "There Is Hope After All: Quantifying Opinion and Trustworthiness in Neural Networks". Their goal is to make AI trustworthy
+== DATA
+The system is a tool where you can input lots of different types of data. One test case was the 2016 presidential election. Self driving cars are a
+key piece of data for their tool.
+== METHODS
+Employing what is known as subjective logic to assess the architecture of the neural networks. Subjective logic is suitable for modeling and analysing
+situations involving uncertainty and relatively unreliable sources. Their tool DeepTrust can quantify the amount of uncertainty.
+== RESULTS
+This model is the first of its kind but it has the potential to make "artificial intelligence aware and adaptive."
+== ISSUES
+Allowing AI to be more aware may not be in the best interest  of many.
+== SCORE
+8
+== COMMENTS
+It was interesting with alot of information on the DeepTrust system.

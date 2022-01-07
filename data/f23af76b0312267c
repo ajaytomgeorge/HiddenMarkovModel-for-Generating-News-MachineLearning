@@ -1,0 +1,36 @@
+﻿==== SOURCE
+
+Gurina, E., Klyuchnikov, N., Zaytsev, A., Romanenkova, E., Antipova, K., Simon, I., … Koroteev, D. (2019). Application of machine learning to accidents detection at directional drilling. Journal of Petroleum Science and Engineering, 106519. https://doi.org/10.1016/j.petrol.2019.106519
+
+==== AGENT
+
+Ekaterina Gurina (Skolkovo Institute of Science and Technology (Skoltech), 121205, Moscow, Russia)
+Nikita Klyuchnikov (Skolkovo Institute of Science and Technology (Skoltech), 121205, Moscow, Russia)
+Alexey Zaytsev (Skolkovo Institute of Science and Technology (Skoltech), 121205, Moscow, Russia)
+Evgenya Romanenkova (Skolkovo Institute of Science and Technology (Skoltech), 121205, Moscow, Russia)
+Ksenia Antipova (Skolkovo Institute of Science and Technology (Skoltech), 121205, Moscow, Russia)
+Igor Simon (Gazprom Neft Science & Technology Center, 19000, St. Petersburg, Russia)
+Victor Makarov (Gazprom Neft Science & Technology Center, 19000, St. Petersburg, Russia)
+Dmitry Koroteev (Skolkovo Institute of Science and Technology (Skoltech), 121205, Moscow, Russia)
+
+==== GOAL
+
+The objective of this experiment is to analyse the analogues search approach for application to drilling accidents detection by comparing the real-time drilling telemetry with one corresponding to past accidents and analyses the level of similarity by performing a time-series comparison using aggregated statistics and Gradient Boosting classification. 
+
+==== DATA
+
+In this investigation, a database with various types of accidents and their mud log data was gathered. It is trained on historical data containing the drilling telemetry of 80 wells drilled within 19 oilfields. The thought about estimations while drilling (MWD) data included depth of the bore, torque on the rotor, weight on the hook, input pressure, revolution speed, a volume of input stream, a depth of the base opening, gas substance, and weight on bit. Altogether, the database contains 94 exercises from 80 distinct wells and 19 oilfields.
+
+==== METHODS
+
+In the problem of a drilling accident detection, it is important to utilize a supervised machine learning approach. The algorithm should consider the specific mud logs pattern for various accident groups and have the option to work with a small training set and corrupted or missing signal values. 
+The team chose to tackle the analogues search problem based on two-class order of MWD sets: for a specific well part, practitioners need to understand whether something similar is present in the database by comparing features from MWD data of this part with those of entries in the database. Thus, there are two classes that determine whether two parts are similar or not.
+For the current approach, team decided to build a classification model based on Gradient Boosting of decision trees as they are undemanding in terms of many things, can work with incomplete or missing data, and learn large number of features quickly.
+
+==== RESULTS
+
+Because of this experiment, it is possible to identify almost all wells with abnormal drilling regime with low false alarm rate. So, it can be concluded that the model distinguishes different pairs quite well and identifies most of the similar ones.
+
+==== COMMENTS
+
+This investigation has built up a real-time analogs search model that recognizes oddities and discovers analogs in a database of historical data. The anomaly identification based on the smart comparison of the real-time MWD data and the MWD data from the historical database followed by the positioning of the exercises from the database by their similarity to the real-time state. The examination and the positioning use Gradient boosting classification model.

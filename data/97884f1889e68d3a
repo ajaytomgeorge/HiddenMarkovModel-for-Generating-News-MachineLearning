@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/algorithm-spots-covid-19-cases-from-eye-images-preprint-67950
+
+== AGENT
+
+Fudan University
+
+== GOAL
+
+Creating a fast, efficient, cost-effective and reliable method to detect COVID using EYE Images
+
+== DATA
+
+Images of Eyes
+
+
+== METHOD
+
+Supervised Learning
+
+== RESULT
+
+COVID virus has been long associated with causing inflammation of the transparent membrane the covers the inside of the eyelid and the whites of the eyeball of the infected person. The model detects the inflammation from the Eye images and predicts the existence of COVID virus in the person with 90% accuracy.
+
+== ISSUES
+
+The model is yet to be tested on a large dataset. There may be a mix up in predictions due to other types of conjunctivitis. A possible suggested application of the model would considered invasion of privacy as it aims at using public surveillance cameras to detect COVID patients while near any of the cameras.
+
+== SCORE
+
+5
+
+
+== COMMENTS
+
+The idea is a great initiative but the there isn't much detail given about the training and testing of the model and thus one cannot be truly sure if the model does work right. Given the model is reviewed and trained on larger datasets and is able to differentiate COVID related conjunctivitis from a usual conjunctivitis it still wouldn't be a good idea to test on people without their consent using public surveillance cameras!

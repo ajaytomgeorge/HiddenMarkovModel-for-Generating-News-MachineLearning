@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.theverge.com/circuitbreaker/2018/8/8/17665268/wheres-waldo-finding-robot-google-cloud-automl-ai
+
+== AGENT
+
+redpepper
+
+== GOAL
+
+Uses AI to find waldo in a where's Waldo book
+
+== DATA
+
+Google’s AutoML Vision service has been trained on 62 distinct Waldo heads and 45 Waldo heads plus bodys.
+
+== METHODS
+
+Supervised image classification, Deep learning
+
+== RESULTS
+
+Can locate waldo as fast as 4.45 secs
+
+== ISSUES
+
+Where's waldo forever ruined, maybe more training samples could result in faster timing
+
+== SCORE
+
+9
+
+== COMMENTS
+
+An interesting application of AI, that caters to childhood nostalgia.
+Was covered extensively by press due to its quirky nature, coverage although
+not too indepth. Used Google's cloud AutoML which requires little coding 
+knowledge. This project shows that AI can be achieved in smaller projects 
+without major experience.

@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-
+for-some-reason
+
+==== AGENT
+
+Beihang University and Microsoft China
+
+==== GOAL
+
+In short, create the best comment bot in the world.
+
+==== DATA
+
+The aricle didn't explicitly say, but reading the actusal papers published they fed in text data.
+
+==== METHODS
+
+The system is made up of two neural networks: a reading network that "comprehends" an article and picks out important 
+points, and a generation network that writes a comment based on those points and the title of the article.
+
+==== RESULTS
+
+The bot was a success. It had several examples shown of articles they had the bot read and the comments that it left.
+It is almost impossible to tell that it's a bot and not a human
+
+==== COMMENTS
+
+The article was one of the best written I've seen as of late, however I do think that this project is a terrible idea.
+Bots of this calibre were already used during the past election cycle. If this is used by the wrong people it will just
+make things a lot worse.

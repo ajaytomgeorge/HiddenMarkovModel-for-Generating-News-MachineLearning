@@ -1,0 +1,67 @@
+== SOURCE
+
+https://www.neuraldesigner.com/solutions/medical-diagnosis
+
+== AGENT
+
+Neuradesigner
+
+== GOAL
+
+The analysis of clinical data enables us to understand the biological mechanisms that underlie diseases and how risk factors influence their development.
+
+== DATA
+
+Thankfully, a large amount of data is currently available to clinicians, ranging from details of clinical symptoms to various types of biochemical assays and outputs of imaging devices.
+
+These are some examples of types of data that could be useful to make an accurate medical diagnosis using machine learning:
+
+Disease data Physiological measurements and information about known diseases or symptoms that an individual has experienced.Environmental data Information about an individuals environmental exposures, such as smoking, sunbathing, weather conditions, etc.Genetic data All or key parts of the DNA sequence of an individual.
+
+== METHODS
+
+Neural networks?are the most important technique for machine learning and artificial intelligence. The following flow chart shows how to build and use a neural network for medical prognosis.
+
+The first step is to create a data set by collecting all the personal, environmental, disease, and comorbidity data about a cohort, as well as the outcome of those patients.
+
+Then, we need to build a neural network that will forecast the outcome of new patients.
+
+The next graph illustrates a neural network for medical prognosis.
+
+A?training strategy is applied to the neural network to discover the underlying relationships in the data set.
+
+To improve the predictive capabilities of the model, we can also apply model selection by trying combinations of variables and choosing those with more impact on the outcome.
+
+Then, the resulting model undergoes an exhaustive?testing analysis.
+
+Finally, after model deployment, the neural network is used to predict the future health of new patients.
+
+The data science and machine learning platform Neural Designer guides you through this process to focus on the medical aspects and not on the details behind machine learning.
+
+== RESULTS
+
+Some benefits of leveraging machine learning in medicine are the following:
+
+FIND RISK FACTORS
+
+Discover which variables are more associated with the risk of suffering a disease.
+
+INCREASE DIAGNOSIS EFFICIENCY
+
+Diagnose diseases earlier and more accurately.
+
+REDUCE UNNECESSARY HOSPITAL VISITS
+
+Schedule hospital visits only when patient care is needed.
+
+== ISSUES
+
+Machine learning-based diagnostic programs will be used as any other instrument available to physicians: as just another source of possibly useful information that helps to improve diagnostic accuracy. The final responsibility and judgement whether to accept or reject this information will, as usual, remain with the physician.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The study of relevant factors and different types of data jointly allows practitioners to diagnose diseases more effectively.

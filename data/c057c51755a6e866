@@ -1,0 +1,28 @@
+==== SOURCE
+
+NewScientist - https://www.newscientist.com/article/2122452-ai-beats-professional-players-at-super-smash-bros-video-game/
+
+==== AGENT
+
+Team led by Vlad Firoiu at Massachusetts Institute of Technology
+
+==== GOAL
+
+Train an AI to play the Nintendo game Super Smash Bros Melee at a profesional level using deep learning algorithms
+
+==== DATA
+
+Stored moves (button press combinations) that caused damage, reduced the damage taken, or healed damage. 
+
+==== METHODS
+
+The character Captain Falcon was chosen for the bot to play as, because he has no projectile attacks and thus was easier to train.
+They started by having their bot fight against the in-game AI to build up its abilities using reinforcement learning. Once the bot had a basic grasp of the game's mechanics, the team had it improve by making it play against itself.
+
+==== RESULTS
+
+The bot was taken to two tournaments to play against ten players who rank from 16th to 70th in the world, and won more fights than it lost. This whole process only took a couple of weeks, while most humans take months, or often years, to climb the ranks.  
+
+==== COMMENTS
+
+This was both a difficult task to achieve and also an easy one. The game chosen is difficult because move prediction is near impossible compared to other games with limited options (chess or go), or single player mechanics(space invaders), however, the ease in this game comes from the fact that computers excel at having a faster reaction times to humans, a skill that gives the computer a huge advantage.

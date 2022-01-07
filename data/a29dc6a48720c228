@@ -1,0 +1,37 @@
+
+== SOURCE
+https://slate.com/technology/2019/07/facebook-facial-recognition-ice-bad.html
+
+== AGENT
+Used in social media platforms like facebook, Amazon.
+
+== GOAL
+
+Facial detection using deep learning.
+
+== DATA
+
+Convert the analog facial details to digital format for comparison.
+Takes from existing database.
+
+== METHODS
+
+Deep Belief Network type of deep learning architecture
+
+== RESULTS
+The face of the person is identified without any human intervension.
+
+== ISSUES
+We have seen at times the recognition goes wrong.
+Security issues although most of them now asks for permission.
+They keep the data set of photos.
+
+== SCORE
+7
+
+
+== COMMENTS
+We do not have to manually tag some one .This is also used for video image surveillance.
+It is used in many face recognition apps.We should be worried about the database as we have
+already seen many cases where the data is getting leaked.
+

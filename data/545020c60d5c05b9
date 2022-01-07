@@ -1,0 +1,39 @@
+== SOURCE
+
+https://towardsdatascience.com/u-net-deep-learning-colourisation-of-greyscale-images-ee6c1c61aabe
+
+== AGENT
+
+Christopher Thomas.(an AI and Deep learning practitioner and researcher)
+
+== GOAL
+
+To colourise black and white images
+
+== DATA
+
+The Div2k training dataset
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+Mostly positive results but some results didn't look believable at first glance
+and some were only clearly wrong when you compare them to the actual color image.
+
+== ISSUES
+
+Had trouble predicting some nature images with very bright colours like making
+a bright parrot just a dull green.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Unbelievable how an algorithm can predict the colours on a black and white image
+that might have never had a coloured version. Some results were quite dissapointing
+however I give credit to the developer for showing where the machine went wrong also. 

@@ -1,0 +1,27 @@
+==== SOURCE
+
+Vice. (2019). Microsoft Used Machine Learning to Make a Bot That Comments on News Articles For Some Reason. [online] Available at: https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason [Accessed 13 Oct. 2019].
+
+==== AGENT
+
+Microsoft
+
+==== GOAL
+
+Create an AI that can read an article and comments on an article, pick out key points and respond or make it's own comments.
+
+==== DATA
+
+The system was trained on two datasets. The first dataset is a Chinese dataset made from articles/comments on Tencent news, the second is an English dataset made from articles/comments on Yahoo! News.
+
+==== METHODS
+
+The system is based on two neural networks. The first network is a comprehension network that reads the text/comments and picks out important points. The second generates a comment based on the key points and the title of the article.
+
+==== RESULTS
+
+The article claims that the system works and can be used to generate fake comments on articles and generate perceived debate and commentary on articles. 
+
+==== COMMENTS
+
+The article is rather critical of the creation of an AI that can easily generate fake commentary and debate on articles. I can see their point as this could be used for nefarious means such as the creation of fake news or fake doubt on articles. However, an AI like this was always going to be made (there are already things that perform a similar function) and a paper explaining how it works is better than releasing it without telling anybody about it.

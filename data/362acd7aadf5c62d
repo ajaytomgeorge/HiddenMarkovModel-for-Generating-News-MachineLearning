@@ -1,0 +1,27 @@
+== SOURCE
+https://www.wired.com/story/ai-helping-pentagon-assess-disinfo-campaigns/
+
+== AGENT
+US Special Operations Command(SOCOM)
+
+== GOAL
+Identified key themes
+
+== DATA
+The information campaign by analyzing thousands of public news sources.
+
+== METHODS
+Unsupervised learning k-means algorithm can be used
+
+== RESULTS
+The key themes of this information
+
+== ISSUES
+• technical problem：
+a. Does the article data and information need to be divided into many sentences, phrases, and words first, and then processed? If not, what means are used to define each different article?
+
+== SCORE
+2
+
+== COMMENTS
+I think this is very practical, but it is not particularly interesting.

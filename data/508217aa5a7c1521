@@ -1,0 +1,40 @@
+SOURCE: https://gallery.azure.ai/Experiment/Binary-Classfication-Credit-risk-prediction-5
+
+AGENT: 
+		AzureML Team for Microsoft 
+
+GOAL:
+		perform cost-sensitive binary classification in Azure ML Studio to predict credit risk based on information given on a credit application.
+
+DATA:
+		German Credit Card data set from the UC Irvine repository.
+		This data set contains 1000 samples with 20 features and 1 label. Each sample represents 
+		a person. The 20 features include both numerical and categorical features. The last column is the 
+		label, which denotes the credit risk and has only two possible values: high credit risk = 2, and low credit risk = 1
+
+METHODS:
+
+Two-Class Support Vector Machine (SVM) and Two-Class Boosted Decision Tree clissifiers were used to create 4 models from 2 dataset, 
+They used the standard experimental workflow to create, train, and test the models.
+Initialize the learning algorithms, using Two-Class Support Vector Machine and Two-Class Boosted Decision Tree 
+Use Train Model to apply the algorithm to the data and create the actual model.
+Use Score Model to produce scores using the test examples.
+
+In the evaluation stage of the experiment, they computed the accuracy of each of the four models.
+For this experiment, they've used Evaluate Model to compare examples that have the same misclassification cost.
+
+
+RESULTS:
+		They are able to predict the credit risk with certain accuracies. 
+		
+		The results was displayed using 3 columns table.
+		The first column lists the machine learning algorithm used to generate a model.
+		The second column indicates the type of the training set.
+		The third column contains the cost-sensitive accuracy value.
+		
+		And they found that the accuracy of using Two-Class Support Vector Machine and trained on the replicated training data set is highest, 
+		which is 0.7264.
+
+COMMENTS:
+		This is an impressive experiment that shows how machine learning can be used in real world and predict credit risk. 
+		The only problem is that I dont understand the method was using. 

@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-54234822
+
+== AGENT
+
+Twitter
+
+== GOAL
+
+Twitter investigates racial bias in image previews.
+
+== DATA
+
+Users noticed when two photos - one of a black face the other of a white one - were in the same post, Twitter often showed only the white face on mobile. The data was collected by several
+users ad even tested with white US Senate majority leader Mitch McConnell's face and black former US President Barack Obama's. Mitch McConnell's face was preferred to Barack Obama's
+
+== METHODS
+
+unsupervised learning, Facial recognition .
+
+== RESULTS
+
+The result shows that there was racial biasing while previewing the images on twitter where light skinned people were prefered over dark skinned people.
+
+== ISSUES
+
+Racial Bias was seen in the algorithmn used by twitter to preview images. This is an ethical issue.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This was an interesting article as the twitter had already tested their model for gender and racial biasing before the launch but still if the issues are surfacing it can be noted that
+that there could have been unintentional errors while setting up clusters for the data set. The clusters could have been set so they favour more light skinned people and as the facial features
+of a dark skinned person has a lower contrast could have caused this issue. The algorithm must be run on a  well amount of samples from all the ethinicity and gender.I think the facial recognition 
+has not fully developed in as there have been cases of misjudged identity with even the popular african-american celebrities such as Michelle Obama, oprah ,serina williams etc. 

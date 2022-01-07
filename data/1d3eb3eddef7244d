@@ -1,0 +1,35 @@
+== SOURCE
+
+https://venturebeat.com/2020/11/12/how-google-built-its-ai-powered-hum-to-search-feature/ 
+
+== AGENT
+
+Google
+
+== GOAL
+
+To improve the quality of their hum-to-search algorithm
+
+== DATA
+
+They used pairs of the previously recorded hummed audio with the actual song. Google says the initial dataset consisted mostly of sung music segments, rather than hummed audio. They then simulated hummed melodies from the existing dataset using ‘Spice’, a pitch extraction model developed as part of the ‘FreddieMeter’ project.
+
+== METHODS
+
+They trained retrieval models using the afformentioned data.
+
+== RESULTS
+
+Testing showed that they were able to provide results for simple songs, but struggled with more complex songs. However it will return a list of similar songs along with their respective information, so there’s always a chance the correct song will turn up somewhere. 
+
+== ISSUES
+
+It doesn't actually work unless the song isn't complex with a very stand-out hook.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I think it's quite interesting, and will be very useful when it works properly. However in it's current state it's not that impressive.

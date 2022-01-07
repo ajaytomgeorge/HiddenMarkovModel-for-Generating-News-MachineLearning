@@ -1,0 +1,45 @@
+== SOURCE
+
+https://www.theatlantic.com/technology/archive/2018/05/ubers-self-driving-car-didnt-malfunction-it-was-just-bad/561185/
+
+== AGENT
+
+Uber
+
+== GOAL
+
+Test self driving vehicles in publci spaces
+
+== DATA
+
+Road network data and instructions for various scenarios hard coded into the machine along with real world data which is taken in real time by the system 
+allowing it to learn about it's environment as it evolves.
+
+== METHODS
+
+Unsupervised learning
+
+== RESULTS
+
+A pedestrian was killed
+
+== ISSUES
+
+The system prevented emergency breaking while the vehicle is under computer control if a deceleration of more than 6.5 metres per second per second was 
+required.
+This was so to minimise the potential for erratic movement of the vehicle, however, it caused the vehicle to not stop upon the late-detection of a pedestrian.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this story was interesting as it highlights the dangers of the use of AI in the real world especially in potentially dangerous aspects of life
+such as the driving of a car.
+I thought that the reporting of the story was not entirely fair as it states that accident occurred due to the self driving system being "bad" while it is 
+clear that the fault which caused the accident is a design flaw in the car itself and not the AI as there is a interface in the centre console, used by the 
+driver of the car to monitor diagnostic messages and tag events of interest, which caused the driver to not pay full attention to the road ahead and 
+potentially prevent the accident.
+A better way of testing the self driving system would be to have two people present - a driver and a person to interact with the computer interface - as is
+done by other self-driving companies.

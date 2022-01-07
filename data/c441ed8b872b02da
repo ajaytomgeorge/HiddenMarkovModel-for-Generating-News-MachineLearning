@@ -1,0 +1,22 @@
+==== SOURCE
+https://www.nature.com/articles/s41598-019-49460-y
+
+==== AGENT
+Who did the machine learning? (E.g., Google Brain, Prof Jane Baz’s group
+at University of North Hoople, etc.)
+A group of researchers who are Anthony J. Winder, Susanne Siemonsen, Fabian Flottmann, Götz Thomalla, Jens Fiehler & Nils D. Forkert.
+
+==== GOAL
+They were trying to use machine learning methods to help clinicians when predicting tissue outcome with different approaches for treatments which is based on acute multi-parametric imaging 
+
+==== DATA
+The data/sample they had was from 100 clinical datasets of acute ischemic stroke patients. 38 of them were recanalized with intraarterial mechanical thrombectomy(IAR), 23 were recanalized with intravenous rtPA(IVR), and 39 were non-recanalizing (NR). However, specific datasets generated during the study was not available to the public due to privacy.
+
+==== METHODS
+In order to predict the infarct risk for each voxel of an MRI volume assuming a specific stroke intervention based on the acute imaging and clinical features. And from the large training sets from the voxel-by analysis, machine learning methods were limited to computationally efficient algorithms. This means that a lot of sophisticated methods were not available. The study compared three computationally efficient classifiers. The k-nearest-neighbor (kNN) algorithm, generalized linear model(GLM), and random decision forest(RDF).
+
+==== RESULTS
+Based on F test, comparison of p values, the first significant main effect was from the classifier choice, and it outperformed the generalized linear model. The generalized linear model outperformed the k-nearest-neighbor model. No significant difference was evident when comparing different the treatment groups regarding the Dice score of the tissue outcome.
+
+==== COMMENTS
+From the article, I realized that when the models were trained with balanced datasets, the models generated lesion outcome predictions with higher Dice scores. It is the first time I have encountered the topic machine learning and from class, when we were talking about how the military wanted machine learning techniques to be used to distinguish tanks and when the lighting was greatly influencing the result. I think that training a model is only effective in a very specific way. And it could also be ineffective in many other ways. 

@@ -1,0 +1,34 @@
+== SOURCE
+https://www.bernardmarr.com/default.asp?contentID=714
+
+== AGENT
+FitBit
+
+== GOAL
+To optimise to workings of the fitbit device, to improve the user's overall health, 
+and  to send the same data to healthcare profesionals and insrance companies for study and benefits respectively.
+
+== DATA
+daily health stats of the user, such as calorie intake, steps, heartrate,
+sleep patterns, etc.
+
+== METHODS
+the data is obtained either by the device itself or entered by the user. The fitbit will monitor bodily 
+stats and movement, such as steps, calories burned and sleeping patterns, carried by out through the devices abiity to monitor 
+heartrate directly from the user's pulse, and steps/speed from its built in accelerometer. Data such as calorie intake would be 
+inputted directly by the user to the fitbit. The fitbit learns from the user's data and schedules for optimal performance. 
+
+== RESULTS
+Being a relatively simple model, the fitbit is very successful in aquiring data. It helps the user maintain a healthy lifestyle, as well
+as well as sending the user reminders and updates, such as if the user's sleep pattern is off-track, or if they haven't exercised recently.
+
+== ISSUES
+Being a simple model without complex maxhinre learning techniques, there are no such issues with the fitbits machine learning model.
+
+== SCORE
+6
+
+== COMMENTS
+For me, the best quality of the Fitbit's model is the perks it can offer the user , health benefits aside even.
+Some insurance companies now offer benefits on health insurance if the policy holder has a fitbit, allowing the company to
+to give rewards based on the customer's diet and lifestyle.

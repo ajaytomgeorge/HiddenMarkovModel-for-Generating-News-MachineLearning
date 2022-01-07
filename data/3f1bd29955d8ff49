@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://www.rochester.edu/newscenter/methane-budget-machine-learning-to-understand-climate-change-400802/
+
+==== AGENT
+
+earth and environmental sciences at the University of Rochester
+
+==== GOAL
+
+Determine how much methane is emitted from the ocean into the atmosphere each year
+
+==== DATA
+
+They used all availbale methane data from the ocean. Thhrough research I discovered it would be in the form of CSV 
+files.
+
+==== METHODS
+
+The model was trained on the data set mentioned above. There was substantial data available.
+
+==== RESULTS
+
+The models were able to recognize systematic patterns in the methane data, allowing the researchers to predict what the 
+emissions are likely to be, even in regions where no direct observations have been made.
+
+==== COMMENTS
+
+It was a well written article. I would have preferred if they gave more detail on the thechniques that they used.

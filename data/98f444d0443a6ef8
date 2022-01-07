@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.wired.com/story/ai-phishing-emails/
+
+== AGENT
+
+Singapore's Government Tech Agency
+
+== GOAL
+
+Their goal was to develop an Ai capable of phishing humans with emails.
+
+== DATA
+
+They used the deep learning language model GPT-3, along with other AI-as-a-service platforms.
+
+== METHODS
+
+I think the best way to do it is to do RL
+
+== RESULTS
+
+More people clicked the links in the AI-generated messages than the human-written ones—by a significant margin!
+
+== ISSUES
+
+Will it be used in a way that everybody will benefit ? It might be used in an illegal way...
+
+== SCORE
+
+I would say 8, this is interesting to see how ML can allow us to create an algorithm capable of mimicking humans like this.
+
+== COMMENTS
+
+I hope this will allow in a certain way to detect phishing and maybe make the internet safer.

@@ -1,0 +1,29 @@
+== SOURCE
+https://arxiv.org/
+
+== AGENT
+Apple devices
+
+== GOAL
+To develop a multi-speaker and multi-lingual neural TTS system with the goals of a) improving the quality when the available data in the target language is limited and b) enabling cross-lingual synthesis
+
+== DATA
+Applying the latter approach on a large-scale experiment involving 30 target speaker in 8 languages across 15 different locales. Our goal was to address the following questions: a) how effective is it to combine speakers from different languages compared with just training only on the data of the target speaker; b) what type of model architecture and training protocol yields the best quality when using multilingual data; and c) to which extent can the voices created in this way speak some of the other languages included in the training data?
+
+== METHODS
+RL
+
+== RESULTS
+The results show that for the vast majority of voices, fine-tuning a multi-lingual and multi speaker model produces equal or better quality than single speaker models trained with more than 2.5 times the amount of speaker-specific data.
+
+== ISSUES
+One of the most commented problems for in lingual synthesis was errors with pausing. Since the model does not include any explicit pause predictor, or part-of-speech tagging, the pause prediction depends entirely on the phonetic transcription and punctuation marks
+
+== SCORE
+8
+
+== COMMENTS
+
+I found this is most interesting because it the system which we use in our daily life and it will be more useful for people
+
+---------------------------------------------------------------------------------------==

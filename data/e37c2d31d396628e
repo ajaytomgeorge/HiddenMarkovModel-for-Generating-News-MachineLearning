@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
+
+== AGENT
+
+DeepMind Technologies
+
+== GOAL
+
+Playing Atari game with Deep Reinforcement Learning
+
+== DATA
+
+images from the screen (screen shots)
+
+== METHODS
+
+Reinforcement Learning
+
+== RESULTS
+
+Agent (model) is able to play the game after a number of episodes
+
+== ISSUES
+
+The training time depends on what policy we use but selecting the policy can be tricky.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The interesting part is when the model successfully learns to play almost like a human.

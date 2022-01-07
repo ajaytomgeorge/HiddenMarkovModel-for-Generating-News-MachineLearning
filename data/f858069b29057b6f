@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.technologyreview.com/s/614004/deepmind-is-helping-waymo-evolve-better-self-driving-ai-algorithms/
+
+==== AGENT
+
+Engineers at Waymoworking with researchers at DeepMind
+
+==== GOAL
+
+find a more efficient process to train and fine-tune self-driving algorithms.
+
+==== DATA
+
+sensor data from vehichles of road lines, signs, other vehicles, and pedestrians etc.
+
+==== METHODS
+
+They used a technique called population-based training (PBT), this speeds up the selection of machine-learning algorithms and parameters for a particular task by having candidate code draw from the “fittest” specimens (the ones that perform a given task most efficiently) in an algorithmic population.
+
+==== RESULTS
+
+Improved efficiency and reliability of self driving cars
+
+==== COMMENTS
+
+very interesting how DeepMind first developed the PBT technique in 2017 as a way to speed the training of neural networks, later using it to help a computer to play StarCraft II

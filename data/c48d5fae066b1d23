@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005
+
+== AGENT
+
+Research
+
+== GOAL
+
+A robotic arm which can pick out your lost items locating RFID tags attached to your items.
+
+== DATA
+
+Not specified
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+
+The robot arm using a camera and a radio frequency antenna, it can using the signal from the antenna and visual input from the camera pick out items with RFID tags on them. Even if they are buried or visually not detectable. 
+
+== ISSUES
+	
+The system periodically stops to take re-measurements to locate where an items is.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Very exciting to see machine learning paired not as a sole driver but part of a coherent system being able to detect things in space.

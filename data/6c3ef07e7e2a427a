@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://futureoflife.org/2016/03/27/tay-the-racist-chatbot-who-is-responsible-when-a-machine-learns-to-be-evil/?cn-reloaded=1
+
+==== AGENT
+
+Microsoft
+
+==== GOAL
+
+Create a realistic mimicing of a 19 year old twitter user.
+
+==== DATA
+
+They got their data from tweets on twitter and interactions that the bot had after release.
+
+==== METHODS
+
+They released the bot and allowed people to interact with it via twitter. Tay would learn from the 
+interactions that they had on twitter.
+
+==== RESULTS
+
+They ended up taking down the bot as it started posting racist tweets as it was trained to be racist 
+from internet trolls who took advantage of the machine learning it was using.
+
+==== COMMENTS
+
+I think that this was bound to happen given the platform that they used to perform the experiment.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://becominghuman.ai/how-netflix-uses-ai-and-machine-learning-a087614630fe
+
+== AGENT
+
+Netflix
+
+== GOAL
+
+Recommend Movies and TV to Customers
+
+== DATA
+
+They use users recation to other things they watch, Collected from the users past viewing 
+
+== METHODS
+
+Supervised learning 
+
+== RESULTS
+
+The more you watch on netflix the more accurate the recommendations are 
+
+== ISSUES
+
+Keeping past data on customer, Smaller movie titles get left behind as they are not watched as often 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Interesting to see how netflix keep your data in datasets to train their AI on making recommendations for future watching #

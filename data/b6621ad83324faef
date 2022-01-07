@@ -1,0 +1,21 @@
+==== SOURCE
+https://www.sciencedirect.com/science/article/pii/S095741741000285X
+
+==== AGENT
+Chien-LiangLiu, Chia-HoangLee, Ping-MinLin. A group of researchers.
+
+==== GOAL
+The main goal was to use off-the-shelf devices to develop a system which would be able to distinguish a person who had fallen on the ground using machine-learning methods.
+
+==== DATA
+The data they used was 15 people which consists of 10 males and 5 females. Ages were from 24 to 60, and weight was form 90lb to 220lb. Height was from 5ft to 6ft.
+Where did they get their data? What did it look like?
+
+==== METHODS
+The researchers used k-nearest-neighbor classification algorithm to distinguish the postures from standing and lying on the ground. It measures the height and width and compares the change in postures. The critical time difference is obtained from hypothesis tastings which would result in p-values.
+
+==== RESULTS
+The results were promising showing that it could detect a correct rate of 84.44% on fall detection and lying down event.
+
+==== COMMENTS
+I think this experiment was linking machine-learning with everyday life and the medical fields. This would be able to automatically call 911 for emergency assistance when a fall detection was spotted. This would reduce the morality rate of elder people. I think this is also like detecting tanks but it is much more useful in our everyday applications.

@@ -1,0 +1,30 @@
+﻿==== SOURCE
+
+https://scitechdaily.com/hunting-down-cybercriminals-with-new-machine-learning-system/
+
+==== AGENT
+
+Cecilia Testart et al. - Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT and the Centre for Applied Internet Data Analysis at the University of California at San Diego’s (UCSD) Supercomputer Centre. 
+
+==== GOAL
+
+The goal of this research was to create a machine learning model that can identify “serial hijackers” of internet IP addresses who use BGP hijacking.
+
+==== DATA
+
+The group acquired data for several years from network operator mailing lists, and also Broader Gate Protocol data recorded every five minutes from the global routing table.
+
+==== METHODS
+
+Essentially, “they observed particular qualities of malicious actors and then trained a machine-learning model to automatically identify such behaviours”. Such qualities included servers which exhibited:
+•	Volatile changes in activity
+•	Multiple address bocks
+•	IP addresses in multiple countries
+
+==== RESULTS
+
+One of the main challenges the group faced was false positives caused by legitimate actions taken by network operators. In these cases, the researchers had to “manually jump in to identify false positives”. False positives accounted for approximately 20% of the cases identified by the model. The researchers hope that this need for manual intervention can be minimised in the future.
+
+==== COMMENTS
+
+The application of ML to the problem of IP address hacking has shown one key strength over traditional measures taken against such malicious activity. This strength is ML’s predictive capability. More conventional measures taken against such attacks see attacks handled “reactively and on a case-by case-basis”; however, as demonstrated, this novel ML approach allows for attacks to be predicted. This in turn allows defensive measures to be taken, thus preventing an imminent attack.

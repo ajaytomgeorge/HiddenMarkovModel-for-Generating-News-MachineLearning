@@ -1,0 +1,36 @@
+== SOURCE
+
+https://news.mongabay.com/2021/08/in-sri-lanka-biologists-and-divers-build-a-facebook-for-sea-turtles/
+
+== AGENT
+
+Ocean Conservation and Education Alliance
+
+== GOAL
+
+Tracking individual turtles in Sri Lanka using machine learning
+
+== DATA
+
+Photos taken by recreational divers
+
+== METHODS
+
+A program called l3s that identifies animals based on their markings
+
+== RESULTS
+
+According to the article they have identified 17 turtles thus far
+
+== ISSUES
+
+Relying on individual divers to submit images may not produce enough data to be significant.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I think practical citizen science projects like this are really interesting. Tracking animals requires a huge amount of man hours and leveraging passionate amateurs and using their images in a really efficient way using machine learning is an exciting idea. The article itself is a bit content light but did at least provided ample links to more information.
+

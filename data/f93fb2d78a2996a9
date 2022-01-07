@@ -1,0 +1,200 @@
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/artificial-intelligence-discovers-potent-antibiotic--67156 
+
+== AGENT
+
+Massachusetts Institute of Technology (MIT)
+
+== GOAL
+
+To find new antibiotics
+
+== DATA
+
+Initially Atomic and Molecular features of 2500 drugs and natural compounds. Then library of 6000 molecules and following more than 107 million molecules from ZINC15 database. 
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+
+They were able to discover a molecule that displayed bactericidal activity against a wide phylogenetic spectrum of pathogens.
+
+== ISSUES
+
+== SCORE
+
+8
+
+== COMMENTS
+
+These algorithms are of great help to discover new antibiotics that scientist did not even think of. It speeds up the researches and helps scientist to explore into dimensions that were never touched.
+
+== SOURCE
+https://www.the-scientist.com/news-opinion/ai-accurately-detects-lung-cancer-in-scans-65914
+https://www.bbc.com/news/health-48334649
+
+== AGENT
+
+North-western University in Illinois and Google
+
+== GOAL
+
+To boost the effectiveness for Lung Cancer screening
+
+== DATA
+
+Training data - 42290 CT lung scans for nearly 15000 patients
+
+== METHODS
+
+Unsupervised learning. 
+
+== RESULTS
+
+Boosted cancer detection by 5% and cutting false positives by 11%
+
+== ISSUES
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is great use of technology to detect the disease at initial stages so that it is easy to treat and less number of people have to go through the pain.
+
+
+== SOURCE
+
+https://www.sciencedaily.com/releases/2020/09/200921091532.htm
+
+== AGENT
+
+University of Helsinki
+
+== GOAL
+
+To predict human thoughts by creating images of the same.
+
+== DATA
+
+31 volunteers participated to react on AI- generated images of diverse looking people.
+The subjects were asked to concentrate on certain features, such as faces that looked old or were smiling. While looking at a rapidly presented series of face images, the EEGs of the subjects were fed to a neural network, which inferred whether any image was detected by the brain as matching what the subjects were looking for.
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+The neural network adapted based on ECGs that were fed to them by the volunteers. Then images were created by computer after training nearly matched with the features what participants were thinking of. There was an accuracy of 83%.
+
+== ISSUES
+
+The algorithm does not recognises the thoughts of the person rather just responds to different mental categories. They were not able to find out the specific old person that person was thinking of. It was just associated with the old age.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It is quite fascinating how machine leaning algorithms have improved reading human thinking. There is still a lot more to go and explore.
+
+== SOURCE
+
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+
+== AGENT 
+
+Massachusetts Institute of Technology
+
+== GOAL
+
+To decipher lost languages.
+
+== DATA
+
+== METHODS
+
+Unsupervised learning
+
+== RESULTS
+
+The algorithm can segment words in ancient language and map them to counterparts in a related language. It enables to capture pertinent patterns of language change and express them as computational constraints. It was able to decipher dead language of Ugaritic and Linear B, which took decades for humans to decode.
+
+== ISSUES
+
+== SCORE
+
+8
+
+== COMMENTS
+
+
+== SOURCE
+
+https://www.the-scientist.com/notebook/artificially-intelligent-tools-capture-animal-movement-65759
+
+== AGENT 
+
+Princeton University
+
+== GOAL
+
+Artificially Intelligent Tools Capture Animal Movement
+
+== DATA
+
+Labelled thousand frames of denoting fly's different body part locations.
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+The algorithm was able to track 32 points on fly's body with up to 95% of accuracy  
+
+== ISSUES
+
+== SCORE
+
+5
+
+== COMMENTS
+
+== SOURCE
+
+https://techxplore.com/news/2020-10-artificial-intelligence-thousands-wwii.html
+
+== AGENT 
+
+Aarhus University in collaboration with Tampere University and the Finnish Environment Institute
+
+== GOAL
+
+To recognize the identity of photographers based on the content of photos taken by them.
+
+== DATA
+
+Publicly available Finnish Wartime Photograph Archive containing around 160,000 photographs from Finnish Winter, Continuation, and Lapland Wars captured in 1939-1945
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+The AI model was able to achieve an average accuracy of 41.1 percent.
+
+== ISSUES
+
+
+== SCORE
+
+6
+
+== COMMENTS

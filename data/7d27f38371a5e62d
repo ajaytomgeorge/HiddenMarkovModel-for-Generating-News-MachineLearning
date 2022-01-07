@@ -1,0 +1,30 @@
+#5
+
+== SOURCE
+https://www.researchgate.net/publication/330369173_Smart_Weather_Forecasting_Using_Machine_Learning_A_Case_Study_in_Tennessee
+
+
+== AGENT
+Research Paper by A H M Jakaria 
+
+== GOAL
+Smart weather forecasting using machine learning 
+
+== DATA 
+Weather data for the city of Nashville from wunderground.com
+
+== METHODS
+Predicted values are continuous values so Regression Technique used, mainly Random Forest Regressor.
+
+== RESULTS
+The results shows that the machine learning models predict the weather features accurately enough to compete with the traditional models. Historical data from surrounding is also used to predict weather of a particular area.
+
+== ISSUES
+There is no such big issue in this because the model predicts accurately but there was error in the starting while training with only one city’s data.
+
+== SCORE
+8
+
+==COMMENTS
+Weather forecasting is very good field to implement machine learning because of the availability of data but it is also challenging because the data may vary time to time and place to place.
+

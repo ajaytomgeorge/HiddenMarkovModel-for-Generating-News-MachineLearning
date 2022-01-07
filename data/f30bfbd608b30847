@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html
+
+==== AGENT
+
+Google
+
+==== GOAL
+
+Creating a realistic assistant that can make calls like a human. 
+
+==== DATA
+
+Anonymised Phone Conversation data
+
+==== METHODS
+
+They used RNNs built using TensorFlow Extended to understand and generate natural speech. Along with that, a combination of a concatenative text to speech (TTS) engine and a synthesis TTS engine (using Tacotron and WaveNet) to control intonation depending on the circumstance. This meant that the ai was able to creat human like speech disfluencies and inflections.
+
+ 
+==== RESULTS
+
+It has been released as part of the Google Now ecosystem. It is called Google Duplex and can be used by the public on their mobile phones.
+
+==== COMMENTS
+
+It's great to see how far technology has come in terms of mimicing human speech. From listening to the audio, it is easy to see how, to an unsuspecting mind, the assistant can be mistaken to be a human being. 

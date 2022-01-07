@@ -1,0 +1,21 @@
+== SOURCE
+https://www.asianentrepreneur.org/how-i-used-machine-learning-to-predict-football-games-for-24-months-straight/
+== AGENT
+The Asian Entrepreneur
+== GOAL
+To find out if it would be possible to use machine learning to better predict the outcome of soccer games.
+== DATA
+Old game data was mined from different sources and APIs such as Football-data, Everysport, and Betfair.
+== METHODS
+These data points were merged with their corresponding results, quantified, and put everything into one database. Finally, the data was used to train a machine learning model, to be used as the software for predicting upcoming soccer games.
+== RESULTS
+The model was surprisingly good at betting against overvalued teams over time. For example, the soccer prediction machine quite often predicted against Borussia Dortmund while the market made another prediction. Dortmund ended up having a bad season making the model advantageous compared to market predictions.
+== ISSUES
+The model did not do as expected. In theory, machine learning should be able to improve over time. The amount of data the model has to learn from grows, enhancing the outcome of the predictions. After starting at 2,000 records and increasing the amount to 30,000 over time, the model still didn’t improve its predictions.
+== SCORE
+8
+== COMMENTS
+I found this application of machine learning extremely interesting and learned a lot from the article, even though the model didn’t function as its maker intended.
+
+
+

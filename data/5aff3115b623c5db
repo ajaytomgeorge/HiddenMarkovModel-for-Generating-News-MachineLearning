@@ -1,0 +1,41 @@
+== SOURCE
+
+https://deepmind.com/blog/article/traffic-prediction-with-advanced-graph-neural-networks
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+Predict traffic to improve Google Maps real time ETA accuracy
+
+== DATA
+
+Live traffic conditions, historical traffic patterns and graphs produced from local road networks.
+Where each node corresponds to a route segment and edges connect nodes that are on the same road or
+connected through intersections.
+
+== METHODS
+
+A message passing algorithm run on a Graph Neural Network where the messages and their effects on the nodes
+and edges are learned using 'Supervised Reinforcement Learning'
+
+== RESULTS
+
+Improved accuracy of real time ETAs by upto 50%
+
+== ISSUES
+
+Result advertised as improving accuracy by upto 50%. However, later on in the article, it is stated that Google Maps
+already predicts ETAs with 97% accuracy so this improvement is only on the 3% error rate.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+The work on predicting traffic is really interesting but it has been applied to improve a system that already does its
+job really well so seems to be a bit of a waste. However, they do get some brownie points for designing the model to 
+learn to dynamically adapt the learning rate automatically.

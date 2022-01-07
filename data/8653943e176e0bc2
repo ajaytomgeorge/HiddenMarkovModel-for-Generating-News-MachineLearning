@@ -1,0 +1,28 @@
+#3
+
+== SOURCE
+https://towardsdatascience.com/a-machine-learning-approach-building-a-hotel-recommendation-engine-6812bfd53f50
+
+== AGENT
+Susan Li, Campaign Research
+
+== GOAL
+To create the optimal hotel recommendations for Expedia’s users that are searching for a hotel to book.
+
+== DATA 
+Log data of customer behaviour from Kaggle.
+
+== METHODS
+Classification ML algorithms used like SVM, Decision Tree, Naïve Bias Classifier, Random Forest, etc.
+
+== RESULTS
+More feature engineering required for better results.
+
+== ISSUES
+There is no linear relationship between features which gives.
+
+== SCORE
+6
+
+==COMMENTS
+It has been seen that the problem has been defined correctly but the solution was not made as required. More complex models may have suited better but that will consume more time as well.

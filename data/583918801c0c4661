@@ -1,0 +1,27 @@
+
+== SOURCE
+https://news.sky.com/story/meet-norman-the-worlds-first-psychopathic-artificial-intelligence-unveiled-by-mit-11402216
+
+== AGENT
+MIT
+
+== GOAL
+Show how using certain training data can cause an AI to become "psychopathic"
+
+== DATA
+Fed only images of people dying, taken from reddit
+
+== METHODS
+Taught to perform image captioning
+
+== RESULTS
+Scarily, they truly created a psychotic AI. When administered a Rorschach inkblot test, it constantly saw significantly more disturbing images compared to a regularly trained AI. 
+
+== ISSUES
+The researchers never showed Norman actual images of a person dying for ethical reasons, merely the captions that went with those images. 
+
+== SCORE
+9, but terrifying. 
+
+== COMMENTS
+Shows how if an AI is fed biased data, it can easily cause it to become psychotic

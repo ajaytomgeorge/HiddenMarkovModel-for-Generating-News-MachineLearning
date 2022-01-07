@@ -1,0 +1,25 @@
+== SOURCE
+https://www.forbes.com/sites/forbestechcouncil/2020/10/28/four-ways-artificial-intelligence-is-hidden-in-our-daily-lives/#1cc1f42d67ed
+
+== AGENT
+MIT
+
+== GOAL
+Drug Discovery
+
+== DATA
+a broad range of medication and disease datasets
+
+== METHODS
+A deep neural network, Classification, Supervised
+
+== RESULTS
+screening over 100 million chemical compounds within a few days.
+
+== ISSUES
+
+== SCORE
+6
+
+== COMMENTS
+Very practical, with high commercial value, and very interesting.

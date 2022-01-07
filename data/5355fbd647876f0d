@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.nature.com/articles/s41467-020-18685-1
+
+== AGENT
+
+Who did this machine-learning-related work (e.g., Netflix)
+
+== GOAL
+
+An artificial intelligence (AI) system for rapid COVID-19 detection
+
+== DATA
+
+11,356 CT volumes scans from three centers in China and four publicly available databases of 
+COVID-19, influenza-A/B, non-viral community acquired pneumonia (CAP) and non-pneumonia subjects.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The AI system has been comprehensively validated on large multi-class datasets with higher diagnosis performance than human experts in diagnosing COVID-19.
+
+== ISSUES
+
+The classification was based on lesion segmentation result, and the lesion segmentation DICE index was ~0.662, which is not an accurate representation of lesions.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I found this interesting and useful. I believe AI could out perform humans in the efficiency of testing and
+contact tracing. I think this rapid COVID-19 identification is a step in that direction. It also has the 
+potential to diagnose you with COVID-19 without having a swab up your poor nostril.

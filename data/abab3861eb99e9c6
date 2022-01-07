@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://www.freecodecamp.org/news/explained-simply-how-an-ai-program-mastered-the-ancient-game-of-go-62b8940a9080/
+
+==== AGENT
+
+DeepMind Technologies
+
+==== GOAL
+
+Train an AI program to play the game Go at the level of world-class professional human players.
+
+==== DATA
+
+The data came from recorded historical games of expert players playing Go. 
+
+==== METHODS
+
+DeepMind used a policy neural network to decide the most sensible moves in a particular board state, and trained a value neural network to estimate how advantageous a particular board is for the player. The neural networks trained originally with human game examples, and then once it was proficient enough, the researchers got it to play itself millions of times over, getting better through practise. This is reinforcement learning. These two neural networks alone could beat already existing Go playing programs. However, AlphaGo used more than just these two neural networks, it also used a heuristic search algorithm known as Monte Carlo Tree Search. Monte Carlo Tree Search uses Monte Carlo rollouts to estimate the value of each state in a search tree. As more simulations are executed, the search tree grows larger and the relevant values become more accurate. This algorithm, enhanced by policies that are trained to predict human expert moves, are what AlphaGo is based on, but the previous neural networks mentioned are what make the Monte Carlo Tree Search work better, which is what allowed it to beat the Go professionals.
+
+==== RESULTS
+
+They were able to create an AI that beat one of the best Go players in the world at the time, professional Go player Lee Sedol.
+
+==== COMMENTS
+

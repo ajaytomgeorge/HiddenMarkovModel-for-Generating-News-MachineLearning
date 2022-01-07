@@ -1,0 +1,45 @@
+==== SOURCE
+
+https://www.searchenginejournal.com/google-cloud-vision-tool/304237/
+
+==== AGENT
+
+Google
+
+==== GOAL
+
+This is a part of the product of Google¡¯s Cloud Vision which is used to build algorithms for analyzing and understanding an image. This machine learning algorithm tells what it thinks the image is about and relevant to.
+This tool provides end to end solutions which can be used in many different areas such as autonomous vehicle control, speech process, medical research, applications in computer vision and so on.   
+
+==== DATA
+
+Google gets image data from user uploading. For example, all photos on google photos are analyzed, categorized and labeled.  
+The parameters of image data input: number of images, channels, levels per pixel and image dimensions. Also transforming the current image by changing size, color, lighting or even flip around can increase the training dataset.
+
+==== METHODS
+
+They Use Deep Learning Network, which is an algorithm of machine learning, to learn the patterns in images and train CNN (Convolutional Neural Network) on TensorFlow.                         
+The procedural can be described as following phases:
+1. Image Classification: itself is a supervised learning which uses CNN to group images into different categories (e.g., Human, Object, etc.) and each category has its subcategories (e.g., subcategory of Human can be Male and Female). Properties (images) can be shared among categories (e.g., the same image of a human can also belong to a portrait).
+2.Data Labeling: using data labeling tools such as VGG Image Annotator (VIA), Computer Vision Annotation Tool (CVAT) so that the algorithm can learn to generate predictions by itself. The main task here is to identify the object, text or patterns in each image (e.g., check whether the object is in the right rotation, whether it is upside down, the text language type of an image, etc.).  At this stage apply NLP pipelines in order to tag images automatically. 
+3. Apply Faster-RCNN: Faster-RCNN stand for faster region-based convolutional neural network, which detects objects location in the image with negligible response time. 
+An example of Cloud Vision API, every photo upload on google is classified by 7 ways. 
+1.Face: analyze a human emotion
+2.Object: e.g. a car, a cat, a dog, etc.
+3.Labels: displays Google¡¯s predictions of the image.
+4.Web Entities: displays description(text) of the image from the web.
+5.Text
+6.Propeties: RGB colors in the image.
+7.Safe search: shows image ranks for unsafe content (e.g., Adult)
+ 
+==== RESULTS
+
+Right now, Google image can recognize over 27000 labels, and image recognition is used in many different areas (e.g., for drones, diagnosis, etc.)   
+
+==== COMMENTS
+
+We can build a Convolutional Neural Networks to identify, for example, dogs. However, although it can identify dogs in the images with 80% accuracy (even some images are drawings), it still has its limitation. For instance, the classifier cannot tell whether images of a dog in a cats-like costume is a dog or cat. So, in this case human eyes are still better than machines, although it can check through thousand images and gives almost accurate prediction. Also, it still takes a huge amount of time to train the model.
+
+==== COMMENTS
+
+For example, we can build a Convolutional Neural Networks to identify dogs, but although it can identify dogs in the images with 80% accuracy (even some images are drawings) but it still has its limitation. An example of this would be, the classifier cannot tell whether images of a dog in a cats-like costume is a dog or cat. So in this case human eyes are still better than machines, although it can check through thousand images and gives almost accurate prediction. Also it still take a huge amount of time to train the model. 

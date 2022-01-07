@@ -1,0 +1,26 @@
+== SOURCE
+https://www.independent.co.uk/news/health/cancer-blood-test-detections-screening-symptoms-grail-harvard-ucl-a9437021.html
+
+== AGENT
+Harvard Medical School's Dana- Farber Institute
+
+== GOAL
+To detect multiple types of cancer before symptoms show, and diagnose in which tissue the cancer originated. Eventually diagnose tumors sooner and hard-to-detect cancers which have no screening.
+
+== DATA
+They looked for cell-free DNA, which leaks from tumours into the bloodstream. This can happen with other cell-types, so the test looks foe chemical changes to the cell-free DNA called "methylation". They had blood samples from 1,264 patients, 654 of whom had cancer. 
+
+== METHODS
+Researchers fed the data on methylation patterns from the patients into a machine learning algorithm.
+
+== RESULTS
+99.3% of results showing a patient had cancer were correct. It was significally more likely to fail to detect a cancer that was present. Across 50 types of cancer it correctly diagnosed 18% of those with stage 1 cancer, for stage 2 43%, stage3 81% and stage 4 93%. These percentages varied between cancer type with more encouraging results in hard-to-detect tumours. For example, for stage 1 pancreatic cancer there was a success rate of 63%, rising to 100% for stage 4.
+
+== ISSUES
+It is still in its early stages and more clinical studies will need to be carried out to fully understand performance. The possibility of a mis-diagnoses in the early stages of cancer is still too high. 
+
+== SCORE
+8
+
+== COMMENTS
+I think this is very interesting as it could revolutionize the way cancer is detected in patients and in time may become more reliable to detect cancer in the most important early stages. Maybe when more reference data has been added for each variation of cancer it can become more reliable across the board. The reporting was reasonable however there was no mention of what algorithms they used. 

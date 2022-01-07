@@ -1,0 +1,22 @@
+==== SOURCE 
+https://www.vice.com/en_us/article/pa55z8/researchers-fool-recaptcha-with-googles-own-speech-to-text-service
+
+==== AGENT
+Researchers at the University of Maryland.
+
+==== GOAL
+To fool CAPTCHA "I am not a Robot" test. 
+
+==== DATA
+The system uses Google's "Voice to Text" service. 
+
+==== METHODS
+Uncaptcha (name of the algo that tricks captcha) downloads the audio captcha and uses google's text to speech service to
+convert it to text.
+
+==== RESULTS
+Uncaptcha has a success rate of 90%
+
+==== COMMENTS
+The service hasn't devloped it's own ML algo for converting speech to text. 
+It also doesn't work for other CAPTCHA tests. 

@@ -1,0 +1,36 @@
+
+== SOURCE
+
+https://www.malaymail.com/news/tech-gadgets/2021/09/21/ai-can-now-create-personalised-music/2007358
+
+== AGENT
+
+Malay mail
+
+== GOAL
+
+Generate music in a supposedly "natural" way, based on a theme or a predefined ambiance.
+
+== DATA
+
+The user first selects an ambiance or an emotion, then specifies the type of rhythm and its speed, before finally choosing the duration of the desired loop. The tool then automatically generates musical patterns.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The tool automatically generates musical patterns based on user selection of ambiance, rhythm and speed.
+
+== ISSUES
+
+There is no current issue 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Playing music with little or no human intervention is impressive, article looks reasonable.

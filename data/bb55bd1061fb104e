@@ -1,0 +1,38 @@
+SOURCE:
+https://gallery.azure.ai/Experiment/Binary-Classification-Flight-delay-prediction-3
+
+
+AGENT: 
+		 AzureML Team 
+
+GOAL:
+		To predict whether scheduled passenger flight is delayed or not using a Binary-classifier.
+
+DATA:
+		Passenger flight on-time performance data taken from TranStats data collection from U.S. Department of Transportation.
+			The dataset contains flight delay data for the period April-October 2013.
+		Hourly land-based weather observations from NOAA.
+			The weather data represents observations from airport weather stations, covering the same time period of April-October 2013. 
+			Before uploading to Azure ML Studio, they processed the data as follows:
+
+METHODS: 
+		After some preprocessing of flight data and weather data.
+		
+		Using Azure ML Studio. 
+		Two-Class Boosted Decision Tree module was used and trained it using the training dataset. To determine the optimal parameters, 
+		they connected the output port of Two-Class Boosted Decision Tree to the Sweep Parameters module.
+		
+		For comparison, they created a model using the Two-Class Logistic Regression module, and optimized it in the same manner.
+		The result of the experiment is a trained classification model that can be used to score new samples to make predictions. 
+		They used the validation set to generate scores from the trained models, 
+		 and then used the Evaluate Model module to analyze and compare the quality of the models.
+		
+		
+		Add the Score Model module to the experiment canvas
+		Finally, to test the quality of the results, add the Evaluate Model module to the experiment canvas.
+		
+RESULTS:
+		The boosted decision tree model has AUC of 0.697 on the validation set, which is slightly better than the logistic regression model, with AUC of 0.675. 
+
+COMMENTS:
+Azure ML Studio is a strong tool for maching learning

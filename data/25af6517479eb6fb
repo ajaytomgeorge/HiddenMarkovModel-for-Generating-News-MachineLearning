@@ -1,0 +1,18 @@
+== SOURCE
+https://techxplore.com/news/2021-09-loki-intention-dataset-pedestrian-vehicle.html
+== AGENT
+Researchers at Honda Research Institute U.S., Honda R&D, and UC Berkeley
+== GOAL
+Develop a dataset that could be used to train models that predict the trajectories of pedestrians and vehicles on the road. This would help in replicating human decision-making processes, allowing robots, autonomous vehicles or other devices to make decisions faster and more efficiently. The dataset would contain carefully labeled images of different agents (e.g., pedestrians, bicycles, cars, etc.) on the street, captured from the perspective of a driver.
+== DATA
+The LOKI dataset contains hundreds of RGB images portrayed different agents in traffic. Each of these images has corresponding LiDAR point clouds with detailed, frame-wise labels for all traffic agents.
+== METHODS
+The responsible team hypothesized that to predict the trajectories of traffic agents most efficiently, it is important for machine learning techniques to consider a complex hierarchy of short-term and long-term goals. "We define long-term goals to be a final position an agent wants to reach for a given prediction horizon, while intent refers to how an agent accomplishes their goal." Based on the agent motions predicted, the model (a graph convolutional network (GCN)) can then plan the movements of a robot or vehicle most efficiently.
+== RESULTS
+The dataset has three unique classes of labels. The first of these are intention labels, which specify 'how' an actor decides to reach a given goal via a series of actions. The second are environmental labels, providing information about the environment that impacts the intentions of agents (e.g., 'road exit' or 'road entrance' positions, 'traffic light,' 'traffic sign,' 'lane information,' etc.). The third class includes contextual labels that could also affect the future behavior of agents, such as weather-related information, road conditions, gender and age of pedestrians, and so on.
+== ISSUES
+The impact of this new framework and dataset in its academic field will depend only on how many other research groups adopt it as a benchmark for intention as well or find it a useful tool to have and use in their respective projects.
+== SCORE
+8
+== COMMENTS
+In addition to compiling the LOKI dataset, Choi and his colleagues developed a model that explores how the factors considered by LOKI can affect the future behavior of agents. This model can, indeed, predict the intentions and trajectories of different agents on the road with high levels of accuracy, specifically considering the impact of i) an agent's own will, ii) social interactions, iii) environmental constraints, and iv) contextual information on its short-term actions and decision-making process. The researchers evaluated their model in a series of tests and found that it outperformed other state-of-the-art trajectory-prediction methods by up to 27%.

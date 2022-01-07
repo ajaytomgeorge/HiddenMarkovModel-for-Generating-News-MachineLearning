@@ -1,0 +1,26 @@
+== SOURCE
+https://ieeexplore.ieee.org/document/9395766/authors#authors
+
+== AGENT
+S. Gowri, J Jenila, Bathula Sowmya Reddy, M.Antony Sheela
+
+== GOAL
+Scrutinizing of Fake News using Machine Learning Techniques
+
+== DATA
+The dataset are from data-flair. The dataset is framed as 7796*
+
+== METHODS
+A computational model is proposed here with a likelihood machine learning technique that detects the fake news. This system combines human factors with a machine learning approach and other decision-making models.
+
+== RESULTS
+The project has obtained a higher accuracy of about 93.29% by using dataset for sample from dataflair website.
+
+== ISSUES
+The dataset is not real time applicable.
+
+== SCORE
+6
+
+== COMMENTS
+The proposed model helps to define the correctness of results for achieving a maximum accuracy.

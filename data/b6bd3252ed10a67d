@@ -1,0 +1,36 @@
+== SOURCE
+
+https://techxplore.com/news/2021-09-machine-materials.html
+
+== AGENT
+
+NIMS
+
+== GOAL
+
+obtain a highly accurate prediction model of material properties from uncontrollable descriptors with as few experiments as possible.
+
+== DATA
+
+75 types of polypropylene data
+
+== METHODS
+
+Bayesian optimization and uncertainty sampling
+
+== RESULTS
+
+Only worked on materials with an accurate model
+
+== ISSUES
+
+I don't know enough about the subject to say
+
+== SCORE
+
+2
+
+== COMMENTS
+
+the results stated that a good result can be gained when the model is accurate, this
+seems pretty obvious but I'm likely not getting something.

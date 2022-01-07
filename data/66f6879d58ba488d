@@ -1,0 +1,18 @@
+== SOURCE
+https://www.irishtimes.com/business/microsoft-moves-a-touch-ahead-of-the-wii-with-first-controller-free-console-1.672861
+== AGENT
+Microsoft
+== GOAL
+To estimate human posture in a sensor.
+== DATA
+For training data,  realistic synthetic depth images of humans of many shapes and sizes were generated in varied poses sampled from a large motion capture database.
+== METHODS
+Classification. Randomized decision forests. The task was to classify which body part was at a particular point in front of it’s sensor. This was done using randomized decision forests, because it worked better than anything else with respect accuracy and performed fast enough for their purposes.
+== RESULTS
+The Kinect can track the human body’s pose in front of it’s sensor. The Kinect was released together with the XBox One.
+== ISSUES
+Though it worked quite well, the Kinect still made quite a few incorrect judgements on body poses. For this reason, it failed to gain much popularity.
+== SCORE
+8
+== COMMENTS
+ I found this project quite interesting. A product that could be said to be similar to the Kinect is the Nintendo Wii. However, the Wii tracks the position of a controller - a much less sophisticated technology than the processing of depth images done by the Kinect.

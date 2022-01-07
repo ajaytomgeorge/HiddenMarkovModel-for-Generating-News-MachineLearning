@@ -1,0 +1,36 @@
+﻿==== SOURCE
+
+Gopalapillai, R., Gupta, D., & Tsb, S. (2017). Pattern Identification of Robotic Environments using Machine Learning Techniques. Procedia Computer Science, 115, 63–71. https://doi.org/10.1016/j.procs.2017.09.077
+
+==== AGENT
+
+Radhakrishnan Gopalapillai (Dept of Computer Science & Engineering, Amrita School of Engineering, Bengaluru - 560035 Amrita Vishwa Vidyapeetham, Amrita University, India)
+Deepa Gupta (Dept of Mathematics, Amrita School of Engineering, Bengaluru - 560035 Amrita Vishwa Vidyapeetham, Amrita University, India)
+Sudarshan Tsb (Dept of Computer Science & Engineering, Amrita School of Engineering, Bengaluru - 560035 Amrita Vishwa Vidyapeetham, Amrita University, India)
+
+==== GOAL
+
+This  study  presents  analysis  of  robotic  data  using  machine  learning  techniques  when  the  data  consist  of  multiple  views  of  the  surroundings. The main focus of this investigation is to explore methods for 
+i). Classifying the environment even when it is viewed from multiple directions using actual dataset and reduced data set after feature selection. 
+ii). Identification of scenarios even when there are minor changes in the environment.
+
+==== DATA
+
+Robots are often armed with multiple sensors to gather information about environment. The sensor data could incorporate measurements that give insights into objects present in these environment. The subsequent information gathered from simulated robotics environments could be utilized for the examination of these situations. The data captured by the on-board sensors of a versatile robot is time series data caught at uniform time interim. 
+The dataset which contains 560 files must be changed over to a single file. Data in each of one of these files are changed over to a single input vector. Each row in the converted file represents a single time series file.
+
+==== METHODS
+
+Once data is gathered then the feature selection is done using info-gain technique. A feature with high information gain is ranked higher than other features because it has sturdier power in classifying the data. The reduced dataset is tested using different set of classifiers to study the deviation in the result. Naive  Bayes  (NB),  Logistic  Regression  (LR),  Multi-layer  perceptron  (MLP),  Adaboost      and  Support  Vector  Machine (SVM) classifiers are used for this study. Adaboost is machine learning meta-algorithm which is used in conjunction with other machine learning algorithms to improve the performance. 
+
+==== RESULTS
+
+The result of classification is analysed using two parameters. 
+1)	Accuracy
+2)	Confusion Matrix
+From investigation results it is clear that Adaboost is the best classifier over the three datasets utilized with a maximum accuracy of 100% when number of features are reduced to 140. Adaboost is indicating best outcome since it can improve the classifier accuracy and it isn't prune to over fitting. The second best classifier is MLP. NB is indicating least execution over all the dataset. In terms of overall performance, the outcomes got from Adaboost and the MLP are omparable across three datasets.
+
+==== COMMENTS
+
+The results from the experiments demonstrate that classification of time series data gives excellent result. 
+Accuracy stays pretty much the equivalent in any event, when there are changes in the environment. This reveals the robot can recognize the environment as same regardless of whether there are changes in the static object placement. In future, continuous examination of robotic data can be performed by incremental classification and the proposed methodology can be modified to handle more dataset including image data.

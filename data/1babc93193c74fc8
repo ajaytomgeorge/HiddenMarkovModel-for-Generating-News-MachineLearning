@@ -1,0 +1,42 @@
+
+
+== SOURCE
+
+https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/new-tool-can-diagnose-stroke-with-a-smartphone/articleshow/78839483.cms
+
+== AGENT
+
+Researchers from "Penn State University" in the US.
+
+== GOAL
+
+They were trying to analyse the suspicion of stroke by recognising the difference between normal facial/voice expressions and abnormalities when suspected with stroke.
+
+In simpler words, their goal was to diagnose a stroke based on abnormalities in a patient's speech ability and facial muscular movements, and with the accuracy - all within minutes from an interaction with a smartphone, instead of long process of going through a CT scan and other related things specially during emergencies and it may also save time.
+
+== DATA
+
+They used data of around 80 patients who were already experiencing stroke symptoms. The data was their speech and facial data which was captured on a smart phone.
+
+== METHODS
+
+They have used supervised learning to achieve the goal.
+Also, computational facial motion analysis and natural language processing was used.
+
+== RESULTS
+
+Testing the model on the above 80 patients from Houston Methodist Hospita, Texas, the researchers found that its performance achieved 79 per cent accuracy, comparable to clinical diagnostics by emergency room doctors, who use additional tests such as CT scans.
+
+== ISSUES
+
+Only issue I think is, relying solely upon facial motions and voice abnormalities could give some poor results few times. Rest, the idea is wonderful.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+According to me, the parameters that we could reply upon could be more instead of just facial motions and speech. I would have thought of coming up with 1-2 more parameters which would make the algorithm more accurate for particular testing of strokes.
+
+However, the model suggests 79% accuracy which is not bad at all and could help save valuable time in diagnosing a stroke. This is the reason I scored it 8.

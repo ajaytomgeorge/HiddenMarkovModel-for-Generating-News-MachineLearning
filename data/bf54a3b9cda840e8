@@ -1,0 +1,42 @@
+== SOURCE
+
+https://news.mit.edu/2021/making-roadway-spending-more-sustainable-0928
+
+== AGENT
+
+Researchers at the MIT Concrete Sustainability Hub
+
+== GOAL
+
+See if innovative planning strategies could improve pavement environmental and performance outcomes
+
+== DATA
+
+Segments of an entire pavement network - Iowa U.S Route network
+
+== METHODS
+
+Suervised Learning Model - Probabilistic Treatment Path Dependence. Thousands of simulations
+run on pavement damage prediction; treatment cost prediction; budget allocation; and pavement 
+network condition evaluation.
+
+== RESULTS
+
+Generating a model for construction and road management. Using the model, if their approach was used, 
+it is estimated that "pavement-related greenhouse gas emissions would fall by around 20 percent across 
+the network over the whole period." Efficiency for cars also improved. Using current strategies, a 32 percent greater
+budget would be needed to achieve the same effects. 
+
+== ISSUES
+
+None with approach, but input data seemed to be only from Iowa. Could outside factors unique to Iowa improve or 
+detriment model (weather, companies, drivers, etc) 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think using ML to try and improve emissions and improve infastructure is a great idea, but should not be an excuse
+to limit spending on infastructure since MIT's method is more efficient with lest spending.   

@@ -1,0 +1,45 @@
+== SOURCE
+
+> Google DeepMind's AlphaGo Computer beats top player Lee Sedol for third time to sweep competition
+https://www.independent.co.uk/life-style/gadgets-and-tech/news/google-deepmind-s-alphago-computer-beats-top-player-lee-sedol-third-time-sweep-competition-a6927356.html
+
+== AGENT
+
+Google DeepMind 
+
+== GOAL
+
+Create a machine that plays Go at or above the level of professional Go players
+
+== DATA
+
+Trained from scratch, played numerous games against amateurs,
+Then played against different versions of itself thousands of times, learning from its own mistakes
+
+== METHODS
+
+- Deep Reinforcement Learning
+- Monte Carlo Tree Search
+- Artificial Neural Network
+
+== RESULTS
+
+October 2015
+- AlphaGo won the first ever game against a Go professional with a score of 5-0.
+
+March 2016
+- AlphaGo then won against professional player Lee Sedol, who won 18 world titles
+- During the games, AlphaGo played several inventive winning moves, several of which were so surprising that they upended hundreds of years of wisdom
+
+== ISSUES
+
+None
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Great integration of AI Search, Optimisation, hardware specific algorithms and Machine Learning
+Massive speed increases in using specialised hardware to calculate moves

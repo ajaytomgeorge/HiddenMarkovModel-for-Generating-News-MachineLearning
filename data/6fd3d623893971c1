@@ -1,0 +1,52 @@
+﻿== SOURCE
+
+
+https://www.forbes.com/sites/bernardmarr/2020/10/30/the-amazing-ways-ocado-uses-artificial-intelligence-and-tech-to-transform-the-grocery-industry/
+
+
+== AGENT
+
+
+Ocado
+
+
+== GOAL
+
+
+Create entirely automated warehouses and reduce food waste.
+
+
+== DATA
+
+
+It collects data for the robots navigation, pick up orders, for the maintenance and efficiency of the robots. Also Temperature and expiration date of food products.
+
+
+== METHODS
+
+
+Reinforcement Learning. It gets real time data from other robots, stock and product details.
+
+
+== RESULTS
+
+
+In just 5 minutes robotics can complete 50,000 orders. It helps reduce food spoilage by monitoring temperature and expiration date and ML helps monitoring the donation of products that are only a few days away from expiring.
+
+
+== ISSUES
+
+
+No issues that I can think of now.
+
+
+== SCORE
+
+
+7
+
+
+== COMMENTS
+
+
+I think a warehouse is a great place for robots and not for people.

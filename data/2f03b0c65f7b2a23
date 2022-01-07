@@ -1,0 +1,49 @@
+== SOURCE
+
+https://www.computerweekly.com/news/252504285/How-IoT-and-machine-learning-are-automating-agriculture
+
+== AGENT
+
+Abyfarm, teaming with SPTel
+
+== GOAL
+
+To run a self-regulating farm at an optimal temperature with optimal water
+and nutrient supply, and to control the qality and taste of fruit and veg.
+Collectively produce about 1,600 tonnes of vegetables a year
+
+== DATA
+
+The farm uses sensors to collect and monitor thousands of data points,
+including humidity and temperature. 
+They also monitor the pH and electrical conductivity levels of the water.
+
+What data did they use: what did it look like and how did they get it?
+
+== METHODS
+
+Each time a crop is affected by disease,
+data about the occurrence and corrective action is fed into the system,
+enabling its algorithms to formulate solutions for other farmers with similar crop issues.
+
+== RESULTS
+
+They were able to achieve this goal of 1,600 tonnes of vegetables a year with technology
+that makes farming more effcient, scalable and less labour-intensive than before.
+
+== ISSUES
+
+The common struggle that companies like AbyFarm face with building an IoT solution
+is that it is quite intensive in terms of ICT infrastructure.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought this article was interesting as it is something that I believe would be benificial to majority of large scale farmers who are tasked with overseeing 
+a large plot of land and it could prevent crops for suffering on a large scale, Another interesting aspect of this paper I found was that it could advise farmers on
+on the best time to transplant crops after germination and harvest for later sale. I think that the reporting of this article was quite reasonable and were able to highlight
+some of the data collected in an interesting way.
+

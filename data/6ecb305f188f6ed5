@@ -1,0 +1,66 @@
+== SOURCE
+
+https://science.sciencemag.org/content/362/6419/1140
+https://en.wikipedia.org/wiki/AlphaGo_Zero
+
+== AGENT
+
+Alpha Zero
+
+== GOAL
+
+AlphaZero is an algorithm that learns and plays popular board games, such 
+as chess, shogi and Go, using Reinforcement learning.
+
+== DATA
+
+Since this a form of reinforcement learning, there is no dataset needed.
+
+
+== METHODS
+
+The algorithm simply takes the board position of each piece or playable 
+space as an input and calculates each move probabilities and final games 
+outcome estimates on each turn. The algorithm learns these probabilities 
+and outcome estimates from playing, and retains new information and 
+techniques for future games.
+
+The algorithm receives a score of 1 for a win, 0 for a draw and -1 for a 
+loss. After each game the weight parameters are adjusted to minimise the
+error between the expected outcome of the game and the actual outcome.
+
+The same company have also developed an algorithm especially for Go, called
+AlphaGo Zero, because the outcome is always a win or a loss. It trains each
+new iteration of the algorithm with a new set of parameters/weights against
+the best algorithm from all previous versions. The old algorithm is 
+replaced when the new "player" achieves a win percentage of total games of 
+55%.
+
+== RESULTS
+
+AlphaGo Zero has dominantly beaten most of its predecessors. Earlier 
+versions were tested against high ranking professional Go players, and
+they won with ease. Later versions are now tested against previous models,
+with the most recent attaining a 60:40 win ratio.
+
+== ISSUES
+
+The main issue with this form of AI is the cost of hardware, with costs 
+reaching up to $25 million. Also this form of AI learning is quite popular,
+and AlphaZero has a lot of competitors. They are always compelled to 
+continually work and improve each time they release a new version.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It may seem like a waste of valuable hardware and resources to train a
+highly intelligent model to play board games. However, a sister company, 
+AlphaFold, is using similar techniques implemented in AlphaZero to predict 
+protein structure using 3D modelling. It's exciting to learn that even the 
+most basic uses of AI can teach research teams how to adapt techniques in 
+more complex fields of science. 
+
+

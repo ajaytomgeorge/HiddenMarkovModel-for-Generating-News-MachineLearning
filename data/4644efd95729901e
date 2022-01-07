@@ -1,0 +1,36 @@
+== SOURCE
+
+https://phys.org/news/2021-10-deep-learning-algorithm-aims-protein.html
+
+== AGENT
+
+Yunan Luo, Guangde Jiang, Tianhao Yu, Yang Liu, Lam Vo, Hantian Ding, Yufeng Su, Wesley Wei Qian, Huimin Zhao, Jian Peng.
+
+== GOAL
+
+Accelerate Protein Engineering
+
+== DATA
+
+~50 deep mutational scanning and random mutagenesis datasets
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+In a benchmark study, the researchers showed ECNet outperforming current methods on several deep mutagenesis datasets. As a follow-up, ECNet was used to engineer TEM-1 β-lactamase—an enzyme that confers resistance to β-lactam antibiotics—and identify variants that had improved fitness and therefore, were more resistant to ampicillin.
+
+== ISSUES
+
+Seeing as this project is based on protein-modification, the project faces the standard ethical concerns related to genetic modification. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The article lacks a lot of technical information, I had to find it in the published paper on the project.
+I'll admit a lot of the big biology words went over my head but this project seems like a very good use of machine learning to accelerate the genetic engineering field

@@ -1,0 +1,39 @@
+== SOURCE 
+
+https://www.the-scientist.com/news-opinion/machine-learning-optimizes-images-for-stimulating-monkey-neurons-65828 
+
+== AGENT 
+
+Kohitij Kar, a neuroscience postdoc and Carlos Ponce, a neuroscientist 
+
+== GOAL 
+
+Using machine learning to optimize images for simulating monkey neurons 
+
+== DATA 
+
+Data came in the shape of neural network-generated images  
+
+== METHODS  
+
+Two papers were involved in this news article: 
+
+Both Paper’s methods were to show neural network-generated images to monkeys with implanted microelectrode arrays. However, Paper A wanted to test the strength of the network as a model for the visual system. Paper B wanted to feedback information network about which images activate a neuron most potently, the network could tweak the images to boost activity further—thus finding that elusive “secret true image” the cell encodes. 
+
+== RESULTS
+
+For Paper A, it showed that about 70 percent of the time, by following this procedure, they can stretch the neural responses higher than what we had seen in response to natural images. 
+
+For Paper B, the images that resulted from this evolutionary process were a mix of objects, shapes and colors, some of which exhibited a partial resemblance to monkeys, or the faces of the animals’ handlers. Importantly, when such image evolution was repeated for the same neuron in the same animal on a different day, a similar image emerged. 
+
+== ISSUES
+
+N/A
+
+== SCORE
+
+7
+
+== COMMMENTS 
+
+What I find most satisfying about this news article is that, machine learning is very versatile. In this news article, it has been used for neuroscience. Since, I am not that interested in Biology, it was slightly too hard for me to follow complex phrasing and words more so associated with Biology. 

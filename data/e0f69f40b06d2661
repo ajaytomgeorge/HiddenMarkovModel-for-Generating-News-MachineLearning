@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://venturebeat.com/2019/06/27/how-google-maps-uses-machine-learning-to-predict-bus-traffic-delays-in-real-time/
+Khari Johnson June 27 2019
+
+==== AGENT
+
+Google Maps
+
+==== GOAL
+
+Predict Real-Time Bus arrivals
+
+==== DATA
+
+The data is collected from gathering bus locations from public transportation agencies and those connected to google maps out on the road.
+
+==== METHODS
+
+They analyse real time data from those on roads currently. They look at the speeds users are travelling at, cross referencing
+that with other factors such as location, time of day, distance traveled etc.
+
+==== RESULTS
+
+The results are far more reliable than standard bus timetables. Google have even released a feature to tell how crowded the bus may be
+
+==== COMMENTS 

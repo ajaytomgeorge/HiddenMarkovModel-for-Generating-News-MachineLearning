@@ -1,0 +1,29 @@
+﻿==== SOURCE
+
+https://www.wired.com/story/adversarial-examples-machine-learning-privacy-social-media/
+
+==== AGENT
+
+Rochester Institute of Technology and Duke University.
+
+==== GOAL
+
+They are exploring whether that Achilles' heel could also protect your information. 
+
+==== DATA
+
+Reviews in the Google Play store which included a person’s location 
+
+==== METHODS
+
+They trained a machine-learning engine with that data set to try to predict the home city of users based only on their app ratings. 
+They then tried to break the engine by using adversarial examples.
+
+==== RESULTS
+
+They found that based on Google Play likes alone, some machine-learning techniques could guess a user's city on the first try with up to 44 percent accuracy. They also found that by adding just three fake app ratings that the engines prediction was no better than a random guess. One of the researchers stated that "With just a few changes, we could perturb a user’s profile so that an attacker’s accuracy is reduced back to that baseline," .
+
+
+==== COMMENTS
+
+The article also talks about another research group which has experimented with a form of adversarial example data protection that's intended to cut short that cat-and-mouse game. The researchers found that the fingerprinting technique could identify a website among a collection of 95 possibilities with up to 95 percent accuracy. In light of the Cambridge Analytical scandal , it is interesting to see how the  method's can be used for good.

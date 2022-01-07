@@ -1,0 +1,12 @@
+==== SOURCE
+https://www.sciencedaily.com/releases/2019/10/191007103609.htm
+==== AGENT
+Southwest Research Institute
+==== GOAL
+The goal was to learn a mapping from EUV narrowband images to spectral irradiance measurements. 
+==== DATA
+The data used was UV images of the sun, taken by NASAs solar dynamics observatory. 
+==== METHODS
+Supervised machine learning was used. Some of the initial models were linear regression. For these, f(Xi; θ) as f(Xi;θ)=∑Dj=1θjXij=θTXi, was modelled where D is the dimensionality of the input.
+==== RESULTS
+Predictions were evaluated using relative absolute error. The results were summarized into tables by taking an average over the observations, i.e., producing an average relative absolute error. Additionally, results only during flaring conditions were reported. Rather than manually specifying flaring times, they used ground truth EVE Fe XX observations as a proxy variable for flare conditions and define all observations in the top 5% of Fe XX emissions across the whole dataset as flares.

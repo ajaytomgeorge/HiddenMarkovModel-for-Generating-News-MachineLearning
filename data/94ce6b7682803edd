@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211003/Machine-learning-predicts-hospital-onset-COVID-19-infections-using-patient-contact-networks.aspx
+
+== AGENT
+
+News Medical
+
+== GOAL
+
+Predict hospital-onset COVID-19 infections
+
+== DATA
+
+Background contextual hospital data, Dynamic patient contact networks. Tested with international multi-site datasets across various epidemic and endemic periods
+
+== METHODS
+
+Framework that uses dynamic patient contact networks to predict hospital-onset COVID-19 infections (HOCIs) at the patient level. The framework extracts dynamic contact networks from hospital data collected routinely and combines them with clinical attributes and background contextual hospital data of the patient to predict the infection status of patients.
+
+== RESULTS
+
+The results showed that dynamic patient contact networks could be a strong predictor of transmission of respiratory viral infections in hospitals. Thus, the integration of these networks in clinical care could improve individualized prevention of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection as well as early diagnosis.
+
+== ISSUES
+
+N/A
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This was a very interesting article. They had quite a big dataset (50000+) which led to accurate results inside and outside the United Kingdom.

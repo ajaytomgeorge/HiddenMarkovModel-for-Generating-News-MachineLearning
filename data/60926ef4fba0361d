@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://www.solarpowerportal.co.uk/news/solar_forecasting_accuracy_improves_by_33_through_ai_machine_learning
+
+==== AGENT
+
+UK National Grid ESO in conjunction with the Alan Turing Institute
+
+==== GOAL
+
+The goal was to increase the amount of solar energy input by improving weather forecasting with machine learning.
+
+==== DATA
+
+According to the article historical data temperature and solar irradiance. 
+
+==== METHODS
+
+They take 80 input variables and use them to find 80 possible weather forecasts, the average of these 80 forecasrs is 
+taken as the new solar generation forecast.
+
+==== RESULTS
+
+The ESO's solar forecasting was improved by 33%. 
+
+==== COMMENTS
+
+The article gave very little technical detail and failed to show what impact this new technology would actually have
+on renewable energy.

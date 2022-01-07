@@ -1,0 +1,23 @@
+==== SOURCE
+https://www.searchenginejournal.com/google-to-use-machine-learning-to-manage-ad-frequency-when-cookies-are-missing/329619/
+
+==== AGENT
+Google
+
+==== GOAL
+Prevent showing the same ad to specific users repeatedly when the user has third party cookies blocked
+
+==== DATA
+The data was traffic patterns taken from users that didnt have third party cookies blocked
+
+==== METHODS
+
+Used the data to create models of traffic flow to apply to users without third party cookies 
+
+==== RESULTS
+
+Ads are now optimised for users without third party cookies enabled so advertising space is used more efficiently for the advertiser
+
+==== COMMENTS
+
+A smart and privacy focused way to advertise online.

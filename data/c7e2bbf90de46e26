@@ -1,0 +1,39 @@
+== SOURCE
+
+https://hackaday.com/2021/09/20/mastering-stop-motion-through-machine-learning/
+
+==AGENT
+
+Nick Bild
+
+== GOAL
+
+Use machine learning to increase to speed for stop motion animation
+
+== DATA
+
+No real mention of data, most likely they used images of hand and trained the network to recognise hands
+
+== METHODS
+
+Used a hand pose detection model from a Jetson Xavier NX to recognise when the hand is out of frame them takes
+the picture
+
+== RESULTS
+
+They were able to cut down on the time taken to make a stop motion animation. By not having to manually 
+take the picture they could focus on moving the characters in the sceen.
+
+== ISSUES
+
+To achive this it would still take a long time, you would also need the right equipment which could be expensive
+
+== SCORE 
+
+8
+
+== COMMENTS
+
+I found this very interesting and it showed how people are usingf ML for more hobby based projects and other tasks that
+ML can be used for. The report didn't mention much about the algorithm but does have a link to the github page of
+the creator. This method seemed rather new for stop motion and would definitly save on time

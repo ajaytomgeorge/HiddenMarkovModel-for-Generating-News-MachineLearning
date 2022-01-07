@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.forbes.com/sites/bernardmarr/2018/10/05/how-does-amazons-alexa-really-work/#94616291937f
+
+==== AGENT
+
+Amazon Alexa by Amazon
+
+==== GOAL
+
+Make a home assistant that helps people with daily tasks such as finding out information such as what is the weather and turning off lights via voice commands.
+
+==== DATA
+
+Amazon collect their data by the commands that users gives to the device. Each word spoken to the Alexa helps improve the functionality of the device.
+
+==== METHODS
+
+Once a command is spoken to Alexa it gets sent to Amazon’s Alexa Voice Services. Once it reaches the voice services the signal is broken down into commands that the system knows and then sends the reply back to you in which Alexa reads it out to you. The Alexa learns from its mistakes so if it doesn’t understand the command you have given it then it will learn for the next time.
+
+==== RESULTS
+
+It worked really well as millions of the devices were sold across the world and many more are expected to sell.  The Alexa has helped may people with problems is there day to day lives.
+
+==== COMMENTS
+
+The Amazon Alexa is a great idea. From being able to turn on and off your lights, heating, etc even when you are not at home. There is however the issue of privacy. The device constantly has to be listening in on every conversation so that it can hear its wake word.

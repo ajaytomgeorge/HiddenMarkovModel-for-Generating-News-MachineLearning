@@ -1,0 +1,39 @@
+== SOURCE
+
+https://healthitanalytics.com/news/machine-learning-tool-detects-genetic-syndromes-in-children
+
+== AGENT
+
+Children’s National Hospital researchers
+
+== GOAL
+
+A system that could identify genetic syndromes in children through rapid screening
+
+== DATA
+
+System trained on data from 2800 pediatric patients from 28 countries.
+
+== METHODS
+
+They used Deep Learning technology to train the network
+
+== RESULTS
+
+The system can indicate the presence of genetic syndrome from a facial photograph
+
+== ISSUES
+
+Because the images of of different patients from around the world there may be issue or lack of training of the
+network of people of various ethnicities. The images would also need to be stored securely to maintain the privacy
+of the patients
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This network can be very useful for various patients that don't have access to the facilities that they may need.
+The system also shows the potential that Machine Learning and Deep Learning has and what it could bring to the 
+medical field.

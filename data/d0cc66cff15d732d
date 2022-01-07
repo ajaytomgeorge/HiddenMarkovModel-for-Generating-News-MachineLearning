@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.news-medical.net/news/20210217/Machine-learning-model-may-guide-treatment-decisions-for-lung-cancer-patients.aspx
+
+== AGENT
+
+News Medical Life Sciences
+
+== GOAL
+
+Help guide treatment decisions for lung cancer patients
+
+== DATA
+
+Describes the patients and the disease to understand how a combination of factors affect lung cancer survival periods. Features can include information such as types of cancer, size of tumors, the speed of tumor growth, and demographic data.
+
+== METHODS
+
+Deep Learning
+
+== RESULTS
+
+Deep learning model was more than 71% accurate in predicting survival expectancy of lung cancer patients, significantly better than traditional machine learning models that the team tested. The other machine learning models the team tested had about a 61% accuracy rate.
+
+== ISSUES
+
+None
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It's very useful to know the recommended treatment decisions as that would increase the morale of the patient at the least as this is based on the data collected from patients in similar situation

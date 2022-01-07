@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://arxiv.org/pdf/1909.11974v1.pdf
+
+==== AGENT
+
+State Key Lab of Software Development Environment, Beihang University, Beijing, China. Microsoft Corporation, Beijing, China
+
+==== GOAL
+
+A Deep Architecture for Automatic NewsComment Generation
+
+==== DATA
+
+The first dataset is a Chinese dataset built from Tencent News, as well as an English language dataset from articles on Yahoo! News.
+
+==== METHODS
+
+DeepCom simultaneously employs two neural networks, reading network and a generating network.
+
+All of the words in a news article are encoded as vectors for the AI to analyze. 
+The reading network picks up what it calculates are the most important aspects of the article (a person, event, or topic),
+before the generating network creates a comment based on that.
+
+==== RESULTS
+
+Experimental results on two public data sets indicate that the proposed model can significantly out perform baseline 
+methods in terms of both automatic evaluation and human evaluation. The DeepCom neural network significantly increased engagement
+with news stories on news websites by starting a dialogue and replying to human users.
+
+==== COMMENTS
+
+DeepCom on one hand increases engagement with websites which increases ad revenue for the news agency, however on the other hand it increases discorse
+amongst users. Essentially this technology is just an advanced troll chat bot.

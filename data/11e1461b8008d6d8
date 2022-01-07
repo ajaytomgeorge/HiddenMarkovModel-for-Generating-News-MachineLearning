@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.geek.com/tech/machine-learning-estimates-risk-of-cardiovascular-death-1803887/
+
+==== AGENT
+
+MIT
+
+==== GOAL
+
+To estimate the risk of death from cardiovascular complications.
+ 
+==== DATA
+
+Initially ECG was gathered from survivors of Acute Coronary Syndrome (ACS) by a third party.
+
+==== METHODS
+
+Subsequently, the raw ECG data placed the group of people into two categories of risk based only on the ECG graphs. But MIT decided to take it a step forward and categorised the ECG data into "risky", a dataset where beats of patients who died from cardiovascular failure and "normal" which was a dataset of the beats of those who survived.
+
+==== RESULTS
+
+For new patients, analysts could predict if a sufferer was going to die in a range of 30, 60, 90 or 365 days.
+
+==== COMMENTS
+
+Though a simple concept, the level of accuracy in the final result shows the power of machine learning on a fairly understandable and straightforward task.

@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.genengnews.com/news/detecting-alzheimers-earlier-with-the-help-of-machine-learning-algorithm/
+
+== AGENT
+
+Texas Tech University
+
+== GOAL
+
+Differentiate among the fMRI signals of healthy people, people with mild cognitive impairment, and people with Alzheimer's Disease (AD). The goal is to use the device in the early detection of such diseases.
+
+== DATA
+
+The CNN is able to extract spatiotemporal features from a given section of BOLD fMRI data. The data they used were fMRI images. The test data was provided by a public database.
+
+== METHODS
+
+What methods (algorithms, etc) did they use? Supervised? Unsupervised? RL?
+
+
+They designed and trained a volumetric 3D CNN to do multiclass classification. This is a supervised learning as the machine is taught which images are in classification.
+
+== RESULTS
+
+the classification accuracy of their algorithm was as high as or higher than that of other methods. Their results demonstrate that deep learning-based approaches can help improve diagnosis not only for AD but also for other neurological disorders.
+
+== ISSUES
+
+When they say as high as or higher than other methods they don't specify which methods or compare how efficient the methods are. The device should be tested on more databases to see if there is any bias in the data provided.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I was impressed at how they managed to adapt a generally 3D CNN to what is effectively 4D fMRI images. The idea of seperating the time component and spatial components was very clever.

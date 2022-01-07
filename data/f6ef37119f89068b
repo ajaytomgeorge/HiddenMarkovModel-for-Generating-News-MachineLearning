@@ -1,0 +1,40 @@
+==== SOURCE
+
+https://www.wired.com/story/facebook-ai-research-fashion-style/
+
+==== AGENT
+
+A team affiliated with Facebooks AI research
+
+==== GOAL
+
+To offer users style tips to improve their outfits.
+
+==== DATA
+
+Thousands of publically available images were source from chictopia a fashion social 
+media site. The team took images of the most up to date fashion trends in order to teach
+their system style. By altering the oufit via photoshopping in a different top or 
+pants the team were able to educated the computer as to what was good taste and what
+was a poor fashion choice.  
+
+==== METHODS
+
+The team gave the system two sets of images, one set contained bad style the other set 
+contained 'on-trend' outfits and fashion statements. From this the system was able to 
+learn the difference between good and bad taste and could then be used to suggest outfits 
+or how to finish off outfits that were already partially constructed for it.
+
+==== RESULTS
+
+The program is still in the developmental stages but is capable of assembling outfits 
+based on colour and style although it is not yet able to interperet texture.
+the teamalso seek to adapt it to determine suitability of an outfit to particular needs
+for example it would be in bad taste to wear a tracksuit to a funeralbut at the same time 
+you wouldn't wear a suit to a football match.
+
+==== COMMENTS
+
+Although the application may seem trivial and maybe even silly to some people i believe 
+this technology has some very interesting core concepts and could be adapted to other 
+applications in the field of image processing.

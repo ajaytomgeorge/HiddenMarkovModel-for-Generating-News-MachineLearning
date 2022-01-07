@@ -1,0 +1,37 @@
+== SOURCE
+
+https://towardsdatascience.com/machine-learning-in-the-world-of-blockchain-and-cryptocurrency-68651ebaecd7
+
+== AGENT
+
+Thomas E. Koker and Dimitrios Koutmos; Taotao Wang, Soung Chang Liew, and Shengli Zhang
+
+== GOAL
+
+To create profitable crypto trading bots and Optimising blockchain mining strategy
+
+== DATA
+
+Common blockchain mining strategies
+
+== METHODS
+
+Direct reinforcement learning and multi-dimensional reinforcement learning
+
+== RESULTS
+
+Profitable trading bots and optimisation of crytocurrency mining strategies.
+
+== ISSUES
+
+Had trouble optimising mining strategies for mining reward when blockchain mining rewards
+can vary due to many different uncontrollable factors.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Was interesting to see machine learning isn't just used for crypto price predictions and trading bots but
+for mining strategies too. 

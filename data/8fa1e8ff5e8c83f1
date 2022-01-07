@@ -1,0 +1,30 @@
+==== SOURCE
+
+https://www.bbc.co.uk/rd/blog/2019-09-artificial-intelligence-colourisation-video
+
+==== AGENT
+
+Marc Gorriz Blanch, Marta Mrak
+
+==== GOAL
+
+Change black and white images to colour images.
+
+==== DATA
+
+Where did they get their data? What did it look like?
+From bbc archives, the data was old footage.
+
+==== METHODS
+
+What did they actually do?
+They took greyscale images and added colour to them.
+
+==== RESULTS
+
+It went well as the images looked very realistic.
+
+
+==== COMMENTS
+
+This is a very interesting application of machine learning as it will literally increase entertainment with regard to old film as watching the past in colour is an unusual thing to be able to see.

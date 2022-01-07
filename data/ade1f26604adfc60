@@ -1,0 +1,31 @@
+==== SOURCE
+
+Stock prediction marketing using machine learning
+https://www.academia.edu/39025824/Stock_prediction_marketing_using_machine_learning
+
+==== AGENT
+
+Rupali Borole, Sonali Govilkar,  Dipali Duble, Manisha Sonawane from Shivajirao S. Jondhale College of Engineering
+
+==== GOAL
+
+It is to more accurately predict stock price movement by emulating instinctual reasoning by 
+implementing sentiment analysis.
+
+==== DATA
+
+Dataset consists of Historical data as well as recent headlines which can move the stock.
+
+==== METHODS
+
+As part of the sentiment analysis, tweets related to that stock is analysed and it assigns negative statements 
+with a negative polarity and positive statements with a positive polarity. This is utilised to get the 
+overall sentiment of the market.
+
+==== RESULTS
+
+The combinational study is done to get better accuracy and undertand the current sentiment of the stock in view.
+
+==== COMMENTS
+
+Further optimization apart from twitter feeds can be used to understand the sentiment of the stock better.

@@ -1,0 +1,27 @@
+== SOURCE
+https://www.forbes.com/sites/deloitte/2021/09/20/this-indian-states-response-to-covid-19-could-be-a-model-for-equitable-healthcare/?sh=5c4b09226ee1
+
+== AGENT
+Ron Schmelzer 
+Forbes
+
+== GOAL
+To show how Machine Learning has evolved enough to work in a field in which you wouldn't expect it to, journalism.
+
+== DATA
+They used large quantities of articles from NYT
+
+== METHODS
+With this data they used ML modelling and algorithms to implement the NYT vast quantity of data
+
+== RESULTS
+Varying results, still in early phase. Only recently was this programme taken out of experimental phase.
+
+== ISSUES
+Main issue is the separation of culture, it is difficult to teach an AI about different cultures. Difficulty in quantifying the goal and choosing the metric that you want to optimise. Evaluation of the quality is also another major issue that is hard to solve, it must be taken over a long period of time and figuring out which model to use in each news cycle are all issues they are looking to solve
+
+== SCORE
+8
+
+== COMMENTS
+I thought this was very interesting as ML and journalism are not things I would associate being together. The writing and grammar itself is very straight forward and you need some what of an understanding of CS and ML.

@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.finextra.com/pressarticle/81765/aci-worldwide-debuts-new-machine-learning-kit-for-fraud-management
+
+== AGENT
+
+ACI worldwide
+
+
+== GOAL
+
+To detect fraudulent activities in the financial sector.
+
+== DATA
+
+Data from three main retail customers. 
+
+== METHODS
+
+Incremental Learning
+
+== RESULTS
+
+ACI’s ‘Incremental Learning’ technology represents a significant advancement over current machine learning models that need to be retrained as fraud patterns change. Incremental Learning models are able ‘to think for themselves’ and make small adjustments on an ongoing basis to ensure they remain relevant, even as fraudsters and genuine consumers change their behaviours. ACI’s machine learning models will quickly and efficiently analyse all available features and data points, which will then be turned into intelligence that can build customer profiles, spot fraud signals and combat emerging fraud threats. Any anomalies are flagged in real time and immediately actioned. There are around 5,000 institutions protected by these solutions today.
+
+== ISSUES
+
+To be 'able to think for themselves' strategy used by the models here may sometimes not produce desired results.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Detecting fraud activities in the financial sector is the major need of hour, this tool will be very useful to reduce payment frauds. With its incremental learning pattern, the intelligence will be updated to face any kind of newly emerging fraud patterns.
+

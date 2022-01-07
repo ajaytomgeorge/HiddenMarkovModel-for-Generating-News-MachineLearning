@@ -1,0 +1,32 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9277785
+
+== AGENT
+
+Hana Alharthi
+
+== GOAL
+
+Predicting the level of generalized anxiety disorder of the coronavirus pandemic among college age students using artificial intelligence technology
+
+== DATA
+
+Students answered the online survey voluntarily after reading the reason behind the study in google form. The survey was anonymous.
+
+== METHODS
+
+Neural network model 
+
+== RESULTS
+
+This research focused on applying several machine learning classifiers to predict the level of students' anxiety in Covid- 19 pandemics. Level of anxiety score was calculated based on the (GAD-7) which categorizes level of anxiety to none, mild, moderate, and severe.
+
+== ISSUES
+Almost it has done a good predict on the survey. 
+
+== SCORE
+6
+
+== COMMENTS
+This neural network model assisted counselors to predict which students are going through anxiety which helped academic support.

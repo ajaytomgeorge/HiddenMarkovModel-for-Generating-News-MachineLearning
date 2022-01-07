@@ -1,0 +1,56 @@
+==== SOURCE
+
+https://www.vice.com/en_au/article/d3a4mk/microsoft-used-machine-learning
+-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+
+Who did the machine learning? 
+
+Microsoft China
+
+==== GOAL
+
+What were they trying to do?
+
+They wanted to develop an algorithm that reads and digests news articles and 
+is capable of commenting on this article with humans. They call it DeepCom, 
+short for Deep Commenter.
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+They used two datasets, a Chinese dataset made by crawling 
+Tencent News, a Chinese website of news and personal opinion articles, 
+and an English dataset built by crawling news articles and comments from Yahoo News.
+
+==== METHODS
+
+What did they actually do?
+
+They used two neural networks, a reading network that can comprehend
+an article and extracts important points, and a generation network that writes a
+comment based on those points and the title of the article. This is in an attempt 
+to mirror the way humans consume knowledge online.
+
+
+==== RESULTS
+
+How did it go for them?
+
+The team were successful in the fact that the project works successfully
+but something like this is too dangerous to be released to the public. 
+They tested it on the Fifa world rankings and the machine commented
+"If it’s heavily based on the 2018 WC, hence England leaping up the rankings, 
+how are Brazil at 3?" and "England above Spain, Portugal and Germany. Interesting."
+
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+DeepCom is a great experiment as to what machine learning is capable of and 
+demonstrates how human-like these machines are becoming in the sense that they can think
+the same way a human does. This algorithm is too dangerous to be released to the public
+just yet as it would need some sort of filter to prevent it from learning unfriendly behaviour.

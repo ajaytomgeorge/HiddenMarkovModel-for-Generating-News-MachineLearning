@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.geeksforgeeks.org/5-mind-blowing-ways-facebook-uses-machine-learning/
+
+
+
+== AGENT
+
+Facebook / Deeptext
+
+== GOAL
+
+Translating captions on posts
+
+== DATA
+
+
+== METHODS
+
+Uses FbLearner and Torch for model training
+
+== RESULTS
+
+They created DeepText, which is a deep learning-based text understanding engine that can understand with near-human accuracy the textual content of several thousands posts per second, spanning more than 20 languages.
+
+== ISSUES
+
+Works well.
+
+== SCORE
+
+8 
+
+== COMMENTS
+
+I think this is very useful as it can recognise slang used and translate posts for other users.

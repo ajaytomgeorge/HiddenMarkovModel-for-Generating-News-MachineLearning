@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://spectrum.ieee.org/tech-talk/telecom/internet/mit-and-caida-researchers-want-to-use-machine-learning-to-plug-one-of-the-internets-biggest-holes
+
+==== AGENT
+
+Computer Science and Artificial Intelligence Lab in MIT
+
+==== GOAL
+
+The goal is to use a machine learning classifier to identify serial hijackers before they can launch
+an attack, and pro-actively prevent these attacks. 
+
+==== DATA
+
+The data provided is essentially a random subset of available information about a user, which is then
+analysed by the extra-trees. Information would include how regularly the user was online, IP etc.
+Outliers in these fields would then be flagged.
+
+==== METHODS
+
+They use a machine learning technique called an extremely-randomized trees or extra-trees
+classifier. Extra-trees classifiers are essentially a growing forest of trees, where each tree
+represents a vote of confidence, so a forest would represent a group consensus. If most trees
+have concluded that someone is a serial hijacker then you can safely determine that the user is
+a hijacker.
+
+==== RESULTS
+
+In a test with this classifier, the system flagged 934 autonomous users out of 19,103 to be potentiel 
+serial hijackers. This is still under development but results so far results have been relativly
+consistant.
+
+==== COMMENTS
+
+Through machine learning techniques such as extra-trees, serial hijackers will struggle to operate. 
+There are a few issues with this method of detection that will see ordinary users flagged as hijackers.
+(Electricity Blackouts, typos/misconfigurations etc.)

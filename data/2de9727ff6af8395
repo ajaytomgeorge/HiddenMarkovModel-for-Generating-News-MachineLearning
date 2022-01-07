@@ -1,0 +1,19 @@
+== SOURCE
+https://www.theatlantic.com/technology/archive/2016/03/the-invisible-opponent/475611/
+== AGENT
+DeepMind Technologies
+== GOAL
+To beat the world champion Go player.
+== DATA
+AlphaGo was initially trained with a collection of over 30 million moves, played by expert players in historic games of Go. Once a good standard of play had been reached, it was further trained by having it compete against slightly altered instances of itself.
+== METHODS
+Reinforcement learning was used to train AlphaGo against instances of itself.
+A combination of deep learning neural networks and tree search techniques were used. Monte Carlo tree search was used, guided by a “value network” and a “policy network”.
+== RESULTS
+AlphaGo beat the world champion, Lee Sedol 4 games to 1. 
+== ISSUES
+== SCORE
+8
+== COMMENTS
+I thought this project was interesting. Unlike the DeepBlue machine, AlphaGo actually learned from experience. It was trained by studying real games of Go.
+The press seemed to cover this story accurately.

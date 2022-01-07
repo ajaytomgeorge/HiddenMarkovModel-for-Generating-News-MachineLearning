@@ -1,0 +1,18 @@
+== SOURCE
+https://www.geospatialworld.net/blogs/noaa-google-partner-on-use-of-ai-on-satellite-data-to-improve-weather-forecasting/
+== AGENT
+The National Oceanic and Atmospheric Administration partnering with Google
+== GOAL
+The goal is to explore the benefits of Artificial Intelligence and Machine Learning for enhancing NOAA’s use of satellite and environmental data.
+== DATA
+Satellite images and other environmental data.
+== METHODS
+Use a system based AI for different projects such as monitoring under sea environments and try to predict future weather with past weather forcasts
+== RESULTS
+Results are still awaiting, but they have published that they were able to detect RIP currents from coastal imagery using with computer vision based software
+== ISSUES
+No issues so far, or I can't find anything.
+== SCORE
+3
+== COMMENTS
+Wasn't too interesting and very difficult to find any information on the systems

@@ -1,0 +1,25 @@
+==== SOURCE
+https://www.unite.ai/machine-learning-used-to-uncover-the-secrets-of-pompeii-scrolls/
+==== AGENT
+A team of scientists at the University of Kentucky
+==== GOAL
+While the team was able to read the parchment found in a synagogue in En-Gedi Israel with 
+‘just’ high-energy x-rays, this time around, due to the manner in which the Pompeii scrolls 
+were made and written, they will have to use machine learning to try and solve the mysteries 
+hidden in these scrolls.
+==== DATA
+They will test on two unopened scrolls that belong to the Institut de France in Paris and are part 
+of a collection of about 1,800 scrolls that was first discovered in 1752 during excavations of 
+Herculaneum
+==== METHODS
+The team has decided to use both high-energy x-rays and artificial intelligence. The method they are 
+using involves photographs of scroll fragments with writing visible to the naked eye. These are then 
+fed to “teach machine learning algorithms where ink is expected to be in x-ray scans of the same 
+fragments, collected using a number of techniques.”
+The team is guided by the concept that “the system will pick out and learn subtle differences between 
+inked and blank areas in the x-ray scans, such as differences in the structure of papyrus fibers.” After 
+the system is trained on these fragments, the idea is to apply it to the data from the intact scrolls 
+and hopefully, that will reveal the text that is contained in the scrolls
+==== RESULTS
+The team has finished collecting the x-ray data and is now in the process of training the designated 
+algorithms, which will then be applied to the scrolls in the coming months.

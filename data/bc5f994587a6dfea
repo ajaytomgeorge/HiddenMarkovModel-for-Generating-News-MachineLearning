@@ -1,0 +1,37 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+MIT and the University of California at San Diego
+
+==== GOAL
+
+Use machine learning to trace IP hijacks back to serial hijackers.
+
+==== DATA
+
+data was procured from several years’ worth of network operator mailing lists, as well as 
+historical BGP data taken every five minutes from the global routing table.
+
+==== METHODS
+
+The team extrapolated certain traits and qualities that were commonly displayed during 
+the observation of cyber criminals. It was noted that many behaviors were repeated 
+frequently and could be used to pinpoint offenders. More specific qualities were then 
+used in order to identify if a hijacker was a repeat or serial offender.
+Putting this iformation together the team were able to train their program to identify 
+serial hijackers and suspicious activity that can be commonly seen during these activities.
+
+==== RESULTS
+
+The system was able to identify roughly 800 suspicious networks along with some serial 
+offenders.
+They will present their paper at the ACM Internet Measurement Conference in Amsterdam in
+October highlighting their findings.
+
+==== COMMENTS
+
+This system, in my opinion will have a great impact on preemptive measures against cyber 
+attacks.

@@ -1,0 +1,53 @@
+﻿== SOURCE
+
+
+https://fortune.com/2020/10/29/labgenius-using-robots-ai-for-drug-research/#teconsent
+
+
+== AGENT
+
+
+LabGenius
+
+
+== GOAL
+
+
+Use AI to learn the biological properties of the protein a DNA encodes in order to design lab-engineered proteins drugs quicker and more efficiently. 
+
+
+== DATA
+
+
+They get the data by tests run on proteins they make with information like how stable they are or how much it reacts to other substances.
+
+
+== METHODS
+
+
+They are using Supervised Learning.  Training a machine to predict how the protein’s properties will correspond to certain DNA.
+
+
+== RESULTS
+
+
+I didn’t get any numbers from the report but at the moment they had just designed a pill for inflammatory bowel disease which can survive digestive enzymes and the acidic environment found in the stomach (only injections were efficient so far). 
+
+
+== ISSUES
+
+
+They will conduct tests on animals for this pill first. Personally, I don’t think it’s ethical or will be biologically efficient. 
+
+
+== SCORE
+
+
+8
+
+
+== COMMENTS
+
+
+It is certainly generating new data for the Pharma industry and similar methods were used before.
+The report was good enough but could have provided some data.

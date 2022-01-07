@@ -1,0 +1,18 @@
+== SOURCE
+https://www.cnet.com/news/amazon-facial-recognition-thinks-28-congressmen-look-like-known-criminals-at-default-settings/
+== AGENT
+Amazon
+== GOAL
+Rockognition Facial recognition technology for law enforcemnent
+== DATA
+250000 criminal mugshots as a database
+== METHODS
+compare a photo of a potential criminal to the database to secure a match for the mugshot
+== RESULTS
+unreliably gave the wrong person as proven by the American Civil Liberties Union.
+== ISSUES
+this can be a large issue as proven false matching members of congress to the mugshots,can be the difference between someones innocence and not to be taken likely
+== SCORE
+8
+== COMMENTS
+this is quite an interesting piece and shows how a double take is always important with new technologies 

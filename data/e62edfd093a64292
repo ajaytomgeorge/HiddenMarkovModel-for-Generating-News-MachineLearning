@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.dw.com/en/beethovens-last-symphony-finished-by-ai/a-59412362
+
+== AGENT
+
+Telekom
+
+== GOAL
+
+Use AI to finish Beethoven's unfinished 10th symphony.
+
+== DATA
+
+Sketches and musical notes from Beethoven and scores from his contempories.
+
+== METHODS
+
+Unsupervised learning.
+
+== RESULTS
+
+Up to 100 different versions of the symphony were made among which experts would choose the best one.
+
+== ISSUES
+
+
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this story was interesting as with AI they have successfully produced the work of a dead man and it's interesting to think how accurate the AI was
+and what Beethoven himself would think of the newly finished piece.

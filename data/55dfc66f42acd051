@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Greek border control
+
+== GOAL
+
+Use ML to identify the people most likely to test positive for COVID-19.
+
+== DATA
+
+The persons nationality, age, gender.
+
+== METHODS
+
+Reinforcement Learning using large batches of global covid data
+
+== RESULTS
+
+Doubled the accuracy of border covid tests by targetting people more likely to test positive.
+
+== ISSUES
+
+Any time nationality is used in an algorithm it can result in unintentional discrimination. Algorithm is not 100% accurate. Global covid data can be skewed by dishonest governments.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The article raises many of the issues with this sort of ML. COVID data is dependent on the frequency and quality of a country's covid tests. It's good to see that the algorithm is trying to operate within GDPR even at the cost of accuracy. I think it would be interesting to see it's accuracy with the data it currently cannot use. Will definitely help control covid and reduce the risks of travel.

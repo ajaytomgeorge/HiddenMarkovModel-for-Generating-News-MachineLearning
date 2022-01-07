@@ -1,0 +1,29 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+MIT and the University of California
+
+==== GOAL
+
+They were trying to identify serial hijackers of internet IP addresses
+
+==== DATA
+
+They pulled data from several year's worth of network operator mailing lists and historical BGP (Border Gateway CProtocol) data taken every five minutes from the global routing table.
+
+==== METHODS
+
+In a BGP hijack, the hijacker convinces nearby networks to go through their network to get to their destination IP. The machine learning model was designed to automatically identify particular behaviours the hijacker takes to get what they want. The system flagged networks that had several key characteristics indicative of these illegitimate networks. These characteristics include:
+Hijackers' address blocks seem to disappear much faster than legitimate networks. Their duration was usually less than fifty days, whereas legitimate networks live for almost two years.
+Serial hijackers tend to advertise many more blocks of IP addresses.
+And finally, most networks don't have foreign IP addresses but the networks serial hijackers advertise are more likely to be registered in different countries.
+
+==== RESULTS
+
+They realised that this method can be used by network operators to examine global internet routing across years rather than focusing in on individual cases.
+
+==== COMMENTS
+

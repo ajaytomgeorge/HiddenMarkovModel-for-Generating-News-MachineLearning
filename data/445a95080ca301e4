@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii
+
+==== AGENT
+
+Deepmind, owned by Alphabet.
+
+==== GOAL
+
+An AI to play Starcraft 2
+
+==== DATA
+
+The data was gathered from anonymised human games from Starcraft 2.
+
+==== METHODS
+
+Initially, they trained AlphaStar with supervised learning using those human games. After the AI learned the basic functions of the game. Afterwards they use reinforcement learning to allow the AI to find the best possible method itself.
+
+==== RESULTS
+
+AlphaStar has won every game placed against professional Starcraft players.
+
+==== COMMENTS
+
+Real-time strategy games has always been a problem when developing AIs. As the AI would have to manage many different aspects of development in order to compete with human players. These aspects are listed in the article already. One important thing to note is that AlphaStar doesn't rely on many actions per minute (APM) in order to beat professional players - as is normally thought to be the main point that machines would exploit in order to win - but rather, AlphaStar mantains, in fact, a lower APM that professional players. Stated in the article, AlphaStar has around 280 APM on average, while professional players, though unlisted in the article, can mantain up to 400 APM, varying across individuals (there are many professional players who average lower APMs and can still maintain high rankings). 

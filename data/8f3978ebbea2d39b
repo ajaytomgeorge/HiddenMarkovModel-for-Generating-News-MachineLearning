@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.bbc.com/news/science-environment-57615408
+
+== AGENT
+
+Tech firm Impact Observatory
+
+== GOAL
+
+Handle the big data streams that are coming down from the image taking satellites and classifying the pixels of the images into different landscape types
+
+== DATA
+
+five billion human-labelled image pixels
+
+== METHODS
+
+supervised
+
+== RESULTS
+
+It was used to classify and process over 400.000 earth observations and produced a final map of the world
+
+== ISSUES
+
+Could be a bit more specific in reporting
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It is interesting because it used satellites and by automatically processing Images take a close look at changes that occur one the earth. It used excellent new algorithms to make huge amounts of data easy to analyze for humans. With that it saves time and gets ride of unnecessary work. It could have a bit more detailed information about the AI but in total a great article
+

@@ -1,0 +1,95 @@
+==== SOURCE
+
+[1] Jiawei Su, Danilo Vasconcellos Vargas, Sakurai Kouichi. One pixel attack for fooling deep neural networks. 
+(2017, revised 2019), arXiv:1710.08864. https://arxiv.org/pdf/1710.08864.pdf
+
+News Sources:
+https://www.bbc.com/news/technology-41845878
+https://www.theregister.co.uk/2017/10/30/fool_ai_image_classifier_by_changing_single_pixel/
+
+
+==== AGENT
+
+Kyushu University, Japan
+
+
+==== GOAL
+
+The goal of this research was to show that a Differential Evolution (DE) algorithm could be used to alter images by 
+changing a single pixel over for a set number of generations and when these images were fed into a Deep Neural Network (DNN), 
+this would in turn cause the DNN to misclassify the images. These images are referred to as “adversarial images” and are 
+designed to be almost imperceptible to the human eye.
+
+The DE algorithm uses the probability labels for optimization as opposed to specific target functions and as such 
+does not require information on the target DNN such as its gradients or its network structure. 
+
+==== DATA
+
+Kaggle CIFAR-10 (Canadian Institute For Advance Research) data set:
+
+The data set consists of 60,000 colour images of 32x32 pixel resolution broken into 10 classes;
+airplanes, trucks, ships, cars, dogs, cats, horses, deer, birds and frogs.
+https://www.kaggle.com/c/cifar-10
+
+ImageNet ILSVRC 2012 data set:
+
+10,000,000 labelled images with 10,000+ object categories
+http://www.image-net.org/challenges/LSVRC/2012/
+
+
+==== METHODS
+
+Differential Evolution Algorithms are a type of Genetic Algorithm which optimize candidate solutions for 
+a problem by iteratively changing a population of candidate solutions (sometimes referred to as trial solution) 
+and utilize a best fit function to determine if candidate solutions should be retained into the next generation
+(A new population of candidate solutions). 
+
+Candidate solutions of the first generation are randomized. Then through a process of mutation and selection new
+generations are created and the algorithm over time attempts to converge to an optimal solution.
+
+DE Mutation:
+
+An altered pixel, referred to as pertubation, is stored in an array containing a tuple of 5 elements;
+x,y,r,g and b where the x and y values specify the coordinates of the pixel on the candidate image and 
+the RGB values specify the colour of the image. These arrays are referred to as candidate solutions and 
+a population of 400 was created.
+
+The DE Algorithm creates a new population with the perturbation to evaluate against the DNN using the 
+formula;
+
+$   x_{i}(g+1) = x_{r1}(g) + F(x_{r2}(g) + x_{r3}(g))   $
+
+Where g is the current generation index. F is a scaling function (i.e. new vector should not be too large)
+r1, r2, r3 are random index numbers for the population and are not equal. This is known as the Mutation Strategy 
+and a trial population is created with the same population size as the original.
+
+DE Selection:
+
+DE updates each new population member with a candidate solution if the trial population member performs better than the 
+previous generations candiate solution (based on an evaluation/best fit function) and if not retains the previous
+generations candiate solution unaltered.
+In this sense, each new generation should contain a population which moves closer to the objective function, which 
+in this case is the minimizing of the probability of a correct classification will be made by the DNN. This is known 
+as the Selection strategy. The model was run for 100 generations.
+
+
+==== RESULTS
+
+The results showed that 68.36% of the natural images in the Kaggle CIFAR-10 data set and 16.04% of
+the ImageNet ILSVRC 2012 data set could be misclassified by altering a single pixel with a confidence
+of 73.22% and 22.91% respectively.
+
+The source paper for this article highlights potential security risks of DNNs and also how even very minute changes 
+in the data points of the input space can cause incorrect classification for DNNs.
+
+It also proposes that evolutionary strategies can be used to solve adversarial machine learning vulnerabilities rather
+than create them and may be of benefit in the future.
+
+
+==== COMMENTS
+
+Of note is that the traditional DE Algorithm also includes a crossover strategy which was not used in this paper. 
+Crossover essentially combines elements of two separate candidate solutions in order to try and generate a better 
+candidate solution to be stored in the new generation. This would have been interesting to see with RBG values as 
+analysis could have been done to see if particular colours effect the success rate of the DE Algorithm. This 
+observation was not made in the original paper.

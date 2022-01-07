@@ -1,0 +1,46 @@
+
+== SOURCE
+
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+
+== AGENT
+
+MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) Researchers.
+
+== GOAL
+
+The team’s ultimate goal is for the system to be able to decipher lost languages that were hidden or not known by the linguists for decades, using just a few thousand words.
+
+== DATA
+
+They built the system which relies on several principles grounded in insights from historical linguistics.In their research they explained such as the fact that languages generally only evolve in certain predictable ways. For instance, while a given language rarely adds or deletes an entire sound, certain sound substitutions are likely to occur. A word with a “p” in the parent language may change into a “b” in the descendant language, but changing to a “k” is less likely due to the significant pronunciation gap.
+
+The input data was the language - can be known or unknown depending on the needs. But to decipher an unknown language, to know it's origin and relation, the input can be a language that is totally new and has no background or concept anywhere recorded.
+
+== METHODS
+
+According to me, the method that is used is Reinforcement Learning.
+
+== RESULTS
+
+As explained by the researcher's, the resulting model can segment words in an ancient language and map them to counterparts in a related language.  
+
+== ISSUES
+
+I had just one question,that the input data provided were sounds mostly. Can you think of it's relevancy if the sounds are given, what is the use of the algorithm in deciphering the language? It is quite understood that the language would be known already as to read it, for giving sounds as input.
+
+To answer my own question, I just realised that it can be used to get the relation between two or more known languages.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I felt this was an interesting idea. The decipherment of languages is pretty new subject which could really interest many linguists. They have used methods which even tells us the difference between the languages- like their origins and relations with each other. 
+
+
+
+
+
+

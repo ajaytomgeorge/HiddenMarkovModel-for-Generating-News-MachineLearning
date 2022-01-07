@@ -1,0 +1,42 @@
+== SOURCE
+
+https://link.springer.com/article/10.1023/A:1007452223027#article-info
+
+== AGENT
+
+MIROSLAV KUBAT, ROBERT C. HOLTE, STAN MATWIN. The solutions provided by Miroslav, Robert and Stan are implemented in the Canadian Environmental Hazards Detection System (CEHDS).
+
+== GOAL
+
+Oil spill detection currently requires a highly trained human operator to assess each region in each image. A system that reduced and prioritized the operator’s
+workload would be of great benefit, and the purpose of this project was to produce such a system. This paper focuses on the research issues that arose during the development of the Canadian Environmental Hazards Detection System (CEHDS) for the detection of oil spills in satellite radar images.
+
+== DATA
+
+They used radar images as data from satellites such as RADARSAT and ERS1. Oil slicks are less reflective of radar than the average ocean surface, so they appear dark in an image.
+
+== METHODS
+
+Two learning algorithms were included: 1-NN with one-sided selection and SHRINK.
+
+== RESULTS
+
+It is important in this application to be able to explore the tradeoff between true and false positives dynamically. In SHRINK, the user can move along the ROC curve by adjusting the threshold θ. The operator can thus reduce the frequency of false positives at the cost of an increased number of false negatives.Thus the user can control the rate of false alarms, and trade false alarms for missed oil spills. The user can also decide to retrain the system should more data become available.
+
+== ISSUES
+
+There were no issues with this work. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Oil spills is a burning issue in today's world. 
+Studying about the use of machine learning methods to minimise the risks of the same is definitely interesting. 
+The reporting in the press was reasonable.
+It was an interesting new way of using existing data and methods.
+
+ 
+

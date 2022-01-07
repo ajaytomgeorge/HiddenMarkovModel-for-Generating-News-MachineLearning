@@ -1,0 +1,36 @@
+==== SOURCE
+
+The New Phytologist, Vol. 196, No. 3 (November 2012), pp. 937-944
+Classifying black and white spruce pollen using layered machine learning
+
+
+==== AGENT
+
+Surangi W. Punyasena, David K. Tcheng, Cassandra Wesseln, Pietra G. Mueller
+
+==== GOAL
+
+Taxonomic precision of pollen identification of congeneric species
+
+==== DATA
+
+Two seperate data sources: modern reference material derived from vouchered herbarium specimens
+and fossil material from Nelson Lake, samples were taken and expert identifications were made
+and fed to the system
+
+==== METHODS
+
+Developed a supervised, layered, instance-based machine-learning classification system that uses 
+leave-one-out bias optimization
+
+==== RESULTS
+
+The machine learning algorithm can discriminate between the two grain types with a >93% accuracy
+
+==== COMMENTS
+
+Interesting report on something that is basically just seeds. Although it does free up time for analysists to 
+do more research as the two types of seeds are commonly found in different places.
+It is expressed in the paper how there is a very definite difference between the seeds but also expresses how it can 
+be difficult to discern between them. This is a great application of machine-learning to automate a task that is time
+consuming for people but once automated, very quick for machines.

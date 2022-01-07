@@ -1,0 +1,39 @@
+== SOURCE
+
+https://ocula.com/magazine/art-news/google-reconstructs-lost-klimt-paintings-with-ai/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Trying to color Gustav Klimt paintings that the Nazi's destroyed in Word War
+2 and for which there are only black and white photos of.
+
+== DATA
+
+1 million pictures of the real world and 91,749 image of artworks by various artists
+
+== METHODS
+
+The method used was not said explicitly but it can be assumed that it was a 
+convolutional Neural Network because it envolves feature extraction from images.
+
+== RESULTS
+
+Google was succesful in recreating the painting.
+
+== ISSUES
+
+No issues
+
+== SCORE
+
+4
+
+== COMMENTS
+
+I think the concept is very interestin that we can take something that was destroyed
+almost 100 years ago and recreate it with astonishing accuracy.  The article reporting
+did a good job and I would have changed anyting about the experimentation process.

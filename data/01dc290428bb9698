@@ -1,0 +1,48 @@
+﻿==== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223012
+https://en.wikipedia.org/wiki/Pittsburgh_Sleep_Quality_Index
+
+==== AGENT
+
+The people who worked on this research are Xingyun Liu, Bingli Sun, Zhan Zhang, Yameng Wang, Haina Tang 
+and Tingshao Zhu. 
+
+==== GOAL
+
+Research was done to reveal sleep quality using machine learning models. Without the need for questionnaires, 
+surveys, emails, etc.
+
+==== DATA
+
+Data was collected from 59 sleeping patients with no disabilities using the Pitsburgh Sleep Quality Index and gait data 
+to see how well people have slept, have they moved around too much, etc.
+Some data that was collected was a mean score of the Pistburgh Sleep Quality Index was 7.32 with a standard deiviation of 
+3.77. Collecting 3600 frames of gait data which lasted 2 mins for every participant.
+The scale for this is between 0 - 21 and the lower the number the higher the quality sleep. So on average everyone got a good 
+quality sleep.
+
+==== METHODS
+59 students without disablilites were picked to sleep and using a kinect and Pitsburgh Sleep Quality Index along with 
+gait data was stored. Many joints of the person were recorded, such as Head, Wrists, Thumbs, etc. Then this data would be sent 
+to a machine learning model to calculate the quality of sleep that person got by means of linear regression since there are 
+only two states, good sleep and bad sleep quality.
+So with the 59 students they took a Pitsburgh Sleep Quality Index test and then went to sleep while two kinects sensors 
+then captured gait data and their movements by checking the joints movements in the persons body. Then this data was and then 
+the result was calculated. Then the data calculated was compared to the Pitsburgh Sleep Quality Index test and then the model would 
+learn from this. Eventually the Pistburgh Sleep Quality Index test would no longer be needed as the model would eventually learn enough 
+for it to be accurate enough. There is also feature selection and feature extraction involved too, but that would be too much to mention here.
+
+==== RESULTS
+
+The results can be seen in the DATA section also. The data was fairly accurate and can be used as a replacement to 
+intrusive questionnaires, etc.
+
+==== COMMENTS
+
+I think this is a very interesting field of research as I believe it can help many people.
+I myself have been diagnosed with insomnia and I can see how this would benefit me, since it can help me learn what 
+would be the best actions to help me get better sleep. If I see my score got lower then I know what I'm doing is helpful, it can 
+also be used to see what bad things could affect my sleep as well.
+One issue I can with this is that in the article it says this is less intrusive than questionnaires, but I believe it 
+to be more intrusive as you have to sleep with some cameras recording your movements.

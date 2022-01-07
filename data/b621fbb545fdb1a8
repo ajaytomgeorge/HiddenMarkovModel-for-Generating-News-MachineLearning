@@ -1,0 +1,35 @@
+== SOURCE
+
+https://healthitanalytics.com/news/using-machine-learning-to-calculate-unreported-covid-19-cases
+
+== AGENT
+
+Chan Zuckerberg Biohub
+
+== GOAL
+
+They are trying to calculate to total number of Covid-19 cases both reported and unreported.
+
+== DATA
+
+Chan Zuckerberg Biohub are using viral genomes to try and calculate the rate of mutation in the genome per transmission.  By calculating the rate of mutation in a genome they intend to estimate how many transmissions certain genomes have been through.
+
+== METHODS
+
+Chan Zuckerberg Biohub are using Supervised Learning.  The rate of mutation is calculated using a model, machine learning and cloud computing, these are used to test many hypotheses to explain the mutations in the genome and hopefully also explain the total amount of transmissions that genome has been through, which would let us know the total number of Covid-19 cases.
+
+== RESULTS
+
+In 12 tested locations over 98% infections were undetected during the first few weeks and locations such as Shanghai had undetected infection rates of over 90% according to their model.  Chan Zuckerberg Biohub are hoping that their models can be used to better public health surveillance systems as an increase of unreported cases in the model would be a good indication to increase testing of a population and decrease the overall transmission of Covid-19.
+
+== ISSUES
+
+I believe that calculating the mutation rate of the genome would be very difficult to get exactly correct.  Due to there being so many factors surrounding the transmission rate of the disease I don't believe they will have checked enough hypotheses for the data to be accurate enough.  The article also doesn't mention their sample size when for testing these hypotheses or their sample size of viral genomes which if low enough could potentially skew results.  Finally, there is no way for them to actually compare their results with a real-world model to check if their results are correct.  
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I found this article very interesting as it relates to a project I'm working on.  Using machine learning to calculate the rate of mutation and to reverse engineer that, to hopefully come to a transmission rate is a very interesting approach and one I don’t think I could come up with a superior alternative to.  The article in this scenario seemed to be fairly accurate but that may be because a large chunk of the article is filled with quotes from one of the data scientists actually working at Chan Zuckerberg Biohub.  Their use of machine learning doesn't seem to be anything new to the industry as they were testing variables against a model which would constantly try and improve them, which is a standard for machine learning, the way they used this to refine data so it could be used to estimate the total unreported cases though is very interesting.

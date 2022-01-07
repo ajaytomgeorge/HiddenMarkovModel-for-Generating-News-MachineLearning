@@ -1,0 +1,35 @@
+== SOURCE
+
+https://arstechnica.com/science/2020/02/someone-used-neural-networks-to-upscale-a-famous-1896-video-to-4k-quality/
+
+== AGENT
+
+Denis Shiryaev
+
+== GOAL
+
+Upscaling videos
+
+== DATA
+
+Collection of high resolution images, downsampled. Gigapixel AI played a big part in this
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+A video from 1896 in 4k resolution
+
+== ISSUES
+
+The machine is not recovering the frames, it is predicting and filling in what might have been there originally
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It's pretty cool 

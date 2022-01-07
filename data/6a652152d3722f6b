@@ -1,0 +1,87 @@
+==== SOURCE
+
+[1] Forest Agnostinelli, Stephen McAleer, Alexander Shmakov, Pierre Baldi. Solving the Rubik’s cube 
+with deep reinforcement learning and search. 2019, https://doi.org/10.1038/s42256-019-0070-z
+
+News Source:
+https://www.bbc.com/news/technology-49003996
+
+==== AGENT
+
+University of California, Irvine
+
+==== GOAL
+
+The aim of this research was to solve the Rubik's Cube and other puzzles using the shortest path to the goal state 
+incorporating a reinforcement learning approach known as DeepCubeA. This program was also able to solve other 
+combinatorial puzzles like Sliding Tile Puzzles; 15 puzzle, 24 puzzle, 35 puzzle, 48 puzzle; Lights out and Sokoban.
+
+==== DATA
+
+Data was generated at run time. Source code can be found below.
+https://codeocean.com/capsule/5723040/tree/v1
+
+Moves of the Rubik's Cube are denoted as;
+
+F - Face
+B - Back
+L - Left
+R - Right
+U - Up
+D - Down
+
+Any random orientation of the cube generated from these Moves will lead to a configuration known as a state. 
+There are 4.3x10^19 states overall. A solved cube is referred to as a goal state.
+
+==== METHODS
+
+The method combines a recursive neural network with A* star search heuristic.
+
+The DeepCubeA learning approach trains on states by starting with the goal state (a Solved 
+Rubik's Cube) and randomly takes moves in reverse. 
+
+DeepCubeA uses approximate value iteration (AVI) to train a Deep Neural Network (DNN). A cost-to-go function J
+is represented by a parametrized function by the DNN and the aim is to minimize the mean squared error between
+its estimation of the cost-to-go J(s) and an updated cost-to-go estimate J'(s);
+
+$   J'(s) = min_{a}(g^{a}(s, A(s,a)) + J(A(s,a)))   $
+
+Where s represents all possible states, a is an action (for example turning one of the faces of the Rubik's cube) 
+and A(s,a) is the resultant state from taking the action a and state s and can also be represented as s'. 
+
+g(s,s') is the cost of transition from state s to state s'.
+
+After training, the learned cost-to-go function is used as a heuristic to solve the problem via a modified 
+weighted A* search. The cost of each state at node x is given by the equation;
+
+$   f(x) = g(x) + h(x)   $
+
+Where, g(x) is the distance between the start state and x, h(x) is obtained from the learned cost-to-go function; 
+
+h(x) = 0, if x is associated with the goal state 
+h(x) = J(x) otherwise
+
+In this sense the modified A* algorithm is able to find the goal state (a solved Rubik's cube) from any initial 
+state (A Rubik's cube with random orientation of its sides) using the cost-to-go function trained from the DNN.
+
+
+==== RESULTS
+
+Theoretically, the largest number of Moves to solve a Rubik's Cube from any given state is 26 (discounting 180 
+degree turns).
+
+The DeepCubeA program was able to solve the Rubik's Cube 100% of the time in all test scenarios and solved the 
+Cube using the shortest path possible 60.3% of the time. Of the remaining 39.7%, 36.4% were solved two Moves longer 
+of the optimal solution and 3.3% were solved four Moves longer.
+
+For the other puzzles the DeepCubeA solved the 15 and 24 puzzle with the shortest path 99.4% and 96.98% of the time 
+but was prohibitively slow for 35 and 48 puzzle. For Lights Out found the shortest path 100% of the time and solved 100%
+of test example for Sokoban.
+
+==== COMMENTS
+
+With 4.3x10^19 unique states for the Rubik's Cube and being capable of solving this in the shortest number of moves, 
+this article and the paper it bases on really highlight how powerful Machine Learning algorithms can be in solving complex 
+problems that would take much longer and would be much less efficiently solved by a human user.
+
+The method employed is only valid for games/problems where the goal state/solution is known. 

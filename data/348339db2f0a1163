@@ -1,0 +1,28 @@
+#1
+
+== SOURCE
+https://www.the-scientist.com/news-opinion/machine-learning-optimizes-images-for-stimulating-monkey-neurons-65828
+
+== AGENT
+Ruth Williams, Journalist, the-scientist.com 
+
+== GOAL
+To understand exactly which stimuli activate which brain cells
+
+== DATA 
+Computer generated images.
+
+== METHODS
+Deep Learning & Neural Networks
+
+== RESULTS
+About 70 percent of the time, by following this procedure the neural responses can be stretched higher than what had been seen in response to natural images.
+
+== ISSUES
+The testig of the functional similarity is limited.
+
+== SCORE
+7
+
+==COMMENTS
+It’s creative that we’re not only mimicking the brain and how it works not only in humans but also in other animals as well.

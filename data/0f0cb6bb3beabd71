@@ -1,0 +1,23 @@
+==== SOURCE
+https://www.sciencedirect.com/science/article/pii/S0263224114004734
+bibliographic citation or URL with pointer to source of this information
+
+==== AGENT
+RajalingappaaShanmugamani, MohammadSadique, B.Ramamoorthy, researchers
+
+==== GOAL
+
+What were they trying to do?
+They were trying to use machine-learning from video/image to detect and classify surface properties of gun barrels. They do that by distinguishing from normal wear, corrosive pitting, rust and erosion. 
+
+==== DATA
+A total image of 1000 pictures were select which only 200 had the characteristics that the model should distinguish.
+
+==== METHODS
+They used classifiers based on Bayesian, k-nearest neighbor, artificial neural network and support vector machines were used to test the result. Images containing the characteristics of a used gun barrel were captured by a camera and normal wear would appear as bright, and the rest of the three defects appeared as dark. The areas were calculated in metric units and the process was carried in two stages.
+
+==== RESULTS
+The method was effective and has a potential to automate the inspection procedure.
+
+==== COMMENTS
+This research is quite like the one done by the military which was talked about in class. It was used to distinguish between images which had tanks, and this one was to distinguish between whether the image had a gun barrel.

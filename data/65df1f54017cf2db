@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://techcrunch.com/2019/10/02/molecule-one-uses-machine-learning-to-make-synthesizing-new-drugs-a-snap/
+
+==== AGENT
+
+Molecule.one
+
+==== GOAL
+
+Synthesizing new drugs
+
+==== DATA
+
+It’s based on a machine learning system that has ingested millions of patents and known chemical processes, allowing it to connect the dots and propose a method for creating pretty much any complex organic molecule. We began market research — we were both first timers so it was pretty new to us at the time — and we found out there was a big market need for this. The databases used by Molecule.one’s systems, surprisingly, are mostly public. The U.S. Patent office has tons of patents involving chemical processes — some important, some small, some obscure, some obvious, but all verified and presented formally. This was a gold mine sitting in plain sight, Byrski said. Or perhaps a box full of Lego pieces just waiting to be assembled into the right machine.
+
+==== METHODS
+
+“We are making the whole synthesis pathway, so going from compounds that are available to ones that you want,” said Włodarczyk-Pruszyński. “Along the way we need to solve many problems — there are many reasons why a reaction could fail. We want to tell users how to make compounds with the process with the highest chance of success.”
+
+==== RESULTS
+
+And succeed they have: “Our system works for structures that have never been seen before by any chemist,” Byrski said.
+
+==== COMMENTS
+
+Massive step in the right direction as it hasn't been done before and it will be relevant for years and years to come with it appealing to a broad audience.

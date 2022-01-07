@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.the-scientist.com/news-opinion/dogs-are-teaching-machines-to-sniff-out-cancer-68469
+
+== AGENT
+
+Research Scientist at MIT
+
+== GOAL
+
+To teach machine to detect prostate cancer using the sniffing abilities of dogs.
+
+== DATA
+
+After training the dogs with 5 cancer and 15 noncancer samples, the researchers used the remaining samples to test their skills. At each testing run, the dog examined a carousel containing three cancer-negative samples and one cancer-positive sample. After getting a whiff of each container of urine, the dog made a selection.
+
+== METHODS
+
+They used the data gathered by the dogs and then used it to train the machine ie, Supervised Learning.
+
+== RESULTS
+
+The initial test results with the dogs are perfect. They have started to create an algorithm which contains the molecules data of the samples the dog declared as a cancer positive and based on it, the algorithm adapts and tries to detect the prostate cancer with canine level accuracy.
+
+== ISSUES
+
+Recreating a canine nose is not an easy task. Dogs are somehow capable of sensing bad things in this case, the cancerous smell. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+There are many cancer detecting softwares or algorithms which are in use or under developement. This particular one is interesting as it tries to recreate a machine which has the accuracy of a dog's nose which is almost inachievable. Might have used more dogs and tried to check whether the dog breed maked a difference in the observations or not.

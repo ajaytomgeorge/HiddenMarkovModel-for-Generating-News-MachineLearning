@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.unite.ai/mit-measuring-media-bias-in-major-news-outlets-with-machine-learning/
+
+== AGENT
+
+Massachusates Institute of Technology
+
+== GOAL
+
+Identify biases on certain political topics within major news organizations
+
+== DATA
+
+They used 3,078,624 arrticles obtained from 100 media sources, including 83 newspapers
+
+== METHODS
+
+Natural Language Processing was used for this network
+
+== RESULTS
+
+The network was able to classify articles and news agencies on a spectrum of 'left-leaning' to 'right-leaning'
+and from 'anti-establishment' to 'pro-establishment'
+
+== ISSUES
+
+It may have been more effective to run two different networks, one for online sources and one for newspapers, 
+and identify the biases from each of them.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+Interesting paper and I believe the article did a good job explaining the system unbiased.
+However, it says the network 'could potentially auto-classify the political character of
+a publication' - which seems a little orwellian to me.

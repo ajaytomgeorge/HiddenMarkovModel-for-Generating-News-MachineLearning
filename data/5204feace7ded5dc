@@ -1,0 +1,79 @@
+﻿Article 1
+==== SOURCE http://www.jmlr.org/papers/volume17/15-237/15-237.pdf 
+
+==== AGENT
+
+ Xiangrui Meng (Databricks enterprise) and Ameet Talwalkar (UCLA) 
+
+
+==== GOAL They are trying to get rid of the pressing need to develop solutions to harness a wealth of data using statistical methods. 
+
+==== DATA The data is open-source 
+
+
+==== METHODS They had implemented MLlib, Spark’s distributed machine learning library, which is the largest such library 
+
+
+==== RESULTS
+
+ They implemented this large library using Apache Spark because it is efficient at iterative computations and is thus well-suited for the development of large-scale machine learning applications 
+
+
+==== COMMENTS
+
+ I think this is a great achievement because it provides distributed implementations of common learning algorithms and optimizes to be more efficient among other things.
+
+
+Article 2
+==== SOURCE https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi 
+
+
+==== AGENT
+
+ Google Brain 
+
+
+==== GOAL They wanted to implement a system that operates at large scale and in heterogeneous environments 
+
+
+==== DATA Tensor-flow uses dataflow graphs to represent computation, shared state, and the operations that mutate that state 
+
+
+==== METHODS
+
+ TensorFlow enables developers to experiment with novel optimizations and training algorithms and supports a variety of applications, with a focus on training and inference on deep neural networks 
+
+
+==== RESULTS It maps the nodes of a dataflow graph across many machines in a cluster, and within a machine across multiple computational devices, including multicore CPUs, general-purpose GPUs, and custom-designed ASICs 
+
+
+==== COMMENTS
+
+
+
+
+
+Article 3
+==== SOURCE
+
+ http://www.jmlr.org/papers/volume17/15-066/15-066.pdf 
+
+
+==== AGENT
+
+ Some professors of the department of Statistics (University of Muchich) 
+
+
+==== GOAL
+
+ They are trying to implement a standarized interface for R (a very popular and widely-used software system of statistics)
+
+
+==== DATA They use R
+==== METHODS
+
+ They implemented a MLR package, which provides a unified interface to machine learning inR
+
+==== RESULTS Defining learning tasks, training models, mak-ing predictions, and evaluating their performance abstracts from the implementation of theunderlying learner through an object-oriented interface.  Replacing one learning algorithmwith another becomes as easy as changing a string
+
+==== COMMENTS I think it's not that useful

@@ -1,0 +1,39 @@
+==== SOURCE
+
+https://www.theguardian.com/science/grrlscientist/2012/nov/08/nate-sliver-predict-us-election
+
+==== AGENT
+
+Nate Silver, columnist with the New York Times.
+
+==== GOAL
+
+To use polling data to predict state winners in the 2012 US Presidential Election. Also to predict which candidate would win
+the vote in each state.
+
+==== DATA
+
+The data used was polling data which was collected in the months leading up to the 2012 Presidential Election. The data included state, year, Boolean variable for Republican or Democrat.
+
+==== METHODS
+
+A mathematical model of how people would vote on a particular day was constructed, this was called the
+nowcast, ie how people would vote if they had to today. There were numerous variables that would affect
+How a person would vote, so these vote were taken into account in the model, such as what area a person
+came from, also what race a person is.
+This model is used as a baseline of voting from that point in time. The model takes into account changes
+that happen, both regional and state wise, and these are fed into the model. For example if unemployment
+in an area went down the incumbent party will gain popularity in that area. All of these variable were then
+used with a logistic regression model and this is what was used to make the prediction for the Presidential
+Election.
+
+
+==== RESULTS
+
+Nate Silver was one of the few main stream commentators who successfully predicted the outcome of the 2012
+Presidential Election.
+
+==== COMMENTS
+
+Again a pretty standard regression model can be used with great affect to make predictions that no one else
+can see.

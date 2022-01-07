@@ -1,0 +1,43 @@
+== SOURCE
+
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Using Neural network identifies synergistic drug blends for treating viruses like SARS-CoV-2.
+
+== DATA
+
+Usually, large existing datasets are used for things like cancer and cardiovascular disease.
+As COVID was a new illness they had to use different dataset.The model used jointly learns drug-target interaction and drug-drug synergy to mine new combinations.
+
+== METHODS
+
+The team is using deep leanring and neural networks. By modeling interactions between drugs and biological targets, we can significantly decrease the dependence on combination synergy data. 
+The model isn’t limited to just one SARS-CoV-2 strain — it could also potentially be used for the increasingly contagious Delta variant or other variants.
+In addition, the team applied their approach to HIV and pancreatic cancer.
+They plan to use active learning to future enhance their research.
+
+== RESULTS
+
+The study has been published in the Proceedings of the National Academy of Sciences.
+They can predict the synergy of two drugs.
+Two new drug combinations were found using this approach: remdesivir (currently approved by the FDA to treat Covid-19) and reserpine. 
+
+== ISSUES
+
+There are no issues I found from this article, seems to be a well established study and paper.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought it was interesting what kind of application ML can have on cricitial and new world issues with COVID.
+An issue with this type of study would be the evolving nature of COVID could bring new strains and the drug founded
+in the study could in future become non-applicable.

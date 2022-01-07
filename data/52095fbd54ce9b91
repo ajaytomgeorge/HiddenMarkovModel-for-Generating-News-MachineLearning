@@ -1,0 +1,47 @@
+﻿==== SOURCE
+
+
+
+https://www.newswise.com//articles/using-machine-learning-to-hunt-down-cybercriminals
+
+==== AGENT
+
+
+
+Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT and Center 
+for Applied Internet Data Analysis (CAIDA) at UC San Diego
+
+
+
+==== GOAL
+
+They developed a neural network to identify suspicious networks that might be 
+hijacking IP addresses.
+
+==== DATA
+
+
+
+They used data from network operator mailing lists and historical BGP (Border 
+Gateway Protocol) data.
+
+
+==== METHODS
+
+
+
+They identified qualities of malicious actors from the data and trained a neural 
+network to identify these automatically.
+
+==== RESULTS
+
+
+
+The neural network has a false positive rate of 20%, so that the researchers had 
+to identify those manually.
+
+==== COMMENTS
+
+
+
+The article does not go into technical detail.

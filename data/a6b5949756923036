@@ -1,0 +1,25 @@
+== SOURCE
+http://www.ijmlc.org/
+
+== AGENT
+Government sectors 
+
+== GOAL
+Vehicle detection and classification in a real road environment using a modified and improved AlexNet
+
+== DATA
+Spatial Pyramid Pooling (SPP) is added to the vehicle classification network which solves the problem of low accuracy due to image distortion caused by image resizing. By combining CNN with SVM and normalizing features in SVM, the generalization ability of the model was improved
+== METHODS
+Supervised
+
+== RESULTS
+Detection of vehicle 
+
+== ISSUES
+low accuracy of some categories due to data imbalance in vehicle classification and problem of poor network mobility in vehicle detection
+
+== SCORE
+6
+
+== COMMENTS
+Good But there is still some room for improvement.

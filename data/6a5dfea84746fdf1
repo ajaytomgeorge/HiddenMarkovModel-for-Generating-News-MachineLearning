@@ -1,0 +1,46 @@
+==== SOURCE
+
+http://news.mit.edu/2019/automating-ai-medical-decisions-0806
+
+==== AGENT
+
+Gonzalez Ortiz, John Guttag, the Dugald C. Jackson Professor of Computer Science 
+and Electrical Engineering and head of CSAIL’s Data Driven Inference Group; 
+Robert Hillman, Jarrad Van Stan, and Daryush Mehta, all of Massachusetts General 
+Hospital’s Center for Laryngeal Surgery and Voice Rehabilitation; and Marzyeh 
+Ghassemi, an assistant professor of computer science and medicine at the 
+University of Toronto.
+
+==== GOAL
+
+A machine learning model that automates a critical step in using AI for medical 
+decision making, where experts usually identify important features in massive 
+patient datasets by hand. The model was able to automatically identify voicing 
+patterns of people with vocal cord nodules  and, in turn, use those features to 
+predict which people do and don’t have the disorder. 
+
+==== DATA
+
+A dataset of about 100 subjects was used, each with about a week’s worth of 
+voice-monitoring data and several billion samples — in other words, a small 
+number of subjects and a large amount of data per subject. The dataset contain 
+signals captured from a little accelerometer sensor mounted on subjects’ necks.
+
+==== METHODS
+
+For years, the MIT researchers have worked with the Center for Laryngeal Surgery 
+and Voice Rehabilitation to develop and analyze data from a sensor to track 
+subject voice usage during all waking hours. The sensor is an accelerometer with 
+a node that sticks to the neck and is connected to a smartphone. As the person 
+talks, the smartphone gathers data from the displacements in the accelerometer.
+
+==== RESULTS
+
+In experiments, the model performed as accurately as state-of-the-art models that 
+require manual feature engineering. Importantly, the researchers’ model performed
+accurately in both training and testing, indicating it’s learning clinically 
+relevant patterns from the data, not subject-specific information
+
+==== COMMENTS
+This machine learning model seems to very promising and could potentially help 
+diagnose patients.

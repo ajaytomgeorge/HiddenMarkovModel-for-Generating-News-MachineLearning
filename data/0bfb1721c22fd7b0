@@ -1,0 +1,42 @@
+== SOURCE
+
+https://www.infoq.com/news/2021/07/ferrari-AWS-machine-learning/
+
+== AGENT
+
+Scuderia Ferrari
+
+== GOAL
+
+To utilise AWS Machine learning for Racing and Road Operations on their Formula 1 team.
+
+== DATA
+
+Ferrari will use AWS's global infrastructure, including the AWS Europe (Milan) region,
+and breadth and depth of services to streamline design and testing of its cars,
+giving customers better driving experiences.
+
+== METHODS
+
+Ferrari will build a data lake with Amazon Simple Storage Service (Amazon S3) and use AWS Lake Formation to quickly and securely gather, catalog, 
+and clean hundreds of petabytes of data and will also leverage AWS to make it easier for current and prospective customers to build, purchase, and maintain their cars
+The use of this data lake shows that the data will be used in order to create an unsupervised Machine learning algorithm.
+
+== RESULTS
+
+This article did not provide results of this algorithm. Ferrari hope to utilise a more automated routine to eliminate the more unreliable and time-consuming tasks and freeing up valuable time to be allocated elsewhere.
+
+== ISSUES
+
+The main issue I see with this reporting is that it is quite vague and does not go into much detail as to how the amazon based software will inevitably eliminate these tasks they wish to address.
+== SCORE
+
+A single digit, 1-9, alone on a single line, which is your personal
+
+6
+
+== COMMENTS
+
+Although this article awas interesting as it shows how the world of formula one has developped into a much more mental sport and has moved from a traditional physical sport.
+My main issue with the data in this report is that it is incomplete a version of this machine learning has been introduced into the nascar racing circuit making the data although new has already been deployed into motorsports.
+If I was to undertake this project I dont believe i would change much however as the AWS cloud database is a very trusted database and in Ferrari's case the database is easily predictable due to all races being predetermined.

@@ -1,0 +1,40 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/8964560
+
+== AGENT
+
+CCT College Dublin 
+Yao Yao, Daiqiang Wu, Ye Hong, Dongsheng Chen, Zhaotang Liang, Qingfeng Guan, Xun Liang, Liangyang Dai
+
+
+== GOAL
+
+Evaluating the  changes in Urban Traffic Congestion due to Rainfall using ICC Model.
+
+== DATA
+
+The dataset is collected from Shenzhen Meteorological Database - https://data.szmb.gov.cn/
+
+
+== METHODS
+
+Point Kernel density method, Linear Kernel density method, DBSCAN algorithm, k-means algorithm
+
+
+== RESULTS
+
+Finding Citizens Travel Patterns, Influence on road speed and Traffic congestion due to rainfall.
+
+== ISSUES
+
+Accuracy is not that great as the results of ICC model is based on road network structure, roads weight instead it should use actual traffic data of urban to increase accuracy
+== SCORE
+
+5
+
+== COMMENTS
+
+This article not only helps to detect the influence of traffic congestion due to rainfall, but also with these results we will help us to identify the areas that has poor drainage system areas.
+
+Current article research categorises the data into weekdays and weekends. But I would also recommend to consider National Holidays also as the traffic movements are higher.

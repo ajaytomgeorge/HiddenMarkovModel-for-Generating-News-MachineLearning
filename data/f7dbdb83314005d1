@@ -1,0 +1,47 @@
+== SOURCE
+
+https://www.siliconrepublic.com/machines/nuclear-fusion-energy-ai-breakthrough
+
+== AGENT
+
+The US Department of Energy’s Princeton Plasma Physics Laboratory (PPPL).
+
+== GOAL
+
+Predict any disruptions that halt fusion reactions and damage doughnut-shaped tokamak reactors.
+
+== DATA
+
+2TB of data was provided by two major fusion facilities: the DIII-D National Fusion Facility in
+California and the Joint European Torus (JET) in the UK.
+It was not mentioned what the data consists of exactly.
+
+== METHODS
+
+A recurrent convolutional neural network.
+
+== RESULTS
+
+Trained on a set of test runs from JET, the Fusion Research Neural Network (FRNN) was applied
+to other test runs and could predict impending disruptions with 90% accuracy, in
+timescales of milliseconds. On a live system, that would be quick enough to take preventive
+measures and save the test run.  This was completely beyond the ability of systems trying to
+calculate disruptions from raw sensor readings.  So, it is a major step in achieving fusion as
+an energy sources.
+
+== ISSUES
+
+An issue is that as plasmas fluctuate their behaviour is a complex mix of fluid dynamics and
+electromagnetism, which is hard to predict and control, and when it does happen it happens
+very quickly with a large release of energy which will damage the vessel.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I found this story very interesting as it not only explains that a large step towards fusion, but
+it was enabled by a field which I have much interest in, that being machine meaning.
+It would have been nice to have read about the specific data that was used to training the model,
+something that was not mentioned in the article.

@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://arxiv.org/pdf/1609.03499.pdf
+
+==== AGENT
+
+Who:
+Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan,
+Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior and Koray Kavukcuoglu
+
+where: 
+Google DeepMind, London, UK
+
+==== GOAL
+
+Generation if speech and music 
+
+==== DATA
+
+Audio records. For speech they were using recordings of big number of human
+beings speaking for a while. Data captured by themselves (at least external source not mentioned in document)
+
+==== METHODS
+
+Network was operating directly on a raw audio. 
+"Similarly to PixelCNNs (van den Oord et al., 2016), the conditional probability distribution is
+modelled by a stack of convolutional layers. There are no pooling layers in the network, and the
+output of the model has the same time dimensionality as the input. The model outputs a categorical
+distribution over the next value xt with a softmax layer and it is optimized to maximize the loglikelihood of the data w.r.t. the parameters"
+
+==== RESULTS
+
+just listen to this
+https://deepmind.com/blog/article/wavenet-generative-model-raw-audio
+
+==== COMMENTS
+
+That's the case, when machine speaks better then some of the puny human beings

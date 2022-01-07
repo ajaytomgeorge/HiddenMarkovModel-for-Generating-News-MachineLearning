@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.nature.com/articles/s41598-020-75451-5
+
+== AGENT
+
+Kyoto University Graduate School of Medicine
+
+== GOAL
+
+Automatic categorization of patients with CNV using ML
+
+== DATA
+
+They phenotyped a total of 61 baseline characteristics. All participants underwent
+complete ophtalmological examinations.
+
+== METHODS
+
+Unsupervised
+
+== RESULTS
+
+The CNV score obtained based on logistic regression results showed the possibility of diagnosing 
+PNV and was significantly associated with visual prognosis at 3 months after anti-VEGF treatment.
+
+== ISSUES
+
+Seventy-two patients were excluded due to lack of data; specifically, 53 patients lacked axial length data, 
+because axial length was not routinely measured before April 2013.
+The current unsupervised machine learning revealed that 46.2% of CNV belong to pachychoroid spectrum,
+which was higher than the proportion described in our previous report
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I think this is somewhat interesting as it is greatly beneficial to patients and doctors but the results were
+not ground breaking.

@@ -1,0 +1,39 @@
+== SOURCE
+
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+
+== AGENT
+
+MIT CSAIL and Jameel Clinic for Machine Learning in Health
+
+== GOAL
+
+To predict new drug combinations to fight Covid-19
+
+== DATA
+
+Used existing data from other diseases. Data was in the form of drug-target interaction and drug-drug synergy.
+
+== METHODS
+
+Unsupervised learning. Used two models, one to learn drug-target interaction and one to learn drug-drug synergy.
+These two models would then combine their knowledge to find new synergies.
+
+== RESULTS
+
+Found two new drug combinations: remdesivir and reserpine, as well as remdesivir and IQ-1S
+
+== ISSUES
+
+The data needs real tests done on humans before it can be verified, so the results may not end up being useful or accurate.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought it was interesting because it shined some light on potential applications of machine learning on an
+important, ever-present and current issue, which is finding treatments for new diseases using existing data as
+data specifically pertaining to new diseases is hard to come by. The reporting in the press could have gone into
+more detail as to what data was used and how in order to remove ambiguity.

@@ -1,0 +1,29 @@
+==== SOURCE
+
+Science Daily - https://www.sciencedaily.com/releases/2019/09/190917133052.htm
+
+==== AGENT
+
+University of California, Irvine
+
+==== GOAL
+
+Creating a model, based around a machine learning algorithm, that could predict the final size of a wildfire and thus estimate its lifespan.
+
+==== DATA
+
+Alaska was used as a study area due to its recent plague of forest fires.
+Climate data, atmospheric conditions, and vegetation at the starting point of the fire are loaded into the model.
+
+==== METHODS
+
+A decision tree algorithm is the core of the model that learns with each new data point, allowing it to quickly figure out identifiers for large fires.
+The model can also consider multiple fires running simultaneously.
+
+==== RESULTS
+
+The method used by the model can also be used by humans, and has been, however the machine learning system is much more efficient and quick, therefore can be considered a success. 
+
+==== COMMENTS
+
+This same model can also be applied to social media posts interestingly enough, since spread and lifespan apply to both.

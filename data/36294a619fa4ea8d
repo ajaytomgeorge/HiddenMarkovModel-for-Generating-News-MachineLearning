@@ -1,0 +1,49 @@
+﻿== SOURCE 
+
+
+https://g1.globo.com/distrito-federal/noticia/apos-ser-flagrado-por-app-deputado-devolve-a-camara-r-727-por-13-refeicoes-no-mesmo-dia.ghtml
+
+
+== AGENT
+
+
+Serenata de Amor
+
+
+== GOAL
+
+
+Monitoring parliamentarian expenses and share the information in an accessible way to everyone
+
+
+== DATA
+
+
+The data is provided by the brasilian government through a website “Portal da Trasnparencia” where each parliamentarian reports their own expenses to get a refund for it.
+
+
+== METHODS
+
+
+They have Rosie, a bot that reads receipts and flags suspicious refunds, based on a given context using Supervised Learning.
+
+
+== RESULTS
+
+
+There were 629 suspicious refunds reported to the Chamber of Deputies involving 216 different congresspeople and more than 378k BRL.
+
+
+== ISSUES
+
+
+Not all suspicious reports turn out to be irregularities and a human is needed to confirm or decline Rosie’s findings.
+
+
+== SCORE
+
+
+7
+
+
+== COMMENTS

@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://hackernoon.com/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+==== AGENT
+
+Spotify.
+
+==== GOAL
+
+Provide recommendations to users based on their listening history.
+
+==== DATA
+
+Based on their rich dataset of playlists and songs played by its users.
+
+==== METHODS
+
+They use three recommendation models in particular. Natural Lanaguage Processing (NLP) is one of them and consists of comprehending human speech on the internet. These NLP models surf the internet in search for posts or other valuable information regarding music, artists, songs etc. including adjectives used to describe them. These terms are assigned a certain weight and compared against other music to determine if two pieces of music are similar.
+
+==== RESULTS
+
+Spotify are able to provide more accurate recommendations to its users.
+
+==== COMMENTS
+
+Very useful especially if a user wants to listen to songs of a similar genre.

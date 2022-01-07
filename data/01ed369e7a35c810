@@ -1,0 +1,36 @@
+Simultaneous Detection and Segmentation (SDS)
+
+SOURCE
+
+https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/sds/
+
+AGENT
+
+Bharath Hariharan, Pablo Arbelaez, Ross Girshick, Jitendra Malik.
+University of California, Berkeley
+Universidad de los Andes, Colombia
+
+GOAL
+
+To detect all instances of a category in an image and, for each instance, mark the pixels that belong to it. This is called Simultaneous Detection and Segmentation (SDS). 
+
+DATA
+
+Input data is a random image with several instances that can be distinguished and resolved into separate individual instances.
+
+METHODS
+
+The SDS algorithm  has the following steps :
+1. Proposal generation: Category-independent bottom-up object proposals as producing segmentations is interesting than just bounding boxes as suggested by the owners and they need region proposals.  MCG [1] is used to generate 2000 region candidates per image. Each region is considered candidate as a putative object hypothesis.
+2. Feature extraction: They used a convolutional neural network to extract features on each region. Exctracted features from both the bounding box of the region as well as from the region foreground. They(authors) find that, compared to using the same CNN for both inputs (image windows and region masks), using separate networks where each network is finetuned for its respective role dramatically improves performance. 
+                       Performance is further improved by training both networks jointly, resulting in a feature extractor that is trained end-to-end for the SDS task. 
+3. Region classification: They trained an SVM(Support Vector Machine) on top of the CNN features to assign a score for each category to each candidate.
+4. Region refinement: Non-maximum suppression (NMS)is performed on the scored candidates. Then used the features from the CNN to produce category specific coarse mask predictions to refine the surviving candidates. Combining this mask with the original region candidates provides a further boost.
+
+RESULTS
+
+This method can handle uncommon pose and clutter and is able to resolve individual instances of an image.
+
+COMMENTS
+
+The performance of the SDS depends on the pixel quality of the image and may produce deficient results in such cases of low quality images or images which does not meet the necessary requirements.

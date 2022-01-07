@@ -1,0 +1,37 @@
+==== SOURCE
+
+https://spectrum.ieee.org/tech-talk/telecom/internet/mit-and-caida-researchers-want-to-use-machine-learning-to-plug-one-of-the-internets-biggest-holes
+
+==== AGENT
+
+The project was developed by the joint team of MIT and UC San Diego.
+
+==== GOAL
+
+Their aim was to use machine learning to be able to identify serial hijackers quickly.
+Therefore having a higher chance of preventing their antics.
+
+==== DATA
+
+The dataset that they used consisted of a combination of legitimate autonomous systems and known serial hijackers.
+
+==== METHODS
+
+The group determined the dominant characteristics of a serial hijacker, such as being online less frequently or only while they are skimming data.
+They then implemented a machine learning technique called an extremely-randomized trees (extra-trees) classifier, which they trained to identify the aforementioned characteristics.
+Therefore when the classifier is provided with an autonomous system, each tree in the classifier decides whether or not it is legitimate by looking at its characteristics.
+The majority vote represents the result.
+
+==== RESULTS
+
+The classifier was tested using 19103 autonomous systems, and 934 of these were identified as potential serial hijackers.
+However not all of them were identified correctly.
+The developer admits that a legitimate autonomous system could sometimes go offline, such as during a blackout.
+Typos and misconfigurations could also occur and make a legitimate network look suspicious.
+Thus there are still improvements to be made.
+
+==== COMMENTS
+
+I thought that their use of the extra-trees classifier instead of deep learning was interesting, and a good decision. 
+I liked how the article used the "telephone game" as an analogy to describe Border Gateway Protocol (BGP), making it easy to understand.
+The extra-trees method was also very well explained, again using an analogy of trees in a forest having a "vote of confidence".

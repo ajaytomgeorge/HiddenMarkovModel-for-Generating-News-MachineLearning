@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.nature.com/articles/s41598-021-82410-1
+
+== AGENT
+
+Isabella A. Guedes, André M. S. Barreto
+
+== GOAL
+
+New empirical scoring functions for modern in silico drug discovery
+
+== DATA
+
+four DUD-E datasets www.dockthor.lncc.br
+PDBbind v2013 refined set (http://www.pdbbind-cn.org/, version 2013
+
+== METHODS
+
+Multiple linear regression (MLR), support vector machine and random forest algorithms
+Optimized MMFF94S force-field terms, solvation and lipophilic interactions terms
+
+== RESULTS
+
+MLR general scoring function trained with the random training set (N = 2073)
+exhibited a good performance on tenfold cross-validation experiments (R = 0.548)
+and on the curated core set (R = 0.602), and a lower performance on the random test set (R = 0.494)
+
+== ISSUES
+
+PDBbind core set v2013 is an old data set.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It was an interesting new way of using existing data and methods

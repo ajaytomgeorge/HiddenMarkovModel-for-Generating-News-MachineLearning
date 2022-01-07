@@ -1,0 +1,35 @@
+== SOURCE
+
+https://en.m.wikipedia.org/wiki/Leela_Chess_Zero
+
+== AGENT
+
+Programmer Gary Linscott, who is also a developer for the Stockfish chess engine
+
+== GOAL
+
+Creating a strong chess engine.
+
+== DATA
+
+Leela chess Zero starts with no intrinsic chess-specific knowledge other than the basic rules of the game. 
+
+== METHODS
+
+RL from repeated self-play
+
+== RESULTS
+
+Second to only Stockfish, the leading conventional chess program, in the most recent Top Chess Engine Championship.
+
+== ISSUES
+
+None in particular. 
+
+== SCORE
+
+5
+
+== COMMENTS
+
+For an engine that was only released 3 years ago, Lc0 has come incredibly far by being consistently among the top 2 chess engines in the world. And with continued reinforcement learning, it would not be surpising if Lc0 was to overtake Stockfish in the near furture. 

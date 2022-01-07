@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.wired.com/story/this-ai-helps-detect-wildlife-health-issues-in-real-time/
+
+== AGENT
+
+UC Davis researchers
+
+== GOAL
+
+Use AI to classify admissions to rehabilitation centres, to warn wildlife agencies and researchers about problems among marine birds and other animals.
+
+== DATA
+
+They used data from rehabilitation centres around the country, which told them which animals were being admitted and what diseases or ailments they had. It included records from 453 different species among 27 taxonomic orders.
+
+== METHODS
+
+Supervised learning, Wildlife Rehabilitation Medical Database.
+
+== RESULTS
+
+Proof was provided for using pre-diagnostic clinical data gotten from wildlife rehabilitation centres to contribute to detection of ‘Wildlife Morbidity and Mortality Events’. The WMME alert system demonstrated an efficient system that uses existing data to monitor the wildlife situation.   
+
+The full results can be found here: 
+https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2021.0974
+
+== ISSUES
+
+There were no issues, it was successful in managing patterns and the amount of each species being admitted and whether it was a cause for concern.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+It was not very interesting, but it is very useful since it can be used for more than just animals, and by using it to observe the different animals and the influx of certain species they can keep track of any parasites or diseases being carried by the animals that could affect humans. It was an interesting way of using incoming data from the wildlife being admitted to the rehabilitation centres to alert all other centres about the patterns.

@@ -1,0 +1,25 @@
+==== SOURCE
+
+https://ai.googleblog.com/2019/05/moving-camera-moving-people-deep.html?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+
+==== AGENT
+
+google
+
+==== GOAL
+
+trying to generate depth maps on a free moving person and camera
+
+==== DATA
+
+they used youtube videos in which people imitate maniquins by freezing a wide variety of natural poses
+
+==== METHODS
+
+they improved on a state of the art single image depth prediciton by looking at it from different viewpoints(motion parallax). they get a inital depth and run it through a human segmentation network. the network gives people depth values and it refines the depth everywhere else. 
+==== RESULTS
+
+Once the model it was trained it could handle natural videos in where the video was using an arbitrary camera and human motion.
+
+==== COMMENTS
+generating depth in videos with free moving cameras and free moving people could be very useful for the future of games. being able to generate landscapes and provide dept without human input has great potential.

@@ -1,0 +1,27 @@
+==== Source 
+
+https://www.the-scientist.com/critic-at-large/opinion--ai-beats-animal-testing-at-finding-toxic-chemicals-65795 
+
+==== Agent 
+
+The Center for Alternatives to Animal Testing at Johns Hopkins University 
+
+==== Goal 
+
+To show that artificial intelligence could mine existing data on chemical toxicity and generate new information 
+
+==== Data 
+
+Data came in the shape of a database of 800,000 toxicological studies on more than 10,000 chemicals registered under the European REACH legislation for industrial chemicals, throughout the study, more toxicological studies were added.  
+
+==== Methods  
+
+The toxicological studies were used it to feed an advanced predictive algorithm that enabled us to predict the toxicity of any chemical without setting foot in the animal lab. The software builds a map of the chemical universe. Similar chemicals are put close to each other, dissimilar ones more distant. Then, the model can place new chemicals on the map, assess what is known about their neighbors, and from that information surmise their potentially harmful health and environmental effects. 
+
+==== Results 
+
+The database has expanded to more than 10 million chemical structures, more than 300,000 of which are annotated with biological and chemicophysical data and some 50,000 of those also include animal data. Using an Amazon cloud server, it took two days to analyze the similarities and differences among the 10 million chemicals to place them on a map. Applying this to 190,000 classified chemicals based on animal tests, the computer correctly predicted the outcome of toxicity studies 87 percent of the time. 
+
+==== Comments 
+
+Once again, another diverse way of using machine learning techniques. It’s such a simple idea but effective. Hopefully, with this database, they will be able to reduce the number of animals used for testing as well as avoid any unnecessary deaths by using chemical with less toxicity.

@@ -1,0 +1,33 @@
+==== SOURCE
+
+MRI and Machine Learning Depict Brain Aging in Health, Disease
+
+https://www.alzforum.org/news/research-news/mri-and-machine-learning-depict-brain-aging-health-disease
+
+==== AGENT
+
+Scientists led by Tobias Kaufmann and Lars Westlye, University of Oslo, Norway.
+
+==== GOAL
+
+They wanted to analyse brain MRI scans in order to find out more about what is changed by neurological disorders, especially the apparent brain age.
+
+==== DATA
+
+They used 45,615 MRI scans from volunteers age 3-96. Around 40,000 of them were from healthy people. The other ones came from people with various brain disorders.
+
+==== METHODS
+
+In order to predict a person's brain age with an MRI, they used supervised learning. They first used 35,474 brains from healthy people to train the model. Then it was used to predict the brain age of the rest of the population, which contained around half of healthy people, and half of people with brain disorders.
+
+==== RESULTS
+
+They found out that for some psychological disorders, the brain seemed to have aged faster. It was especially true for dementia, MCI,  multiple sclerosis and schizophrenia.
+Moreover, analysing results depending on the brain regions showed that specific disorders influenced specific areas age.
+They were also able to associate some genes to dementia, which had not been before.
+Next, they want to use this algorithm to see if there is any sign of brain aging too fast before symptoms of brain disorders show up.
+
+==== COMMENTS
+
+The ability to study brain scans from a large number of people has only been made possible by machine learning. It has enabled this discovery and could be used in many other studies in medicine, or other fields which need a large amount of data to be relevant.
+

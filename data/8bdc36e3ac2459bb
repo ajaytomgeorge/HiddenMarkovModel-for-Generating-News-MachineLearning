@@ -1,0 +1,38 @@
+﻿==== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0209068
+
+==== AGENT
+
+The researchers who worked on this study are Ethan Mark, David Goldsman, Brian Gurbaxani, Pinar Keskinocak 
+and Joel Sokol.
+
+==== GOAL
+
+The goal of this study was to use Machine Learning to predict kidney transplant survival using an ensemble 
+of methods.
+
+==== DATA
+
+The dataset was provided by the United Network for Organ Sharing (UNOS) and contains data on recipients who 
+underwent kidney transplant surgery from 1987 - 2014 in the US. It contains data on diceased and living recipients.
+
+==== METHODS
+
+A method called Variabled Selection was used, this uses the Breiman-Cutler permutation importance measure to 
+rank variables in order of variable importatnce. Harrel's concordance index was used to measure the error rate to 
+better increase the overall accuracy of the model.
+Recipient's age was ranked the most important varaible by the permutation importance and so on.
+A model called Cox Model was also used to select the correct amount of variables to select.
+Predictive Models were also used to build a random survival forest and check the performance of the overall model.
+
+==== RESULTS
+
+Many of the models and predictions made were very similar to that recorded in the by the UNOS. Most of 
+the results are displayed and explained showing graphs in the article to that would the most appropriate place 
+to look for the results as I cannot add graphs to .txt files.
+
+==== COMMENTS
+
+I can see this being used to influence many decisions that could be made for a kidney transplant recipient.
+This can help save many lives and prevent many incidents that could have been avoided as well.

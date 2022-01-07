@@ -1,0 +1,51 @@
+﻿==== SOURCE
+
+http://news.mit.edu/2019/automating-ai-medical-decisions-0806
+
+==== AGENT
+
+A research team at MIT
+
+==== GOAL
+
+Part of clinical diagnosis and treatment of patients involves physicians
+working with large datasets of patients. Specifically, the datasets
+would contain defining feature(s) of a specific disease/disorder which
+the patient suffers from. These physicians would have to identify these
+features in order to successfully diagnose and treat patients. As these
+datasets grow larger, manually indexing each entry becomes a laborious
+task. Per the article, the researchers plan to use machine learning to
+work with these databases and classify them so the process would require
+less time but also, for example, "to aid in sepsis care", "design safer
+chemotherapy regimens", "predict a patient's risk of having breast cancer"
+or to predict a patient's risk of "dying in the ICU"
+
+
+==== DATA
+
+The article does not mention specifically where the data was obtained from
+but common sense would point to the research team being in partnership
+with one or more hospitals.
+The data was in the form of voice-monitoring data from 100 subjects. This
+data was captured from "accelerometer sensor mounted on subjects' necks". 
+==== METHODS
+
+Initially, the model was trained using supervised learning. Afterwards,
+"the model used features automatically extracted from these data to classify,
+with high accuracy, patients with and without vocal cord nodules". In other 
+words, the model identified voice patterns of people with vocal cord nodules
+and used these features "to predict which people do and don't have the disorder".
+
+==== RESULTS
+
+Not only did the model manage to classify each data point "with high accuracy",
+the model also "accomplished this task without a large set of hand-labeled data".
+The model is also able to be "adapted to learn patterns of any disease or condition".
+
+==== COMMENTS
+
+In medicine, the machine learning agent needs to be accurate
+in what it does. As, for example, mislabelling and thus misdiagnosing a patient
+through the use of machine learning would be concerning and would lead to distrust
+in using machine learning in such an environment. It is great news that machine learning
+was highly successful here.

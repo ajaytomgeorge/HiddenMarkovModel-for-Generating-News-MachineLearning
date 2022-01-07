@@ -1,0 +1,27 @@
+==== SOURCE
+
+Tech Crunch - https://techcrunch.com/2019/09/13/this-prosthetic-arm-combines-manual-control-with-machine-learning/
+
+==== AGENT
+
+EPFL’s Learning Algorithms and Systems Laboratory
+
+==== GOAL
+
+Create a prosthetic limb with better strength and precision control using automatic detection of grip methods.
+
+==== DATA
+
+Muscle signals collected from prosthesis users while trying to complete various motions and grips without the prosthetic. 
+
+==== METHODS
+
+Using the provided basic information, the prosthesis users would then attempt the same or similar tasks, this time using the arm. The arm would then monitor the area of contact, and maximise the covered area, adjusting grip strength to ensure it still follows the provided signals.
+
+==== RESULTS
+
+The method proved to be very promising in that it provides more user control and individual adjustment.
+
+==== COMMENTS
+
+A perfect example of machine learning being used to improve the quality of life for people, as oppsed to advertisements and personal gain.

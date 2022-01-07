@@ -1,0 +1,35 @@
+== SOURCE
+
+https://scitechdaily.com/novel-machine-learning-technique-to-identify-structural-similarities-and-trends-in-materials/
+
+== AGENT
+
+Lehigh University
+
+== GOAL
+
+Their goal is to identify structural similarities and trends in material
+
+== DATA
+
+They used set of 25,133 piezoresponse force microscopy images to train their machine.
+
+== METHODS
+
+I think it was RL since they created the algorithm to do another thing and then trained it on the set
+
+== RESULTS
+
+They were able to group similar classes of material together and observe trends, forming a basis by which to start to understand structure-property relationships.
+
+== ISSUES
+
+?
+
+== SCORE
+
+6 can be really useful.
+
+== COMMENTS
+
+The article is technical and gives number, it is a really interesting way to use ML.

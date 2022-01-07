@@ -1,0 +1,18 @@
+== SOURCE
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+== AGENT
+MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) and the Jameel Clinic (for Machine Learning in Health)
+== GOAL
+Identify the right synergistic drug combinations to effectively combat the rapidly spreading SARS-CoV-2 (Covid19).
+== DATA
+The first component of ComboNet learns from data collected from the Chemical Database of European Molecular Biology Laboratory (ChEMBL) and US National Center for Advancing Translational Sciences (NCATS) OpenData portal. The second component of ComboNet is trained on NCATS single-agent SARS-CoV-2 cytopathic effect (CPE) assay data and available drug combination assays.
+== METHODS
+The drug-target predictor (a graph convolutional network (GCN)) models the interaction between a drug and a set of known biological targets that are related to the chosen disease. The target-disease association predictor (a linear function) learns to understand a drug's antiviral activity, which means determining the virus yield in infected tissue cultures. Together, they can predict the synergy of two drugs.
+== RESULTS
+The drug-target predictor (a graph convolutional network (GCN)) models the interaction between a drug and a set of known biological targets that are related to the chosen disease. The target-disease association predictor (a linear function) learns to understand a drug's antiviral activity, which means determining the virus yield in infected tissue cultures. Together, they can predict the synergy of two drugs.
+== ISSUES
+Much medical research has been done in the last 2 years that could have perhaps also been attempted before Covid hit, but the money or right incentives (as well as technology, indeed) weren't always there to study other diseases like HIV or some types of cancers that were not deemed urgent or relevant enough until much later.
+== SCORE
+6
+== COMMENTS
+Authors highlight that: "In contrast to previous approaches using drug-target interaction as fixed descriptors, our method learns to predict drug-target interaction from molecular structures." This is advantageous since a large proportion of compounds have incomplete drug-target interaction information, and this method can work with that in a way others would need more input data to begin with.

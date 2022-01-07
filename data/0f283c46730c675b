@@ -1,0 +1,38 @@
+
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+Points of entry into Greece
+
+== GOAL
+
+Machine learning algorithm to predict the COVID positivity of travellers and test only those instead of testing all the passengers.
+
+== DATA
+
+Data about incoming passengers — their country and region of origin, 
+age and sex — are available digitally, on the passenger locator form that all travellers complete 24 hours before arrival in Greece
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+At a given port of entry on a given day, the algorithm delivers targeted recommendations to border agents about which passengers to test, 
+while respecting the budget and resource constraints imposed by supply chains, staffing, laboratory capacity and delivery logistics for biological samples.
+
+== ISSUES
+Since the results rely on previous batches there could be delay or incorrect prediction due to which a COVID positive passenger may go untested.
+
+
+== SCORE
+9
+
+
+== COMMENTS
+This is a quite impressive innovation. In the time of COVID we have seen huge economic losses everywhere as almost everything was shut down.
+People were stuck in many places due to this.Instead of denying all the passengers from a country entering another this will allow the free
+movement of COVID negative people.This should have been implemented everywhere.
+

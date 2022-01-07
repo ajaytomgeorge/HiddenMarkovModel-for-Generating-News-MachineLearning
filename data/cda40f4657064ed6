@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/09/16/israeli-researchers-unveil-deepsim-a-neural-generative-model-for-conditional-image-manipulation-based-on-a-single-image/
+
+== AGENT
+
+The Hebrew University of Jerusalem
+
+== GOAL
+
+create a Neural Generative Model for Conditional Image Manipulation Based on a Single Image
+
+== DATA
+
+a single image
+
+== METHODS
+
+DeepSIM,Supervised and Unsupervised
+
+== RESULTS
+
+A general purpose approach for training conditional generators, supervised by only a single image-pair.
+
+== ISSUES
+
+One limitation of single-image methods is the requirement for training a separate network for every image.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+Cool to see what an AI can do with only one image
+

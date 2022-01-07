@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://www.nature.com/articles/s41598-019-50635-w#Sec7
+
+==== AGENT
+
+Vaccine Research Center, National Institute of Allergy and Infectious Diseases, National Institutes of Health
+
+==== GOAL
+
+Develop a machine learning algorithm that predicts neuralisation resistance to HIV-1 bNAbs (broadly neutralising antibodies)
+==== DATA
+
+The data was developed using sequence and neutralisation data from 33 HIV-1 bNAbs obtained from the CATNAP database
+
+==== METHODS
+
+They trained the model, named bNAb-Resistance Predictor (bNAb-ReP, using a non-linear predictive modelling technique called gradient boosting machine (GBM). GBM trains classifiers in an additive and sequential manner by adding weak-learners one at a time while minimizing a user-defined loss function. Thsi approach is comparable to deep learning, particularly when large amounts of training data is not available. The researchers used one-hot encoding of full HIV-1 sequences as features and GBM model training was performed using a hyperparameter optimisation procedure to determine optimal GBM parameters for each bNAb classifier. 
+
+==== RESULTS
+
+All classifiers performed significantly better than random prdiction and also better than previous algorithms that have attempted to do the same tests.
+
+==== COMMENTS
+
+

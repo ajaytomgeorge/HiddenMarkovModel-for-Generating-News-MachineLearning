@@ -1,0 +1,52 @@
+SOURCE:
+		https://gallery.azure.ai/Experiment/Breast-cancer-dataset
+AGENT: 
+		Rishit Dagli 
+GOAL:
+		Predicts the type of breast cancer, malignant or benign from the Breast Cancer data set
+DATA: 
+		Breast Cancer Wisconin Dataset. Dataset contains the following concepts:
+		
+1. Sample code number: id number 
+2. Clump Thickness: 1 - 10 
+3. Uniformity of Cell Size: 1 - 10 
+4. Uniformity of Cell Shape: 1 - 10 
+5. Marginal Adhesion: 1 - 10 
+6. Single Epithelial Cell Size: 1 - 10 
+7. Bare Nuclei: 1 - 10 
+8. Bland Chromatin: 1 - 10 
+9. Normal Nucleoli: 1 - 10 
+10. Mitoses: 1 - 10 
+11. Class: (2 for benign, 4 for malignant)
+
+
+METHODS: 
+		After some data preprocessing to extract datas that are used for the training and testing
+		He was using Multi class neural networks for the prediction of type of breast cancer on other parameters, which provides high accuracy.
+		
+		The algorithms used were:
+		1. Neural Network - Hyperparameters tuning 
+		Single parameter trainer mode 
+		fully connected perceptron 
+		200 perceptron 
+		learning rate - 0.001 
+		learning iterations - 200 
+		initial learning weights - 0.1 
+		min-max normalizer 
+		shuffled examples
+		Accuracy - 0.994048
+		
+		2.Multi class random forest - Hyperparameter tuning 
+		Single parameter training mode 
+		Resampling - bagging 
+		Decision trees - 15 
+		Maximum depth - 32 
+		Random splits per node - 128 
+		Minimum samples per leaf node -1
+		Accuracy - 0.988095
+		
+		
+RESULTS: 
+		By using two high accuracy algorithms, the experiment will provide a high accuracy results too.
+COMMENTS:
+		This experiment show how important is the maching learining, it can be used to predict diseases and might safe people's life.

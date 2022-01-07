@@ -1,0 +1,35 @@
+== SOURCE
+
+https://portswigger.net/daily-swig/machine-learning-technique-detects-phishing-sites-based-on-markup-visualization
+
+== AGENT
+
+Security researchers at the University of Plymouth and the University of Portsmouth, UK.
+
+== GOAL
+
+Machine learning models to be trained on the visual representation of website code which can help improve the accuracy and speed of detecting phishing websites.
+
+== DATA
+
+The technique developed by the researchers uses “binary visualization” libraries to transform the markup and code of web pages into images.Using this method, they created a dataset of legitimate and phishing images of websites.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+According to the researchers’ experiments, the model reached 94% accuracy in detecting phishing websites. The system was gradually successful in building up a database of legitimate and phishing websites to avoid excessive and unnecessary inferences.
+
+== ISSUES
+
+As the technique uses HTML scrapping to scrape through websites, there is a possibility that some websites have anti scrapping tools being used which would prevent the computer to go through the web code of that website. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This system will help us to detect fake website. During this era of digitalization, the use of machine learning algorithms in cybersecurity will be helpful in detecting phishing websites giving accurate results at a good speed. Lots of financial frauds take place using these fake websites, this model will put a hold on all those activities.

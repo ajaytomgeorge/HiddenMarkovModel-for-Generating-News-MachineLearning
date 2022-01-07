@@ -1,0 +1,36 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/8894128
+
+== AGENT
+
+Ashir Javeed, Shijie Zhou, Liao Yongjian, Iqbal Qasim, Adeeb Noor, Redhwan Nour.
+
+
+== GOAL
+
+Heart Disease Detection using optimised Random Forest Model and Random Search Algorithm.
+
+== DATA
+
+Experiment Data is extracted by database which is available on machine learning UCI repository that is recognised as Cleveland heart failure
+
+== METHODS
+
+Random Search Algorithm-RSA, Random Forest Model-RF, selection algorithms .
+
+== RESULTS
+
+This experiment has solved the problems of overfitting in predicting heart failure and the hybrid model RSA-RF was able to increase performance of Random Forest Model by 3.3%.
+
+== ISSUES
+
+As the training dataset has only 303 instances, there might be possibility of missing few complicated parameters that leads to heart failure.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Heart failure is one of the identified reason for increasing the death rate especially in aged people and diagnosing it is also a challenging task. With this proposed study, I would recommend to use hybrid algorithm in most popular wearable devices.

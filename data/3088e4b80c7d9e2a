@@ -1,0 +1,40 @@
+==== SOURCE
+
+https://www.researchgate.net/publication/325116934_Image_classification_using_Deep_learning
+
+==== AGENT
+
+M Manoj krishna, M Neelima, M Harshali, M Venu Gopala Rao
+
+KLEF University, India. 
+
+==== GOAL
+
+The image classification is a classical problem of image processing, computer vision and machine learning fields.
+The main goal is to study the image classification using deep learning. 
+We use AlexNet architecture with convolutional neural networks for this purpose. 
+
+
+==== DATA
+
+The data were taken from ImageNet database and the data used for this experiment are in image form.
+The four images are  Sea Anemone, Barometer, Stethoscope and Radio Interferometer. 
+
+==== METHODS
+
+A Convolutional Neural Network is a class of deep neural networks, most commonly applied to analyzing visual imagery. 
+CNNs are regularized versions of multilayer perceptrons. Multilayer perceptrons usually mean fully connected networks,
+that is, each neuron in one layer is connected to all neurons in the next layer. The "fully-connectedness" of these
+networks makes them prone to overfitting data. 
+
+The Convolutional Neural Network is categorized into two types named LeNet and AlexNet.
+AlexNet is used to solve many problems like indoor sense classification which is highly
+seen in artificial neural intelligence. It is a powerful method of knowing the features
+of the image with more differential vision in the computer field for the recognition of patterns.
+
+==== RESULTS
+
+From the experiments, it is observed that the images are classified without any errors even for all the portion of the test images and shows the effectiveness of deep learning algorithm.
+
+==== COMMENTS
+Although this model achieves great accuracy in image classification, its still depends upon the pixel quality of the inout image.

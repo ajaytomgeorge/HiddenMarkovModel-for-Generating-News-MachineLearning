@@ -1,0 +1,26 @@
+== SOURCE
+https://www.news-medical.net/news/20211007/Machine-learning-algorithms-accelerate-the-protein-engineering-process.aspx
+
+== AGENT
+Emily Henderson, News-Medical, reported by Nature Communications
+
+== GOAL
+ML algorithms and how they help in protein engineering
+
+== DATA
+Proteins and their components. 
+
+== METHODS
+Deep learning algorithm was used to look at the target protein and all its homologs to see their corresponding residues. They then combine this information and use the algorithm framework to figure out what kind mutations are important.
+
+== RESULTS
+The algorithm ended up outperforming current methods on several deep mutagenesis datasets.
+
+== ISSUES
+Very complicated article which isn't good for the average reader. 
+
+== SCORE
+4
+
+== COMMENTS
+As mentioned in the issues not a very good article in general for the average reader, overly complicated at that, didn't mention the exact methods of deep learning and the specific data and half the artilcle was quotes and Pharma jargon.

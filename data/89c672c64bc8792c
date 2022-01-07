@@ -1,0 +1,29 @@
+==== SOURCE
+
+https://thenextweb.com/google/2014/10/07/google-introduces-news-weather-app-ios/
+
+==== AGENT
+
+Google LLC
+
+==== GOAL
+
+The goal to provide weather forecasting updates.
+
+==== DATA
+
+Google LLC gets weather information from weather.com and also Google try to make their own station iirc google for real time and accurate data.
+
+==== METHODS
+
+Weather apps usually get their data issued by the state-level meteorological departments or even from the weather nerds and scientists located all over the globe.
+For Europe, weather data is retrieved through MeteoAlarm. There’s another great feature that this most accurate weather app possesses. It’s called the Personal Weather Stations.
+The app gets its weather data directly from these stations to display the most updated weather forecasts. 
+The app uses historical weather data for a particular location and the current weather data and performs several analyses using machine learning techniques to accurately predict weather conditon of a particular area. 
+
+
+==== RESULTS
+
+Google weather is being used by over a billion users worldwide to get instant weather forecasting updates to make an easy living.
+
+==== COMMENTS

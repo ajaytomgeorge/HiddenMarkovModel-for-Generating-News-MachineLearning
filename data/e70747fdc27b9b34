@@ -1,0 +1,37 @@
+== SOURCE
+
+https://blogs.nvidia.com/blog/2019/10/10/machine-learning-digital-humans/
+
+== AGENT
+
+Digital Domain
+
+== GOAL
+
+Creating realistic digital humans
+
+== DATA
+
+Taking thousands of images of a persons face using different angles and lighting stages
+
+== METHODS
+
+Rendered in real time using NVIDIA RTX technology and Unreal Engine, neural networks
+ 
+== RESULTS
+
+Building the technology that allows artists to create the most photorealistic digital humans possible, and it’s all happening in real time
+
+== ISSUES
+
+To recreate photo realistic humans digitaly still requires more computing power, better shaders and software
+
+== SCORE
+
+8
+
+== COMMENTS
+
+It was interesting as real time photo realistic human digital rendering is a new field, because such realistic rendering is only possible by CGI rendering frame by frame
+
+

@@ -1,0 +1,31 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+It was developed by researchers at MIT and the University of California at San Diego (UCSD).
+
+==== GOAL
+
+They were trying to predict incidents of IP hijacking in advance by tracing things back to the hijackers themselves.
+
+==== DATA
+
+They pulled data from several years’ worth of network operator mailing lists, as well as historical BGP data taken every five minutes from the global routing table.
+
+==== METHODS
+
+They observed particular qualities of malicious actors and then trained a machine-learning model to automatically identify such behaviors. These included
+volatile changes in activity, multiple address blocks, and IP addresses in multiple countries. They then trained a machine-learning model to automatically identify such behaviors.
+
+==== RESULTS
+
+They trained their system to be able to identify roughly 800 suspicious networks and found that some of them had been hijacking IP addresses for years. 
+Events that look like IP hijacks can often be the result of human error, or otherwise legitimate. Due to this, they had to manually jump in to identify false positives, 
+which accounted for roughly 20 percent of the cases identified by their classifier.
+
+==== COMMENTS
+
+I could not find a link to the paper in the article. 
+Due to this, I am not sure what the data exactly looked like. 

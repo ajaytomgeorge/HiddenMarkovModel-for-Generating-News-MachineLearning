@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.predictiveanalyticsworld.com/machinelearningtimes/an-algorithm-that-predicts-criminality-based-on-a-face-sparks-a-furor/11470/
+
+== AGENT
+
+Harrisburg University
+
+== GOAL
+
+Using Facial Analysis to predict if an individual would become a criminal someday!
+
+== DATA
+
+Image of Human Face
+
+== METHODS
+
+Supervised Learning (Facial Image Analysis)
+
+== RESULTS
+
+Harrisburg University claimed their model, specifically designed for use by law enforcement, had an accuracy of 80 percent with no racial bias and it would also be published by Springer Nature but, due to the backlash from various researchers, sociologists, historians and ethicists, Springer Nature declined to publish the paper.
+
+== ISSUES
+
+Facial Recognition is not considered reliable by Civil Liberties for the purpose of use by Law Enforcement as the model inherently seems biased. It is less accurate on darker- skinned people. Also the members of Coalition for Critical Technology (CCT) claim that "criminality" itself is racist! Another major factor, that points out the bias in the model, is that humans have been biased about criminality since ages due to which all the prior criminal records being used as the training data are biased as well. A model trained on a biased dataset is bound to be biased as well.
+
+== SCORE
+
+3
+
+== COMMENTS
+
+The idea of predicting criminality in order to help the law enforcement sounds like a great initiative towards the well-being of the society but the implementation of this idea by the team at Harrisburg University does not capture a lot of details that criminality includes within it. Crime cannot be solely based on a human face irrespective of theories such as "criminality traits are transferred by inheritance" or "all criminals have the same facial features".
+I believe to classify an individual as a criminal there are multiple parameters to be accounted for and yet one cannot be a hundred percent sure. Criminality may be impacted by   personality traits, financial background, family background, mental health, awareness, emotional health of an individual. It may also be impacted by the external environment the individual is subjected to such as the location (country/county/village/town), the time of the day, the society, sometimes even the ambient light!
+This model simply does not capture enough data parameters to be able to successfully predict correctly the criminality of an individual. The model was a far fetched idea and the team surely needed to research on the topic thoroughly prior to taking it up as the article states the numerous other times similar models have been tried to be implemented so as to classify humans using facial recognition and neither of them have been published nor approved.

@@ -1,0 +1,39 @@
+== SOURCE
+
+https://news.mit.edu/2020/covid-19-cough-cellphone-detection-1029
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Detect asymptomatic COVID-19 infections through cellphone recorded coughs
+
+== DATA
+
+Voluntarily submitted forced cough recordings
+
+== METHODS
+
+Not mentioned in article
+
+== RESULTS
+
+Accurately identified 98.5% of coughs from people who were confirmed to have COVID-19,
+including 100% of coughs from asymptomatics (did not have symptoms but had tested positive.
+
+== ISSUES
+
+Ethical issues arise regarding false positives and false negatives. If someone actually has COVID-19 but
+this system tells them they don't (false negative) they could potentially infect other people.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The reporting lacks detail about the machine learnign techniques employed.
+This is a cool concept and has already been used to detect other illnesses such as pneumonia.
+It would be interesting to see it applied to other types of illnesses using different biometric data.

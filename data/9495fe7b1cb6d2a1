@@ -1,0 +1,37 @@
+==== SOURCE
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+Researchers at MIT and the University of California. 
+
+==== GOAL
+Their goal was to develop a Machine Learning algorithm to identify suspicous networks, i.e networks that belong to IP
+hijackers.
+With an end goal of reducing the amount IP address hijacks, which in turn prevents theft of cryptocurrency and
+distribution of spam and malware.
+
+==== DATA
+The model was trained on data representing the activity of "serial hijackers", so they could identify common features
+among them.
+The data was pulled from network operating mail lists, historical BGP data sampled at a rate of 5 minutes from the
+global routing table.
+
+==== METHODS
+Using the data, the researchers identified the qualities associated with "malicous actors" and trained a ML model to
+automatically detect these behaviors.
+
+==== RESULTS
+The ML model was able to pick up on:
+Turbulant changes in activity, hacker's address blocks disapear much faster than those of 
+actual networks. 
+Multiple Address Blocks; hackers adveritse a significantly larger amount of network prefixes.
+IPs spread accross multiple countries; the majority of legitamate networks don't have foreign
+IP addresses, this is not the case with malicious netowrks, who have multiple foreign addresses spreading accross
+different countries and continents.
+
+==== COMMENTS
+The article doesn't mention any details regarding what type of machine learning algorithms they used, neural nets, SVMs,
+etc.
+They also neglect to mention any statistics about the data, such as quantity or its type (text, numbers).
+Some information about how the algorithm will be deployed would also have been nice, along with what technologies they
+used (python, Tensorflow, etc)

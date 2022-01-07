@@ -1,0 +1,50 @@
+== SOURCE
+
+https://deepmind.com/blog/article/alphago-zero-starting-scratch
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+AlphaGo Zero.
+An AI that teaches itself the game of Go from scratch with no human intervention.
+
+== DATA
+
+Basic rules of Go.
+
+== METHODS
+
+Novel form of Reinforcement Learning. To begin the system has a neural network that 
+knows nothing about Go. It then plays games agasinst itself by pairing the neural 
+network with a powerful search algorithm. As it plays, the neural network is tuned and 
+updated to predict moves as well as the eventual winner of the games. This updated network
+is recombined with the search algorithm to create a stronger version of the system.
+Then the process begins again. With each iteration the system improves and the quality of 
+the self play games increases. This technique is more powerful than previous versions of AlphaGo
+since it is no longer constrained by the limits of human knowledge.
+
+== RESULTS
+
+3 days - surpasses AlphaGo Lee, the version that beat world champion Go player Lee Sedol in 4/5 games in 2016.
+21 days - reaches level of AlphaGo Master, the version that beat 60 top Go professionals online and the world champion Ke Jie in 3/3 games in 2017.
+40 days - surpasses all other versions of AlphaGo and becomes arguably the best Go player in the world. 
+
+== ISSUES
+
+Takes the oldest board game in the world, designed to test human strategy and ingenuity and make it trivial. 
+Many people have dedicated their lives to mastering the game and they will never be the best.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Super cool that the system started with nothing and then in a matter of days had out done all previous systems. 
+What's more is that this was achieved with only a single neural network (previous systems used two). 
+This was reported in a technical blog post on DeepMind's website so is not sensationalised and seems to stay true
+to the integrity of academic reporting. It would be interesting to see DeepMind apply this technique to train a system
+to play an online multiplayer video game rife with cheaters, such as CSGO, and see if it can out perform them.

@@ -1,0 +1,38 @@
+==== SOURCE
+
+Planning Flexible Maintenance for Heavy Trucks using Machine Learning Models, Constraint Programming, and Route Optimization
+SAE International Journal of Materials and Manufacturing, Vol. 10, No. 3 (July 2017), pp. 306-315
+
+==== AGENT
+
+Jonas Biteus, Tony Lindgren
+
+==== GOAL
+
+Efficient use of vehicles to perform transport tasks to avoid maintanance, delays and income loss
+Have better systems for fleet management.
+
+==== DATA
+
+Three sources:
+-Database with historical operational data which include information based on on-board sensors 
+showing how each truck has been used on average (air pressure, engine load, gear selections, air 
+consumption from Scania trucks)
+-Database containing the configuration of each vehicle that has been used 
+-Information from Scania workshops containing information if components have been replaced or not(Replaced 
+products are assumed faulty)
+
+
+==== METHODS
+
+Used a random forest model to make a multitude of decision trees
+
+==== RESULTS
+
+Using a 'forest' of 500 trees that delivered on better route optimisation, maintanance planning and maintanance assessment.
+This resulted in massive savings for the company in better fleet management
+
+==== COMMENTS
+
+This fleet management system cannot handle any outside unexpected factors such as vehicle accidents or unforseen delays on the road
+or any other unexpected event. A live and adaptable system would be better in this situation.

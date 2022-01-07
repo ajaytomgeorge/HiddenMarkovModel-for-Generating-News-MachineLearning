@@ -1,0 +1,35 @@
+== SOURCE
+
+https://healthitanalytics.com/news/deep-learning-model-could-predict-outcomes-for-hcc-patients
+
+== AGENT
+
+Cleveland Clinic and Owkin
+
+== GOAL
+
+They wanted to be able to predict HCC (hepatocellular carcinoma) patients outcomes after liver transplants.
+
+== DATA
+
+293 whole-slide images stained with haematoxylin/eosin and clinical data from HCC patients who had a liver transplant at Cleveland Clinic
+
+== METHODS
+
+They used Supervised machine learning using the whole-slide images with known patient recurrence levels.
+
+== RESULTS
+
+They gave the deep learning model new slides and its accuracy with predicted recurrence outperformed scoring systems currently being used. The results were comparable to a separate method that incorporated clinical, biological and pathological data.
+
+== ISSUES
+
+The only possible ethical issue I can see is ensuring that the data the model was trained on was scrubbed of identifying patient data or they received permission from the patient for the data to be used in the model. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this was very interesting, I feel that medicine is one of the fields that can benefit hugely from more wide-spread use of machine learning, to help remove human error from diagnoses, to help relieve over-worked health services and to ensure patients can get appropriate care earlier. All articles I saw on this seemed positive and hopeful, with no negative reactions.

@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/viewPaper/17885
+== AGENT
+
+Joni Salminen, Hind Almerekhi, Milica Milenkovi?, Soon-gyo Jung, Jisun An, Haewoon Kwak, Bernard J. Jansen
+
+== GOAL
+
+1) creating a granular taxonomy for hateful online comments that includes both types and targets of hateful comments, and 
+2) experimenting with machine learning, including Logistic Regression, Decision Tree, Random Forest, Adaboost, and Linear SVM, to generate a multiclass, multilabel classification model that automatically detects and categorizes hateful comments in the context of online news media.
+
+== DATA
+
+They used the data from YouTube and Facebook APIs,  pulling 137,098 comments from videos posted on YouTube and Facebook, in the period of July-October, 2017. The commentators are from 175 countries, although here we focus on English comments only. In the dataset, 79,439 (46%) comments are from Facebook, 57,659 (54%) from YouTube.
+
+== METHODS
+
+The models used here are: Logistic Regression, Decision Tree, Random Forest, Adaboost, and Linear Support Vector Machine (SVM).
+Supervised learning was used.
+
+== RESULTS
+
+They found that media and the authorities are highlt targeted amoung the comments from the dataset. In conjunction, we found that surprisingly few comments were targeting other discussants. Most comments focused on outside targets – people were not arguing amongst themselves, but almost in isolation, or jointly at times, toward external targets
+
+== ISSUES
+
+The issue was found that the model could only classify based on the keywords only. Hate comments can come in different formats, some of which could not be detected by this model. For example, the model could detect "I hate you" from the keywords, but may not be able to detect "you are a dog" etc. 
+== SCORE
+
+6
+== COMMENTS
+
+This model is definitely an upgrade to the previous ones as the previous models could not get the best results, but not that much interesting as there are still gaps to be filled. They were able to create a multilabel classifier that checks several sections of online hate. This can be very useful for research purposes on the topic.

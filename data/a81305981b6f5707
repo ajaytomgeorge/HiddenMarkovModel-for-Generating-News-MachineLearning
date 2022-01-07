@@ -1,0 +1,67 @@
+== SOURCE
+
+https://builtin.com/data-science/recommender-systems
+
+== AGENT
+
+BuiltIn Beta
+
+== GOAL
+
+Recommender systems are machine learning systems that help users discover new product and services. Every time you shop online, a recommendation system is guiding you towards the most likely product you might purchase.
+
+Recommender systems are an essential feature in our digital world, as users are often overwhelmed by choice and need help finding what they're looking for. This leads to happier customers and, of course, more sales. Recommender systems are like salesmen who know, based on your history and preferences, what you like.
+
+== DATA
+
+Recommender systems utilize the following kinds of data:
+
+User Behavior Data
+
+Users behavior data is useful information about the engagement of the user on the product. It can be collected from ratings, clicks and purchase history.
+
+User Demographic Data
+
+User demographic information is related to the users personal information such as age, education, income and location.
+
+Product Attribute Data
+
+Product attribute data is information related to the product itself such as genre in case of books, cast in case of movies, cuisine in case of food
+
+== METHODS
+
+RECOMMENDATION THROUGH DESCRIPTION OF THE?CONTENT
+
+This approach uses the description of the item to make recommendations. The description goes deeper into the product details, like title, summary, tag lines, genre, etc., and it provides much more information about the item. The format of these details are in text format(string) and it's important to convert this into numbers to easily calculate for similarity.
+
+Term Frequency-Inverse Document Frequency (TF-IDF)
+
+TF-IDF is used in information retrieval for feature extraction purposes and it is a sub-area of natural language processing (NLP).
+
+Term Frequency Frequency of the word in the current document to the total number of words in the document. It signifies the occurrence of the word in a document and gives higher weight when the frequency is more, so it is divided by document length to normalize.
+
+Inverse Document Frequency Total number of documents to the frequency occurrence of documents containing the word. It signifies the rarity of the word the less the word occurs in the document, the IDF increases. It helps in giving a higher score to rare terms in the documents.
+
+== RESULTS
+
+Recommender systems work behind the scenes on many of the world's most popular websites. E-commerce websites, for example, often use recommender systems to increase user engagement and drive purchases, but suggestions are?highly dependent on the quality and quantity of data which freemium (free service to use/the user is the product) companies already have.
+
+== ISSUES
+
+Privacy Vs Personalized Curation
+
+In George Orwells classic novel?1984, "Big Brother" is a government that scrutinizes each and every move of its citizenry. In today's world, tech companies like Google and Facebook more accurately fill that role. Each company has immense troves of data about millions of users and they harvest it for ad targeting and building things like recommender systems.
+
+Most large tech companies offer their services for free, so you are the product. For example, Facebook is releasing ads on Whatsapp. So, Facebook knows your likes, preferences, bookmarks, followers on Instagram, etc. and they culminate all of that data and target you on Whatsapp.
+
+In the end, less is more, and if consumers feel like a company knows too much about them, they probably do.
+
+Personalized content or services can be an addiction or menace depending on your point of view. It can help us find things we like, but it can also create an unconscious bias among users. Personalization helps us have a better customer user experience, but it's a tradeoff and we need to find a sweet spot between privacy and personalization .
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It is a cool feature but we have got to make a trade between privacy and personalization, which is to some extend rude to users rights.

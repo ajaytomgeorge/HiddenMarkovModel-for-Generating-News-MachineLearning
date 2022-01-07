@@ -1,0 +1,27 @@
+==Source
+https://www.news-medical.net/news/20211006/Machine-learning-and-high-powered-microscopes-provide-detailed-snapshots-of-cells-inner-machinery.aspx
+
+==Agent
+Howard Hughes Medical Institute.
+
+==Goal
+Using machine learning to process the data and revisiting the canonical view of a cell.
+
+==Data
+Janelia scientist, also released data portal, OpenOrganelle, where you can access the data sets and tools they have created.
+
+==Methods
+Saalfeld and Heinrich's segmentation algorithm and COSEM(Cell Organelle Segmentation in Electron Microscopy) algorithm, 
+Supervised Learning.
+
+==Results
+Resolving power of the FIB-SEM imaging was amazing, and they were able to see things at a level they couldn't have imagined, 
+that how different organelles and structures are arranged relative to each other – how they're touching and contacting each other, 
+how much space they occupy.
+
+==Score
+9
+
+==Comments
+It was interesting new way of using existing data and methods, with that data they built algorithms that incorporate prior 
+knowledge about organelles' characteristics. 

@@ -1,0 +1,19 @@
+== SOURCE
+https://www-techexplorist-com.cdn.ampproject.org/c/s/www.techexplorist.com/using-ai-scientists-developed-device-detect-autism/41062/?amp
+== AGENT
+University of Geneva
+== GOAL
+Detect autism in young children using AI
+== DATA
+Using OpenPose they extracted skeletons to track the non-verbal communication of 136 children under 5 with and without Autism. The use of OpenPose to create a skeleton removes all characteristics that could be discriminating.
+== METHODS
+“The AI sifted through videos of children playing freely with an adult. There is no pre-established scenario. It is a matter of analysing the children’s non-verbal behaviour freely while providing them with various objects that will make it possible to determine the presence or absence of an autistic disorder.”
+This was a unsupervised algorithm.
+== RESULTS
+The results were that the AI makes an accurate autism classification in more than 80% of cases. This means that within a 10-minute test from anywhere in the world a parent can decide whether or not a first screening with a medical professional is necessary for their child.
+== ISSUES
+An ethical issue would arise if the machine was capable of handing out official diagnosis for autism but because it is just a precursory test, I don't think this will do any harm and will aid in the difficult diagnosis process of nonverbal children.
+== SCORE
+9
+== COMMENTS
+I thought this was a fantastic article and will massively help those in developing countries beginning the route to accessing medical diagnosis that isn't available to them.

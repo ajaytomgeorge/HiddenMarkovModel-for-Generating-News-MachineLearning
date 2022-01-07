@@ -1,0 +1,111 @@
+﻿
+
+1. http://news.mit.edu/2015/visual-microphone-identifies-structural-defects-0521
+
+
+Research group at MIT, 2015
+
+The group were trying to see if they could train a computer to gauge the properties of a 
+material, such as stiffness and weight from visual information alone. 
+	
+This technique could have application in the field of nondestructive testing or determining a 
+material's physical properties without extracting samples or subjecting the material to damaging
+physical tests.
+	 
+How did they achieve this? The group blasted materials with a range of frequncies from a 
+nearby loudspeaker and recorded the resulting vibrations with a high-speed camera. They applied this
+technique to two different types of objects. One was galss rods of fiberglass, wood and metal; the
+other, fabrics draped over line. 
+	
+They then used machine learning to find correlations between those vibrational patterns and 
+the measurements of the objects' material properties. These correlations provided good estimates for
+properties such as stiffness and weight of the objects.
+
+2. https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii
+
+DeepMind (Google), 2019
+
+After tackling chess DeepMind moved onto something more modern, the popular RTS and esport 
+Starcraft 2. The challenge of Starcraft 2 lies in the macro-management of the economy and the micro-
+management of individual units. Players need to balance short and long-term goals and adapt to
+unexpected situations. The AI's name is AlphaStar.
+	
+How was AlphaStar trained? AlphaStar also uses a novel multi-agent learning algorithm. 
+The neural network was initially trained by supervised learning from anonymised human games released 
+by Blizzard. This allowed AlphaStar to learn, by imitation, the basic micro and macro-strategies used
+by players on the StarCraft ladder. This initial agent defeated the built-in “Elite” level AI - 
+around gold level for a human player - in 95% of games.
+	
+This resulted in AlphaStar beating on of the world's best players 5-0.
+
+3. https://news.developer.nvidia.com/new-ai-technique-helps-robots-work-alongside-humans/
+
+NVIDIA researchers, 2018
+
+I can think of 3 typical approaches to teaching robots to do something, but all take a lot of time/labor:
+
+	1. Manually program the robot’s joint rotations etc. for each situation
+
+	2. Let the robot try the task many, many times (reinforcement learning)
+	
+	3. Demonstrate a task to the robot many, many times
+
+Typically, one major criticism of deep learning is that it’s very costly to produce the millions of examples (data) that make the computer perform well. But increasingly, there are ways to not rely on such costly data.
+
+The researchers figured out a way for a robot arm to successfully perform a task (such as “pick up 
+the blocks and stack them so that they are in the order: red block, blue block, orange block”) based 
+on a single video of a single human demonstration (a physical real human hand moving the blocks), 
+even if the video was shot from a different angle. The algorithm actually generates a human-readable 
+description of the task it plans to do, which is great for troubleshooting. The algorithm relies on 
+object detection with pose estimation, synthetic training data generation, and simulation-to-reality 
+transfer.
+
+4. https://engineering.fb.com/ai-research/unsupervised-machine-translation-a-novel-approach-to-provide-fast-accurate-translations-for-more-languages/
+
+Facebook AI Research, 2018
+
+Typically, you would need a huge training dataset of translated documents (e.g. professional 
+translations of United Nations proceedings) to do machine translation well (i.e. supervised learning).
+Of course, many topics and language pairs don’t have high-quality, plentiful training data. In this 
+paper, researchers showed that it’s possible to use unsupervised learning (i.e. using no translation 
+data and just using unrelated corpuses of text in each language), it’s possible to reach the 
+translation quality of state-of-the-art supervised learning approaches. Wow.
+
+The basic idea is that, in any language, certain words/concepts will tend to appear in close 
+proximity (e.g. “furry” and “cat”). They describe this as “embeddings of words in different languages
+share similar neighborhood structure.” I mean, OK, I get the idea, but it’s still mind-blowing that 
+using this approach they can reach such high translation quality without training on translation 
+datasets.
+
+5. https://www.youtube.com/watch?v=kSLJriaOumA
+
+NVIDIA Researchers, 2018
+
+The researchers combined a new architecture with tons of GPUs to create extremely photo-realistic 
+artificial faces that are interpolations between other faces or applications of the “style” of one 
+face to another face. The work builds upon past work on Generative Adversarial Networks (GANs). 
+GANs were invented in 2014 and have seen an explosion in research since then. The most basic concept 
+of GANs is two neural networks dueling against each other (e.g. one that classifies images as “real” 
+or “fake” and a second neural network that generates images in a way that attempts to “trick” the 
+first neural network into wrongly classifying fake images as real…hence the second neural network is 
+an “adversary” to the first).
+
+In general, there is a lot of awesome research about adversarial machine learning, which has been 
+around for more than a decade. There are many creepy implications for cybersecurity etc. But I 
+digress.
+
+6. https://www.youtube.com/watch?v=PCBTZh41Ris
+
+UC Berkeley Researchers, 2018
+
+Think “Auto-Tune for dancing.” Using pose estimation and generative adversarial training, the 
+researchers were able to make a fake video of any real person (the “target” person) dancing with 
+great dance skills. The required input was only:
+
+	1. a short video of someone with great dance skills dancing
+	
+	2. a few minutes of video of the target person dancing (typically poorly since most people 
+	suck at dancing).
+
+
+

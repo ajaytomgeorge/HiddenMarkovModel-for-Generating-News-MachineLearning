@@ -1,0 +1,32 @@
+﻿==== SOURCE
+
+ ==== https://www.ucsf.edu/news/2019/01/412946/artificial-intelligence-can-detect-alzheimers-disease-brain-scans-six-years
+
+
+
+==== AGENT ==== Jae Ho Sohn ,MD, MS 
+
+Who did the machine learning? 
+
+
+
+==== GOAL ==== Detect the onset of Alzheimer’s  years before clinical diagnosis can be made.
+
+
+
+
+==== DATA
+
+ ==== Images of from the Alzheimer’s disease neuroimaging initiatice which is a public dataset of PET scans from patients who were diagnosed with Alzheimer’s  disease, mild cognitive impairment or no disorder at all. 
+
+==== METHODS ==== 
+
+The machine was trained from the images fed into it. The machine then began to learn which features were most important for predicting the diagnoses and which were not. Once the algorithm was trained on 1,921 scans, the scientists tested it on two individual datasets to evaluate its performance. 188 Images were used from the Alzheimer’s  disease neuroimaging initiatice database but were withheld during the training phase. The second was a set of 40 patients presented to the UCSF Memory and Aging Center with i possibility of cognitive impairments.
+
+==== RESULTS
+
+ ====  The model correctly matched 92% of patients who developed Alzheimer's disease in the first set,  and 98% in the second. The model also predicted the correct diagnosis on average 75 months before the patient received their final diagnosis.
+
+==== COMMENTS
+
+ ==== Gives good confidence in future diagnosis which may help delay the onset of symptoms. Extremely small sample sizes, would be nice to see larger datasets for a more accurate answer however good an interesting result has been shown here. 

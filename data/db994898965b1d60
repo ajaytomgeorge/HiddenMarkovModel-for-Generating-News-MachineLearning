@@ -1,0 +1,18 @@
+== SOURCE
+https://wccftech.com/amd-microsoft-bring-tensorflow-directml-to-life-4x-improvement-with-rdna-2-gpus/
+== AGENT
+AMD & Microsoft
+== GOAL
+Is to increase the performance of a GPU to an initial 3.7x improvement on inference performance and up to 4.4x improvement on overall AI Benchmark Alpha scores.
+== DATA
+TensorFlow-DirectML, one of the accessible machine learning (ML) tools that are designed to work across a broad spectrum of hardware, specifically GPUs, has been released for Windows PCs in conjunction with AMD RDNA 2 technology.
+== METHODS
+TensorFlow-DirectML
+== RESULTS
+Initial 3.7x improvement on inference performance and up to 4.4x improvement
+== ISSUES
+No issues, since this improvement is very drastic on AMD hardware and is a good way for AMD card to come out superior than NVIDIA 
+== SCORE
+8/10
+== COMMENTS
+

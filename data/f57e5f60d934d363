@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.thepanoply.com/case-studies/developing-an-ai-football-coach-on-amazons-alexa/
+
+== AGENT
+
+Greenshoot labs
+
+== GOAL
+
+Provide English football with the first ever, free, AI football coach.
+
+== DATA
+
+Learns match by match, using the data it gathers to become even better. 
+
+== METHODS
+
+Coupling natural language processing with model-based artificial intelligence
+
+== RESULTS
+
+1 - 1 Draw
+
+== ISSUES
+
+Requires many matches to become good, nowhere near good enough to coach team fulltime.
+previously unseen tactics could cause problems.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Cool application of AI, was used as a showcase of AI, rather than actual coach
+appointment, in that cause I wouldn't change anything. Fair amount of press 
+coverage for a lower league club, nothing too indepth though.

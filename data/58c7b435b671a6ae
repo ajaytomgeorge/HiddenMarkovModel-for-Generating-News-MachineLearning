@@ -1,0 +1,30 @@
+==== SOURCE
+
+https://engineeringblog.yelp.com/2015/10/how-we-use-deep-learning-to-classify-business-photos-at-yelp.html
+
+Wei-Hong C., Software Engineer 
+Oct 19, 2015
+
+==== AGENT
+
+Yelp
+
+==== GOAL
+
+Classification of photos. Identify if photo is of the outside or inside or food etc. Matching photos to the correct menu itmes provided by buinesses.
+
+==== DATA
+
+The data collected eas from users uploading images for their reviews.
+
+==== METHODS
+
+They used photo captions to make intial labels. Had questions such as "is this a storefront?" when uploading photos to make it more accurate.
+They also used crowd sourcing to correct guesses as to the labels.
+Once the data was labeled they used convoluntional neurla networks to recognise those classes.
+
+==== RESULTS
+
+The results allow Yelp to categorise the photos so that the user can not just see the most appetising food but get a sense of the loaction and atmosphere
+
+==== COMMENTS

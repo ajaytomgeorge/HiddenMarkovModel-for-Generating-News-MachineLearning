@@ -1,0 +1,21 @@
+==== SOURCE
+https://www.sciencedirect.com/science/article/pii/S0360301619335539
+
+==== AGENT
+JiaqiLiMS, LeWangPhD, XileZhangMS, LuLiuMS, JunLiPhD, Maria F.ChanPhD , JingSuiPhD , RuijieYangPhD. A group of researchers from Peking University.
+
+==== GOAL
+The researches wanted to assess the accuracy of machine learning to predict and classify quality assurance from volumetric modulate arc therapy plans.
+
+==== DATA
+The data was from three hundred VMAT plans which included 176 gynecologic cancer and 127 head and neck cancer plans. 54 complexity metrics were extracted from the plans and considered as inputs.
+
+==== METHODS
+The used Poisson Lasso regression model, which was to predict individual GPR, and random forest classification model to classify QA as pass or fail response. Technical validation and clinical validation were used to assess the reliability of the model.
+
+
+==== RESULTS
+The Poisson Lasso model could accurately predict GPR for most of the VMAT plans. The Random forest model with 100% sensitivity was preferred for the QA results.
+
+==== COMMENTS
+Although, this is just a testing of a model, but the reliability was evident. It is clear that the model was able to give a better opinion for cancer treatment plans for specific patients. This is an article on how machine-learning could be used in the medical area for future use. I think this is a big step towards treating cancer permanently, as trials could be performed with machine-learning models to find the best result for a type of cancer. Sadly, we first need to have a lot of data.

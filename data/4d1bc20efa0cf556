@@ -1,0 +1,25 @@
+==== SOURCE
+
+https://techxplore.com/news/2019-09-people-age-convolutional-neural-networks.html
+
+==== AGENT
+
+researchers at the University of Kwazulu-Natal, South Africa
+
+==== GOAL
+
+To develope a machine learning-based model to estimate people's age by analyzing images of their faces taken in random real-life environments
+
+==== DATA
+
+ large dataset called IMDB-WIKI, which contains over a half-million images of faces taken from IMDB and Wikipedia
+
+==== METHODS
+trained the neural network using a dataset of facial images and correponding ages, this was then tuned usig two other databases used to pick up peculiarities and differences.
+
+==== RESULTS
+The proposed age classification method is an improvement in accuracy of 8.6 percent (exact) and 3.4 percent (one-off) over the best-reported result on the OUI-Adience dataset
+
+==== COMMENTS
+
+Could be useful for passport control software to confirm DOB of the passport holder. Also in cctv/camera systems to create an age profile of those visiting a certain place/ marketplace to help with marketing purposes atc.

@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://bernardmarr.com/default.asp?contentID=1950
+
+==== AGENT
+
+Kush Varshney with IBM
+
+==== GOAL
+
+to try and predict the spread of hate speech online
+
+==== DATA
+
+They used around 15 million user generated tweets which totaled 50 million tweets and 300000 reddit posts containing hate speech that government agenicies and NGOS considered hate speech. 
+
+==== METHODS
+
+a correalation was drawn using machine learning between the number of hate speech messages appearing online and a number of real world incidents such as the 2016 Orlando nightclub shooting, the istanbul airport attack. this was probably using an unsupervised learning algorithm.
+
+==== RESULTS
+
+the study found that following high-profile incidents of both islamaphobic or Islamic exteremist violence, the amount of online hate speech did increase. one of the more noteworthy findings were that it wasnt just Muslims who faced increased hate speech but other minority groups aswell.
+
+==== COMMENTS
+it seems common sense to me that hate speech would be increased with the occurances of attacks across all groups of people. but its interesting to see that it also incites violence and hate speech with other groups.

@@ -1,0 +1,60 @@
+== SOURCE
+
+https://deepmind.com/research/case-studies/alphago-the-story-so-far
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+Go is known as the most challenging classical game for artificial intelligence because of its complexity. 
+Despite decades of work, the strongest Go computer programs could only play at the level of human amateurs. 
+Standard AI methods, which test all possible moves and positions using a search tree, 
+can’t handle the sheer number of possible Go moves or evaluate the strength of each possible board position.
+
+== DATA
+
+They created AlphaGo, a computer program that combines advanced search tree with deep neural networks. 
+These neural networks take a description of the Go board as an input and 
+process it through a number of different network layers containing millions of neuron-like connections. 
+One neural network, the “policy network”, selects the next move to play. 
+The other neural network, the “value network”, predicts the winner of the game. 
+They introduced AlphaGo to numerous amateur games to help it develop an understanding of reasonable human play. 
+Then they had it play against different versions of itself thousands of times, each time learning from its mistakes.
+
+== METHODS
+
+Monte Carlo tree search algorithm
+
+In computer science, Monte Carlo tree search (MCTS) is a heuristic search algorithm for some kinds of decision processes,
+most notably those employed in software that plays board games. 
+In that context MCTS is used to solve the game tree. 
+MCTS was combined with neural networks in 2016 for computer Go. 
+It has been used in other board games like chess and shogi, games with incomplete information such as bridge
+ and poker, as well as in turn-based-strategy video games. 
+MCTS has also been used in self-driving cars, for example in Tesla's Autopilot software.
+
+== RESULTS
+
+AlphaGo took on and defeated one of the world’s top Go players, the legendary Lee Sedol, 
+in a feat that experts agreed was a decade ahead of its time.
+
+== ISSUES
+
+Ethical issue of impact on human values. 
+It is an examination of moral principles that would undoubtedly be shifted with 
+the introduction of radically life-altering technology.
+ This technology is based on informatics which has implications for various decision-making processes, 
+which are independent of human input; therefore, devaluing human responsibility (Palm & Hansson, 2005).
+
+== SCORE
+
+8
+
+== COMMENTS
+
+AlphaGo showed the definition of ‘mind-blowing’ play today. When human artists start drawing landscapes, 
+they keep drawing landscape no matter what happens during the process. 
+However, AlphaGo can quickly switch from landscape to portrait. 
+Similarly, human players have their own style of Go plays. However, AlphaGo has no fixed style and is so flexible.

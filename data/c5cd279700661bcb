@@ -1,0 +1,35 @@
+== SOURCE
+
+https://towardsdatascience.com/teslas-deep-learning-at-scale-7eed85b235d3
+
+== AGENT
+
+Tesla
+
+== GOAL
+
+Object Detection for autonomous vehicals
+
+== DATA
+
+Collected data from their 500,000 cars on the road, Each wrong decsion is saved and added to the training set for future 
+
+== METHODS
+
+Trained from a dataset, RL 
+
+== RESULTS
+
+Tesla are the industry leaders in object detection
+
+== ISSUES
+
+Each improvment comes from a mistake made
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This is an interesting example as mistakes to better the system in the future as humans do 

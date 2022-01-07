@@ -1,0 +1,33 @@
+== SOURCE
+https://www.theverge.com/2018/7/26/17619382/ibms-watson-cancer-ai-healthcare-science
+
+== AGENT
+ IBM’s “Watson for Oncology”
+
+== GOAL
+diagnose and treat and ill patients.
+
+== DATA
+symptoms and treatments for a range of illnesses.
+
+== METHODS
+the system contained knowledge and symptoms of every illness, from common cold to rare disease. 
+It collected a patient's symptomns to assess if they had an illness, and to identify it. The database was also full of
+treatment methods for a particular disease.
+
+== RESULTS
+the project was scrapped following several serious problems. The AI's performance of diagnosing patients
+was significantly worse than that of standard doctors. It sometimes also gave bad, even dangerous, recommendations
+for treating patients, in one instance, suggesting a woman who was already bleeding badly, to take treatment that would 
+have caused her to bleed even worse.
+
+== ISSUES
+The AI based its calulations and predictions on hypothetical patients, rather than real ones. When put into action,
+the hypothetical cases diverged greatly from the real cases, resulting in poor performance, and a $62 million hole in the ground.
+
+== SCORE
+1
+
+== COMMENTS
+for what seemed like a hopeful and life saving instrument, the Watson AI only highlighted the difficulty in bringing AI into the
+clinic, where it was hopelessly outmatched by trained doctors knowledge and experience.

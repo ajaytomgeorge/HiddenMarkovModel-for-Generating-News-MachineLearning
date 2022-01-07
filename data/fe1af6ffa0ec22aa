@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.brookings.edu/research/using-ai-and-machine-learning-to-reduce-government-fraud/
+
+== AGENT
+
+The Brookings Institution’s Artificial Intelligence and Emerging Technology (AIET)
+
+== GOAL
+
+Use AI for financial management and fraud detection
+
+== DATA
+
+The data consisted of abnormalities and outliers
+
+== METHODS
+
+The AI is trained on the data and can be checked again by humans to confirm that the system is right
+
+== RESULTS
+
+The AI was able to identify issues relating to fraud, these AI systems are being used primarily in the private sector
+Other places like banks, hospital, educational institutes and more are using these systems to check that the proper 
+procedures are being followed by staff and clients
+
+== ISSUES
+
+if the system is being used alongside a human it may not be used properly and could end up missing certain cases that
+could have fraud
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This system is being used for fraud identification. The report doesn't go into much information of the type of
+network that was used and the data used to train the network. It does go into info on how the network could be used 
+for fraud detection and how it could be improved.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://phys.org/news/2021-09-soybean-corn-yields-machine.html
+
+== AGENT
+
+Penn State's College of Agricultural Sciences
+
+== GOAL
+
+To increase crop yield without massive cropland area expansion.
+
+== DATA
+
+Two databases including yield, management, and weather data for maize (n = 17,013) and soybean (n = 24,848), obtained from DAYMET.
+
+== METHODS
+
+Categorical variables were one-hot encoded and then databases were separated in training (80% of database) and testing (20% of database) datasets. For each crop, an extreme gradient boosting (XGBoost) algorithm34 was trained to predict final yield.
+
+== RESULTS
+
+The results suggest that the developed algorithms can accurately estimate maize and soybean yields utilizing database-generated information involving reported environmental, seed genetic, and crop management variables.
+
+== ISSUES
+
+The study was conducted on only maize and soybean crops, some variables weren't accounted for such as pesticides and fertilizers used.
+
+== SCORE
+
+4
+
+== COMMENTS
+
+The article relates the study to climate change however the study only mentions it as a motive and the network doesn't account for it.

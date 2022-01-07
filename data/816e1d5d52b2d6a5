@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.media.uzh.ch/en/Press-Releases/2021/Drone-in-the-wild.html
+
+== AGENT
+
+Who did this machine-learning-related work (e.g., Netflix)
+
+== GOAL
+
+autonomously fly quadrotors through unknown, complex environments
+
+== DATA
+
+simulated data of drones through unknown, complex environments
+
+== METHODS
+
+an algorithm that flew a computer-generated drone through a simulated environment full of complex obstacles
+
+== RESULTS
+
+the system was tested in the real world where it was able to fly in a variety of environments without collisions at speeds of up to 40 km/h
+
+== ISSUES
+
+does not mention if this can be done during the night
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Drones are cool and this can be used for autonomous cars also

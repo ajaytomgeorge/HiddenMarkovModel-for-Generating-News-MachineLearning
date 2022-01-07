@@ -1,0 +1,46 @@
+== SOURCE
+
+https://neurosciencenews.com/ai-epigenetics-schizophrenia-blood-19047/
+
+== AGENT
+
+Baylor College of Medicine
+
+== GOAL
+
+To Predict Risk of Schizophrenia Using a Blood Test using machine learning
+
+== DATA
+
+DNA methylation data on whole blood of 414 SZ cases and 433 non-psychiatric controls were used as training data for a classification algorithm with built-in feature selection.
+Using the first two SPLS-DA dimensions they calculated a “risk distance” to identify individuals with the highest probability of SZ. 
+The model used was then evaluated on an independent data set on 353 SZ cases and 322 non-psychiatric controls.
+
+== METHODS
+
+The strategy applied a machine learning algorithm called SPLS-DA to analyze specific regions of the human genome called CoRSIVs, 
+hoping to reveal epigenetic markers for the condition. 
+
+== RESULTS
+
+Researchers applied machine learning to analyze the CoRSIVs region of the human genome to identify the schizophrenia biomarkers.
+Testing the model with an independent data set revealed the AI technology can detect schizophrenia with 80% accuracy.
+
+Their CoRSIV-based model classified 303 individuals as cases with a positive predictive value (PPV) of 80%, far surpassing the performance of a model based on polygenic risk score (PRS). 
+Risk distance (based on CoRSIV methylation) was not associated with medication use, arguing against reverse causality.
+
+"Our findings are very exciting. They not only suggest the possibility of predicting risk of schizophrenia early in life, but also outline a new approach that may be applicable to other diseases."
+
+== ISSUES
+
+I had no issues with the news article, it was inspiring and I had no real issues with the idea.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found this news article to be inspring to what machine learning can bring to the world of medicine and health.
+The posibility of predicting schizophrenia wouldn't have been a possibility without machine learning.
+I hope this can be applied to much wide spread and fatal diseases like Cancer.

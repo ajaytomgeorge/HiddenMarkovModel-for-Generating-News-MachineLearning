@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.technologyreview.com/2021/10/05/1036519/facebook-whistleblower-frances-haugen-algorithms/
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+Create targetted ads and offer relevant content.
+
+== DATA
+
+User data including logs of their activity.
+
+== METHODS
+
+Supervised machine learning. Fed user data and then makes sugestions on what the user might like
+
+== RESULTS
+
+Without knowing any of the user specific data, it can correctly guess the age, gender, and backround of any user based solely off their interests.
+
+== ISSUES
+
+Apart from the obvious issue of privacy. Their algorithm can tell so much about the user. This can (and has) been used to manipulate voters for elections. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The article was less focused on a new technology, but more so highlights how dangerous machine learning can be. It can be a great tool and do so many good things, but this can be used to massively influence thought. The article plainly shows how much power facebook has, and how its algorithm has lead to so many divides in global society. It's a long but really interesting look into the ethics of large scale data collection, and automated recommendation.

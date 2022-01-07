@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://instagram-engineering.com/emojineering-part-1-machine-learning-for-emoji-trendsmachine-learning-for-emoji-trends-7f5f9cb979ad#.aevw6iz16
+
+==== AGENT
+
+Instagram.
+
+==== GOAL
+
+Auto suggesting emojis to steadily replace slang.
+
+==== DATA
+
+Gathered from its users' usage of emojis and their related keywords.
+
+==== METHODS
+
+Uses Natural Langauge Processing (NLP) to 'learn an emoji representation' and provide it to the user if they enter a keyword i.e. 'dog' keyword providing 'dog' emoji and other relatedemojis alike a 'dog lead' or a 'bone'. Models are trained so that words generally used in a smiliar context are group together and emojis are then provided that represent said topic.
+
+==== RESULTS
+
+Emoji(s) are more acurately recommended to Instragram users based on the context of the word(s) they enter.
+
+==== COMMENTS
+
+Conisdering emojis are a universal method of expression in languages it is a a neat feature for the heavy users of social media.

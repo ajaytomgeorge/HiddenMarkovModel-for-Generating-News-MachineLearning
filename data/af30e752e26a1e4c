@@ -1,0 +1,36 @@
+==== SOURCE
+
+https://techxplore.com/news/2020-01-google-ai-surpass-human-experts.html
+
+==== AGENT
+
+Google AI 
+
+==== GOAL
+
+What were they trying to do?
+The goal of Google AI (trained with Machine Learning), is to identify breast cancer more accurately than radiologists. About 1 in 8 women in the U.S. will develop breast cancer in their lifetime. This type of research is very important in reducing the growth of breast cancer in a cancer victim.
+
+==== DATA
+
+Where did they get their data? 
+The data was acquired by using digital mammograms (X-ray images) from 76,000 women in the U.K. and more than 15,000 women in the U.S (According to Google Health).
+
+What did it look like?
+The results of the data "exceeded expectations" and gave an option to reduce human workload by using the Google AI model.
+
+==== METHODS
+
+What did they actually do?
+The researchers fed the data through a model around 100 thousand times. This model then improved itself over the iterations. It also uses less data than a radiologists would require to detect breast cancer, the AI only requires the anonymized mammogram and provides a better accuracy in spotting breast cancer.
+
+==== RESULTS
+
+How did it go for them?
+The results were impressive to them, it produced 1.2% reduction in the UK and 5.7% reduction in the US. It was able to reduce the false negatives by 2.7% in the UK and 9.4% in the US. This improvement in accuracy is crucial in the next steps of technology and AI, allowing us to help many more people and saving a lot of effort from our radiologists.
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+Include things about the deficiency of the story as written if you’re feeling snarky.
+
+I feel like this article is really interesting, something I would love to do if I took a machine learning and AI path. It allows us to progress in our medical technologies and helps us prevent cancer easier than ever. Could you imagine walking into a booth in a shopping center and it could provide a cancer reading for you? Although we are not quite there yet, this type of technology is the future.

@@ -1,0 +1,37 @@
+
+== SOURCE
+
+https://healthitanalytics.com/news/deep-learning-model-could-predict-outcomes-for-hcc-patients
+
+== AGENT
+
+Cleveland Clinic researchers with Owkin
+
+== GOAL
+
+Devlope and validate a deep learning model to predict survival and outcomes for hepatocellular carcinoma patients after liver transplants
+
+== DATA
+
+293 whole-slide images and clinical data from HCC patients wh had a liver transplant
+
+== METHODS
+
+Deep learning model trained on histopathology data
+
+== RESULTS
+
+Findings show that the deep learning model predicted recurrence among transplant patients
+
+== ISSUES
+
+Fairly small sample of images all from the same clinic
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think this was interesting, its good to see ML algorithms being used in the medical space to try to midicate the guess work and risk for patients and clinicians. 
+

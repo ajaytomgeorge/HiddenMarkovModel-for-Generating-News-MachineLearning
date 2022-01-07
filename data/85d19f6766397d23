@@ -1,0 +1,28 @@
+==== SOURCE
+https://phys.org/news/2019-09-machine-metamaterial-energy-harvesting.html
+==== AGENT
+Electrical engineers at Duke University
+==== GOAL
+Harness the power of machine learning to design dielectric (non-metal) metamaterials that 
+absorb and emit specific frequencies of terahertz radiation.
+==== DATA
+Adjusting the height, radius and spacing of each of the four cylinders changes the frequencies of 
+light the metamaterial interacts with.
+Calculating these interactions for an identical set of cylinders is a straightforward process that 
+can be done by commercial software. But working out the inverse problem of which geometries will 
+produce a desired set of properties is a much more difficult proposition.
+Because each cylinder creates an electromagnetic field that extends beyond its physical boundaries, 
+they interact with one another in an unpredictable, nonlinear way.
+==== METHODS
+The network takes 24 inputs—the height, radius and radius-to-height ratio of each cylinder—assigns 
+random weights and biases throughout its calculations, and spits out a prediction of what the 
+metamaterial's frequency response spectrum will look like. To maximize the accuracy of the machine 
+learning algorithm, the researchers trained it with 18,000 individual simulations of the 
+metamaterial's geometry. While this may sound like a large number, it actually represents just 
+0.0022 percent of all the possible configurations. After training, the neural network can produce 
+highly accurate predictions in just a fraction of a second.
+==== RESULTS
+The researchers then tested their new system to make sure it worked. They hand drew several 
+frequency response graphs and asked the algorithm to pick the metamaterial setup that would 
+best produce each one. They then ran the answers produced through the commercial simulation 
+software to see if they matched up well. They did.

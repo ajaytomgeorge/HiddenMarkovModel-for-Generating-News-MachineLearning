@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.irishtimes.com/business/technology/ai-is-learning-how-to-trump-purveyors-of-fake-news-1.3489139
+
+== AGENT
+
+Aylien
+
+== GOAL
+
+To classify the attitude of a journalist as ‘for’, ‘against’, or ‘neutral’ towards the person, place or thing they are writing about.
+
+== DATA
+
+online news stories and social media posts.
+
+== METHODS
+
+They used a hybrid of both called semi-supervised learning. They had tens of thousands of clearly annotated examples 
+but then they got hundreds of thousands of additional reviews from various websites and those reviews will have star ratings, 
+for example a review alongside three out of five stars, that act as weak supervision.
+
+== RESULTS
+
+They met there goal and there feature could successfully classify the attitude of a journalist 
+as ‘for’, ‘against’, or ‘neutral’ towards the person, place or thing they are writing about.
+
+== ISSUES
+
+There could definitely be some ethical issues with this as seen before with The Cambridge Analytica scandal which has alerted us to the value 
+of the information we post on social media platforms and what can happen when that information is abused. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found this very interesting as I remember the cambridge analytical scandal and always wondered if anyone else was using this kind of technology 
+for good uses rather than bad. The article was quite intresting and had a lot of information on it however it had no link to any paper or any firther reading
+on the specific topic other than a link to the company who created it which was quite dissappointing. 

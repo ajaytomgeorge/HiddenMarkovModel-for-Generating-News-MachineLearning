@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://timesofmalta.com/articles/view/using-ai-and-machine-learning-to-fight-money-laundering.741081
+
+==== AGENT
+
+ComplyRadar
+
+==== GOAL
+
+The goal is to utilise machine learning to prevent money laundering and other prominant forms of financial
+cybercrime. 
+
+==== DATA
+
+The data being analysed is uncategorised data in the form of users accounts and the regular
+activity of these accounts, along with the transactions made. 
+
+==== METHODS
+
+ComplyRadar monitors transactions by analysing individuals, accounts, and entities in order to detect suspicious
+activity. It's machine learning transaction filter provides an additional probabilistic layer on top of the
+standard rules engine currently used. 
+
+==== RESULTS
+
+This is drastically reducing false positives while detecting fraudulant behaviour, and also provides additional
+data output which would not be stored by the standard rules engine. 
+
+==== COMMENTS
+
+By continously monitoring account activity and transactions, their system will learn to consistantly detect patterns
+fraudulant activity, although it seems extremely important that this would be very consistant before release.

@@ -1,0 +1,41 @@
+== SOURCE
+
+https://arxiv.org/pdf/1505.04771.pdf
+
+== AGENT
+
+Aalto + Helsinki University
+
+== GOAL
+
+Uses AI to create rap lyrics
+
+== DATA
+
+Compiled a list of 104 popular English-speaking rap artists and
+scraped all their songs available on a popular lyrics website. 
+In total, 583 669 lines from 10 980 songs inputed.
+
+== METHODS
+
+Supervised. Deep neural network
+
+== RESULTS
+
+Mixed
+
+== ISSUES
+
+Music is subjective, so hard to create AI software based on this.
+Needs larger dataset if to be somewhat successful.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+While an interesting idea, I do not think it will be anything more than that.
+Like with creating artwork, AI struggles to be creative. Medium press coverage.
+Would be interesting to encorporate lyrics into an AI made rap song. 
+

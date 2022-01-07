@@ -1,0 +1,33 @@
+== SOURCE
+
+Source: https://www.tensorflow.org/tutorials/generative/cyclegan
+
+Source Paper: https://arxiv.org/pdf/1703.10593.pdf
+
+== AGENT
+
+TensorFlow, Berkeley AI Research (BAIR) laboratory, UC Berkeley
+
+== GOAL
+
+Given any two unordered image collections X and Y, the algorithm learns to automatically "translate" an image from one into the other and vice versa
+
+== DATA
+
+Images of Horses-Zebras, Monet paintings and Landscape photos, collection of paintings of famous artists
+
+== METHODS
+
+The algorithm used is Cycle-GAN (Generative Adversarial Network)
+
+== ISSUES
+
+Limitation when exploring geometric changes (for example dog -> cat)
+
+== SCORE
+
+9
+
+== COMMENTS
+
+None

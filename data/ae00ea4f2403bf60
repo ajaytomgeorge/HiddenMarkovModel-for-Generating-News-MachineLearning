@@ -1,0 +1,42 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/9425971
+
+== AGENT
+
+Cundong Tang, Zhiping Wang, Xiuxiu Sima, Lingxiao Zhang
+
+== GOAL
+
+This paper analyzes the history and present situation of artificial intelligence in game development, and puts forward 
+the possible changes and impacts of artificial intelligence technology based on machine learning on game development in the future.
+
+== DATA
+
+Taking Chinese chess as an example, the existing AI technology can only simply control the search depth of the 
+state tree and evaluate the complexity of the function. 
+
+== METHODS
+
+The main methods used for implementing AI into game development are using Intelligent game design and Artificial Intelligence Routing.
+
+== RESULTS
+
+At present, the traditional in-game artificial intelligence can still fulfill the mission entrusted by the developers, and 
+create realistic intelligence illusion by combining with other audio-visual interactive means.
+
+== ISSUES
+
+More advances can be made by using AI in game development but the issue is that people will get more addicted to such advanced versions and
+eventually get away from reality. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Games with the help of AI and machine learning can be made more advanced and interesting but at the same time importance 
+should be given to the fact that such advances can lead to addiction among gamers and also start to lose a sense of reality and world 
+around them.
+

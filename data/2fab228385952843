@@ -1,0 +1,64 @@
+==== SOURCE
+
+News Source:
+http://news.mit.edu/2019/detecting-pain-levels-brain-signals-0912
+
+==== AGENT
+
+MIT
+
+==== GOAL
+
+To use an Machine Learning Technique to predict the level of pain a patient is under when they are in an 
+unconscious state, if they are incapable of communicating or during surgery. A functional near infrared 
+spectroscopy neuroimaging technique (fNIRS) is used to measure neuron activity in the brain, specifically
+from the prefrontal cortex. These images can then be feed into the Machine Learning Technique from test 
+subjects who have scored the level of pain they are under; with the aim of predicting pain levels for those
+who cannot communicate the pain they are experiencing.
+
+==== DATA
+
+The Data set was collected from 43 male participants who wore the fNIRS device and they were exposed to two pain
+intensities of 3/10 and 7/10. Participants were then asked to score the pain they experienced on a scale
+of 1 to 10.
+
+The fNIRS then measured the amount of oxygenated and deoxygenated hemoglobin as well as the speed at which
+the oxygenated hemoglobin rose.
+
+==== METHODS
+
+The article does not go into detail on the specific model used* but the article does describe the behaviour of
+the model. 
+
+The model is designed to not only train for target feature classification but finds shared characteristics 
+among sub-populations of the data set. These sub-models are capable of running in parallel with the main model, 
+referred to as the traditional model and were capable of uncovering trends, for example if older and younger 
+patents have differing pain thresholds.
+
+Learning patterns of the sub-models were shared among the entire population allowing for both fine detail 
+personalized analysis of pain and for more general population level information.
+
+==== RESULTS
+
+A random selection of the participants were used for testing but the specific sample size was not referenced.
+From the random selection the pain scores were known.
+
+The sub-models out performed the traditional model by roughly 20%, reaching 87% accuracy in classifying patients 
+with pain or no-pain.
+
+The sample size of 43 patients was quite low but the article also references that the researchers plan to
+to collect more data in the future from more diverse populations including, female patients and patients undergoing 
+surgery while conscious, in order to better ascertain how accurate their model is.
+
+==== COMMENTS
+
+The paper for this has not yet been published but similar papers are available from the same group of
+researchers:
+
+[1] Daniel Lopez-Martinez, Rosalind Picard. Multi-task Neural Networks for Personalized Pain Recognition
+from Physiological Signals. 2017. https://arxiv.org/pdf/1708.08755.pdf
+
+*From the description of the model used in the news article and based on previous methods employed by the same 
+researchers it seems that a Multi-Task Neural Network (MTNN) was incorporated in this research. MTNN work by 
+sharing information between related tasks in order to better generalize a primary task. I did not include information
+on this in the Methods section as this would need to be verified.

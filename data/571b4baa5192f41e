@@ -1,0 +1,20 @@
+== SOURCE
+https://www.eurekalert.org/pub_releases/2020-10/au-aid102820.php
+== AGENT
+Aarhus University Engineering, in collaboration with Tampere University and the Finnish Environment Institute
+== GOAL
+They wanted to demonstrate the advantages of using modern neural networks to analyse images such that the machine could automatically detect people 
+and objects in a variety of scenes and even distinguish photographers on the basis of characteristics in the image - faster than any manual reviewing
+process.
+== DATA
+160,000 photographs from Finnish Winter, Continuation, and Lapland Wars captured in 1939-1945
+== METHODS
+Using four object detectors, SSD, YOLOv3, RetinaNet and Mask R-CNN, to combine results for a more accurate object detection. They could detect people, airplanes, boats, trains, cars, bicycles, skis, dogs, horses, chairs, and ties.
+== RESULTS
+The obtained results will be used to help historians, other researchers, and professionals using historical photo archives in their work to analyze and compare the works of specific photographers.
+== ISSUES
+Some photographers have very distinct and easily recognisable characteristics, while others are more difficult for the AI to recognise.
+== SCORE
+4
+== COMMENTS
+It was a intresting read and the IEEE report had really great detail.

@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://venturebeat.com/2016/11/03/why-the-irobot-roomba-980-is-a-great-lesson-on-the-state-of-ai/
+
+==== AGENT
+
+iRobot Roomba 980 by iRobot
+
+==== GOAL
+
+Create a vacuum robot that can fully clean your floor using AI to make a floor plan for the most efficient path.
+
+==== DATA
+
+The Roomba would gather its data by going around and once it hits an obstacle it slowly creates a floor plan of your room. 
+
+==== METHODS
+
+As the Roomba cleans your floor if it hits an obstacle then it makes note of it. The Roomba slowly creates a floor plan of your room and works out the most efficient way to clean the floor.
+
+==== RESULTS
+
+This model of the Roomba is working much better than the previous versions as the Roomba doesn’t collide with as many obstacles and plans the best route for the cleaning of your floor.
+
+==== COMMENTS
+
+The Roomba being able to map the floor its cleaning not only creates an efficient model that takes the least amount of time to clean the floor, but it also saves power. That means that the Roomba won’t need to be charged as often. 

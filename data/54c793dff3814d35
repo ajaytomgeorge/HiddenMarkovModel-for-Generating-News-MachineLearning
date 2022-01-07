@@ -1,0 +1,37 @@
+== SOURCE
+
+https://www.nature.com/articles/s42003-020-01350-0
+
+== AGENT
+
+iMolecule group at Skoltech Center for Computational and Data-Intensive Science and Engineering
+
+== GOAL
+
+Find optimal spots for drug molecules to attach to proteins using deep learning and computer Vision
+
+== DATA
+
+The data was atomic structures of protein-ligard complexes that contain less than four protein chains and the sequence identity threshold of 90% from a protein data bank
+
+== METHODS
+
+A Neural network along with mean shift clustering algorithm, the density-based clustering algorithm and the agglomerative hierachical clustering algorithm
+
+== RESULTS
+
+The result is a system called BiteNet which can analyze 1000 protein structures in 1.5 minutes and find optimal spots for drug molecules to attach
+
+== ISSUES
+
+Due to the proteins being Experimentally determinded protein structures, they often contain detergent and buffer molecules that reveal electron density. This should not be confused with actual binding stites.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+
+
+

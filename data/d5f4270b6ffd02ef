@@ -1,0 +1,35 @@
+== SOURCE
+
+https://phys.org/news/2020-10-machine-learning-algorithm-infer-thermodynamic-arrow.html
+
+== AGENT
+
+University of Maryland
+
+== GOAL
+
+infer the direction of the thermodynamic arrow of time
+
+== DATA
+
+A set of simulated movies of physical processes with coreesponding labels indicating backwards and forwards
+
+== METHODS
+
+Supervised Learning to train a Neural Network
+
+== RESULTS
+
+They reported excellent accuracy
+
+== ISSUES
+
+How is saying excellent accuracy in any way meaningful to the reader. That isnt a result. The worst reporting of a story I have ever seen since Donald Trump became president
+
+== SCORE
+
+6
+
+== COMMENTS
+
+I think trying to infer physical phenomena is pretty neat. A really good use of the techonology. The use of an old method in logistic regression for something new is cool to see also. 

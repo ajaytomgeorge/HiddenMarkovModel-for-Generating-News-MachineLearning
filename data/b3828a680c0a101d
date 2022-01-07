@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.vice.com/en/article/z3evp8/nvidia-says-its-ai-created-a-fully-functional-version-of-pac-man
+
+== AGENT
+
+NVIDIA
+ 
+== GOAL
+
+Train a game simulator that can model nature of the environment
+
+== DATA
+
+50000 Pac-Man episodes provided by BANDAI NAMCO(creators of the game)
+
+== METHODS
+
+Generative Adversarial Networks, Reinforcement Learning
+
+== RESULTS
+
+GameGAN learns to follow the user command - how Pac-Man moves and other rules of the game such as disentangle 
+ static components (background and blue wall) from dynamic components (the firball-shooting enemies)
+
+== ISSUES
+
+NONE
+
+== SCORE
+
+7
+
+== COMMENTS
+
+GameGan is a very interesting model, it could allow to create more complex simulators, which can be used to devolop 
+autonomous machines, in this simulators machines can be trained before being test in the real world. 
+Regarding the press's reporting, it was reasonably accurate in terms of technical explanation.
+What is new here is the model used, it is remarkable the design of the neural network wich has enabled the 
+environment's modelling.

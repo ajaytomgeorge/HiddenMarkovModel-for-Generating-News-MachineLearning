@@ -1,0 +1,29 @@
+SOURCE:https://gallery.azure.ai/Experiment/Tutorial-Building-a-classification-model-in-Azure-ML-18
+
+AGENT: 
+		Raja Iqbal
+GOAL:
+		 using the Titanic passenger data set and build a model for predicting the survival of a given passenger using Azure ML.
+
+DATA:
+		This version of the Titanic dataset can be retrieved from the Kaggle website, specifically their “train” data (59.76 kb). 
+		The dataset also has 12 columns that each record an attribute about each occupant’s circumstances and demographic. 
+
+METHODS:
+		preprocess the dateset:
+			Drop the columns that do not add immediate value for data mining or hold too many missing categorical values to be a reliable predictor attribute
+			Identify categorical attributes and cast them into categorical features using the metadata editor module.
+			Scrub the missing values from the following columns using the missing scrubber module:
+			Embarked: dropped 2 rows that contained missing values of embarked.
+			Tell Azure ML what it is trying to predict by casting the response class into a label using the metadata editor module.
+			Randomly split and partition the data into 70% training and 30% scoring using the split module.
+
+		Chose to go with a two-class boosted decision tree and a two-class decision forest
+		 they used separate train model modules and score model modules for both algorithms to train separately on the same dataset.
+		 the algorithms were trained with their default settings. 
+		 Both model's performance were evaluated and compared together using a single evaluate model module.
+RESULTS:
+		Both models performed rather fairly (~0.81 RoC AuC each). The boosted decision tree got an overall slightly higher RoC AuC, however it was lower in accuracy,
+		both models as they stand are perfectly fine for deployment,
+COMMENTS:
+		Machine learning can be used in so many area, but this one is useless.

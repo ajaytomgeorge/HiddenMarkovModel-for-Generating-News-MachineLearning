@@ -1,0 +1,36 @@
+
+== SOURCE
+
+https://www.infoq.com/news/2021/08/ml-tokyo-2020-olympics/
+
+== AGENT
+
+InfoQ
+
+== GOAL
+
+Use machine learning technologies at Tokyo Olympics for athlete data tracking, coaches' real-time feedback that can tell athletes when to train and when to stop, to predicting sports injuries with algorithms.
+
+== DATA
+
+Machine learning algorithms analyse athlete data collected from multiple systems like Alibaba Group and Intel which partnered to run a 3D athlete-tracking system that allows coaches to probe into every minute movement of their Olympic athletes. The system relies on algorithms to understand the biomechanics of the movement of athletes captured by cameras and estimate the position of key body joints. As a field of artificial intelligence, computer vision enables machines to perform image processing tasks with the aim of imitating human vision.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+Teams working with machine learning models are optimizing formations, giving the best chance of winning medals at key competitions.
+
+== ISSUES
+
+Not all athletes are the same, so machine learning is a critical component that learns about each athlete and flags any meaningful, high-risk changes for his/her performance. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Using machine learning algorithms in sport is first of all interesting and article looks reasonable and new methods like tensorflow and other algorithms are used. 

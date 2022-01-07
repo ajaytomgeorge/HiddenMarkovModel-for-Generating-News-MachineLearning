@@ -1,0 +1,28 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-improve-subseasonal-climate-forecasting-western-us-0311
+
+==== AGENT
+
+Ernest Fraenkel, Judah Cohen MIT
+
+==== GOAL
+
+Use machine learning to improve subseasonal climate forecasting.
+
+==== DATA
+
+Meteorological records.
+
+==== METHODS
+
+Trained a system that combines historical weather-pattern recognition with modern machine learning techniques to produce real-time predictions of temperature and precipitation anomalies two to six weeks in advance for the western United States.
+
+==== RESULTS
+
+They won first place in three out of four temperature forecasting categories in the Sub-Seasonal Climate Forecast Rodeo competition.
+
+==== COMMENTS
+
+Model seems to have been a success but the article is a bit light on what data they used.
+

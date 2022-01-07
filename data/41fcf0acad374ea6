@@ -1,0 +1,22 @@
+==== SOURCE
+https://www.rochester.edu/newscenter/methane-budget-machine-learning-to-understand-climate-change-400802/
+
+==== AGENTS
+Tom Weber, assistant professor of earth and environmental sciences at the University of Rochester. 
+
+==== GOAL
+To determine how much methane gas is emitted from the ocean, into the atmosphere, each year.
+
+==== DATA
+All available methane data from the ocean. 
+
+==== METHODS
+All the available data was fed into a machine learning algorithm. (Algo type not specified). 
+
+==== RESULTS
+The algo was able to recognize patterns in the methane data and predict what the emissions might be for regions with no
+observations.
+
+==== COMMENTS
+No specific details about what the data looked like or what type of machine learning algorithms where used.
+No mention of what the features of the data were. 

@@ -1,0 +1,37 @@
+== SOURCE
+
+https://techxplore.com/news/2021-10-humorous-versions-headlines.html
+
+== AGENT
+
+Researchers at University of Helsinki
+
+== GOAL
+
+Artificially replicate humor in machines, by developing a framework that can turn existing news headlines into humorous ones.
+
+== DATA
+
+Humicroedit, a dataset containing over 15,000 annotated news headlines
+
+== METHODS
+
+long short term memory (LSTM)
+
+== RESULTS
+
+Human evaluators sourced online considered the headlines produced by their system funny 36% of the time
+
+== ISSUES
+
+It tries to find funny substitutes for some of the words in existing headlines 
+and it doesn't have capability to respond humor to statements
+
+== SCORE
+
+5
+
+== COMMENTS
+
+Interesting but doesn't contain any new approaches or architectures. 
+There are already models like GPT3 which has better capabailities

@@ -1,0 +1,27 @@
+=== SOURCE
+
+https://algorithms-tour.stitchfix.com/ , https://www.zdnet.com/article/how-stitch-fix-uses-machine-learning-to-master-the-science-of-styling/
+
+=== AGENT
+
+Stitchfix, a personal, subscription based, online clothing sales company.
+
+=== GOAL
+
+Provide clients with clothes that match their personal preferences without them having spend time searching for clothes on their own.
+
+=== DATA
+
+Data is provided by clients both upfront when setting up their profile that tells Stitchfix certain details about the clothes they like and feedback on clothes that they are matched to. This data is also used with data given by designers at Stichfix who are able to give specific details about clothing items.
+
+=== METHODS
+
+After using algorithms with the explicit data given by customers and designers, Stitchfix also uses a neural network to look at the physical appearance of clothing customers have liked in the past and find similar items in the Stitchfix inventory.
+
+=== RESULTS
+
+It was stated by the chief algorithms officer at Stitchfix that these algorithms and more have resulted in increased customer satisfaction.
+
+=== COMMENTS
+
+I think that Stitchfix did the right thing to use machine learning algorithms due to the vast amount of data that is available to them as a business. 

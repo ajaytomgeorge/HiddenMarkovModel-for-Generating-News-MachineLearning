@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.businessinsider.com/nfl-using-ai-player-salaries-pro-football-focus-2019-7?r=US&IR=T
+
+==== AGENT
+
+Pro Football Focus
+
+==== GOAL
+
+Create a salary analysis system to clacuate what a player should be paid based on their stats.
+
+==== DATA
+
+The data is players statistics from games they played. It's numerical.
+
+==== METHODS
+
+Gather statistics on all positions in americam football and based on what positions are paid and whatthey produce they predict if they are being overpaid/ underppaid and say what they really are worth.
+
+==== RESULTS
+
+They came to the conlusion that the runnng back postion is the most overpaid in the league based on the positions production.
+
+==== COMMENTS
+
+I dont know if they take some factors into account like how a good running back could be targeted by the defence and as a result lead to other players perfomring well at the detrement of the running backs individual stats.

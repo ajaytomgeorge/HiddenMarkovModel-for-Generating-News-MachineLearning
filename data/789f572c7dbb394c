@@ -1,0 +1,35 @@
+== SOURCE
+
+https://medium.com/geekculture/google-brain-creates-the-first-processor-designed-using-artificial-intelligence-e3d80cd2c5f8
+
+== AGENT
+
+Google, Nvidia, and probably other tech giants
+
+== GOAL
+
+Cut down on the time required to design ASICc (Application Specific Integrated Circuits)
+
+== DATA
+
+They used a set of different placements for which they already knew their corresponding value.
+
+== METHODS
+
+They used Supervised learning, followed by reinforcement learning.
+
+== RESULTS
+
+They cut down design time for one of the design stages from months to 6 hours.
+
+== ISSUES
+
+I don't see any issues with this whatsoever.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought this was interesting, and maybe slightly frightening, as it's a computer designing another computer (part). This could be the long-winded start of a really technical sci-fi movie.

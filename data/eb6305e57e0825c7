@@ -1,0 +1,35 @@
+==== SOURCE
+
+https://jaxenter.com/deep-learning-honey-bee-conservation-161486.html
+
+==== AGENT
+
+Thiago da Silva Alves and Jean Metz, Polytechnic Institute of Bragança
+
+==== GOAL
+
+The goal is to autonomously track a Honey Bee colony's development by counting and classifying comb cells. 
+This would decrease time-consumption and margin of error.
+
+==== DATA
+
+The data used is the structure of the honeybee colony, how healthy a colony is can be determined by how many 
+cells there are per frame, identifying cells in two categories; Brood and food reserve. The data is comes from
+a wooden tunnel and extremely high quality cameras, and the data collected would be approximately 2000+ images
+
+==== METHODS
+
+DeepBee encorporates an image classification pipeline using image processing methods, state-of-the-art 
+deep learning and Deep Neural Networks to achieve image segmentation and classification.
+
+
+==== RESULTS
+
+While analysing the entire image of the bee colony, it takes a long time to learn its patterns. When it is
+broken up into images from 40x40 pixels up to 500x500 pixels, the ratio of accuracy to computation time yielded 
+the best results. 
+
+==== COMMENTS
+
+Deep Learning allows the tedious task of manually checking each cell in a colony, to be done at much greater speed
+and accuracy. 

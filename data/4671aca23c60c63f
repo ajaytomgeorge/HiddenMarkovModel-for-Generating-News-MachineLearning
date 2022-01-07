@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+Adam Conner-Simons (2019). Using machine learning to hunt down cybercriminals. Available at: http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+The group from MIT CSAIL and the centre for applied internet data analysis at the University of California at San Diego's supercomputer centre.
+
+==== GOAL
+
+ To predict cybercrimes in advance by tracing things back to hijackers themselves.
+
+==== DATA
+
+They got data from the worth of network operator mailing lists and historical BGP data taken from the global routing table.
+
+==== METHODS
+
+The team analysed particular features of IP addresses used by hijackers, such as volatile activity, multiple address blocks and multiple regions, then trained a machine-learning model to recognise those behaviours automatically.
+
+==== RESULTS
+
+The system could analyse and identify most of IP hijacks and improve and complement the existing solutions to some extent. However, it still needs the team to classify manually for about 20 percent of cases due to identify false positives.
+
+==== COMMENTS
+
+While it could find and identify potential serial hijackers' IP addresses through bed behaviours, there are no solutions to prevent following attacks. It also might need to be developed to be more efficient and to reduce human supervision.

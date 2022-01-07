@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://evannex.com/blogs/news/what-can-deepmind-s-starcraft-win-teach-us-about-tesla-s-path-to-full-autonomy
+
+==== AGENT
+
+Tesla
+
+==== GOAL
+
+Self-driving vehicles, with human-like decision making regarding braking, acceleration, steering &c.
+
+==== DATA
+
+Data was gathered from Tesla car owners while driving.
+
+==== METHODS
+
+It's not clear from the article, but it appears that they are using supervised (imitation) machine learning, and possibly reinforcement learning. They collect data from Tesla drivers to form a set of training data for their self-driving AI. 
+
+==== RESULTS
+
+Although far from complete, Tesla's self-driving AI has made a lot of progress. Under predictable conditions and roads, the AI operates well. Whereas the AI would fail in conditions such as, driving around in small city roads, recognising turn lanes, avoiding cars parked on the side of the road, roads with no markings, etc.
+
+==== COMMENTS
+
+The article doesn't say a lot about Tesla's self-driving AI, only mentioning how data is obtained and referencing some quotes from the company's owner. It does state that all Tesla cars are equipped with the hardware to eventually enable full self-driving capabilities. And that the current hardware is being used to obtain the data necessary to train the AI for self-driving.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://finance.yahoo.com/news/nft-art-world-where-machine-115042848.html?guccounter=1
+
+== AGENT
+
+Fetch AI
+
+== GOAL
+
+Create a machine learning algorithm to “paint” NFTs.
+
+== DATA
+
+To create the artwork, the participants plant random seeds and submit sketches. They then vote on the aesthetic the artwork will have. Using this data, the algorithm produces an original piece of art.
+
+== METHODS
+
+They used algorithms to create the art. It is difficult to find what type of learning was used to train the AI, but it seems to be unsupervised learning.
+
+== RESULTS
+
+The AI was able to create original works of art, which were then bid on by users.
+
+== ISSUES
+
+The only issue I could potentially see with this algorithm is the fact that it is used for NFTs and cryptocurrency, which both use large amounts of energy that could be damaging to the environment.
+
+== SCORE
+
+8.
+
+== COMMENTS
+
+I think that NFTs and their recent popularity is interesting to read about and so adding on AI generated artworks that actually look good makes this a cool story.

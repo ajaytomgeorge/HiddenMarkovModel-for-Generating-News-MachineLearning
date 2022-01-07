@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-021-02556-w
+
+== AGENT
+
+Hamsa Bastani, Kimon Drakopoulos, Vishal Gupta
+
+== GOAL
+
+Predicting which people are most likely to test positive for COVID-19 to optimize the testing of incoming travellers to Greece. 
+
+== DATA
+
+Incoming travellers must complete a Passenger Locator Form, containing information about their origin country, demographics, point and date of entry. This data is given to the algorithm. The algorithm is also given the test results of the people who have been tested. 
+
+== METHODS
+
+The method used involves reinforement learning. The algorithm has two objectives. The first is to maximise the number of infected asymptomatic travellers identified. The second is to allocate tests to traveller types which the algorithm doesn't have accurate estimates for, to better learn their prevelance.
+
+== RESULTS
+
+The algorithm was considered successful as it doubled the efficiency of testing. This efficiency is measured by the number of cases detected per test. The more cases detected, the more efficient it is.
+
+== ISSUES
+
+The data available to the algorithm was purposely limited due to the EU's General Data Protection Regulation (GDPR). This limited the algorithms accuracy.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Interesting example of how machine learning can be useful in something so important as public health. Brings up the point of how privacy can sometimes come at the cost of health measures. In general good reporting, the article provides enough detailed information while still explaining things in layman's terms.

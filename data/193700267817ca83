@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.taiwannews.com.tw/en/news/4300598
+
+== AGENT
+
+GBG
+
+== GOAL
+
+To reduce false positives and improve fraud detection
+
+== DATA
+
+GBG's Digital Risk Management and Intelligence platform passes data from origination and transactions directly into the machine learning models,
+which bypasses the need for data extraction
+
+== METHODS
+
+Utilises both supervised and unsupervised algorithms. 
+These algorithms are built into their core financial crime platform.
+These can be easily and quickly configured, trained and deployed via a low code/no code user interface. 
+
+== RESULTS
+
+Increase in Fraud detection of up to 30% for credit card applications. 
+Another Tier 1 global bank has also tested its machine learning technology to see a 22% reduction in false positives for credit card applications.
+
+== ISSUES
+
+I dont see many issues with this other than it will be hard to keep up with new and innovative fraud attacks as they will constantly evolve. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I thought this was quite interesting and cool that people are trying to tackle the innovativeness and complexity in which fraud attacks are 
+being executed these days. I thought the article showed the main parts of the project but I would have liked a link to a paper or something so I
+could have read more about it.  

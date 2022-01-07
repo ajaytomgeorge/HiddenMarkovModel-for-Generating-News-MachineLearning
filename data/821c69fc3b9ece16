@@ -1,0 +1,40 @@
+==== SOURCE
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+
+Microsoft China and Beihang University.
+
+==== GOAL
+
+The goal was to generate fake engagement on article comment threads in order to gain traction 
+and attract other users to read and comment. This is done by generating comments that would 
+encourage real users to engage on the thread.
+
+==== DATA
+
+The data was taken from online articles and their titles in the form of text. The main data 
+points would be the key words that heavily relate to the title. It is trained off two date sets; A 
+Chinese dataset and an English dataset
+
+==== METHODS
+
+Two neural networks were used; One to read the article, comprehend the content and identify key 
+points in the article, and another to generate comments based on the points from the article.
+
+==== RESULTS
+
+The DeepCom bot seemed to operate well, but according to Microsoft's reseach team there are quite a few 
+risks with having AI pretend to be human in a comment thread. Microsoft have acknowledged these 
+risks and added the acknowledgment of these risks in there most recent paper. There is a risk that 
+the bot will be used for the purpose of political manipulation/persuasion, and is therefore not available 
+for deployment
+
+==== COMMENTS
+
+The article raises concerns about the AI being biased from the articles it gets its data from, this seems 
+like a pointless concern. In the case where it is only being used as a way to improve engagement, biased 
+and possibly over opinionated comments seems like a great way to get other users to engage. The more neutral
+an opinion is, the less likely it is to stir up controversy or any sort of discussion
+

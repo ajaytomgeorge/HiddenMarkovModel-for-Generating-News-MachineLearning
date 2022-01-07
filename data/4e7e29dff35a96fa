@@ -1,0 +1,46 @@
+== SOURCE
+
+https://www.theregister.com/2021/10/01/uw_nvidia_clip_model_paper/
+
+== AGENT
+
+University of Washington in the US and NVIDIA
+
+== GOAL
+
+solve the problem of needing to spend long periods of time collecting data to teach neural-network powered bots to recognise and manipulate objects in their environment.
+
+== DATA
+
+The data from the test with CLIPort and RN50-BERT were performed by themselves and displayed in their own paper.
+It displayed a series of tests with seen and unseen variables. Seen: Shown in demonstration, Unseen: Not shown in demonstration.
+As a sub-category, they also performed n-demonstrations in front of the machine to learn from (n = 1, 10, 100, 1000).
+The results showed the percentage of successful attempts under each sub-category.
+
+== METHODS
+
+For object recognition, CLIP was used as it's real-life performance is much better compared to competitors like ImageNet & ResNet101.
+Algorithms were also used to recognise colours, depth and language processing.
+For learning, they underwent supervised learning. The machine monitored n expert demonstrations (n = 1, 10, 100, 1000).
+
+== RESULTS
+
+The CLIPort performs better overall compared to competitors.
+
+== ISSUES
+
+While the training and comparison of end results with competition seemed impartial and free of bias and contamination, they were simulated and purposely used noiseless cameras.
+This would differ from industrial scenarios where noise can be quiet common with all the other machinery and signals present in a factory.
+Objects that CLIP hasn't been trained to recognised will not be recognised by a CLIPort robot. This means that CLIPort is dependent on CLIP being completely up to date or a custom objects will need to be manually trained into the robot.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Your comments on this: did you think it was interesting and why, would
+you have done it differently, was the reporting in the Press
+reasonable or did they get lots of stuff wrong, etc. Was the method new,
+or was it interesting new data, or an interesting new way of using existing
+data and methods?

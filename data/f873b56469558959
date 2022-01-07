@@ -1,0 +1,27 @@
+ARTICLE 4 - AlphaGo
+== SOURCE
+https://www.theatlantic.com/technology/archive/2017/10/alphago-zero-the-ai-that-taught-itself-go/543450/
+
+== AGENT
+Google's Sister Company Deep mind
+
+== GOAL
+To create a computer that could play the board game GO at a high level
+
+== DATA
+The data was gotten from millions of previously GO matches by humans
+
+== METHODS
+Deep learning -> a subset of supervised learning
+
+== RESULTS
+The AlphaGo project was very successful and was able to beat the world champion easily and has been said to make moves that are futuristic to human players
+
+== ISSUES
+It has beaten all the best humans in the GO field, so it has no more competition to test how good it has become.
+
+== SCORE
+9
+
+== COMMENTS
+I think it is a very interesting because GO is a very hard game and for an application to solve it so effectively is very fascinating to me.

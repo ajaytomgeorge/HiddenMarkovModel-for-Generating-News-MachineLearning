@@ -1,0 +1,35 @@
+﻿==== SOURCE
+
+ ==== https://scitechdaily.com/machine-learning-to-automatically-measure-and-control-qubits/ 
+
+
+
+==== AGENT ====
+
+SWISS NANOSCIENCE INSTITUTE, UNIVERSITY OF BASEL.
+
+==== GOAL ==== The goal was to measure the quantum spin of individual electrons quantum dots. These electrons may serve as the smallest information unit in a quantum computer. 
+
+What were they trying to do?
+
+
+
+==== DATA ====
+
+ The voltages for each quantum dot must be tuned carefully to achieve optimal conditions. When many dots are combined to scale the device to a large number of qubits, the tuning process becomes extremely time consuming as not all quantum dots are the same thus they must be tuned individually.
+
+
+
+==== METHODS ==== An algorithm was developed to help with this automatic tuning. The machine was trained with data on the current flowing through the quantum dot at different voltages. The software gradually learns where further measurements are needed with a view to achieving the maximum information gain. The machine then takes more measurements and repeats the process until optimal characterisation is achieved with respect to the predefined criteria. ?
+
+
+
+==== RESULTS
+
+ ==== Effective measurements of quantum dots in gallium arsenide was achieved. thus allowing for the representation and characterisation of large arrays of quantum devices. These measurements are 4 times faster than current method of data acquisition. 
+
+
+
+==== COMMENTS ==== 
+
+It will be interesting to see this being applied on other materials and see if they can efficiently model the quantum spin of these electrons in quantum dots. 

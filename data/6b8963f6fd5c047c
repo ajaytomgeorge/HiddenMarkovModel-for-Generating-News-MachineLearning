@@ -1,0 +1,43 @@
+== SOURCE
+
+https://www.bbc.com/news/technology-39126027
+
+== AGENT
+
+Facebook
+
+== GOAL
+
+Use artificial intelligence spots suicidal users.
+
+== DATA
+
+The algorithmn was trained with examples of the posts that have previously been flagged showing the tendency of the user to comit suicide.
+
+== METHODS
+
+Pattern recognition. Most probably classification algorithmn under unsupervised learning. 
+
+== RESULTS
+
+Facebook also announced new ways to tackle suicidal behaviour on its Facebook Live broadcast tool and has partnered with several US mental health organisations to let vulnerable 
+users contact them via its Messenger platform.
+
+== ISSUES
+
+The dataset will not be that accurate as the population using facebook could varry for example it is not as popular above a certain age that makes the classification limited to a 
+some specific age groups furthermore there are many scenerios where the users just upload stuff/content for attention seeking and not actually being suicidal which could have a negative
+impact on the actual results.  
+
+== SCORE
+
+6.5
+
+== COMMENTS
+
+This is good model but i think it could be flawed in a way that because of social media people live a different life on social media platfroms than what they really have in real life.
+Due to this difference in the lives online and offline, we cannot be fully sure if the person is really happy or depressed. As seen in various incidents of celebrities that appeared to 
+be fine and living their lives happilysuffered from depression. The things posted on facebook or any other social media platform is not a silver bullet for detecting the suicidal users 
+on the contrary there are some caseswhere actually a depressed person could be identified by the algorithm but only if the user is being honest with the content he is posting on 
+the social media platform. 
+

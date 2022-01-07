@@ -1,0 +1,27 @@
+﻿==== SOURCE
+
+https://techxplore.com/news/2019-10-artificial-intelligence-supercharging-materials-science.html
+
+==== AGENT
+
+Juejun Hu - MIT Associate Professor, and a group from the University of Massachusetts.
+
+==== GOAL
+
+They developed, using ML, “a new spectrometer technology that allows [them] to shrink big components onto a small silicon chip and still maintain high performance” (Juejun Hu). They use deep learning to design “metasurfaces”, which are arrays “of specially designed optical antennas to impart phase delay on the incoming light” (Juejun Hu). These arrays are used in place of traditional lenses.  Metasurfaces are traditionally deigned through trial and error.
+
+==== DATA
+
+The group trained their deep learning algorithm using existing data acquired through conventional design methods, i.e. through computational simulations.
+
+==== METHODS
+
+The deep learning algorithm essentially tests the effectiveness of different irregular shapes for these metasurfaces. The “workability” of these shapes is tested by identifying “hidden connections between complex geometries and the electromagnetic response”. It essentially optimises the shape of these components using a deep learning approach, in place of a trial and error approach.
+
+==== RESULTS
+
+They found that this method preformed faster than conventional full-scale simulations. It also proved effective in screening “out potential combinations of materials and functions that just won't work”, saving time and effort over conventional methodologies.
+
+==== COMMENTS
+
+This is an interesting application of deep learning. Many problems in science can be solved through so called trial and error; however, this is rarely the best approach, due to the complexity and size of data one often works with. It simply is not possible, or time effective, to test every combination of parameters in a model by hand. Machine learning, however, offers a solution to this problem, as is clearly demonstrated by this application. 

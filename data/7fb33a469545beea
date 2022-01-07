@@ -1,0 +1,36 @@
+== SOURCE
+
+https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/snapdeal-tests-deliveries-via-robots/articleshow/78120517.cms
+
+== AGENT
+
+Snapdeal
+
+== GOAL
+
+Automated Contactless Delivery of Goods within short distances specially targeted to Large Residential Societies, University Campus for safe and convenient shopping!
+
+== DATA
+
+Geo-Spatial Data, Landscape Data, Road Routes
+
+== METHODS
+
+Supervised and Unsupervised Learning (Artificial Intelligence, Robotics, Route Optimisation), Disinfection Using UV Rays
+
+== RESULTS
+
+A miniature model of future-oriented capabilities of contactless safe robot last-mile delivery of goods was tested and successfully implemented. Also the robot has multiple compartment and can thus hold more than 1 packages wherein it also disinfects the packages holding within it using UV rays technology during its travel time to the allocated delivery location. The robot sends an alert to the consumer on arriving at the location and the specific package holding cabinet can be unlocked using the QR code shared to the consumer in advance which prevents any mix up of deliveries as well!
+
+== ISSUES
+
+As the model is only a miniature version of a very big e-commerce module it may perform wonderfully in a small space wherein the geo-spatial space would not be largely impacted by human/animal/landscape/weather/traffic related anomalies but in order to replicate this for long distance deliveries one would need to capture a lot of details and the computations may be a lot more intensive! It seems like a long journey from the current point of progress to their main goal of achieving a large scale robotic delivery!
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This is a surprisingly thoughtful initiative, specially the disinfecting technology makes it stand out in these Anti-Contact times of COVID-19. The technology ensures safety of both the consumer and the delivery executive and also reduces the total delivery time of the executive per delivery. Also it reduces the hassles of the delivery executive of navigating through huge societies and continuously calling the consumer trying to understand the route to their home! The technology is definitely a win-win situation for everyone participating in it and showcases a glimpse of a more convenient future!
+That being said this module may certainly great for those consumers living within a society or any such geographically related residential areas but it will not be useful to those living within independent homes on the main streets of the town/city unless the model is implemented on a large scale which yet looks far fetched!

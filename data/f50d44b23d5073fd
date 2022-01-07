@@ -1,0 +1,27 @@
+==== SOURCE
+
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.431&rep=rep1&type=pdf
+
+==== AGENT
+
+A database that clients have access to on a server. The database base contained current news articles and the user’s personal preferences. The sever is called the Adaptive Information Server (AIS). The project was completed by Daniel Billsus, Michael J. Pazzani and James Chen.
+
+==== GOAL
+
+The team was attempting to set up a learning agent that was able to predict what kind of news articles that the user would be interested in.
+
+==== DATA
+
+They got the data by allowing users to access the server. The data would be based off of what the users accessed on the sever. The user would communicate whether or not the article was of interest to them.
+
+==== METHODS
+
+When the user clicked a link to an article it gets assigned a value of 0.8. On the screen is the headline and the first paragraph of the article as well as a link to a related article. If the user chooses to download the next page, then the value of 0.8 is increased. If the value reaches 1.0 this means that the user has downloaded the entire story. This teaches the server what kind of news the user reads. The user’s actions will allow the sever to assign a score between 0 and 1 to each article. Any articles that the server rates 0.9 or above for the user then a link to that article will appear with a thumbs up icon beside it.
+
+==== RESULTS
+
+The project turned out great for the team as the project proved that based on users that used a handheld device instead of the 3Com’s Palm VII. The results showed that users that used the handheld device experienced better results than the other users. The results were promising though as they point to the learning device being able to accomplish personalised news feed. 
+
+==== COMMENTS
+
+The way the team implemented the projects was good and although they didn’t completely get the results they wanted. They proved that it is possible to create a personalised news feed. The downside was that the test was very limited in regards to the data collected from the users.

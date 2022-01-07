@@ -1,0 +1,25 @@
+==== SOURCE
+
+bibliographic citation or URL with pointer to source of this information
+https://www.nature.com/articles/s41467-019-12541-7
+
+==== AGENT
+Thomas Weber, Nicola A. Wiseman & Annette Kock
+
+==== GOAL
+The researchers were trying to provide a new robust estimate for the global diffusive flux and combine it with upper and lower bounds on ebullition rates. This would help them reduce uncertainty range for the total oceanic methane source.
+
+==== DATA
+The data was gather from many sources. The CH4 data was taken from Marine Methane and Nitrous Oxide (MEMENTO) Database. 
+
+https://figshare.com/articles/ocean_ch4_nc/9034451
+
+==== METHODS
+The researchers used two distinct machine-learning methods which was previously used to map sparse marine data. The methods are artificial neural networks (ANN), and random regression forests (RRF). They used the database of CH4 and they form the basis of a change in CH4, then used it to train the machine-learning models. The machine-learning methods then exploit patterns between the change in CH4 and other physical, chemical and biological properties. This will allow them to decrease uncertainties by the mapping process.
+
+==== RESULTS
+They were able to decrease uncertainty within the range for the total oceanic methane source.
+How did it go for them?
+
+==== COMMENTS
+This is actually a very useful technique which would allow us to find natural resources in the ocean. I think machine-learning is a very helpful tool in a lot of fields which we have data on. It is like time series; it can predict a lot of things as long as we have data from previous events. 

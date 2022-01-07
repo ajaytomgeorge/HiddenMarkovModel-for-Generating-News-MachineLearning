@@ -1,0 +1,35 @@
+== SOURCE 
+
+https://www.theverge.com/2021/6/29/22555777/github-openai-ai-tool-autocomplete-code 
+
+== AGENT
+
+GitHub and OpenAI
+
+== GOAL
+
+To make a tool called Copilot which autocompletes code snippets. Copilot analyses the code you’ve already written to generate the new matching code.
+
+== DATA
+
+It was trained on the terabytes of openly available code on GitHub, as well as English language examples. GitHub have implied that not all the code was vetted for bugs, insecure practices, or personal data. 
+
+== METHODS
+
+It’s built on a new algorithm called OpenAI Codex, which is described by OpenAI’s CTO as being a descendant of GPT-3. It's a neural network machine learning model.
+
+== RESULTS
+
+As this is still a work in progress, it may not be perfect. While testimonials on the site are quick to praise Copilot and the productivity gains it provides, GitHub have said that it sometimes may produce undesired or even offensive outputs.  
+
+== ISSUES
+
+As it's not finished it still has it's bugs, and the fact it may sometimes produce offensive outputs is obviously a big issue.
+
+== SCORE
+
+7 
+
+== COMMENTS
+
+This would be a potentially useful tool when finished, however it's unclear how it differs and improves on existing autocomplete tools available in most IDEs.

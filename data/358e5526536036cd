@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.frontiersin.org/articles/10.3389/fbioe.2020.01032/full
+
+== AGENT
+
+Scientists on a global scale. 
+
+== GOAL
+
+To use machine learning in sequence data analysis and improve data processing capabilities and generate valuable biological information
+
+== DATA
+
+Data stored in DNA sequenced which are connected by four kinds of deoxyribonucleotides (bases). 
+
+== METHODS
+
+Many different ones, e.g. surpervised learning for DNA sequence classification, unsupervised learning for cluster analysis.
+
+== RESULTS
+
+DNA data mining is still a very new field, but strides have been made and the continued advancement in life science and hardware technology will open up plenty more possiblities.  
+
+== ISSUES
+
+Even if the development of the technology reaches the point where it is sufficient for functional DNA data mining, the practicality of the method is still a question mark, due 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Data mining with DNA is just an incredible concept. (Even more black magic than ice cubes out of the fridge door) 

@@ -1,0 +1,28 @@
+==== SOURCE
+
+http://news.mit.edu/2019/human-reasoning-ai-driverless-car-navigation-0523
+
+==== AGENT
+
+MIT CSAIL
+
+==== GOAL
+
+Train a system to learn the steering patterns of human drives as they navigate roads in a small area using only data from video feeds and a simple GPS-like map.
+
+==== DATA
+
+Collected data from local suburban streets using an automated Toyota Prius equipped with several cameras and a basic GPS system.
+
+==== METHODS
+
+They used a convolutional neural network that correlates steering wheel rotations to road curvatures it observes through cameras and an inputted map.
+
+==== RESULTS
+
+Seems to have comparable performance on small roads to more computationally intensive systems such as those using LIDAR but no concrete metrics are given.
+
+==== COMMENTS
+
+The lack of concrete metrics on performance is frustrating.
+

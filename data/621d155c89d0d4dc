@@ -1,0 +1,49 @@
+==== SOURCE
+
+https://kstatic.googleusercontent.com/files/2f51b2a749a284c2e2dfa13911da965f4855092a179469aedd15fbe4efe8f8cbf9c515ef83ac03a6515fa990e6f85fd827dcd477845e806f23a17845072dc7bd
+
+==== AGENT
+
+A group of researchers from Google's artificial-intelligence subsidiary, DeepMind.
+
+==== GOAL
+
+Google's Deepmind goal was to build a single system that could teach itself 
+from scratch how to master the games of chess, shogi and Go. Traditional 
+chess engines such as Stockfish and IBM's Deep Blue relied on thousands of
+rules and different strategies formed by expert chess players that try to 
+account for every eventually in a game. 
+The program created by DeepMind, AlphaZero quickly learns each game by playing 
+against itself millions of times starting its training from random play with no 
+bulit-in knowledge but the basic rules of the game.
+ 
+==== DATA
+
+The data was self generated as AlphaZero learnt from itself. However, the head-to-head
+performance of AlphaZero was tested against starting human openings positions
+(200 games as black and 200 games as white from each opening) as these opening positions 
+were played over 100,000 times in the online database. Database can be found on 
+www.https://www.365chess.com/
+
+==== METHODS
+
+AlphaZero uses a neural network that plays millions of games against itself and learns 
+through reinforcement learning. At the start it plays completely randomly, but learns 
+over time from wins, loses and draws to adjust the parameters in the neural network. 
+The trained neural network is used to guide a search algorithm (Monte-Carlo Tree Search)
+to select the favourable moves in the game.
+
+==== RESULTS
+
+The results from AlphaZero were promising, the Neural Network guided the MCTS to the
+most promising positions, it searches only 60 thousand positions per second, compared to
+60 million in other search chess engines.
+To test the robustness of AlphaZero, it played Stockfish 1000 times, winning 155 games
+and losing just 6 games.
+
+==== COMMENTS
+
+After just two hours of learning, AlphaZero was performing better than human players
+and after four, it was beating the best chess engines in the world. AlphaZero can 
+think at a far higher rate than humans and it may change how the game of chess is 
+played in future.

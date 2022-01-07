@@ -1,0 +1,34 @@
+﻿==== SOURCE
+
+https://www.quantamagazine.org/artificial-intelligence-takes-on-earthquake-prediction-20190919/
+
+==== AGENT
+
+Paul Johnson at Los Alamos National Laboratory.
+
+==== GOAL
+
+To use Machine Learning to try and demystify earthquake physics and to warn about signs of impending quakes.
+
+==== DATA
+
+The scientists at Los Alamos made "Laboratory Earthquakes" using sliding blocks and thin layers of granular materials. Like tectonic plates, the blocks don’t slide smoothly but they stick adn slip: They’ll typically stick together for a few  seconds at a time, held in place by friction, until the shear stress grows large enough that they suddenly slip. That slip — the laboratory version of an earthquake releases the stress, and then the stick-slip cycle begins anew. They studied the details of these earthquakes and used the recordings as training data. They took roughly 5 minutes of audio data and used that to train the model.
+
+==== METHODS
+
+The researchers took the 5 minutes worth of audio data, which would contain about 20 of those slip-stick cycles and then chopped it up into many tiny segments. 
+For each segment, they calculated more than 80 statistical features, including the mean signal, the variation about that mean, and information about whether the segment contained a precursor event. Because the researchers were analyzing the data in hindsight, they also knew how much time had elapsed between each sound segment and the subsequent failure of the laboratory fault.
+Armed with this training data, the researchers used the "random forest” machine learning algorithm to systematically look for combinations of features that were strongly associated with the amount of time left before earthquakes. After seeing a couple of minutes’ worth of experimental data, the algorithm could begin to predict failure times based on the features of the acoustic emission alone.
+The algorithm essentially works like a decision tree in which each branch splits the data set according to some statistical feature. The tree thus preserves a record of which features the algorithm used to make its predictions and the relative importance of each feature in helping the algorithm arrive at those predictions.
+
+==== RESULTS
+
+The results of the test were astonishing as the feature that the algorithm relied most on accurately predicting the earthquake was the variance of the signal fluctuations and not the foreshocks before the earthquake.
+After training for 5 years from 2008 to 2013 the algorithrm could finally predicts the slow shocks on earth. From the year 2013-2018 it was able to predict all the earthquakes with 80% accuracy.
+The team is now working to train the model to be able to predict even more castastrophic earthquakes.
+
+==== COMMENTS
+
+The algorithm is not yet well versed in predicting the big and destructive earthquakes, it can only predict the small scale slow shocks.
+The model has been trained only on simulations, there haven't been enough real world incidents to be able to train the mode properly.
+Earthquake prediction has a very checkered history, there have been many incidents in the past where scientists have come up with new and innovative ways to predict earthquakes but have failed miserably, hence this news must be taken with a grain of salt, unless it is tested thoroughly.

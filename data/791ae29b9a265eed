@@ -1,0 +1,36 @@
+==== SOURCE
+
+https://towardsdatascience.com/colorizing-old-b-w-photos-and-videos-with-the-help-of-ai-76ba086f15ec
+
+==== AGENT
+
+University of California, Berkeley by Richard Zhang, Phillip Isola, and Alexei A. Efros
+
+==== GOAL
+
+The goal of the project was to develop an automatic approach which would be able to create realistic
+colorisation's of old black and white photos and also black and white movies.
+
+==== DATA
+
+The data used was a set of 1.5 million colour photos of images ranging from landscape, to people and animals.
+
+==== METHODS
+
+The team approached the problem by posing it as a classification problem using class-rebalancing at
+training time. The machine learning method that the team used was a feed-forward pass in a convolutional
+neural network that was trained using over 1 million colour images. The method that the team used to train
+the machine learning algorithm was to decompose millions of colour images. These images were decompose into
+two separate parts, the black and white component and the colour component. After the model had been successful
+trained a black and white image could then by fed into the model which would generate a coloured version of the
+image.
+
+==== RESULTS
+
+The team successfully managed to build the model that could apply realistic colour to old black and white
+photos and movies.
+
+==== COMMENTS
+
+I think that this project shows how machine learning can be applied to many areas of industries where one
+would not immediately think that computer science would be applicable.

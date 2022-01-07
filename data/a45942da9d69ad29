@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://pdfs.semanticscholar.org/6f4a/a57eb9335f6e2658c78a7a2264e779a09307.pdf
+
+==== AGENT
+
+Heta Naik Student of M.Tech Compuer Engineering NMIMS University, Bombay, India
+Prashasti Kanikar Faculty of M.Tech Compuer Engineering NMIMS University, Mumbai, India
+
+==== GOAL
+
+The paper looks to identify fraudulent credit card transactions using maching 
+learning techniques due to the rapid increase in online based transactional sales.
+
+==== DATA
+
+The dataset consisted of 1000 records with data points for credit card usage, 
+current balance, holder of a credit card, holder status, credit card age, 
+holder's property, housing, job, location.
+
+==== METHODS
+
+First they pre-processed the data described in the data section above. Then
+they split the data into 70% training set and 30% test set to train the data. 
+They then used the AdaBoost algorithm on the training set to build the model, 
+finally the model was tested for accuracy on the test set.
+
+==== RESULTS
+
+They used several machine learning techniques but conclude that AdaBoost algorithm
+preforms better in fraud detection giving them an accuracy of 100% on predicting 
+fraudulent credit card transactions. 
+
+==== COMMENTS
+
+This dataset may not represent a real life scenario as fraudsters are constantly
+increasing their strategies Adding a variety of emails for both ham 
+and phished the system would be closer to a real life scenario.

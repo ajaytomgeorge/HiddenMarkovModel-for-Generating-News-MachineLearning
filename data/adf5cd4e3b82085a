@@ -1,0 +1,17 @@
+==== SOURCE
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+==== AGENT
+Engineers at Beihang University and Microsoft China
+==== GOAL
+Create a news bot that comments on popular news articles the same way a human would.
+==== DATA
+The system is based on how humans typically consume news online: We're likely to read the headline, 
+take away a few key points, and write a comment based on the points that are most interesting to 
+us—or support or contest them based on our own personal views.
+==== METHODS
+The system is made up of two neural networks: a reading network that "comprehends" an article and 
+picks out important points, and a generation network that writes a comment based on those points and 
+the title of the article.
+==== RESULTS
+The researchers successfully created a bot that reads and interprets news articles and can provide
+human like comments on the articles.

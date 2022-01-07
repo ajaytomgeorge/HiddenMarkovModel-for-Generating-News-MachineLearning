@@ -1,0 +1,30 @@
+==Source
+https://www.news-medical.net/news/20210714/Predictive-model-using-vocal-features-from-phone-conversations-can-identify-early-signs-of-Alzheimere28099s-disease.aspx
+
+==Agent
+ McCann Healthcare Worldwide Japan Inc
+
+==Goal
+Using vocal features to identify early signs of Alzheimer’s disease.
+
+==Data
+To develop accurate predictive models, researchers used 1,465 audio data files from 99 healthy individuals 
+as well as 151 audio data files recorded from 24 patients diagnosed with Alzheimer’s disease
+
+==Methods
+Researchers developed machine learning models based on 
+extreme gradient boosting (XGBoost), random forest (RF), and logistic regression (LR)
+
+==Results
+Machine-learning models, results showed that the predictive accuracy was not significantly 
+different in diagnostic capability in comparison to other diagnostic tests.
+
+==Issues
+Only superficial vocal features were used for analysis, which could lead to a loss of information and misidentification 
+if individuals spoke with accents or had unusual pronunciation.
+
+==Score
+7
+
+==Comments
+It's a new method, but there are few limitations, which can be resolved by further studies 

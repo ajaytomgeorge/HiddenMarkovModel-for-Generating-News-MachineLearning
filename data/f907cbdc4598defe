@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://cloud.google.com/blog/products/g-suite/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow
+
+==== AGENT
+
+Google
+
+==== GOAL
+
+Block spam emails
+
+==== DATA
+
+Spam emails being sent to users
+
+==== METHODS
+
+Supervised learning, emails tagged as spammed are used to teach the machine.
+
+==== RESULTS
+
+According to other sources, it worked out well.
+
+==== COMMENTS
+
+Google are using TensorFlow to further develop there already effective spam filter. Google's existing spam filter which utilises verious methods, including machine learning, already blocks more than 99.9% of spam mails. This effort is in order to block those few spam emails that make it through.

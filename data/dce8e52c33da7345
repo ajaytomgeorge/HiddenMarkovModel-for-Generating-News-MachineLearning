@@ -1,0 +1,41 @@
+High-Speed Tracking with Kernelized Correlation Filters
+
+SOURCE
+
+https://doi.org/10.1109/TPAMI.2014.2345390
+
+AGENT
+
+Joao F. Henriques, University of Coimbra, Portugal
+Rui Caseiro, University of Coimbra, Portugal
+Pedro Martins, University of Coimbra, Portugal and 
+Jorge Batista, University of Coimbra, Portugal
+
+GOAL
+
+The core component of most modern trackers is a discriminative classifier, tasked with distinguishing between the target and the surrounding environment. 
+To cope with natural image changes, this classifier is typically trained with translated and scaled sample patches. 
+Such sets of samples are riddled with redundancies – any overlapping pixels are constrained to be the same. 
+
+DATA
+
+Random video sequences as input dataset.
+
+METHODS
+
+Proposed an analytic model for datasets of thousands of translated patches. 
+By showing that the resulting data matrix is circulant, it can diagonalized with the Discrete Fourier Transform, reducing both storage and computation by several orders of magnitude. 
+Interestingly, for linear regression the author's formulation is equivalent to a correlation filter, used by some of the fastest competitive trackers. 
+For kernel regression, however, the authors derive a new Kernelized Correlation Filter (KCF), that unlike other kernel algorithms has the exact same complexity as its linear counterpart. 
+Building on it, they also propose a fast multi-channel extension of linear correlation filters, via a linear kernel, which is called Dual Correlation Filter (DCF). 
+Both KCF and DCF outperform top-ranking rackers such as Struck or TLD on a 50 videos benchmark, despite running at hundreds of frames-per-second, and being implemented in a few lines of code.
+
+RESULTS
+
+Demonstrated that it is possible to analytically model natural image translations, showing that under some conditions the resulting data and kernel matrices become circulant. 
+Their diagonalization by the DFT provides a general blueprint for creating fast algorithms that deal with translations. 
+They have applied this blueprint to linear and kernel ridge regression, obtaining state-of-the-art trackers that run at hundreds of FPS and can be implemented with only a few lines of code.
+
+COMMENTS
+
+Kernelized Correlation Filters is a new idea based on target features, different from traditional methods, however it's performance is compromised when the tracking target has large scale changes and severe occlusion.

@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://towardsdatascience.com/teslas-deep-learning-at-scale-7eed85b235d3
+
+==== AGENT
+
+Tesla path planning
+
+==== GOAL
+
+The goal is to teach a machine to drive like a human. It involves teaching it to stay in its lane, keep the speed limit, change lanes, take turns and watch out for pedestrians.
+
+==== DATA
+
+They collect data from all of its users and vehicles. Tesla vehicles have multiple sensors
+that collects various data.
+
+==== METHODS
+
+Use imitation learning to predict what a human driver would do by finding connections between what it sees and human behaviour.
+
+==== RESULTS
+
+Tesla is currently applying imitation learning to driving tasks and plans to use it for other tasks.
+
+==== COMMENTS
+
+This could reduce human errors and car accidents.

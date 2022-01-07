@@ -1,0 +1,60 @@
+==== SOURCE
+
+http://cs229.stanford.edu/proj2018/report/3.pdf
+
+==== AGENT
+
+Alexandre Bucquet, Stanford University
+Vishnu Sarukkai, Stanford University
+
+==== GOAL
+
+This paper focuses on using machine learning in the field of sports 
+betting, using the National Basketball Association(NBA) as an example.
+Their goal is to predict for every NBA game the total combine points
+the two teams will score in a single game. They hope to come up with
+an estimate that is more accurate that some betting platforms and use
+this to place bets.
+
+==== DATA
+
+The data is classified into two groups, betting and game data.
+
+Betting Data:
+The betting odds data for all seasons dating back to (2007-2008) was found on 
+https://www.sportsbookreviewsonline.com/scoresoddsarchives/nba/nbaoddsarchives.htm
+This data consited of over-under, spread and moneyline indicators. However only the 
+over-under data was used to evaluate the model. 
+
+Game Data:
+The game data for all seasons dating back to (2007-2008) was found on 
+https://www.basketball-reference.com/
+Data was collected for every game and included data points for points scored,
+rebounds, assists and steals for both teams.
+
+Using this data they built a featurized dataset, which included features 
+such as points scored, points scored against, total rebounds, number of days 
+since last game, distance travelled and offensive rating which were all 
+calculated for the last three games.
+
+==== METHODS
+
+They used Random Forest, Singular Value Decomposition and Neural Nets.
+The training set consisted of four seasons from 2012/2013 to 2015/2016 and used
+the 2016/2017 season to validate the model.
+
+==== RESULTS
+
+The Neural Network has four-fully connected layers, reducing the input dimension from 1524, 
+to 500, then 100, then 20, then 1 to predict the over/under of the desired game.
+They evaluated the performance of the model through the Mean Square Error (MSE) between the 
+predicted value and the true point total observed in the game. They found that the 
+neural network correctly chooses over or under around 51.5% of the time.
+
+
+==== COMMENTS
+
+The featurized dataset only includes game level data and does not account for
+the impact of player injuries or fatigue. If a key player on a team was injured,
+this could have a huge effect on how many points a team would score.
+

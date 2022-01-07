@@ -1,0 +1,40 @@
+== SOURCE
+
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+
+== AGENT
+
+Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory
+
+== GOAL
+
+Build a system that can automatically decipher a lost language, 
+without needing advanced knowledge of its relation to other languages
+
+== DATA
+	
+words from the languages
+ 
+
+== METHODS
+
+They developed a decipherment algorithm that can handle the vast space of possible transformations
+and the scarcity of a guiding signal in the input.
+The algorithm learns to embed language sounds into a multidimensional space where differences in
+pronunciation are reflected in the distance between corresponding vectors.
+
+== RESULTS
+The proposed algorithm can assess the proximity between two languages;
+in fact, when tested on known languages,
+it can even accurately identify language families.
+
+== ISSUES
+none
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I find this interesting, the potential to translate old lost languages and learn about our history as a species.

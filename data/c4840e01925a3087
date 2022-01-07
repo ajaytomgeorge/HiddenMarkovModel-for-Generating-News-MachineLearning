@@ -1,0 +1,35 @@
+== SOURCE
+
+https://venturebeat.com/2021/09/23/openai-unveils-model-that-can-summarize-books-of-any-length/
+
+== AGENT
+
+Open AI
+
+== GOAL
+
+Accurately summarise a book of any length
+
+== DATA
+
+Training for the model used a subset of books in GPT-3's training dataset. These were mostly fiction books with an average of 100,000 words. Validation was done with the 40 most popular books published in 2020 according to Goodreads.
+
+== METHODS
+
+OpenAI used a combination of reinforcement learning and recursive task decomposotion. This involves breaking up a difficult task into smaller sub tasks (e.g. summarising small sections of a book then summarising these summaries). 2 people were assigned to read each book given to the model, write a summary and then rate the summary given by both the model and the other person.
+
+== RESULTS
+
+The model successfuly generated "book-level" summaries with most of the important information. However it also generated inaccurate statements due to lack of context. 
+
+== ISSUES
+
+The idea of "recursive task decomposition" seems to cause problems when trying to create a coherent summary. An example of this in the article is that it might be difficult to catch cases where earlier details in a book are only later revealed to be important. 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+While it would be of great use to generate a summary for a text of any length, summary generation is not new and has been around for a while. This seems like more of iteration than a new exciting idea, and it is clear from the results and issues that it will take some time for it to be perfected.

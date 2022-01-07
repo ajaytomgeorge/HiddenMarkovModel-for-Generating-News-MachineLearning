@@ -1,0 +1,34 @@
+==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Reasearchers at MIT and the University of California in San Diego
+==== GOAL
+
+Using Machine Learning to hunt down Cybercriminals
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Got several years worth of network operators mailing list as well BGP data taken ever y5mns from the global routing table.
+
+==== METHODS
+
+What did they actually do?
+
+Hijacking IP addresses is an increasingly popular form of cyber-attack. This can be sending spam,malware to steal information.They were trying to predict
+the incidents in advance by tracing back to the hijackers using machine learning.They used data from several network operators mailing list to observe fotr malicious
+activities and use a model to train this to automatically identify these activites.They flag the network that several characteristics. which are changes in networks frequenlty
+a legitmate network's address blaock stay for a lot longer while hijackers bloack stay less than 50 days.
+
+==== RESULTS
+
+How did it go for them?
+They are still working on increasing the security measures. Introducing cryptography to ensure that the network announces legitmate IP address.
+
+==== COMMENTS
+
+This is very crucial project as many people rely on internet for crucial bank transcations. This can be easily misused by these hijackers. This project can provide
+better solotions to prevent activities such as anti-spoofing, filtering etc.

@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://help.netflix.com/en/node/100639
+
+==== AGENT
+
+Netflix movie recommendation
+
+==== GOAL
+
+Recommend movies a user might be interested in.
+
+==== DATA
+
+They collect data from each user such as when a user pause a video, what time of the day they watch, browsing and scrolling behaviour.
+
+==== METHODS
+
+They train their algorithm after every visit to Netflix to better predict the movie its user might watch.
+
+==== RESULTS
+
+They recommend movies they think the users will like more. They have high customer retention rate as a result.
+
+==== COMMENTS
+
+Netflix has good movie recommendations.

@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://phys.org/news/2019-10-scientists-machine-learning-algorithms-automate.html
+
+==== AGENT
+
+Salk Institute for Biological Studies
+
+==== GOAL
+
+Accelerate the rate of plant phenotyping in order to gain a better understanding of botanical responses to climate change, genetic mutations or other factors.
+
+==== DATA
+
+A 3-D laser scanner was used to scan 54 tomato and tobacco plants grown in a variety of conditions. The resulting data was in the form of 3-D point clouds.
+
+==== METHODS
+
+The 3D point clouds were fed to machine learning algorithms which were used to teach a program how to phenotype plants. Initially the researchers had to manually indicate to the algorithms where the leaves and shoots were on each plant. The researchers concentrated the program's efforts on making three frequently used phenotype measurements — separating stems from leaves, counting leaves and their size, and outlining the branching patterns of a plant.
+
+==== RESULTS
+
+The software eventually began to automatically recognize the features which previously the researchers had to manually indicate themselves. Ultimately the method achieved a 97.8% accuracy at identifying stems and leaves. However, the program still has trouble differentiating two close-together leaves and it may not work on all types of plants.
+
+==== COMMENTS
+
+I think that the tools developed for this study by the Salk institute if fully implemented would save biologists a large amount of time and effort in the phenotyping of plants. Given that is one of the first uses of machine learning for plant identification this could open the door to a wide variety of potential solutions to problems such as identifying poisonous plants and automating agricultural tasks.
+

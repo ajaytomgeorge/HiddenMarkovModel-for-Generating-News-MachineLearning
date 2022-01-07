@@ -1,0 +1,57 @@
+== SOURCE
+
+> Netflix Awards $1 Million Prize and Starts a New Contest
+https://bits.blogs.nytimes.com/2009/09/21/netflix-awards-1-million-prize-and-starts-a-new-contest/
+
+== AGENT
+
+Competition Hosted by **Netflix**
+Algorithm created by Team: **BellKor’s Pragmatic Chaos**
+
+== GOAL
+
+**Improve by at least 10%** the accuracy of Netflix's own **recommender system** - *Cinematch*.
+
+== DATA
+
+Data in quadruplet form: <user, movie, date of grade, grade>
+	- User, Movie fields are integers
+	- Grade field is integer range 1..5
+
+- Training set (99,072,112 ratings not including the probe set, 100,480,507 including the probe set)
+	- Probe set (1,408,395 ratings)
+- Qualifying set (2,817,131 ratings) consisting of:
+	- Test set (1,408,789 ratings), used to determine winners
+	- Quiz set (1,408,342 ratings), used to calculate competition leaderboard scores
+
+== METHODS
+
+BellKor Algorithm contains:
+- Neighborhood-based model (k-NN)
+- A factorization model
+- Restricted Boltzmann Machines
+- Asymmetric factor models 
+- Regression models 
+
+== RESULTS
+
+What were their results?
+
+BellKor's Pragmatic Chaos team got a **10.09% improvement** over Cinematch on the Qualifying set (a Quiz RMSE of 0.8554)
+
+== ISSUES
+
+Evident privacy concerns regarding that dataset that have already been addressed:
+
+>"Although the data sets were constructed to preserve customer privacy (each user was given a unique ID, rather than username), the Prize has been criticized by privacy advocates. In 2007 two researchers from The University of Texas at Austin **were able to identify individual users by matching the data sets** with film ratings on the Internet Movie Database.
+> Four Netflix users filed a class action lawsuit against Netflix, alleging that Netflix had violated U.S. fair trade laws and the Video Privacy Protection Act by releasing the datasets. There was public debate about privacy for research participants. On March 19, 2010, Netflix reached a settlement with the plaintiffs, after which they voluntarily dismissed the lawsuit."
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The press generally did not explain their algorithm whatsoever, their focus mainly revolved around the winner and the money gained by the team
+
+The dataset however was the largest dataset of its type, and remains the largest to this day.

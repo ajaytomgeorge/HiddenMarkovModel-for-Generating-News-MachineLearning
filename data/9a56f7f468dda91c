@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.sciencedaily.com/releases/2021/09/210923082933.htm
+
+== AGENT
+
+University of Waterloo
+
+== GOAL
+
+To create Artificial intelligence that may assess climate change and reveal climate-change tipping points
+
+== DATA
+
+They used the existing climate tipping points models of about 500,000 models and used that dataset to predict the future climate change by considering the other environmental factors like wind speed, direction, temperature variation etc.
+
+== METHODS
+
+They used the existing data and tested it on specific real-world tipping points in various systems, including historical climate core samples. The AI not only predicts the climate change tipping points but it also adapts itself to predict and provide a improved early warning of climate tipping points which could help societies adapt and reduce their vulnerability to what is coming, even if they cannot avoid it.
+
+== RESULTS
+
+They have developed artificial intelligence that could assess climate change tipping points. The deep learning algorithm could act as an early warning system against runaway climate change.
+
+== ISSUES
+
+None.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+They have used the existing data and managed to enhance it to an extent which might be a life saver thing for some regions like Japan where the climatic natures are changing or in detecting the melting Arctic permafrost.

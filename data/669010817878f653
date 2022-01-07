@@ -1,0 +1,33 @@
+==== SOURCE
+
+https://www.rochester.edu/newscenter/methane-budget-machine-learning-to-understand-climate-change-400802/
+
+==== AGENT
+
+Developed by Thomas Weber, University of Rochester; Nicola A. Wiseman, University of California, Irvine; Annette Kock, GEOMAR Helmholtz Centre for Ocean Research in Germany.
+
+==== GOAL
+
+They were attempting to come up with a more accurate estimate of oceanic methane emissions.
+
+==== DATA
+
+The data came from a database of CH4 concentration measurements from the ocean mixed layer, to form the basis of a CH4 climatology that was used train the machine-learning models.
+The majority of [CH4] data were taken from the Marine Methane and Nitrous Oxide (MEMENTO) Database.
+
+==== METHODS
+
+For each month, all data collected during that month (regardless of year) was pinned onto a 0.25° × 0.25° latitude/longitude grid, and the average value for each grid cell was calculated.
+The monthly CH4 climatology was used to train an ensemble of ANN and RRF models to generate continuous, mapped climatologies.
+
+==== RESULTS
+
+"Our approach allowed us to pin down the global ocean emission rate much more accurately than ever before"
+Very shallow coastal waters contribute around 50 percent of the total methane emissions from the ocean, despite making up only 5 percent of the ocean area.
+Methane exhibits a spatial pattern very similar to that of phytoplankton abundance, which supports a controversial recent hypothesis that plankton produces methane in the surface ocean.
+
+==== COMMENTS
+
+https://www.nature.com/articles/s41467-019-12541-7#Sec1
+A link to the actual paper from wich this story was written.
+This is a very important use of ML at the moment, with the issue of climate change becoming more worrying by the day. 

@@ -1,0 +1,40 @@
+== SOURCE
+
+https://ocula.com/magazine/art-news/google-reconstructs-lost-klimt-paintings-with-ai/
+
+== AGENT
+
+Google.
+
+== GOAL
+
+Reconstruct Lost Gustav Klimt Paintings With Machine Learning.
+
+== DATA
+
+Data set of Klimt's works, archival data, and scholarly research.
+
+== METHODS
+
+Supervised Learning, Progressive Learning,  The model has a similar structure to DeOldify, a U-net with a pre-trained ResNet-34 with self-attention, spectral normalization, and a 3-channel RGB input with color hints. It’s progressively trained with a custom feature loss from a pre-trained GAN critic.
+
+
+== RESULTS
+
+The AI could make a good guess at what the paintings would have looked like. 'The result for me was surprising because we were able to colour it even in the places where we had no knowledge,' said Dr Franz Smola, curator at the Belvedere Museum, Vienna.
+
+== ISSUES
+
+Choosing a colour pallete is a large portion of the artistic process and I believe that reconstructing it with AI would obscure the artist's original intentions.
+The article left out a lot of technical information.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The article lacks technical information on the project. It did not state what method of machine learning was used to create the AI.
+The article also didn't mention the use of a huge dataset of 1 million pictures of the real workd and 91,749 images of artworks by other artists. It also didn't mention that vague colour profiles were sketched by humans.
+(sources:	https://www.artnews.com/art-news/news/gustav-klimt-lost-paintings-restored-ai-1234605969/
+		https://artsandculture.google.com/story/SQWxuZfE5ki3mQ)

@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G
+
+==== AGENT
+
+Amazon
+
+==== GOAL
+
+Hire the best people ny using previous data to determine the best people to hire.
+
+==== DATA
+
+Th data was from succesful applicants for the last 10 years
+
+==== METHODS
+
+Computer models were trained to observe patterns in the CVs of hires that were succesful in the last 10 years.
+
+==== RESULTS
+
+Most of the succesful applicants were men, which caused the system to pick more men based on their C.V.
+
+==== COMMENTS
+
+This did not work because of the bias in hiring decisions that were already present. This idea was doomed to fail because it relied on previous data that was tainted.

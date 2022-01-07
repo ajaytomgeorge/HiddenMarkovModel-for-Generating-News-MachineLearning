@@ -1,0 +1,43 @@
+
+== SOURCE
+
+https://www.wired.com/story/this-ai-helps-detect-wildlife-health-issues-in-real-time/
+
+== AGENT
+
+Researchers at UC Davis
+
+== GOAL
+
+An early detection system that uses artificial intelligence to classify admissions to rehabilitation centers, in the hope of sending wildlife agencies 
+and researchers warnings about growing problems among marine birds and many other kinds of animals.
+
+== DATA
+
+The system scans intake reports produced at 30 California centers, listing information like the animal’s species, age, reason for admission, 
+and diagnosis.The researchers used five years of data and more than 200,000 records to establish baselines for how frequently these 
+conditions normally occur
+
+== METHODS
+
+Supervised learning. AI uses natural language processing to categorize the reports, looking for patterns in the number of admissions
+related to certain illnesses and injuries.
+
+== RESULTS
+
+The researchers used five years of data and more than 200,000 records to establish baselines for how frequently these conditions normally occur. 
+When the system detects an anomaly—an unusually high number of cases in a given species—it automatically creates an alert, 
+which is delivered to wildlife experts either via the system dashboard, an email, or text message.
+
+== ISSUES
+
+Result may not be accurate always.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Its interesting . But the result may not be always accurate as there could be one off diseases in this and when a new type of pattern comes system 
+will have to be trained.I believe this is based on new sets of data with existing methods.More data would result in more accuracy.

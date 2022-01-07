@@ -1,0 +1,18 @@
+== SOURCE
+https://artificialintelligence-news.com/2020/10/19/microsoft-new-ai-auto-captions-images-visually-impaired/
+== AGENT
+Microsoft
+== GOAL
+Automatically caption images in documents and email so that software for visual impairments can read it out.
+== DATA
+arXiv
+== METHODS
+VIVO, Computer Vision, Image captioning.
+== RESULTS
+auto-captioning feature is also expected to be available in Microsoft products.
+== ISSUES
+None
+== SCORE
+7
+== COMMENTS
+Web Devs are lazy not adding alt text to images.

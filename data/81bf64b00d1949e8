@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+
+Microsoft
+
+==== GOAL
+
+Make a Bot That Comments on News Articles to bicker with real humans in the comments section
+
+==== DATA
+
+Fake accounts that plague Twitter and Facebook, and content designed to misinform readers was the data given by Congress.
+
+==== METHODS
+
+According to the research, the system is made up of two neural networks: a reading network that "comprehends" an article and picks out important points, and a generation network that writes a comment based on those points and the title of the article. The system is based on how humans typically consume news online: We're likely to read the headline, take away a few key points, and write a comment based on the points that are most interesting to us—or support or contest them based on our own personal views. Creators intend for it to be used to encourage human commentary on articles, to drive more people to read them and engage with the content.
+
+==== RESULTS
+
+A commenter-bot like DeepCom also wouldn't be immune to the biases that affect all AI systems. DeepCom is trained on two datasets: a Chinese dataset made by crawling Tencent News, a popular Chinese websites of news and opinion articles, and an English dataset built by crawling news articles and comments from Yahoo News. Both of these mix in opinion and editorialized pieces with journalism, and as all news articles are (currently) written by humans, they're all inevitably biased in some way. The paper doesn't address issues of potential bias in the data.
+
+==== COMMENTS
+
+It's a good way to get readers to engage with stories and become more interested in whats going on around them.

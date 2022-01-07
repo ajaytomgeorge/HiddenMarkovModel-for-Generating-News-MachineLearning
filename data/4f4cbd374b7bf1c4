@@ -1,0 +1,28 @@
+ARTICLE 3  -  GPT3 
+== SOURCE
+https://www.forbes.com/sites/bernardmarr/2020/10/05/what-is-gpt-3-and-why-is-it-revolutionizing-artificial-intelligence/?sh=5bf9482e481a
+https://lambdalabs.com/blog/demystifying-gpt-3/
+
+== AGENT
+OpenAI
+
+== GOAL
+It aims simply to be able to perform text generation
+
+== DATA
+It was trained with text from Books, Wikipedia, Common Crawl and Text from the internet.
+
+== METHODS
+Deep learning 
+
+== RESULTS
+GPT-3 can create anything that has a language structure  -  which means it can answer questions, write essays, summarize long texts, translate languages, take memos, and even create computer code
+
+== ISSUES
+The amount of computing power required to run GPT3 are hugely expensive and makes it not able to work for most people
+
+== SCORE
+8
+
+== COMMENTS
+It is interesting a program that can write articles just like this https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3 so it is nice to see 

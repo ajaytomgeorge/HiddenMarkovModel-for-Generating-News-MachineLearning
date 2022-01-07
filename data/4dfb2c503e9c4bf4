@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.reddit.com/r/eurovision/comments/bsjoa2/eurovision_song_made_by_an_ai/
+
+==== AGENT
+
+Oracle Innovation and Oracle Cloud were the Machine Learning (ML) team. Eran Hadas was the Deep Learning specialist. Song specialists were involved but not part of the ML process. 
+
+==== GOAL
+
+To produce a Eurovision song by "...feeding hundreds of Eurovision songs - melodies and lyrics..." into a neural network.
+
+==== DATA
+
+Melodies and lyrics of hundreds of Eurovision songs.
+
+==== METHODS
+
+The individual teams took seperate data from the Eurovision songs. There is no specification in the source in how exactly they constructed their "deep learning algorithm". Another song specialist team "cherry picked" melodies and lyrics produced by the outputs and produced a song. The song was then sung by a vocalist.
+
+==== RESULTS
+
+The results were neither listenable nor legible, meaning that song producers had to intervene and select melody lines and lyrics that might fit together. None on the reconstruction was successfully completed by the AI.
+
+==== COMMENTS
+
+Nothing about the actual machine learning process was released by the agent and this particular reddit post gave no technical insight into the ML behind the song. I had no confidence that this project was nothing but a media stunt. Still, the song is kind of funky.
+

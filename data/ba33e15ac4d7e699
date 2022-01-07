@@ -1,0 +1,60 @@
+==== SOURCE
+
+https://news.mit.edu/2019/faster-video-recognition-smartphone-era-1011
+https://arxiv.org/pdf/1811.08383.pdf
+
+==== AGENT
+
+MIT-IBM Watson AI
+
+==== GOAL
+
+Several goals:
+1. To create smaller video-recognition models which can run on consumer devices
+   such as smartphones. This can be used for gesture recognition and real-time
+   video classification.
+2. To make it more efficient in classifying videos uploaded to services such as
+   YouTube, thus improving searchability.
+3. Reducing the AI carbon footprint. Training video recognition AIs uses a lot
+   of power.
+
+The researchers were not trying to achieve anything revolutionary in terms of
+what this kind of AI can *do*, but just to do it more efficiently. Training
+these kinds of models is still very expensive, requiring vast amounts of
+compute, but once trained, they can be run on small low-powered devices such as
+cellphones. The goal of this research is to reduce the power required to run the
+model, but it also had the side-effect of requiring less power to train them.
+
+==== DATA
+
+* Res-Net-50 (2D)
+* Something-Something  (V1 & V2)
+* Kinetics dataset (large-scale action recognition dataset with 400 classes)
+
+==== METHODS
+
+The researchers invented an operation called a "temporal shift module" which
+shifts the 3D feature maps of a video frame to its neighbouring frames, so each
+frame contains information from its neighbours from the past and future, giving
+the model a sense of time passing. This is a pre-processing step which packs
+more information into one frame, meaning the AI can get more out of each frame,
+meaning less features are required per frame.
+
+==== RESULTS
+
+They managed to reduce the size of the model from 150M parameters to 25M,
+thereby reducing the footprint and time taken to train. The model also
+out-performed its peers at recognising actions in the "Something-Something"
+video data set, and also could do this in real-time (presumably its competitors
+couldn't). Finally they ran the model on a single-board computer (a Raspberry Pi
+I believe), and it successfully recognised gestures while being powered with the
+same amount of power as a bike light.
+
+==== COMMENTS
+
+Very interesting research which should bring this kind of useful AI such as
+gesture recognition to the consumer at a lower price. It also reduces the
+latency of video recognition systems meaning they can figure out what they're
+looking at more quickly. Finally, reducing the compute needed to train and run
+such a model, thus reducing carbon footprint. Good work with many nice
+side-effects!

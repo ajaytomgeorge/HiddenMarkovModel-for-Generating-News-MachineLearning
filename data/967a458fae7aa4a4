@@ -1,0 +1,27 @@
+====SOURCE 
+
+https://martechtoday.com/google-to-address-ad-frequency-with-machine-learning-when-cookies-arent-available-236082 
+
+====AGENT 
+
+Google 
+
+====GOAL 
+
+Addressing ad frequency with machine learning when cookies are not available. 
+
+====DATA 
+
+Data was retrieved from third parties which had cookies enabled. In the form of statistics 
+
+====METHOD 
+
+The feature uses machine learning to analyze traffic patterns when third-party cookies are available and builds models to predict patterns when a cookie isn’t present. 
+
+====RESULTS 
+
+“This allows us to estimate how likely it is for users to visit different publishers who are serving the same ads through Google Ad Manager. Then, when there is no third-party cookie present, we’re able to optimize how often those ads should be shown to users,” 
+
+====COMMENTS 
+
+This will allow for more relevant ads for each user regardless if they have cookies enabled. 

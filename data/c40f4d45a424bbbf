@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.techspot.com/news/91493-music-scholars-computer-scientists-completed-beethoven-tenth-symphony.html
+
+== AGENT
+
+Karjan Institute.
+
+== GOAL
+
+Complete Beethoven’s Tenth Symphony.
+
+== DATA
+
+They used Beethoven’s completed works, what’s known about his methods to compose music, and his sketches of the symphony.
+
+== METHODS
+
+I believe they used supervised learning algorithms.
+
+== RESULTS
+
+The algorithm was able to complete the Tenth Symphony in such a way that only experts intensely familiar with Beethoven’s sketches for the work were able to tell where the original stopped and the AI began.
+
+== ISSUES
+
+Some may see a problem with attempting to complete a famous artist’s incomplete work.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I think it’s very cool that they were able to finish a piece of music so complex with a machine, and that it was so accurately done that the majority of people wouldn’t know that it was computer generated.

@@ -1,0 +1,26 @@
+==== SOURCE
+
+http://news.mit.edu/2019/detecting-pain-levels-brain-signals-0912
+
+==== AGENT
+MIT
+
+==== GOAL
+
+Detect patients’ pain levels via brain signals.
+
+==== DATA
+
+They got their data from fNIRS sensors on patients’ forehead.They collected this data from 43 male participants.
+
+==== METHODS
+
+Trained a model to extract dozens of features from the signals related to how much oxygenated and deoxygenated hemoglobin was present as well as how quickly oxygenated hemoglobin was generated. They tried two models, a personalized model and a traditional model.
+
+==== RESULTS
+
+The personalized models reached 87 percent accuracy, the global model was 20 percent lower.
+
+==== COMMENTS
+Article largely focuses on the biology rather than the machine learning techniques so it is difficult to get more technical details.
+

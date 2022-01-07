@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.news-medical.net/news/20211013/Researchers-develop-a-cervical-myelopathy-screening-tool-using-non-contact-sensor-and-machine-learning.aspx
+
+== AGENT
+
+The Japan Science and Technology Agency
+
+== GOAL
+
+Use machine learning assess finger movement during the 10-second grip and release test in order to determine whether subjects have cervical myelopathy.
+
+== DATA
+
+Time series data of finger movement taken from patients, 50 of which have cervical myelopathy while 28 do not.
+
+== METHODS
+
+Supervised learning
+
+== RESULTS
+
+They developed a highly accurate cervical myelopathy screening tool which is more accurate at diagnosis that by a specialist using physical findings
+
+== ISSUES
+
+None
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I found this story very interesting as it demonstrates the power of machine learning and that they are in fact better than humans at certains tasks provided
+that the task required is reasonably narrow.

@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.technologyreview.com/2021/04/14/1022676/robert-williams-facial-recognition-lawsuit-aclu-detroit-police/
+
+== AGENT
+
+Detroit Policy Department / DataWorks Plus
+
+== GOAL
+
+Utilise a face-recognition system which matches the face of a criminal from a video to a photographic 
+identification in order to find a suspect.
+
+== DATA
+
+Grainy CCTV footage matched against database of photographic identification
+
+== METHODS
+
+Deep Learning
+
+== RESULTS
+
+Wrongful accusation.
+
+== ISSUES
+
+Facial recognition has been found to be far less effective at identifying darker skinned people.
+Sub-par images also contributed to misidentification.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+I thought it was interesting the fact that this technology has trouble identifying darker skinned subjects.
+The report was reasonable as there is found to be an error rate difference of up to 34.4% between identifying light skinned and dark skinned people with 
+facial-recognition technology.
+Facial-recognition technology is relatively new in the sense that it has only become widely available in the past 5-or-so years and it is still far from
+perfect as seen in this article.

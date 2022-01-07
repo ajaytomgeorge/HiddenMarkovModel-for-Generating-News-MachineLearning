@@ -1,0 +1,34 @@
+﻿==== SOURCE
+
+https://futurefive.com.au/story/turnitin-looks-to-ai-to-detect-student-cheaters
+http://www.newindianexpress.com/lifestyle/tech/2019/may/30/this-artificial-intelligence-can-detect-whether-students-have-cheated-in-doing-assignments-1983774.html
+
+==== AGENT
+
+Turnitin Labs and Phillip Dawson, Wendy Sutherland-Smith and Mark Riksen at Deakin University, Australia.
+
+==== GOAL
+
+The goal was to incorporate Artificial Intelligence and Machine Learning into Turnitin to tackle "Contract-Cheating".
+
+==== DATA
+
+The model was trained on 130,000 written assignments and was trained to learn representation of writing styles.
+
+==== METHODS
+
+The model identifies discrepancies in writing styles by comparing recently submitted writing against a student's previously submitted work, it does so by looking at word length, sentence structure and how words are used and compares all these variables from the current assignment to the previous assignments submitted by the student.
+The model was also trained to analyze the document modification details such as date created and last modified.
+As part of the study, 24 experienced markers used Turnitin’s Authorship Investigate tool to evaluate 20 student assignments, which included 14 genuine assignments and six that were purchased from cheating sites.
+
+==== RESULTS
+
+The model wasn't perfect as it could catch the cheating cases with only 59% accuracy but it was still higher than markers without using AI and ML as they were able to detect only 48% of the cases.
+While the model wasn't good at explicitly detecting if cheating had occured or no, it did crunch the statistics to recommend further investigation by the markers. It helped to replicate the "gut-feeling" markers get when they suspect a student is cheating.
+In addition to potentially improving the detection rates, this model also offeres benfits like raising awareness about contract cheating and presenting enough evidence so that the professors could take their suspicions further and do a manual check.
+
+==== COMMENTS
+
+The testing was done on too small a dataset so it could be that the 11% increase in the prediction was solely due to chance and maybe the model wasn't actually performing better. The researchers need to test on a larger scale.
+There should be better metrics to decide whether a submission is genuine or not, besides comparing it to previous submission of a student because it could be such that students are plagiarising from their very first assignment.
+The researchers should use a weighted average of multiple factors, also taking into consideration the time of submission to predict the similarity score for as assignment as relying on just one factor of sentence analysis could render the algorithm breachable.

@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.ajmc.com/journals/issue/2019/2019-vol25-n10/a-deep-learning-model-for-pediatric-patient-risk-stratification
+
+==== AGENT
+
+A group of researchers lead by En-Ju D. Lin, PhD, MPH
+
+==== GOAL
+
+To create a deep learning model to analyze complex clinical and financial data for population risk stratification
+
+==== DATA
+
+The data consisted of medical claims from 303,404 PFK members who were eligible at the start of 2014.
+
+==== METHODS
+
+“Skip-Gram,” an unsupervised deep learning approach that uses neural networks for prediction modeling, used the data provided to predict the risk of hospitalization in 2016. The area under the curve (AUC) of the deep learning model was compared with that of both the Clinical Classifications Software and the commercial DxCG Intelligence predictive risk models, each with and without demographic and utilization features. The team then calculated costs for patients in the top 1% and 5% of hospitalization risk identified by each model
+
+==== RESULTS
+
+Out of 6 different predictive models the deep learning model performed the best with an AUC of 75.1%. The predicted healthcare cost of the top 1% of members selected by the deep learning model was $5 million higher than that of the group identified by the DxCG Intelligence model. 
+
+==== COMMENTS
+
+This study could lead to potential applications which would be extremely beneficial in helping patients decide which healthcare provider they choose to do business with in the future. It could also assist healthcare providers in making decisions which make it easier for patients to do business with them (e.g. whether the cost of some service needs to be increased or decreased.)
+

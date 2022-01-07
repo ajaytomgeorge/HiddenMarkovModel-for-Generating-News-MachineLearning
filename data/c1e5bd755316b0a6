@@ -1,0 +1,49 @@
+== SOURCE
+
+https://deepmind.com/blog/article/Using_ai_to_predict_retinal_disease_progression
+
+== AGENT
+
+DeepMind
+
+== GOAL
+
+Predict retinal disease progression using AI. 
+More specifically, to predict cases of AMD (age related macular degeneration) 
+that will develop into the more advanced exAMD (exudative AMD).
+
+== DATA
+
+Dataset of anonymised retinal scans from Moorfields Eye Hospital patients with exAMD
+in one eye and at high risk of developing it in their other eye. Comprises 2,795 patients
+across seven different hospitals with representation across genders, age and ethnicities. 
+
+== METHODS
+
+System consists of two deep convolutional neural networks that take high dimensional volumetric
+eye scans as input. The eye scans are segmented into thirteen anatomical categories using an existing model
+(previously developed by DeepMind). The segmented data is combined with the raw eye scan and used as input to
+the prediction model which is trained to estimate a patients risk of conversion to exAMD in their other eye
+within the next six months.
+
+== RESULTS
+
+Six retinal experts, each with at least ten years experience, were asked to predict if a an eye will convert to 
+exAMD within the ensuing six months. 
+The system performed as well as, and in some cases better than, these experts in predicting exAMD progression.
+
+== ISSUES
+
+Potential ethical issues arise around false positives (system predicts progression in patients in which it doesn't occurr)
+and false negatives (system does not predict progression in a patient in which it does occurr). The impact of these false
+positives and negatives depends on whether the systems predictions are the only factor in treatment decisions or if it acts
+only as an aid to clinicians.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Its cool that they're utilising pre existing data to aid clinicians to provide preventitive treatment for a disease that affects 
+millions of people. The article doesn't mention the means used to train the model.  

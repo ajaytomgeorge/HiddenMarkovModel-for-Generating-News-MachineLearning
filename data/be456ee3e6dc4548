@@ -1,0 +1,39 @@
+== SOURCE
+
+https://inews.co.uk/news/science/machine-learning-predict-animal-viruses-covid-19-risk-infecting-humans-1222374
+
+== AGENT
+
+University of Glasgow researchers
+
+== GOAL
+
+System that could class the risk level of animal viruses to humans
+
+== DATA
+
+It used data that was encoded in the viral genome
+
+== METHODS
+
+An algorithm using Supervised Learning was used for this
+
+== RESULTS
+
+The system was able to predict accurately viruses, even new viruses
+
+== ISSUES
+
+Although the system is very accurate, there is still a chance that it may underestimate 
+a virus that could then lead to more issues
+
+== SCORE
+
+9
+
+== COMMENTS
+
+This system has the power to help identify viruses before they could cause any real damage to people. 
+I found it interesting that it could identify new viruses and how it could be implemented in keeping
+the virus under control and how it could class the virus from low to high risk. I highly recommend having
+a read of the article  

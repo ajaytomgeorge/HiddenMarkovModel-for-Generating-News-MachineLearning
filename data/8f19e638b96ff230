@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.zmescience.com/science/news-science/machine-learning-archaeology-30092021/
+
+== AGENT
+
+Penn State
+
+== GOAL
+
+The goal of this experiment was to make archealogical findings about how Native
+Americans in the southeast made shell-ring buildings.
+
+== DATA
+
+LiDAR images of 18 shell rings, 21 circular mounds, and 36 modern structures (to alleviate false positives).
+
+== METHODS
+
+A Convolutional Neural Network was used. 
+
+== RESULTS
+
+The netwok had validation accuracy of 75% for shell rings, 79.5% for shell mounds, and 59.5 for modern buildings.
+
+== ISSUES
+
+The dataset used to train the network was extremely small, which may have led to inaccuracies.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The article was interesting and reported on accurately by the website.  I think the methodology 
+was done well other than the fact that the dataset was small.  I was suprised that the network
+worked so well under those constrains, but the use of a CNN was smart for LiDAR data.  This 
+methodology was not new but has been very succesful for discovering new archeollogical findings.

@@ -1,0 +1,21 @@
+==== SOURCE
+https://venturebeat.com/2019/09/27/how-smart-protection-uses-machine-learning-to-thwart-online-piracy/
+==== AGENT
+Smart Protection
+==== GOAL
+Smart Protection is working to help brands and rightsholders identify online hubs that host illegal 
+streams, downloads, and other types of content infringement.
+==== DATA
+By scanning the web, Smart Protection effectively builds a huge database of URLs, and it then applies 
+its various machine learning algorithms that have been tailored to each content type and classifies 
+the URLs based on the likelihood that they are hosting illicit content.
+==== METHODS
+when Smart Protection’s platform identifies a URL it thinks may be hosting infringing content, 
+it still has to eliminate false positives. Where there are doubts, Smart Protection works with 
+analysts to manually pore over the identified websites before deciding whether a URL has been 
+correctly identified, which in turn helps improve the company’s machine learning systems.
+==== RESULTS
+The company is a member of Google’s Trusted Copyright Removal Program (TCRP), which allows Smart 
+Protection to detect infractions and have the offending URL removed swiftly — the company said it 
+has delisted more than 11 million hyperlinks on Google since its inception. And it has similar 
+arrangements in place with most of the major platforms.

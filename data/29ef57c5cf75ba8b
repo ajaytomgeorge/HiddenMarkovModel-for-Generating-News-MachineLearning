@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://techcrunch.com/2019/05/22/mona-lisa-frown-machine-learning-brings-old-paintings-and-photos-to-life/
+
+==== AGENT
+
+Samsung’s Moscow-based researchers
+
+==== GOAL
+
+Producee a system that can recreate lifelike motion from just a single frame of a person’s face
+
+==== DATA
+
+Images and paintings of faces. The more images/frams of a face the better the result but only one image/fram is needed.
+
+==== METHODS
+
+Uses facial landmarks to rotate a face with a single frame. Generative Adversarial Network, which essentially pits two models against one another, one trying to fool the other into thinking what it creates is “real.”
+
+==== RESULTS
+
+It's possible to take a picture of Einstein or Marilyn Monroe, or even the Mona Lisa, and make it move and speak like a real person
+
+==== COMMENTS
+
+Although most of the faces appear real and very well done, there are still some with definite giveaways that they are generated.

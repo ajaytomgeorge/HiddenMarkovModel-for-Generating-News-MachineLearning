@@ -1,0 +1,28 @@
+﻿==== SOURCE
+
+Tech Xplore (2019). Using Spotify data to predict what songs will be hits. Available at: https://techxplore.com/news/2019-09-spotify-songs.html
+
+==== AGENT
+
+Two student and researchers at the University of San Francisco.
+
+==== GOAL
+
+To see if hit songs have similar features and what those features are, and to predict which songs would possibly be hits in the future.
+
+==== DATA
+
+As Spotify Web API allows developers to access its music data, they collected data for 1.8 million songs including features such as tempo, key, valence, etc. In addition to this, they also collected about 30 years of data from the Billboard Hot 100 charts.
+
+==== METHODS
+
+They train four models on those data, a logistic regression, a neural network, a support vector machine and a random forest architecture, to analyse a variety of song features. Songs would be labelled with either a one (a hit) or a zero (not a hit).
+
+==== RESULTS
+
+According to tests based on historical truth from the Billboard API, support vector machine achieved the highest precision rate (99.53%), whereas the random forest has the best accuracy rate (88%) and recall rate(85.51%). Therefore, it is possible that predicting a billboard hit only rely on features of songs.
+
+
+==== COMMENTS
+
+It might contribute to commercial field as record labels can decide what songs to invest in and reduce risk when releasing songs depending on the results. However, features of songs are not the only decisive factor of its success, other factors such as artist popularity, media influence, might have affect song success. It could also have bad consequences that new songs must sound similar to old songs in order to the hits.

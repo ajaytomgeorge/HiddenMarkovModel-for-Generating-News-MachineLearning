@@ -1,0 +1,35 @@
+== SOURCE 
+
+https://irishtechnews.ie/machine-learning-to-optimise-co2-absorption/
+
+== AGENT  
+
+Xiangzhou Yuan, Manu Suvarna, Sean Low, Pavani Dulanja Dissanayake, Ki Bong Lee, Jie Li, Xiaonan Wang, and Yong Sik Ok
+
+== GOAL
+
+Data driven approach to analyse Biomass waste-derived porous carbons (BWDPCs) and its efficacy to absorb CO2
+
+== DATA
+
+The team conducted a literature review and selected 76 publications describing both the synthesis and performance of various BWDPCs. After curation, these papers provided over 500 data points
+
+== METHODS
+
+Gradient boosting decision trees
+
+== RESULTS
+
+The gradient boosting decision trees had the best predictive performance with R2 of 0.98 and 0.84 on the training and test data, respectively
+
+== ISSUES
+
+Non mentioned
+
+== SCORE 
+
+8. Climate change being one of the biggest existential threads, this kind of applications are always welcome to get us close to a more circular economy
+
+== COMMENTS
+
+The data collection is clever, they relied on prior information based on peer-reviewed research papers. The article misses a lot of information but it has the research paper attached to do a deep dive. I believe this is a very impactful way of using AI to solve the biggest problems of humanity. 

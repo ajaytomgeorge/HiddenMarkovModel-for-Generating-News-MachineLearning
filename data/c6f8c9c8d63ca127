@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://magenta.tensorflow.org/performance-rnn
+
+==== AGENT
+
+Google's Magenta team
+
+==== GOAL
+
+To model polyphonic music with expressive timing and dynamics using ML.
+
+==== DATA
+
+The model is trained with a dataset containing approximately 1400 performances of skilled pianist playing in the Yamaha e-Piano Competition Dataset. This dataset comntains Musical Instrument Digital Interface (MIDI) files of these perfromances, recorded on Yamaha digital pianos.
+
+The main characteristics that they take as input are;
+    1. Note timings based on human timing instead of the strict scores timings
+    2. The human struck loudness of each Note
+    3. That all pieces were played on a pianos
+    4. All pieces were from the classical era of music.
+
+==== METHODS
+
+The magenta team use a Recurrent Neural Network to generate the songs. The neural network operates on different events as mentioned above within specific time constraints. "One typical knob available in such models is a parameter referred to as temperature that affects the randomness of the samples. A temperature of 1.0 uses the model’s predicted event distribution as is."
+
+==== RESULTS
+
+The results yield some very magnificent passages of play. The team found that decreasing the so-called 'temperature' increases repeating notes in succession, and increasing decreases the harmonic sequence of notes.
+
+==== COMMENTS
+
+I found this article absolutely fascinating. Again, there was not a lot of discussion about what some of their variables meant, but the project is open scource so there does not seem to be any technicality exactly hidden. What a great way to bring the open-source community and musicians together.
+

@@ -1,0 +1,35 @@
+== SOURCE 
+
+https://www.nature.com/articles/d41586-021-02694-1
+
+== AGENT  
+
+Guangyu Wang
+
+== GOAL
+
+Develop an algorithm that could detect respiratory diseases, including COVID-19
+
+== DATA
+
+More than 145,000 chest X-ray images from 7 hospitals
+
+== METHODS
+
+Deep learning algorithm 
+
+== RESULTS
+
+The algorithm predicts respiratory diseases, including COVID-19 with 90% accuracy
+
+== ISSUES
+
+Non mentioned
+
+== SCORE 
+
+8. Intelligent health diagnostic is expanding fast and it has the potential to further increase life expectancy
+
+== COMMENTS
+
+I think one of the main reasons why intelligent diagnostics haven’t developed at the same pace as other AI applications is because the data sets are not well structured and organized. Improvement in these area will have huge impact on the development of intelligent diagnostic applications

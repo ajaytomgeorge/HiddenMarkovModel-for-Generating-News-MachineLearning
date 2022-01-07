@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.infoworld.com/article/3535230/how-ai-helped-domino-s-improve-pizza-delivery.html
+
+== AGENT
+
+Dominos 
+
+== GOAL
+
+Improve store and online operations
+
+== DATA
+
+Dataset of 5 million orders, and new orders being fed back into system. 
+
+== METHODS
+
+RL
+
+== RESULTS
+
+Better customer experience and route orders more efficient.
+
+== ISSUES
+
+Large investment in Nvidia DGX1 Server and AI infrastructre 
+
+== SCORE
+
+6
+
+== COMMENTS
+
+Interesting as uses AI to predict when a pizza will be ready depending
+on the availability of resources in each store. Press coverage was standered,
+not too much info provided. Overall method was not new or too exciting but application
+to the pizza industry shows the potential of using AI in retail sectors.
+

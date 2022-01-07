@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://www.theverge.com/2019/9/30/20887614/youtube-moderation-lgbtq-demonetization-terms-words-nerd-city-investigation
+
+==== AGENT
+
+Youtube
+
+==== GOAL
+
+Make a system for demonitizing videos that include content that are not suitable for advertisers
+
+==== DATA
+
+They got their data from manual reviews after creators request manual review for a video that has been demonitized.
+The data looks like a video with either a yes or no on it for whether it can or cannot be monitized.
+
+==== METHODS
+
+They use reinforcement learning by comparing the machine's decision to the manual review for the thousands of manual 
+reviews that are requested each day.
+
+==== RESULTS
+
+Though there are many correct decisions on whether a video is allowed to be monitized, there is a recent controversy 
+about the demonitization in regards to discrimiation towards the LGBTQ community.
+The machine has been found to demonitize videos that contain words relating to LGBTQ such as "gay", "homosexual", and 
+"trans". This issue is discussed further in the article linked.
+
+==== COMMENTS
+
+A greater explanation of the type of machine learning could have been included, knowing a bit about machine learning which 
+is explained in more detail in the video linked in the article. The article could have utilized this innformation more to 
+allow for more of an understanding as to how the bots have been incorrectly trained.

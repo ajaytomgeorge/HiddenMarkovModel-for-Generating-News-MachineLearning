@@ -1,0 +1,26 @@
+==== SOURCE
+
+https://www.rsc.org/news-events/journals-highlights/2019/apr/machine-learning-new-materials/
+
+https://pubs.rsc.org/en/content/articlelanding/sc/2019/c8sc05710a?&_ga=2.167384254.1891477292.1570620127-1617319316.1570620127#!divAbstract
+
+==== AGENT
+
+Dr Martijn Zwijnenburg and his team from University College London
+
+==== GOAL
+
+The goal was to accurately predict the optical and electronic properties of 350,000 binary copolymers in order to discover new materials for clean energy, lighting and communications technology.
+
+==== DATA
+
+The data used to understand polymer concepts and polymer design came from training machine learning algorithms to map molecular structure directly to relevant polymer properties.
+
+==== METHODS
+
+The Generation of training data follows a tiered strategy where a subset of copolymers are used to calibrate the accurate trends in properties given by semi-empirical methods to the absolute values given by DFT.
+This information can then be used to accurately predict the optical and electronic properties of binary copolymers.
+
+==== RESULTS
+
+They demonstrated how neural networks can be used to resolve the optoelectronic property landscape of conjugated organic copolymers with very diverse monomer compositions. The experiments were only completed with binary copolymers and their is room for more testing to be done with more complex ones which could hold new discoveries.

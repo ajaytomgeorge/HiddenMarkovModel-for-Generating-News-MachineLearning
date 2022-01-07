@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://phys.org/news/2019-10-team-deep-sun-ultraviolet-emission.html
+
+==== AGENT
+
+NASA Frontier Development Lab (FDL)
+
+==== GOAL
+
+To virtually monitor the Sun's Extreme Ultraviolet (EUV) irradiance. Which is key to determining space weather (solar flares that can disrupt humans' plans in space). 
+ 
+==== DATA
+
+Data was gotten by allowing a computer to measure data from an observatory, Solar Dynamics Observatory (SDO).
+
+==== METHODS
+
+Using the observatory, the algorithm can mimic an intrument in the observatory by inferring what other instruments detecting with regards to ultraviolet radiation. Thus it can learn about what to detect and develop a model forecast for the "space weather".
+
+==== RESULTS
+
+Though mildly successful this area of research has been described as "barely scratched". The FDL used other data rather than test cases to review its accuracy, accuring data such as past EUV models.
+
+==== COMMENTS
+
+This case was strictly research based, so though it didn't bare great outcomes. However it did demonstrate how machine learning helped formulate a new area of research that needed attention

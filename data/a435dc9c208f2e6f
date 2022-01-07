@@ -1,0 +1,28 @@
+==== SOURCE
+
+http://news.mit.edu/2019/model-predicts-alzheimers-decline-0802
+
+==== AGENT
+
+Oggi Rudovic, MIT MEDIA LAB
+
+==== GOAL
+
+Predict if patients at risk for Alzheimer’s disease will experience significant cognitive decline up to two years in advance.
+
+==== DATA
+
+Biometric data from Alzheimer’s patients and healthy individuals including cognitive test scores collected between biannual doctor’s visits.
+
+==== METHODS
+
+Trained a model to predict how patients will score on cognitive tests between visits. After each doctor visits the model updates score predictions based on newly recorded data.
+
+==== RESULTS
+
+The error rate is not explicitly stated in the article although the results are labelled as “sub-optimal”.
+
+==== COMMENTS
+
+Article is not explicit enough about the effectiveness of the model.
+

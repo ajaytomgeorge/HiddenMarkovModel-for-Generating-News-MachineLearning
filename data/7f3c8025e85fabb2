@@ -1,0 +1,29 @@
+﻿==== SOURCE
+
+https://www.eurekalert.org/pub_releases/2019-10/uok-nmi100119.php
+
+==== AGENT
+
+Jake Graving et al. from the Centre for the Advanced Study of Collective Behaviour at the University of Konstanz and the Max Planck Institute of Animal Behaviour.
+
+==== GOAL
+
+The goal of this work was to develop a deep learning neural network toolkit which can be used to identify changes in wild animal behaviour. It does so by detecting and tracking the locations of animal’s body parts directly from images and video. The package is called: ‘DeepPoseKit’
+
+==== DATA
+
+According to the article, this deep learning toolkit “can correctly measure body posture from previously-unseen images after being trained with only 100 examples”. As this is a toolkit designed to be used for numerous species and across numerous experimental conditions, animals in the wild and captive animals in a lab setting for example, the training data is provided by the individual user.
+
+==== METHODS
+
+The researchers use a deep neural network to detect animals body parts coupled with an algorithm to calculate the location of these body parts relative to each other. This in turn provides behavioural biologists with a quantitative means to measure animal behaviour.
+
+==== RESULTS
+
+The results of this research have demonstrated the approaches applicability to observing behavioural characteristics across species and in numerous experimental conditions. 
+
+==== COMMENTS
+
+This toolkit is freely available here:
+https://github.com/jgraving/deepposekit
+

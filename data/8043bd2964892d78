@@ -1,0 +1,27 @@
+=== SOURCE
+
+https://ai.googleblog.com/2017/05/updating-google-maps-with-deep-learning.html
+
+=== AGENT
+
+Google
+
+=== GOAL
+
+Wanted the ability to be able to automatically collect information from images collected by Google's Street View cars for Google Maps. More specifically, the ability to accurately read street signs.
+
+=== DATA
+
+Dataset called French Street Name Signs, containing around 1 million street names, 965,917 of those being training images. This dataset was created and released by Google for themselves and others to improve their models.
+
+=== METHODS
+
+Images are first processed through a Convolution Neural Network which produces weighted features that are then ran through a Recurrent Neural Network.
+
+=== RESULTS
+
+The algorithms are able to determine the street names off of multiple pictures of street signs with an accuracy of 84.2 percent when tested on the French Street Name Signs dataset.
+
+=== COMMENTS
+
+Google was able to use these same algorithms, when trained with different data, to identify names of businesses from pictures of the store fronts.

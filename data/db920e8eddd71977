@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.wired.co.uk/article/police-violence-prediction-ndas
+
+== AGENT
+
+West Midlands Police and West Yorkshire police
+
+== GOAL
+
+predict gun and knife violence before it happens
+
+== DATA
+
+Historic data of about 3.5 million people in west yorkshire and the west midlands.Data was pulled from crime and custody records, intelligence reports and from the national police computer database.
+
+== METHODS
+
+Not Stated. Presumably supervised using a portion of the data to validate and evaluate accuracy.
+
+== RESULTS
+
+This system had two revisions the first system had a major error (not disclosed) and had to be redesigned. the first system was stated to have an accuracy of about 75%
+
+In the new revision the accuracy droped significantly to atound 10-20% between both regions.
+
+== ISSUES
+
+Using a large collection of criminal records is a major ethical issue that the developers would have to answer for as this data would be highly sensitive and private.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+This was an interesting idea however far too ambitious. Designing any computer or system that is intended even to only work with people is difficult as from the point of view of a computer humans are stupid and unpridictable. Building an AI to try and predict human behavior is another story altogether.
+

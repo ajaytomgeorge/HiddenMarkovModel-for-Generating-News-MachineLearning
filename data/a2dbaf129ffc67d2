@@ -1,0 +1,38 @@
+==== SOURCE
+
+https://thenextweb.com/artificial-intelligence/2019/10/10/watch-this-ai-cop-car-fight-an-ai-jeep/
+
+==== AGENT
+
+Sebastian Schuchmann
+
+==== GOAL
+
+For the police car and the jeep to learn how to reach their individual goals
+
+==== DATA
+
+Sebastian created a simulated environment and programmed the vehicles with goals in mind.
+The jeep had to reach the finish line before time ran out, the cop car had to stop the 
+jeep from doing so. With this information he simulated the chase over and over again. 
+each time the cars both began using more advanced evasion and cornering techniques.
+
+==== METHODS
+
+Sebastian used reenforcement learning. The cop car was rewarded every time the jeep 
+failed to reach the goal and punished whenever the jeep reached the finish line. The 
+opposite was true for the jeep if it reached a finish line in time it got rewarded 
+otherwise it was punished. This created a competitive development between the two 
+vehicles forcing them to adapt to gain the upper hand
+
+==== RESULTS
+
+The result was a marked improvement in evasive action taken by the jeep and the same 
+could be said of the cop car with respect to its blocking ability. Overall the results 
+were close to what Sebastian set out to achieve however they were far from perfect.
+
+==== COMMENTS
+
+This program in itself is unsubstancial and all in all underwhelming. Having said this 
+the underlying genetic algorithm can be adapted to numerous other problems such as self-
+driving cars, mars rover autopiot software, and many other adaptive systems.

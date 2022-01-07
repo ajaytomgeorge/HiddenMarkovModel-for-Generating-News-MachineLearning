@@ -1,0 +1,209 @@
+== SOURCE 1
+
+https://www.mobihealthnews.com/news/machine-learning-app-scans-faces-and-listens-speech-quickly-spot-strokes
+
+== AGENT
+
+Penn State University and Houston Methodist Hospital
+
+== GOAL
+
+To create an app that would be able to quickly detect stroke by using the camera of a phone to check facial movements and slurred speech.
+
+== DATA
+
+80 patients of the Houston Methodist Hospital who were experiencing stroke symptoms were recorded using a smartphone as they did a speech test. The app made by Penn State University predicted if they were actually having a stroke or not. 
+
+== METHODS
+
+The app uses computational facial motion analysis and natural language processing to detect stroke-like symptoms, such as muscle sagging and slurred speech. 
+
+== RESULTS
+
+The app detected stroke with 79% accuracy on the 80 patients from the hospitcal, which is apparently on par with CT scans from emergency rooms. 
+
+== ISSUES
+
+Moblile phones are not always the most reliable. As mobile phones have so many purposes and apps can be easily interrupted, the app might be affected and may not return accurate results.
+Would having shaky hands affect your results? I guess the phone is probably attached to a tripod. 
+It's also a pain that you would always have to make sure the phones are charged up and ready to go.
+This has only been applied here to one dataset. We need to see it on many more samples to really see how accurate it is. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I mean this definitely is interesting. If with more datasets this app still returns the same accuracy, it is much quicker than waiting for a CT scan for results which could really affect someone's life.
+This app would alse be cool to have in the hands of the general public as strokes could be detected at home minutes after happening. The problem with this though is that people would use the app to be "safe" and this could lead to a lot more false stroke victims, wasting time at hospitals when they could be treating someone else.
+I wish the article would have really told us about the machine learning techniques used. I guess this is more for the average reader than us CS nerds, which is stupid as they have machine learning in the title. #sad
+
+
+
+
+
+== SOURCE 2
+
+https://www.rte.ie/news/technology/2017/1025/915154-how-artificial-intelligence-can-reduce-marathon-times/
+
+== AGENT
+
+Professor Barry Smyth from the Insight Centre for Data Analytics
+
+== GOAL
+
+Develop an AI based system that helps marathon runners improve their personal bests with the use of a pacing plan.
+
+== DATA
+
+He collected and analysed data from millions of marathon runners over a number of years. He uses his model though on runners from the London marathon.
+
+== METHODS
+
+He developed a model using Case Based Reasoning. It adapts times and pacing profiles of runners similar to those he is trying to predict a PB (personal best) for.
+So, data is taken from past races these runners raced and this is used to help similar runners improve.
+
+== RESULTS
+
+Women who completed the marathon within 4 hours can improve their time by up to 17 minutes, while men can improve their time by 22 minutes.
+Women are better at pacing themselves than men and the speed gap between the two closes with age.
+
+== ISSUES
+
+There are so many factors that impact the time a marthon runner can run. One runner can have a better diet than another. A runner may be slightly injured or maybe just are not feeling 100% doing a run.
+A runner could also just have a bad day or spell (like LeBron James in the NBA finals against the Dallas Mavericks in 2011. Dirk Nowitzki is my hero). 
+
+== SCORE
+
+4
+
+== COMMENTS
+
+It's cool to see machine learning used in sports to improve athletes. Sport is no longer just physical training. There is so much more involved that helps you get better.
+However, like I said in the issues there are just so many different factors that play an affect on a performance. This model also only helps the middle athletes. 
+What I mean by that is that it doesn't help those who are really looking to compete or even win and it doesn't help the slower runners either. In my opinion it should be the top percent of runners who should be helped.
+They're the ones who need it the most to try and win. It sucks how genetics works. Woudln't it be great to be able to run like Mo Farah.
+
+
+
+
+== SOURCE 3
+
+https://news.mit.edu/2020/translating-lost-languages-using-machine-learning-1021
+
+== AGENT
+
+Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory
+
+== GOAL
+
+Develop a system to automatically convert a lost language.
+
+== DATA
+
+The lost languages of Ugaritic and Linear B were looked at. The Iberian language was also looked at to see what languages it is related to.
+
+== METHODS
+
+MIT Professor Regina Barzilay and MIT PhD student Jiaming Luo developed a decipherment algorithm. This algorithm learns to put language sounds into a multidimensional space where differences in pronunciation are bounced in the distance between corresponding vectors.
+This allows them to detect patterns in the lost language and map them to counterparts in a similar language. The algorithm can assess the proximity between two languages.
+
+== RESULTS
+
+While the languages of Ugaritic and Linear B were already deciphered, it could be told that these were related to early forms of Hebrew and Greek respectively.
+The Iberian language was seen to be closer to Basque and Latin than other languages, but still too different to be called related. 
+
+== ISSUES
+
+It seems to be a very time consuming process. It takes a long time to make these relationships when including a lost language, and in the end you could be making these relationships for no reason as their hardly related at all.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I think it's super cool to see what languages are related and where these languages come from. I just wish we could directly translate these languages to actually read what they were saying.
+I want to be able to see what weird stuff they were talking about. I would love to see their humour. They were surely funnier than the comedians we have now. I can't blame the comedians though because everyone are snowflakes now.
+
+
+
+
+== SOURCE 4
+
+https://news.ncsu.edu/2020/10/ai-predicts-exhibit-engagement/
+
+== AGENT
+
+North Carolina State University
+
+== GOAL
+
+Predict how long museum visitors will engage with exhibits.
+
+== DATA
+
+The researchers monitored 85 museum visitors as they interatced with an exhibit on environmental science. They looked at where the visitor touched and looked, their facial expressions and posture.
+
+== METHODS
+
+The data was fed into 5 different machine-learning models, with a model called 'random forests' being the best. With this model, a forest builds decision trees and merges them together to get a more accurate prediction.
+
+== RESULTS
+
+The models worked better the longer visitors interatced with the exhibit. Of course a prediction made after a few minutes would be more accurate than a prediction made after 30 seconds. User interactions with the exhibit lasted as long as 12 minutes.
+
+== ISSUES
+
+I don't think there's any real issues. I just have one question : Why? 
+
+== SCORE
+
+2
+
+== COMMENTS
+
+This hurts me more than anything. There are so many cool and important things we can use Machine Learning on, but instead we are using it to see how long someone will look at an exhibit at a museum. This is nearly as useful as a waterproof tea bag.
+
+
+
+
+== SOURCE 5
+
+https://healthitanalytics.com/news/machine-learning-can-predict-heart-failure-from-a-single-x-ray
+
+== AGENT
+
+Researchers from MIT’s Computer Science and Artificial Intelligence Laboratory (Of course it's MIT again)
+
+== GOAL
+
+Detect the severity of excess fluid in patients’ lungs, which is a common sign of heart failure.
+
+== DATA
+
+The system was trained with more than 300,000 x-ray images with the corresponding texts written by radiologists.
+
+== METHODS
+
+The machine learning model used here can turn both images and text into short numerical abstractions. An interpretation can then be produced. 
+The system can explain itself by showing which parts of the texts and x-ray images correspond to the model prediction. 
+
+== RESULTS
+
+The system determined the correct level of excess fluid more than fifty percent of the time. It diagnosed the worst case of excess fluid correctly ninety percent of the time.
+
+== ISSUES
+
+While the results look really promising, more experiments would need to be done with the system to make sure there are no flaws.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It's amazing to see machine learning used for medical purposes, especially in this case where the model seems to work well.
+If this can be used in the future it will lead to more accurate and faster results. I'm all for that. All hail machines!
+

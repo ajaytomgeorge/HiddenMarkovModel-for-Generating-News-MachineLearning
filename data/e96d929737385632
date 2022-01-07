@@ -1,0 +1,10 @@
+SOURCE : https://www.nature.com/articles/d41586-021-02556-w
+AGENT :  Ziad Obermeyer
+GOAL :  A machine learning algorithm has been implemented for predicting those who are most likely to get COVID19 positive at the Greek Border. The algorithm also explores patterns not refelected in previous data, by testing passenger types about which the algorithm doesn't know much about.
+Data, Method and Results : A system was designed and deployed at some of the points of entry into Greece. The system worked on an algorithm called Reinforcement learning and was used to increase the efficiency of testing for the COVID19. The algorithm highly contributed to the Greece's ability to keep its border open for worldwide.  The success of the algorithm presented the inadequacy of the border policies  -  for example whether to allow or deny all passengers, or test, quarantine them. This algorithm helped Greece to maintain their economy in these tough pandemic period. This algorithm helped to predict COVID19 spike rate almost 9 days earlier than if they had used country level data alone.
+  
+SCORE : 8 
+
+COMMENTS : I think this algorithm will be remembered as one of the most iconic examples of using machine learning in the fight against COVID 19. This algorithm turned out to be the difference between life and death between many passengers from all over the world. The article mentioned above was very well articulated and explained the algorithm, as well as it's goals pretty well. 
+
+

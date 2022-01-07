@@ -1,0 +1,61 @@
+== SOURCE
+
+> MIT scientists created an AI-powered 'psychopath' named Norman
+https://money.cnn.com/2018/06/07/technology/mit-media-lab-normal-ai/index.html
+
+== AGENT
+
+MIT Media Lab
+
+== GOAL
+
+Show that the data that is used to train a machine learning algorithm can significantly influence its behavior. 
+
+== DATA
+
+Norman (the NN was named after the protagonist in Hitchcock's *Psycho*) was trained on image captions from extended exposure to dark areas of Reddit
+
+== METHODS
+
+Image Captioning in Deep Learning
+- Generating a textual description of an image
+
+Trained on gruesome and horrifying images and captions from Reddit
+
+Norman was tested on Rorschach Inkblot tests, used to detect underlying thought disorders
+
+== RESULTS
+
+Norman's inkblot captions were compared against a similarly trained NN, whose image dataset was less disturbing (MSCOCO dataset)
+
+Norman produced captions that were overwhelmingly disturbing and the majority of captions included death.
+
+Inkblot 1
+	- NormanAI: “a man is electrocuted and catches to death.”
+	- StandardAI: “a group of birds sitting on top of a tree branch.”
+
+Inkblot 2
+	- NormanAI: “a man is shot dead.”
+	- StandardAI: “a close up of a vase with flowers.”
+
+Inkblot 3
+	- NormanAI: “man jumps from floor window.”
+	- StandardAI: “a couple of people standing next to each other.”
+	
+A subsequent project is ongoing that is set to prove that Norman can be retrained with enough human feedback.
+
+Clearly incorrect training data can make an AI biased
+
+== ISSUES
+
+No issues, this project is to show that there are issues in other ML/AI projects
+Ethically it could be said that exposing people to this AI could be mentally harmful, but there is a disclaimer in the project.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I found this project very interesting, as it used Machine Learning to show that Machine Learning is imperfect, and that proper care must be taken when training it.
+There is very little detailing how the Neural Network works, I could not find any research papers either.

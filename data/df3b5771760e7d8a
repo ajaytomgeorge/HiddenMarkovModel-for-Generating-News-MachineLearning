@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go
+https://www.chess.com/news/view/updated-alphazero-crushes-stockfish-in-new-1-000-game-match
+
+==== AGENT
+
+DeepMind, owned by Alphabet.
+
+==== GOAL
+
+An AI to play chess, shogi and go. (I will be focusing on chess)
+
+==== DATA
+
+Data was obtained by the AI playing against itself.
+
+==== METHODS
+
+Reinforcement learning. Just by having the AI play against itself.
+
+==== RESULTS
+
+AlphaZero has clearly surpassed the popular engine Stockfish, and is one of the best chest AI's in existnce today.
+
+==== COMMENTS
+
+Since AlphaZero has taught itself chess, it presents some very creative ideas, and has impressed many chess players since it has been unveiled. One of the most notable examples of its capabilities is in its 1,000 game match against Stockfish 10, the latest version of the go-to chess engine. In those 1,000 games, AlphaZero had won 155 games, lost 6 and tied 839 games. When AlphaZero played on the white end, it never lost. This is made all the more impressive when presented with the fact that Stockfish 10 analysis around 70,000,000 moves per second, while AlphaZero only analysis 60,000 moves per second.

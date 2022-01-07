@@ -1,0 +1,35 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/document/8419439
+
+== AGENT
+
+Tanner Christensen, Abraham Frandsen, Seth Glazier, Jeffrey Humpherys, David Kartchner.
+
+== GOAL
+
+Disease prediction using Machine Learning. Also, they show that popular deep learning models for disease prediction are no better than simpler, more interpretable classifiers like XGBoost.
+
+== DATA
+
+Healthcare data is contained in Electronic Health Records (EHRs) and based on the patient history and risk factors. Data consists of a de-identified subset of 466, 715 patients from SelectHealthR, a health insurance provider in the Intermountain West of the United States. Patients in the dataset were monitored beginning in November 2015 through January 2018.
+
+== METHODS
+
+GloVe algorithm(Code2Vec), word2vec algorithm, XGBoost.
+
+== RESULTS
+
+XGBoost is better than LSTM in predicting the disease. It implies that quality disease prediction doesn't require complex models. XGBoost is a highly interpretable model, having the ability to explain how and why it produces its predictions to the user.
+
+== ISSUES
+
+The model prediction experiment scores are not always hundred percent accurate. Here, the maximum score is 0.9430. This refers there is a 0.057 chance that the result may be false. So, the prediction may differ from the actual disease of the patient.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The disease prediction is a good machine learning technique to find the disease of the patients using the past health conditions and data used. It will be useful if patients as severe health conditions and need to find the diseases on a priority basis. If the user will incur heart failures in the future days, this methodology will predict it.

@@ -1,0 +1,18 @@
+== SOURCE
+https://news.google.com/newspapers?nid=266&dat=19970512&id=DfMrAAAAIBAJ&sjid=52wFAAAAIBAJ&pg=3496,887866
+== AGENT
+IBM
+== GOAL
+To create a computer capable of defeating a world champion at Chess.
+== DATA
+NA
+== METHODS
+Brute force. It was capable of evaluating 200 million positions per second. Deep Blue’s evaluation function was initially written with many to-be-determined variables. These variables were subsequently determined by analyzing thousands of chess games.
+== RESULTS
+Deep Blue beat Kovsharov, the world champion at Chess.
+== ISSUES
+ No clever strategy is being employed. In the newspaper article, they act as though this was a landmark moment for AI; “”beginning of the Information Age”. I would argue that this is disingenuous. If readers had known the naivety of how Deep Blue played - a brute force approach - they probably wouldn’t be so impressed.
+== SCORE
+4
+== COMMENTS
+I did not find this particularly interesting. To call it “Artificial Intelligence” or even “Machine Learning” I feel is a bit of a stretch, considering it is merely powered by a brute force algorithm that attempts to search the tree of possible moves to find the best one.

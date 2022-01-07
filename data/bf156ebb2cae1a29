@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.azocleantech.com/news.aspx?newsID=26662
+
+==== AGENT
+
+Researchers from University of Rochester, University of California, GEOMAR Helmholtz Centre for Ocean Research
+
+==== GOAL
+
+Predict ocean methane emissions
+
+==== DATA
+
+Methane data from monitoring the ocean 
+
+==== METHODS
+
+The data was fed to the system to create emmissions models using pattern recogition
+
+==== RESULTS
+
+They have been able to predict methane emmissions even in regions without prior data
+
+==== COMMENTS
+
+The ariticle is not descriptive on what kind of data the gathered methane data from the oceans is specifically or how the data was used to train the system 

@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.healthcareitnews.com/news/asia/apollo-hospitals-utilised-decade-long-patient-data-develop-ai-heart-disease-risk
+https://www.businessinsider.com/danish-startup-developed-technology-that-predicts-heart-failure-2018-5?r=US&IR=T
+
+== AGENT
+
+Apollo Hospitals, one of India's biggest hospital chains.
+
+== GOAL
+
+To predict the risk of cardiovascular diseases in India.
+
+== DATA
+
+They harnessed ten years' worth of data from over 400,000 patients across India to develop this AI tool.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+It provides a risk score – categorised into high, moderate and minimal – that takes into account a patient's lifestyle attributes, such as diet, tobacco and smoking preferences and physical activity, as well as psychological stress and anxiety as reflected via respiratory rate and blood pressure reading.
+
+== ISSUES
+
+The tool can be made available to a larger set of physicians to test its accuracy. Being a proactive tool, not sure if this tool will be implemented on a large scale.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The latest AI tool at Apollo Hospitals enables doctors to deliver "proactive, pre-emptive and preventive" care for at-risk individuals. This also empowers them to provide "more holistic" advice to patients with specific insights for lifestyle modification. As cardiovascular diseases is of the major cause of deaths in India, implementing such tools will help reduce the mortality rate. While some predictive tools do exist to help physicians understand the probability of their patients developing heart disease, most of these are based on Western datasets and don’t take regional risk variations into account. This impacts their accuracy when applied in an Indian context.
+
+Another tool called VUNO Med DeepCARS is an AI device that analyses the potential risk of cardiac arrest using four primary vital signs: blood pressure, respiratory rate, heart rate and body temperature.

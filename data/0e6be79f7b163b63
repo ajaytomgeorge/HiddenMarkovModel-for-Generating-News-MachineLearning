@@ -1,0 +1,105 @@
+==== SOURCE
+
+[1] Shane R. Coffield, Casey A. Graff, Yang Chen, Padhraic Smyth, Efi Foufoula-Georgiou and James T. Randerson.
+Machine learning to predict final fire size at the time of ignition (2019). http://www.publish.csiro.au/wf/pdf/WF19023
+
+News Source:
+https://phys.org/news/2019-09-team-machine-wildfires.html
+
+==== AGENT
+
+University of California, Irvine
+
+==== GOAL
+
+Aim of the research was to use decision trees to classify forest fires into small, medium or large fires 
+using two variables; firstly Vapour Pressure Deficit (VPD) a measure of the moisture in the air versus how 
+much moisture the air can hold when saturated and secondly the fraction of spruce cover near where the fire 
+first ignites.
+
+==== DATA
+
+The area of study was Alaska, with a study period chosen between 2001 and 2017.
+
+Fire Data:
+
+Data from ALFD (Alaska Large Fire Database) is a mixture of information from satellite and ground-based records 
+giving details on fire points, perimeters, start dates and management options.
+
+https://fire.ak.blm.gov/incinfo/aklgfire.php
+
+Data from MODIS (Moderate Resolution Imaging Spectroradiometer) was used to cross-reference the ALFD database 
+removing discrepancies when required. MODIS data was obtained from University of Maryland Geographical Sciences 
+Department.
+
+Meteorology:
+
+Data from ECMWF (European Centre for Medium-Range Weather Forecasts) was included. Data contained 2-m air 
+temperature, relative humidity, precipitation, 10-m wind speed and surface air pressure.
+
+Vegetation:
+
+Data was incorporated from LANDFIRE Existing Vegetation Type product. This included two classes known to influence
+fire behaviour; firstly black or white spruce forest cover (evergreen) and secondly birch or aspen forest cover
+(deciduous)
+
+==== METHODS
+
+Various machine learning techniques were tried by the researchers such as random forest, k-nearest neighbours,
+gradient boosting and multi-layer perceptrons. Random forest and decision trees were found to have similar level 
+of performance while the other models tended to overfit the model, as such decision trees were used as the focus of
+this research due do their ease of interpretability.
+
+Diagram below illustrates a simplification of how class separation occurs in decision trees, here classes are
+separated based on whether they meet the criteria of a conditional statement and separate depending on this
+outcome;
+
+        Condition 1
+             |             
+          Y  |  N             
+       ______|______   Condition 2 
+      |             | 
+      |          Y  |  N
+   Class 1    ______|______
+             |             |
+             |             |
+          Class 1       Class 2
+
+Classification and Regression Decision Tree Algorithm (CART) from the scikit-learn python library was used to 
+classify the data into 3 groups; small, medium and large.
+
+CART uses a measure known as Gini impurity which calculates how often a randomly chosen element in a set would 
+be mislabelled if it were to be randomly labelled according to the distribution of labels in the subset.
+
+The Gini impurity is calculated as;
+
+$   I_g(P) = 1 - \sum_{i=1}^{J} (P_i)^2   $
+
+Where I_g(P) is the Gini impurity, J is the number of class, i is an element of the set {1,2,....J} and P_i is a 
+fraction of items labelled with class i in the set.
+
+
+==== RESULTS
+
+Results were predicted over a 1-5 day period after ignition.
+With VDP alone the model was able to correctly classify small, medium and large fires with 46.1 +/- 6.7% Accuracy.
+
+With both VDP and spruce fraction The researchers were able to correctly classify small, medium and large fires to 
+50.4 +/- 5.2% accuracy. It was shown that fires with a low spruce fraction variable were less likely to develop 
+into the largest size class. 
+
+The model was able to predict that 40% of ignitions would lead to large fires that accounted for 75% of the total 
+burn area.
+
+Weather, early in the fires life can play a central role in determining whether the fire will be extinguished early or
+grow large. It is suggested dry periods in the first few days of the 5 day period may allow the fires to persist through
+wet periods but that further research is required.
+
+
+==== COMMENTS
+
+Given the recent forest fires in south America, this article is of particular interest in light of global warming
+and the increase of forest fires occurring globally.
+
+It also shows how large scale data from various sources can be incorporated into a model, for example the combination of
+Meteorological, Vegetative and Fire data.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+
+== AGENT
+
+Massachusetts Institute of Technology
+
+== GOAL
+
+Identify synergistic drug blends for treating viruses like SARS-CoV-2.
+
+== DATA
+
+Molecules of disease
+
+== METHODS
+
+The model jointly learns drug-target interaction and drug-drug synergy to mine new combinations. The drug-target predictor models the interaction between a drug and a set of known biological targets that are related to the chosen disease. The target-disease association predictor learns to understand a drug's antiviral activity, which means determining the virus yield in infected tissue cultures. Together, they can predict the synergy of two drugs. 
+
+== RESULTS
+
+Two new drug combinations were found using this approach: remdesivir (currently approved by the FDA to treat Covid-19) and reserpine, as well as remdesivir and IQ-1S, which, in biological assays, proved powerful against the virus. 
+
+== ISSUES
+
+Cannot identify if virus will mutate and resist new drug combinations found.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+Very good article about new approaches.

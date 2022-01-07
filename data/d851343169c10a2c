@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.nature.com/articles/s41467-021-25296-x
+
+== AGENT
+
+Shenghua Cheng, Sibo Liu,
+
+== GOAL
+
+Better technique for cervical cancer screening
+
+== DATA
+
+3,545 patient-wise WSIs with 79,911 annotations from multiple hospitals and several imaging instruments
+
+== METHODS
+
+Supervised,  RNN, CNN, Logistic Regression
+
+== RESULTS
+
+88.5% true positive rate for highlighting the top 10 lesion cells on 447 positive slides. 
+After deployment, the system recognizes a one giga-pixel WSI in about 1.5 min.
+
+== ISSUES
+
+Are patients` consent obtained before using the data. 
+The issue of results being biased towards people of particular ethinicity
+
+== SCORE
+
+5
+
+== COMMENTS
+
+The method is almost similar to approaches which have been consistently used in medical field.
+They could have diversified the source of data

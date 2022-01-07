@@ -1,0 +1,42 @@
+== SOURCE
+
+https://news.stanford.edu/2021/09/16/ai-system-identifies-buildings-damaged-wildfire/
+
+== AGENT
+
+A team at Stanford University and the California Polytechnic State University
+
+== GOAL
+
+A deep learning approach to classifying buildings with wildfire damage to help responders focus their recovery efforts 
+and offer more immediate information to displaced residents.
+
+== DATA
+
+They used pre-fire photos and post-wildfire images.
+
+== METHODS
+
+DamageMap first uses pre-fire photos of any type to map the area and pinpoint building locations. 
+Then, the program analyzes post-wildfire images to identify damage through features like blackened surfaces, crumbled roofs or the absence of structures.
+They used supervised learning.
+
+== RESULTS
+
+The researchers tested it using a variety of satellite, aerial and drone photography with at least 92 percent accuracy.
+
+== ISSUES
+
+I dont see many issues with the work other than it might missinterpret some building features if they have slighlty different features to what they are expecting.
+For example if a house already had a black slated roof would it think that it has been blackened form a wildfire? Other than this I really like it. 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I think this project was very interesting as I think it will really help first responders go to the properties that have been damaged the most, 
+and could really save a lot og peoples homes. I really like the idea that they are simply comparing satellite images of before and after the wildfire,
+and only loooking for specific features like blackened surfaces to identify if a property has been effected or not. The article was very informative 
+and was written very well.

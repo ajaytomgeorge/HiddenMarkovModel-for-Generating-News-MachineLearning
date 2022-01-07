@@ -1,0 +1,32 @@
+==== SOURCE
+
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8753751&tag=1
+
+==== AGENT
+
+Ao Xi, Thushal Wijekoon Mudiyanselage, Dacheng Tao, Fellow, IEEE, and Chao Chen
+
+==== GOAL
+
+The researchers were trying to train a two legged robot to navigate an uneven ground surface
+such as a rotating platform.
+
+==== DATA
+
+The biped robot had supervised learning and reinforcement learning in order to train it to remain
+standing on the rotating platform. 
+
+==== METHODS
+
+When it fell over it was told that was wrong and when it remained
+standing it was told it was correct. Eventually the robot learning to maintain its posture.
+
+==== RESULTS
+
+The robot can maintain its standing posture perfectly and adapt to the rotating  
+platform with various oscillations.
+
+==== COMMENTS
+
+This technology can be used for many applications including humanoid robots 
+in fields such as healthcare, education, disaster response and entertainment.

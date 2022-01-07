@@ -1,0 +1,50 @@
+==== SOURCE
+
+https://nycda.com/blog/how-spotify-uses-data-AI-pick-your-next-song
+
+==== AGENT
+
+Spotifys big data and machine learning panel.
+
+==== GOAL
+
+What were they trying to do?
+
+Spotify are using machine learning to tailor music and create personalized playlists that they 
+think a user would enjoy the most.
+
+==== DATA
+
+Where did they get their data? What did it look like?
+
+Spotify got their data from observing patterns in behaviour of its original users.
+From a user playing one song, Spotify obtains 4 pieces of information about that user: metadata, 
+interactions generated, who users are, and playlists
+ 
+==== METHODS
+
+What did they actually do?
+
+Spotify’s machine learning has two main functions. The first is its deep 
+learning network that’s made up of learning nodes that learn from each  
+user, whether they skip or stay on a particular song and how frequently they play 
+particular songs. The second is a convolutional neural network, which is made up of cover art, 
+layering songs on songs through matrixes to find similarities in lyrics, tones, frequencies,
+volume, and what mood it conveys. This network refines its knowledge based on the trial and error from 
+the deep learning network.
+
+
+==== RESULTS
+
+How did it go for them?
+
+This is a very successful method of personalizing a users spotify suggestions for them which is proven 
+by the fact that spotify is the world leader in providing music and has 100,000,000 monthly subscribers.
+Spotify creates a daily mix playlist for a user based around music they have been listening to recently.
+
+==== COMMENTS
+
+Your own personal comments and thoughts etc.
+
+Using machine learning is key for Spotify as it enhances a users experience and helps them to discover
+new music at ease. This encourages users to stay subscribed as new content is constantly being made available to them.

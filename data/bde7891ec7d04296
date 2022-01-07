@@ -1,0 +1,30 @@
+== SOURCE
+https://www.theverge.com/2020/1/27/21080253/ai-cancer-diagnosis-dangers-mammography-google-paper-accuracy
+== AGENT
+Google
+== GOAL
+Use machine learning to recognise and diagnose breast cancer from Mammograms
+== DATA
+X-Ray images, specifically Mammograms, that were pre-labled cancerous or cancer free by physicians
+== METHODS
+Deep learning with Computer Vision
+== RESULTS
+The Machine learning algorithm in question was able to identify cancer in mammograms more efficiently than doctors
+The algorithm was able to pick up on small growths/lesions that could be missed due to their size (i.e. early stages of cancer)
+== ISSUES
+The issues with this iteration of the work, are the concerns of overdiagnosis raised by physicians if they were to be replaced by algorithms. 
+Society's assumption is that if there are signs of potential cancer then that means we have to act straight away, however the physicians mentioned in the article state this to be a misconception.
+Just because there are lesions found in tissue, there is no way of knowing purely by inspection of mammograms whether they will be a threat to person's life or not.
+Overdiagnosis of cancer has negative effects on a person's life: financial costs of potentially unnecessary medical interventions, the pain and discomfort caused by (in the context of breast cancer) unnecessary lumpectomies or even mastectomies. 
+These complications are not addressed in this iteration of Google's study, but they intend to factor these sorts of decisions into future generations of this project.
+== SCORE
+8
+== COMMENTS
+The intersection of medical science and computational diagnostics is a fascinating area that can have serious impacts on people's lives, both positively and negatively, depending on the implementation of such systems.
+I think it's safe to say we are a long way from attempting to replace physicians with machines, if we are even able to reach such a reality at all.
+This article highlights the potential benefits of using machine learning to recognise and process scans and other medical data efficiently and accurately to aid diagnosticians in treating patients.
+The article also highlights a possible consequence of such algorithms in the form of overdiagnosis, which seems (at least initially) counterintuitive that this would be a negative effect for some medical conditions.
+It is reassuring to note that these concerns are being taken into account by the researchers who are taking this project forward to improve algorithms to be useful for medical applications and potentially save lives. 
+
+
+

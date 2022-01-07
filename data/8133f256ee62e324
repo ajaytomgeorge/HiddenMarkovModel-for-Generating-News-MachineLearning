@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.gbif.org/news/4n8ZCfuK3zxseKAHRMcfA8/award-winner-uses-data-mining-and-machine-learning-to-identify-collectors-and-duplicated-herbarium-specimens
+
+== AGENT
+
+Royal Botanic Gardens, Kew (Nicky Nicolson)
+
+== GOAL
+
+Weed out duplicate specimens from digitised herbaria. Representing the data as a network, and develop connections between individual collections of specimens
+
+== DATA
+
+Digitised herbarium specimens from the Global Biodiversity Information Facility 
+
+== METHODS
+
+Clustering algorithm, data mining
+
+== RESULTS
+
+Locating duplicate specimens can improve data management costs and representation of the data as a network can help find otherwise hidden patterns or relations and inform standardisation of input.
+
+== ISSUES
+
+No information on accuracy or the size of the dataset
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Herbaria are very useful resources in botany and related fields. As archives and collections are usually quite old (>100 years), they are a rich source of data about past plant populations, insect and climate interactions. They are commonly used in informing predictions of how plants and ecosystems will respond to climate change. As standard practices for collecting specimens changed so much over time, and because collections are generally so large, extracting any meaningful data from them can be very difficult. Digitisation of collections makes this much easier, but is a slow process, and digital collections usually aren’t much tidier than the physical ones. This project seems to be a precursor to proper technology for curating digital herbaria, which would greatly increase the efficiency of managing and utilising them. Building this technology would be a vast amount of work, but is the only way this resource could ever be used properly. I’d be interested to see further developments of this in the future.

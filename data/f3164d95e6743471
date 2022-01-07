@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.dpaonthenet.net/article/187299/Machine-learning-predicts-which-animal-viruses-have-high-pandemic-potential.aspx
+
+== AGENT
+
+University of Glasgow
+
+== GOAL
+
+Develop a method for identification of zoonotic viruses that could infect humans.
+
+== DATA
+
+Genome based data analysis of 861 viral species with known zoonotic status
+
+== METHODS
+
+Gradient boosted machine classifers trained on virus taxonomy.
+
+== RESULTS
+
+Able to predict RNA and DNA viruses including predicting that SARS-CoV-2 would have a high chance of being able to infect humans. Work could be used for a low cost method of virus research prioritisation.
+
+== ISSUES
+
+I could not see any issues with the work itself, virology is something that I have much insight into. The press reporting however did leave out many details, only giving a very high level overview of what the work could be used for.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Very interesting read and exciting to see a that efforts are being put into classification of potential zoonotic viruses. Now that work has been done on genome based data, aspects of the research could be for other genetic based identification. The press reporting lacked a lot of detail that was in the original paper.
+

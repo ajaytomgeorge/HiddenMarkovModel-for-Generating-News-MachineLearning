@@ -1,0 +1,45 @@
+== SOURCE
+
+https://www.theregister.com/2021/09/30/ai_model_rain_deepminnd/
+
+== AGENT
+
+DeepMind, meteorologists from the Met Office and the University of Exeter in England
+
+== GOAL
+
+build an AI model capable of predicting whether it will rain up to 90 minutes beforehand
+
+== DATA
+
+Datasets of maps containing weather data over five minute intervals. These maps were labelled and had a 1km x 1km grid resolution.
+To display the cloud formation and density, these maps contain radar data with resemble heat maps showing the location and density of detected clouds.
+
+== METHODS
+
+Construction:
+Open Source Frameworks such as  Iris, TensorFlow and Colab. Open-Source Tools for PySteps and Axial Attention.
+
+Training:
+The AI was trained through unsupervised learning methods with a large number of radar data in the form mentioned in the data section.
+
+== RESULTS
+
+While the general use of the AI provides quality, consistency and value of the forecast in real time (nowcasting), it can struggle in edge cases and probabilistic forecasting beyond two hours. 
+
+== ISSUES
+
+When the radar composites were taken and compared, most contained "little to no rain" (89% contained no rain).
+Medium to heavy rainfall comprised fewer than 0.4% of the dataset. What they did to balance the dataset is manually include more data with heavier preciptation radar observations.
+Where they got this data and if it is actually accurate to real data was not mentioned. This could lead to possible inaccuracies in prediction if the manually added data is inaccurate to real cloud formations and patterns.
+Another observation is that they have capped the rainfall to 128mm/h. While this does seem like an edge case, it may lead to the AI underestimating possible storms which could delay flood alerts in predicted areas.
+This was acknownledged in their conclusion: "but the prediction of heavy precipitation at long lead times remains difficult for all approaches"."
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I find that this tool is a great start towards a new generation of weather forecasting. Weather prediciton is something everyone use and pay attention to in their daily lives yet a small portion would know what work is done to do it.
+This tool could be an "unsung hero" in a few years time when other weather groups start using the data locally.

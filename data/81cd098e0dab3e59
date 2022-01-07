@@ -1,0 +1,37 @@
+== SOURCE
+
+https://bdtechtalks.com/2019/04/17/openai-five-neural-networks-dota-2/
+
+== AGENT
+
+OpenAI Five
+
+== GOAL
+
+Test the progress of AI algorithms in complicated and challenging games.
+
+== DATA
+
+Trained 45,000 years worth of games in 10 months. They got this data by playing the bots against themselves.
+
+== METHODS
+
+Reinforcement Learning
+
+== RESULTS
+
+The neural network was able to defeat world champions in a best of three game.
+
+== ISSUES
+
+The AI's playing style favors short term gains over long term strategizing and planning.
+There were also additional limits put in place to help the AI (the pool of available characters was reduced from 117 to 17).
+The AI would likely  lose against an average player if all character combinations were available.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I thought the coverage was very good on this article, as it took time to explain both why the result was extremely impressive and also explained the shortcomings clearly and concisely.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.theverge.com/2021/9/28/22691923/ring-video-doorbell-package-alerts-amazon-event
+
+== AGENT
+
+Ring
+
+== GOAL
+
+Send alerts when different events are picked up through the camera of a Ring doorbell
+
+== DATA
+
+Input from camera and input from user
+
+== METHODS
+
+The idea is that a user can create custom event alerts e.g. is the car in the driveway, is the front door closed etc. This works by having the user train the camera on the two states you want it to recognise (supervised learning). The finer details are not explained in the article, it just states that it "uses computer vision and machine learning to figure out the difference between the two states"
+
+== RESULTS
+
+Results are not included in the article as the product is not yet released.
+
+== ISSUES
+
+Ring is a battery operated technology and these computations can be power intensive. 
+
+== SCORE
+
+7
+
+== COMMENTS
+
+The idea of an end user being able to train the algorithm themselves is exciting, not only for this product but for other applications. However, because it is not released yet, the public have yet to test if it works as expected.

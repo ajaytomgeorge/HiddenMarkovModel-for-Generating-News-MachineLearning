@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://stackabuse.com/using-machine-learning-to-predict-the-weather-part-1/
+
+==== AGENT
+
+Adam McQuistan 
+
+==== GOAL
+
+Predict the weather using machine learning.
+
+==== DATA
+
+Weather Underground's free tier API web service.
+
+==== METHODS
+
+They used machine learning to predict weather forecasts.
+
+==== RESULTS
+
+It worked reasonably well.
+
+==== COMMENTS
+
+Machine learning to predict the weather is an extremely hard task to do as there are just too many variables however, with the dawn of quantum computing the leaps that may be possible will enable us to accurately predict the weather to within a degree that could open up a new paradigm to be explored by society.  

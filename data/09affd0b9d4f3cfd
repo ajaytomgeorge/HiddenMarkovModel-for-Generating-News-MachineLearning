@@ -1,0 +1,20 @@
+== SOURCE
+https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924
+== AGENT
+MIT News 
+== GOAL
+Deep Learning helps predict new drug combinations to fight COVID-19
+== DATA
+The existential threat of Covid-19 has highlighted an acute need to develop working therapeutics against emerging health concerns. One of the luxuries deep learning has afforded us is the ability to modify the landscape as it unfolds  --  so long as we can keep up with the viral threat and access the right data. Typically, data scientists use deep learning to pick out drug combinations with large existing datasets for things like cancer and cardiovascular disease, but, understandably, they can't be used for new illnesses with limited data.
+Without the necessary facts and figures, the team needed a new approach: a neural network that wears two hats. Since drug synergy often occurs through inhibition of biological targets (like proteins or nucleic acids), the model jointly learns drug-target interaction and drug-drug synergy to mine new combinations. The drug-target predictor models the interaction between a drug and a set of known biological targets that are related to the chosen disease. The target-disease association predictor learns to understand a drug's antiviral activity, which means determining the virus yield in infected tissue cultures. Together, they can predict the synergy of two drugs.
+== METHODS
+Machine Learning and Artificial Intelligence.
+== RESULTS
+Deep learning helps predict new drug combinations to fight Covid-19
+== ISSUES
+- 
+== SCORE
+9/10
+== COMMENTS
+
+

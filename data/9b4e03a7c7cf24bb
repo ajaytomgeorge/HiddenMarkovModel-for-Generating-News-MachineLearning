@@ -1,0 +1,18 @@
+== SOURCE
+https://techxplore.com/news/2021-10-self-aware-algorithm-ward-hacking.html
+== AGENT
+Purdue University 
+== GOAL
+Create self-aware and self-healing computer systems to counter cyber attacks.
+== DATA
+The inputs that a system takes, even those that are not used by the part of the system that is the observer.
+== METHODS
+The system modifies pre-existing, non-essential data to create a signal that the parts of the system can verify.
+== RESULTS
+The method seems successful, as a startup created by the researchers has been acquired by a larger company to impliment their algorithm.
+== ISSUES
+The data that the algorithm modifies might be incorrectly identified as non-essential and modifying it could create issues for the system.
+== SCORE
+5
+== COMMENTS
+The method that is in use by the algorithm to identify anomalies is interesting, as well as being able to self-heal when an anomaly is detected. The method of using un-used data to verify data seems promising to me.

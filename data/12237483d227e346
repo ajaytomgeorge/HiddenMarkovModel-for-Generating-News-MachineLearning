@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.unite.ai/machine-learning-used-to-uncover-the-secrets-of-pompeii-scrolls/
+
+==== AGENT
+
+A team of scientists at the University of Kentucky
+
+==== GOAL
+
+Reading the carbonised scrolls left after the eruption of Mount Vesuvius in AD 79 in the Italian city of Pompeii.
+
+==== DATA
+
+carbonised scrolls left after the eruption of Mount Vesuvius in AD 79 in the Italian city of Pompeii.
+
+==== METHODS
+
+To be able to resolve the problem, the team has decided to use both high-energy x-rays and artificial intelligence. The method they are using involves photographs of scroll fragments with writing visible to the naked eye. These are then fed to “teach machine learning algorithms where ink is expected to be in x-ray scans of the same fragments, collected using a number of techniques.” The team is guided by the concept that “the system will pick out and learn subtle differences between inked and blank areas in the x-ray scans, such as differences in the structure of papyrus fibers.” After the system is trained on these fragments, the idea is to apply it to the data from the intact scrolls and hopefully, that will reveal the text that is contained in the scrolls.
+
+==== RESULTS
+
+Currently being worked on
+
+==== COMMENTS
+
+Will be cool to see what all the scrolls contained once they are able to read the scrolls.

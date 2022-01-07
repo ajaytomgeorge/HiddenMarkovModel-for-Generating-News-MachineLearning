@@ -1,0 +1,44 @@
+== SOURCE
+
+https://www.nature.com/articles/s41612-020-00148-5
+
+== AGENT
+
+L. A. Mansfield, P. J. Nowack, M. Kasoar, R. G. Everitt, W. J. Collins & A. Voulgarakis 
+
+== GOAL
+
+Here we introduce a machine learning approach, which utilises a unique dataset of existing climate model 
+simulations to learn relationships between short-term and long-term temperature responses to different climate forcing scenarios.
+
+== DATA
+
+study made use of existing simulations from a single global climate model. However, it opens the door for similar approaches to be 
+taken with datasets from other individual climate models. 
+
+== METHODS
+
+We evaluate the performance of the two different machine learning methods (Ridge, GPR) by benchmarking 
+them against a traditional pattern scaling approach often used for estimating future patterns of climate change. 
+The latter relies on multiplying the long-term response pattern for the 2xCO2 scenario by the relative magnitude 
+of global mean response for each individual climate forcer. 
+
+== RESULTS
+
+Challenges and opportunities for data-driven climate modelling, especially concerning the 
+incorporation of even larger model datasets in the future
+
+== ISSUES
+Climate change around the globe occurs rapidly and these rapid shift should be dealth with quickly and this approach takes more time 
+to deliver promising results which can be an issue considering the urgency in this case.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Climate changes needs to dealth with and is going to have a huge impact in our lives in the future and such novel approaches can lead 
+to reducing the effect to a certain rate. 
+
+

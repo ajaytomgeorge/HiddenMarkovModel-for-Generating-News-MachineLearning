@@ -1,0 +1,36 @@
+== SOURCE
+
+https://scitechdaily.com/astronomers-use-artificial-intelligence-to-reveal-the-actual-shape-of-the-universe/
+
+== AGENT
+
+Masato Shirasaki, The Institute of Statistical Mathematics, Tachikawa, Tokyo, Japan
+
+== GOAL
+
+The aim is to analyse lensing convergent maps with an arc minute resolution. The aim of the machine learning is to differentiate between lensing effects distorting galaxies and distorted galaxies.
+
+== DATA
+
+The Data was in the form of images of the universe supplied by Japan's Subaru Telescope. The training data was obtained using 25000 mock images of the Subaru Hyper Suprime-Cam (HSC) Survey. The cleaned data is then used to determine whether a galaxy has or has not been subject to lensing convergence.
+
+== METHODS
+
+The method that they used was a generative adversarial network (GAN) which uses a U-Net structure.  A GAN is a machine learning framework where two neural networks contest against one another in a zero-sum game. A U-Net GAN has a discriminator that segments the output, creating two more outputs, in this case a true or false. The discriminator is tested using an image from the generator and an image from the HSC.  
+
+== RESULTS
+
+The removal of noise using the GAN yielded an observed mass distribution that is in line with the predicted form from the leading Cosmological model ACDM, implying that the machine learning noise erasure was successful.
+
+== ISSUES
+
+I do not see any issues with the research, however I think that the reporting in the press exaggerated the extent of the survey, but in future this study will aid in determining the structure of galaxies for a specific path of space.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I think that the use of machine learning to yield physical results that can be interpreted is a great step in the right direction for astronomy as the volume of data with astronomy is immense. This is a step towards having a means of documenting the shapes of galaxies which will give us not only an insight into the shape of our neighbourhood in the universe but the large-scale effects of dark matter. The method used was not new, instead it built upon previous discriminators and generators used in astronomy.
+

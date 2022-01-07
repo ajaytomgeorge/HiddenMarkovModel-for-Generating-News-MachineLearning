@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.eenewseurope.com/news/machine-learning-remove-space-debris
+
+== AGENT
+
+ClearSpace-1, a spin off from research lab EPFL in Zurich
+
+== GOAL
+
+Develop deep learning algorithms to aid with the removal of space junk that is cluttering up Earth's orbital space.
+The Clearspace-1 project will use machine learning algorithms, trained on simulated data, to capture a payload adapter in space.
+
+== DATA
+
+They produced a database of synthetic images of the target object, including both the Earth backdrop reconstructed from hyperspectral satellite imagery, and a detailed 3D model of the Vespa upper stage.
+These synthetic images are based on measurements of real-world material samples of aluminium and carbon fibre panels, acquired using our lab's goniophotometer.
+Once the mission starts, researchers capture some real-life pictures from beyond the atmosphere in order to fine tune the algorithms.
+
+== METHODS
+
+It doesn't specify any particular algorithms in the article. 
+
+== RESULTS
+
+The results will not be available until after the mission has been completed. The article doesn't specify how far along they are in the development.
+
+== ISSUES
+
+The fact that they are using fabricated data may make their model unreliable when attempting to apply that to the real thing. Although they plan on adding more data during the project, a miscalculation could cause a lot of damage.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I love space, and any project that is attempting to clear the junk up there is cool by my book. It's impressive to see them making second by second predictions of 6 dimensional positioning in order to get this right.
+Especially taking in to consideration the limited space and resources you have on space-faring devices. I hope this mission succeeds and leads to many more.

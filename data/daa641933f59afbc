@@ -1,0 +1,35 @@
+== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246102
+
+== AGENT
+
+DOI
+
+== GOAL
+
+Soft robots have been extensively researched due to their flexible, deformable, and adaptive characteristics. However, compared to rigid robots, soft robots have issues in modeling, calibration, and control in that the innate characteristics of the soft materials can cause complex behaviors due to non-linearity and hysteresis. To overcome these limitations, recent studies have applied various approaches based on machine learning.
+
+== DATA
+
+Data is extracted from sensors. Machine learning has its ability to extract important features from massive and multi-dimensional data. 
+
+== METHODS
+
+approach for controlling the pneumatically actuated soft robot is a model-free learning algorithm, which is a learning method to calculate the control policy without an analytical model. Reinforced learning algorithms such as Q-learning have been usually used for the model-free approaches. In general, the objective of reinforcement learning is to find the control policy that maximizes the expected discount return, which is the weighted sum of rewards received by the agent for the system
+
+== RESULTS
+
+Although soft actuators have the advantages of flexible motion with simple morphological structures, due to their versatility, there are limitations with respect to state modeling and the control of soft body systems. Control methods based on machine learning approaches such as FNN and RNN were developed for the following objectives: proprioception, model-based policy formulation for the control of soft actuators, and model-free policy formulation for the control of soft actuators. It should be noted that unlike other soft robotic applications, reinforcement learning algorithms have been extensively implemented to obtain policies for the control of robots.
+
+== ISSUES
+
+there are several remaining limitations due to the large quantity of data required, additional unexpected error sources, and real-time measurements/controls.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Using machine learning techniques can be another solution to reduce the number of data. For example, Meta learningalgorithms have been proposed to learn quickly with fewer number of new data. Transfer learning aims to improve the learning process of a data by transferring information from the data from a related domain

@@ -1,0 +1,36 @@
+== SOURCE 
+
+https://www.the-scientist.com/news-opinion/ai-accurately-detects-lung-cancer-in-scans-65914 
+
+== AGENT 
+
+A collaboration between software engineers and clinical researchers, National Institute of Health 
+
+== GOAL 
+
+To create an AI that accurately detects lung cancer in scans 
+
+== DATA 
+
+Data came in the shape of computed tomography images. As well as this in another study mentioned in the article, they fed thousands of scans into Google’s computers along with the patients later diagnosis. 
+
+== METHODS  
+
+The research team fed thousands of scans from the earlier NIH study into Google’s computers, along with the patients’ later diagnoses. After this training, the researchers tested the model’s accuracy in detecting cancer from new scans and compared it to that of six radiologists. 
+
+== RESULTS 
+
+Where more than one scan had been taken of a person over time, the model performed as well as the radiologists, but when just one image was available, the program yielded 5 percent fewer false negatives and 11 percent fewer false positives than the physicians. 
+
+== ISSUES
+
+Amazing idea but the fear of a false positive can occur, also the people would probably be more reassured that a human is somewhat involved
+
+== SCORE
+
+8
+
+== COMMENTS
+
+The idea of using machine learning to train an AI to detect lung cancer in scans, is amazing to me, a very smart idea to use It that way. However, it is slightly scary to me that one day, we might be completely relying on AI to determine whether a patient has lung cancer, or any cancer for that matter.  
+

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.nature.com/articles/d41586-019-03332-7
+
+== AGENT
+
+ Swiss Federal Institute of Technology (ETH) in Zurich
+
+== GOAL
+
+To discover new laws of physics
+
+== DATA
+
+Observational data of the trajectory of Mars and the Sun as seen from Earth
+
+== METHODS
+
+RL
+
+== RESULTS
+
+Positioned the Sun as a center-piece of the solar system
+
+== ISSUES
+
+Human involvement is still needed to interpret the equations and how they relate to the movement of the planets around the Sun
+
+== SCORE
+
+8
+
+== COMMENTS
+
+Interesting to know that not only laws of physics, but other laws might be 'rediscovered' by means of ML 

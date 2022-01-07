@@ -1,0 +1,56 @@
+== SOURCE
+
+https://www.seti.org/using-machine-learning-help-track-bolides-really-bright-meteors
+
+== AGENT
+
+A SETI Institute data scientist named Jeff Smith and his team did this work, 
+which is now part of a project by NASA which is called 'Asteroid Threat 
+Assesment Project or ATAP for short
+
+== GOAL
+
+The goal of this project was to track and observe upcoming bolides heading 
+towards planet earth, these are bright flashes of light caused by meteors 
+and asteroids when they enter the earths atmosphere and explode
+
+== DATA
+
+It was said that Jeff and his team had built a bolide detection and light 
+curve generation using the Geostationary Lighning Mapper which is used to 
+record changes in the earths atmosphere. This bolide detection device has 
+identified more than 2,600 boldies in the past 2 years. The GLM identifies optical
+changes that show the presence of lighting, whitch detects millions of 
+lighning strikes.
+
+== METHODS
+
+They used supervised machine learning  and accurate filters to 
+create a new data pipeline to identify bolides.
+
+== RESULTS
+
+The first system they made had a very low detection precision of about 1.5% 
+which meant that most of the detections made were not actually bolides.
+After creating their second system the new data pipeline had a detection precision
+of about 80%. This sytem has allowed more than 2,600 bolides to be detected in the 
+past 2 years
+
+== ISSUES
+
+Some of the issues that could occur with this bolide detection machine learning system is accuracy,
+although it said that the detection precision was 80%, there is still 20% unaccounted for. So the 
+question I have is that is there a 20% chance that they could miss something heading for earth
+that is a lot more serious than a bolide
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Thought this was avery interesting piece, it really does a fantastic job explaining what
+is happening and goes into detail about methods used to identify and observe these things.
+This article gives us alot of information and figures of past and present methods of how the 
+scientists intend to observe bolides which really keeps us keep up to date and helps us understand 
+in basic terms what is happening around us.

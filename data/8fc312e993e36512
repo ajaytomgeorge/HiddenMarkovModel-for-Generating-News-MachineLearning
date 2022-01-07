@@ -1,0 +1,38 @@
+== SOURCE
+
+https://news.mit.edu/2021/drones-speed-route-system-0810
+
+== AGENT
+
+MIT aerospace engineers
+
+== GOAL
+
+To train drones to fly through obstacle courses faster than with regular algorithms and without crashing.
+
+== DATA
+
+The data used was from experiments of a real drone flying through the same course as the virtual obstacle course, but in a physical space.
+
+== METHODS
+
+Reinforcement learning was used.
+
+== RESULTS
+
+The algorithm created was able to generate trajectories that were faster than those obtained from existing optimization algorithms. Two-segment trajectories, waypoint trajectories and polytope trajectories were used, each with different levels of fidelity being used.
+
+The full results can be found at this link:
+https://journals.sagepub.com/eprint/SJZWUQV2SVJHURHTMSMZ/full
+
+== ISSUES
+
+The only issue was that the drone had to be trained to fly in a pre-existing obstacle course rather than being able to fly a new one. Other than this the experiment was a success, the drones crashed less often and finished faster than before. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This was interesting, they managed to make the drones fly 20% faster than drones that used a regular planning algorithm. It did this by making the drone clever instead of just making it fly faster, it would slow down around corners and to save energy so that it could pass the competitor at the end. I wouldn’t have done anything differently. The reporting by the press was well done. It was a good way of using old data and simulations as well as experimenting in real drone racing. It was beneficial that it destroyed less drones in crashes while the drone was still training via the simulations.

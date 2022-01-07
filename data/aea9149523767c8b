@@ -1,0 +1,36 @@
+== SOURCE
+
+https://www.afr.com/technology/how-formula-1-uses-machine-learning-to-spice-up-races-20210716-p58abx
+https://aws.amazon.com/f1/
+
+== AGENT
+
+Amazon - AWS
+
+== GOAL
+
+Use the 50 TB of data generated since the mid-1990s to create a new spectator experience. 
+
+== DATA
+
+The data was produced by telemetry systems in the cars and on the track from every race.
+
+== METHODS
+
+Unspecified cloud-based machine learning with complex models
+
+== RESULTS
+
+F1 Insights - a system of models that enables fans to understand how drivers make split-second decisions and how teams devise and implement race strategies in real time that impact the outcome of a race. 
+
+== ISSUES
+
+The right information needs to be made available to the right people, or these models could potentially be used to affect the outcome of a race, or let viewers know who the models predict is going to win.
+
+== SCORE
+
+5
+
+== COMMENTS
+
+Quoting the first article, Both the broadcasters and the F1 teams are now “so far advanced in race strategy analytics that when they go into a race on a Sunday afternoon, the accuracy of those models is far, far greater than someone who’s sat at home watching TV, trying to assimilate all the different things that are happening in front of them.” This highlights just how much information a powerful ML algorithm can generate, and sometimes more information is actually not better. 

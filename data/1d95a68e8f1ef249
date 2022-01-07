@@ -1,0 +1,28 @@
+==== SOURCE
+
+https://www.axios.com/machine-learning-cant-flag-false-news-55aeb82e-bcbb-4d5c-bfda-1af84c77003b.html
+
+==== AGENT
+
+MIT doctoral student Tal Schuster
+
+==== GOAL
+
+To determine whether current machine learning models can distinguish false news reports.
+
+==== DATA
+
+The data consisted of a number of true statements called Fact Extraction and Verification (FEVER).
+
+==== METHODS
+
+A large number of automated fact-checking systems were trained using the data.
+
+==== RESULTS
+
+Schuster's group concluded that while machines are great at detecting machine-generated text, they can't identify whether stories are true or false. Machine learning-taught fact-checking systems struggled to handle negative statements ("Greg never said his car wasn't blue") even when they would know the positive statement was true ("Greg says his car is blue"). This was because the database was filled with human bias in that false tended to be written as negative satements and true entries tended to be written as positive statements so in general, the computers rated negative statements as false.
+
+
+==== COMMENTS
+
+I think this study was important in that it could serve as a warning to other machine learning researchers of the potential dangers of bringing human bias into a learning data set.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.sciencedirect.com/science/article/pii/S2666827021000694
+
+== AGENT
+
+ScienceDirect
+
+== GOAL
+
+COVID-19 detection in X-ray images using convolutional neural networks
+
+== DATA
+
+A total of 9 Chest X-ray images datasets were used in different stages
+
+== METHODS
+
+Neural Networks
+
+== RESULTS
+
+The approach has a 95.63% accuracy in the test dataset for a threshold of 0.5. Changing the threshold shows an increase in the accuracy of models up to 98%.
+
+== ISSUES
+
+None 
+
+== SCORE
+
+9
+
+== COMMENTS
+
+The method is not new but love the way they have applied it

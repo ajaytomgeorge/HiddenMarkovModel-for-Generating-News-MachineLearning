@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/09/29/baidu-ai-research-releases-plato-xl-worlds-first-dialogue-generation-nlp-model-pre-trained-on-11-billion-parameter/
+
+== AGENT
+
+Baidu
+
+== GOAL
+
+Create & train PLATO-XL: World's First Dialogue Generation (NLP) Model.
+
+== DATA
+
+The majority of the pretraining data used is gathered from social media conversations, where multiple users exchange ideas. Total 11 billion parameters and 100 billion data tokens were used.
+
+== METHODS
+
+PLATO-XL is supervised pre-training. To address inconsistent responses, multi-party aware pretraining was used. This helps PLATO-XL to distinguish information in context and maintaing constistency in dialogue.
+It employs gradient checkpoint and sharded data parallelism offered by FleetX and PaddlePaddle's distributed training library helping in training large models.
+
+== RESULTS
+
+PLATO-XL is implemented on PaddlePaddle (ML platform developed by Baidu). The source code with English Model is released on Github (https://github.com/PaddlePaddle/Knover).
+Compared to other chatbots, it's an improvement, especially against open-source Chinese Models.
+
+== ISSUES
+
+A typical issue for chatbots are unfair biases, incorrect information and the inability to learn continuously. PLATO-XL is not free of them, however it brings a huge improvement in the area. The team is currently working on improving the quality of the conversation in terms of fairness and factuality.
+Other than that, there aren't any unique issues.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This was an interesting read and a well-written article.

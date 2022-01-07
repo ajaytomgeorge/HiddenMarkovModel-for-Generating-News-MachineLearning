@@ -1,0 +1,40 @@
+== SOURCE
+
+https://www.scholarsresearchlibrary.com/articles/applying-machine-learning-techniques-to-advance-antidoping-18437.html
+
+== AGENT
+
+United States Anti-Doping Agency, Colorado Springs, CO, USA
+
+== GOAL
+
+Applying Machine Learning Techniques to Advance Anti-Doping.
+The goal of this project was to develop and compare multiple classification models using career performance data from athletes who have been sanctioned for doping. 
+
+== DATA
+
+UFC athletes tested by the US Anti-Doping Agency (USADA) from July 2015 through May 2018 were included the dataset. For these athletes, career performance data was obtained for athletes who had competed in a minimum of one fight in the UFC from January 2015 to May 2018. Given the relatively low population, female athletes were not included in this analysis. Athletes were identified as having engaged in doping if they had publicly received a sanction for a doping-related offense from USADA.
+All athlete data was obtained from the mixed martial arts data aggregation website Fightmetric.com. 
+
+== METHODS
+
+Machine-learning based classification models used include Support Vector Machine (SVM), Random Forest (RF), Multinomial Naïve Bayes (MNB), Logistic Regression, and Gaussian Naïve Bayes (GNB). 
+All classifiers were trained using Python(version 3.6.5) and the scikit-learn(version 0.19.1) package.
+
+== RESULTS
+
+UFC athletes sanctioned for doping are significantly older (32.6 years old) compared to athletes who have not been sanctioned (30.9 years old). Additionally, of the nine performance measures, sanctioned athletes have a significantly greater takedown accuracy. Although takedown accuracy was the only performance measure to be significantly different, similar performance measures such as takedown defense and takedowns landed were higher in sanctioned athletes. To better understand if sanctioned athletes exhibit a similar “fighting strategy,” the percent difference was calculated for each of the nine performance measures as well as fight time and age. UFC athletes tend to excel in offensive and defensive takedown-based movements. Furthermore, sanctioned athletes tend to land more significant strikes per minute but knock their opponent down less and attempt fewer submissions. This data suggest sanctioned UFC athletes may employ a similar fighting strategy, best described as “ground-and-pound,” to fighting an opponent.
+
+== ISSUES
+
+A possible issue exists with the dataset, athletes are assumed clean unless sanctioned otherwise. There exists the possibilty that athletes who are currently doping are included in the data used to model the clean atheltes.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+I found it interesting as a new angle in attempting to ensure a level playing field for all athletes.
+I would have explored including fighters with fewer fights as they generally move to the UFC from an untested organisation, producing a large amount of positive tests early on in younger fighters careers, a factor I feel wasn't included in this model. Also, try and build a model for female fighters, however this might not be worthwhile until a larger dataset is gathered. 
+Used old methods for a new interesting purpose.

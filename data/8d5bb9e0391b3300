@@ -1,0 +1,35 @@
+== SOURCE
+
+https://venturebeat.com/2020/03/11/google-launches-cloud-ai-platform-pipelines-in-beta-to-simplify-machine-learning-development/
+
+== AGENT
+
+Google
+
+== GOAL
+
+Deploy AI pipelines with relevent tools.
+
+== DATA
+
+Google Dataflow
+
+== METHODS
+
+Argo workflow engine
+
+== RESULTS
+
+Successful test cases.
+
+== ISSUES
+
+Relatively untested technology
+
+== SCORE
+
+6
+
+== COMMENTS
+
+It's a new technology with many applications.

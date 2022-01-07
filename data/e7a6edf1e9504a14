@@ -1,0 +1,27 @@
+==== SOURCE
+
+Forbes.com. (2019). Machine Learning In Practice: How Does Amazon's Alexa Really Work?. [online] Available at: https://www.forbes.com/sites/bernardmarr/2018/10/05/how-does-amazons-alexa-really-work/#4a1bd9dc1937 [Accessed 11 Oct. 2019].
+
+==== AGENT
+
+Amazon
+
+==== GOAL
+
+Natural Language Processing. They were trying to create an AI that could recognize the meanings behind human speech and intepret the commands contained within.
+
+==== DATA
+
+The data used is human speech. Most of the data is taken from user requests. Anytime that Alexa does not understand a request, the data is sent to the system to improve it in the future.
+
+==== METHODS
+
+The Alexa itself doesn't have any great speech recognition in itself. All data acquired by the Alexa is sent to the Amazon Voice Services which uses natural language processing to parse the speech into commands to be executed.
+
+==== RESULTS
+
+They've obviously made quite the successful product and Amazon Alexa's are able to parse most commands given to them.
+
+==== COMMENTS
+
+The article is a bit light on how the Alexa's actually work but it's otherwise a good article. Alexa's themselves are quite the device capable of recognizing most commands given to them and are making smart homes much more accessible.

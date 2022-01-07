@@ -1,0 +1,22 @@
+==== SOURCE
+https://www.sciencedaily.com/releases/2019/09/190924080037.htm
+==== AGENT
+American Heart Association
+==== GOAL
+Currently, analyzing heart function on cardiac MRI scans takes approximately 13 minutes for humans. 
+Utilizing artificial intelligence in the form of machine learning, a scan can be analyzed with 
+comparable precision in approximately four seconds.
+==== DATA
+Researchers trained a neural network to read the cardiac MRI scans and the results of almost 600 
+patients. When the AI was tested for precision compared to an expert and trainee on 110 separate 
+patients from multiple centers, researchers found that there was no significant difference in accuracy.
+==== METHODS
+Cardiovascular MRI offers unparalleled image quality for assessing heart structure and function; however, 
+current manual analysis remains basic and outdated. Automated machine learning techniques offer the 
+potential to change this and radically improve efficiency, and we look forward to further research that 
+could validate its superiority to human analysis
+==== RESULTS
+Although the study did not demonstrate superiority of AI over human experts and was not used 
+prospectively for clinical assessment of patient outcomes, this study highlights the potential 
+that such techniques could have in the future to improve analysis and influence clinical decision 
+making for patients with heart disease.

@@ -1,0 +1,39 @@
+== SOURCE
+https://deepmind.com/about
+https://www.bernardmarr.com/default.asp?contentID=1090
+
+== AGENT
+Google's DeepMind
+
+== GOAL
+Develop an AI that is capable of mimicing the thinking process of a 
+human mind, and use it for a variety of jobs, such as diagnosing medical
+conditions.
+
+== DATA
+One example of data DeepMind is using images of eye scans and patient
+data. It has access to to over 1 million eye scans, courtersy of an eye 
+hospital in London.
+
+== METHODS
+From the eye data it has been given, the DeepMind AI has been training 
+itself to identify the onset of eye conditions from the scans and the
+corresponding patient data.
+
+== RESULTS
+Due to it being an ongoing and in depth study, the results are not yet 
+finalised, however many aspects of DeepMind are showing promsing strides.
+DeepMind has been gone from playing games like chess, to simple videogames 
+like pac man and even further to playing very complex games such as Dota.
+
+== ISSUES
+DeepMind is showing great potential but is still a long way off its goal,
+due to the extent of the research being carried out, and safety being the 
+ultimate priority.
+
+== SCORE
+7
+== COMMENTS
+All things considered, DeepMind is a work in progress and paving the way to 
+AI's replacing and improving jobs carried out by humans. A very exciting
+prospect and with Google at the helm, great things can be expected.

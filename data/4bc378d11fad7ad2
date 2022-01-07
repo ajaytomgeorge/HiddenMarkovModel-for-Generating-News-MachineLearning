@@ -1,0 +1,44 @@
+﻿==== SOURCE
+
+http://news.mit.edu/2019/using-machine-learning-hunt-down-cybercriminals-1009
+
+==== AGENT
+
+Researchers at MIT and the University of California at San Diego (UCSD)
+==== GOAL
+
+According to the article, "hijacking IP addresses is an increasingly popular
+form of cyber-attack". "Existing efforts to detect IP hijacks tend to look at
+specific cases when they’re already in process". The idea behind using machine
+learning here is to predict cyber-attacks in advance, "by illuminating some
+of the common qualities of cyber-criminals.
+
+
+==== DATA
+
+Part of the data was taken from the Global Routing Table. The data included "several
+years' worth of network operator mailing lists and historical Border Gateway
+Protocol data taken every five minutes.
+
+==== METHODS
+
+Using the network operator mailing lists and BGP data, the researchers "observed
+particular qualities of malicious actors and then trained a machine-learning model
+to automatically identify such behaviors". From this, the training method used was
+most likely supervised learning.
+
+==== RESULTS
+
+The overall result is that the system was pretty accurate in identifying malicious
+networks. However, "one challenge in developing the system was identifying false
+positives". Some network operators employ methods to defend against attacks which
+look like IP hijacks. "Because of this issue, the team often had to manually jump in
+to identify false positives, which accounted for roughly 20 percent of the cases
+identified by their classifier".
+
+==== COMMENTS
+
+Using machine learning in network security is an interesting idea. However, the
+article shows there is difficulty in classifying and identifying malicious networks
+accurately. "As people increasingly rely on the internet for critical transactions, ..
+IP hijacking’s potential for damage" is expected to only get worse.

@@ -1,0 +1,34 @@
+==== SOURCE
+
+https://www.nature.com/articles/s41598-019-49656-2
+
+==== AGENT
+
+Charles K. Fisher, Aaron M. Smith & Jonathan R. Walsh Coalition Against Major Diseases 
+
+==== GOAL
+
+To simultaneously simulate dozens of patient characteristics, in order to work towards personalized medicine for Alzheimer’s Disease.
+
+==== DATA
+
+The data was comprised of 18-month trajectories of 44 clinical variables from 1909 patients who had Mild Cognitive Impairment or Alzheimer’s Disease.
+These variables included the individual components cognitive exams, laboratory tests, and background information.
+The variables were classified as binary, ordinal, categorical, or continuous.
+
+==== METHODS
+
+They created an unsupervised machine learning model called a Conditional Restricted Boltzmann Machine (CRBM) to simulate detailed patient trajectories.
+Using this model they were able to create synthetic patient data.
+This model was created using a neural network capable of learning and sampling from the joint probability distribution of covariates across multiple times.
+
+==== RESULTS
+
+This work is still on-going, and is slowed by the limited availability of high quality longitudinal health datasets and the limited ability of current machine learning methods to produce insights from these datasets.
+However the work has been shown as a proof on concept, where the synthetic patient data accurately reflect the means, standard deviations, and correlations of each variable over time, 
+to the extent that synthetic data cannot be distinguished from actual data by a logistic regression.
+
+==== COMMENTS
+
+This work makes great progress into understanding Alzheimer’s Disease.
+Since the disease acts differently within different people, and patients often react differently to therapies, a personalised medicine would highly beneficial.

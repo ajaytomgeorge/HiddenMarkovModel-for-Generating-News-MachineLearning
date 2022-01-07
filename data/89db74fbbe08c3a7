@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.wired.com/story/ai-phishing-emails/
+
+== AGENT
+
+Singapore's Government Technology Agency
+
+== GOAL
+
+Making an experiment of who's better at writing phishing emails (between humans and the AI)
+
+== DATA
+
+They used known phishing emails and an English language database to make sentences.
+
+== METHODS
+
+They used Open AI's GPT-3 which is supervised.
+
+== RESULTS
+
+After sending phishing emails made by them and the AI to 200 of their colleagues, they saw that the AI's are much better with a higher click rate compared to the human mails.
+
+== ISSUES
+
+The issue with this problem is to see that malicious people can use AI to create better scams on the internet which can cause a problem to one's personal security.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is interesting to see how AI can touch every possible field with the correct data and training method. It is shown that GPT-3 is a powerful AI tool.
+The article is a good summary of the project but doesn't go into detail of how it was the results (statistics) which could tell a little more about the AI.
+
+
+The article describes the problem, the solution and the outcome greatly.

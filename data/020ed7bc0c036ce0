@@ -1,0 +1,25 @@
+== SOURCE
+https://cio.economictimes.indiatimes.com/news/next-gen-technologies/how-uber-manages-anomalies-in-its-machine-learning-models/86744585
+== AGENT
+Uber.
+== GOAL
+To improve anomaly detection in Uber's Machine Learning models.
+== DATA
+The data Uber used to detect anomalies previously had been collected throughout the years. However, due to the unpredictability of the 
+Covid-19 pandemic, all this data was rendered obsolete for now. So to counter this, Uber decided to use recency bias in it's Machine Learning 
+models. This basically meant that the effect of the pandemic on Uber's data was not considered as an anomaly.
+== METHODS
+The machine learning methods were not stated in the article, however I did some research and found that unsupervised learning is typically used 
+for anomaly detection.
+== RESULTS
+The result of adjusting the dataset based off more recent data meant that Uber's anomaly detection machine learning model became more 
+accurate and consistent with what would be considered an anomaly during a global pandemic.
+== ISSUES
+I don't see any issues with what is discussed in the article.
+== SCORE
+7
+== COMMENTS
+I found this article interesting as it displays a big company like Uber making adjustments to the data being fed into their Machine Learning 
+models in order to adapt to the ever-changing and unpredictable pandemic situation. I think incorporating recency bias into their dataset was 
+a smart way to avoid inconsistent anomalies being thrown up, as the recent data was the new reality, not an anomaly. The Machine Learning 
+methods were not mentioned in this article.

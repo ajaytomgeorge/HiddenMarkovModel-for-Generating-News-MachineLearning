@@ -1,0 +1,35 @@
+== SOURCE
+
+https://inews.co.uk/news/science/machine-learning-predict-animal-viruses-covid-19-risk-infecting-humans-1222374
+
+== AGENT
+
+University of Glasgow
+
+== GOAL
+
+Accurately predict which animal viruses that can go on to infect humans 
+
+== DATA
+
+Viruses in animals 
+
+== METHODS
+
+It interprets information encoded in the viral genome
+
+== RESULTS
+
+Being able to predict which viruses can cause a threat to humans and rank the threat from low medium high and very high
+
+== ISSUES
+
+If a new virus is detected in animals, it might be to late to if the virus has already transferred over
+== SCORE
+
+7
+
+
+== COMMENTS
+
+Without any prior knowledge of the previous SARS outbreak in humans, this model was able to accurately predict that SARS-CoV-2, the virus that caused the Covid-19 pandemic, and its closest viral relatives found in animals, had a high risk of being able to infect humans. This finding, together with more formal testing on hundreds of viruses with known zoonotic status demonstrated that the model could make accurate predictions on viruses that are entirely new to science. 

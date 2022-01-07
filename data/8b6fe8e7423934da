@@ -1,0 +1,44 @@
+﻿==== SOURCE
+
+
+
+https://www.vice.com/en_us/article/neagpb/ai-trained-on-old-scientific-papers-makes-discoveries-humans-missed
+
+==== AGENT
+
+
+
+Lawrence Berkeley National Laboratory
+
+==== GOAL
+
+They developed a neural network to make predictions from scientific papers in the 
+area of material science.
+
+==== DATA
+
+
+
+They used 3.3 million abstracts of scientific papers related to material science, 
+thus collecting a vocabulary of ca. 500,000 words.
+
+==== METHODS
+
+
+They used a Word2vec model on the previously collected data in an unsupervised 
+fashion.
+
+==== RESULTS
+
+
+
+The article demonstrates the performance of the neural network by giving an example 
+of an experiment where old papers (before 2009) were used to predict a new material 
+that was indeed discovered in later years (2012).
+
+==== COMMENTS
+
+
+
+The article says that this neural network can be trained on and used in any 
+discipline and might prove useful for researchers.

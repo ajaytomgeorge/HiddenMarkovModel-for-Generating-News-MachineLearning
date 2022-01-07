@@ -1,0 +1,39 @@
+Article 4 - Twitter Cropping pictures
+
+==== SOURCE
+
+https://www.theverge.com/2018/1/25/16931632/twitter-machine-learning-auto-image-cropping
+
+==== AGENT
+
+Lucas Theis, ML researcher at Twitter.
+Zehan Wang, ML Lead at Twitter.
+
+==== GOAL
+
+Theis and wang are trying to use machine learning to automatically crop images uploaded
+onto twitter so that the most interesting part of the image is portrayed. This is aimed
+to predict what images or posts users want to look at based off preference.
+
+==== DATA
+
+They are getting their data from images uploaded by users day by day. These images can
+differ from images of scenery, people and objects.
+
+==== METHODS
+
+They are using a method called cropping using saliency, which mean they are training 
+neural networks to identify the most interesting aspect of an image in real-time.
+
+==== RESULTS
+
+The project is currently being introduced in an update for Twitter on the market.
+It is too early to determine the success of this new feature as it was only released
+last year.
+
+==== COMMENTS
+
+This is certainly a feature that would appeal to a majority of Twitter users who are 
+passionate about their posts. It seems like another method to keep users sucked in 
+to the application using personal suggestions, which is a tactic many companies are 
+currently using.

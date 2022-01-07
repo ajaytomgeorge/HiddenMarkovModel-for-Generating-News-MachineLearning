@@ -1,0 +1,35 @@
+== SOURCE 
+
+https://www.smh.com.au/sport/swimming/how-futuristic-machine-learning-gave-australia-an-edge-in-the-pool-20210812-p58i6o.html 
+
+== AGENT
+
+Swimming Australia and AWS
+
+== GOAL
+
+To win lots of medals in the olympics with the Australian swim team
+
+== DATA
+
+They used historical data from previous races
+
+== METHODS
+
+Seems to be supervised, however it's unclear from any article online.
+
+== RESULTS
+
+The team won gold medals in 6 out of the 7 relay races, the predictions for the American team were correct, and all others were close. While testing it at the International Swim League finals in Las Vegas in early 2020. It managed to pick the order the teams would swim in, along with predicting their times to within 0.1 of a second. 
+
+== ISSUES
+
+It doesn't factor in human error, and the team lost out in one of the races after two of the team members didn't put in the times that the algorithm said they would.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I thought this was very interesting, it's amazing to see how machine learning is being used in areas like this and shows how fundamental it'll be to anything competitive in the future.

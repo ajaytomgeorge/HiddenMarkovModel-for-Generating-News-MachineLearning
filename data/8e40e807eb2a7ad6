@@ -1,0 +1,26 @@
+== SOURCE
+https://ieeexplore.ieee.org/document/8960044
+
+== AGENT
+Karishnu Poddar, Geraldine Bessie Amali D, K.S. Umadevi
+
+== GOAL
+Comparison of Various Machine Learning Models for Accurate Detection of Fake News. This aims to tackle this issue using a computational model of probabilistic and geometric machine learning models.
+
+== DATA
+The dataset was taken from Kaggle and has often considered to be the first step towards classification of fake news. The content and metadata has been extracted from 244 websites that have been considered to be associated with fake news by the BS Detector Chrome Extension by Daniel Sieradski.
+
+== METHODS
+Logistic regression performs equally well for both vectorizers and hence may be a better choice than SVMs.
+
+== RESULTS
+Comparison of sample size with accuracy yielded quite interesting results. This comparison proves useful particularly for fake news detection since the dataset size keeps growing as time passes
+
+== ISSUES
+It was expected a better results from neural networks, however, they performed the poorest of all and consistently results in very low accuracy. Algorithm that may giving us a low accuracy now may give us better scores once a larger dataset is available.
+
+== SCORE
+7
+
+== COMMENTS
+It performs equally well for both vectorizers and hence may be a better choice than SVMs.

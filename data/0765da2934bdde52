@@ -1,0 +1,35 @@
+== SOURCE
+
+https://ai.stanford.edu/blog/prototransformer/
+
+== AGENT
+
+Research
+
+== GOAL
+
+Providing feedback for programming related homework
+
+== DATA
+
+Not specified
+
+== METHODS
+
+Meta-learning
+
+== RESULTS
+
+Model was trained and able to give useful feedback to students on their programming problems on the course/website Code In Place.
+
+== ISSUES
+	
+Meta-learning seems as a very good way to capture understanding on a general note. If though the tasks of students would become specialized per student, it wouldn't be as good at given useful feedback back.
+	
+== SCORE
+
+8
+
+== COMMENTS
+
+Fantastic way of letting students know what their mistakes are and giving it to them in a way that they can learn and understand, it also eases teachers from tedious tasks and allows them to focus on improving other parts of the course / material

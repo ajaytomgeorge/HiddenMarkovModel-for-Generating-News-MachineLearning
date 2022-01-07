@@ -1,0 +1,20 @@
+== SOURCE
+https://www.zmescience.com/science/news-science/machine-learning-archaeology-30092021/
+== AGENT
+Penn State Researchers and Archaeologists.
+== GOAL
+To train and use a machine learning algorithm that can identify archaeological structures (shells, as mentioned in the article).
+== DATA
+Lidar of some terrain and Synthetic Aperture Data.
+== METHODS
+Supervised Learning (Deep Learning).
+== RESULTS
+The algorithm was used to discover shells rings and mounds left by indigenous people approximately 3,000-5,000 years ago, once the model was 
+trained with this data.
+== ISSUES
+This article was slightly sparce on detail in regard to the machine learning method.
+== SCORE
+7
+== COMMENTS
+This algorithm is interesting as it can be trained to identify shapes other than shell rings, which should be extremely useful in the area of 
+airborne archaeological exploration.

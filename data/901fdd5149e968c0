@@ -1,0 +1,28 @@
+﻿==== SOURCE
+
+https://www.sciencedaily.com/releases/2019/10/191002165235.htm
+
+==== AGENT
+
+Lingchong You - Professor of Biomedical Engineering, and Shangying Wang - Postdoctoral Associate at Duke University.
+
+==== GOAL
+
+The goal of this work was to train “a neural network to predict the circular patterns that would be created by a biological circuit embedded into a bacterial culture”. Essentially, the researchers wished to determine the set of parameters that would produce a “specific pattern in a bacteria culture following an engineered gene circuit”.
+
+==== DATA
+
+The neural network was trained using 100,000 model simulations, from a traditional computational model. There were 13 bacterial variables considered; including: “rates of growth, diffusion, protein degradation and cellular movement”.
+
+==== METHODS
+
+The researchers utilised a deep neural network, which takes model variable as its input, assigns random weights and biases, and outputs a predicted bacterial colony pattern. The initial results were nowhere near the correct answer; however, when the model was trained using the 100,000 model simulations, and the weights and biases were tuned, the neural network model produced viable predictions. 
+To validate their ML model approach, the researches ran four separate neural network models, each one with an element of randomness. Once the predictions of these models were similar, the answers were validated. This approach was taken over validating the ML model’s results against the results of standard computational models.
+
+==== RESULTS
+
+The ML model ran 30,000 times faster than the existing computational model. It was able to find numerous instances of bacterial colonies containing three rings. This was considered a great result, considering that the 100,000 model simulations used in training only produced one instance of this.
+
+==== COMMENTS
+
+In this work, ML has proven much more effective than the much slower alternative of traditional computational modelling. It has vastly reduced the run time of models.

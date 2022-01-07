@@ -1,0 +1,27 @@
+==== SOURCE
+
+vice.com/en_us/article/d3a4mk/microsoft-used-machine-learning-to-make-a-bot-that-comments-on-news-articles-for-some-reason
+
+==== AGENT
+
+Microsoft Corporation and Beihang University
+
+==== GOAL
+
+To create an algorithm that can distinguish between real and fake accounts in social media. This was done prevent the surgence of misinformation generated in social media like the trend of "fake news". By using machine learning, the task was to have an autonomous system that could tell if an account was genuine or fake. The overall goal however was to encourage readers in the comment section to actually engage in the information and then engage in discussion or debate.
+ 
+==== DATA
+
+Data was gotten by reading comments from news articles and was therefore in text form.
+
+==== METHODS
+
+The algorithm called DeepCom (for Deep Comment) would read the title and take key points and then comment on the article to emulate a human comment. This would essentially "stir the pot" and would usually increase user engagement in the comment section of an article or other source of information.
+
+==== RESULTS
+
+Though an interesting concept, it did not conclusively eliminate or even scratch the effects of fake media on social media. Instead, the spokesperson for this research project concluded that the overall concept of introducing fake commenters to information sources is an ethical mess and has unforeseeable results in the long term.
+
+==== COMMENTS
+
+I think this project was a way to use machine learning simply for the sake that its machine learning. Though the problem does exist, automating human interaction to convince humans to think critically is too much of a mess and will never end in a solution to any complex problem.

@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.polygon.com/22675796/fifa-22-hypermotion-motion-capture-new-realism
+
+== AGENT
+
+EA Sports
+
+== GOAL
+
+They were attempting to use machine learning to help the animation look more fluid and respond better to player actions
+
+== DATA
+
+They used motion-capture data from a session where 22 players played a full game of soccer
+
+== METHODS
+
+Unsure, presumably supervised learning
+
+== RESULTS
+
+In their claim, they are able to have more natural and fluid animations without the need for more mocap sessions or using animators. The algorithm developed was able to provide its own animation sequences.
+
+== ISSUES
+
+One issue is it could be hard to actually quantify the benefit, as we can only take the developers word for the results. 
+
+== SCORE
+
+5
+
+== COMMENTS
+
+If this does work as claimed it could be great for game development. It can mean that game studios will need less from MoCap studios, which could mean more smaller studios will be able to also use MoCap for their games and could bring the cost of developing animations for games down. It would also mean that games would look more fluid. This seems to be a novel use of the technology and all reporting I can find on it seems positive for the advantages it can bring. 

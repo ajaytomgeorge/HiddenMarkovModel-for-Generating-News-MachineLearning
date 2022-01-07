@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.irishtimes.com/special-reports/innovation-in-insurance/how-the-insurance-industry-faces-an-unprecedented-wave-of-disruption-1.4202090
+
+== AGENT
+
+Lemonade, Inc , Zurich Global & Pinsent Masons.
+
+== GOAL
+
+To improve the insurance customer experience, simplify the customer claims experience and to shorten the claims cycle.
+
+== DATA
+
+The big tech companies such as Google, Apple, Facebook and Amazon generate particular data sets which would lend themselves to particular lines of insurance business 
+such as home insurance and health.
+
+== METHODS
+
+Supervised learning & value-based dynamic pricing.
+
+== RESULTS
+
+It is proposal and not implemented yet by the insurance firms.
+
+== ISSUES
+
+It requires a large set of data from the big techicies such as Google, Apple, Facebook and Amazon if they lend their hand. 
+Even after that the damage is reported there can be dishonesty reporting the damages. 
+The apprasing of the damages also would require a large training set because the damages are to be appraised automatically and legacy systems' data would not be able to define the depth of data required, 
+so the already existing bulk data would require a lot of refinement.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The topic dealt in the press was quite intriguing as it can revolutionize the insurance industry.Though there are some firms of particular domains that have implemeted the same concept,
+It would take a large amount of data, time and finances to get this implemented through out the insurance industry. There are areas where it can be be implemented fairly easily but there 
+are several sectors that would face serious blockers while implementing the model and perfecting it. The model must also comply with regulations around consumer and data protections.

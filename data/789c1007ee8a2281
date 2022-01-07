@@ -1,0 +1,39 @@
+﻿==== SOURCE
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214966
+
+==== AGENT
+
+The researchers who did this study are Lukuman Wahab and Haobin Jiang. 
+
+==== GOAL
+
+A study on Machine Learning based algorithms for prediction of motorcycle crash severity.
+
+==== DATA
+
+Data was obtained from the Traffic and Transportation Engineering Division of Building and Road Research Institute (BRRI) of 
+the Council of Scientific and Industrial Research (CSIR) in Ghana. The crash data for motorcycles has four types of injury severities.
+Fatal Injury (F), Hospitalized (H), Not-Hospitalized (I) and Damage with no death or injury (D).
+The data includes motorcycle crashes occuring in Ghana from JAN 2011 - DEC 2015.
+
+==== METHODS
+
+The Machine Learning model used Classification as there are four types of severity to choose from, this means that 
+the Machine Learning algorithm was supervised and acts more like a forecaster to predict as best as possible whether 
+something fits in a severity type or another. 
+A J48 Decision Tree Classifier was used and is open-source. This algorithm uses the devide and conquer strategy to solve 
+the learning problem in grouping the different accidents. 
+Random Forest was also implemented along with Instance-based learning with parameter k (K-nearest neighbours) which is a lazy-learning 
+algorithm. The models were then validated and put in a table to check the accuracy of it.
+
+==== RESULTS
+
+The performance of the model was able to handled outliers and missing values well. It was able to identify and predict the response varialbes, 
+which in turn helped better classify the different motorcycle crashes. In some experimental results it had a 73.64% accuracy of correctly identify 
+the correct severity levels, but over time this accuracy should increase.
+
+==== COMMENTS
+
+Motorcycle accidents happen very often, I can see this helping to better deduce what happens in these accidents and 
+to look for patterns in them to better understand why some accidents have a certain severity compared to others.

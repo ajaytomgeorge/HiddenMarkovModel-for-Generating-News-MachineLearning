@@ -1,0 +1,45 @@
+== SOURCE
+
+https://labelyourdata.com/articles/facial-recognition-algorithms-for-machine-learning
+
+== AGENT
+
+Label Your Data
+
+== GOAL
+
+By definition, facial recognition is a technology capable of recognizing a person based on their face. It is grounded in complex mathematical AI and machine learning algorithms which capture, store and analyze facial features in order to match them with images of individuals in a pre-existing database and, often, information about them in that database. Facial recognition is a part of a tech umbrella term of biometrics that also includes fingerprint, palm print, eye scanning, gait, voice and signature recognition.
+
+== DATA
+
+Most data come from social application like Facebook and WhatsApp, they gather these data and refine them as the high quality data for processing.
+
+== METHODS
+
+Facial recognition is a complex task that requires numerous steps and complex engineering to complete. To distill the process, here is the basic idea of how the facial recognition algorithm usually works.
+
+Your face is detected and a picture of it is captured from a photo or video.
+
+The software reads your facial features. Key factors that play a role in the detection process can differ from each other based on what mapping technique the database and algorithm use. Commonly, those are either vectors or points of interests, which map a face based on pointers (one-dimensional arrays) or based on a person's unique facial features respectively. 2D and 3D masks are utilized for this process. It's common to think that key points are used for best facial recognition software but in reality they are not descriptive or exhaustive enough to be a good face identifier for this task.
+
+The algorithm verifies your face by encoding it into a facial signature (a formula, strain of numbers, etc.) and comparing it with databases of known faces, looking whether there is a match. To improve the accuracy of a match, sequences of images rather than a single image are sent.
+
+== RESULTS
+
+Assessment is made. If your face is a match to data in the system, further action may be taken depending on functions of facial algorithm software.
+
+== ISSUES
+
+Fields of application of facial recognition for machine learning and AI are plenty. The most common ones are related to security and surveillance (law enforcement agencies or airports), social media (selling data, personalization), banking and payments, smart homes and for providing personalized marketing experiences. Although, it is not the whole picture. There are more subtle ways in which face recognition algorithms are changing our everyday life in meaningful ways too, proving that this technology is still far from infallible.
+
+A famous deepfakes software, which swaps faces of individuals in videos, has already been used by a politician of India's ruling party to gain favor in elections. In China, facial recognition system mistook a famous businesswoman's face printed on the bus for a jaywalker and automatically wrote her a fine. Numerous studies in the USA and UK proved that facial recognition AI has significant troubles recognizing non-white faces, is often biased on gender and identifies "false positives" the majority of time, increasing probability of grievous consequences.
+
+
+
+== SCORE
+
+7
+
+== COMMENTS
+
+Despite its many flaws, facial recognition does not seem to stop being researched for academic or other purposes. In today's digital world, guaranteeing that facial recognition technology is safe and secure must be an important theme for governments, lawmakers and among the top priorities of the developers themselves.

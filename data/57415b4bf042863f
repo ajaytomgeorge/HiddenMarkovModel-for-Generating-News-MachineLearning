@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.nature.com/news/google-ai-algorithm-masters-ancient-game-of-go-1.19234
+
+==== AGENT
+
+AlphaGo trained by DeepMind a London based Google AI company.
+
+==== GOAL
+
+The goal was to train an AI to play the game of Go. 
+
+==== DATA
+
+The neural network analysed millions of games and then played itself across multiple computers to gain a better understanding and learn how to play a more strategic game. 
+
+==== METHODS
+
+They got a neural network to analyse millions of games and then the network played a number of games simultaneously across a number of computers. This taught the AI the best strategy to play the game in a method known as positive reinforcement.
+
+==== RESULTS
+
+It went really well for them as the AI was able to beat a professional Go player. The AI managed to win 5 out of 5 games against the European champion. 
+
+==== COMMENTS
+
+It worked really well for them as the AI managed to beat the European champion. From my knowledge the game of Go is a difficult game to play so training an AI to have the ability to play the game is a great accomplishment.

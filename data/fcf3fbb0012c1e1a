@@ -1,0 +1,27 @@
+== SOURCE
+https://paperswithcode.com/paper/robust-high-resolution-video-matting-with
+== AGENT
+Shanchuan Lin, Linjie Yang, Imran Saleemi, Soumyadip Sengupta
+== GOAL
+A robust, real-time, high-resolution human video matting method that achieves new state-of-theart performance. 
+== DATA
+
+The model is trained on VideoMatte240K (VM), Distinctions-646 (D646) and Adobe Image Matting (AIM) datasets. As for video segmentation, the dataset YouTubeVIS and select 2985 clips containing humans are used. They also use image segmentation datasets COCO and SPD. 
+
+== METHODS
+The Adam optimizer is used for training. All stages use batch size B = 4 split across 4 Nvidia V100 32G GPUs. The network is trained with both matting and semantic segmentation objectives simultaneously.	
+
+== RESULTS
+
+A lighter and faster recurrent architecture for robust human video matting has been proposed. Furthermore, the analysis reveals that temporal information is critical for enhancing quality and consistency. The model is trained on both matting and semantic segmentation targets using a new training technique.
+
+== ISSUES
+When the photo in question has a plain background, this model is accurate. Additionally, this method favours clear target subjects; when there are people in the background, the subject of attention becomes confusing..
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This was an interesting topic to work on. Because this method is an upgrade to the previous other approaches and can also process 4K at 76 FPS and HD at 104 FPS on an Nvidia GTX 1080Ti GPU. The main improvement shown in the model is "robustness". The method does not require any auxiliary inputs such as a trimap or a pre-captured background image, so it can be widely applied to existing human matting applications.

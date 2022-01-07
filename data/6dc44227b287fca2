@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.marktechpost.com/2021/10/09/microsoft-researchers-introduce-mesh-graphormer-a-graph-convolution-reinforced-transformer/
+
+== AGENT
+
+Microsoft
+
+== GOAL
+
+A Graph-Convolution-Reinforced Transformer
+
+== DATA
+
+Human3.6M MuCo-3DHP UP-3D COCO MPII datasets
+
+== METHODS
+
+convolutional neural network supervised
+
+== RESULTS
+
+new method outperforms the previous state of the art method
+
+== ISSUES
+
+method may not work well if the reconstruction target is out of the view
+
+== SCORE
+
+4
+
+== COMMENTS
+
+Interesting topic,Link to paper at the bottom with more detailed report

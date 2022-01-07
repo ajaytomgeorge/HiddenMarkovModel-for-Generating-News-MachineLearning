@@ -1,0 +1,30 @@
+==== SOURCE
+
+Currency exchange prediction using machine learning,genetic algorithms and technical analysis
+https://www.academia.edu/40571205/Currency_exchange_prediction_using_machine_learning_genetic_algorithms_and_technical_analysis
+
+==== AGENT
+
+Goncalo Abreu, Rui Neves, Nuno Horta from University of Lisbon.
+
+==== GOAL
+
+Prediction of Currency exchange using an hybrid system using machine learning techniques together with genetic algorithms and technical analysis.
+
+==== DATA
+
+The EUR/USD pair is used to test and validate the algorithm.
+
+==== METHODS
+
+An architecture for automatic feature selection to optimize the cross validated 
+performance estimation of a Naive Bayes model using a genetic algorithm.
+
+==== RESULTS
+
+The new architecture improves the return on investment of the unop-timized system from 0.43% to 10.29%
+
+==== COMMENTS
+
+Though the ROI is maximized by a large extent, including the fundamentals like brexit, Inflation data can give even more attractive returns.
+

@@ -1,0 +1,27 @@
+==== SOURCE
+
+Information came from https://fortune.com/2019/10/02/tesla-autopilot-ai-deepscale/.
+
+==== AGENT
+
+A company called DeepScale.
+
+==== GOAL
+
+DeepScale takes advantage of "deep neural networks and other aspects of artificial intelligence" to make autonomous driving technology more effective.
+
+==== DATA
+
+Data comes from sensors, cameras and lasers to identify speed of other cars and other such information. 
+
+==== METHODS
+
+Deep neural networks were used to create "squeezing AI", a technology which aims to reduce resource use in detecting obstacles around a vehicle.
+
+==== RESULTS
+
+Article does not make clear the current state of the technology. The goal of Carver21 (a software made by DeepScale") is to deliver efficient and modular software.
+
+==== COMMENTS
+
+The article does not give in-depth detail about the technology used by DeepScale, which is understandable considering the target audience for the article is not experts in the field of ML / NN.

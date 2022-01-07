@@ -1,0 +1,18 @@
+== SOURCE
+https://www.scientificamerican.com/article/how-nasas-search-for-et-relies-on-advanced-ai/
+== AGENT
+NASA
+== GOAL
+the ability to find anomalies for mars rovers
+== DATA
+the data captured by rovers
+== METHODS
+Unsupervised learning
+== RESULTS
+The Mars 2020 rovers will have significant discretion in selecting their own targets for study and experimentation as they search for evidence that life once existed
+== ISSUES
+
+== SCORE
+6
+== COMMENTS
+With self-motivated rovers, more areas can be explored than before.

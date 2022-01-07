@@ -1,0 +1,35 @@
+== SOURCE
+
+https://venturebeat.com/2021/10/07/reinforcement-learning-improves-game-testing-ai-team-finds/
+
+== AGENT
+
+EA
+
+== GOAL
+
+They were trying to improve the AI currently used in game testing, to make the testing quicker and free up human play-testers from searching for bugs such as spots where they can fall through the level to things such as checking the games balance or how fun it is
+
+== DATA
+
+They used two agents at the same time against each other, one (the Generator) was trained for procedural content generation and the other (the Solver) tries to finish the level the Generator creates. Thus the two agents develop the data the other uses, the Solver getting its levels from the Generator and the Generator getting feedback to help ensure the levels it develops are solvable.
+
+== METHODS
+
+Reinforcement Learning, specifically adversial reinforcement learning. This is where two neural networks (in this case the Generator and the Solver) are pitted against each other.
+
+== RESULTS
+
+So far the work is still in the research stage, though they are getting positive results. The Solver is more robust than traditional game-testing bots and the Generator is able to be adjusted to control the generatedgame environment on different factors. They are starting to have collaborations with various game studios to see if this is a viable approach for their needs, so should be seeing more concrete results soon.
+
+== ISSUES
+
+This could be seen as a way to reduce the need for human game-testers altogether, though if they do use this to simply free up human testers for other facets of game development such as balance and simply how fun it is then I can't see any issues with it myself. I can especially see the need for human testers to ensure the levels generated are fun and appealing.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The method used in this is one I hadn't seen before, so was very interesting to me for that reason. I like the idea of automating more aspects of game development to free up people for more useful areas. The article went into a good bit of detail surrounding the methodology used and the possible effects it could have if it proves to be successful.

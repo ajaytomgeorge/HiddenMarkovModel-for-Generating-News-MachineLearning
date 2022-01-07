@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.foxnews.com/science/ai-predict-animal-viruses-likely-infect-humans-study
+
+== AGENT
+
+A team in glasgow
+
+== GOAL
+
+Predict the probability that a given animal virus could infect humans.
+
+== DATA
+
+a dataset of 861 viruses.
+
+== METHODS
+
+Supervised
+
+== RESULTS
+
+The model placed 645 viruses not used in the learning process in categories from low-risk to high risk, most notably assessing covid as high-risk without relying on knowledge of sars relatived coronaviruses.
+
+== ISSUES
+
+The actual action that should be taken based on this kind of research isn't clear, and its accuracy is difficult to test.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+The report itself is fairly simple but it does at least provide a link to the paper, which was available in its entirety for free, no sci-hub required. I don't know enough about what surveilling viruses as potential threats entails to really draw any personal conclusion about the significance of this research.

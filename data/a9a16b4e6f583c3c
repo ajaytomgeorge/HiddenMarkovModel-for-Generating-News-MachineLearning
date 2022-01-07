@@ -1,0 +1,34 @@
+== SOURCE
+
+https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/intelligence-artificielle-le-gant-traducteur-de-la-langue-des-signes_145725
+
+== AGENT
+
+University of California
+== GOAL
+
+Develop a glove able to translate american sign language to english
+
+== DATA
+
+4 deaf people knowing sign language wore the glove and performed 15 times each sign (660 signs)
+
+== METHODS
+
+Not specified, but looks like supervised learning
+
+== RESULTS
+
+The glove recognise the sign 98,63% of the time in less than a second
+
+== ISSUES
+
+It is now possible for person unable to speak to be understood by people ot knowing sign language but the opposite would be interesting
+
+== SCORE
+
+8
+
+== COMMENTS
+
+I think it is very interesting and it will probably help people unable to speak to be understood better

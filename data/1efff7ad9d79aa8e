@@ -1,0 +1,41 @@
+== SOURCE
+
+https://www.newyorker.com/tech/annals-of-technology/the-pastry-ai-that-learned-to-fight-cancer
+
+== AGENT
+
+BRAIN Co., Ltd.
+
+== GOAL
+
+Create a machine learning algorithm to distinguish between various pastries at a check-out.
+
+== DATA
+
+Spent many years developing their own data and taking many pictures of various pastries with
+many different kinds of cameras with many kinds of differing lighting 
+
+== METHODS
+
+Reinforcement learning
+
+== RESULTS
+
+BakeryScan can now accurately distuingish between a wide array of pastry's and
+breads and is utilised in thousands of bakerys around Japan. Their algorithms 
+were also used to help develop cancer cell detectors.
+
+== ISSUES
+
+Took many years to develop and is a very impractical and risky investment from
+a financial point of view.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+It was really interesting to see the modularity of machine learning algorithms. The fact 
+a pastry distinguishing program can help with the development of cancer cell detection programs
+is mind boggling.

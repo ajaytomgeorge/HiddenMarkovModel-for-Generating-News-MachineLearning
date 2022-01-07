@@ -1,0 +1,35 @@
+== SOURCE
+
+https://www.mobihealthnews.com/news/machine-learning-app-scans-faces-and-listens-speech-quickly-spot-strokes
+
+== AGENT
+
+Penn State University and Houston Methodist
+
+== GOAL
+
+Analyse facial movements when speaking to detect stroke using a smartphone camera
+
+== DATA
+
+The data was collected by taking videos of 80 Houston Methodist patients who had symptoms of stroke in which they prefomred speach tests
+
+== METHODS
+
+The application uses computational facial motion analysis and natural language processing to spot defects in the face such as a sagging muscles which can indicate signs of stroke
+
+== RESULTS
+
+79% accuracy in detecing stroke which is on par with CT scans
+
+== ISSUES
+
+no issues
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This is a very interesting application of machine learning. Not only can a computer anaylse the nuance of someones face but also take that information and compute wether that person has symptoms of stroke.

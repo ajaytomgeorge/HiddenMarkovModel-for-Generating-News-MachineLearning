@@ -1,0 +1,42 @@
+## Format
+```
+== SOURCE
+
+https://open.nytimes.com/we-recommend-articles-with-a-little-help-from-our-friends-machine-learning-and-reader-input-e17e85d6cf04
+
+== AGENT
+
+By Joyce Xu
+
+== GOAL
+
+What were they trying to accomplish?
+
+== DATA
+
+Machine Learning and Reader Input Help Us Recommend Articles
+
+== METHODS
+
+Natural Langugage Processing, Multi-Label Classification, Classification Algorithm
+
+== RESULTS
+
+The company has no control over which topics LDA Algorithm learns and the basis of number of topics
+
+== ISSUES
+
+In LDA, topics are learned based on the co-occurrence of words across the documents. We have no way of
+guaranteeing that one of these topics corresponds to one of our established interests — or even that these topics are human-interpretable at all.
+
+== SCORE
+
+6
+
+== COMMENTS
+
+
+Your comments on this: It's is fasinating to get a recommendation reading just by mentioning my interest. We could have done 
+it by K-means clustering as well according to my understanding 
+
+```

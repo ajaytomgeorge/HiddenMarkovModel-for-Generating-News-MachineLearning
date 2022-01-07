@@ -1,0 +1,27 @@
+==== SOURCE
+
+The New York Times - https://www.nytimes.com/2019/05/17/technology/facebook-ai-schroepfer.html
+
+==== AGENT
+
+Facebook AI Lab
+
+==== GOAL
+
+Creating an AI bot to monitor posts and remove offensive or misinformed content from the platform.
+
+==== DATA
+
+Posts previously removed by humans.
+
+==== METHODS
+
+The tool began by analyzing Facebook posts that mentioned the Islamic State or Al Qaeda and flagged those that most likely violated the company’s counterterrorism policies. Human curators then reviewed the posts.
+They then extended the tool to also include other unwanted content, such as nudity or fake accounts.
+
+==== RESULTS
+
+The system was very successful in distiguishing unwanted images from acceptable ones, such as being able to point out marijuana buds from broccoli heads. However, it is still learning and will probably forever do so as people try to find ways around it. 
+
+==== COMMENTS
+

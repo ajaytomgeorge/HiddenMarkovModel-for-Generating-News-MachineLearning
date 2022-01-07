@@ -1,0 +1,42 @@
+== SOURCE
+
+https://scitechdaily.com/novel-machine-learning-technique-to-identify-structural-similarities-and-trends-in-materials/
+
+== AGENT
+
+University of California, Berkeley
+
+== GOAL
+
+The team of researchers is trying to use machine learning techniques to
+understand the microscopic structure of materials.
+
+== DATA
+
+The team used a collection of 25,000 'symmetry aware' images to train the 
+network taken from Zenodo.org which was then applied to an unstructured 
+dataset of microscopic images of material structures. 
+
+== METHODS
+
+The team used a Convolutional Neural Network.
+
+== RESULTS
+
+The team was able to predict symmetry with >99% accuracy
+
+== ISSUES
+
+No issues
+
+== SCORE
+
+7
+
+== COMMENTS
+
+This article was very interesting because it could lead to larger
+dscoveries related to material symmetry at the quantum level.  The press
+reported accurately on this article and the methodology itself was good.
+They employed an interesting new way of using existing methodologies and
+data to find new correlations.

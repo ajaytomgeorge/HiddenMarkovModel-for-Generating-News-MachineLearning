@@ -1,0 +1,38 @@
+== SOURCE
+
+https://www.greencarcongress.com/2018/10/20181016-audi.html
+
+== AGENT
+
+GreenCarCongress
+
+== GOAL
+
+Use machine learning to optimize quality inspections in the press shop.
+
+== DATA
+
+They use images as their data.
+
+== METHODS
+
+They used the unsupervised method to train their network as the algorithm learns independently from examples to detect cracks.
+
+== RESULTS
+
+A network which detects cracks on cars.
+
+== ISSUES
+
+Their biggest challenges was to get a sufficiently large database to train the network.
+
+== SCORE
+
+8
+
+== COMMENTS
+
+This project is good use for vision systems.
+If I was the one working on the project I would've tested the network on various makes and models of cars and vans to see how accurate the algorithm really is.
+The press did a good job with documenating the project, they outlined all the major parts and were able to deliver a good report.
+The method used to train the networks seems to fit well, the reseachers also had a team making the cracks in the sample images with pixel precision to train the network.

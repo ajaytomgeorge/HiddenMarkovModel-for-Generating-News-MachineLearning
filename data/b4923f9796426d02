@@ -1,0 +1,28 @@
+==== SOURCE
+https://www.the-scientist.com/features/ai-uses-images-and-omics-to-decode-cancer-65732
+
+==== AGENT
+Stanford university graduates
+
+==== DATA
+histology images were fed into a machine learning algorithm, along with pathologist-determined diagnoses,
+training it to distinguish lung cancer from normal tissue, and two different types of lung cancer from each other.
+Then he fed in survival data for those slides, letting the system learn how that information correlated with the images.
+Finally, he added in new slides that the model hadn’t seen before, and asked the all-important longevity question.
+
+==== GOAL
+Provide more accurate predictions into the treatment of cancer.
+
+==== METHODS
+The machine learning entity would be fed with images and then learn to output information in relation to the image.
+The machine would output data concering the diagnosis, the prognosis, tumor evolution and best drug treatments
+
+==== RESULTS
+The implementation was a success as prior to using ML in the treatment of cancer all cancer patients would be lumped
+together and treated the same way regardless of the finer details of their cancer.
+The computer learned to predict the presence of six forms mutations from the pathology slides
+with accuracy ranging from 73 to 86 percent.
+
+==== COMMENTS
+I was surpsrised at how the article outlines how cancer is treated, all forms bundled into one category and treated. 
+I was glad to see how AI could help treat cancer more systematically and effectively.

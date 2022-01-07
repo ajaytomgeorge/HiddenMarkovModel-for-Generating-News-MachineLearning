@@ -1,0 +1,27 @@
+==== SOURCE
+
+https://www.the-scientist.com/news-opinion/ai-app-identifies-rare-genetic-disorders-from-photos-of-patient-faces-65295
+
+==== AGENT
+
+Boston-based tech-startup FDNA
+
+==== GOAL
+
+The goal was to use a facial recognition algorithm to determine whether or not a person had a gene relating to a degenorative disorder.
+
+==== DATA
+
+The data they used was of images of patients who had been diagnosed with Noonan Syndrome. People with this malady have unusual facial features and the disease has congenital and degenorative effects.
+
+==== METHODS
+
+They used the app Face2Gene, created by the company DeepGestalt, to determine whether or not a given patient had the phenotype for Noonan Syndrome.
+
+==== RESULTS
+
+The results showed that the app correctly diagnosed patients 64% of the time. This was impressive as physicians cannot identify this visually themselves.
+
+==== COMMENTS
+
+I found the article to be too complimentary of the use of this app. The author seemed enamered by the idea of this however I think it too early to implement technology such as this for diagnoses. I was only alarmed by this because within the article it is said that some doctors are making use of this app already.

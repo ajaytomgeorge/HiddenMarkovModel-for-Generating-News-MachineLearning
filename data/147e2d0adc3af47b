@@ -1,0 +1,39 @@
+== SOURCE
+
+https://www.youtube.com/watch?v=gjVDqfUhXOY
+
+https://towardsdatascience.com/how-renaissance-beat-the-markets-with-machine-learning-606b17577797
+
+== AGENT
+
+Renaissance Technologies
+
+== GOAL
+
+To trade stock succesfully
+
+== DATA
+
+They used historic data from the stock market which they purchased from exchanges.
+
+== METHODS
+
+He mentions in an interview that he uses RL, although he did not mention anything in particular detail.
+
+== RESULTS
+
+What were their results?
+
+== ISSUES
+
+What issues do you see with the work (if any)? Technical problem,
+ethical issues, honesty in reporting the results, etc.
+Since this is a trading company, they tend to be ery secretive so we can expect that Jim would obviously not disclose any information that has made him billions.  Therefore this would be the only issue I would have with his reporting of his results.
+
+== SCORE
+
+9
+
+== COMMENTS
+
+I think this was a great story, Jim Simmons, a math lecturer who began creating high speed trading algorithms late in his career and made billions.  I would not have done it differently as I do not have the experience to know how to do it differently.  The reporting in the press was mostly by James Simmons himself.  This method is not new, in an interview which I have linked above, Jim says his methods are very simple although he does not go into too much detail.  He mainly states that he uses RL, statistics and some probability theory.  Although we can take from the interview that this is not all he uses.

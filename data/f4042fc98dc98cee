@@ -1,0 +1,47 @@
+== SOURCE
+
+https://news.mit.edu/2021/robot-finds-items-camera-antenna-1005
+
+== AGENT
+
+MIT
+
+== GOAL
+
+Being able to find items in a chaotic world.
+
+== DATA
+
+RFID tags, which are cheap, battery-less tags that can be stuck to an item and reflect signals sent by an antenna. 
+Because RF signals can travel through most surfaces (like the mound of dirty laundry that may be obscuring the keys), 
+RFusion is able to locate a tagged item within a pile.
+
+== METHODS
+
+Reinforcement Learning
+
+== RESULTS
+
+Using machine learning, the robotic arm automatically zeroes-in on the object’s exact location, 
+moves the items on top of it, grasps the object, and verifies that it picked up the right thing. 
+The camera, antenna, robotic arm, and AI are fully integrated, 
+so RFusion can work in any environment without requiring a special set up.
+
+== ISSUES
+
+While finding lost keys is helpful, RFusion could have many broader applications in the future, 
+like sorting through piles to fulfill orders in a warehouse, 
+identifying and installing components in an auto manufacturing plant, 
+or helping an elderly individual perform daily tasks in the home, 
+though the current prototype isn’t quite fast enough yet for these uses.
+
+== SCORE
+
+7
+
+== COMMENTS
+
+It is interesting I think, because the initial idea for the researcher is just finds something he needed in the jumble.
+As the research goes deeply, they find this idea can be used in many fields, which can help peoples’ life better.
+The training way is also how our brain learns. We get rewarded from our teachers, from our parents, from a computer game, etc. 
+The same thing happens in reinforcement learning.

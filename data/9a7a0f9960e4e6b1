@@ -1,0 +1,35 @@
+== SOURCE
+
+https://hai.stanford.edu/news/how-bodies-get-smarts-simulating-evolution-embodied-intelligence
+
+== AGENT
+
+Research
+
+== GOAL
+
+Simulating evolution of embodied intelligence in given enviornments
+
+== DATA
+
+Not specified
+
+== METHODS
+
+Deep Evolutionary Reinforcement Learning
+
+== RESULTS
+
+The agents were trained in diverse enviornments which allowed them to formulate bodies that fitted that enviornments bests and the obstacles and challenges it presented.
+
+== ISSUES
+	
+The agents were able to form bodies to suit the enviornment they were present in by having different obstacles placed. But there is no context of the enviornment. i.e. underwater, desert like terrain.
+	
+== SCORE
+
+8
+
+== COMMENTS
+
+Very interesting project, which in the future can have a great application to formulate schematics for robots in the real world to be suited in different enviornments.

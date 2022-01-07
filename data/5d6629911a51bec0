@@ -1,0 +1,39 @@
+== SOURCE
+
+https://ieeexplore.ieee.org/abstract/document/7395609
+
+== AGENT
+
+T. S. Ashwin; Jijo Jose; G. Raghu; G Ram Mohana Reddy
+
+== GOAL
+
+E-Learning plays a vital role in modern education system where the students learn and interact with the computer or the digital technology to gain required knowledge. In the traditional learning due to face to face interaction, teachers were able to interact with the students according to the facial expressions. This became one of the major demerits of the eLearning system. Affective computing thus helps to overcome this major demerit of traditional classroom based teaching-learning process and thereby improving the eLearning system.
+
+Affective computing is an emerging area in computer science and information technology in which emotional, behaviour and stress analytics are carried out by multimodal features such as facial, gesture, posture, speech etc. There are many methods for detecting the emotion of the users. Each emotion expressed by the user is directly dependent on the teaching strategies. Hence, the accurate detection of the emotion plays a vital role in analysing the efficiency of eLearning system. The accurate detection of emotions is done by using computer vision and the classification by local binary patterns and machine learning techniques.
+
+== DATA
+
+Training Phase Dataset: Yale Face Database (YFD) has been considered as a training dataset. Before using YFD as a training dataset, some pre-processing steps like cropping and thresholding are performed so as to increase the accuracy of feature extraction. But thresholding does not significantly increase the accuracy.
+
+Execution Phase Dataset: Once the training is done in Yale Face Database, the proposed method is tested for the multiple face detection using Face Detection Dataset and Benchmark (FDDB) and Labelled Faces in the Wild (LFW) face databases. The FDDB database is a dataset which consists of multiple faces in a single frame. Although the training is done using Yale Face Database, which trains for single face, those features are used to detect multiple face emotions present in the FDDB and LFW face databases.
+
+== METHODS
+
+The proposed methodology consists of two modules. The Affective computing module and the traditional eLearning module. The affective computing module consists of two phases: Training phase and execution phase. Traditional eLearning system consists of recommendation phase. Training phase consists of six major steps (Preprocessing, Face Detection Using CPU, Feature Extraction Using AAM, SVM Training). Execution phase consists of steps like Face Detection Using GPU, Face Verification Using CPU, Emotion Classification. Based on the emotional behavior of the users, for each frame the effective emotion of the group of people within the frame is calculated by assigning individual values to each emotions and averaging them out. A graph is plotted using these values and area of the graph is calculated. Certain threshold is fixed such that if the area of the graph is not above this predetermined threshold, the teaching is ineffective. Then depending on the value obtained as the area, recommendations can be given to the next phase of teaching strategies and are modified accordingly.
+
+== RESULTS
+
+Once the face detection is done for multiple faces using both CPU and GPU, the corresponding emotion is detected. The emotion is not only detected for single face but also for multiple faces in a single frame. The x-axis in the graph represents the times/frames and y-axis denotes average emotional value (EMean Score). This value obtained from scaling of emotion is utilized to suggest changes in teaching strategy. E.g. if the scale value is 9 then it represents the surprise. If the scale value is 1 then it represents sleepy, in turn it suggests to modify the teaching strategy.
+
+== ISSUES
+
+There were no issues with this work. 
+
+== SCORE
+
+8
+
+== COMMENTS
+
+As E-learning is the future, machine learning approaches to make the methods more effective is definitely interesting. The reporting in the press was reasonable. It was an interesting new way of using existing data and methods.

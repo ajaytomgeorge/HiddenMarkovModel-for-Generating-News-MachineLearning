@@ -1,0 +1,27 @@
+==== SOURCE
+
+http://news.mit.edu/2019/machine-learning-you-can-dance-to-samply-0918
+
+==== AGENT
+
+MIT PHD student Stephen A. Schwarzman
+
+==== GOAL
+
+Use machine learning to create a tool to help music producers find the sound the imagine in their heads quicker.
+
+==== DATA
+
+The Tool organizes samples based on their sonic characteristics and arranges them in an interactive plot. Similar sounds are grouped closely whereas different sounds are further apart. The sounds used are collected from a large set of different sample libraries.
+
+==== METHODS
+
+Created an algorithm in order to analyse sounds and group them according to how close they sound to others. This was done by using a convolutional neural network to analyze audio waveforms.
+
+==== RESULTS
+
+The tool is available for commercial use and successfully allows producers to shorten production time by allowing them to put the sound they hear in their heads on the track quicker.
+
+==== COMMENTS
+
+The problem solved here is a very interesting one as it's not something most people even producers would think about trying to speed up and optimise the process of finding the perfect sound.

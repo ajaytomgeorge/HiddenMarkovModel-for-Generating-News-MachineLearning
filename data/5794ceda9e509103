@@ -1,0 +1,111 @@
+== SOURCE
+https://www.mobihealthnews.com/news/machine-learning-app-scans-faces-and-listens-speech-quickly-spot-strokes
+== AGENT
+Penn State University along with Houston Methodist Hospital
+== GOAL
+They were trying to develop a mobile application that would detect if a person is having a stroke based on facial recognition and speech processing.
+== DATA
+ 80 patients who were experiencing stroke like symptoms were recorded as they preformed a speech test. The data was recorded using a iPhone.
+== METHODS
+The algorithm was trained on only the 80 recordings of patients that they know were having strokes hence it was supervised learning(input data was labeled)
+== RESULTS
+The application had 79% accuracy when tested on the same data set again.
+== ISSUES
+Some issues that may have arisen are the small size of the training set(the more data the better the outcome).Also I feel like the pool of patients in the data set might not have been diverse enough which could affect the performance of the algorithm on another data set.
+== SCORE
+7
+== COMMENTS
+I though this was an interesting use of machine learning in the world of healthcare. If an application like this could be refined to work on a larger scale it could be extremely useful in the Emergency Room. It has an approximate 4 minute turn around time which could flag doctors and help decrease the time from a patient entering the ER and being put on the correct medical treatment(for mild to moderate stroke symptoms this could take hours to recognize by a physician). It could be a tool that would be of great benefit to both doctors and patients. It is an interesting way of using facial recognition(already a well researched area) for a greater benefit in healthcare.
+
+
+
+
+
+== SOURCE
+https://www.independent.co.uk/news/health/coronavirus-high-risk-uk-deaths-hospitalisations-data-b1183779.html
+== AGENT
+COVID risk stratification sub-group of NERVTAG a team of scientist across the UK)
+== GOAL
+To help identify individuals that may be high risk of developing severe symptoms of COVID-19.
+== DATA
+Data was used from more the 8 million people across England, key factors such as age, ethnicity and body mass index were taken into account.
+== METHODS
+The model was trained on the input of the 80 million entries, using a supervised method as the Covid test results for the training set were included in the training  set(they were labeled)
+== RESULTS
+The top 5% of people predicted to be of at greatest risk of having severe Covid-19 symptoms accounted for 75% of deaths over the 97-day study period. In the same period the top 20% accounted for 94% of Covid-19 related deaths.
+== ISSUES
+As the data was derived predominantly from the hospitalizations and deaths in the first wave of the virus the results may be skewed. Since then the behavior of humans has changed greatly and more social distancing and well as sanitation protocols have come into effect. Hence, the spread of the virus has depleted significantly. The model would have to be trained on a more recent data set in order to get a clearer view of who would be classified as more high risk in today's climate.
+== SCORE
+8
+== COMMENTS
+I thought that this was an excellent use of a supervised learning technique for a very topical subject. Although the results now would be incorrect due to new safety measures and more information about the virus being used it is still a brilliant use for machine learning in healthcare. It could be varied useful if the model is updated as the virus evolves. Naturally the model does not know how high risk a persons job is, whether they self isolated or wear a mask and sanitize avidly. Arguably this data might be more accurate to predict who may get seriously ill from Covid-19 but it is a good starting point at least.
+
+
+
+
+
+
+== SOURCE
+https://www.bbc.com/future/article/20190416-the-ai-border-guards-you-cant-reason-with
+== AGENT
+Unisys- LineSight
+== GOAL
+Assess the threat that a traveler has on boarder security or the threat a cargo shipment may have on security.
+== DATA
+The travelers data from different government agencies as well as other sources for data about each traveler.
+== METHODS
+It uses a reinforcement learning method as it has the tagged information being fed into the algorithm to predict whether a traveler is a potential threat to boarder security. If a traveler is incorrectly picked out buy the algorithm this will be fed back into the algorithm to make it more accurate.
+== RESULTS
+An accuracy of over 80% in multiple studies.
+== ISSUES
+There would be worries about the trustworthiness of the algorithms trained on data from the US legal system. For example, were found to replicate an unfair bias against black defendants, who were incorrectly identified as likely re offend at nearly twice the rate as white criminals. The algorithm was replicating the human bias that existed in the US justice system.
+== SCORE
+6
+== COMMENTS
+This is an interesting use of machine learning. Although a lot of biases could pop up in the method which would be of huge concern. Eventually with enough use the Reinforcement Learning method could make the algorithm a lot more accurate. The algorithm would get smarter and therefore boarder security would no longer be based on some sort of human bias but more so a picture of the full population of travelers that it analyses. I believe this tool once refined could be a great supplement to boarder controls worldwide. I found that this
+
+
+
+
+
+== SOURCE
+https://www.fastcompany.com/90566446/this-startup-can-predict-where-the-next-california-fire-will-start
+== AGENT
+Kettle
+== GOAL
+Predict what wildfires might happen in California
+== DATA
+The data was 7-by-7 mile grids of the entire state.
+== METHODS
+The method used was supervised learning as the data used to train the algorithm was analyzing satellite images given the past fire history of the area as well as real time data from fires(hence the data was labeled in a sense)
+== RESULTS
+The model predicted 11 of the 14 major fires that happened later that year in the top 10% of high risk fire areas. All 14 of the areas were contained in the top 20% for risk.
+== ISSUES
+I cannot see any issues in the algorithm.
+== SCORE
+8
+== COMMENTS
+This type of use for machine learning could be adapted for the likes of flooding, hurricanes and a whole load of other natural disasters. If this is used by insurance companies in the future there will be some peoples premiums who will rise as they are in high risk areas but the majority of peoples premiums would be lowered which would be much fairer then the current stochastic model which has been used for over 100 years.   I found that this article was not very focused on how the actual algorithm worked which was unfortunate but it was very informative of a new use for Machine Learning.
+
+
+
+
+
+== SOURCE
+https://www.irishnews.com/magazine/science/2020/10/29/news/ai-can-tell-from-brain-scans-who-will-suffer-worst-from-brain-tumour-study-2112949/
+== AGENT
+Imperial College London
+== GOAL
+Determine which patients suffering from glioblastoma, the most aggressive type of brain cancer, could tolerate certain surgeries.
+== DATA
+The data used was 152 brain scans belonging to 45 patients who were diagnosed with glioblastoma between January 2015 and May 2018, focusing on the temporlis muscle.
+== METHODS
+It was unclear whether the method used was supervised or unsupervised as the algorithm was trained to get the cross-sectional area of the temporalis muscle. This could have been done with a Convolutional Naural Network.
+== RESULTS
+There was a 60%reduction in risk of death for patients who had a temporalis muscle with a high cross-sectional area
+== ISSUES
+I cannot see any issues in the model.
+== SCORE
+9
+== COMMENTS
+I found this to be an fascinating use of machine learning. It would interest me to see this being used further out throughout healthcare. I found this article to be very informative other than it was not clear of the method that was used which was unfortunate.
