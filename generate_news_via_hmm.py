@@ -7,14 +7,18 @@ import random
 import re
 import string
 import nltk
+nltk.download('punkt')
+
+from datetime import datetime
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 
 
+column_names = ["source", "agent", "goal", "data","methods", "results", "issues", "score", "comments"]
+
 def initialize():
     directory = os.fsencode("./data")
-    column_names = ["source", "agent", "goal", "data","methods", "results", "comments"]
     output = pd.DataFrame()
     faulty=0
     """Loads the all file into memory, corrects issues with different no of '=' with appropriate regex"""                  
@@ -42,6 +46,7 @@ def initialize():
         
     print("Initialization Complete")
     return output
+
 def picklyfy(data):
     """pickle the object so that we done need to preprocess the file each time we run"""
     data_file = open("processed_data.pickle", "wb")
@@ -94,43 +99,47 @@ def make_markov_model(cleaned_stories, n_gram=2):
         
     return markov_model
 
-def generate_story(markov_model, limit=100, start='is very'):
+
+def generate_story(markov_model, limit=random.randint(10, 100), start='is very'):
     n = 0
     curr_state = start
     next_state = None
     story = ""
     story+=curr_state+" "
     while n<limit:
-        next_state = random.choices(list(markov_model[curr_state].keys()),
+        try:
+            curr_state = list(markov_model.keys())[1] if curr_state not in markov_model.keys() else curr_state
+            next_state = random.choices(list(markov_model[curr_state].keys()),
                                     list(markov_model[curr_state].values()))
-        
+        except Exception as e:
+            continue
+            
         curr_state = next_state[0]
         story+=curr_state+" "
         n+=1
     return story
     
 if __name__=="__main__":
-    # processed_data=initialize()
-    # picklyfy(processed_data)
-    processed_data = fetch_saved()
-    
-    
+    processed_data=initialize()
     markov_models={}
-    for column_name in processed_data:
-        if column_name not in ["source", "agent", "goal", "data", "methods", "results"]:
-            cleaned_data = clean(processed_data[column_name])
-            markov_models[column_name] = make_markov_model(processed_data[column_name])
-        
-    
+    for name in column_names:
+        markov_models[name]= make_markov_model(clean(processed_data[name]))
+    print("Cleaning Complete")
     # picklyfy(markov_models)
-    markov_models = fetch_saved()
+    # markov_models= fetch_saved()
+    start = {"source":"the source", "agent":"the document", "goal":"goal is", "data":"the data", "methods":
+        "the methodology", "results":"the results", "issues":"human involvement", "score":"although im", "comments":"the article"}    
+    for i in range(10):
+        filename=datetime.now().strftime("%Y-%m-%d_%I-%M-%S_%p")
+        f= open(f"Sample Generated_news {i}{filename} ","w+")
+        for name in column_names:
+            f.write(f"== {name.upper()}\n")
+            f.write(f"{generate_story(markov_models[name], start=start[name])} \n")
+            f.write("\n")
+        f.close()
+            
         
-    for column_name in markov_models:
-        print(f"number of states for {column_name} = {len(markov_models[column_name].keys())}")
-    start_phrases = {"source":"", "agent":"", "goal": "", "data":"", "methods":"", "results":"", "comments":"the article"}
-    for i in range(2):
-        print(str(i)+". ", generate_story(markov_models["comments"], start="the article", limit=8))
-    print("end")
+    print("10 Files generated successfully ")
             
             
         

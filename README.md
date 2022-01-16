@@ -6,8 +6,15 @@ preprocessing has been done befor implementing NMF
 
 Transistion matrix can be saved in a pickle file also 
 
+
+## Requirements install
+```
+pip install -r requirements.txt
+```
+
+## Generating Files
 run the python file to generate files
 
 ```
-python preprocessing.py
+python generate_news_via_hmm.py
 ```
